@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace OnQ8_\kBfHx; use c4Qsz\BfjCB\L9RYz\g_HKt\jOPSQ; use c4QsZ\BfJCb\L9rYZ\Ot3Nk; class XlfKB extends OT3nk { use jopsq; protected $CzJ2S = "\154\157\147\x69\156\x5f\x68\x69\163\164\157\162\171"; protected $MDL2T = array("\165\163\145\162\137\x69\144", "\x69\160", "\x63\151\x74\x79", "\x73\164\141\164\x65", "\x63\x6f\x75\x6e\164\162\171", "\x6c\x61\164", "\x6c\156\147", "\165\x73\145\162\137\x61\x67\145\156\164"); public function GKvy5() { return $this->Peo_F(x5uD9::class); } }
+ namespace nMXg2\lsSq3; use WkHuL\QczcG\EJfUr\Q4Fqj\JzDKt; use wKhUL\QczCG\Ejfur\uyKSy; class grrsA extends UYksy { use JzdKT; protected $ZYaJD = "\x6c\x6f\147\151\156\x5f\x68\x69\163\x74\157\162\171"; protected $GWg5z = array("\165\x73\x65\x72\x5f\x69\x64", "\x69\160", "\143\x69\164\171", "\x73\164\141\x74\x65", "\143\x6f\x75\x6e\x74\162\171", "\154\x61\x74", "\154\156\x67", "\165\x73\x65\x72\137\141\x67\x65\x6e\x74"); public function NTe8s() { return $this->qWdgZ(z6Lgl::class); } }

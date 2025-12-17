@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace ONQ8_\Ti1lJ; use c4QsZ\JqVqD\uHqqR\ti1lJ\aHLv5 as UhnDP; use C4qSZ\UhqQR\Dj3Ir\N7hEm; class AHlV5 extends uhnDp { protected $t_2ps = array(); public function XrhQn() { $this->egawP(); } }
+ namespace NmxG2\f1dJx; use WkHul\B35Fs\N3q0R\F1djx\WyCbD as EjjJD; use wKhUL\N3Q0r\wPWAe\TWtIn; class wycbd extends eJJJD { protected $avSry = array(); public function S3ocp() { $this->iImEW(); } }

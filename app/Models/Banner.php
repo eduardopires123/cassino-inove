@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace oNQ8_\KBFHx; use c4Qsz\bFjcB\l9RYz\G_hKt\JopSq; use c4Qsz\bfJCB\l9ryZ\ot3Nk; class Kf8vp extends oT3Nk { use JoPSq; protected $MDL2T = array("\151\155\141\x67\x65\x6d", "\x6c\151\x6e\x6b", "\157\162\144\145\x6d", "\141\143\x74\151\x76\145", "\x74\x69\x70\x6f", "\x6d\157\142\x69\154\145"); protected $Ts_ma = array("\141\143\164\x69\x76\x65" => "\142\x6f\157\154\145\x61\x6e"); }
+ namespace NMXG2\lssq3; use WKHul\qCZCG\EjFuR\q4FqJ\Jzdkt; use wKhUL\qcZCG\Ejfur\UYksY; class E59gn extends uYKsy { use jzDKt; protected $GWg5z = array("\151\x6d\x61\x67\145\155", "\x6c\x69\156\x6b", "\x6f\162\x64\x65\155", "\141\143\x74\x69\166\145", "\164\151\x70\x6f", "\155\x6f\142\151\154\145"); protected $FPpxl = array("\x61\143\x74\x69\x76\145" => "\142\157\x6f\x6c\x65\x61\156"); }

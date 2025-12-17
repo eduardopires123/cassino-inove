@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace ONq8_\KBfhx; use C4QsZ\bFjCB\L9RyZ\G_Hkt\JoPsq; use c4QSz\BFJCB\l9ryZ\Ot3NK; class Gbv6u extends ot3Nk { use JoPSQ; protected $MDL2T = array("\x6e\141\x6d\x65", "\163\154\x75\x67"); public function OKE21() { return $this->L5SZE(jHRg3::class, "\x70\x6f\x73\x74\137\164\141\x67"); } public function QsIz0() { return $this->OKe21()->hMj_3("\x73\164\x61\x74\165\163", "\x70\165\142\x6c\151\x73\x68\x65\x64"); } }
+ namespace NMxg2\LSsQ3; use WkHul\qCZCG\eJFUr\Q4fqj\JZDkT; use WKHUl\QCZcG\EJfuR\UyKsy; class ZQziz extends uYKsy { use JZDkt; protected $GWg5z = array("\x6e\x61\155\x65", "\x73\154\165\x67"); public function AG5Eh() { return $this->AW8JW(cFnM8::class, "\160\157\163\164\x5f\164\141\147"); } public function zh1v4() { return $this->ag5EH()->o_0MH("\x73\x74\x61\x74\165\x73", "\160\165\x62\154\x69\x73\x68\145\x64"); } }

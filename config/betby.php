@@ -1,7 +1,5 @@
 <?php
 
-use App\Helpers\CredentialHelper;
-
 return [
     /*
     |--------------------------------------------------------------------------
@@ -9,13 +7,12 @@ return [
     |--------------------------------------------------------------------------
     |
     | Configurações para integração com o Betby Sportsbook
-    | Credenciais protegidas via criptografia
     |
     */
 
-    'brand_id' => CredentialHelper::getBetbyBrandId(),
+    'brand_id' => '2569593371207282692',
 
-    'operator_id' => CredentialHelper::getBetbyOperatorId(),
+    'operator_id' => '2569593371207282691',
 
     'api_url' => 'https://ui.invisiblesport.com',
 

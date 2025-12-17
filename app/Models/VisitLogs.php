@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace oNq8_\kBFhX; use C4QSz\bfjCB\L9ryZ\ot3nk; class RgZ7k extends OT3NK { protected $CzJ2S = "\166\151\163\151\x74\x5f\x6c\x6f\x67\163"; protected $MDL2T = array("\151\x70", "\141\147\x65\156\164", "\x72\x65\146\x65\x72\145\x72"); }
+ namespace NmxG2\lSSQ3; use WKhuL\qczcG\ejfUR\uyksY; class Ph1tb extends uykSy { protected $ZYaJD = "\166\x69\x73\151\x74\x5f\x6c\x6f\x67\163"; protected $GWg5z = array("\151\160", "\141\x67\145\x6e\x74", "\x72\x65\x66\145\x72\145\162"); }

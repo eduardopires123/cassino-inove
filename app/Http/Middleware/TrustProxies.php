@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace ONq8_\nD9A2\QnaJD; use C4qsz\ND9A2\QnaJd\FBP36 as QNAJd; use c4qsZ\Nd9A2\r1feL; class Fbp36 extends qNaJD { protected $FVHZt; protected $vwEL5 = r1feL::u2XPx | r1FEL::h4UJg | r1fel::RlSs8 | r1fEL::B0Qeo | R1fEl::tuIUA; }
+ namespace nmXg2\O7MQx\nWHuT; use wkhUL\O7MQx\NwHut\tnOs9 as NWhUt; use wkHUl\o7Mqx\ux7tU; class tnos9 extends NwhuT { protected $UcuPh; protected $DunaX = ux7tU::mSbMw | ux7tu::eJXET | UX7TU::fAp13 | UX7TU::hF7MB | uX7TU::X8Nqm; }

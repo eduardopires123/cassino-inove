@@ -9,4 +9,4 @@
     |  o seu negócio.                                  |
     |__________________________________________________|
 */
- namespace oNq8_\Ti1lJ; use C4qsZ\UHQQr\uHNdp; use C4qsz\uHqqR\dJ3iR\S5_G9; class ycgVb extends uhnDP { public function maFB0() : void { } public function XrhQN() : void { } }
+ namespace NMXg2\f1djx; use wkHUl\n3q0R\eJJjd; use WkHuL\n3q0R\wPwAe\zPHRt; class N9Tha extends EJjjD { public function G5u0B() : void { } public function S3OcP() : void { } }
