@@ -1,0 +1,1478 @@
+.master_fe_Banner_banner {
+    width: 256px;
+    height: 184px;
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 6px;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    background: var(--featured-match-event-bg);
+    box-shadow: var(--featured-match-event-shadow);
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.asian .master_fe_Banner_banner {
+    border-radius: 0
+}
+
+.master_fe_Banner_banner[data-double=true] {
+    width: 512px
+}
+
+.master_fe_Banner_image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+.master_fe_ParticipantIcon_participantIcon__homeAwayIcon {
+    --sportsbook-TeamLogo-size: 14px;
+    flex-shrink: 0
+}
+
+.master_fe_EventName_eventName__betType {
+    display: flex;
+    gap: 8px;
+    margin-left: 8px;
+    justify-content: center
+}
+
+.master_fe_EventName_eventName__title {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: var(--featured-match-event-text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_EventName_eventName__container {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.master_fe_EventName_eventName__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    max-width: 100px
+}
+
+.master_fe_EventName_eventName__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.master_fe_EventName_eventName__participantIcon {
+    --margin-right: 0
+}
+
+.master_fe_LiveEventCounter_overflowFix {
+    display: inline-grid
+}
+
+.master_fe_LiveEventCounter_live {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: var(--featured-match-event-date-text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+:root {
+    --featured-match-live-badge-bg: #FF4D4D;
+    --featured-match-event-live-badge-text-color: #FFFFFF
+}
+
+.master_fe_LiveLine_liveDate {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 4px;
+    column-gap: 4px
+}
+
+.master_fe_LiveLine_liveBadge {
+    height: 14px;
+    padding: 0 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--featured-match-event-live-badge-text-color);
+    background-color: var(--featured-match-live-badge-bg);
+    border-radius: 2px;
+    font-size: 8px;
+    line-height: 8px
+}
+
+.master_fe_PreLiveLine_preliveDate {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: var(--featured-match-event-date-text-color);
+    overflow: hidden
+}
+
+.master_fe_PreLiveLine_preliveDate>span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+:root {
+    --featured-match-event-text-color: #FFFFFF;
+    --featured-match-event-bg: #041536;
+    --featured-match-event-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .15);
+    --featured-match-sport-icon-color: #ffffff;
+    --featured-match-selection-bg: #1F4673;
+    --featured-match-selection-bg-hover: #19375b;
+    --featured-match-selection-bg-selected: #27BBFD;
+    --featured-match-selection-bg-selected-hover: #13b5fd;
+    --featured-match-selection-text-color: #FFFFFF;
+    --featured-match-selection-selected-text-color: #FFFFFF
+}
+
+.master_fe_Builder_builder__betType {
+    display: flex;
+    gap: 8px;
+    margin-left: 8px;
+    justify-content: center
+}
+
+.master_fe_Builder_builder__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.master_fe_Builder_wrapper {
+    width: 256px;
+    height: 184px;
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--featured-match-event-text-color);
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    background: var(--featured-match-event-bg);
+    box-shadow: var(--featured-match-event-shadow);
+    border-radius: 6px
+}
+
+.asian .master_fe_Builder_wrapper {
+    border-radius: 0
+}
+
+.master_fe_Builder_header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 4px;
+    column-gap: 4px;
+    overflow: hidden
+}
+
+.master_fe_Builder_leagueIcon {
+    --margin-right: 0;
+    --sportsbook-LeagueLogo-size: 14px;
+    --sportsbook-LeagueLogo-logo-size: 12px
+}
+
+.master_fe_Builder_leagueIcons {
+    display: inline-flex;
+    -moz-column-gap: 4px;
+    column-gap: 4px
+}
+
+.master_fe_Builder_leagueIcons>* {
+    flex-shrink: 0
+}
+
+.master_fe_Builder_sportIcon {
+    background-color: var(--featured-match-sport-icon-color)
+}
+
+.master_fe_Builder_titleBetBuilder {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: var(--featured-match-event-text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_Builder_info {
+    width: 100%;
+    max-height: 92px;
+    padding-left: 16px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px
+}
+
+.master_fe_Builder_info::-webkit-scrollbar {
+    display: none
+}
+
+.master_fe_Builder_marketNameWrapper {
+    display: flex
+}
+
+.master_fe_Builder_earlyPayoutBadge {
+    margin-inline-start:8px}
+
+html[dir=ltr] .master_fe_Builder_earlyPayoutBadge {
+    margin-left: 8px
+}
+
+html[dir=rtl] .master_fe_Builder_earlyPayoutBadge {
+    margin-right: 8px
+}
+
+.master_fe_Builder_market {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 28px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400
+}
+
+.master_fe_Builder_marketName {
+    color: var(--featured-match-event-text-color);
+    font-size: 10px;
+    line-height: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_Builder_marketSelection {
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--featured-builder-selection-text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_Builder_marketPoint {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    transform: translateY(-50%);
+    background-color: var(--featured-builder-connection-line-color);
+    border-radius: 50%
+}
+
+.master_fe_Builder_marketLine {
+    width: 2px;
+    height: calc(100% - 12px);
+    position: absolute;
+    top: calc(50% + 8px);
+    left: -13px;
+    background-color: var(--featured-builder-connection-line-color)
+}
+
+.master_fe_Builder_button {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: var(--featured-match-selection-text-color);
+    background-color: var(--featured-match-selection-bg);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: var(--sportsbook-global-animation-duration-100) var(--sportsbook-global-animation-ease-out)
+}
+
+.master_fe_Builder_button:hover {
+    background-color: var(--featured-match-selection-bg-hover)
+}
+
+.master_fe_Builder_buttonSelected {
+    color: var(--featured-match-selection-selected-text-color);
+    background-color: var(--featured-match-selection-bg-selected)
+}
+
+.master_fe_Builder_buttonSelected:hover {
+    background-color: var(--featured-match-selection-bg-selected-hover)
+}
+
+.master_fe_Builder_button.master_fe_Builder_negativeOdds:not(.master_fe_Builder_buttonSelected) {
+    color: var(--featured-match-selection-negative)!important
+}
+
+.master_fe_Builder_button.master_fe_Builder_negativeOdds.master_fe_Builder_buttonSelected {
+    color: var(--featured-match-selection-negative)!important
+}
+
+.master_fe_Builder_button:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.master_fe_Builder_tooltip h4 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400
+}
+
+.master_fe_Builder_tooltip p {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-top: 4px
+}
+
+.european-modern .master_fe_Builder_button,.european-modern .master_fe_Builder_marketSelection {
+    font-weight: 700
+}
+
+:root {
+    --featured-match-sport-icon-color: #ffffff;
+    --featured-match-league-icon-shadow: #ffffff
+}
+
+.master_fe_Details_details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px
+}
+
+.master_fe_Details_details__leagueName {
+    color: var(--f-e-title-color)
+}
+
+.master_fe_Details_headline {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 6px;
+    column-gap: 6px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    overflow: hidden
+}
+
+.master_fe_Details_headline>span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_Details_leagueIcons {
+    display: inline-flex;
+    -moz-column-gap: 4px;
+    column-gap: 4px
+}
+
+.master_fe_Details_leagueIcons>* {
+    flex-shrink: 0
+}
+
+.master_fe_Details_sportIcon {
+    background-color: var(--featured-match-sport-icon-color)
+}
+
+.master_fe_Details_leagueIcon {
+    --margin-right: 0;
+    --sportsbook-LeagueLogo-size: 14px;
+    --sportsbook-LeagueLogo-logo-size: 12px
+}
+
+.master_fe_Details_subline {
+    display: flex;
+    align-items: center;
+    overflow: hidden
+}
+
+:root {
+    --featured-match-event-feature-bg: #ffffff
+}
+
+.master_fe_EarlyPayoutFeature_wrapper {
+    width: 100%;
+    display: flex;
+    gap: 2px
+}
+
+.master_fe_EarlyPayoutFeature_iconWrapper {
+    display: flex
+}
+
+.master_fe_EarlyPayoutFeature_icon {
+    background-color: var(--featured-match-event-feature-bg);
+    opacity: 1;
+    cursor: pointer
+}
+
+.master_fe_EarlyPayoutFeature_earlyPayoutTooltip {
+    max-inline-size: 280px
+}
+
+html[dir=ltr] .master_fe_EarlyPayoutFeature_earlyPayoutTooltip,html[dir=rtl] .master_fe_EarlyPayoutFeature_earlyPayoutTooltip {
+    max-width: 280px
+}
+
+.master_fe_EarlyPayoutFeature_tooltip h4 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400
+}
+
+.master_fe_EarlyPayoutFeature_tooltip p {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 400;
+    margin-top: 4px
+}
+
+.master_fe_Selections_selections {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    -moz-column-gap: 4px;
+    column-gap: 4px
+}
+
+.master_fe_Selections_selections>.master_fe_Selections_selection {
+    flex: 1;
+    overflow: hidden
+}
+
+.master_fe_Selections_selectionNameLine {
+    max-width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.master_fe_Selections_selectionNameLine>span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_Selections_selectionNameLine>.master_fe_Selections_points {
+    flex-shrink: 0;
+    margin-inline-start:5px}
+
+html[dir=ltr] .master_fe_Selections_selectionNameLine>.master_fe_Selections_points {
+    margin-left: 5px
+}
+
+html[dir=rtl] .master_fe_Selections_selectionNameLine>.master_fe_Selections_points {
+    margin-right: 5px
+}
+
+.master_fe_Selections_odds {
+    font-weight: 700
+}
+
+.master_fe_Selections_points {
+    font-weight: 400
+}
+
+.european-modern .master_fe_Selections_odds {
+    font-weight: 700
+}
+
+.master_fe_Selections_iconLock {
+    background-color: #fff
+}
+
+.master_fe_Selections_selection {
+    position: relative;
+    height: 36px;
+    padding: 3px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--featured-match-selection-text-color);
+    background-color: var(--featured-match-selection-bg);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background var(--sportsbook-global-animation-duration-100) var(--sportsbook-global-animation-ease-out),color var(--sportsbook-global-animation-duration-100) var(--sportsbook-global-animation-ease-out)
+}
+
+.asian .master_fe_Selections_selection {
+    border-radius: 0
+}
+
+.master_fe_Selections_selection:hover:not(:disabled) {
+    background-color: var(--featured-match-selection-bg-hover)
+}
+
+.master_fe_Selections_selection:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.master_fe_Selections_selection[data-selected=true] {
+    color: var(--featured-match-selection-selected-text-color);
+    background-color: var(--featured-match-selection-bg-selected)
+}
+
+.master_fe_Selections_selection[data-selected=true]:hover:not(:disabled) {
+    background-color: var(--featured-match-selection-bg-selected-hover)
+}
+
+.master_fe_Selections_selection.master_fe_Selections_negativeOdds:not([data-selected=true]) .master_fe_Selections_odds {
+    color: var(--featured-match-selection-negative)!important
+}
+
+.master_fe_Selections_selection.master_fe_Selections_negativeOdds[data-selected=true] .master_fe_Selections_odds {
+    color: var(--featured-match-selection-negative)!important
+}
+
+.master_fe_Selections_selection[data-status=negative]:before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right-color: var(--featured-match-selection-negative);
+    animation: var(--odds-pulse-animation)
+}
+
+.master_fe_Selections_selection[data-status=positive]:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-left-color: var(--featured-match-selection-positive);
+    animation: var(--odds-pulse-animation)
+}
+
+.master_fe_Selections_selectionSuspended {
+    justify-content: center
+}
+
+.master_fe_Markets_eventMarket__container {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.master_fe_Markets_eventMarket__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.master_fe_Markets_eventMarket__earlyPayoutTooltip {
+    max-inline-size: 350px
+}
+
+html[dir=ltr] .master_fe_Markets_eventMarket__earlyPayoutTooltip,html[dir=rtl] .master_fe_Markets_eventMarket__earlyPayoutTooltip {
+    max-width: 350px
+}
+
+.master_fe_Markets_eventMarket__selectionNameLine {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px
+}
+
+.master_fe_Markets_eventMarket__selectionGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.master_fe_Markets_container {
+    display: flex;
+    flex-direction: column
+}
+
+.master_fe_Markets_containerEmpty .master_fe_Markets_header {
+    opacity: .3
+}
+
+.master_fe_Markets_selection {
+    position: relative;
+    height: 36px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--featured-match-selection-text-color);
+    background-color: var(--featured-match-selection-bg);
+    border-radius: 4px
+}
+
+.master_fe_Markets_headerWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 6px;
+    background: transparent
+}
+
+.master_fe_Markets_header {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    flex-grow: 1;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow: hidden
+}
+
+.master_fe_Markets_header span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.master_fe_Markets_baseButton {
+    display: inline-flex;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: background var(--animation-duration-100) ease-out,color var(--animation-duration-100) ease-out,opacity var(--animation-duration-100) ease-out;
+    background-color: #041536
+}
+
+.master_fe_Markets_baseButton:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.master_fe_Markets_baseButton[data-hovered] {
+    background-color: #020a1a
+}
+
+.master_fe_Markets_baseButton[data-pressed] {
+    background-color: #000307
+}
+
+.master_fe_Markets_arrowButton {
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: background var(--animation-duration-100) ease-out,color var(--animation-duration-100) ease-out,opacity var(--animation-duration-100) ease-out;
+    background-color: #041536;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    border: 1px solid #404347;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0
+}
+
+.master_fe_Markets_arrowButton:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.master_fe_Markets_arrowButton[data-hovered] {
+    background-color: #020a1a
+}
+
+.master_fe_Markets_arrowButton[data-pressed] {
+    background-color: #000307
+}
+
+.master_fe_Markets_arrowButton .master_fe_Markets_arrowButtonIcon {
+    background-color: rgba(255,255,255,.6);
+    position: relative;
+    left: -1px
+}
+
+.master_fe_Markets_arrowButton .master_fe_Markets_arrowButtonIconNext {
+    transform: rotate(180deg);
+    left: 1px
+}
+
+.master_fe_Markets_expandButton {
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+    transition: background var(--animation-duration-100) ease-out,color var(--animation-duration-100) ease-out,opacity var(--animation-duration-100) ease-out;
+    background-color: #041536;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #041536;
+    border: 1px solid #404347;
+    position: absolute;
+    width: 18px;
+    top: 0;
+    inset-inline-end: 0;
+    bottom: 0
+}
+
+html[dir=ltr] .master_fe_Markets_expandButton {
+    right: 0
+}
+
+html[dir=rtl] .master_fe_Markets_expandButton {
+    left: 0
+}
+
+.master_fe_Markets_expandButton:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.master_fe_Markets_expandButton[data-hovered] {
+    background-color: #020a1a
+}
+
+.master_fe_Markets_expandButton[data-pressed] {
+    background-color: #000307
+}
+
+.master_fe_Markets_expandButton .master_fe_Markets_expandButtonIcon {
+    background-color: rgba(255,255,255,.6)
+}
+
+[dir=rtl] .master_fe_Markets_arrowButtonIcon:not(.master_fe_Markets_arrowButtonIconNext) {
+    transform: rotate(180deg)
+}
+
+[dir=rtl] .master_fe_Markets_arrowButtonIconNext {
+    transform: rotate(0)
+}
+
+.master_fe_Markets_markets {
+    margin-top: 4px
+}
+
+.master_fe_Markets_emptyButtonsBlock {
+    flex: 1;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 2px
+}
+
+.master_fe_Markets_emptyButtonsBlockAmerican {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.european-modern .master_fe_Markets_baseButton {
+    background-color: var(--d-e-i-new-markets-header-bg)
+}
+
+.european-modern .master_fe_Markets_baseButton[data-hovered] {
+    background-color: var(--d-e-i-new-markets-header-bg-hover)
+}
+
+.european-modern .master_fe_Markets_baseButton[data-pressed] {
+    background-color: var(--d-e-i-new-markets-header-bg-pressed)
+}
+
+:root {
+    --featured-match-event-main-score-text-color: #27BBFD
+}
+
+.master_fe_Participant_participant {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px
+}
+
+.master_fe_Participant_participant__serveStatus {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    background: var(--d-e-i-serve-color) 0 0 no-repeat padding-box;
+    border-radius: 20px;
+    margin-inline-end:4px}
+
+html[dir=ltr] .master_fe_Participant_participant__serveStatus {
+    margin-right: 4px
+}
+
+html[dir=rtl] .master_fe_Participant_participant__serveStatus {
+    margin-left: 4px
+}
+
+.master_fe_Participant_participant__serveStatus_serving {
+    background: var(--d-e-i-serveTeam-color) 0 0 no-repeat padding-box
+}
+
+.master_fe_Participant_homeAwayIcon {
+    flex-shrink: 0
+}
+
+.master_fe_Participant_participantNameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1
+}
+
+.master_fe_Participant_participantScoreContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px
+}
+
+.master_fe_Participant_participantName {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+    gap: 5px
+}
+
+.master_fe_Participant_participantName span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_Participant_participantScore {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--featured-match-event-main-score-text-color)
+}
+
+.master_fe_Participant_tennisScore {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--featured-match-event-text-color);
+    font-weight: 400;
+    font-size: 12px
+}
+
+.master_fe_Participant_tennisParticipantScore {
+    color: var(--featured-match-event-main-score-text-color);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    height: 16.5px;
+    display: flex;
+    align-items: center
+}
+
+.master_fe_Participants_participants {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px
+}
+
+.master_fe_Event_match {
+    width: 256px;
+    height: 184px;
+    padding: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    background: var(--featured-match-event-bg);
+    box-shadow: var(--featured-match-event-shadow);
+    border-radius: 6px;
+    justify-content: space-between
+}
+
+.master_fe_Event_matchLink {
+    display: inline-flex;
+    flex-direction: column;
+    color: var(--featured-match-event-text-color)
+}
+
+.asian .master_fe_Event_match {
+    border-radius: 0
+}
+
+.master_fe_BoostedEventLabel_boostedEventLabel__container {
+    background-color: var(--b-f-e-label-bg);
+    height: 16px;
+    border-radius: 4px;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.master_fe_BoostedEventLabel_boostedEventLabel__title {
+    color: var(--b-f-e-label-title-color);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px
+}
+
+.master_fe_BoostedEventLabel_boostedEventLabel__icon {
+    background: var(--b-f-e-label-icon-bg)
+}
+
+.master_fe_BoostedEventTooltip_boostedEventTooltip__content {
+    max-inline-size: 250px
+}
+
+html[dir=ltr] .master_fe_BoostedEventTooltip_boostedEventTooltip__content,html[dir=rtl] .master_fe_BoostedEventTooltip_boostedEventTooltip__content {
+    max-width: 250px
+}
+
+:root {
+    --featured-match-selection-bg: #1F4673;
+    --featured-match-selection-bg-hover: #19375b;
+    --featured-match-selection-bg-selected: #27BBFD;
+    --featured-match-selection-bg-selected-hover: #13b5fd;
+    --featured-match-selection-text-color: #FFFFFF;
+    --featured-match-selection-selected-text-color: #FFFFFF;
+    --featured-match-selection-positive: #42A811;
+    --featured-match-selection-negative: #FF4D4D;
+    --featured-match-selection-selected-negative: #ffffff;
+    --featured-match-selection-selected-positive: #ffffff;
+    --featured-match-selection-border-radius: 6px;
+    --featured-match-selection-border-radius-asian: 0
+}
+
+.master_fe_BoostedEventSelections_selections {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    -moz-column-gap: 4px;
+    column-gap: 4px
+}
+
+.master_fe_BoostedEventSelections_selections>.master_fe_BoostedEventSelections_selection {
+    flex: 1;
+    overflow: hidden
+}
+
+.master_fe_BoostedEventSelections_selectionNameLine {
+    max-width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.master_fe_BoostedEventSelections_selectionNameLine>span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.master_fe_BoostedEventSelections_selectionNameLine>.master_fe_BoostedEventSelections_points {
+    flex-shrink: 0;
+    margin-inline-start:5px}
+
+html[dir=ltr] .master_fe_BoostedEventSelections_selectionNameLine>.master_fe_BoostedEventSelections_points {
+    margin-left: 5px
+}
+
+html[dir=rtl] .master_fe_BoostedEventSelections_selectionNameLine>.master_fe_BoostedEventSelections_points {
+    margin-right: 5px
+}
+
+.master_fe_BoostedEventSelections_odds {
+    font-weight: 700
+}
+
+.master_fe_BoostedEventSelections_points {
+    font-weight: 400
+}
+
+.european-modern .master_fe_BoostedEventSelections_odds {
+    font-weight: 700
+}
+
+.master_fe_BoostedEventSelections_iconLock {
+    background-color: #fff
+}
+
+.master_fe_BoostedEventSelections_selection {
+    position: relative;
+    height: 36px;
+    padding: 3px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--featured-match-selection-text-color);
+    background-color: var(--featured-match-selection-bg);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background var(--sportsbook-global-animation-duration-100) var(--sportsbook-global-animation-ease-out),color var(--sportsbook-global-animation-duration-100) var(--sportsbook-global-animation-ease-out)
+}
+
+.asian .master_fe_BoostedEventSelections_selection {
+    border-radius: 0
+}
+
+.master_fe_BoostedEventSelections_selection:hover:not(:disabled) {
+    background-color: var(--featured-match-selection-bg-hover)
+}
+
+.master_fe_BoostedEventSelections_selection:disabled {
+    opacity: .5;
+    cursor: default
+}
+
+.master_fe_BoostedEventSelections_selection[data-selected=true] {
+    color: var(--featured-match-selection-selected-text-color);
+    background-color: var(--featured-match-selection-bg-selected)
+}
+
+.master_fe_BoostedEventSelections_selection[data-selected=true]:hover:not(:disabled) {
+    background-color: var(--featured-match-selection-bg-selected-hover)
+}
+
+.master_fe_BoostedEventSelections_selection.master_fe_BoostedEventSelections_negativeOdds:not([data-selected=true]) .master_fe_BoostedEventSelections_odds {
+    color: var(--featured-match-selection-negative)!important
+}
+
+.master_fe_BoostedEventSelections_selection.master_fe_BoostedEventSelections_negativeOdds[data-selected=true] .master_fe_BoostedEventSelections_odds {
+    color: var(--featured-match-selection-negative)!important
+}
+
+.master_fe_BoostedEventSelections_selection[data-status=negative]:before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0;
+    border-left: 0;
+    border-right-color: var(--featured-match-selection-negative);
+    animation: var(--odds-pulse-animation)
+}
+
+.master_fe_BoostedEventSelections_selection[data-status=positive]:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-left-color: var(--featured-match-selection-positive);
+    animation: var(--odds-pulse-animation)
+}
+
+.master_fe_BoostedEventSelections_selectionSuspended {
+    justify-content: center
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__originalOdds {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--featured-match-selection-text-color);
+    opacity: 50%;
+    position: relative
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__originalOdds__selected {
+    color: var(--featured-match-selection-selected-text-color)
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__originalOdds__selected:after {
+    background: var(--featured-match-selection-selected-text-color)!important
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__originalOdds:after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    right: 0;
+    background: var(--featured-match-selection-text-color)
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__selectionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__icon {
+    background: var(--b-f-e-button-icon-bg)
+}
+
+.master_fe_BoostedEventSelections_boostedEventSelection__icon_selected {
+    background: var(--featured-match-selection-selected-text-color)
+}
+
+.master_fe_BoostedEventMarkets_boostedEventMarket__container {
+    display: flex;
+    flex-direction: column
+}
+
+.master_fe_BoostedEventMarkets_boostedEventMarket__selectionNameLine {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px
+}
+
+.master_fe_BoostedEventMarkets_boostedEventMarket__selectionGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+.master_fe_BoostedEventMarketsHeading_boostedEventMarketsHeading__header {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 1;
+    flex-grow: 1;
+    position: relative;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow: hidden
+}
+
+.master_fe_BoostedEventMarketsHeading_boostedEventMarketsHeading__header span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.master_fe_BoostedEventMarketsHeading_boostedEventMarketsHeading__container {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.master_fe_BoostedEventMarketsHeading_boostedEventMarketsHeading__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+:root {
+    --featured-match-event-bg: #041536;
+    --featured-match-event-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .15);
+    --featured-match-event-text-color: #FFFFFF
+}
+
+.master_fe_BoostedEvent_boostedEvent__container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--b-f-e-label-border-bg)
+}
+
+.master_fe_BoostedEvent_boostedEvent__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    cursor: pointer
+}
+
+.master_fe_BoostedEvent_boostedEvent__group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
+
+.master_fe_BoostedEvent_match {
+    width: 256px;
+    height: 184px;
+    padding: 4px 8px 8px;
+    gap: 8px;
+    display: inline-flex;
+    flex-direction: column;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    background: var(--featured-match-event-bg);
+    box-shadow: var(--featured-match-event-shadow);
+    border-radius: 6px
+}
+
+.master_fe_BoostedEvent_matchLink {
+    display: inline-flex;
+    flex-direction: column;
+    color: var(--featured-match-event-text-color)
+}
+
+.asian .master_fe_BoostedEvent_match {
+    border-radius: 0
+}
+
+:root {
+    --featured-match-carousel-arrow-bg: #020B19;
+    --featured-match-carousel-arrow-bg-hover: #020a1a;
+    --featured-match-carousel-arrow-border: #62676B;
+    --featured-match-carousel-arrow-color: rgba(255, 255, 255, .6)
+}
+
+.master_fe_ArrowButton_carouselArrow {
+    width: 18px;
+    height: 18px;
+    margin-right: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1
+}
+
+.master_fe_ArrowButton_carouselArrow>div {
+    transform: rotate(90deg);
+    background: var(--featured-match-carousel-arrow-color)
+}
+
+.master_fe_ArrowButton_carouselArrowNext {
+    margin: 0 0 0 2px
+}
+
+.master_fe_ArrowButton_carouselArrowNext>div {
+    transform: rotate(270deg)
+}
+
+.master_fe_ArrowButton_carouselArrowNext.master_fe_ArrowButton_carouselArrowsimple {
+    justify-content: flex-end
+}
+
+.master_fe_ArrowButton_carouselArrow:hover {
+    background: var(--featured-match-carousel-arrow-bg-hover)
+}
+
+.master_fe_ArrowButton_carouselArrowsimple {
+    width: 16px;
+    height: 184px;
+    margin: unset!important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+.master_fe_ArrowButton_carouselArrowsimple:hover {
+    background: none
+}
+
+.master_fe_ArrowButton_carouselArrowcircled {
+    background-color: var(--featured-match-carousel-arrow-bg);
+    border: 1px solid var(--featured-match-carousel-arrow-border);
+    border-radius: 50%
+}
+
+.master_fe_ArrowButton_hide {
+    visibility: hidden;
+    transform: scale(0)
+}
+
+.korean-legacy .master_fe_ArrowButton_carouselArrowsimple {
+    width: 24px;
+    justify-content: center
+}
+
+.master_fe_Carousel_featuredMatches {
+    position: relative;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    direction: ltr
+}
+
+.master_fe_Carousel_featuredMatchesMobile {
+    padding: 0
+}
+
+.master_fe_Carousel_fadeLeft:before {
+    content: "";
+    position: absolute;
+    left: 16px;
+    top: 0;
+    bottom: 0;
+    width: 4%;
+    background: linear-gradient(to right,#020B19 0%,transparent 100%);
+    z-index: 1
+}
+
+.master_fe_Carousel_fadeRight:before {
+    content: "";
+    position: absolute;
+    right: 16px;
+    top: 0;
+    bottom: 0;
+    width: 4%;
+    background: linear-gradient(to left,#020B19 0%,transparent 100%);
+    z-index: 1
+}
+
+.master_fe_Carousel_list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 6px;
+    column-gap: 6px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    list-style: none
+}
+
+.master_fe_Carousel_list::-webkit-scrollbar {
+    display: none
+}
+
+.master_fe_Carousel_list>li[data-snappoint=true] {
+    scroll-snap-align: start
+}
+
+.master_fe_Carousel_btnPrev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.master_fe_Carousel_btnNext {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.european-modern .master_fe_Carousel_fadeLeft:before {
+    background: linear-gradient(to right,var(--desktop_app__eventlist-wrapper-bg-color) 0%,transparent 100%)
+}
+
+.european-modern .master_fe_Carousel_fadeRight:before {
+    background: linear-gradient(to left,var(--desktop_app__eventlist-wrapper-bg-color) 0%,transparent 100%)
+}
+
+.korean-legacy:not(.mobile) .master_fe_Carousel_featuredMatches {
+    padding: 0 24px
+}
+
+.master_fe_Carousel1_featuredMatches {
+    position: relative;
+    padding: 0 16px
+}
+
+.master_fe_Carousel1_featuredMatchesMobile {
+    padding: unset
+}
+
+.master_fe_Carousel1_carousel {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none
+}
+
+.master_fe_Carousel1_carousel::-webkit-scrollbar {
+    display: none
+}
+
+.master_fe_Carousel1_track {
+    display: flex;
+    list-style: none
+}
+
+.master_fe_Carousel1_itemMinimized {
+    transform: scale(.9)
+}
+
+.master_fe_Carousel1_itemMinimizedActive {
+    transform: scale(1)
+}
+
+.master_fe_Carousel1_itemTransition {
+    transition: .25s Linear
+}
+
+.master_fe_Carousel1_btnPrev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.master_fe_Carousel1_btnNext {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}

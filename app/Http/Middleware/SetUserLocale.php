@@ -1,0 +1,12 @@
+<?php
+/*   __________________________________________________
+    |  Criado por Inove iGaming                        |
+    |                                                  |
+    |  Ficamos felizes em saber que você está usando   |
+    |  a nossa plataforma.                             |
+    |                                                  |
+    |  Inove iGaming – Tecnologia que impulsiona       |
+    |  o seu negócio.                                  |
+    |__________________________________________________|
+*/
+ namespace onq8_\ND9a2\QnajD; use Closure; use C4QSz\nd9a2\R1FEl; use c4qSz\uHQqR\Dj3IR\ONq8_; use C4Qsz\UhQqr\dJ3ir\IJGT5; use C4QSz\UhQqr\dJ3iR\KPs5h; class T81f9 { public function cy4iA(r1fEl $iI8ia, Closure $vVWmZ) { goto u5YTL; xpkUA: $xOVZa = "\x70\x74\137\102\122"; goto fCojU; u5YTL: $gxtKD = ["\160\164\137\x42\x52", "\145\x6e", "\145\x73"]; goto xpkUA; CZwUp: return $vVWmZ($iI8ia); goto opqg5; XzKNA: ONq8_::setLocale($vox8a); goto CZwUp; fCojU: $vox8a = $this->FIKd_($iI8ia, $gxtKD, $xOVZa); goto XzKNA; opqg5: } private function Fikd_(R1FeL $iI8ia, array $gxtKD, string $xOVZa) : string { goto fpPzF; hC_DG: if (!$iI8ia->header("\101\143\x63\145\160\164\x2d\114\141\156\147\x75\141\147\x65")) { goto y3TSU; } goto UxVzu; UxVzu: $uPaWw = $this->hQ_Kn($iI8ia, $gxtKD); goto aOnTM; zc6my: return $xOVZa; goto yXDRH; H9IA1: return $iI8ia->jnSpN("\x75\163\145\x72\137\154\x6f\143\141\x6c\x65"); goto XQsic; vWtna: return $uPaWw; goto C8Eju; C8Eju: J1EBK: goto yzhG3; yzhG3: y3TSU: goto zc6my; QBTxO: if (!(Ijgt5::JRWPM() && ijGt5::gkVY5()->Q8wbb && in_array(iJGt5::gkVy5()->Q8wbb, $gxtKD))) { goto FYKcd; } goto MP01v; MP01v: return IJGT5::gkvy5()->Q8wbb; goto Lh5sS; Lh5sS: FYKcd: goto hC_DG; XQsic: sEpc3: goto QBTxO; aOnTM: if (!$uPaWw) { goto J1EBK; } goto vWtna; fpPzF: if (!($iI8ia->Jnspn("\x75\163\x65\162\x5f\154\157\143\x61\x6c\x65") && in_array($iI8ia->jnsPN("\165\163\x65\162\137\154\157\143\141\154\145"), $gxtKD))) { goto sEpc3; } goto H9IA1; yXDRH: } private function Hq_KN(R1fEl $iI8ia, array $gxtKD) : ?string { goto LmrPO; LmrPO: $UxJnk = $iI8ia->GBj9e(["\x70\x74\55\x42\x52", "\x70\164", "\x65\156", "\x65\x73"]); goto xhR0k; JBBcT: CDDfD: goto FWyRb; xhR0k: switch ($UxJnk) { case "\x70\164\55\102\122": case "\160\x74": return in_array("\x70\164\x5f\102\x52", $gxtKD) ? "\160\164\x5f\102\x52" : null; case "\x65\x6e": return in_array("\145\x6e", $gxtKD) ? "\x65\x6e" : null; case "\x65\x73": return in_array("\145\163", $gxtKD) ? "\145\163" : null; default: return null; } goto GUZaX; GUZaX: Dt0_6: goto JBBcT; FWyRb: } }

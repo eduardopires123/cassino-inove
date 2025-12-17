@@ -1,0 +1,378 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+/* Reset and Base Styles */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --primary: var(--primary-color);
+    --white: #ffffff;
+    --bg: #f5f5f5;
+    --text-dark: #222224;
+}
+
+#tranding .tranding-slider {
+    position: relative;
+    overflow: visible;
+    transform-style: preserve-3d;
+}
+
+.tranding-slide .tranding-slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.tranding-slide:hover .tranding-slide-img img {
+    transform: scale(1.05);
+}
+
+/* Slide Content */
+.tranding-slide .tranding-slide-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem;
+}
+
+.tranding-slide-content .tranding-slide-content-bottom {
+    color: var(--white);
+}
+
+.tranding-slide-content .banner-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 500px) {
+    .tranding-slide-content .banner-title {
+        font-size: 1.6rem;
+    }
+}
+
+/* Remove Swiper Shadows */
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+    display: none;
+}
+
+/* Forçar opacidade 1 para o slide ativo, especialmente no hover */
+.tranding-slider .swiper-slide-active,
+.tranding-slider .swiper-slide-active:hover,
+.tranding-slider .swiper-slide-active .tranding-slide,
+.tranding-slider .swiper-slide-active .tranding-slide:hover,
+.tranding-slider .swiper-slide-active .tranding-slide-img,
+.tranding-slider .swiper-slide-active .tranding-slide-img:hover,
+.tranding-slider .swiper-slide-active img,
+.tranding-slider .swiper-slide-active img:hover,
+.tranding-slider .swiper-slide-active .slide-link,
+.tranding-slider .swiper-slide-active .slide-link:hover {
+    opacity: 1 !important;
+}
+
+/* Prevenir transições de opacidade no slide ativo */
+.tranding-slider .swiper-slide-active * {
+    transition-property: transform !important;
+}
+
+/* Slider Controls - Setas fixas nos cantos da página */
+.tranding-slider-control {
+    position: relative;
+    pointer-events: none;
+    z-index: 20;
+}
+
+/* Navigation Arrows - Fixas nos cantos da página */
+.tranding-slider-control .slider-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    outline: none;
+    opacity: 0.7;
+    pointer-events: auto;
+    z-index: 1000; /* Alto z-index para ficar acima de outros elementos */
+    background: transparent;
+}
+
+.tranding-slider-control .slider-arrow:hover {
+    opacity: 1;
+}
+
+.tranding-slider-control .swiper-button-prev {
+    left: 2rem; /* Fixo no canto esquerdo da página */
+}
+
+.tranding-slider-control .swiper-button-next {
+    right: 2rem; /* Fixo no canto direito da página */
+}
+
+.tranding-slider-control .slider-arrow svg {
+    font-size: 1.5rem; /* Menor */
+    color: var(--text-dark);
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Pagination - Centralizada na parte inferior */
+.tranding-slider-control .swiper-pagination {
+    display: none !important;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+    display: none !important;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
+    display: none !important;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet:hover {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    
+    #tranding {
+        margin-top: 1rem;
+    }
+    
+    .tranding-slider-control .slider-arrow {
+        width: 2.5rem;
+        height: 2.5rem;
+        opacity: 0.6;
+    }
+    
+    .tranding-slider-control .swiper-button-prev {
+        left: 1rem; /* Fixo no canto esquerdo da página */
+    }
+    
+    .tranding-slider-control .swiper-button-next {
+        right: 1rem; /* Fixo no canto direito da página */
+    }
+    
+    .tranding-slider-control .slider-arrow svg {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .bannerClass{
+        max-height: 10rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tranding-slide-content .banner-title {
+        font-size: 1.4rem;
+    }
+    
+    .tranding-slider-control .slider-arrow {
+        width: 2rem;
+        height: 2rem;
+        opacity: 0.5;
+    }
+    
+    .tranding-slider-control .swiper-button-prev {
+        left: 0.5rem; /* Fixo no canto esquerdo da página */
+    }
+    
+    .tranding-slider-control .swiper-button-next {
+        right: 0.5rem; /* Fixo no canto direito da página */
+    }
+    
+    .tranding-slider-control .slider-arrow svg {
+        width: 1.1rem;
+        height: 1.1rem;
+    }
+}
+
+/* Empty State Styles */
+.banner-empty-state {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 2rem;
+    margin: 2rem 0;
+}
+
+.empty-state-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.empty-state-icon {
+    margin: 0 auto 1rem;
+    opacity: 0.6;
+    color: #6b7280;
+}
+
+.empty-state-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.empty-state-description {
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Performance Optimizations */
+.tranding-slide,
+.tranding-slide img {
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+/* Swiper Overrides */
+.tranding-slider .swiper {
+    overflow: visible;
+}
+
+.tranding-slider .swiper-wrapper {
+    align-items: center;
+    transform-style: preserve-3d;
+}
+
+/* Coverflow Effect Enhancements */
+.tranding-slider .swiper-slide-active {
+    z-index: 10;
+}
+
+.tranding-slider .swiper-slide:not(.swiper-slide-active) {
+    cursor: pointer;
+}
+
+/* Active slide enhanced shadow */
+.tranding-slider .swiper-slide-active .tranding-slide {
+    box-shadow: 0 35px 100px rgba(0, 0, 0, 0.4);
+}
+
+/* Side slides reduced shadow */
+.tranding-slider .swiper-slide:not(.swiper-slide-active) .tranding-slide {
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Link Styles */
+.slide-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+.slide-link:hover {
+    color: inherit;
+}
+
+/* Loading States */
+.tranding-slide img {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.tranding-slide img:not(.loaded) {
+    opacity: 0;
+}
+
+.tranding-slide img.loaded {
+    opacity: 1;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tranding-slide {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Accessibility */
+.tranding-slider-control .slider-arrow:focus {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1a1a1a;
+        --white: #ffffff;
+        --text-dark: #ffffff;
+    }
+    
+    .tranding-slider-control .slider-arrow {
+    }
+    
+    .empty-state-content {
+        color: #ffffff;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .tranding-slide,
+    .tranding-slide img,
+    .tranding-slider-control .slider-arrow {
+        transition: none;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .tranding-slider-control .slider-arrow {
+        background: #ffffff;
+        color: #000000;
+        border: 1px solid #000000;
+    }
+    .tranding-slider-control .slider-arrow svg {
+        color: #000000;
+    }
+    /* Removed pagination styles for high contrast mode */
+}
+
+/* Print Styles */
+@media print {
+    .bannerClass {
+        display: none;
+    }
+} 

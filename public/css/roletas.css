@@ -1,0 +1,1102 @@
+/* CSS isolado para a Roleta - não afeta outros elementos do site */
+#roulette-modal *,
+.roulette-modal-overlay *,
+.prize-modal * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#roulette-modal,
+.roulette-modal-overlay {
+    font-family: 'Barlow Condensed', sans-serif;
+    background: transparent;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+  
+#roulette-modal .iframe-site {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#roulette-modal .container-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#roulette-modal .redirecionar {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+  
+#roulette-modal .body-roleta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+#roulette-modal .section-roleta {
+    width: 100%;
+    max-width: 600px;
+    margin: -60px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    background: transparent;
+    position: relative;
+    z-index: 4;
+}
+  
+#roulette-modal .tituloRoleta {
+    width: 300px;
+    height: auto;
+    margin-bottom: -30px;
+}
+
+#roulette-modal .container-roleta {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#roulette-modal .bem-vindo {
+    width: 200px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+#roulette-modal .roleta {
+    width: 100%;
+    height: auto;
+    transition: transform 5s cubic-bezier(0.17, 0.67, 0.12, 0.99);
+}
+
+#roulette-modal .btn-girar {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 4;
+}
+
+#roulette-modal .btn-girar:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+  
+/* Modal de Parabéns - específico para roleta */
+#roulette-modal .popup-modal,
+#prize-modal .popup-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: transparent;
+}
+
+/* Remover o overlay do modal */
+#roulette-modal .popup-modal::before,
+#prize-modal .popup-modal::before {
+    display: none;
+}
+  
+#roulette-modal .line1,
+#prize-modal .line1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#roulette-modal .line2,
+#prize-modal .line2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#roulette-modal .line3,
+#prize-modal .line3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#roulette-modal .line4,
+#prize-modal .line4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+  
+#roulette-modal .premio,
+#prize-modal .premio {
+    width: 60px;
+    height: auto;
+}
+
+#roulette-modal .codigo,
+#prize-modal .codigo {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#roulette-modal #copyButton,
+#prize-modal #copyButton {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 20px auto;
+    display: block;
+    width: auto;
+    min-width: 200px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#roulette-modal #copyButton:hover,
+#prize-modal #copyButton:hover {
+    background: #FFC000;
+}
+
+#roulette-modal .btn-click,
+#prize-modal .btn-click {
+    margin-top: 20px;
+    display: inline-block;
+    width: auto;
+    min-width: 250px;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 1.8em;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid #ffffff;
+}
+
+#roulette-modal .btn-click:hover,
+#prize-modal .btn-click:hover {
+    background: #036000;
+}
+  
+/* Responsividade - específica para roleta */
+@media (max-width: 768px) {
+    #roulette-modal .section-roleta {
+        max-width: 500px;
+        margin-top: -20px;
+        padding: 20px;
+    }
+
+    #roulette-modal .bem-vindo {
+        width: 180px;
+        top: -35px;
+    }
+
+    #roulette-modal .container-roleta {
+        width: 100%;
+        max-width: 434px;
+        padding: 15px;
+    }
+
+    #roulette-modal .roleta {
+        width: 100%;
+        max-width: 434px;
+        height: auto;
+    }
+
+    #roulette-modal .btn-girar {
+        width: 120px;
+    }
+
+    #roulette-modal .popup-modal,
+    #prize-modal .popup-modal {
+        width: 95%;
+        padding: 20px;
+    }
+
+    #roulette-modal .line1,
+    #prize-modal .line1 {
+        font-size: 2.2em;
+    }
+
+    #roulette-modal .line2,
+    #prize-modal .line2 {
+        font-size: 1.8em;
+    }
+
+    #roulette-modal .line3,
+    #prize-modal .line3 {
+        font-size: 1.5em;
+    }
+
+    #roulette-modal .codigo,
+    #prize-modal .codigo {
+        font-size: 1.8em;
+    }
+
+    #roulette-modal .btn-click,
+    #prize-modal .btn-click {
+        font-size: 1.5em;
+        padding: 15px 25px;
+    }
+
+    #roulette-modal .body-roleta {
+        margin: 0;
+    }
+
+    #roulette-modal .section-roleta {
+        margin-top: -40px;
+    }
+}
+  
+@media (max-width: 480px) {
+    #roulette-modal .section-roleta {
+        max-width: 400px;
+        margin-top: -10px;
+        padding: 15px;
+    }
+
+    #roulette-modal .bem-vindo {
+        width: 150px;
+        top: -25px;
+    }
+
+    #roulette-modal .container-roleta {
+        width: 100%;
+        max-width: 380px;
+        padding: 10px;
+    }
+
+    #roulette-modal .roleta {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    #roulette-modal .btn-girar {
+        width: 100px;
+    }
+
+    #roulette-modal .line1,
+    #prize-modal .line1 {
+        font-size: 2.2em;
+    }
+
+    #roulette-modal .line2,
+    #prize-modal .line2 {
+        font-size: 1.8em;
+    }
+
+    #roulette-modal .line3,
+    #prize-modal .line3 {
+        font-size: 1.5em;
+    }
+
+    #roulette-modal .codigo,
+    #prize-modal .codigo {
+        font-size: 1.8em;
+    }
+
+    #roulette-modal .btn-click,
+    #prize-modal .btn-click {
+        font-size: 1.2em;
+        padding: 12px 20px;
+    }
+
+    #roulette-modal .body-roleta {
+        margin: 0;
+    }
+
+    #roulette-modal .section-roleta {
+        margin-top: -30px;
+    }
+}
+  
+/* Adicionar novo breakpoint para telas muito pequenas */
+@media (max-width: 360px) {
+    #roulette-modal .section-roleta {
+        max-width: 340px;
+        padding: 10px;
+    }
+
+    #roulette-modal .container-roleta {
+        max-width: 320px;
+        padding: 8px;
+    }
+
+    #roulette-modal .roleta {
+        max-width: 320px;
+    }
+
+    #roulette-modal .btn-girar {
+        width: 90px;
+    }
+}
+
+/* Quando o modal estiver visível */
+#roulette-modal .body-roleta.modal-visible .section-roleta {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+#roulette-modal .body-roleta.modal-visible {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+  
+#roulette-modal .error-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+#roulette-modal .error-modal-content {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+#roulette-modal .error-modal-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #1de650;
+}
+
+#roulette-modal .error-modal-content button {
+    background-color: #000000ed;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    border: 1px solid #00ff41;
+}
+
+#roulette-modal .error-modal-content button:hover {
+    background-color: #20ff59;
+}
+  
+#roulette-modal .closeButton,
+#prize-modal .closeButton {
+    margin: 20px auto;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+#roulette-modal .closeButton:hover,
+#prize-modal .closeButton:hover {
+    opacity: 0.9;
+}
+
+#roulette-modal #btn-click,
+#prize-modal #btn-click {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 1.8em;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+#roulette-modal #btn-click:hover,
+#prize-modal #btn-click:hover {
+    opacity: 0.9;
+}
+
+  #roulette-modal #chat-icon {
+    position: fixed;
+    bottom: 190px;
+    right: 13px;
+    cursor: pointer;
+    display: block !important;
+    z-index: 600 !important;
+}
+#roulette-modal #chat-icon img {
+    z-index: 999999999 !important;
+    position: relative;
+}
+#roulette-modal #iframe-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100001 !important;
+}
+#roulette-modal #iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent !important;
+}
+#roulette-modal #close-iframe {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    z-index: 100002 !important;
+}
+@media only screen and (max-width: 1024px) {
+    #roulette-modal .game-view:not(:empty) ~ #chat-icon,
+    #roulette-modal .game-view.active ~ #chat-icon,
+    #roulette-modal body:has(.game-view:not(:empty)) #chat-icon,
+    #roulette-modal body:has(#accept-cookies:not(.hidden)) #chat-icon {
+        display: none !important;
+    }
+}
+
+/* Estilos específicos para a roleta - evitar conflitos globais */
+.roulette-modal-overlay * {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.roulette-modal-overlay {
+    font-family: 'Barlow Condensed', sans-serif;
+    background: transparent;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.roulette-modal-overlay .iframe-site {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.roulette-modal-overlay .container-link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.roulette-modal-overlay .redirecionar {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.roulette-modal-overlay .body-roleta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.roulette-modal-overlay .section-roleta {
+    width: 100%;
+    max-width: 600px;
+    margin: -60px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    background: transparent;
+    position: relative;
+    z-index: 4;
+}
+
+.roulette-modal-overlay .tituloRoleta {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.roulette-modal-overlay .container-roleta {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.roulette-modal-overlay .bem-vindo {
+    width: 200px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+
+.roulette-modal-overlay .roleta {
+    width: 100%;
+    height: auto;
+    transition: transform 5s cubic-bezier(0.17, 0.67, 0.12, 0.99);
+}
+
+.roulette-modal-overlay .btn-girar {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 4;
+}
+
+.roulette-modal-overlay .btn-girar:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Modal de Parabéns - específico para roleta */
+.roulette-modal-overlay .popup-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: transparent;
+}
+
+/* Remover o overlay do modal */
+.roulette-modal-overlay .popup-modal::before {
+    display: none;
+}
+
+.roulette-modal-overlay .line1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.roulette-modal-overlay .line2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.roulette-modal-overlay .line3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.roulette-modal-overlay .line4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.roulette-modal-overlay .premio {
+    width: 60px;
+    height: auto;
+}
+
+.roulette-modal-overlay .codigo {
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.roulette-modal-overlay #copyButton {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin: 20px auto;
+    display: block;
+    width: auto;
+    min-width: 200px;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.roulette-modal-overlay #copyButton:hover {
+    background: #FFC000;
+}
+
+.roulette-modal-overlay .btn-click {
+    margin-top: 20px;
+    display: inline-block;
+    width: auto;
+    min-width: 250px;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 1.8em;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid #ffffff;
+}
+
+.roulette-modal-overlay .btn-click:hover {
+    background: #036000;
+}
+
+/* Responsividade específica para a roleta */
+@media (max-width: 768px) {
+    .roulette-modal-overlay .section-roleta {
+        max-width: 500px;
+        margin-top: -20px;
+        padding: 20px;
+    }
+
+    .roulette-modal-overlay .tituloRoleta {
+        width: 300px;
+    }
+
+    .roulette-modal-overlay .bem-vindo {
+        width: 180px;
+        top: -35px;
+    }
+
+    .roulette-modal-overlay .container-roleta {
+        width: 100%;
+        max-width: 434px;
+        padding: 15px;
+    }
+
+    .roulette-modal-overlay .roleta {
+        width: 100%;
+        max-width: 434px;
+        height: auto;
+    }
+
+    .roulette-modal-overlay .btn-girar {
+        width: 120px;
+    }
+
+    .roulette-modal-overlay .popup-modal {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .roulette-modal-overlay .line1 {
+        font-size: 2.2em;
+    }
+
+    .roulette-modal-overlay .line2 {
+        font-size: 1.8em;
+    }
+
+    .roulette-modal-overlay .line3 {
+        font-size: 1.5em;
+    }
+
+    .roulette-modal-overlay .codigo {
+        font-size: 1.8em;
+    }
+
+    .roulette-modal-overlay .btn-click {
+        font-size: 1.5em;
+        padding: 15px 25px;
+    }
+
+    .roulette-modal-overlay .body-roleta {
+        margin: 0;
+    }
+
+    .roulette-modal-overlay .section-roleta {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .roulette-modal-overlay .section-roleta {
+        max-width: 400px;
+        margin-top: -10px;
+        padding: 15px;
+    }
+
+    .roulette-modal-overlay .tituloRoleta {
+        width: 300px;
+    }
+
+    .roulette-modal-overlay .bem-vindo {
+        width: 150px;
+        top: -25px;
+    }
+
+    .roulette-modal-overlay .container-roleta {
+        width: 100%;
+        max-width: 380px;
+        padding: 10px;
+    }
+
+    .roulette-modal-overlay .roleta {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+    }
+
+    .roulette-modal-overlay .btn-girar {
+        width: 100px;
+    }
+
+    .roulette-modal-overlay .line1 {
+        font-size: 2.2em;
+    }
+
+    .roulette-modal-overlay .line2 {
+        font-size: 1.8em;
+    }
+
+    .roulette-modal-overlay .line3 {
+        font-size: 1.5em;
+    }
+
+    .roulette-modal-overlay .codigo {
+        font-size: 1.8em;
+    }
+
+    .roulette-modal-overlay .btn-click {
+        font-size: 1.2em;
+        padding: 12px 20px;
+    }
+
+    .roulette-modal-overlay .body-roleta {
+        margin: 0;
+    }
+
+    .roulette-modal-overlay .section-roleta {
+        margin-top: -30px;
+    }
+}
+
+/* Adicionar novo breakpoint para telas muito pequenas */
+@media (max-width: 360px) {
+    .roulette-modal-overlay .section-roleta {
+        max-width: 340px;
+        padding: 10px;
+    }
+
+    .roulette-modal-overlay .container-roleta {
+        max-width: 320px;
+        padding: 8px;
+    }
+
+    .roulette-modal-overlay .roleta {
+        max-width: 320px;
+    }
+
+    .roulette-modal-overlay .btn-girar {
+        width: 90px;
+    }
+}
+
+/* Quando o modal estiver visível */
+.roulette-modal-overlay .body-roleta.modal-visible .section-roleta {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.roulette-modal-overlay .body-roleta.modal-visible {
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.roulette-modal-overlay .error-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.roulette-modal-overlay .error-modal-content {
+    background-color: #000;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    position: relative;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.roulette-modal-overlay .error-modal-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.roulette-modal-overlay .error-modal-content button {
+    background: linear-gradient(135deg, #333, #222);
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.roulette-modal-overlay .error-modal-content button:hover {
+    background: linear-gradient(135deg, #444, #333);
+}
+
+.roulette-modal-overlay .closeButton {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #000000, #000000);
+    color: #ff6c0a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #ff6c0a;
+    transition: all 0.3s ease;
+}
+
+.roulette-modal-overlay .closeButton:hover {
+    background: linear-gradient(135deg, #ff6c0a, #e55a00);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 108, 10, 0.4);
+}
+
+.roulette-modal-overlay #btn-click {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #000000, #000000);
+    color: #ff6c0a;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 4px solid #ff6c0a;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.roulette-modal-overlay #btn-click:hover {
+    background: linear-gradient(135deg, #ff6c0a, #e55a00);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 108, 10, 0.4);
+}
+
+.roulette-modal-overlay #chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.roulette-modal-overlay #chat-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.roulette-modal-overlay #iframe-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.roulette-modal-overlay #iframe-container iframe {
+    width: 90%;
+    height: 90%;
+    border: none;
+    border-radius: 10px;
+}
+
+.roulette-modal-overlay #close-iframe {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    .roulette-modal-overlay .game-view:not(:empty) ~ #chat-icon,
+    .roulette-modal-overlay .game-view:not(:empty) ~ #iframe-container {
+        display: none;
+    }
+}

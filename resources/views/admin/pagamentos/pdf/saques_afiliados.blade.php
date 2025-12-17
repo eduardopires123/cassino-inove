@@ -1,0 +1,87 @@
+@extends('admin.pagamentos.pdf.base')
+
+@section('title', 'Relatório de Saques de Afiliados')
+
+@section('filtro-label', 'Filtro de Usuário')
+
+@section('total-registros', count($saques_afiliados))
+
+@section('total-title', 'Total de Saques de Afiliados Concluídos')
+
+@section('content')
+<table>
+    <thead>
+        <tr>
+            <th style="width: 5%;">ID</th>
+            <th style="width: 25%;">Usuário</th>
+            <th style="width: 15%;">CPF</th>
+            <th style="width: 15%;">Valor</th>
+            <th style="width: 15%;">Gateway</th>
+            <th style="width: 10%;">Status</th>
+            <th style="width: 15%;">Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        @forelse($saques_afiliados as $saque)
+        <tr>
+            <td>{{ $saque->id }}</td>
+            <td>{{ $saque->usuario_nome }}</td>
+            <td>{{ $saque->cpf }}</td>
+            <td>R$ {{ number_format($saque->amount, 2, ',', '.') }}</td>
+            <td>{{ $saque->gateway }}</td>
+            <td>
+                @if($saque->status == 0)
+                    <span class="status-badge status-pendente">Pendente</span>
+                @elseif($saque->status == 1)
+                    <span class="status-badge status-concluido">Concluído</span>
+                @elseif($saque->status == 2)
+                    <span class="status-badge status-cancelado">Cancelado</span>
+                @else
+                    <span class="status-badge">Desconhecido</span>
+                @endif
+            </td>
+            <td>{{ \Carbon\Carbon::parse($saque->updated_at)->format('d/m/Y H:i:s') }}</td>
+        </tr>
+        @empty
+        <tr>
+            <td colspan="7" style="text-align: center; padding: 20px; color: #666;">
+                Nenhum saque de afiliado encontrado para os filtros aplicados.
+            </td>
+        </tr>
+        @endforelse
+    </tbody>
+</table>
+
+@if(count($saques_afiliados) > 0)
+<div style="margin-top: 20px; font-size: 11px; color: #666;">
+    <h4 style="margin-bottom: 10px;">Resumo do Relatório:</h4>
+    <table style="width: 100%; margin-top: 10px;">
+        <tr>
+            <td style="background-color: #f8f9fa; padding: 8px; border: 1px solid #ddd; font-weight: bold;">Total de Registros:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">{{ count($saques_afiliados) }}</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f8f9fa; padding: 8px; border: 1px solid #ddd; font-weight: bold;">Saques Concluídos:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">{{ $saques_afiliados->where('status', 1)->count() }}</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f8f9fa; padding: 8px; border: 1px solid #ddd; font-weight: bold;">Saques Pendentes:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">{{ $saques_afiliados->where('status', 0)->count() }}</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f8f9fa; padding: 8px; border: 1px solid #ddd; font-weight: bold;">Saques Cancelados:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">{{ $saques_afiliados->where('status', 2)->count() }}</td>
+        </tr>
+        <tr>
+            <td style="background-color: #f8f9fa; padding: 8px; border: 1px solid #ddd; font-weight: bold;">Valor Total (Todos):</td>
+            <td style="padding: 8px; border: 1px solid #ddd;">R$ {{ number_format($saques_afiliados->sum('amount'), 2, ',', '.') }}</td>
+        </tr>
+        <tr>
+            <td style="background-color: #e8f5e8; padding: 8px; border: 1px solid #ddd; font-weight: bold; color: #28a745;">Valor Total (Concluídos):</td>
+            <td style="padding: 8px; border: 1px solid #ddd; color: #28a745; font-weight: bold;">R$ {{ number_format($total, 2, ',', '.') }}</td>
+        </tr>
+    </table>
+</div>
+@endif
+
+@endsection 

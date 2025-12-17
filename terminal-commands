@@ -1,0 +1,2 @@
+chmod -R 755 app routes config
+chmod -R 777 storage bootstrap/cache 

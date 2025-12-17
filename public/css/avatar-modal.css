@@ -1,0 +1,344 @@
+/* Estilos para o modal de avatares */
+.avatar-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.avatar-modal-content {
+    position: relative;
+    margin: 5% auto;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    background-color: #212425;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.avatar-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.avatar-close:hover {
+    color: #fff;
+}
+
+.avatar-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.avatar-container {
+    overflow-y: auto;
+    max-height: 60vh;
+    padding-right: 15px;
+    margin-right: -5px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #212425;
+}
+
+.avatar-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.avatar-container::-webkit-scrollbar-track {
+    background: #333;
+    border-radius: 10px;
+}
+
+.avatar-container::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.avatar-section {
+    margin-bottom: 20px;
+}
+
+.avatar-section-title {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.avatar-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.avatar-option {
+    cursor: pointer;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.avatar-option:hover {
+    transform: scale(1.1);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px var(--primary-color);
+}
+.avatar-option:active {
+    border-color: var(--primary-color)!important;
+}
+
+.avatar-option.selected {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 15px var(--primary-color);
+}
+
+.avatar-option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avatar-message {
+    text-align: center;
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.avatar-locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Responsividade */
+/* Desktop (padrão acima) */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .avatar-modal-content {
+        margin: 10% auto;
+        max-width: 500px;
+    }
+
+    .avatar-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .avatar-container {
+        max-height: 55vh;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .avatar-modal-content {
+        margin: 15% auto;
+        padding: 15px;
+        width: 95%;
+    }
+
+    .avatar-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+    }
+
+    .avatar-option {
+        width: 70px;
+        height: 70px;
+    }
+
+    .avatar-title {
+        font-size: 1.2rem;
+    }
+
+    .avatar-container {
+        max-height: 60vh;
+    }
+}
+
+.btn-deposit {
+    color: #FFF;
+    border: 1.4px solid var(--secondary-color) !important;
+    margin-bottom: 1px;
+    animation: pulse 1.5s infinite;
+    -webkit-box-shadow: 0px 0px 27px 0px var(--secondary-color);
+    -moz-box-shadow: 0px 0px 27px 0px var(--secondary-color);
+    box-shadow: 0px 0px 27px 0px var(--secondary-color);
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0px 0px 0px 0px var(--secondary-color);
+        -moz-box-shadow: 0px 0px 0px 0px var(--secondary-color);
+        box-shadow: 0px 0px 0px 0px var(--secondary-color);
+    }
+    100% {
+        -webkit-box-shadow: 0px 0px 5px 15px rgba(0, 0, 0, 0);
+        -moz-box-shadow: 0px 0px 5px 15px rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 5px 15px rgba(0, 0, 0, 0);
+    }
+}
+
+
+/* Estilos para o modal */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9000;
+}
+
+.modal-overlay.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para remover a classe hidden inline */
+#login-modal.show, #register-modal.show, #deposit-modal.show {
+    display: block !important;
+}
+
+/* Estilos para os popups de status */
+.status-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9000;
+    border-radius: 6px;
+    padding: 9px 13px;
+    display: flex;
+    align-items: center;
+    min-width: 320px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    animation: fadeInRight 0.3s ease-out forwards, fadeOutRight 0.3s ease-out 2.7s forwards;
+}
+
+.status-popup-success {
+    background-color: rgb(0, 0, 0);
+    border-left: 4px solid #4CAF50;
+}
+
+.status-popup-error {
+    background-color: rgb(0, 0, 0);
+    border-left: 4px solid #F44336;
+}
+
+.status-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.status-icon-success {
+    background-color: #4CAF50;
+}
+
+.status-icon-error {
+    background-color: #F44336;
+}
+
+.status-message {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.status-close {
+    margin-left: 12px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.status-close:hover {
+    opacity: 1;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeOutRight {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+.status-progress-error {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: #F44336;
+    animation: progress 3s linear forwards;
+}
+
+.status-progress-success {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: #4CAF50;
+    animation: progress 3s linear forwards;
+}
+
+@keyframes progress {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+/* Estilos para cabeçalho móvel */
+@media (min-width: 1024px) {
+    .mobile-header-container {
+        display: none !important;
+    }
+}

@@ -1,0 +1,145 @@
+/* Controles de scrollbar e dispositivos móveis - não conflitar com CSS existente */
+html {
+    -ms-overflow-style: none; /* IE e Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+body {
+    -ms-overflow-style: none; /* IE e Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Esconder scrollbar em WebKit browsers */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Controle dos filtros de cassino em MOBILE */
+@media (max-width: 767px) {
+    /* Estado padrão - ESCONDIDO em mobile */
+    .casino-filters[data-v-959816fa] {
+        display: none !important;
+        opacity: 0 !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        transition: none !important; /* Remove qualquer transição */
+    }
+    
+    /* Estado ATIVO - quando a classe casino-filters-open é adicionada */
+    .casino-filters.casino-filters-open[data-v-959816fa] {
+        display: flex !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        height: auto !important;
+        overflow: visible !important;
+        margin-top: 1.25rem !important;
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    
+    /* Controle dos botões de filtro internos */
+    .casino-filters .casino-filters__buttons[data-v-959816fa] {
+        display: none !important;
+        transition: none !important;
+    }
+    
+    .casino-filters.casino-filters-open .casino-filters__buttons[data-v-959816fa] {
+        display: grid !important;
+        width: 100% !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem !important;
+    }
+    
+    /* Controle da busca */
+    .casino-filters .casino-search[data-v-959816fa] {
+        display: none !important;
+        transition: none !important;
+    }
+    
+    .casino-filters.casino-filters-open .casino-search[data-v-959816fa] {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    /* Controle específico para esconder/mostrar busca quando apenas ela está ativa */
+    .casino-filters.casino-filters-open .casino-filters__buttons.hidden[data-v-959816fa] {
+        display: none !important;
+    }
+    
+    .casino-filters.casino-filters-open .casino-search.hidden[data-v-959816fa] {
+        display: none !important;
+    }
+    
+    /* Garantir que elementos com classe hidden sejam sempre escondidos */
+    .casino-filters .hidden {
+        display: none !important;
+    }
+    
+    /* Otimizações específicas para mobile */
+    .casino-filters[data-v-959816fa] * {
+        transition: none !important; /* Remove todas as transições em mobile */
+    }
+}
+
+/* Prevenção de zoom e controles touch para mobile */
+@media (max-width: 767px) {
+    * {
+        -webkit-tap-highlight-color: transparent !important;
+        -webkit-touch-callout: none !important;
+        user-select: none !important;
+    }
+    
+    input, textarea, select {
+        user-select: text !important;
+    }
+    
+    /* Prevenir zoom em inputs */
+    input[type="text"],
+    input[type="search"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        font-size: 16px !important; /* Previne zoom no iOS */
+    }
+}
+
+/* Otimizações de performance para mobile */
+@media (max-width: 767px) {
+    .casino-filters[data-v-959816fa] {
+        will-change: auto !important;
+        transform: translateZ(0) !important; /* Força aceleração por hardware */
+        backface-visibility: hidden !important;
+    }
+    
+    /* Garantir que não há delay de layout */
+    .casino-filters[data-v-959816fa],
+    .casino-filters[data-v-959816fa] * {
+        box-sizing: border-box !important;
+    }
+}
+
+/* Override crítico para garantir que as regras sejam aplicadas sem transições */
+@media (max-width: 767px) {
+    html body .casino-filters[data-v-959816fa]:not(.casino-filters-open) {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        transition: none !important;
+        transform: none !important;
+    }
+    
+    html body .casino-filters.casino-filters-open[data-v-959816fa] {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        height: auto !important;
+        overflow: visible !important;
+        transition: none !important;
+        transform: none !important;
+    }
+} 
