@@ -192,8 +192,7 @@
                                     </label>
                                 </div>
                                 <div class="flex gap-2 mt-2">
-                                    <button class="Rw3Ra w-1/2" tabindex="1" type="button" onclick="sendEmailRecovery()">{{ __('auth.reset_via_email') }}</button>
-                                    <button class="Rw3Ra w-1/2 bg-green-600 hover:bg-green-700" tabindex="1" type="button" onclick="sendWhatsAppRecovery()">{{ __('auth.reset_via_whatsapp') }}</button>
+                                    <button class="Rw3Ra w-full" tabindex="1" type="button" onclick="sendEmailRecovery()">{{ __('auth.send_reset_link') }}</button>
                                 </div>
                                 <div class="cinjw">
                                     <div class="text-auth-texts">{{ __('auth.has_account') }} <button type="button" id="back-to-login" class="text-auth-links" onclick="toggleForms('login');">{{ __('auth.login') }}</button></div>
@@ -260,45 +259,7 @@
                     e.preventDefault();
 
                     const formData = new FormData(this);
-                    const method = e.submitter.value || 'email';
-                    const url = method === 'email' ? '{{ route('password.email') }}' : '{{ route('password.email.whatsapp') }}';
-
-                    // Se for WhatsApp e o navegador permitir, acompanhe os redirecionamentos
-                    if (method === 'whatsapp') {
-                        // Tratar como um caso especial para WhatsApp
-                        const mensagemSucesso = 'Código de recuperação enviado para seu WhatsApp com sucesso!';
-
-                        // Enviar o formulário e deixar o redirecionamento acontecer normalmente
-                        if (window.mostrarMensagemSucesso) {
-                            mostrarMensagemSucesso(mensagemSucesso);
-                        } else if (typeof ToastManager !== 'undefined') {
-                            ToastManager.success(mensagemSucesso);
-                        } else if (typeof Swal !== 'undefined') {
-                            Swal.fire({
-                                title: 'Sucesso!',
-                                text: mensagemSucesso,
-                                icon: 'success',
-                                timer: 3000,
-                                timerProgressBar: true
-                            });
-                        } else {
-                            alert(mensagemSucesso);
-                        }
-
-                        // Limpar o campo de email
-                        document.getElementById('login-recovery').value = '';
-
-                        // Voltar para o formulário de login
-                        setTimeout(() => {
-                            toggleForms('login');
-                        }, 2000);
-
-                        // Enviar o formulário de forma tradicional
-                        this.submit();
-                        return;
-                    }
-
-                    // Para o email, continua com a abordagem fetch
+                    const url = '{{ route('password.email') }}';
                     fetch(url, {
                         method: 'POST',
                         body: formData,
@@ -324,9 +285,7 @@
                         })
                         .then(data => {
                             if (data.status === 'success') {
-                                const mensagem = method === 'email' ?
-                                    'E-mail de recuperação enviado com sucesso! Verifique sua caixa de entrada.' :
-                                    'Código de recuperação enviado para seu WhatsApp com sucesso!';
+                                const mensagem = 'E-mail de recuperação enviado com sucesso! Verifique sua caixa de entrada.';
 
                                 // Usar a função global de mensagem de sucesso
                                 if (window.mostrarMensagemSucesso) {
@@ -530,44 +489,6 @@
                 alert(mensagemErro);
             }
         });
-    }
-
-    // Função para enviar recuperação por WhatsApp
-    function sendWhatsAppRecovery() {
-        const identifier = document.getElementById('login-recovery').value;
-        if (!identifier) {
-            alert('Por favor, preencha seu e-mail ou CPF');
-            return;
-        }
-
-        // Criar um formulário temporário para enviar a solicitação de recuperação por WhatsApp
-        const form = document.createElement('form');
-        form.method = 'POST';
-        form.action = '{{ route("password.email.whatsapp") }}';
-
-        const csrfInput = document.createElement('input');
-        csrfInput.type = 'hidden';
-        csrfInput.name = '_token';
-        csrfInput.value = '{{ csrf_token() }}';
-
-        const identifierInput = document.createElement('input');
-        identifierInput.type = 'hidden';
-        identifierInput.name = 'identifier';
-        identifierInput.value = identifier;
-
-        form.appendChild(csrfInput);
-        form.appendChild(identifierInput);
-        document.body.appendChild(form);
-
-        // Mostrar um indicador de carregamento ou mensagem
-        if (window.mostrarMensagemSucesso) {
-            mostrarMensagemSucesso('Processando solicitação...');
-        } else if (typeof ToastManager !== 'undefined') {
-            ToastManager.success('Processando solicitação...');
-        }
-
-        // Enviar o formulário (redirecionará para a página de verificação)
-        form.submit();
     }
 
     // Função para abrir o login da Twitch em um popup

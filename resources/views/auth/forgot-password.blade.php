@@ -11,14 +11,6 @@
             </div>
         @endif
         
-        <ul class="flex border-b border-gray-700 mb-6">
-            <li class="mr-2">
-                <a href="{{ route('password.request') }}" class="inline-block py-2 px-4 text-white bg-gray-700 rounded-t-lg {{ Route::currentRouteName() === 'password.request' ? 'active' : '' }}">{{ __('auth.reset_via_email') }}</a>
-            </li>
-            <li>
-                <a href="{{ route('password.request.whatsapp') }}" class="inline-block py-2 px-4 text-white hover:bg-gray-700 rounded-t-lg">{{ __('auth.reset_via_whatsapp') }}</a>
-            </li>
-        </ul>
         
         <form method="POST" action="{{ route('password.email') }}">
             @csrf
