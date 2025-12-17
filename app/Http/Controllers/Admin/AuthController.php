@@ -1,8 +1,111 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:39              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\SHTeQ\Fn52m\JKlI6; use jf89X\sHtEQ\fN52m\NMP37; use EC3mE\ShTeq\s9D5t; use eC3ME\h2Vuv\P2qh1\nXRov; use Ec3ME\nzjo_\iuT8T; use eC3Me\H2vuv\P2qH1\Hash; class vi1PT extends NMP37 { public function fMoAY() { goto eUHCw; eUHCw: if (!(nXrOv::c_4HV() && NxRov::YfGI_()->opaCn > 0)) { goto gSTuJ; } goto MS1w8; MS1w8: return Fh6x5()->WWy32("\141\x64\155\151\x6e\x2e\144\141\x73\x68"); goto hFVAo; Rqahh: return LO0cY("\x61\144\155\151\x6e\x2e\141\165\x74\x68\x2e\x6c\157\x67\x69\156"); goto FhAxd; hFVAo: gSTuJ: goto Rqahh; FhAxd: } public function MstTA(s9D5T $WFz1w) { goto o6QGu; BiBBV: $YlE2c = $WFz1w->HkLbp("\162\x65\x6d\145\x6d\x62\145\162"); goto NW5ho; NW5ho: if (!NXrov::WoHCX(["\145\155\141\x69\154" => $WFz1w->VzAAC, "\x70\141\163\163\167\157\x72\144" => $WFz1w->olFCR], $YlE2c)) { goto Z3z42; } goto GzRdl; bt0CR: Z3z42: goto KTWz9; GzRdl: if (!in_array(nxrov::yFgI_()->opaCn, [1, 2, 3])) { goto F3h38; } goto D_dHA; REeHQ: F3h38: goto bt0CR; o6QGu: $WFz1w->validate(["\145\x6d\x61\151\154" => "\x72\145\x71\x75\x69\162\x65\144\x7c\x65\x6d\x61\x69\x6c", "\x70\x61\163\x73\167\x6f\x72\x64" => "\162\145\161\165\151\162\145\144"]); goto BiBBV; D_dHA: return JGkRL()->SbE1q(["\x73\x74\141\x74\x75\x73" => true]); goto REeHQ; KTWz9: throw iuT8t::FYkeD(["\145\155\x61\x69\x6c" => ["\x43\162\x65\x64\145\x6e\x63\x69\141\151\163\x20\x69\156\166\xc3\241\154\x69\x64\141\163\40\x6f\165\40\x76\x6f\x63\303\xaa\x20\x6e\xc3\xa3\x6f\40\164\x65\x6d\40\160\x65\162\x6d\151\x73\x73\xc3\xa3\157\x20\144\x65\x20\141\144\155\x69\x6e\x69\163\x74\162\x61\144\x6f\162\x2e"]]); goto COL8C; COL8C: } public function uiXhu() { goto HMTuz; HMTuz: if (!(nxRov::C_4HV() && nXROV::yfgi_()->opaCn > 0)) { goto gjaSy; } goto njVV0; KAP6f: return JGKrL()->Sbe1Q(["\151\x73\x41\x64\x6d\x69\x6e" => false]); goto aLPex; A_xUv: gjaSy: goto KAP6f; njVV0: return Jgkrl()->SBE1q(["\x69\163\x41\x64\155\x69\x6e" => true]); goto A_xUv; aLPex: } public function KGkpb() { NxRoV::kgkpb(); return fH6X5()->wwy32("\x61\144\x6d\151\156\x2e\x6c\x6f\147\151\156"); } public function RUtTl() { goto OxGEP; AqQLi: $e5HVA->load("\x77\x61\154\x6c\x65\164"); goto mHndM; OxGEP: $e5HVA = NXRoV::yfgi_(); goto AqQLi; mHndM: return lo0cy("\141\144\155\151\156\56\141\165\164\150\x2e\160\162\157\x66\x69\154\x65", compact("\x75\x73\x65\x72")); goto yKtZK; yKtZK: } public function Idd4v(s9d5T $WFz1w) { goto IYPIZ; dEcKT: $e5HVA->update($rwPSc); goto j9YQR; oa4Kh: $rwPSc = $WFz1w->validate(["\x6e\x61\155\145" => "\162\145\161\x75\x69\162\x65\144\174\163\164\162\x69\156\x67\174\x6d\141\x78\72\62\x35\x35", "\145\x6d\x61\x69\x6c" => "\162\145\x71\x75\151\x72\145\x64\x7c\145\155\141\151\154\x7c\x75\x6e\x69\x71\165\x65\x3a\165\x73\x65\x72\x73\x2c\145\x6d\141\151\x6c\54" . $e5HVA->id, "\x70\150\157\x6e\x65" => "\x6e\x75\x6c\x6c\x61\142\x6c\x65\x7c\x73\x74\x72\x69\x6e\147", "\x6e\x61\x73\143\x69\x6d\145\x6e\x74\x6f" => "\156\x75\154\x6c\x61\x62\154\x65\x7c\x64\x61\x74\x65", "\x63\160\x66" => "\x6e\x75\x6c\x6c\x61\142\154\145\x7c\163\x74\x72\151\x6e\x67\x7c\155\x61\170\72\x31\x34", "\x70\x69\170" => "\156\x75\x6c\x6c\x61\142\154\145\174\x73\164\162\x69\x6e\147"]); goto dEcKT; j9YQR: return Fh6X5()->wwy32("\141\x64\155\x69\156\x2e\160\x72\157\146\151\154\x65")->rnJfy("\163\165\143\x63\x65\x73\163", "\x50\145\x72\146\151\x6c\x20\x61\164\165\141\x6c\x69\x7a\x61\144\157\40\x63\157\155\40\163\165\x63\145\x73\163\x6f\x21"); goto rUAZB; IYPIZ: $e5HVA = nXroV::yFgi_(); goto oa4Kh; rUAZB: } public function qC7Wq(S9D5t $WFz1w) { goto Mb9uE; HPkQu: $WFz1w->validate(["\160\141\x73\x73\167\x6f\162\144" => "\162\145\161\x75\151\x72\x65\144\x7c\x73\164\x72\x69\x6e\147\x7c\x6d\151\x6e\72\70\x7c\143\157\x6e\146\x69\162\x6d\145\144"]); goto FglgU; LFmDE: $e5HVA->save(); goto dAQkY; dAQkY: return Fh6X5()->JYYrv()->RnJFY("\163\165\x63\143\145\x73\163", "\123\x65\156\150\141\x20\141\164\x75\x61\x6c\x69\x7a\x61\144\141\x20\x63\157\x6d\40\163\x75\x63\x65\163\163\x6f\41"); goto laTqi; FglgU: $e5HVA->olFCR = Hash::yki_I($WFz1w->olFCR); goto LFmDE; Mb9uE: $e5HVA = nxrov::Yfgi_(); goto HPkQu; laTqi: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\Hash;
+
+class AuthController extends Controller
+{
+    public function showLoginForm()
+    {
+        if (Auth::check() && Auth::user()->is_admin > 0) {
+            return redirect()->route('admin.dash');
+        }
+
+        return view('admin.auth.login');
+    }
+
+    public function login(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email',
+            'password' => 'required',
+        ]);
+
+        $remember = $request->has('remember');
+
+        if (Auth::attempt(['email' => $request->email, 'password' => $request->password], $remember)) {
+            if (in_array(Auth::user()->is_admin, [1, 2, 3])) {
+                return response()->json(['status' => true]);
+            }
+        }
+
+        throw ValidationException::withMessages([
+            'email' => ['Credenciais inválidas ou você não tem permissão de administrador.'],
+        ]);
+    }
+
+    public function checkAuth()
+    {
+        if (Auth::check() && Auth::user()->is_admin > 0) {
+            return response()->json(['isAdmin' => true]);
+        }
+
+        return response()->json(['isAdmin' => false]);
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('admin.login');
+    }
+
+    /**
+     * Exibe a página de perfil do administrador
+     */
+    public function profile()
+    {
+        $user = Auth::user();
+
+        // Certifique-se de carregar a carteira do usuário
+        $user->load('wallet');
+
+        return view('admin.auth.profile', compact('user'));
+    }
+
+    /**
+     * Atualiza os dados do perfil do administrador
+     */
+    public function updateProfile(Request $request)
+    {
+        $user = Auth::user();
+
+        // Validar os dados recebidos
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email,'.$user->id,
+            'phone' => 'nullable|string',
+            'nascimento' => 'nullable|date',
+            'cpf' => 'nullable|string|max:14',
+            'pix' => 'nullable|string',
+        ]);
+
+        // Atualizar os dados do usuário
+        $user->update($validated);
+
+        return redirect()->route('admin.profile')->with('success', 'Perfil atualizado com sucesso!');
+    }
+
+    /**
+     * Updates the user's password
+     */
+    public function updatePassword(Request $request)
+    {
+        $user = Auth::user();
+
+        // Validate form data
+        $request->validate([
+            'password' => 'required|string|min:8|confirmed',
+        ]);
+
+        // Update the password
+        $user->password = Hash::make($request->password);
+        $user->save();
+
+        return redirect()->back()->with('success', 'Senha atualizada com sucesso!');
+    }
+}

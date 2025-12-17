@@ -1,8 +1,498 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:44              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\SHTeQ\Fn52m\jkli6; use JF89X\ShTEQ\FN52M\NmP37; use eC3ME\ShtEq\s9D5T; use JF89X\T0EtD\Y0XEP; use EC3Me\H2vuv\p2Qh1\X4HDi; use Ec3Me\H2VUv\TC4RX; use EC3ME\H2vUV\P2qh1\File; class aULyD extends nmP37 { public function jkbs3() { $TcAkh = Y0XeP::A9jmH("\x6f\x72\x64\145\x72", "\x61\x73\143")->get(); return lo0CY("\141\144\x6d\151\156\56\166\151\160\x5f\154\x65\x76\x65\x6c\163\56\x69\x6e\144\145\x78", compact("\x6c\x65\x76\145\154\x73")); } public function create() { return lO0Cy("\141\x64\x6d\151\156\56\166\x69\160\137\x6c\x65\x76\x65\154\163\x2e\143\x72\x65\x61\x74\145"); } public function reset(s9d5t $WFz1w) { \jf89X\T0eTd\JIkjN::c_mhy("\x69\x64", 1)->update(["\x76\151\160\137\154\145\x76\x65\154\137\154\141\163\x74\x72\145\x73\x65\x74" => WHFh3()]); return Fh6X5()->WWY32("\141\144\x6d\151\x6e\x2e\166\x69\x70\x2d\154\145\x76\145\154\163\56\151\156\144\x65\170")->RnJfY("\x73\165\x63\143\x65\x73\x73", "\116\xc3\255\166\145\x6c\x20\126\111\120\x20\x72\145\x73\x65\164\x61\x64\x6f\40\x63\157\x6d\x20\x73\165\143\x65\163\163\157\x2e"); } public function AoHqW(s9D5t $WFz1w) { goto XTp4l; wIa51: Y0XeP::create($mz4Wc); goto XUB3f; ly6Cs: $mz4Wc["\141\x63\164\x69\x76\x65"] = $WFz1w->HklbP("\x61\x63\164\151\x76\x65") ? true : false; goto LO2I0; xO1vY: $mz4Wc["\142\141\154\x61\156\x63\145\137\142\157\x6e\x75\163\137\x72\x65\167\x61\x72\x64"] = $mz4Wc["\x62\x61\x6c\141\x6e\x63\x65\137\x62\157\x6e\165\x73\137\x72\145\x77\x61\x72\x64"] ?? 0; goto jYDA_; jYDA_: $mz4Wc["\x66\x72\x65\x65\x5f\x73\x70\x69\156\163\x5f\x72\145\167\x61\162\144"] = $mz4Wc["\146\x72\145\145\x5f\x73\x70\151\x6e\x73\137\162\x65\x77\141\x72\x64"] ?? 0; goto sT_jD; LO2I0: $mz4Wc["\142\x61\154\141\x6e\143\x65\x5f\162\145\167\x61\162\144"] = $mz4Wc["\x62\141\x6c\141\156\x63\145\x5f\162\145\x77\141\x72\144"] ?? 0; goto xO1vY; XUB3f: return FH6x5()->wWy32("\x61\144\x6d\x69\x6e\x2e\166\x69\x70\55\154\145\x76\145\x6c\x73\x2e\151\156\x64\x65\x78")->rnJfY("\163\x75\143\x63\x65\163\163", "\116\xc3\xad\x76\x65\x6c\40\x56\111\x50\40\x63\x72\x69\141\x64\157\x20\x63\157\155\x20\x73\x75\x63\145\x73\163\x6f\x2e"); goto Rx_FN; d3XK0: DjjcI: goto wIa51; XTp4l: $mz4Wc = $WFz1w->validate(["\x6e\141\x6d\145" => "\162\x65\x71\x75\151\162\145\144\x7c\x73\164\162\151\156\x67\x7c\155\x61\x78\72\62\65\x35", "\154\x65\x76\145\154" => "\x72\x65\x71\165\x69\162\x65\x64\x7c\151\x6e\x74\145\x67\x65\x72\174\x6d\151\x6e\72\x31", "\155\x69\x6e\x5f\x64\x65\x70\157\x73\x69\x74" => "\x72\145\161\165\x69\162\x65\144\x7c\156\x75\x6d\145\162\x69\x63\174\x6d\151\x6e\x3a\x30", "\x6d\x61\170\x5f\144\x65\x70\x6f\x73\151\x74" => "\156\x75\x6c\154\141\142\154\x65\174\156\165\x6d\145\x72\x69\143\174\147\x74\72\155\151\x6e\x5f\144\145\160\x6f\x73\x69\x74", "\142\x65\156\145\146\x69\164\x73" => "\156\165\x6c\x6c\141\x62\154\x65\x7c\163\164\162\151\156\x67", "\157\x72\x64\x65\x72" => "\x72\x65\161\x75\151\x72\145\x64\174\x69\156\164\145\x67\145\162\x7c\155\x69\156\x3a\60", "\151\155\x61\147\145" => "\156\x75\154\x6c\x61\142\x6c\145\174\x69\155\141\x67\x65\x7c\155\151\x6d\x65\x73\72\x6a\x70\145\147\54\160\x6e\x67\x2c\152\160\147\x2c\x67\x69\x66\54\x77\x65\142\160\54\142\155\160\174\x6d\141\170\72\x32\60\64\x38", "\141\x63\x74\151\166\145" => "\156\x75\x6c\154\x61\x62\154\145\174\x62\157\x6f\154\145\x61\x6e", "\143\x6f\151\156\x73\137\162\145\167\141\x72\144" => "\162\145\161\x75\x69\162\x65\144\174\151\156\164\145\147\x65\162\174\155\151\x6e\x3a\x30", "\142\x61\x6c\x61\x6e\143\x65\137\162\145\x77\141\x72\x64" => "\x6e\x75\154\x6c\x61\x62\154\145\x7c\156\x75\155\145\x72\x69\143\174\x6d\151\156\x3a\60", "\x62\x61\154\x61\x6e\143\145\x5f\142\157\x6e\165\163\137\x72\x65\x77\141\x72\144" => "\156\x75\x6c\154\x61\x62\x6c\x65\x7c\x6e\165\155\145\x72\x69\143\x7c\155\151\156\x3a\x30", "\146\162\x65\145\137\163\x70\x69\x6e\x73\x5f\162\x65\167\x61\162\x64" => "\x6e\165\154\154\x61\142\x6c\x65\x7c\151\156\164\x65\x67\145\162\x7c\155\151\156\72\60"]); goto ly6Cs; xPIo_: $mz4Wc["\151\x6d\141\x67\x65"] = $this->OIDYO($WFz1w->file("\151\155\x61\147\x65")); goto d3XK0; sT_jD: if (!$WFz1w->t35wZ("\x69\155\141\x67\145")) { goto DjjcI; } goto xPIo_; Rx_FN: } public function E36z7(Y0XEp $pmD_k) { return lO0CY("\141\x64\x6d\151\156\56\166\151\x70\137\154\145\x76\x65\154\163\x2e\145\144\x69\164", compact("\166\151\160\114\x65\x76\x65\154")); } public function update(s9D5T $WFz1w, Y0xEp $pmD_k) { goto jTyTX; BGwfO: $mz4Wc["\x62\141\154\141\156\143\x65\137\x72\x65\167\141\x72\x64"] = $WFz1w->pC2lr("\x62\141\154\x61\x6e\x63\145\137\162\145\x77\141\x72\144", 0); goto mwf_E; Z1cyn: $pmD_k->update($mz4Wc); goto mneRr; b_8tA: if (!$pmD_k->BUVn7) { goto Rk4ty; } goto Z5586; FnQ3d: $pmD_k->save(); goto GcW9c; jTyTX: $mz4Wc = $WFz1w->validate(["\156\141\155\145" => "\162\145\x71\165\151\162\145\x64\174\x73\164\x72\151\x6e\147\x7c\x6d\x61\x78\x3a\x32\65\65", "\154\145\166\145\x6c" => "\162\x65\x71\x75\x69\x72\x65\144\x7c\x69\156\164\x65\x67\145\162\174\x6d\x69\156\x3a\x31", "\155\x69\156\137\144\x65\160\157\x73\x69\x74" => "\x72\145\x71\165\151\162\145\x64\174\x6e\x75\155\x65\162\x69\x63\x7c\x6d\x69\x6e\x3a\60", "\x6d\141\170\x5f\144\145\x70\x6f\x73\x69\164" => "\156\165\154\x6c\x61\142\x6c\x65\174\156\x75\155\x65\162\151\x63\174\x67\x74\x3a\x6d\x69\156\137\x64\x65\x70\x6f\163\151\164", "\142\x65\156\x65\x66\151\x74\x73" => "\156\x75\154\x6c\141\x62\154\145\x7c\x73\x74\162\151\x6e\x67", "\x6f\162\x64\x65\x72" => "\162\x65\161\165\x69\162\145\144\x7c\151\156\164\x65\x67\145\162\174\155\151\x6e\x3a\x30", "\x69\x6d\x61\x67\x65" => "\x6e\165\x6c\154\141\x62\154\145\174\x69\x6d\141\147\x65\x7c\155\151\155\x65\163\72\x6a\160\x65\147\x2c\160\x6e\147\x2c\x6a\x70\x67\54\147\151\x66\x2c\167\x65\142\160\x2c\142\155\x70\174\155\141\x78\x3a\x32\x30\64\70", "\141\143\x74\x69\x76\x65" => "\156\165\x6c\154\x61\x62\154\x65\174\142\x6f\157\154\x65\141\x6e", "\143\x6f\x69\x6e\163\x5f\162\x65\167\141\x72\x64" => "\x72\145\x71\165\151\162\145\144\174\x69\x6e\164\145\x67\145\x72\x7c\x6d\x69\156\x3a\60", "\142\141\154\x61\x6e\143\x65\x5f\x72\x65\167\141\x72\x64" => "\x6e\x75\154\x6c\x61\142\x6c\145\174\156\x75\155\145\x72\x69\143\x7c\x6d\x69\156\x3a\60", "\142\141\x6c\x61\x6e\143\x65\x5f\x62\x6f\156\x75\x73\137\162\x65\167\141\x72\144" => "\x6e\x75\x6c\x6c\141\x62\154\x65\x7c\156\x75\x6d\x65\162\151\x63\x7c\x6d\151\156\x3a\x30", "\x66\162\x65\x65\x5f\163\x70\x69\156\x73\137\162\x65\x77\141\x72\x64" => "\x6e\x75\x6c\x6c\141\142\154\145\x7c\x69\156\164\x65\147\145\x72\x7c\x6d\x69\x6e\72\x30"]); goto iT26W; i7ahx: if (!$WFz1w->T35Wz("\151\x6d\x61\147\x65")) { goto bZG2F; } goto b_8tA; FQPKu: $mz4Wc["\151\155\141\x67\x65"] = $this->oIDyo($WFz1w->file("\x69\155\x61\147\145")); goto zOoHE; iT26W: $mz4Wc["\x61\143\x74\x69\x76\145"] = $WFz1w->hklBp("\141\x63\164\x69\x76\145") ? true : false; goto BGwfO; xWf_0: $mz4Wc["\146\162\145\x65\x5f\x73\x70\x69\156\163\x5f\162\145\167\x61\162\x64"] = $WFz1w->Pc2lr("\146\x72\x65\145\x5f\x73\160\x69\156\x73\x5f\162\145\x77\x61\x72\x64", 0); goto i7ahx; mwf_E: $mz4Wc["\x62\141\154\x61\156\143\145\x5f\x62\x6f\x6e\x75\163\137\162\145\167\141\162\x64"] = $WFz1w->pc2Lr("\x62\x61\154\141\156\143\145\137\x62\x6f\156\x75\163\137\x72\x65\x77\x61\x72\x64", 0); goto xWf_0; zOoHE: bZG2F: goto Z1cyn; GcW9c: FW3p_: goto l3FqO; jhXWM: Rk4ty: goto FQPKu; Z5586: $this->ND6Kt($pmD_k->BUVn7); goto jhXWM; mneRr: if (!($pmD_k->ZKcx1 != $mz4Wc["\x66\x72\145\145\x5f\x73\x70\151\156\x73\x5f\162\145\167\x61\x72\144"])) { goto FW3p_; } goto f11xg; f11xg: $pmD_k->ZKcx1 = $mz4Wc["\146\x72\145\x65\x5f\163\160\x69\x6e\163\137\162\x65\x77\x61\x72\144"]; goto FnQ3d; l3FqO: return fh6X5()->WWY32("\141\144\x6d\x69\x6e\56\166\x69\160\x2d\x6c\x65\166\145\154\163\x2e\x69\x6e\x64\x65\170")->rNjfy("\x73\x75\x63\143\x65\x73\x73", "\x4e\303\255\x76\x65\x6c\40\x56\x49\x50\40\x61\x74\x75\x61\154\x69\172\141\144\x6f\x20\143\157\155\x20\x73\165\143\x65\163\163\157\x2e"); goto Do39M; Do39M: } public function destroy(y0XEP $pmD_k) { goto oHCq6; oHCq6: if (!($pmD_k->BUVn7 && File::IiBEQ(deUTm($pmD_k->BUVn7)))) { goto qbu_W; } goto CvM30; PsHf3: return fh6x5()->WwY32("\141\x64\155\x69\x6e\56\x76\x69\160\x2d\x6c\x65\166\x65\x6c\163\x2e\151\x6e\x64\x65\170")->rnjfY("\163\x75\143\143\145\163\x73", "\x4e\303\xad\x76\145\154\40\x56\x49\x50\40\145\170\x63\154\165\xc3\xad\144\157\x20\143\x6f\x6d\40\x73\165\x63\145\x73\x73\157\x2e"); goto oYxxJ; Zj8NN: $pmD_k->delete(); goto PsHf3; VraHO: qbu_W: goto Zj8NN; CvM30: File::delete(deutm($pmD_k->BUVn7)); goto VraHO; oYxxJ: } public function g9sAx(s9d5t $WFz1w) { goto Pegm_; vHDWT: VEXG1: goto Gb901; Gb901: return JGkRl()->sBE1Q(["\x73\x75\x63\x63\145\163\163" => true]); goto OT_4Q; JTJYD: foreach ($TcAkh as $nlzPa => $N0L1Y) { y0XEP::c_mHy("\x69\x64", $nlzPa)->update(["\157\162\144\x65\x72" => $N0L1Y]); r7Vv9: } goto vHDWT; Pegm_: $TcAkh = $WFz1w->pc2Lr("\x6c\145\166\145\154\163", []); goto JTJYD; OT_4Q: } private function oIdyo($xESqV) { goto L0Lpl; JXd8y: $xESqV->SDJ3_($pmaJu, $Xto9Q); goto h6Gl7; L0Lpl: $xgX3E = TC4Rx::mnrfV(9); goto yiPsR; Owao0: if (file_exists($pmaJu)) { goto qMnTE; } goto JFOiL; KlrRk: $pmaJu = deuTm("\151\155\x67\57\x72\x61\x6e\x6b\x69\x6e\147"); goto Owao0; yiPsR: $R5zrB = $xESqV->yiEKv(); goto jH1sP; JFOiL: mkdir($pmaJu, 0777, true); goto wbpGI; jH1sP: $Xto9Q = $xgX3E . "\x2e" . $R5zrB; goto KlrRk; wbpGI: qMnTE: goto JXd8y; h6Gl7: return "\x69\x6d\147\x2f\x72\x61\156\x6b\151\156\147\57" . $Xto9Q; goto UsPfA; UsPfA: } private function ND6kT($e9TsV) { goto PHSP6; PHSP6: if (!File::IiBEq(DeutM($e9TsV))) { goto JZV_f; } goto ldkng; gNcum: JZV_f: goto zuZj6; ldkng: File::delete(dEuTm($e9TsV)); goto gNcum; zuZj6: } public function tay1o(Y0xeP $pmD_k) { $ax1ED = ["\x63\x6f\x69\156\x73" => "\x43\x6f\151\156\x73", "\142\141\154\141\x6e\143\145" => "\123\x61\x6c\144\x6f\x20\x52\145\x61\154", "\x62\157\x6e\165\163" => "\123\141\x6c\x64\157\40\x42\xc3\xb4\156\x75\x73", "\x66\162\x65\145\x5f\163\x70\x69\x6e\x73" => "\x52\157\x64\141\x64\x61\x73\40\107\162\xc3\241\x74\x69\163"]; return LO0cY("\141\x64\x6d\151\156\x2e\166\x69\x70\x5f\x6c\145\x76\x65\154\x73\56\162\x65\144\x65\155\x70\164\151\x6f\156\163", compact("\166\151\160\x4c\x65\166\x65\154", "\160\x72\x69\x7a\x65\124\171\160\145\x73")); } public function gfJaX(S9d5T $WFz1w, y0xEP $pmD_k) { goto N2wAN; ggtwC: Ej_Mi: goto DkVD4; sLnFX: return eCt6g()->Vy87W($XrAG1)->E4RgN("\165\163\x75\141\x72\x69\157", function ($EbJHK) { goto E9scZ; J502Y: fE8af: goto dHlqH; E9scZ: if ($EbJHK->dNsCm) { goto fE8af; } goto hBctI; hBctI: return "\125\163\x75\xc3\xa1\162\x69\x6f\x20\x6e\xc3\243\157\x20\x65\156\143\157\156\x74\x72\141\x64\x6f"; goto vHJ9N; dHlqH: return "\x3c\x61\40\150\162\x65\146\75\42\x6a\141\x76\141\163\143\x72\151\x70\164\x3a\166\157\151\x64\x28\60\51\73\42\x20\x6f\156\x63\x6c\151\x63\x6b\x3d\x22\114\157\141\x64\101\147\145\156\x74\50\x27" . $EbJHK->ROWMV . "\47\51\73\42\40\144\141\164\141\55\x62\x73\x2d\x74\157\x67\x67\154\145\75\x22\155\157\x64\x61\x6c\42\x20\x64\x61\x74\141\55\x62\x73\55\x74\141\x72\x67\145\164\x3d\42\x23\164\x61\142\163\115\x6f\x64\141\x6c\x22\40\x63\x6c\x61\x73\163\75\x22\142\x73\x2d\164\x6f\x6f\154\164\151\160\42\40\x74\x69\164\x6c\145\75\x22\x56\x69\x73\x75\141\x6c\x69\x7a\141\x72\40\125\x73\165\303\xa1\x72\x69\157\42\40\144\141\x74\x61\x2d\x6f\x72\151\147\x69\x6e\141\154\55\x74\151\x74\154\x65\x3d\x22\x56\x69\x73\165\141\154\151\172\x61\x72\40\125\163\165\303\241\162\151\x6f\42\x3e" . $EbJHK->dNsCm->name . "\x20\x28\x49\104\x3a\x20" . $EbJHK->dNsCm->id . "\51" . "\74\x2f\x61\76"; goto V_G_l; vHJ9N: goto aQ4V_; goto J502Y; V_G_l: aQ4V_: goto bG1wl; bG1wl: })->E4rGn("\x74\x69\160\157\x5f\x70\x72\145\155\x69\157", function ($EbJHK) { goto nP2JM; nP2JM: $JkRwP = []; goto X_7hS; jrGKV: gCa3_: goto lmJ0F; qY08_: co1vI: goto s4ICF; rN8nO: if (!($EbJHK->oIMk7 > 0)) { goto h1kzt; } goto Zyz1m; rZUcA: $JkRwP[] = "\74\x73\x70\141\x6e\x20\x63\154\141\x73\163\75\42\x62\141\144\x67\x65\40\142\141\x64\x67\145\x2d\154\151\x67\150\x74\55\x73\165\143\143\x65\x73\163\x20\x6d\142\55\x32\x20\155\145\55\x31\x22\76\x53\141\x6c\x64\157\40\x52\x65\x61\x6c\x3c\57\x73\160\141\x6e\x3e"; goto KRx91; HQQVM: if (!($EbJHK->BndsH > 0)) { goto gCa3_; } goto bL80c; MITGm: h1kzt: goto HQQVM; KRx91: kRHYW: goto rN8nO; EdLJS: $JkRwP[] = "\74\x73\160\141\x6e\40\143\x6c\x61\x73\x73\75\x22\x62\141\144\147\145\40\142\x61\x64\x67\145\x2d\x6c\151\147\150\164\55\160\162\151\155\x61\162\171\x20\x6d\142\55\62\x20\155\145\55\x31\42\x3e\103\x6f\151\156\x73\74\x2f\163\160\x61\x6e\x3e"; goto qY08_; X_7hS: if (!($EbJHK->abEvH > 0)) { goto co1vI; } goto EdLJS; s4ICF: if (!($EbJHK->qMIbY > 0)) { goto kRHYW; } goto rZUcA; Zyz1m: $JkRwP[] = "\74\163\160\x61\156\40\x63\154\x61\x73\x73\x3d\42\142\141\x64\147\x65\40\142\x61\x64\x67\145\x2d\154\x69\147\150\x74\x2d\x69\156\146\x6f\x20\155\x62\55\62\40\x6d\x65\55\x31\x22\x3e\123\x61\x6c\144\157\x20\x42\303\xb4\156\x75\163\x3c\57\x73\x70\x61\156\x3e"; goto MITGm; lmJ0F: return implode("\40", $JkRwP); goto bMD9k; bL80c: $JkRwP[] = "\x3c\163\x70\x61\x6e\40\143\x6c\141\x73\x73\75\42\142\141\144\147\x65\40\142\x61\144\x67\x65\55\154\151\x67\x68\164\x2d\x77\141\x72\156\151\x6e\147\40\x6d\x62\x2d\x32\40\155\145\x2d\x31\42\76\122\157\144\141\x64\x61\x73\40\x47\162\xc3\xa1\164\151\163\74\57\x73\x70\141\x6e\76"; goto jrGKV; bMD9k: })->e4RGN("\143\157\151\156\x73", function ($EbJHK) { goto M5YWJ; rDGIZ: F4dnr: goto esStt; M5YWJ: if (!($EbJHK->abEvH > 0)) { goto F4dnr; } goto C19s1; C19s1: return number_format($EbJHK->abEvH); goto rDGIZ; esStt: return "\x3c\163\x70\141\x6e\40\x63\154\141\163\163\75\42\x74\x65\170\x74\x2d\x6d\165\164\x65\144\42\76\x2d\74\57\x73\x70\141\156\x3e"; goto iRnUd; iRnUd: })->e4RgN("\146\162\x65\145\x5f\163\160\151\x6e\x73", function ($EbJHK) { goto Asew2; MZbNF: return number_format($EbJHK->BndsH); goto KO50d; Asew2: if (!($EbJHK->BndsH > 0)) { goto RGYiH; } goto MZbNF; wQmOJ: return "\x3c\x73\160\x61\156\40\x63\x6c\x61\x73\163\x3d\42\164\145\x78\164\x2d\x6d\165\164\145\x64\42\x3e\x2d\74\x2f\x73\x70\141\x6e\x3e"; goto GUphN; KO50d: RGYiH: goto wQmOJ; GUphN: })->e4RGN("\142\x61\x6c\141\x6e\143\x65", function ($EbJHK) { goto FFQ1P; Qf3CC: return "\x3c\x73\x70\x61\156\40\143\154\141\x73\163\x3d\x22\x74\x65\170\x74\x2d\x6d\x75\x74\145\144\42\x3e\55\74\57\x73\x70\x61\x6e\76"; goto XFSwO; wDRew: return "\122\44\40" . number_format($EbJHK->qMIbY, 2, "\x2c", "\56"); goto qI1gx; qI1gx: nxDdp: goto Qf3CC; FFQ1P: if (!($EbJHK->qMIbY > 0)) { goto nxDdp; } goto wDRew; XFSwO: })->e4Rgn("\142\141\x6c\x61\156\143\x65\137\142\x6f\x6e\165\x73", function ($EbJHK) { goto U0dX9; rbSd0: return "\122\44\40" . number_format($EbJHK->oIMk7, 2, "\x2c", "\x2e"); goto pUH6J; U0dX9: if (!($EbJHK->oIMk7 > 0)) { goto MKfI4; } goto rbSd0; i6Wo7: return "\74\x73\x70\x61\x6e\40\x63\154\141\163\163\75\42\x74\145\170\x74\x2d\155\165\x74\x65\x64\x22\76\55\x3c\x2f\163\x70\141\x6e\x3e"; goto agoIH; pUH6J: MKfI4: goto i6Wo7; agoIH: })->e4rGn("\157\x6c\144\x5f\x76\141\154\165\145", function ($EbJHK) use($pmD_k) { goto b31Oz; b9ANS: K2G_J: goto ouvHG; xRe0s: return !empty($fHl0j) ? implode("\74\142\x72\76", $fHl0j) : "\x4e\x2f\x41"; goto h7Cih; Hm_98: if (!$fECu_) { goto K1j4r; } goto HD8Ws; t5gkD: $fHl0j[] = "\x43\157\151\156\x73\x3a\x20" . number_format($KIwBj->lQdEC); goto Bz0HD; o8K0a: Rx_3J: goto xRe0s; grCex: if (!$AO7EA) { goto K2G_J; } goto ijuBw; Bz0HD: AMHGJ: goto gRSQk; CETGO: $fHl0j[] = "\123\x61\x6c\144\x6f\x3a\40\x52\x24\40" . number_format($iLYKQ->lQdEC, 2, "\54", "\56"); goto IS8Jz; FysqB: if (!($EbJHK->BndsH > 0)) { goto Rx_3J; } goto OufrM; HD8Ws: $fHl0j[] = "\122\x6f\x64\141\144\141\x73\x3a\x20" . number_format($fECu_->lQdEC); goto iGO6x; bwGP0: return str_replace("\54\40", "\x3c\142\162\76", $bcs38->lQdEC); goto WYWEn; ouvHG: OT1BC: goto FysqB; bPoUD: if (!$bcs38) { goto YydO4; } goto bwGP0; c95B1: UhTLj: goto AAxuh; d1LJ1: if (!$iLYKQ) { goto YZv6E; } goto CETGO; Fq30M: if (!$KIwBj) { goto AMHGJ; } goto t5gkD; ijuBw: $fHl0j[] = "\102\xc3\xb4\x6e\x75\163\72\40\x52\44\x20" . number_format($AO7EA->lQdEC, 2, "\54", "\x2e"); goto b9ANS; iGO6x: K1j4r: goto o8K0a; AAxuh: if (!($EbJHK->oIMk7 > 0)) { goto OT1BC; } goto IGxHo; pzk2w: $iLYKQ = \jF89x\T0eTD\jklI6\RpE1u::C_MHy("\165\x73\145\162\137\x69\144", $EbJHK->ROWMV)->c_Mhy("\165\x70\144\x61\x74\145\x64\x5f\x62\x79", $pmD_k->id)->C_MHy("\164\x79\x70\145", 7)->c_MhY("\143\x72\x65\x61\164\x65\144\x5f\141\164", "\76\x3d", $EbJHK->hwpXs->DCZqV(5))->c_mHY("\143\162\145\x61\164\x65\144\x5f\141\164", "\x3c\75", $EbJHK->hwpXs->RW_8l(5))->yrkr9(); goto d1LJ1; npfWx: $KIwBj = \JF89X\T0eTd\JkLi6\RPE1u::C_mHY("\165\163\x65\162\137\x69\x64", $EbJHK->ROWMV)->C_mhY("\165\160\144\x61\x74\145\x64\x5f\142\171", $pmD_k->id)->C_mHY("\164\x79\160\145", 6)->C_MHY("\x63\162\x65\141\x74\x65\144\137\141\x74", "\76\x3d", $EbJHK->hwpXs->DczQv(5))->c_Mhy("\x63\162\x65\141\x74\x65\x64\137\x61\164", "\74\75", $EbJHK->hwpXs->Rw_8L(5))->Yrkr9(); goto Fq30M; IS8Jz: YZv6E: goto c95B1; OufrM: $fECu_ = \Jf89x\T0ETD\JkLi6\RPe1u::c_Mhy("\165\163\x65\x72\x5f\x69\144", $EbJHK->ROWMV)->c_MhY("\165\x70\144\x61\164\145\x64\x5f\142\171", $pmD_k->id)->C_MhY("\x74\x79\x70\x65", 9)->C_MHY("\x63\162\x65\141\x74\145\144\137\141\164", "\76\x3d", $EbJHK->hwpXs->dCzQV(5))->C_mHY("\143\162\x65\141\164\x65\x64\137\x61\164", "\74\x3d", $EbJHK->hwpXs->rW_8l(5))->yrKR9(); goto Hm_98; JRkp2: $fHl0j = []; goto TEJ3K; b31Oz: $bcs38 = \jf89x\t0ETD\JKli6\RPE1u::c_mhy("\165\x73\x65\x72\x5f\x69\144", $EbJHK->ROWMV)->c_mHY("\x75\x70\x64\x61\164\145\x64\x5f\x62\171", $pmD_k->id)->c_mhy("\x74\x79\160\145", 10)->c_MHy("\x63\162\x65\x61\x74\145\144\x5f\141\x74", "\x3e\75", $EbJHK->hwpXs->DCZqV(5))->C_mhy("\x63\x72\145\141\x74\145\x64\137\x61\164", "\74\x3d", $EbJHK->hwpXs->RW_8L(5))->yRkr9(); goto bPoUD; gRSQk: xWB3C: goto Ly004; IGxHo: $AO7EA = \JF89x\t0EtD\jKli6\rpe1U::C_mHy("\x75\163\145\162\137\151\x64", $EbJHK->ROWMV)->C_mHy("\165\x70\x64\141\164\x65\144\137\x62\x79", $pmD_k->id)->C_mHy("\x74\171\160\145", 8)->c_MhY("\143\x72\145\141\164\145\x64\x5f\x61\164", "\76\x3d", $EbJHK->hwpXs->dCZQv(5))->C_MHY("\143\x72\x65\141\x74\145\144\x5f\x61\x74", "\74\75", $EbJHK->hwpXs->rw_8L(5))->yrkr9(); goto grCex; WYWEn: YydO4: goto JRkp2; Ly004: if (!($EbJHK->qMIbY > 0)) { goto UhTLj; } goto pzk2w; TEJ3K: if (!($EbJHK->abEvH > 0)) { goto xWB3C; } goto npfWx; h7Cih: })->e4RGN("\156\x65\x77\x5f\166\x61\154\x75\145", function ($EbJHK) use($pmD_k) { goto FQqHv; mOfgp: if (!$bcs38) { goto mHYNS; } goto iMQ3f; jmYt6: if (!$fECu_) { goto k7ErU; } goto nSrMO; iMQ3f: return str_replace("\x2c\x20", "\x3c\142\x72\76", $bcs38->em1ku); goto mlqrN; OmuKf: JgxOJ: goto iFAI_; ok0kj: aCEh3: goto eKPYG; d75Cl: JxWMi: goto OmuKf; Qj_UQ: k7ErU: goto ok0kj; rnGWv: if (!$KIwBj) { goto JxWMi; } goto dIckd; HD5k4: if (!$iLYKQ) { goto C9QJh; } goto oMKK2; YNaFN: CSCDC: goto UpZBc; UNJJ_: $KIwBj = \JF89x\T0ETd\jkLi6\rpe1u::c_mhY("\165\163\x65\162\x5f\x69\x64", $EbJHK->ROWMV)->c_mHY("\x75\160\144\x61\x74\x65\144\137\x62\x79", $pmD_k->id)->c_mhY("\x74\x79\160\145", 6)->C_MhY("\143\162\x65\141\x74\145\x64\137\x61\x74", "\x3e\x3d", $EbJHK->hwpXs->dczqV(5))->C_MhY("\x63\162\x65\x61\x74\145\x64\x5f\141\164", "\x3c\x3d", $EbJHK->hwpXs->Rw_8l(5))->Yrkr9(); goto rnGWv; j3m4Q: if (!($EbJHK->oIMk7 > 0)) { goto higuG; } goto Qqhly; dIckd: $fHl0j[] = "\103\157\x69\156\x73\x3a\x20" . number_format($KIwBj->em1ku); goto d75Cl; UpZBc: higuG: goto f4Mha; mlqrN: mHYNS: goto HVTeE; f4Mha: if (!($EbJHK->BndsH > 0)) { goto aCEh3; } goto PA9WC; eKPYG: return !empty($fHl0j) ? implode("\x3c\142\x72\76", $fHl0j) : "\x4e\57\x41"; goto pMf14; EAJ3S: XBXo5: goto j3m4Q; m1sv_: if (!$AO7EA) { goto CSCDC; } goto lFWRV; dAJKy: C9QJh: goto EAJ3S; iFAI_: if (!($EbJHK->qMIbY > 0)) { goto XBXo5; } goto ZISmg; tJdmz: if (!($EbJHK->abEvH > 0)) { goto JgxOJ; } goto UNJJ_; PA9WC: $fECu_ = \JF89X\t0eTd\JKlI6\RPe1u::C_Mhy("\x75\163\x65\x72\x5f\x69\x64", $EbJHK->ROWMV)->C_MHy("\x75\x70\x64\141\x74\x65\x64\137\x62\171", $pmD_k->id)->c_mHy("\x74\x79\x70\x65", 9)->C_mhy("\x63\x72\x65\141\x74\145\144\x5f\x61\164", "\x3e\75", $EbJHK->hwpXs->DcZQv(5))->C_mHy("\143\x72\x65\141\164\x65\x64\137\141\164", "\x3c\75", $EbJHK->hwpXs->rW_8l(5))->YRkr9(); goto jmYt6; oMKK2: $fHl0j[] = "\x53\x61\154\x64\157\x3a\x20\x52\x24\40" . number_format($iLYKQ->em1ku, 2, "\54", "\x2e"); goto dAJKy; lFWRV: $fHl0j[] = "\102\xc3\xb4\156\x75\x73\72\x20\x52\x24\40" . number_format($AO7EA->em1ku, 2, "\x2c", "\x2e"); goto YNaFN; ZISmg: $iLYKQ = \Jf89X\t0etd\jklI6\RPE1U::C_mHy("\x75\x73\145\x72\137\x69\144", $EbJHK->ROWMV)->C_mHY("\x75\x70\144\x61\x74\145\144\137\142\171", $pmD_k->id)->C_MHy("\x74\x79\160\145", 7)->C_MhY("\x63\x72\145\141\x74\145\144\137\141\164", "\76\x3d", $EbJHK->hwpXs->dCzqv(5))->c_MHy("\x63\162\145\x61\164\x65\x64\137\141\164", "\74\75", $EbJHK->hwpXs->Rw_8l(5))->YrkR9(); goto HD5k4; nSrMO: $fHl0j[] = "\x52\157\x64\141\144\x61\163\x3a\40" . number_format($fECu_->em1ku); goto Qj_UQ; FQqHv: $bcs38 = \jF89X\T0eTd\JKlI6\RPE1U::C_mhy("\x75\163\x65\x72\x5f\151\x64", $EbJHK->ROWMV)->c_MhY("\x75\160\144\141\x74\x65\144\x5f\x62\171", $pmD_k->id)->C_mHY("\x74\x79\x70\x65", 10)->c_mHy("\143\x72\x65\141\x74\145\x64\x5f\141\164", "\76\x3d", $EbJHK->hwpXs->DcZQV(5))->c_Mhy("\x63\x72\x65\141\x74\x65\144\x5f\141\x74", "\x3c\x3d", $EbJHK->hwpXs->RW_8L(5))->YRKR9(); goto mOfgp; Qqhly: $AO7EA = \jf89x\T0etD\jkLI6\RPe1U::C_MhY("\165\x73\145\162\x5f\151\x64", $EbJHK->ROWMV)->c_mhY("\x75\x70\144\141\164\145\x64\137\142\171", $pmD_k->id)->C_mhY("\x74\171\x70\145", 8)->C_MHy("\x63\162\x65\x61\164\145\144\x5f\141\164", "\x3e\x3d", $EbJHK->hwpXs->DCzqV(5))->c_Mhy("\143\162\x65\x61\x74\x65\144\137\141\x74", "\74\75", $EbJHK->hwpXs->RW_8l(5))->yRKR9(); goto m1sv_; HVTeE: $fHl0j = []; goto tJdmz; pMf14: })->E4RGn("\144\x61\x74\141", function ($EbJHK) { return $EbJHK->hwpXs ? $EbJHK->hwpXs->format("\144\x2f\x6d\x2f\131\40\x48\72\151\x3a\163") : "\x4e\x2f\x41"; })->AqN5N(["\x6f\x6c\144\137\166\x61\x6c\x75\x65", "\156\x65\167\x5f\x76\x61\154\x75\x65", "\x63\x6f\x69\x6e\163", "\146\162\145\145\x5f\163\x70\x69\x6e\x73", "\x62\x61\x6c\141\156\x63\145", "\x62\141\154\141\156\143\x65\137\x62\x6f\156\165\x73", "\164\x69\160\157\x5f\x70\162\145\x6d\151\x6f", "\x75\163\165\141\x72\x69\x6f"])->zHGjb(); goto QcmLe; FsGex: switch ($i5g8p) { case "\143\157\151\x6e\163": $XrAG1->C_mhy("\143\157\x69\156\x73\137\x72\x65\x77\x61\x72\144\145\x64", "\76", 0); goto hDKFQ; case "\x62\141\x6c\x61\156\143\145": $XrAG1->c_mhY("\x62\x61\x6c\141\156\x63\145\x5f\x72\145\x77\x61\x72\x64\145\144", "\x3e", 0); goto hDKFQ; case "\142\157\x6e\x75\163": $XrAG1->c_MHY("\142\141\154\141\156\x63\145\x5f\142\x6f\x6e\165\x73\x5f\162\x65\x77\141\x72\144\145\144", "\x3e", 0); goto hDKFQ; case "\146\162\145\145\137\163\x70\151\156\x73": $XrAG1->C_MhY("\146\162\145\x65\137\163\x70\x69\156\x73\137\162\145\167\141\x72\x64\145\144", "\76", 0); goto hDKFQ; } goto F1lSD; O6V68: $i5g8p = $WFz1w->type; goto FsGex; UO_Oy: $vIrtP = $WFz1w->T0FAd; goto BA99_; zIzSd: $XrAG1->Th7aw("\143\x6c\141\x69\x6d\x65\x64\137\141\x74", "\76\75", $WFz1w->bXH45); goto S8yK_; F1lSD: gwh3Z: goto WBLnI; Yg6uy: vcDR2: goto sLnFX; N2wAN: $XrAG1 = \Jf89X\T0EtD\L3e2n::RNjFy(["\x75\163\x65\162"])->c_MHy("\166\151\160\x5f\x6c\x65\166\x65\x6c\x5f\x69\x64", $pmD_k->id)->c_Mhy("\151\163\137\143\x6c\141\x69\155\145\144", true); goto EULq1; DkVD4: if (!$WFz1w->GqK8U("\x74\x79\160\x65")) { goto vcDR2; } goto O6V68; EULq1: if (!$WFz1w->GqK8u("\x73\164\141\162\x74\137\144\141\164\145")) { goto nry2n; } goto zIzSd; WBLnI: hDKFQ: goto Yg6uy; S8yK_: nry2n: goto wcijm; BA99_: $XrAG1->uTCDy("\165\163\145\x72", function ($scVUQ) use($vIrtP) { $scVUQ->C_MHY("\156\x61\x6d\145", "\154\x69\153\145", "\45{$vIrtP}\x25")->InY8C("\x65\x6d\x61\x69\154", "\154\151\x6b\x65", "\45{$vIrtP}\x25")->INy8c("\x75\x73\x65\162\156\x61\155\145", "\154\151\x6b\x65", "\45{$vIrtP}\x25")->inY8c("\x69\144", "\x6c\151\x6b\x65", "\x25{$vIrtP}\45"); }); goto ggtwC; k7ZNG: if (!$WFz1w->gQk8u("\x73\x65\x61\162\x63\x68")) { goto Ej_Mi; } goto UO_Oy; GrRLq: dtb4r: goto k7ZNG; e9PrJ: $XrAG1->th7aW("\143\x6c\x61\151\155\x65\144\137\141\164", "\74\75", $WFz1w->kFLPI); goto GrRLq; wcijm: if (!$WFz1w->GqK8u("\x65\x6e\x64\x5f\144\x61\164\145")) { goto dtb4r; } goto e9PrJ; QcmLe: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\VipLevel;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\File;
+
+class VipLevelController extends Controller
+{
+    /**
+     * Exibir uma lista dos níveis VIP.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $levels = VipLevel::orderBy('order', 'asc')->get();
+        return view('admin.vip_levels.index', compact('levels'));
+    }
+
+    /**
+     * Mostrar o formulário para criar um novo nível VIP.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        return view('admin.vip_levels.create');
+    }
+
+    public function reset(Request $request)
+    {
+        \App\Models\Settings::where('id', 1)->update(['vip_level_lastreset' => now()]);
+
+        return redirect()->route('admin.vip-levels.index')
+            ->with('success', 'Nível VIP resetado com sucesso.');
+    }
+
+    /**
+     * Armazenar um nível VIP recém-criado.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'level' => 'required|integer|min:1',
+            'min_deposit' => 'required|numeric|min:0',
+            'max_deposit' => 'nullable|numeric|gt:min_deposit',
+            'benefits' => 'nullable|string',
+            'order' => 'required|integer|min:0',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,bmp|max:2048',
+            'active' => 'nullable|boolean',
+            'coins_reward' => 'required|integer|min:0',
+            'balance_reward' => 'nullable|numeric|min:0',
+            'balance_bonus_reward' => 'nullable|numeric|min:0',
+            'free_spins_reward' => 'nullable|integer|min:0'
+        ]);
+
+        // Definir valor padrão para active
+        $validatedData['active'] = $request->has('active') ? true : false;
+
+        // Definir valores padrão para as recompensas se não forem fornecidos
+        $validatedData['balance_reward'] = $validatedData['balance_reward'] ?? 0;
+        $validatedData['balance_bonus_reward'] = $validatedData['balance_bonus_reward'] ?? 0;
+        $validatedData['free_spins_reward'] = $validatedData['free_spins_reward'] ?? 0;
+
+        // Processar e salvar imagem, se enviada
+        if ($request->hasFile('image')) {
+            $validatedData['image'] = $this->uploadImage($request->file('image'));
+        }
+
+        VipLevel::create($validatedData);
+
+        return redirect()->route('admin.vip-levels.index')
+            ->with('success', 'Nível VIP criado com sucesso.');
+    }
+
+    /**
+     * Mostrar o formulário para editar o nível VIP especificado.
+     *
+     * @param  \App\Models\VipLevel  $vipLevel
+     * @return \Illuminate\Http\Response
+     */
+    public function edit(VipLevel $vipLevel)
+    {
+        return view('admin.vip_levels.edit', compact('vipLevel'));
+    }
+
+    /**
+     * Atualizar o nível VIP especificado.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\VipLevel  $vipLevel
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, VipLevel $vipLevel)
+    {
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'level' => 'required|integer|min:1',
+            'min_deposit' => 'required|numeric|min:0',
+            'max_deposit' => 'nullable|numeric|gt:min_deposit',
+            'benefits' => 'nullable|string',
+            'order' => 'required|integer|min:0',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,bmp|max:2048',
+            'active' => 'nullable|boolean',
+            'coins_reward' => 'required|integer|min:0',
+            'balance_reward' => 'nullable|numeric|min:0',
+            'balance_bonus_reward' => 'nullable|numeric|min:0',
+            'free_spins_reward' => 'nullable|integer|min:0'
+        ]);
+
+        // Definir valor padrão para active
+        $validatedData['active'] = $request->has('active') ? true : false;
+
+        // Definir valores padrão para as recompensas se não forem fornecidos
+        $validatedData['balance_reward'] = $request->input('balance_reward', 0);
+        $validatedData['balance_bonus_reward'] = $request->input('balance_bonus_reward', 0);
+        $validatedData['free_spins_reward'] = $request->input('free_spins_reward', 0);
+
+        // Processar e salvar imagem, se enviada
+        if ($request->hasFile('image')) {
+            // Se já existe uma imagem, excluir a antiga
+            if ($vipLevel->image) {
+                $this->deleteImage($vipLevel->image);
+            }
+
+            $validatedData['image'] = $this->uploadImage($request->file('image'));
+        }
+
+        $vipLevel->update($validatedData);
+
+        // Verificação adicional para o campo free_spins_reward
+        if ($vipLevel->free_spins_reward != $validatedData['free_spins_reward']) {
+            // Forçar atualização do campo
+            $vipLevel->free_spins_reward = $validatedData['free_spins_reward'];
+            $vipLevel->save();
+        }
+
+        return redirect()->route('admin.vip-levels.index')
+            ->with('success', 'Nível VIP atualizado com sucesso.');
+    }
+
+    /**
+     * Remover o nível VIP especificado.
+     *
+     * @param  \App\Models\VipLevel  $vipLevel
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(VipLevel $vipLevel)
+    {
+        // Remover imagem se existir
+        if ($vipLevel->image && File::exists(public_path($vipLevel->image))) {
+            File::delete(public_path($vipLevel->image));
+        }
+
+        $vipLevel->delete();
+
+        return redirect()->route('admin.vip-levels.index')
+            ->with('success', 'Nível VIP excluído com sucesso.');
+    }
+
+    /**
+     * Alterar a ordem dos níveis VIP.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function updateOrder(Request $request)
+    {
+        $levels = $request->input('levels', []);
+
+        foreach ($levels as $id => $order) {
+            VipLevel::where('id', $id)->update(['order' => $order]);
+        }
+
+        return response()->json(['success' => true]);
+    }
+
+    /**
+     * Fazer upload de imagem e retornar o caminho.
+     *
+     * @param  \Illuminate\Http\UploadedFile  $image
+     * @return string
+     */
+    private function uploadImage($image)
+    {
+        // Gerar nome aleatório com 9 dígitos
+        $randomName = Str::random(9);
+        $extension = $image->getClientOriginalExtension();
+
+        // Nome do arquivo final
+        $fileName = $randomName . '.' . $extension;
+
+        // Caminho absoluto da pasta public/img/ranking
+        $destinationPath = public_path('img/ranking');
+
+        // Criar a pasta se não existir
+        if (!file_exists($destinationPath)) {
+            mkdir($destinationPath, 0777, true);
+        }
+
+        // Mover o arquivo para a pasta public/img/ranking
+        $image->move($destinationPath, $fileName);
+
+        // Retornar o caminho relativo para salvar no banco de dados
+        return 'img/ranking/' . $fileName;
+    }
+
+    private function deleteImage($imagePath)
+    {
+        // Remover imagem antiga se existir
+        if (File::exists(public_path($imagePath))) {
+            File::delete(public_path($imagePath));
+        }
+    }
+
+    /**
+     * Exibir os resgates de recompensas do nível VIP.
+     *
+     * @param  \App\Models\VipLevel  $vipLevel
+     * @return \Illuminate\Http\Response
+     */
+    public function redemptions(VipLevel $vipLevel)
+    {
+        // Definir os tipos de prêmios disponíveis para o filtro
+        $prizeTypes = [
+            'coins' => 'Coins',
+            'balance' => 'Saldo Real',
+            'bonus' => 'Saldo Bônus',
+            'free_spins' => 'Rodadas Grátis'
+        ];
+
+        return view('admin.vip_levels.redemptions', compact('vipLevel', 'prizeTypes'));
+    }
+
+    /**
+     * Obter dados de resgates para o datatable.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\VipLevel  $vipLevel
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function redemptionsData(Request $request, VipLevel $vipLevel)
+    {
+        $query = \App\Models\VipReward::with(['user'])
+            ->where('vip_level_id', $vipLevel->id)
+            ->where('is_claimed', true);
+
+        // Filtrar por data inicial
+        if ($request->filled('start_date')) {
+            $query->whereDate('claimed_at', '>=', $request->start_date);
+        }
+
+        // Filtrar por data final
+        if ($request->filled('end_date')) {
+            $query->whereDate('claimed_at', '<=', $request->end_date);
+        }
+
+        // Filtrar por usuário
+        if ($request->filled('search')) {
+            $search = $request->search;
+            $query->whereHas('user', function($q) use ($search) {
+                $q->where('name', 'like', "%{$search}%")
+                    ->orWhere('email', 'like', "%{$search}%")
+                    ->orWhere('username', 'like', "%{$search}%")
+                    ->orWhere('id', 'like', "%{$search}%");
+            });
+        }
+
+        // Filtrar por tipo de prêmio
+        if ($request->filled('type')) {
+            $type = $request->type;
+            switch ($type) {
+                case 'coins':
+                    $query->where('coins_rewarded', '>', 0);
+                    break;
+                case 'balance':
+                    $query->where('balance_rewarded', '>', 0);
+                    break;
+                case 'bonus':
+                    $query->where('balance_bonus_rewarded', '>', 0);
+                    break;
+                case 'free_spins':
+                    $query->where('free_spins_rewarded', '>', 0);
+                    break;
+            }
+        }
+
+        return datatables()->of($query)
+            ->addColumn('usuario', function ($reward) {
+                if ($reward->user) {
+                    return '<a href="javascript:void(0);" onclick="LoadAgent(\'' . $reward->user_id . '\');" data-bs-toggle="modal" data-bs-target="#tabsModal" class="bs-tooltip" title="Visualizar Usuário" data-original-title="Visualizar Usuário">' .
+                        $reward->user->name . ' (ID: ' . $reward->user->id . ')' .
+                        '</a>';
+                } else {
+                    return 'Usuário não encontrado';
+                }
+            })
+            ->addColumn('tipo_premio', function ($reward) {
+                $badges = [];
+
+                if ($reward->coins_rewarded > 0) {
+                    $badges[] = '<span class="badge badge-light-primary mb-2 me-1">Coins</span>';
+                }
+
+                if ($reward->balance_rewarded > 0) {
+                    $badges[] = '<span class="badge badge-light-success mb-2 me-1">Saldo Real</span>';
+                }
+
+                if ($reward->balance_bonus_rewarded > 0) {
+                    $badges[] = '<span class="badge badge-light-info mb-2 me-1">Saldo Bônus</span>';
+                }
+
+                if ($reward->free_spins_rewarded > 0) {
+                    $badges[] = '<span class="badge badge-light-warning mb-2 me-1">Rodadas Grátis</span>';
+                }
+
+                return implode(' ', $badges);
+            })
+            ->addColumn('coins', function ($reward) {
+                if ($reward->coins_rewarded > 0) {
+                    return number_format($reward->coins_rewarded);
+                }
+                return '<span class="text-muted">-</span>';
+            })
+            ->addColumn('free_spins', function ($reward) {
+                if ($reward->free_spins_rewarded > 0) {
+                    return number_format($reward->free_spins_rewarded);
+                }
+                return '<span class="text-muted">-</span>';
+            })
+            ->addColumn('balance', function ($reward) {
+                if ($reward->balance_rewarded > 0) {
+                    return 'R$ ' . number_format($reward->balance_rewarded, 2, ',', '.');
+                }
+                return '<span class="text-muted">-</span>';
+            })
+            ->addColumn('balance_bonus', function ($reward) {
+                if ($reward->balance_bonus_rewarded > 0) {
+                    return 'R$ ' . number_format($reward->balance_bonus_rewarded, 2, ',', '.');
+                }
+                return '<span class="text-muted">-</span>';
+            })
+            ->addColumn('old_value', function ($reward) use ($vipLevel) {
+                // Buscar log único para obter valores anteriores
+                $log = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                    ->where('updated_by', $vipLevel->id)
+                    ->where('type', 10) // Tipo 10 para recompensas de nível VIP (todos os tipos)
+                    ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                    ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                    ->first();
+
+                if ($log) {
+                    return str_replace(', ', '<br>', $log->old_value);
+                }
+
+                // Fallback para buscar logs separados (compatibilidade com registros antigos)
+                $logs = [];
+
+                if ($reward->coins_rewarded > 0) {
+                    $coinLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 6) // Tipo 6 para Coins VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($coinLog) {
+                        $logs[] = 'Coins: ' . number_format($coinLog->old_value);
+                    }
+                }
+
+                if ($reward->balance_rewarded > 0) {
+                    $balanceLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 7) // Tipo 7 para Saldo Real VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($balanceLog) {
+                        $logs[] = 'Saldo: R$ ' . number_format($balanceLog->old_value, 2, ',', '.');
+                    }
+                }
+
+                if ($reward->balance_bonus_rewarded > 0) {
+                    $bonusLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 8) // Tipo 8 para Bônus VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($bonusLog) {
+                        $logs[] = 'Bônus: R$ ' . number_format($bonusLog->old_value, 2, ',', '.');
+                    }
+                }
+
+                if ($reward->free_spins_rewarded > 0) {
+                    $spinsLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 9) // Tipo 9 para Rodadas Grátis VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($spinsLog) {
+                        $logs[] = 'Rodadas: ' . number_format($spinsLog->old_value);
+                    }
+                }
+
+                return !empty($logs) ? implode('<br>', $logs) : 'N/A';
+            })
+            ->addColumn('new_value', function ($reward) use ($vipLevel) {
+                // Buscar log único para obter valores novos
+                $log = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                    ->where('updated_by', $vipLevel->id)
+                    ->where('type', 10) // Tipo 10 para recompensas de nível VIP (todos os tipos)
+                    ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                    ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                    ->first();
+
+                if ($log) {
+                    return str_replace(', ', '<br>', $log->new_value);
+                }
+
+                // Fallback para buscar logs separados (compatibilidade com registros antigos)
+                $logs = [];
+
+                if ($reward->coins_rewarded > 0) {
+                    $coinLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 6) // Tipo 6 para Coins VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($coinLog) {
+                        $logs[] = 'Coins: ' . number_format($coinLog->new_value);
+                    }
+                }
+
+                if ($reward->balance_rewarded > 0) {
+                    $balanceLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 7) // Tipo 7 para Saldo Real VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($balanceLog) {
+                        $logs[] = 'Saldo: R$ ' . number_format($balanceLog->new_value, 2, ',', '.');
+                    }
+                }
+
+                if ($reward->balance_bonus_rewarded > 0) {
+                    $bonusLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 8) // Tipo 8 para Bônus VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($bonusLog) {
+                        $logs[] = 'Bônus: R$ ' . number_format($bonusLog->new_value, 2, ',', '.');
+                    }
+                }
+
+                if ($reward->free_spins_rewarded > 0) {
+                    $spinsLog = \App\Models\Admin\Logs::where('user_id', $reward->user_id)
+                        ->where('updated_by', $vipLevel->id)
+                        ->where('type', 9) // Tipo 9 para Rodadas Grátis VIP
+                        ->where('created_at', '>=', $reward->claimed_at->subMinutes(5))
+                        ->where('created_at', '<=', $reward->claimed_at->addMinutes(5))
+                        ->first();
+
+                    if ($spinsLog) {
+                        $logs[] = 'Rodadas: ' . number_format($spinsLog->new_value);
+                    }
+                }
+
+                return !empty($logs) ? implode('<br>', $logs) : 'N/A';
+            })
+            ->addColumn('data', function ($reward) {
+                return $reward->claimed_at ? $reward->claimed_at->format('d/m/Y H:i:s') : 'N/A';
+            })
+            ->rawColumns(['old_value', 'new_value', 'coins', 'free_spins', 'balance', 'balance_bonus', 'tipo_premio', 'usuario'])
+            ->toJson();
+    }
+}

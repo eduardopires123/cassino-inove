@@ -1,8 +1,72 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:39              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89x\SHteQ\Fn52M\jKli6; use JF89x\shteq\Fn52m\NMp37; use eC3ME\shTEQ\s9d5t; use Jf89X\t0Etd\BdqJt; use JF89x\t0ETD\AvsuJ; class W0Inb extends NmP37 { public function DUgMI() { $Ez0tS = bdqjt::YRkr9(); return lo0cy("\x61\144\x6d\151\156\x2e\x63\157\x6e\x66\151\x67\56\147\x65\x72\x61\151\163", compact("\163\145\164\164\x69\156\x67\163")); } public function OAfxE() { $Ez0tS = BdqJt::yrKr9(); return lo0cY("\x61\144\x6d\x69\156\56\x63\157\156\x66\151\x67\x2e\x62\141\156\143\157", compact("\x73\x65\164\x74\151\156\x67\163")); } public function i5leQ() { return Lo0cy("\x61\x64\155\x69\x6e\56\x63\x6f\156\x66\x69\147\56\147\141\164\145\x77\141\171\163"); } public function a08P1() { return lO0Cy("\141\144\155\151\156\56\143\157\156\x66\151\147\x2e\141\160\151\x73\147\x61\x6d\145\x73"); } public function SQgIP() { $m6cJN = AvsuJ::c_mHY("\x69\x73\137\x61\x64\x6d\151\x6e", 1)->get(); return lO0cY("\x61\144\x6d\151\156\x2e\x63\157\x6e\146\x69\x67\56\x70\x65\x72\155\x69\x73\x73\157\x65\x73", compact("\x75\163\145\162\163")); } public function O9KLW(S9d5T $WFz1w) { return fh6X5()->JyyRv()->RnJfY("\x73\x75\x63\143\x65\163\x73", "\103\157\x6e\x66\x69\147\165\x72\141\xc3\xa7\303\265\145\x73\40\163\141\154\166\141\x73\40\x63\x6f\155\40\x73\165\143\x65\x73\x73\157\x21"); } public function dcPni(S9D5t $WFz1w) { return fH6x5()->jyyRV()->RnjFy("\x73\x75\143\x63\x65\x73\163", "\103\157\156\x66\151\x67\x75\162\x61\xc3\xa7\303\265\145\x73\x20\x64\x65\x20\142\141\156\143\x6f\40\163\141\154\166\141\x73\x20\x63\157\155\40\x73\165\143\145\x73\163\x6f\41"); } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Setting;
+use App\Models\User;
+
+class AdministracaoController extends Controller
+{
+    /**
+     * Exibe a página de configurações gerais
+     */
+    public function configuracoesGerais()
+    {
+        $settings = Setting::first();
+        return view('admin.config.gerais', compact('settings'));
+    }
+    
+    /**
+     * Exibe a página de configurações de banco
+     */
+    public function banco()
+    {
+        $settings = Setting::first();
+        return view('admin.config.banco', compact('settings'));
+    }
+    
+    /**
+     * Exibe a página de configurações de gateways
+     */
+    public function gateways()
+    {
+        return view('admin.config.gateways');
+    }
+    
+    /**
+     * Exibe a página de configurações de APIs de jogos
+     */
+    public function apisGames()
+    {
+        return view('admin.config.apisgames');
+    }
+    
+    /**
+     * Exibe a página de funções e permissões
+     */
+    public function funcoesEPermissoes()
+    {
+        $users = User::where('is_admin', 1)->get();
+        return view('admin.config.permissoes', compact('users'));
+    }
+    
+    /**
+     * Salvar configurações gerais
+     */
+    public function salvarConfiguracoesGerais(Request $request)
+    {
+        // Implementação de salvamento de configurações
+        return redirect()->back()->with('success', 'Configurações salvas com sucesso!');
+    }
+    
+    /**
+     * Salvar configurações de banco
+     */
+    public function salvarBanco(Request $request)
+    {
+        // Implementação de salvamento de configurações de banco
+        return redirect()->back()->with('success', 'Configurações de banco salvas com sucesso!');
+    }
+} 

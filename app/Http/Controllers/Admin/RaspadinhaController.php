@@ -1,8 +1,350 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:42              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\shteQ\fn52m\jKli6; use jf89x\shTEq\FN52M\NmP37; use jF89x\t0etD\EGiOx; use jF89x\T0ETd\Ggf6e; use JF89x\t0EtD\fiMSw; use eC3Me\ShTEq\s9d5t; use eC3me\H2VuV\P2Qh1\pLhxG; class H1Syc extends nMp37 { public function jKbs3() { $Ao0oh = eGIOX::rNjfY("\151\x74\145\x6d\163")->XfNe7(10); return lo0Cy("\x61\x64\x6d\151\x6e\56\162\x61\x73\x70\x61\144\151\156\150\x61\x2e\151\x6e\x64\x65\170", compact("\162\x61\163\x70\x61\x64\x69\156\150\141\163")); } public function create() { return LO0Cy("\x61\144\155\x69\156\x2e\162\x61\163\x70\x61\x64\x69\156\x68\x61\56\143\x72\145\141\x74\x65"); } public function aOhqW(s9d5t $WFz1w) { goto sCIH7; S0KTu: if (!$e25Fx->LDF8P()) { goto S5TYJ; } goto sn2WD; sn2WD: return HKG9F()->v8HaD($e25Fx)->RTAUa(); goto jP3Sp; MqfQk: if (!$WFz1w->t35WZ("\x69\x6d\141\x67\145")) { goto XpItv; } goto v1ZGr; sCIH7: $e25Fx = PLHXG::YkI_i($WFz1w->p0Wsl(), ["\x6e\141\x6d\145" => "\x72\x65\161\x75\x69\x72\x65\144\174\163\164\162\151\156\147\x7c\155\x61\x78\x3a\x32\65\x35", "\x64\x65\x73\x63\x72\151\160\164\151\x6f\x6e" => "\x6e\165\154\x6c\141\142\x6c\x65\x7c\x73\164\162\151\x6e\x67", "\160\x72\151\x63\x65" => "\x72\x65\161\165\x69\162\145\144\174\156\165\155\145\162\151\x63\174\x6d\151\x6e\x3a\60\56\60\x31", "\x74\x75\162\142\x6f\x5f\x70\x72\x69\x63\145" => "\x72\145\x71\x75\x69\162\145\144\174\x6e\x75\x6d\145\x72\151\143\174\x6d\x69\156\x3a\x30\56\60\x31\174\147\x74\72\160\x72\x69\x63\145", "\x72\164\160\137\160\145\x72\x63\x65\156\x74\141\x67\x65" => "\162\145\x71\165\x69\162\145\x64\x7c\156\165\155\145\x72\151\143\174\x6d\151\156\x3a\65\60\174\x6d\141\x78\x3a\x39\65", "\164\165\162\x62\x6f\137\x62\157\157\x73\x74\x5f\160\145\162\143\145\x6e\164\141\147\145" => "\x72\145\161\165\x69\162\145\144\x7c\156\165\155\145\162\x69\x63\x7c\155\x69\156\x3a\x30\x7c\155\x61\170\x3a\x32\x30", "\x69\x6d\x61\x67\145" => "\x6e\x75\154\154\x61\142\x6c\x65\x7c\151\x6d\x61\147\145\x7c\155\x69\x6d\x65\x73\72\x6a\160\x65\x67\54\x70\156\147\x2c\152\160\147\54\x67\151\x66\x2c\167\x65\142\160\x2c\x61\x76\151\x66\x7c\x6d\x61\x78\72\62\60\64\x38"], ["\156\141\x6d\145\56\162\x65\x71\165\x69\x72\145\144" => "\117\x20\156\x6f\155\x65\40\303\251\40\x6f\x62\x72\151\x67\x61\164\xc3\263\x72\x69\157", "\x70\x72\151\x63\x65\56\x72\145\x71\x75\x69\x72\145\x64" => "\x4f\40\160\x72\145\xc3\xa7\x6f\40\xc3\251\40\x6f\x62\x72\151\x67\141\164\303\263\x72\x69\x6f", "\x70\x72\x69\143\145\x2e\155\151\x6e" => "\x4f\40\160\162\145\xc3\xa7\157\40\144\145\x76\145\40\163\x65\162\x20\155\x61\x69\x6f\x72\x20\x71\165\x65\40\x7a\145\162\157", "\x74\165\x72\142\x6f\x5f\x70\x72\x69\x63\x65\56\162\145\x71\x75\151\162\145\x64" => "\117\40\x70\162\x65\303\xa7\157\40\x74\165\x72\x62\157\x20\xc3\xa9\x20\157\x62\162\151\x67\x61\164\303\xb3\x72\x69\157", "\164\x75\162\142\157\137\160\x72\151\143\145\56\x67\164" => "\117\40\160\162\145\303\xa7\157\x20\x74\x75\162\x62\x6f\x20\x64\145\166\145\x20\x73\145\162\40\x6d\x61\x69\157\162\40\x71\165\x65\x20\x6f\x20\160\162\145\303\xa7\x6f\x20\x6e\x6f\162\155\x61\x6c", "\162\164\x70\137\x70\145\x72\143\145\156\164\x61\x67\x65\x2e\162\x65\x71\165\151\x72\145\x64" => "\x4f\40\x52\x54\x50\40\303\251\40\157\x62\162\151\x67\141\x74\xc3\263\x72\151\157", "\x72\x74\160\137\x70\145\162\x63\145\x6e\x74\141\x67\x65\56\x6d\151\156" => "\x4f\x20\122\x54\120\x20\144\145\x76\145\x20\163\145\x72\40\156\x6f\x20\x6d\xc3\255\x6e\x69\x6d\157\40\65\60\x25", "\x72\x74\x70\137\160\x65\x72\x63\x65\156\164\x61\x67\x65\x2e\x6d\x61\x78" => "\117\x20\122\124\120\x20\144\x65\166\x65\40\163\x65\x72\40\156\x6f\40\x6d\303\241\x78\151\155\157\x20\71\x35\45", "\164\165\x72\142\x6f\137\x62\157\x6f\x73\x74\x5f\160\x65\162\x63\145\x6e\x74\141\147\145\x2e\x72\145\161\165\151\162\x65\144" => "\117\40\x42\x6f\157\163\x74\x20\124\x75\x72\x62\x6f\40\303\xa9\x20\157\142\x72\x69\147\x61\x74\303\263\162\x69\x6f", "\164\x75\162\x62\157\x5f\x62\157\x6f\x73\x74\137\x70\145\x72\x63\145\x6e\164\x61\147\145\56\155\x69\156" => "\117\40\x42\157\157\163\x74\x20\x54\165\162\x62\x6f\40\x64\145\166\145\40\163\x65\x72\x20\x6e\x6f\40\x6d\303\xad\156\151\x6d\157\x20\60\x25", "\x74\165\162\x62\x6f\137\x62\x6f\x6f\163\x74\137\x70\x65\x72\x63\x65\x6e\x74\141\147\145\56\155\141\170" => "\x4f\40\102\x6f\x6f\163\x74\40\x54\x75\x72\142\157\x20\x64\x65\x76\145\x20\163\145\162\40\156\157\40\x6d\303\xa1\170\x69\x6d\157\40\62\x30\x25", "\151\x6d\x61\x67\x65\56\x69\155\x61\x67\x65" => "\x4f\x20\141\162\161\x75\x69\166\x6f\x20\144\145\x76\x65\x20\163\145\162\x20\x75\155\x61\40\x69\x6d\141\x67\x65\155", "\x69\155\141\147\145\56\155\151\155\145\163" => "\101\40\x69\x6d\141\x67\x65\x6d\40\144\x65\166\x65\x20\x73\145\x72\40\x6e\157\x73\x20\146\157\x72\155\x61\164\x6f\163\72\40\152\x70\145\x67\x2c\x20\x70\x6e\147\54\x20\x6a\160\x67\x2c\40\147\x69\146\54\x20\x77\145\142\x70\54\x20\141\x76\x69\x66", "\151\x6d\x61\x67\x65\x2e\155\141\170" => "\101\x20\x69\155\141\x67\145\x6d\40\x6e\xc3\xa3\x6f\x20\x70\x6f\144\145\40\x73\145\x72\x20\x6d\x61\x69\x6f\162\40\161\x75\x65\40\62\115\x42"]); goto S0KTu; S9FvB: if (file_exists($P7xbj)) { goto LCGgY; } goto R8915; BbYPw: XpItv: goto c6vyR; GUMN0: $AkPYk = time() . "\137" . uniqid() . "\x2e" . $xESqV->YIEKV(); goto Bt9T2; JV1Ba: $SRJIE["\151\155\x61\147\x65"] = $AkPYk; goto BbYPw; nRlls: $SRJIE = $WFz1w->LRNQf(["\156\x61\155\145", "\x64\145\163\143\x72\x69\x70\x74\151\x6f\x6e", "\x70\x72\x69\143\145", "\164\165\162\x62\x6f\137\160\x72\x69\143\145", "\162\164\160\137\x70\145\162\143\145\156\164\141\147\145", "\164\165\162\142\x6f\x5f\142\x6f\157\163\x74\x5f\x70\x65\162\x63\145\156\x74\141\x67\145", "\151\163\x5f\x61\x63\x74\x69\x76\145"]); goto MqfQk; Bt9T2: $P7xbj = DeUtM("\162\x61\x73\160\x61\144\x69\x6e\150\141"); goto S9FvB; Wkdmu: return Fh6X5()->WwY32("\x61\144\155\x69\x6e\56\x72\141\x73\x70\141\x64\x69\156\x68\141\x2e\x69\x6e\x64\x65\170")->RNjfY("\x73\165\x63\143\145\163\x73", "\122\x61\163\160\141\144\151\156\x68\141\x20\x63\x72\x69\141\144\141\x20\x63\157\x6d\40\163\165\143\145\x73\x73\x6f\41"); goto urqLG; NqB8j: LCGgY: goto FnOHW; jP3Sp: S5TYJ: goto nRlls; FnOHW: $xESqV->sDj3_($P7xbj, $AkPYk); goto JV1Ba; v1ZGr: $xESqV = $WFz1w->file("\151\x6d\141\147\145"); goto GUMN0; R8915: mkdir($P7xbj, 0755, true); goto NqB8j; c6vyR: EgiOX::create($SRJIE); goto Wkdmu; urqLG: } public function geZB_(EGIOX $pYcOI) { $pYcOI->load("\151\x74\x65\x6d\x73", "\x68\x69\x73\x74\157\162\171\x2e\165\163\145\162"); return lO0cy("\141\x64\155\151\156\x2e\x72\141\163\160\x61\144\151\156\150\x61\56\163\150\x6f\x77", compact("\162\x61\163\160\x61\144\151\x6e\150\141")); } public function e36z7(eGiOX $pYcOI) { $pYcOI->load(["\x69\x74\x65\155\x73" => function ($XrAG1) { $XrAG1->A9JMH("\x70\x6f\x73\x69\164\151\157\x6e", "\x61\163\143"); }]); return lo0CY("\141\144\155\151\x6e\56\162\x61\x73\x70\x61\x64\x69\x6e\150\141\x2e\x65\144\151\x74", compact("\x72\141\x73\x70\141\x64\151\156\150\x61")); } public function update(S9d5T $WFz1w, egIOX $pYcOI) { goto QP4xP; Axmer: mkdir($P7xbj, 0755, true); goto gcsDs; Qr7vy: $SRJIE = $WFz1w->lRNqf(["\156\141\x6d\145", "\x64\x65\163\x63\162\151\160\164\x69\x6f\156", "\x70\162\151\x63\145", "\x74\165\162\x62\157\x5f\160\162\151\x63\145", "\x72\x74\160\x5f\x70\x65\x72\143\x65\156\164\x61\147\x65", "\164\x75\x72\142\x6f\x5f\x62\157\x6f\x73\x74\137\160\x65\162\143\145\156\164\x61\x67\x65", "\151\x73\x5f\x61\143\x74\x69\166\145"]); goto qfruW; w_UnT: $SRJIE["\151\x6d\141\x67\x65"] = $AkPYk; goto nb8RR; meEyc: $xESqV = $WFz1w->file("\151\x6d\x61\147\145"); goto nXI5G; BAikf: $pYcOI->update($SRJIE); goto zl0oA; P3rEw: $xESqV->sDj3_($P7xbj, $AkPYk); goto w_UnT; w7kQu: x1_qz: goto Qr7vy; nXI5G: $AkPYk = time() . "\x5f" . uniqid() . "\56" . $xESqV->yiEkv(); goto qtvBF; gcsDs: kXrWl: goto P3rEw; VVGX_: if (file_exists($P7xbj)) { goto kXrWl; } goto Axmer; qfruW: if (!$WFz1w->T35WZ("\151\x6d\x61\147\145")) { goto m23Q2; } goto meEyc; Xj3ql: return hkG9f()->v8HAD($e25Fx)->rtaUA(); goto w7kQu; zl0oA: return fh6x5()->wwY32("\x61\144\x6d\151\156\56\162\x61\163\x70\141\x64\x69\x6e\150\x61\x2e\151\156\x64\x65\170")->rNJFY("\x73\x75\143\x63\x65\163\163", "\x52\141\x73\160\141\144\151\156\x68\141\x20\x61\164\165\141\x6c\x69\x7a\x61\144\x61\40\x63\x6f\x6d\40\x73\x75\143\x65\x73\x73\x6f\41"); goto vasve; QP4xP: $e25Fx = PLhXg::Yki_I($WFz1w->p0WsL(), ["\x6e\x61\x6d\x65" => "\162\x65\161\x75\x69\x72\145\144\x7c\x73\x74\162\151\x6e\147\x7c\155\x61\170\72\x32\x35\65", "\x64\145\163\143\162\151\160\164\151\157\x6e" => "\156\x75\154\154\141\142\x6c\x65\x7c\x73\164\x72\151\156\147", "\160\x72\151\x63\x65" => "\x72\x65\x71\165\151\162\145\144\174\156\165\155\x65\x72\x69\x63\x7c\155\x69\156\72\60\56\60\61", "\164\x75\162\142\x6f\x5f\160\x72\x69\x63\145" => "\162\145\x71\x75\151\x72\x65\x64\174\156\165\155\x65\x72\151\143\174\155\x69\156\72\60\56\60\x31\x7c\x67\x74\72\x70\x72\151\x63\x65", "\x72\164\x70\137\x70\145\162\x63\145\156\x74\141\x67\145" => "\x72\x65\161\x75\151\x72\x65\x64\x7c\x6e\165\x6d\145\x72\151\143\x7c\155\x69\x6e\x3a\x35\60\x7c\155\x61\x78\72\x39\65", "\164\x75\162\x62\157\x5f\142\157\157\x73\164\137\x70\x65\162\x63\x65\x6e\x74\141\x67\145" => "\162\x65\x71\x75\x69\162\145\x64\174\x6e\x75\155\x65\162\x69\x63\x7c\155\x69\x6e\72\60\x7c\155\x61\170\72\62\60", "\x69\x6d\x61\147\145" => "\156\x75\x6c\154\x61\x62\154\x65\174\x69\155\x61\x67\145\174\155\x69\x6d\x65\x73\72\x6a\160\x65\x67\x2c\160\156\147\54\x6a\x70\147\x2c\x67\x69\146\x2c\x77\145\x62\160\54\x61\166\151\x66\x7c\155\x61\170\72\62\x30\x34\x38"], ["\x6e\x61\x6d\x65\x2e\x72\145\161\165\x69\162\145\x64" => "\x4f\40\x6e\157\155\145\40\xc3\251\40\157\142\x72\151\x67\141\164\xc3\xb3\x72\151\157", "\x70\x72\x69\143\x65\56\x72\145\161\165\x69\162\x65\x64" => "\117\40\x70\x72\x65\303\xa7\x6f\40\xc3\xa9\x20\157\x62\162\151\147\141\x74\xc3\xb3\x72\151\157", "\160\162\x69\x63\x65\x2e\x6d\151\156" => "\117\x20\x70\162\x65\303\xa7\x6f\40\x64\145\166\145\40\163\x65\162\x20\155\141\x69\x6f\162\40\161\x75\145\x20\172\x65\x72\x6f", "\x74\165\x72\x62\157\x5f\x70\162\x69\143\145\56\162\x65\161\x75\x69\162\145\x64" => "\117\x20\160\x72\x65\xc3\xa7\x6f\40\x74\165\x72\142\157\x20\303\251\x20\x6f\142\x72\x69\147\x61\x74\xc3\xb3\162\x69\x6f", "\x74\x75\x72\142\157\137\160\x72\151\143\145\x2e\147\x74" => "\117\40\x70\x72\x65\303\247\157\x20\164\165\162\x62\x6f\40\x64\145\x76\145\40\163\x65\x72\x20\x6d\x61\x69\x6f\x72\x20\161\165\x65\40\x6f\40\x70\x72\145\303\xa7\157\x20\156\157\162\x6d\x61\x6c", "\162\164\160\137\x70\145\x72\143\x65\156\x74\141\147\145\x2e\162\x65\161\x75\151\162\x65\144" => "\117\40\122\124\x50\x20\xc3\xa9\40\x6f\142\x72\151\x67\141\x74\xc3\xb3\x72\x69\157", "\162\x74\160\x5f\x70\x65\162\x63\145\156\164\x61\147\x65\x2e\x6d\x69\x6e" => "\x4f\x20\x52\x54\120\40\x64\145\166\x65\x20\x73\145\162\x20\156\157\40\x6d\303\255\x6e\151\155\157\x20\x35\x30\x25", "\162\164\x70\137\x70\x65\162\143\x65\156\164\141\147\x65\x2e\155\141\170" => "\x4f\x20\122\x54\x50\x20\144\x65\166\145\40\x73\x65\162\40\156\x6f\40\x6d\xc3\xa1\170\151\x6d\x6f\x20\x39\65\45", "\164\165\162\142\157\x5f\x62\157\157\x73\x74\x5f\x70\x65\162\x63\145\156\x74\141\147\145\x2e\x72\145\161\165\x69\x72\x65\x64" => "\117\x20\102\157\157\163\164\40\124\x75\x72\x62\x6f\40\xc3\xa9\x20\157\x62\x72\x69\147\x61\164\xc3\xb3\162\151\x6f", "\164\x75\x72\142\x6f\137\x62\157\157\163\164\x5f\160\145\x72\143\x65\x6e\x74\x61\147\145\x2e\x6d\x69\x6e" => "\x4f\x20\102\157\157\x73\x74\40\124\x75\x72\x62\x6f\x20\144\x65\166\145\40\163\x65\x72\x20\156\157\x20\x6d\303\255\x6e\x69\x6d\157\40\x30\x25", "\x74\x75\162\x62\157\137\142\157\x6f\x73\x74\137\160\145\162\143\x65\x6e\x74\x61\x67\x65\x2e\155\x61\x78" => "\x4f\40\x42\x6f\x6f\x73\164\x20\x54\165\x72\142\x6f\x20\x64\x65\166\145\x20\163\x65\x72\x20\156\x6f\40\x6d\303\xa1\x78\151\x6d\x6f\40\62\x30\45", "\151\155\x61\147\145\56\x69\x6d\x61\x67\145" => "\117\40\x61\x72\161\x75\x69\x76\x6f\40\x64\145\166\145\40\163\x65\x72\40\x75\x6d\141\x20\151\x6d\x61\147\x65\x6d", "\151\x6d\x61\x67\145\x2e\155\151\x6d\145\163" => "\101\x20\x69\x6d\x61\147\145\x6d\x20\144\x65\x76\145\x20\163\145\x72\40\156\157\x73\x20\x66\157\x72\155\x61\x74\157\x73\72\40\152\x70\145\x67\54\x20\160\x6e\147\54\40\152\x70\147\54\x20\x67\151\146\54\x20\x77\145\142\x70\x2c\x20\x61\166\x69\x66", "\x69\x6d\x61\147\145\56\155\x61\x78" => "\101\40\x69\155\141\147\145\155\x20\156\303\243\x6f\40\x70\157\x64\x65\x20\x73\145\162\40\x6d\141\x69\x6f\x72\x20\x71\x75\145\x20\62\x4d\102"]); goto pA4Tt; qtvBF: $P7xbj = DeuTM("\162\141\x73\160\141\x64\151\156\x68\x61"); goto VVGX_; pA4Tt: if (!$e25Fx->ldf8p()) { goto x1_qz; } goto Xj3ql; nb8RR: m23Q2: goto BAikf; vasve: } public function destroy(EGIOx $pYcOI) { goto PdEFn; PdEFn: if (!$pYcOI->lRGMb()->iIBeq()) { goto E2QNQ; } goto SlnV6; SlnV6: return HKg9F()->RnjFy("\145\162\162\x6f\162", "\116\xc3\xa3\157\x20\303\251\40\160\x6f\163\163\xc3\255\x76\x65\x6c\40\x64\145\154\x65\164\141\x72\x20\165\x6d\141\40\x72\141\163\x70\x61\144\x69\156\150\x61\40\161\x75\145\x20\x6a\303\xa1\40\x70\x6f\x73\x73\x75\x69\x20\x68\x69\x73\x74\303\263\x72\151\x63\x6f\x20\x64\145\x20\x6a\157\147\x61\144\141\x73\56"); goto vXmUe; mVezy: $pYcOI->delete(); goto K1oUM; vXmUe: E2QNQ: goto mVezy; K1oUM: return FH6x5()->WWy32("\x61\x64\155\x69\156\x2e\x72\x61\163\160\141\144\151\156\150\x61\x2e\151\156\144\145\x78")->rnJFy("\x73\x75\x63\143\145\x73\x73", "\x52\x61\163\160\x61\144\151\156\150\x61\40\144\145\x6c\x65\164\141\x64\141\x20\143\157\x6d\40\x73\165\143\x65\163\163\x6f\x21"); goto z4lCt; z4lCt: } public function iUBG9(egiOx $pYcOI) { goto j9owS; OhWMJ: return HKg9f()->Rnjfy("\x73\165\143\143\x65\x73\163", "\122\x61\163\x70\x61\x64\x69\x6e\x68\x61\x20{$P0JC8}\x20\143\157\155\x20\163\x75\x63\145\163\x73\157\x21"); goto M41SB; r0I0J: $P0JC8 = $pYcOI->bHRmm ? "\x61\x74\x69\166\141\x64\141" : "\144\x65\163\x61\164\151\166\141\x64\141"; goto OhWMJ; j9owS: $pYcOI->update(["\x69\x73\x5f\x61\143\x74\151\166\145" => !$pYcOI->bHRmm]); goto r0I0J; M41SB: } public function shcar(s9d5T $WFz1w, eGiox $pYcOI) { try { goto ceGv2; Y9cOI: foreach ($VzJp0 as $WT0D7) { goto NdMK2; XODWm: oR8Tm: goto lxMev; NdMK2: $GBeg4 = $pYcOI->MONNZ()->YLB3M($WT0D7["\x69\x64"]); goto fCIks; ffai4: lUoK3: goto XODWm; s0idg: $GBeg4->update(["\160\157\x73\x69\x74\151\x6f\x6e" => $WT0D7["\x70\x6f\163\x69\x74\x69\157\156"]]); goto ffai4; fCIks: if (!$GBeg4) { goto lUoK3; } goto s0idg; lxMev: } goto gwXiK; gwXiK: Af0pL: goto doZ7R; ceGv2: $VzJp0 = $WFz1w->PC2lR("\x69\x74\x65\155\x73", []); goto Y9cOI; doZ7R: return Jgkrl()->SbE1Q(["\x73\165\143\143\x65\x73\x73" => true, "\155\145\x73\163\141\x67\145" => "\120\157\x73\151\xc3\xa7\303\265\x65\x73\x20\141\x74\165\x61\x6c\151\172\x61\x64\x61\163\40\x63\157\155\x20\x73\x75\143\x65\x73\163\x6f\x21"]); goto D6SzZ; D6SzZ: } catch (\Exception $ai57B) { return jgkrl()->sbE1q(["\163\165\143\143\145\163\163" => false, "\x6d\145\163\163\141\147\145" => "\105\162\x72\157\x20\141\157\x20\141\164\165\x61\x6c\x69\172\x61\x72\40\x70\157\x73\x69\303\xa7\xc3\265\x65\x73\72\40" . $ai57B->getMessage()], 500); } } public function LrGMb(s9d5t $WFz1w) { $Ao0oh = egioX::P0WsL(); return lo0cy("\x61\144\155\151\x6e\56\x72\141\x73\160\x61\144\151\x6e\x68\141\56\150\151\163\x74\157\162\171", compact("\162\x61\163\160\141\x64\x69\x6e\x68\x61\x73")); } public function CNKTg(s9D5t $WFz1w) { goto Q6C7l; nkwSY: $XrAG1->Th7Aw("\x63\162\x65\x61\164\x65\x64\x5f\141\164", "\x3e\75", $WFz1w->xLCx9); goto aRlwS; vko2A: Kwb88: goto ZWz3l; WKW9_: $XrAG1->C_MHY("\162\141\163\160\141\x64\151\156\x68\141\137\x69\144", $WFz1w->IKwL9); goto heql7; nGDE_: if (!isset($zsUIF[$EJY1w])) { goto xm4uU; } goto F9HR1; QOCuj: $JkGXF = $XrAG1->get(); goto VXDvG; ZWz3l: if (!($WFz1w->gQK8u("\x73\x65\x61\162\143\150") && $WFz1w->T0FAd["\x76\x61\154\x75\x65"])) { goto yLQqK; } goto RiuRs; q9A6i: $XrAG1->c_MHY("\163\164\141\x74\165\163", $WFz1w->status); goto OrKnH; QW88u: if (!$WFz1w->GQk8U("\163\164\x61\164\165\163")) { goto BTP2F; } goto q9A6i; K0dZ9: xm4uU: goto rUBlI; mQcZX: goto ueigA; goto dKaF2; ygHCF: if (!$WFz1w->gQK8u("\x64\x61\164\x65\137\146\x72\x6f\155")) { goto oBzw9; } goto nkwSY; F9HR1: $XrAG1->A9jMh($zsUIF[$EJY1w], $QIoWh); goto K0dZ9; bVL0W: return JGKrl()->SBe1Q(["\x64\162\141\x77" => intval($WFz1w->fGpEh), "\x72\x65\x63\157\x72\x64\x73\x54\157\x74\141\154" => $bI5fQ, "\162\x65\143\x6f\162\x64\163\x46\151\154\x74\145\x72\x65\144" => $bI5fQ, "\x64\x61\x74\141" => $SRJIE]); goto cTNJ0; Q6C7l: $XrAG1 = fIMSw::rNJfy(["\x75\163\x65\162", "\x72\x61\163\160\141\x64\x69\156\150\141"]); goto mfkWS; rnsRU: foreach ($JkGXF as $lWKwN) { $SRJIE[] = ["\x69\x64" => $lWKwN->id, "\x75\x73\x75\141\162\x69\157" => $lWKwN->dNsCm ? "\74\163\x74\162\157\156\x67\76" . $lWKwN->dNsCm->name . "\74\57\163\164\x72\157\x6e\x67\x3e\74\x62\162\76\74\163\x6d\x61\154\154\x20\143\154\141\x73\x73\75\x22\164\145\x78\x74\x2d\155\x75\164\x65\x64\42\76" . $lWKwN->dNsCm->VzAAC . "\74\57\163\x6d\141\x6c\x6c\x3e" : "\74\163\160\141\x6e\x20\143\x6c\x61\163\163\75\42\x74\145\170\164\55\155\x75\164\x65\144\x22\x3e\x55\163\x75\xc3\xa1\x72\151\x6f\x20\162\x65\155\x6f\x76\x69\144\x6f\74\57\163\x70\141\x6e\x3e", "\x72\141\163\x70\141\x64\x69\x6e\150\x61" => $lWKwN->MT12A ? "\x3c\163\x74\162\x6f\x6e\147\76" . $lWKwN->MT12A->name . "\x3c\x2f\163\164\x72\x6f\156\x67\76" : "\x3c\163\x70\141\x6e\x20\x63\154\141\x73\163\75\42\164\145\170\x74\x2d\x6d\165\164\145\x64\x22\76\122\x61\163\160\141\x64\x69\156\x68\x61\40\x72\x65\x6d\157\x76\x69\x64\x61\x3c\57\x73\x70\141\x6e\x3e", "\x76\x61\x6c\157\x72\137\160\141\x67\157" => "\74\x73\x70\x61\156\40\x63\154\141\x73\x73\75\x22\x62\141\x64\x67\145\40\142\x61\144\x67\145\55\x70\x72\151\x6d\141\x72\x79\42\76\122\44\x20" . number_format($lWKwN->wj3bJ, 2, "\x2c", "\x2e") . "\x3c\x2f\x73\160\x61\x6e\x3e", "\x76\141\x6c\157\x72\137\147\141\x6e\150\157" => $lWKwN->XXqr6 > 0 ? "\x3c\x73\x70\x61\156\40\143\154\x61\163\163\75\42\x62\141\x64\147\145\40\142\x61\x64\147\x65\55\x73\165\x63\x63\x65\x73\163\x22\x3e\122\x24\40" . number_format($lWKwN->XXqr6, 2, "\54", "\x2e") . "\x3c\57\163\x70\x61\156\x3e" : "\74\163\x70\141\156\40\143\x6c\x61\x73\x73\75\x22\142\141\x64\147\x65\40\142\x61\x64\147\x65\55\x73\x65\143\x6f\156\144\x61\162\x79\x22\x3e\122\x24\x20\60\54\x30\x30\x3c\57\163\x70\141\x6e\x3e", "\164\x69\160\157" => ($lWKwN->h0OwB ? "\x3c\x73\x70\141\x6e\40\143\154\141\x73\163\75\x22\142\141\144\x67\x65\40\142\141\x64\x67\x65\x2d\x77\x61\x72\x6e\151\x6e\x67\42\76\124\x75\162\x62\x6f\74\57\x73\x70\141\156\x3e" : "\x3c\163\x70\x61\x6e\40\x63\154\x61\x73\163\75\42\x62\x61\x64\x67\x65\x20\142\x61\144\147\145\55\151\x6e\146\x6f\x22\76\x4e\x6f\x72\155\x61\154\x3c\x2f\x73\160\141\x6e\x3e") . ($lWKwN->RzGCg ? "\x3c\x62\x72\x3e\74\163\x70\x61\156\40\143\154\x61\163\x73\75\42\x62\x61\x64\x67\x65\x20\142\141\x64\147\145\x2d\x6c\151\147\x68\164\x2d\160\162\x69\x6d\x61\162\171\42\76\x41\x75\x74\x6f\40\x28" . $lWKwN->wfPpy . "\170\x29\74\x2f\163\160\x61\x6e\76" : ''), "\163\x74\141\x74\x75\163" => $lWKwN->status == "\143\x6f\x6d\x70\154\x65\164\145\x64" ? "\74\163\x70\x61\156\x20\x63\154\141\163\163\75\x22\142\141\x64\x67\145\40\142\x61\x64\147\x65\55\154\151\147\150\164\55\163\165\x63\x63\145\x73\163\42\76\x43\x6f\x6d\x70\x6c\x65\164\x6f\74\57\163\x70\141\156\76" : "\x3c\x73\160\141\x6e\40\x63\x6c\141\x73\163\x3d\42\x62\x61\144\x67\145\x20\142\141\144\x67\x65\x2d\154\x69\147\150\164\x2d\x77\141\x72\x6e\x69\x6e\147\x22\76" . ucfirst($lWKwN->status) . "\74\x2f\x73\x70\141\x6e\76", "\x64\x61\x74\141" => "\x3c\x73\x70\x61\156\x20\x74\x69\164\x6c\x65\75\42" . $lWKwN->RvvCO->format("\144\57\x6d\x2f\x59\x20\110\x3a\x69\x3a\163") . "\x22\x3e" . $lWKwN->RvvCO->format("\x64\x2f\x6d\57\131") . "\74\142\162\x3e\x3c\x73\x6d\x61\154\154\40\143\x6c\141\x73\x73\x3d\x22\x74\x65\170\x74\55\155\165\x74\x65\144\x22\76" . $lWKwN->RvvCO->format("\110\72\x69") . "\x3c\57\x73\x6d\141\x6c\x6c\76\x3c\57\x73\160\x61\x6e\76"]; VzA_y: } goto myhYK; RiuRs: $PDqbM = $WFz1w->T0FAd["\x76\141\154\165\145"]; goto jQYxQ; VXDvG: $SRJIE = []; goto rnsRU; heql7: JxUzq: goto QW88u; vQ6_v: $EJY1w = $WFz1w->bPocX[0]["\143\157\x6c\165\x6d\x6e"]; goto afbGJ; WbYk2: tLWCd: goto QOCuj; AeCSw: $zsUIF = ["\x69\144", "\x75\163\145\x72\x5f\151\x64", "\x72\x61\x73\x70\141\x64\151\156\x68\x61\x5f\x69\x64", "\141\155\x6f\165\x6e\x74\137\x70\141\151\x64", "\x61\x6d\x6f\165\x6e\164\x5f\x77\x6f\156", "\x74\171\x70\145", "\x73\x74\x61\x74\x75\163", "\x63\162\x65\x61\x74\145\x64\x5f\x61\x74"]; goto nGDE_; lIR0b: $XrAG1->PPAUa($WFz1w->start ?? 0)->ZVy4E($WFz1w->length); goto WbYk2; ws358: $XrAG1->A9jmh("\x63\162\145\141\x74\x65\144\x5f\141\164", "\144\x65\163\143"); goto mQcZX; ku9gr: if ($WFz1w->gqK8U("\157\x72\144\x65\162")) { goto IvSfz; } goto ws358; myhYK: lKQn8: goto bVL0W; mfkWS: if (!$WFz1w->gqk8U("\162\x61\x73\x70\x61\x64\151\156\150\141\x5f\x69\144")) { goto JxUzq; } goto WKW9_; UbYkj: if (!($WFz1w->GQK8u("\154\145\x6e\147\164\x68") && $WFz1w->length != -1)) { goto tLWCd; } goto lIR0b; dKaF2: IvSfz: goto vQ6_v; OrKnH: BTP2F: goto ygHCF; afbGJ: $QIoWh = $WFz1w->bPocX[0]["\x64\151\x72"]; goto AeCSw; GqnKc: yLQqK: goto aUlcW; aRlwS: oBzw9: goto c230Y; XDiMg: $XrAG1->tH7aw("\143\162\x65\141\164\145\144\137\x61\x74", "\74\x3d", $WFz1w->S_fGq); goto vko2A; c230Y: if (!$WFz1w->GQK8U("\144\141\164\x65\137\164\x6f")) { goto Kwb88; } goto XDiMg; jQYxQ: $XrAG1->C_mHY(function ($scVUQ) use($PDqbM) { $scVUQ->uTcDY("\x75\x73\145\x72", function ($pxkX5) use($PDqbM) { $pxkX5->c_mHy("\156\x61\x6d\145", "\154\151\x6b\x65", "\45{$PDqbM}\x25")->iNY8c("\145\155\141\x69\154", "\154\x69\153\x65", "\45{$PDqbM}\45"); })->ZLElN("\162\141\x73\160\141\x64\151\156\150\141", function ($PRoPp) use($PDqbM) { $PRoPp->c_MhY("\x6e\x61\x6d\x65", "\154\x69\153\145", "\45{$PDqbM}\x25"); }); }); goto GqnKc; aUlcW: $bI5fQ = $XrAG1->count(); goto ku9gr; rUBlI: ueigA: goto UbYkj; cTNJ0: } public function slrnX() { goto rn22E; Hr1XU: $enzSX = FIMSw::RNjFY("\165\x73\x65\x72")->V6AZm("\165\x73\145\162\137\151\x64\54\40\123\x55\x4d\x28\x61\x6d\157\x75\x6e\164\x5f\x77\157\x6e\51\x20\141\163\40\x74\x6f\164\141\154\137\x77\x6f\156")->ILmBf("\x75\x73\145\x72\137\151\144")->A9jmH("\x74\x6f\x74\141\154\137\167\157\x6e", "\x64\145\163\143")->NoR_L(10)->get(); goto W_D3V; rn22E: $l1K6i = ["\164\157\164\x61\x6c\x5f\147\x61\155\x65\163" => fimsW::count(), "\x74\x6f\164\141\154\x5f\x72\x65\x76\145\156\165\145" => FImSw::uY03o("\141\x6d\157\165\x6e\164\137\x70\141\x69\x64"), "\x74\x6f\x74\141\154\x5f\x70\162\x69\x7a\x65\x73" => FImsw::UY03o("\141\x6d\x6f\165\x6e\x74\x5f\167\x6f\156"), "\x70\x72\x6f\146\x69\164" => fimSW::UY03o("\x61\x6d\x6f\x75\156\x74\137\x70\x61\151\x64") - fiMSw::uy03o("\141\155\x6f\x75\156\164\x5f\167\x6f\156"), "\164\x6f\144\x61\x79\x5f\x67\x61\155\x65\x73" => Fimsw::Th7AW("\x63\x72\145\141\164\x65\x64\137\141\164", dXq2e())->count(), "\164\x6f\144\141\171\x5f\x72\145\x76\x65\156\165\145" => Fimsw::th7aW("\143\x72\x65\x61\164\x65\144\x5f\141\164", dxQ2e())->UY03O("\x61\155\157\165\x6e\164\137\x70\x61\151\144"), "\141\x63\164\x69\166\x65\137\162\141\163\160\141\144\151\156\x68\141\x73" => egiox::hyTPn()->count()]; goto Hr1XU; W_D3V: $lPObU = FiMSw::rNjfY("\162\x61\x73\160\141\x64\151\156\x68\x61")->v6AZM("\x72\x61\x73\x70\x61\144\151\x6e\150\x61\x5f\x69\x64\x2c\x20\x43\x4f\125\x4e\124\x28\x2a\x29\x20\141\163\40\164\157\x74\141\x6c\x5f\x70\154\141\x79\163")->iLmbf("\162\x61\x73\x70\141\144\151\x6e\x68\x61\137\x69\x64")->a9jmh("\164\157\x74\x61\154\137\x70\x6c\x61\171\x73", "\x64\x65\x73\x63")->NOr_L(5)->get(); goto PrRko; PrRko: return lo0Cy("\x61\x64\155\151\156\x2e\x72\x61\x73\x70\141\x64\x69\156\x68\141\x2e\x73\164\x61\x74\151\x73\x74\x69\143\x73", compact("\x73\x74\x61\x74\163", "\164\x6f\160\x57\x69\156\x6e\x65\162\x73", "\x70\x6f\x70\165\x6c\141\x72\122\x61\x73\160\x61\x64\x69\x6e\x68\x61\163")); goto AkNL3; AkNL3: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Raspadinha;
+use App\Models\RaspadinhaItem;
+use App\Models\RaspadinhaHistory;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+
+class RaspadinhaController extends Controller
+{
+    /**
+     * Listar todas as raspadinhas
+     */
+    public function index()
+    {
+        $raspadinhas = Raspadinha::with('items')->paginate(10);
+        return view('admin.raspadinha.index', compact('raspadinhas'));
+    }
+
+    /**
+     * Mostrar formulário de criação
+     */
+    public function create()
+    {
+        return view('admin.raspadinha.create');
+    }
+
+    /**
+     * Salvar nova raspadinha
+     */
+    public function store(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'price' => 'required|numeric|min:0.01',
+            'turbo_price' => 'required|numeric|min:0.01|gt:price',
+            'rtp_percentage' => 'required|numeric|min:50|max:95',
+            'turbo_boost_percentage' => 'required|numeric|min:0|max:20',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,avif|max:2048',
+        ], [
+            'name.required' => 'O nome é obrigatório',
+            'price.required' => 'O preço é obrigatório',
+            'price.min' => 'O preço deve ser maior que zero',
+            'turbo_price.required' => 'O preço turbo é obrigatório',
+            'turbo_price.gt' => 'O preço turbo deve ser maior que o preço normal',
+            'rtp_percentage.required' => 'O RTP é obrigatório',
+            'rtp_percentage.min' => 'O RTP deve ser no mínimo 50%',
+            'rtp_percentage.max' => 'O RTP deve ser no máximo 95%',
+            'turbo_boost_percentage.required' => 'O Boost Turbo é obrigatório',
+            'turbo_boost_percentage.min' => 'O Boost Turbo deve ser no mínimo 0%',
+            'turbo_boost_percentage.max' => 'O Boost Turbo deve ser no máximo 20%',
+            'image.image' => 'O arquivo deve ser uma imagem',
+            'image.mimes' => 'A imagem deve ser nos formatos: jpeg, png, jpg, gif, webp, avif',
+            'image.max' => 'A imagem não pode ser maior que 2MB',
+        ]);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+
+        $data = $request->only(['name', 'description', 'price', 'turbo_price', 'rtp_percentage', 'turbo_boost_percentage', 'is_active']);
+
+        // Processar upload da imagem
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imageName = time() . '_' . uniqid() . '.' . $image->getClientOriginalExtension();
+            
+            // Criar diretório se não existir
+            $uploadPath = public_path('raspadinha');
+            if (!file_exists($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
+            
+            // Mover arquivo para public/raspadinha
+            $image->move($uploadPath, $imageName);
+            $data['image'] = $imageName;
+        }
+
+        Raspadinha::create($data);
+
+        return redirect()->route('admin.raspadinha.index')
+            ->with('success', 'Raspadinha criada com sucesso!');
+    }
+
+    /**
+     * Mostrar raspadinha específica
+     */
+    public function show(Raspadinha $raspadinha)
+    {
+        $raspadinha->load('items', 'history.user');
+        return view('admin.raspadinha.show', compact('raspadinha'));
+    }
+
+    /**
+     * Mostrar formulário de edição
+     */
+    public function edit(Raspadinha $raspadinha)
+    {
+        $raspadinha->load(['items' => function($query) {
+            $query->orderBy('position', 'asc');
+        }]);
+        return view('admin.raspadinha.edit', compact('raspadinha'));
+    }
+
+    /**
+     * Atualizar raspadinha
+     */
+    public function update(Request $request, Raspadinha $raspadinha)
+    {
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string|max:255',
+            'description' => 'nullable|string',
+            'price' => 'required|numeric|min:0.01',
+            'turbo_price' => 'required|numeric|min:0.01|gt:price',
+            'rtp_percentage' => 'required|numeric|min:50|max:95',
+            'turbo_boost_percentage' => 'required|numeric|min:0|max:20',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,avif|max:2048',
+        ], [
+            'name.required' => 'O nome é obrigatório',
+            'price.required' => 'O preço é obrigatório',
+            'price.min' => 'O preço deve ser maior que zero',
+            'turbo_price.required' => 'O preço turbo é obrigatório',
+            'turbo_price.gt' => 'O preço turbo deve ser maior que o preço normal',
+            'rtp_percentage.required' => 'O RTP é obrigatório',
+            'rtp_percentage.min' => 'O RTP deve ser no mínimo 50%',
+            'rtp_percentage.max' => 'O RTP deve ser no máximo 95%',
+            'turbo_boost_percentage.required' => 'O Boost Turbo é obrigatório',
+            'turbo_boost_percentage.min' => 'O Boost Turbo deve ser no mínimo 0%',
+            'turbo_boost_percentage.max' => 'O Boost Turbo deve ser no máximo 20%',
+            'image.image' => 'O arquivo deve ser uma imagem',
+            'image.mimes' => 'A imagem deve ser nos formatos: jpeg, png, jpg, gif, webp, avif',
+            'image.max' => 'A imagem não pode ser maior que 2MB',
+        ]);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+
+        $data = $request->only(['name', 'description', 'price', 'turbo_price', 'rtp_percentage', 'turbo_boost_percentage', 'is_active']);
+
+        // Processar upload da imagem
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imageName = time() . '_' . uniqid() . '.' . $image->getClientOriginalExtension();
+            
+            // Criar diretório se não existir
+            $uploadPath = public_path('raspadinha');
+            if (!file_exists($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
+            
+            // Mover arquivo para public/raspadinha
+            $image->move($uploadPath, $imageName);
+            $data['image'] = $imageName;
+        }
+
+        $raspadinha->update($data);
+
+        return redirect()->route('admin.raspadinha.index')
+            ->with('success', 'Raspadinha atualizada com sucesso!');
+    }
+
+    /**
+     * Deletar raspadinha
+     */
+    public function destroy(Raspadinha $raspadinha)
+    {
+        // Verificar se há histórico de jogadas
+        if ($raspadinha->history()->exists()) {
+            return back()->with('error', 'Não é possível deletar uma raspadinha que já possui histórico de jogadas.');
+        }
+
+        $raspadinha->delete();
+
+        return redirect()->route('admin.raspadinha.index')
+            ->with('success', 'Raspadinha deletada com sucesso!');
+    }
+
+    /**
+     * Alterar status ativo/inativo
+     */
+    public function toggleStatus(Raspadinha $raspadinha)
+    {
+        $raspadinha->update(['is_active' => !$raspadinha->is_active]);
+
+        $status = $raspadinha->is_active ? 'ativada' : 'desativada';
+        
+        return back()->with('success', "Raspadinha {$status} com sucesso!");
+    }
+
+    /**
+     * Atualizar posições dos itens
+     */
+    public function updatePositions(Request $request, Raspadinha $raspadinha)
+    {
+        try {
+            $items = $request->input('items', []);
+            
+            foreach ($items as $item) {
+                $raspadinhaItem = $raspadinha->items()->find($item['id']);
+                if ($raspadinhaItem) {
+                    $raspadinhaItem->update(['position' => $item['position']]);
+                }
+            }
+            
+            return response()->json(['success' => true, 'message' => 'Posições atualizadas com sucesso!']);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => 'Erro ao atualizar posições: ' . $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Listar histórico de jogadas
+     */
+    public function history(Request $request)
+    {
+        $raspadinhas = Raspadinha::all();
+        return view('admin.raspadinha.history', compact('raspadinhas'));
+    }
+
+    /**
+     * Dados para DataTable do histórico
+     */
+    public function historyData(Request $request)
+    {
+        $query = RaspadinhaHistory::with(['user', 'raspadinha']);
+
+        // Filtros
+        if ($request->filled('raspadinha_id')) {
+            $query->where('raspadinha_id', $request->raspadinha_id);
+        }
+
+        if ($request->filled('status')) {
+            $query->where('status', $request->status);
+        }
+
+        if ($request->filled('date_from')) {
+            $query->whereDate('created_at', '>=', $request->date_from);
+        }
+
+        if ($request->filled('date_to')) {
+            $query->whereDate('created_at', '<=', $request->date_to);
+        }
+
+        // Busca por texto (se implementada no futuro)
+        if ($request->filled('search') && $request->search['value']) {
+            $searchValue = $request->search['value'];
+            $query->where(function($q) use ($searchValue) {
+                $q->whereHas('user', function($userQuery) use ($searchValue) {
+                    $userQuery->where('name', 'like', "%{$searchValue}%")
+                             ->orWhere('email', 'like', "%{$searchValue}%");
+                })
+                ->orWhereHas('raspadinha', function($raspQuery) use ($searchValue) {
+                    $raspQuery->where('name', 'like', "%{$searchValue}%");
+                });
+            });
+        }
+
+        $totalRecords = $query->count();
+
+        // Ordenação
+        if ($request->filled('order')) {
+            $orderColumn = $request->order[0]['column'];
+            $orderDir = $request->order[0]['dir'];
+            
+            $columns = ['id', 'user_id', 'raspadinha_id', 'amount_paid', 'amount_won', 'type', 'status', 'created_at'];
+            
+            if (isset($columns[$orderColumn])) {
+                $query->orderBy($columns[$orderColumn], $orderDir);
+            }
+        } else {
+            $query->orderBy('created_at', 'desc');
+        }
+
+        // Paginação
+        if ($request->filled('length') && $request->length != -1) {
+            $query->skip($request->start ?? 0)->take($request->length);
+        }
+
+        $records = $query->get();
+
+        $data = [];
+        foreach ($records as $record) {
+            $data[] = [
+                'id' => $record->id,
+                'usuario' => $record->user ? 
+                    '<strong>' . $record->user->name . '</strong><br><small class="text-muted">' . $record->user->email . '</small>' : 
+                    '<span class="text-muted">Usuário removido</span>',
+                'raspadinha' => $record->raspadinha ? 
+                    '<strong>' . $record->raspadinha->name . '</strong>' : 
+                    '<span class="text-muted">Raspadinha removida</span>',
+                'valor_pago' => '<span class="badge badge-primary">R$ ' . number_format($record->amount_paid, 2, ',', '.') . '</span>',
+                'valor_ganho' => $record->amount_won > 0 ? 
+                    '<span class="badge badge-success">R$ ' . number_format($record->amount_won, 2, ',', '.') . '</span>' : 
+                    '<span class="badge badge-secondary">R$ 0,00</span>',
+                'tipo' => ($record->is_turbo ? '<span class="badge badge-warning">Turbo</span>' : '<span class="badge badge-info">Normal</span>') . 
+                         ($record->is_auto ? '<br><span class="badge badge-light-primary">Auto (' . $record->auto_quantity . 'x)</span>' : ''),
+                'status' => $record->status == 'completed' ? 
+                    '<span class="badge badge-light-success">Completo</span>' : 
+                    '<span class="badge badge-light-warning">' . ucfirst($record->status) . '</span>',
+                'data' => '<span title="' . $record->created_at->format('d/m/Y H:i:s') . '">' . 
+                         $record->created_at->format('d/m/Y') . '<br><small class="text-muted">' . 
+                         $record->created_at->format('H:i') . '</small></span>'
+            ];
+        }
+
+        return response()->json([
+            'draw' => intval($request->draw),
+            'recordsTotal' => $totalRecords,
+            'recordsFiltered' => $totalRecords,
+            'data' => $data
+        ]);
+    }
+
+    /**
+     * Relatório de estatísticas
+     */
+    public function statistics()
+    {
+        $stats = [
+            'total_games' => RaspadinhaHistory::count(),
+            'total_revenue' => RaspadinhaHistory::sum('amount_paid'),
+            'total_prizes' => RaspadinhaHistory::sum('amount_won'),
+            'profit' => RaspadinhaHistory::sum('amount_paid') - RaspadinhaHistory::sum('amount_won'),
+            'today_games' => RaspadinhaHistory::whereDate('created_at', today())->count(),
+            'today_revenue' => RaspadinhaHistory::whereDate('created_at', today())->sum('amount_paid'),
+            'active_raspadinhas' => Raspadinha::active()->count(),
+        ];
+
+        $topWinners = RaspadinhaHistory::with('user')
+            ->selectRaw('user_id, SUM(amount_won) as total_won')
+            ->groupBy('user_id')
+            ->orderBy('total_won', 'desc')
+            ->limit(10)
+            ->get();
+
+        $popularRaspadinhas = RaspadinhaHistory::with('raspadinha')
+            ->selectRaw('raspadinha_id, COUNT(*) as total_plays')
+            ->groupBy('raspadinha_id')
+            ->orderBy('total_plays', 'desc')
+            ->limit(5)
+            ->get();
+
+        return view('admin.raspadinha.statistics', compact('stats', 'topWinners', 'popularRaspadinhas'));
+    }
+} 

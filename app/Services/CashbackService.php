@@ -1,8 +1,905 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:49              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Nr8e2\YFU0E; use NR8E2\h7dtb\tsIJy; use nR8e2\H7dtb\WwAWK; use NR8e2\h7dtB\T4kmM; use nr8E2\h7DTB\oL1s7; use nr8E2\h7DtB\X4PwA; use Yj_ea\yJ_EA; use q7Q4H\hREMD\rkRC8\j9cuG; use Q7Q4H\HREmd\rkRc8\Log; class rs6te { public function A7GMQ(ol1s7 $FbjhY, $kwd2g = "\141\x6c\154", yJ_eA $imDFk = null, Yj_eA $JJSak = null) { goto Elkbf; wuuwn: DudzD: goto gVRTi; Ligr0: mXX6r: goto jUk4e; bNj3z: XWAjW: goto WJtQN; sHRO5: if (!($jAEQA <= 0)) { goto mXX6r; } goto nJ_Kc; YApui: return null; goto wuuwn; u4Ogc: $pqPvb = $FbjhY->fUC2l(); goto yMK4I; cdXLG: if ($DLnqz) { goto YFeVP; } goto PhKfi; ZRhDD: YcqZf: goto u4Ogc; tg5V5: if (!($BvkCY < $CA_Ig->trVPD)) { goto LFO5M; } goto Apx2X; meUhU: Mj3WB: goto saiXz; qGVUC: $CA_Ig = tSiJY::jIw67("\141\143\x74\x69\x76\145", true)->JIW67("\x69\163\x5f\147\154\157\142\141\x6c", true)->jIW67(function ($wxq3v) use($kwd2g) { $wxq3v->jIw67("\164\171\160\x65", $kwd2g)->j_B37("\164\171\x70\x65", "\x61\154\154"); })->Ko7rR(); goto bDmhs; q3RDN: if ($CA_Ig) { goto DudzD; } goto YApui; rvCyl: if ($CA_Ig->dIdLo) { goto XWAjW; } goto iWP2m; Elkbf: if ($imDFk) { goto a2I8B; } goto B4se5; heTZf: a2I8B: goto yBRNQ; PhKfi: \q7q4h\hrEMD\RkRC8\Log::nARNk("\x46\141\154\x68\x61\x20\141\x6f\40\141\x70\x6c\151\x63\141\162\40\x63\x61\163\150\142\141\x63\153\40\x61\165\164\x6f\x6d\x61\x74\x69\143\x61\155\x65\x6e\x74\x65\x20\160\141\x72\x61\x20\x75\x73\165\xc3\241\162\x69\157\x20{$FbjhY->id}"); goto RfOZ9; nJ_Kc: return null; goto Ligr0; ea8IT: $CA_Ig = TSIjy::jiW67("\x61\x63\x74\x69\x76\x65", true)->JIW67("\x76\x69\x70\137\154\145\x76\x65\x6c", $N2chf)->jiW67(function ($wxq3v) use($kwd2g) { $wxq3v->jIW67("\x74\x79\160\145", $kwd2g)->J_B37("\164\x79\x70\x65", "\x61\x6c\x6c"); })->KO7rR(); goto KMxNt; T762J: LFO5M: goto TBkOV; VXsz9: goto Mj3WB; goto bNj3z; KMxNt: if ($CA_Ig) { goto UTFwM; } goto qGVUC; iWP2m: $yQCAb = "\x43\141\163\x68\142\141\x63\153\40\147\154\x6f\142\x61\154\40\55\40{$CA_Ig->D1JCB}\x25"; goto VXsz9; TBkOV: $jAEQA = $CA_Ig->c0xX9($BvkCY); goto sHRO5; B4se5: $imDFk = yJ_EA::KywY1()->Qg1jI(); goto heTZf; gVRTi: $BvkCY = $this->PCu9B($FbjhY->id, $kwd2g, $imDFk, $JJSak); goto tg5V5; yBRNQ: if ($JJSak) { goto YcqZf; } goto TALkG; xqPLY: \q7q4h\hreMD\rKRC8\Log::info("\x43\141\163\x68\x62\141\143\x6b\40\x70\141\162\141\40\165\x73\165\303\241\162\x69\157\x20{$FbjhY->id}\40\141\x70\154\x69\143\141\x64\157\x20\141\165\x74\157\155\x61\x74\x69\143\141\x6d\145\x6e\164\x65\72\40\122\x24\x20" . number_format($jAEQA, 2, "\54", "\56")); goto MdO0P; jUk4e: $yQCAb = ''; goto rvCyl; Apx2X: return null; goto T762J; TALkG: $JJSak = yj_eA::Kywy1()->k_c7Z(); goto ZRhDD; MdO0P: a9SmE: goto l2KcF; WJtQN: $yQCAb = "\x43\141\163\x68\x62\x61\143\153\x20\126\111\120\x20\x4e\303\xad\x76\145\154\40{$CA_Ig->dIdLo}\x20\x2d\40{$CA_Ig->D1JCB}\45"; goto meUhU; KUIO6: YFeVP: goto xqPLY; EHCCQ: $DLnqz = $FFqjq->A2vNd(); goto cdXLG; saiXz: $FFqjq = X4PwA::create(["\165\163\x65\x72\x5f\151\x64" => $FbjhY->id, "\x63\x61\163\x68\x62\x61\143\x6b\137\163\x65\x74\x74\151\x6e\x67\137\x69\144" => $CA_Ig->id, "\x74\x6f\x74\141\154\137\x6c\157\163\163" => $BvkCY, "\x63\x61\x73\x68\142\141\143\153\137\x61\x6d\157\x75\156\164" => $jAEQA, "\160\x65\x72\143\x65\156\164\141\x67\x65\137\141\160\160\154\x69\145\144" => $CA_Ig->D1JCB, "\x74\x79\160\145" => $kwd2g, "\163\164\141\164\165\163" => "\160\x65\156\x64\x69\x6e\x67", "\163\164\x61\x72\x74\x5f\144\141\164\145" => $imDFk, "\145\156\144\137\x64\141\x74\145" => $JJSak, "\145\x78\x70\151\x72\x65\x73\x5f\x61\164" => yJ_eA::KYWy1()->rjFWJ($CA_Ig->gfurW), "\x6e\x6f\x74\145\163" => $yQCAb]); goto EHCCQ; RfOZ9: goto a9SmE; goto KUIO6; l2KcF: return $FFqjq; goto u36MV; yMK4I: $N2chf = $pqPvb ? $pqPvb["\x6c\x65\166\x65\154"] : 1; goto ea8IT; bDmhs: UTFwM: goto q3RDN; u36MV: } public function Pcu9B($X67Ei, $kwd2g = "\141\154\154", Yj_EA $imDFk, yj_eA $JJSak) { goto jpEGT; UlnLR: $ll5kx = 0; goto Tqd5s; nU51u: r4xD2: goto o_x1j; LfW4g: $DLe6R = t4KmM::JIw67("\x75\163\145\162\137\x69\x64", $X67Ei)->C_Cy1("\x63\162\x65\141\164\145\x64\137\x61\164", [$imDFk, $JJSak])->JIW67(function ($wxq3v) { $wxq3v->JIW67("\157\160\145\162\141\x74\151\157\x6e", "\154\157\x73\145")->j_B37("\x73\164\x61\x74\165\163", "\154\157\x73\x74"); })->dFuT4("\164\162\141\156\163\x61\x63\164\151\157\156\111\144")->zYZF7()->get()->tsdVf("\x74\162\x61\156\x73\x61\143\x74\151\157\x6e\x49\144"); goto UlnLR; BsJ9M: if (!($kwd2g === "\x61\x6c\x6c" || $kwd2g === "\x76\x69\162\164\x75\x61\x6c")) { goto r4xD2; } goto G3sc3; o_x1j: if (!($kwd2g === "\x61\154\x6c" || $kwd2g === "\163\x70\157\162\x74\x73")) { goto DIU68; } goto LfW4g; dj390: $BvkCY += $k1qS4; goto nU51u; uPHWd: DIU68: goto xBH9K; G3sc3: $k1qS4 = wWAWk::jIW67("\x75\163\145\x72\137\x69\x64", $X67Ei)->C_CY1("\x63\x72\x65\x61\164\145\144\137\x61\x74", [$imDFk, $JJSak])->Jiw67("\141\143\164\x69\x6f\156", "\x6c\157\x73\x73")->Jiw67("\x70\x72\157\166\151\144\x65\x72", "\x21\x3d", "\163\x70\157\x72\x74\163")->AfYWx("\x61\x6d\x6f\x75\156\x74"); goto dj390; xBH9K: return $BvkCY; goto Gpj0s; tbs8E: $ll5kx = J9cUG::VyWuY("\163\160\157\162\x74\x62\x65\164\x73\x75\x6d\155\141\162\171\x20\x61\x73\40\142\145\164")->join("\163\160\x6f\162\x74\142\145\x74\163\x75\155\155\x61\162\x79\40\141\163\x20\x6c\157\x73\145", function ($wzzzB) { $wzzzB->K1ohv("\x6c\x6f\x73\145\x2e\164\x72\141\156\x73\141\x63\x74\x69\x6f\x6e\111\x64", "\x3d", "\x62\x65\x74\56\x74\x72\x61\156\163\141\143\164\x69\157\x6e\x49\x64")->Jiw67(function ($wxq3v) { $wxq3v->jIW67("\154\157\163\145\56\x6f\x70\145\162\x61\x74\151\157\x6e", "\x3d", "\x6c\157\163\x65")->J_B37("\154\x6f\163\145\x2e\163\164\141\x74\x75\x73", "\75", "\x6c\x6f\x73\x74"); }); })->jiW67("\142\x65\x74\x2e\165\163\145\x72\x5f\151\x64", $X67Ei)->uCurc("\x62\x65\x74\56\x74\x72\141\x6e\163\141\143\164\151\x6f\156\x49\144", $DLe6R)->jiW67("\142\x65\164\x2e\157\x70\x65\x72\x61\164\151\x6f\156", "\144\145\x62\151\164")->AfYwx("\142\145\164\x2e\141\155\x6f\165\156\x74"); goto Qz0yJ; ZH7PV: $BvkCY += $ll5kx; goto uPHWd; jpEGT: $BvkCY = 0; goto BsJ9M; Qz0yJ: trJj5: goto ZH7PV; Tqd5s: if ($DLe6R->isEmpty()) { goto trJj5; } goto tbs8E; Gpj0s: } public function d0EEO($X67Ei, yJ_eA $imDFk, yj_ea $JJSak) { goto khtRb; b9q1c: zJurP: goto nvQTE; nvQTE: return J9CUG::VywUY("\163\160\x6f\x72\x74\x62\145\164\163\165\x6d\x6d\x61\x72\171\40\141\163\x20\154\157\x73\x65")->join("\163\160\157\162\164\x62\145\x74\163\165\155\x6d\141\x72\171\40\x61\163\x20\x62\145\164", function ($wzzzB) { $wzzzB->k1ohv("\x62\145\164\x2e\164\162\x61\x6e\x73\x61\x63\164\151\x6f\156\x49\144", "\75", "\154\157\x73\x65\x2e\164\x72\x61\156\x73\x61\143\164\151\x6f\156\111\144")->JiW67("\142\x65\x74\56\157\160\x65\162\x61\x74\x69\x6f\156", "\75", "\x64\145\x62\x69\x74"); })->jiW67("\x6c\157\x73\x65\x2e\x75\163\145\x72\137\x69\x64", $X67Ei)->ucurC("\x6c\157\163\145\56\x74\x72\141\x6e\x73\x61\x63\164\151\x6f\x6e\111\x64", $DLe6R)->JiW67(function ($wxq3v) { $wxq3v->JiW67("\x6c\x6f\x73\145\x2e\x6f\x70\145\x72\141\x74\x69\x6f\156", "\154\157\163\x65")->j_B37("\154\x6f\x73\x65\x2e\x73\164\141\x74\165\163", "\154\x6f\163\x74"); })->DFUT4("\142\x65\164\56\x74\x72\x61\156\x73\x61\143\x74\151\157\156\x49\x64", "\142\x65\x74\x2e\x63\162\x65\141\164\x65\144\x5f\x61\x74", "\142\145\164\x2e\141\155\x6f\165\156\164\x20\141\x73\40\x62\145\x74\x5f\141\x6d\157\x75\x6e\164", "\x6c\157\163\145\x2e\x61\x6d\157\165\x6e\164\x20\x61\x73\40\x6c\157\x73\145\x5f\x61\155\x6f\165\156\x74", "\x62\x65\x74\56\x62\145\x74\163\x6c\151\160")->cFxA2("\142\x65\164\x2e\x63\x72\x65\x61\164\145\144\x5f\x61\x74", "\144\145\x73\143")->get(); goto gSAKv; CyytJ: if (!$DLe6R->isEmpty()) { goto zJurP; } goto ygPnO; khtRb: $DLe6R = t4kmM::jIW67("\x75\163\x65\162\137\151\144", $X67Ei)->c_CY1("\x63\x72\145\x61\x74\145\144\137\x61\x74", [$imDFk, $JJSak])->JiW67(function ($wxq3v) { $wxq3v->jiW67("\x6f\x70\x65\x72\x61\164\x69\x6f\156", "\154\157\163\x65")->J_B37("\163\x74\141\164\165\163", "\x6c\157\163\x74"); })->DfuT4("\164\x72\x61\x6e\x73\x61\143\164\x69\157\156\x49\x64")->zYZf7()->get()->tsdvF("\164\x72\x61\156\163\x61\x63\x74\x69\157\x6e\x49\x64"); goto CyytJ; ygPnO: return HrYxQ([]); goto b9q1c; gSAKv: } public function bBAJr($X67Ei, yj_Ea $imDFk, yj_ea $JJSak) { goto K1VpN; p_OGH: if ($DLe6R->isEmpty()) { goto b92Cj; } goto kwOuM; kwOuM: $ll5kx = J9CUg::VyWuy("\163\160\157\x72\x74\x62\145\x74\x73\165\155\x6d\141\162\171\40\x61\x73\40\142\145\x74")->join("\163\x70\157\x72\x74\142\x65\x74\x73\x75\x6d\x6d\x61\162\x79\40\x61\x73\40\154\157\163\145", function ($wzzzB) { $wzzzB->K1oHV("\x6c\x6f\x73\x65\56\x74\162\141\x6e\x73\141\143\x74\151\x6f\156\111\144", "\x3d", "\x62\145\164\56\164\x72\141\156\163\x61\x63\164\x69\157\156\111\x64")->jIw67(function ($wxq3v) { $wxq3v->JIW67("\154\x6f\163\145\56\x6f\x70\145\162\141\164\151\157\x6e", "\x3d", "\x6c\157\163\145")->J_b37("\x6c\x6f\163\145\x2e\163\x74\x61\164\165\163", "\x3d", "\x6c\x6f\x73\x74"); }); })->Jiw67("\142\x65\164\56\165\x73\x65\162\x5f\x69\144", $X67Ei)->UCUrC("\142\x65\x74\x2e\164\x72\x61\156\163\x61\x63\164\151\x6f\156\111\144", $DLe6R)->Jiw67("\x62\145\164\56\x6f\x70\x65\162\x61\164\151\x6f\156", "\x64\145\142\151\x74")->afYWX("\142\x65\x74\56\x61\x6d\157\x75\x6e\x74"); goto Dnqtl; wE281: $DLe6R = T4kmm::jiW67("\x75\x73\145\x72\x5f\x69\x64", $X67Ei)->C_Cy1("\143\162\145\x61\164\145\x64\x5f\141\x74", [$imDFk, $JJSak])->JIW67(function ($wxq3v) { $wxq3v->jiw67("\157\x70\x65\x72\x61\x74\151\x6f\x6e", "\154\x6f\163\x65")->J_B37("\163\x74\141\x74\x75\x73", "\x6c\x6f\x73\164"); })->dfut4("\x74\162\x61\156\163\141\143\x74\x69\157\x6e\x49\x64")->zYZf7()->get()->tsDvf("\164\162\141\156\163\141\143\164\151\x6f\156\x49\x64"); goto COzfr; COzfr: $ll5kx = 0; goto p_OGH; mmJ4n: $w6WRi = array_sum($A00Me); goto wE281; PyS2N: return ["\166\151\x72\164\x75\141\154" => ["\164\157\x74\x61\x6c" => $w6WRi, "\142\171\x5f\x70\162\157\x76\x69\x64\145\162" => $A00Me], "\x73\160\x6f\162\x74\163" => ["\164\157\164\141\154" => $ll5kx], "\x67\x72\141\x6e\144\x5f\164\x6f\164\141\154" => $w6WRi + $ll5kx]; goto QVoYA; Dnqtl: b92Cj: goto PyS2N; K1VpN: $A00Me = wwaWk::JiW67("\165\x73\x65\x72\137\151\144", $X67Ei)->C_cY1("\143\162\145\141\x74\x65\x64\137\x61\164", [$imDFk, $JJSak])->JIW67("\141\143\x74\x69\x6f\x6e", "\x6c\157\163\163")->JIw67("\160\162\x6f\x76\x69\x64\x65\162", "\x21\75", "\163\x70\157\x72\164\x73")->DfUt4("\x70\162\x6f\166\x69\144\145\x72", j9CUG::HE0Yt("\x53\x55\x4d\50\141\x6d\x6f\165\156\x74\x29\40\141\163\x20\x74\x6f\164\141\154\x5f\x6c\x6f\163\x73"))->mAUAm("\160\x72\x6f\166\x69\x64\145\162")->get()->TSdVF("\x74\157\164\x61\154\x5f\x6c\x6f\x73\163", "\160\x72\157\x76\151\144\145\162")->toArray(); goto mmJ4n; QVoYA: } public function c3eew($YWmov) { goto YYyee; B05aw: return $Iw8tb->A2VnD(); goto O069x; YXm_S: return false; goto C9ggd; QVClN: if (!(!$Iw8tb || $Iw8tb->status !== "\x70\x65\x6e\x64\151\x6e\147")) { goto dlqJS; } goto YXm_S; YYyee: $Iw8tb = X4pwA::N9TRv($YWmov); goto QVClN; C9ggd: dlqJS: goto B05aw; O069x: } public function h1rlD(YJ_ea $imDFk, YJ_ea $JJSak) { goto gSJ0_; IwEop: oMkzN: goto jx_eb; yTRHh: foreach ($EXQfG as $Iw8tb) { goto HQ7F5; Z_VgS: $egJU7["\164\x6f\x74\x61\154\137\x61\155\157\x75\x6e\x74"] += $Iw8tb->P7_xX; goto k2iIP; HQ7F5: $egJU7["\x74\157\164\x61\x6c\137\x63\141\163\x68\142\141\x63\x6b\x73"]++; goto Z_VgS; dOL_l: $egJU7["\142\171\x5f\x74\171\x70\145"][$Iw8tb->type]["\141\x6d\x6f\x75\156\x74"] += $Iw8tb->P7_xX; goto Da037; locDv: $egJU7["\142\x79\x5f\x73\164\x61\x74\165\163"][$Iw8tb->status]["\x61\x6d\x6f\x75\156\x74"] += $Iw8tb->P7_xX; goto zXj_1; Da037: $egJU7["\x62\171\137\163\x74\141\x74\x75\x73"][$Iw8tb->status]["\x63\x6f\165\156\164"]++; goto locDv; zXj_1: Swk9j: goto rHeFW; k2iIP: $egJU7["\142\171\x5f\x74\x79\160\145"][$Iw8tb->type]["\x63\157\165\x6e\x74"]++; goto dOL_l; rHeFW: } goto IwEop; g6owO: $EXQfG = X4pWa::C_CY1("\143\x72\x65\x61\164\x65\144\137\x61\164", [$imDFk, $JJSak])->get(); goto yTRHh; gSJ0_: $egJU7 = ["\x74\157\164\x61\154\137\x63\x61\x73\150\x62\x61\x63\153\163" => 0, "\x74\157\x74\141\x6c\x5f\141\x6d\157\x75\156\164" => 0, "\x62\x79\x5f\x74\x79\x70\x65" => ["\x73\x70\157\x72\164\x73" => ["\x63\x6f\165\156\x74" => 0, "\141\x6d\x6f\x75\156\x74" => 0], "\166\151\162\164\x75\x61\x6c" => ["\x63\157\165\156\x74" => 0, "\141\155\x6f\x75\x6e\164" => 0], "\141\x6c\x6c" => ["\x63\157\165\x6e\x74" => 0, "\x61\155\157\165\156\x74" => 0]], "\x62\x79\x5f\x73\x74\141\164\x75\x73" => ["\x70\145\x6e\x64\151\156\147" => ["\x63\157\165\156\164" => 0, "\141\x6d\x6f\x75\x6e\x74" => 0], "\x63\162\145\x64\151\x74\x65\x64" => ["\143\x6f\x75\156\x74" => 0, "\141\x6d\x6f\x75\156\164" => 0], "\145\170\x70\x69\162\x65\144" => ["\143\157\x75\156\164" => 0, "\x61\x6d\157\x75\x6e\164" => 0]]]; goto g6owO; jx_eb: return $egJU7; goto PNzNe; PNzNe: } public function M7Uta(yJ_Ea $imDFk, YJ_Ea $JJSak) { goto L4sy5; Y8cGa: $LDJmB = ["\x73\160\x6f\162\164\x73" => 0, "\x76\x69\162\x74\x75\141\154" => 0]; goto M0icT; M0icT: $EXQfG = X4pwa::c_cy1("\143\x72\x65\x61\x74\x65\x64\x5f\141\164", [$imDFk, $JJSak])->get(); goto qUIEJ; uwEiU: $egJU7["\154\157\163\x73\x5f\x6f\162\x69\x67\x69\156\163"] = $LDJmB; goto RXjzx; L4sy5: $egJU7 = $this->h1RLd($imDFk, $JJSak); goto Y8cGa; qUIEJ: foreach ($EXQfG as $Iw8tb) { goto qlORx; d0HnP: goto tzMRp; goto Av4BK; Q3i4j: jriln: goto gRWmb; Av4BK: vdnDY: goto zLwdU; qlORx: if ($Iw8tb->type === "\x73\x70\157\162\164\163") { goto i9INN; } goto n4jqc; goEd4: $hBwAm = $this->bBAJR($Iw8tb->K9dXn, $Iw8tb->O4uwg, $Iw8tb->n0muR); goto Yskhe; n4jqc: if ($Iw8tb->type === "\x76\x69\162\164\165\141\154") { goto vdnDY; } goto TqkTT; ohzZG: tzMRp: goto Q3i4j; Yskhe: $LDJmB["\163\x70\157\x72\164\x73"] += $hBwAm["\x73\x70\157\x72\164\163"]["\x74\x6f\x74\x61\154"]; goto qG30r; cTuTf: i9INN: goto W55gX; APit0: goto tzMRp; goto GJHnl; W55gX: $LDJmB["\163\160\157\x72\164\163"] += $Iw8tb->yhWWq; goto d0HnP; qG30r: $LDJmB["\166\x69\162\164\x75\141\154"] += $hBwAm["\x76\x69\162\164\x75\x61\154"]["\x74\157\x74\x61\x6c"]; goto ohzZG; TqkTT: if ($Iw8tb->type === "\141\154\x6c") { goto oZKQ2; } goto xYdza; GJHnl: oZKQ2: goto goEd4; xYdza: goto tzMRp; goto cTuTf; zLwdU: $LDJmB["\166\151\x72\x74\x75\141\154"] += $Iw8tb->yhWWq; goto APit0; gRWmb: } goto JpbC9; RXjzx: return $egJU7; goto AanbH; JpbC9: rTO8x: goto uwEiU; AanbH: } public function BdcRc($kwd2g = "\x61\x6c\154") { goto zkdqN; ZoIhS: juXr_: goto slHoF; XktMY: $Tfg06 = T4KMm::c_cy1("\143\x72\x65\x61\164\x65\x64\137\141\164", [$imDFk, $JJSak])->jiw67(function ($wxq3v) { $wxq3v->jiw67("\157\x70\x65\x72\141\x74\x69\x6f\x6e", "\154\x6f\163\145")->j_B37("\163\164\x61\164\165\x73", "\154\x6f\x73\164"); })->tSdVF("\165\163\x65\x72\x5f\x69\144")->qMNoL(); goto r0VOI; mOzo3: $imDFk = YJ_EA::KYwy1()->iK8_t()->qg1Ji(); goto izxAE; r0VOI: $IlPbD = $IlPbD->lfqv1($Tfg06); goto zUfgm; YTVQU: if ($z0tzw) { goto nYqxn; } goto pjoDC; VrCQj: $xClKJ = WWAWK::c_Cy1("\x63\162\x65\x61\x74\x65\144\x5f\x61\164", [$imDFk, $JJSak])->jIw67("\x61\143\x74\151\157\x6e", "\x6c\157\x73\163")->tsdvf("\165\x73\145\x72\137\151\144")->QMNOl(); goto io5AK; uiMR0: $z0tzw = TsiJy::JIw67("\141\x63\164\x69\x76\x65", true)->jiw67("\141\165\164\157\x5f\x61\160\160\154\x79", true)->Jiw67(function ($wxq3v) use($kwd2g) { $wxq3v->jiw67("\x74\x79\x70\x65", $kwd2g)->j_b37("\x74\x79\x70\x65", "\x61\154\x6c"); })->JIW67(function ($wxq3v) { $wxq3v->jiW67("\151\163\137\147\154\x6f\142\x61\154", true)->WYG4q("\166\151\160\x5f\x6c\x65\166\x65\154"); })->ltNNK(); goto YTVQU; sxnJC: foreach ($IlPbD as $X67Ei) { try { goto dpnT7; dpnT7: $FbjhY = Ol1S7::n9TrV($X67Ei); goto iFrNd; FDtWe: $Gwo0N["\166\151\x70"]++; goto TclrF; xdmDj: if (!$Iw8tb) { goto PKIAI; } goto ToQEN; G7nBR: $CA_Ig = TSijY::n9Trv($Iw8tb->Gi_F8); goto KYjJG; dMyjl: TsyNp: goto Al59E; djYGE: goto bLRnd; goto dMyjl; db_jy: goto bLRnd; goto I0b2q; tAUv_: YPqMq: goto drLIt; slSIx: $Gwo0N["\141\155\x6f\x75\x6e\164"] += $Iw8tb->P7_xX; goto G7nBR; Al59E: $Gwo0N["\147\x6c\157\142\x61\154"]++; goto db_jy; TclrF: bLRnd: goto tAUv_; drLIt: PKIAI: goto sXrSh; zxIJH: if ($CA_Ig->WoMJ3) { goto TsyNp; } goto y5N7h; y5N7h: if ($CA_Ig->dIdLo) { goto I1DIb; } goto djYGE; I0b2q: I1DIb: goto FDtWe; v2wZl: $Iw8tb = $this->A7GMQ($FbjhY, $kwd2g, $imDFk, $JJSak); goto xdmDj; KYjJG: if (!$CA_Ig) { goto YPqMq; } goto zxIJH; HWj0Y: goto bjxC_; goto zQJ4_; iFrNd: if ($FbjhY) { goto dQ6su; } goto HWj0Y; zQJ4_: dQ6su: goto v2wZl; ToQEN: $Gwo0N["\160\162\x6f\x63\x65\163\163\x65\x64"]++; goto slSIx; sXrSh: } catch (\Exception $kAPGM) { Log::kW7cx("\105\x72\162\157\40\x61\157\x20\x70\162\x6f\x63\x65\x73\x73\x61\162\x20\143\141\163\150\x62\141\143\x6b\x20\x61\165\164\x6f\x6d\303\241\x74\151\x63\x6f\x3a\40" . $kAPGM->getMessage()); $Gwo0N["\145\x72\162\x6f\x72\163"]++; } bjxC_: } goto ZoIhS; zUfgm: ToqUW: goto kcHKw; XH886: if (!($kwd2g === "\x61\x6c\x6c" || $kwd2g === "\x73\160\x6f\x72\164\x73")) { goto ToqUW; } goto XktMY; io5AK: $IlPbD = $IlPbD->lfqv1($xClKJ); goto h4Ybf; pjoDC: return $Gwo0N; goto cVkGW; h4Ybf: g273R: goto XH886; kcHKw: $IlPbD = $IlPbD->qMNOL(); goto sxnJC; zkdqN: $Gwo0N = ["\x70\162\157\x63\145\x73\163\x65\144" => 0, "\x61\155\157\x75\x6e\164" => 0, "\145\x72\x72\157\x72\x73" => 0, "\147\154\x6f\x62\x61\154" => 0, "\166\x69\160" => 0]; goto uiMR0; cVkGW: nYqxn: goto mOzo3; slHoF: return $Gwo0N; goto TA00_; R77NB: if (!($kwd2g === "\141\x6c\154" || $kwd2g === "\x76\151\x72\x74\x75\x61\x6c")) { goto g273R; } goto VrCQj; JNzxZ: $IlPbD = HrYxq(); goto R77NB; izxAE: $JJSak = yj_ea::kYWy1()->IK8_t()->k_c7z(); goto JNzxZ; TA00_: } public function qZXMa() { goto Pq5a9; U9bGr: foreach ($LaBO2 as $Q3mhD) { try { goto ovPuf; H6jgh: $Gwo0N["\147\x6c\x6f\142\141\154"] += $e2WPk["\x67\154\x6f\x62\141\154"]; goto xahvc; lGJxl: $Gwo0N["\x65\162\162\157\x72\163"] += $e2WPk["\145\162\162\157\x72\163"]; goto H6jgh; E9RGG: Log::info("\x43\x6f\156\x63\x6c\x75\303\255\144\157\x20\160\162\x6f\143\x65\163\163\x61\x6d\145\156\x74\x6f\x20\144\x65\x20{$Q3mhD->name}\72\40{$e2WPk["\x70\x72\157\x63\145\163\163\145\144"]}\x20\143\141\163\x68\142\141\x63\x6b\x73\x2c\x20\122\44\x20" . number_format($e2WPk["\x61\155\157\x75\x6e\x74"], 2, "\x2c", "\56")); goto Hbtjj; Pg3nG: Log::info("\120\162\xc3\263\x78\151\x6d\x61\40\145\x78\145\x63\165\xc3\xa7\303\xa3\x6f\40\141\x67\145\x6e\x64\x61\144\141\40\160\x61\162\141\x3a\40" . $Q3mhD->raFwW->format("\x59\x2d\155\x2d\x64\40\x48\x3a\151\x3a\x73")); goto ZL0rV; YArqd: Log::info("\x50\162\157\x63\145\x73\x73\x61\x6e\144\x6f\x20\x61\147\x65\x6e\x64\x61\155\145\156\x74\x6f\x20\xc3\xba\156\x69\x63\x6f\x20\x70\x61\x72\141\40\x61\40\144\141\164\x61\x3a\40" . ($Q3mhD->raFwW ? $Q3mhD->raFwW->format("\131\x2d\x6d\x2d\144\x20\110\72\x69\x3a\x73") : "\116\303\243\x6f\x20\144\145\x66\x69\x6e\x69\x64\x6f")); goto fURVn; Hbtjj: if ($Q3mhD->JFPEq === "\x6f\x6e\x63\145") { goto dYaqX; } goto owD7O; Y8fTN: $Gwo0N["\x70\x72\157\143\x65\x73\x73\x65\x64"] += $e2WPk["\x70\162\157\143\x65\163\163\x65\x64"]; goto qiyee; qiyee: $Gwo0N["\141\x6d\157\165\x6e\164"] += $e2WPk["\x61\x6d\x6f\165\156\164"]; goto lGJxl; fURVn: ckkg9: goto huMLp; r7J8x: if (!($Q3mhD->JFPEq === "\x6f\156\x63\x65")) { goto ckkg9; } goto YArqd; owD7O: if (!$Q3mhD->raFwW) { goto I2ie_; } goto Pg3nG; DacEc: e0kZz: goto La_M_; U8uWa: Log::info("\x41\147\x65\156\x64\x61\x6d\x65\x6e\x74\x6f\40\303\xba\156\151\x63\157\40\x70\x72\x6f\143\x65\163\x73\x61\144\157\x20\x65\x20\144\x65\x73\141\164\x69\166\x61\x64\x6f"); goto DacEc; Wk_y4: $Q3mhD->EjSbN(); goto Y8fTN; xahvc: $Gwo0N["\166\151\160"] += $e2WPk["\166\x69\160"]; goto MXN94; fGN3c: dYaqX: goto U8uWa; XX0jm: goto e0kZz; goto fGN3c; MXN94: $Gwo0N["\x73\x65\164\164\x69\156\x67\163\137\x70\x72\157\143\x65\x73\x73\x65\144"][] = ["\151\144" => $Q3mhD->id, "\156\141\155\145" => $Q3mhD->name, "\160\162\x6f\x63\145\x73\163\145\x64" => $e2WPk["\160\162\x6f\x63\x65\x73\x73\145\144"], "\141\x6d\157\x75\x6e\164" => $e2WPk["\141\155\157\x75\x6e\164"], "\156\x65\x78\x74\x5f\162\x75\156" => $Q3mhD->raFwW]; goto E9RGG; ovPuf: Log::info("\x50\x72\157\143\x65\x73\x73\141\156\x64\157\40\143\x6f\156\146\x69\x67\165\162\x61\xc3\247\303\xa3\x6f\72\40{$Q3mhD->name}\40\x28\111\104\72\x20{$Q3mhD->id}\x2c\x20\x46\162\145\x71\x75\303\252\x6e\143\x69\141\x3a\40{$Q3mhD->JFPEq}\51"); goto r7J8x; huMLp: $e2WPk = $this->mIzVN($Q3mhD); goto Wk_y4; ZL0rV: I2ie_: goto XX0jm; La_M_: } catch (\Exception $kAPGM) { Log::kW7Cx("\105\162\x72\157\x20\141\157\40\160\x72\157\143\145\163\x73\x61\x72\40\x63\x61\x73\150\142\x61\x63\x6b\x20\x61\x67\x65\156\x64\141\x64\157\x20\x28\x63\157\x6e\x66\151\x67\x20\111\x44\x3a\40" . $Q3mhD->id . "\51\x3a\x20" . $kAPGM->getMessage(), ["\x74\x72\141\x63\145" => $kAPGM->getTraceAsString()]); $Gwo0N["\x65\x72\x72\x6f\162\163"]++; } bJZrH: } goto kuK9U; X2xN8: return $Gwo0N; goto hmQ2h; je7lI: if (!$kAu3m->v4n1I()) { goto w3KJt; } goto fy6iX; v8mGW: if (!$LaBO2->isEmpty()) { goto DyUJd; } goto Sr3MF; Rpuq6: $mWcXS = Ube84(); goto qmRf5; fy6iX: foreach ($kAu3m as $dxlMb) { Log::info("\x50\162\303\xb3\x78\x69\x6d\x6f\x20\x61\x67\x65\156\144\141\x6d\145\156\x74\157\x3a\x20{$dxlMb->name}\x20\50\111\104\72\x20{$dxlMb->id}\51\40\55\x20" . $dxlMb->raFwW->format("\x59\55\155\55\144\40\110\x3a\151\72\163") . "\x20\x28{$dxlMb->JFPEq}\51"); zcJ06: } goto k7vGs; T21hm: w3KJt: goto qdJ5F; k7vGs: DRhOZ: goto T21hm; qmRf5: $LaBO2 = TSiJY::jIW67("\x61\143\164\x69\166\145", true)->jIw67("\163\143\x68\x65\x64\165\x6c\x65\137\141\x63\x74\x69\166\145", true)->jIw67(function ($wxq3v) use($mWcXS) { $wxq3v->Mya04("\x6e\145\x78\164\137\x72\x75\x6e\137\x61\x74")->JiW67("\x6e\x65\x78\x74\x5f\x72\165\x6e\137\x61\164", "\74\x3d", $mWcXS); })->get(); goto v8mGW; kuK9U: Hzz4N: goto X2xN8; JoXuZ: DyUJd: goto L1WPQ; j2lXc: $kAu3m = TsiJy::jiW67("\x61\143\164\151\x76\x65", true)->jiW67("\163\143\150\145\144\x75\154\x65\x5f\x61\x63\x74\151\166\145", true)->MYA04("\156\145\170\x74\x5f\162\x75\156\x5f\x61\164")->cfxa2("\x6e\145\x78\164\x5f\162\x75\x6e\137\141\164")->Wtzru(3)->get(); goto je7lI; qdJ5F: return $Gwo0N; goto JoXuZ; L1WPQ: Log::info("\105\156\143\x6f\x6e\x74\162\141\144\141\x73\x20" . $LaBO2->count() . "\40\x63\x6f\x6e\146\151\147\165\162\x61\xc3\247\xc3\265\145\163\x20\144\145\40\143\141\x73\x68\x62\x61\143\x6b\40\x70\x61\162\141\40\x70\x72\157\143\x65\163\163\x61\162\72\x20" . $mWcXS->format("\x59\55\x6d\x2d\x64\x20\x48\72\x69\x3a\163")); goto U9bGr; Sr3MF: Log::info("\116\145\x6e\150\165\x6d\141\x20\143\x6f\156\x66\x69\147\165\x72\141\303\xa7\303\xa3\x6f\x20\144\x65\x20\143\x61\x73\150\x62\x61\x63\x6b\40\141\x67\x65\x6e\x64\141\144\141\x20\x70\x61\x72\141\40\x65\170\145\x63\165\xc3\247\xc3\xa3\157\40\156\x65\163\x74\145\x20\x6d\x6f\155\145\156\x74\x6f\72\x20" . $mWcXS->format("\x59\55\x6d\55\144\40\110\x3a\151\72\x73")); goto j2lXc; Pq5a9: $Gwo0N = ["\160\x72\x6f\x63\x65\x73\x73\145\x64" => 0, "\141\155\x6f\165\x6e\x74" => 0, "\145\x72\x72\x6f\x72\x73" => 0, "\x67\154\x6f\x62\141\x6c" => 0, "\x76\x69\x70" => 0, "\163\x65\164\164\151\x6e\x67\163\x5f\160\x72\x6f\x63\x65\x73\163\145\x64" => []]; goto Rpuq6; hmQ2h: } public function MizvN(tsiJy $Q3mhD, $TdCHQ = null) { goto upfd9; MlerL: $IlPbD = $IlPbD->lFqV1($Tfg06); goto vw4gJ; LZpe3: $rlni7 = hrYxq(); goto oO0YI; bzlS2: rUnuL: goto oX143; PejXX: WTWr9: goto ndwbZ; SHBZu: return $Gwo0N; goto J7HrJ; bnk1c: $imDFk = $Q3mhD->nnabz ?: $JJSak->copy()->fqgoH(7); goto ZSxRJ; VWMVR: if ($TdCHQ) { goto TUzwY; } goto vbt8Q; TS3yc: $JJSak = $Q3mhD->raFwW ?: UBE84(); goto dPXOO; krbkT: $kwd2g = $Q3mhD->type; goto rO_jv; yjW3a: Log::naRnK("\x54\x65\x6e\x74\141\x74\x69\166\x61\x20\x64\x65\x20\160\x72\157\143\145\x73\163\141\162\x20\x63\x6f\156\146\151\147\165\162\x61\303\xa7\xc3\xa3\157\40\151\156\x61\164\151\x76\141\x3a\x20{$Q3mhD->name}\x20\50\111\104\72\40{$Q3mhD->id}\51"); goto L7SHd; Vmmz3: Log::info("\125\163\141\156\x64\157\40\144\x61\x74\x61\40\x64\157\x20\xc3\xba\x6c\164\x69\x6d\157\x20\160\x61\x67\x61\155\x65\156\164\157\x20\143\x6f\x6d\x6f\40\151\x6e\303\xad\x63\x69\x6f\x3a\40" . $imDFk->format("\144\57\x6d\x2f\x59\40\110\x3a\151\x3a\163")); goto K7rhz; On_Xv: $IlPbD = hRYxq([$TdCHQ]); goto UIqYe; rD6vS: if (!(!$Q3mhD->WoMJ3 && $Q3mhD->dIdLo)) { goto M_3lz; } goto LZpe3; Zeyyh: $IlPbD = $rlni7; goto nlT4K; ZSxRJ: Log::info("\120\162\x69\155\145\151\x72\157\x20\x70\141\147\x61\x6d\x65\156\x74\157\54\x20\165\x73\141\156\144\x6f\x20\144\x61\164\x61\40\144\145\40\143\x72\x69\x61\xc3\xa7\303\243\x6f\72\x20" . $imDFk->format("\144\57\155\57\x59\40\x48\x3a\151\72\163")); goto vJNXV; fdl3d: Log::info("\120\x72\157\143\x65\x73\x73\141\156\x64\x6f\x20\x63\141\163\x68\x62\141\143\153\x20\x65\x73\160\145\143\xc3\255\x66\151\143\x6f\40\160\x61\162\141\x20\157\x20\165\163\165\xc3\xa1\162\151\157\x20\111\104\x3a\x20{$TdCHQ}"); goto On_Xv; LV3U4: lPqXC: goto TS3yc; erdQf: $IlPbD = $IlPbD->QmnOL(); goto ZZ52W; OerHP: if ($Q3mhD->C9Jeu) { goto lPqXC; } goto yjW3a; vw4gJ: Log::info("\x45\x6e\143\157\156\x74\162\x61\x64\157\163\40{$Tfg06->count()}\x20\165\x73\x75\xc3\xa1\162\151\157\x73\x20\143\157\155\40\160\145\162\144\141\x73\x20\x65\x6d\40\x61\160\x6f\x73\x74\x61\x73\x20\x65\x73\x70\157\162\x74\x69\x76\x61\x73"); goto gbhvI; oZMeN: Cx6XH: goto RSodV; K7rhz: uPJdy: goto ebICm; gbhvI: OVRgH: goto erdQf; odB2g: $xClKJ = wWaWK::C_cy1("\143\162\145\141\x74\x65\144\137\x61\x74", [$imDFk, $JJSak])->jIW67("\141\143\x74\x69\157\156", "\154\157\x73\x73")->JIw67("\160\x72\x6f\x76\151\x64\x65\x72", "\x21\x3d", "\163\x70\x6f\162\164\163")->TSdvf("\165\163\145\x72\137\151\144")->qmNol(); goto Sqx_o; GLLzN: $Tfg06 = T4Kmm::C_cy1("\x63\162\145\141\164\x65\144\x5f\x61\x74", [$imDFk, $JJSak])->jIW67(function ($wxq3v) { $wxq3v->jiW67("\x6f\x70\145\162\141\164\x69\157\x6e", "\x6c\x6f\163\x65")->J_b37("\163\164\x61\164\165\x73", "\x6c\157\x73\164"); })->TSDVf("\x75\x73\x65\x72\137\151\144")->QmNoL(); goto MlerL; iY4Br: AV98x: goto SHBZu; UIqYe: qA0Jo: goto sp6FV; ndwbZ: if (!($kwd2g === "\141\x6c\x6c" || $kwd2g === "\163\160\157\162\164\x73")) { goto OVRgH; } goto GLLzN; oO0YI: foreach ($IlPbD->tWINo(100) as $vzVbs) { goto D4JKY; Q1sTP: foreach ($DANzk as $FbjhY) { goto QlpBJ; jfDK1: if (!($N2chf == $Q3mhD->dIdLo)) { goto cK1Gh; } goto t91IX; t91IX: $rlni7->push($FbjhY->id); goto T4CcH; QlpBJ: $pqPvb = $FbjhY->Fuc2l(); goto hI_Nw; hI_Nw: $N2chf = $pqPvb ? $pqPvb["\x6c\145\166\x65\x6c"] : 1; goto jfDK1; T4CcH: cK1Gh: goto u04CE; u04CE: VTKkI: goto hNQwd; hNQwd: } goto KBx4k; D4JKY: $DANzk = ol1S7::UcurC("\151\x64", $vzVbs)->get(); goto Q1sTP; KBx4k: zPbOn: goto IDpEo; IDpEo: XnwPk: goto vYNht; vYNht: } goto bzlS2; vJNXV: goto uPJdy; goto oZMeN; VoQmp: Log::info("\x45\156\x63\157\x6e\x74\162\141\x64\157\163\40{$xClKJ->count()}\40\165\163\165\303\xa1\x72\x69\x6f\x73\40\143\x6f\x6d\40\160\145\162\x64\x61\x73\40\x65\155\40\152\x6f\147\157\163\40\166\x69\162\164\165\x61\151\x73"); goto PejXX; Sqx_o: $IlPbD = $IlPbD->lFqv1($xClKJ); goto VoQmp; L7SHd: return $Gwo0N; goto LV3U4; MGpOj: TUzwY: goto fdl3d; rO_jv: if (!($kwd2g === "\x61\154\154" || $kwd2g === "\x76\151\x72\x74\x75\141\x6c")) { goto WTWr9; } goto odB2g; upfd9: $Gwo0N = ["\x70\162\x6f\143\145\x73\x73\145\144" => 0, "\141\155\157\x75\x6e\164" => 0, "\145\162\x72\x6f\162\163" => 0, "\147\154\157\x62\x61\x6c" => 0, "\x76\x69\160" => 0]; goto OerHP; ebICm: Log::info("\120\x72\x6f\x63\145\x73\163\x61\x6e\144\157\x20\x70\x65\162\144\x61\163\40\156\157\40\160\145\x72\xc3\xad\x6f\144\157\72\x20" . $imDFk->format("\144\57\x6d\57\x59\40\x48\x3a\151") . "\40\x61\164\xc3\xa9\40" . $JJSak->format("\x64\x2f\155\57\x59\x20\x48\72\151") . "\x20\160\141\162\x61\x20{$Q3mhD->name}"); goto VWMVR; vbt8Q: $IlPbD = hRyxq(); goto krbkT; RSodV: $imDFk = $Q3mhD->g28Jw; goto Vmmz3; dPXOO: if ($Q3mhD->g28Jw) { goto Cx6XH; } goto bnk1c; nlT4K: M_3lz: goto FDvhr; ZZ52W: Log::info("\124\157\x74\x61\x6c\40\x64\x65\x20{$IlPbD->count()}\x20\165\163\165\xc3\241\x72\x69\x6f\x73\40\303\xba\x6e\151\x63\x6f\163\40\x63\x6f\155\x20\x70\x65\x72\x64\x61\x73\40\156\x6f\40\160\x65\162\303\255\x6f\144\157"); goto rD6vS; oX143: Log::info("\106\x69\154\x74\x72\141\x64\157\163\x20{$rlni7->count()}\x20\x75\x73\165\xc3\241\x72\x69\x6f\x73\40\x64\157\x20\156\303\xad\x76\x65\x6c\40\126\x49\x50\x20{$Q3mhD->dIdLo}"); goto Zeyyh; sp6FV: foreach ($IlPbD as $X67Ei) { try { goto W_Cm6; xLQ1v: $fc41U = X4PWa::JiW67("\165\x73\x65\162\x5f\151\x64", $FbjhY->id)->jIW67("\143\x61\x73\150\142\x61\x63\153\137\x73\x65\x74\164\151\156\147\137\151\x64", $Q3mhD->id)->JiW67("\163\164\141\x74\165\163", "\x70\x65\156\144\151\156\147")->Ko7rr(); goto AeV6W; GnSBt: $yQCAb = "\103\x61\163\150\142\141\x63\x6b\40\x56\111\x50\x20\116\xc3\xad\166\x65\154\40{$Q3mhD->dIdLo}\40\x2d\x20{$Q3mhD->D1JCB}\45"; goto mv4Jw; qsT2e: Log::info("\x55\163\x75\xc3\241\162\x69\157\40{$FbjhY->id}\40\152\xc3\xa1\x20\x70\x6f\163\x73\165\151\40\143\141\163\x68\x62\141\143\x6b\40\x70\x65\156\x64\145\x6e\164\145\40\160\141\x72\x61\x20\145\163\164\141\40\x63\157\x6e\x66\151\147\165\162\x61\303\247\303\xa3\157"); goto ssdw6; yfkWi: goto BHcy6; goto wSIjA; SEzs5: a5ui2: goto GnSBt; ttj2G: Log::info("\x43\x72\151\x61\x64\157\40\143\x61\x73\150\x62\x61\x63\x6b\40\x70\141\162\141\40\165\163\x75\xc3\xa1\x72\x69\x6f\x20{$FbjhY->id}\72\40\x52\44\40" . number_format($jAEQA, 2, "\54", "\56") . "\x20\x28\160\145\x72\x64\141\x3a\40\x52\x24\x20" . number_format($BvkCY, 2, "\54", "\56") . "\x29"); goto uXe2m; XKsI1: BHcy6: goto xLQ1v; vWVJL: $jAEQA = $Q3mhD->c0Xx9($BvkCY); goto PlDV0; M2WvY: DNKKI: goto I_DCM; Vvv8_: $LeGwe = tsIJY::jiW67("\x61\143\x74\x69\166\145", true)->JIw67("\166\x69\x70\137\x6c\145\x76\x65\x6c", $N2chf)->JIw67("\164\171\x70\145", $Q3mhD->type)->Ko7Rr(); goto muUlZ; cERPa: if ($FbjhY) { goto F4_D3; } goto F1eU1; kDATS: $yQCAb = ''; goto sjTBd; T21ck: dfFB8: goto kDATS; uXe2m: $DLnqz = $FFqjq->a2vNd(); goto UtTVB; moXGK: $pqPvb = $FbjhY->fuC2l(); goto W0FCH; PW_hc: $Gwo0N["\x70\162\157\143\x65\x73\x73\145\144"]++; goto EJI8N; OIaU3: $FFqjq = X4PWa::create(["\x75\x73\x65\162\x5f\151\x64" => $FbjhY->id, "\x63\141\163\x68\142\x61\143\x6b\x5f\x73\x65\164\x74\x69\156\x67\x5f\151\144" => $Q3mhD->id, "\164\x6f\x74\141\x6c\137\x6c\x6f\163\x73" => $BvkCY, "\143\141\x73\x68\142\x61\x63\153\x5f\x61\x6d\157\x75\x6e\x74" => $jAEQA, "\160\145\162\x63\x65\156\164\141\x67\x65\137\141\160\160\154\151\145\x64" => $Q3mhD->D1JCB, "\164\171\x70\x65" => $Q3mhD->type, "\163\x74\141\x74\x75\163" => "\160\x65\x6e\144\x69\156\x67", "\163\164\141\x72\164\x5f\144\141\x74\x65" => $imDFk, "\145\156\144\137\x64\141\164\145" => $JJSak, "\145\x78\160\x69\x72\x65\163\x5f\x61\x74" => uBe84()->rJfwj($Q3mhD->gfurW), "\x6e\157\x74\x65\163" => $yQCAb]); goto ttj2G; Hma1L: u7cW4: goto j9nlQ; nckqD: if (!(!$TdCHQ && $Q3mhD->WoMJ3)) { goto Vn3LI; } goto moXGK; F1eU1: goto PHeyi; goto zTrx_; PpL1a: PF0OJ: goto ghilw; QH2C7: UhB4R: goto OIaU3; vsKwt: wobQ8: goto ok1AY; UtTVB: Log::info("\x43\x61\x73\x68\x62\x61\x63\x6b\x20" . ($DLnqz ? "\141\160\x6c\x69\x63\141\144\x6f" : "\156\303\243\157\40\141\160\154\151\x63\141\144\157") . "\40\x61\x75\164\157\155\x61\164\151\x63\141\155\145\x6e\x74\145\40\x70\141\x72\141\40\x75\x73\x75\xc3\xa1\162\151\x6f\x20{$FbjhY->id}"); goto PW_hc; W_Cm6: $FbjhY = ol1s7::n9TrV($X67Ei); goto cERPa; zTrx_: F4_D3: goto nckqD; kfBC6: goto PHeyi; goto cbBeM; sjTBd: if ($TdCHQ) { goto vbxHW; } goto TNnyS; Qh_e6: if (!($BvkCY < $Q3mhD->trVPD)) { goto vx7Sc; } goto kfBC6; O3iJy: $BvkCY = $this->PCu9b($FbjhY->id, $Q3mhD->type, $imDFk, $JJSak); goto Qh_e6; TNnyS: if ($Q3mhD->dIdLo) { goto a5ui2; } goto DJnji; muUlZ: if (!$LeGwe) { goto wobQ8; } goto kIc4v; tOvcX: if ($Q3mhD->WoMJ3) { goto DNKKI; } goto DtecE; wSIjA: vbxHW: goto NVbr_; DJnji: $yQCAb = "\103\x61\163\150\x62\x61\143\153\x20\147\x6c\x6f\142\141\154\x20\x2d\40{$Q3mhD->D1JCB}\x25"; goto flKVt; I_DCM: $Gwo0N["\x67\x6c\x6f\x62\x61\154"]++; goto yA5JZ; ssdw6: goto PHeyi; goto QH2C7; AeV6W: if (!$fc41U) { goto UhB4R; } goto qsT2e; W0FCH: $N2chf = $pqPvb ? $pqPvb["\154\145\x76\145\x6c"] : 1; goto Vvv8_; EJI8N: $Gwo0N["\x61\x6d\x6f\165\156\x74"] += $jAEQA; goto tOvcX; cbBeM: vx7Sc: goto vWVJL; j9nlQ: $Gwo0N["\x76\151\x70"]++; goto PpL1a; NVbr_: $yQCAb = "\103\x61\163\150\x62\141\x63\153\40\x45\x73\160\x65\143\xc3\255\x66\x69\143\157\x20\x2d\x20{$Q3mhD->D1JCB}\x25"; goto XKsI1; kIc4v: goto PHeyi; goto vsKwt; DtecE: if ($Q3mhD->dIdLo) { goto u7cW4; } goto cYB8A; yA5JZ: goto PF0OJ; goto Hma1L; ok1AY: Vn3LI: goto O3iJy; cYB8A: goto PF0OJ; goto M2WvY; flKVt: goto TEGH1; goto SEzs5; mv4Jw: TEGH1: goto yfkWi; O_Rp2: goto PHeyi; goto T21ck; PlDV0: if (!($jAEQA <= 0)) { goto dfFB8; } goto O_Rp2; ghilw: } catch (\Exception $kAPGM) { Log::kw7cx("\x45\x72\x72\157\40\x61\x6f\x20\160\x72\x6f\x63\x65\x73\163\x61\162\40\x63\141\163\150\x62\141\143\153\40\160\141\162\x61\x20\165\163\165\xc3\xa1\162\151\157\40" . $X67Ei . "\72\40" . $kAPGM->getMessage(), ["\145\x78\x63\145\160\164\151\x6f\x6e" => $kAPGM]); $Gwo0N["\x65\162\162\x6f\162\163"]++; } PHeyi: } goto iY4Br; FDvhr: goto qA0Jo; goto MGpOj; J7HrJ: } public function t1HOI($lMJlR = null, $TyQtT = null, $kwd2g = null, $oeR06 = "\x63\x72\145\x64\151\x74\145\144", YJ_Ea $imDFk = null, Yj_Ea $JJSak = null) { goto jBm4z; jBm4z: $ozaU2 = ["\164\x6f\164\141\154\x5f\156\x6f\164\151\146\151\x63\x61\x74\x69\157\x6e\x73" => 0, "\163\165\x63\143\x65\x73\163" => 0, "\145\162\x72\x6f\x72" => 0]; goto coiLv; OGiVO: return $ozaU2; goto yzPDM; coiLv: try { goto sZzdf; DoK8D: if (!$oeR06) { goto DHYI2; } goto YUNqT; oAVqQ: $NtWWN = ''; goto klmpx; EynLz: $vgDTD = number_format($dwQQZ, 2, "\54", "\56"); goto Sfjyj; sZzdf: if ($imDFk) { goto gvIRe; } goto Dr2tp; lKII3: goto OKNBv; goto U3lLC; UvTIT: $ozaU2["\164\157\x74\x61\x6c\x5f\x6e\x6f\x74\x69\146\x69\143\x61\x74\x69\x6f\156\x73"] = $ozaU2["\163\x75\143\x63\145\x73\163"] + $ozaU2["\145\x72\162\x6f\x72"]; goto n70u9; jQyko: $wxq3v = X4PWA::aldg_("\165\163\x65\162", "\163\145\x74\164\x69\x6e\147")->c_cy1("\143\162\145\x61\x74\x65\x64\137\x61\164", [$imDFk, $JJSak]); goto n8BGJ; Q_DRD: Z0zDz: goto D106n; DcAqR: if ($JJSak) { goto lQ_GX; } goto QlOCK; OpIsw: Log::info($rwnQ9 . "\72\40" . $MBLP2); goto Q_DRD; CKcGV: $aX1z_ = TsIJy::jIw67("\166\x69\160\137\x6c\145\166\145\x6c", $TyQtT)->TSDVf("\x69\144")->toArray(); goto A04J9; P5W4z: $h_wBx = $wxq3v->get()->Mauam("\x75\163\x65\x72\x5f\151\144"); goto ABUPW; klmpx: foreach ($h_wBx as $X67Ei => $EXQfG) { try { goto mj34S; vHWDx: $Tf3iz = $EXQfG->Ko7rR()->type; goto oTcVq; ThwBd: $aZz6M->Wm6rU($X67Ei, $hZZrE); goto eTCQu; mj34S: $FbjhY = ol1S7::N9TRV($X67Ei); goto TRZyY; oTcVq: $hZZrE = ["\164\151\164\154\145\x5f\x70\x74\x5f\142\162" => "\xf0\x9f\x92\260\x20\103\x61\163\x68\142\141\x63\x6b\40\103\x72\145\x64\x69\x74\141\x64\x6f", "\164\151\x74\154\x65\137\x65\156" => "\360\237\222\260\40\x43\141\163\150\x62\141\x63\153\x20\103\x72\145\144\x69\164\145\144", "\164\151\x74\154\x65\x5f\145\x73" => "\xf0\x9f\222\260\40\103\141\163\150\142\141\x63\153\40\101\x63\x72\x65\144\151\x74\141\x64\x6f", "\143\157\156\x74\x65\156\x74\x5f\x70\164\137\x62\x72" => "\123\145\x75\40\x63\x61\163\150\x62\x61\143\153\40\x64\145\x20\x52\x24\x20{$RdOMj}\x20\160\141\x72\x61\x20" . $this->swBMq($Tf3iz, "\160\x74\137\142\162") . "\x20\146\x6f\x69\40\143\162\145\x64\x69\x74\x61\144\157\x20\156\141\x20\163\x75\x61\x20\143\157\x6e\164\x61\56\40\104\151\x76\151\x72\164\141\55\163\x65\41", "\143\x6f\156\x74\145\x6e\x74\137\x65\156" => "\x59\x6f\x75\x72\x20\143\x61\163\150\142\141\143\x6b\40\157\x66\40\122\44\40{$RdOMj}\40\x66\x6f\162\x20" . $this->SwBMQ($Tf3iz, "\145\156") . "\40\150\141\163\40\142\145\145\156\40\143\162\x65\x64\151\x74\x65\144\40\164\x6f\40\x79\x6f\x75\162\40\x61\143\x63\157\x75\x6e\x74\x2e\40\110\x61\166\x65\x20\x66\165\156\x21", "\x63\157\156\164\x65\156\x74\x5f\145\x73" => "\x54\165\40\143\141\x73\x68\x62\x61\143\153\x20\x64\145\40\122\x24\x20{$RdOMj}\40\160\x61\162\x61\x20" . $this->swBMq($Tf3iz, "\x65\x73") . "\40\150\141\40\163\151\144\157\40\141\143\162\145\144\151\x74\x61\144\x6f\x20\x65\156\40\164\165\x20\143\165\145\156\164\141\56\x20\302\xa1\x44\151\166\151\303\xa9\162\x74\x65\x74\x65\x21", "\154\x69\156\x6b" => "\57\167\x61\x6c\154\145\164"]; goto ThwBd; TRZyY: if ($FbjhY) { goto bCeNQ; } goto d2Loh; WtqPe: $dwQQZ += $XV6sw; goto xtjEW; R7d1n: z08Dt: goto rOUSM; xtjEW: if (!(empty($NtWWN) && !empty($Tf3iz))) { goto z08Dt; } goto cmZdQ; wfefS: $RdOMj = number_format($XV6sw, 2, "\54", "\x2e"); goto vHWDx; cmZdQ: $NtWWN = $this->swbMq($Tf3iz, "\x70\x74\137\x62\x72"); goto R7d1n; ndsUE: $XV6sw = $EXQfG->aFYwX("\143\141\x73\x68\142\141\143\153\137\141\x6d\157\x75\x6e\164"); goto wfefS; q2fSt: bCeNQ: goto ndsUE; d2Loh: goto b5cbE; goto q2fSt; x3OPF: $XaokB[] = $X67Ei; goto WtqPe; eTCQu: $ozaU2["\x73\x75\x63\143\x65\163\163"]++; goto x3OPF; rOUSM: } catch (\Exception $kAPGM) { Log::KW7cX("\105\x72\x72\157\x20\x61\157\x20\145\156\x76\x69\141\162\x20\x6e\157\x74\151\146\151\x63\141\xc3\247\xc3\xa3\157\x20\x64\x65\40\143\141\163\150\142\141\x63\153\x20\x70\141\x72\141\40\165\x73\165\xc3\xa1\x72\151\x6f\x20{$X67Ei}\72\40" . $kAPGM->getMessage()); $ozaU2["\x65\x72\162\157\162"]++; } b5cbE: } goto vZXGr; n70u9: if (!(!empty($XaokB) && ($lMJlR || $TyQtT))) { goto Z0zDz; } goto EynLz; nK2wB: $rwnQ9 = "\xf0\x9f\222\xb0\40\103\x61\x73\150\142\x61\x63\x6b\40\126\x49\x50\40\116\303\255\x76\145\x6c\x20{$TyQtT}"; goto AYhs8; U3lLC: MT90X: goto LAvG8; YUNqT: $wxq3v->jIW67("\x73\x74\x61\x74\x75\163", $oeR06); goto Y3y0X; Ad6he: $rwnQ9 = "\xf0\x9f\222\xb0\x20\103\x61\163\150\142\x61\143\x6b\x20\107\x65\x72\141\154"; goto mfcSW; hNZ6I: lQ_GX: goto jQyko; LAvG8: $Q3mhD = tSijY::N9TRv($lMJlR); goto YThZ3; MHKs9: gvIRe: goto DcAqR; lUPC4: FNbgo: goto nK2wB; n8BGJ: if (!$lMJlR) { goto d38U5; } goto OUX9l; UhKLs: $wxq3v->UCURc("\143\141\163\150\x62\x61\x63\x6b\x5f\163\145\164\164\x69\x6e\147\x5f\151\x64", $aX1z_); goto nXTQU; Dbjqa: $XaokB = []; goto DQEA4; OUX9l: $wxq3v->Jiw67("\x63\141\x73\150\142\x61\143\x6b\x5f\x73\145\x74\x74\x69\156\x67\137\x69\144", $lMJlR); goto JXhRH; YThZ3: $Qgp4Y = $Q3mhD ? $Q3mhD->name : "\x45\x73\x70\145\143\303\xad\x66\151\x63\157"; goto cz2T2; mOtoL: $wxq3v->jiw67("\x74\171\160\145", $kwd2g); goto dwboG; vZXGr: PlkIt: goto UvTIT; Sfjyj: $rwnQ9 = ''; goto JZvlK; Dr2tp: $imDFk = Yj_ea::kywY1()->fQGoH(30); goto MHKs9; dwboG: ykDai: goto DoK8D; ABUPW: $aZz6M = nr8E2(uw83q::class); goto Dbjqa; cz2T2: $rwnQ9 = "\xf0\x9f\222\260\40\103\x61\163\x68\x62\x61\143\x6b\x20{$Qgp4Y}"; goto xM5iZ; QlOCK: $JJSak = YJ_EA::kYwY1(); goto hNZ6I; AYhs8: $MBLP2 = "\x43\162\x65\144\x69\164\141\155\x6f\x73\x20\165\155\x20\x74\x6f\x74\141\x6c\40\144\x65\40\x52\44\40{$vgDTD}\40\x65\x6d\40\x63\x61\163\x68\x62\141\x63\x6b\163\40\160\141\162\x61\40\x6a\157\147\141\x64\157\x72\145\x73\x20\126\111\120\x20\116\xc3\255\166\x65\x6c\x20{$TyQtT}\56"; goto lKII3; aADSW: goto OKNBv; goto lUPC4; fjSY3: if (!$TyQtT) { goto MFG02; } goto CKcGV; JXhRH: d38U5: goto m7bkK; gjTT2: OKNBv: goto OpIsw; mfcSW: $MBLP2 = "\103\162\145\144\x69\164\x61\155\x6f\x73\x20\165\155\40\164\x6f\x74\141\154\40\x64\x65\x20\122\44\40{$vgDTD}\x20\x65\x6d\40\143\x61\x73\x68\x62\141\x63\153\x73\56"; goto aADSW; A04J9: if (empty($aX1z_)) { goto MSKTW; } goto UhKLs; nXTQU: MSKTW: goto Hv2VE; m7bkK: if (!$kwd2g) { goto ykDai; } goto mOtoL; JC9Ip: if ($TyQtT) { goto FNbgo; } goto JPGm6; xM5iZ: $MBLP2 = "\x43\162\x65\x64\151\164\141\155\x6f\163\x20\122\44\x20{$vgDTD}\40\145\x6d\x20\143\x61\163\x68\x62\x61\x63\x6b\x73\x20\x70\x61\162\141\x20\x6f\40\x70\x72\157\147\162\x61\155\141\40\47{$Qgp4Y}\47\x2e"; goto gjTT2; Y3y0X: DHYI2: goto fjSY3; Hv2VE: MFG02: goto P5W4z; JPGm6: if ($lMJlR) { goto MT90X; } goto Ad6he; DQEA4: $dwQQZ = 0; goto oAVqQ; JZvlK: $MBLP2 = ''; goto JC9Ip; D106n: } catch (\Exception $kAPGM) { Log::kw7cX("\105\162\x72\157\x20\x61\x6f\x20\x70\162\157\143\x65\163\x73\x61\162\40\156\x6f\164\x69\146\151\x63\x61\xc3\247\xc3\xb5\x65\163\40\144\x65\40\143\141\163\x68\x62\141\x63\x6b\x3a\x20" . $kAPGM->getMessage()); $ozaU2["\145\162\162\157\x72"]++; } goto OGiVO; yzPDM: } private function sWbMq($kwd2g, $oE2Iw = "\160\164\137\x62\x72") { goto Ld79I; rlVAz: qJKR7: goto g7Lnf; Ld79I: if ($oE2Iw === "\x70\x74\137\x62\x72") { goto e6Cfj; } goto ALw8N; g7Lnf: TgB1R: goto AHlij; ib26n: switch ($kwd2g) { case "\163\x70\x6f\x72\x74\163": return "\x53\160\157\x72\164\163\40\102\145\x74\164\151\156\147"; case "\166\x69\162\164\x75\x61\x6c": return "\x43\141\x73\x69\156\157"; case "\x61\x6c\154": default: return "\101\154\154\40\107\141\155\x65\163"; } goto gkNhb; f2oxp: goto YlBjn; goto AtWaz; nV_Ws: goto YlBjn; goto OdIy5; EvlQj: oKyK6: goto f2oxp; OdIy5: e6Cfj: goto mDJ4M; ENmyy: y0OYf: goto xZph9; AtWaz: IMEBk: goto ib26n; kUGrH: return "\101\x6c\154\40\107\141\155\145\163"; goto MhAxG; x6PLs: mHlYf: goto ou4f8; ALw8N: if ($oE2Iw === "\145\156") { goto IMEBk; } goto rL1yK; AHlij: YlBjn: goto kUGrH; xZph9: goto YlBjn; goto x6PLs; nCFkJ: qm9fl: goto EvlQj; gkNhb: fXB5t: goto ENmyy; ou4f8: switch ($kwd2g) { case "\x73\160\x6f\x72\x74\x73": return "\101\x70\165\145\x73\x74\141\x73\x20\104\145\160\x6f\x72\x74\151\166\x61\x73"; case "\x76\151\x72\x74\x75\x61\x6c": return "\x43\x61\x73\x69\156\157"; case "\x61\x6c\x6c": default: return "\124\x6f\144\157\163\40\x6c\x6f\x73\40\112\165\145\147\x6f\x73"; } goto rlVAz; mDJ4M: switch ($kwd2g) { case "\x73\x70\157\x72\x74\163": return "\101\x70\x6f\163\164\x61\x73\40\x45\163\x70\157\162\x74\151\x76\141\x73"; case "\x76\x69\x72\164\165\141\x6c": return "\103\141\163\x73\x69\156\157"; case "\x61\x6c\154": default: return "\124\157\144\157\163\40\x6f\x73\x20\x4a\x6f\147\x6f\x73"; } goto nCFkJ; rL1yK: if ($oE2Iw === "\x65\x73") { goto mHlYf; } goto nV_Ws; MhAxG: } }
+
+namespace App\Services;
+
+use App\Models\CashbackSetting;
+use App\Models\GameHistory;
+use App\Models\SportBetSummary;
+use App\Models\User;
+use App\Models\UserCashback;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+
+class CashbackService
+{
+    /**
+     * Processar as perdas do usuário e calcular cashback
+     * 
+     * @param User $user
+     * @param string $type sports|virtual|all
+     * @param Carbon $startDate
+     * @param Carbon $endDate
+     * @return UserCashback|null
+     */
+    public function processCashback(User $user, $type = 'all', Carbon $startDate = null, Carbon $endDate = null)
+    {
+        // Define período padrão se não for especificado (semana atual)
+        if (!$startDate) {
+            $startDate = Carbon::now()->startOfWeek();
+        }
+        
+        if (!$endDate) {
+            $endDate = Carbon::now()->endOfWeek();
+        }
+
+        // Primeiro verificamos se há um cashback específico para o nível VIP do usuário
+        $userRanking = $user->getRanking();
+        $userVipLevel = $userRanking ? $userRanking['level'] : 1;
+
+        // Busca configuração de cashback específica para o nível VIP
+        $cashbackSetting = CashbackSetting::where('active', true)
+            ->where('vip_level', $userVipLevel)
+            ->where(function($query) use ($type) {
+                $query->where('type', $type)
+                    ->orWhere('type', 'all');
+            })
+            ->first();
+
+        // Se não encontrar configuração específica para o nível VIP, busca uma configuração global
+        if (!$cashbackSetting) {
+            $cashbackSetting = CashbackSetting::where('active', true)
+                ->where('is_global', true)
+                ->where(function($query) use ($type) {
+                    $query->where('type', $type)
+                        ->orWhere('type', 'all');
+                })
+                ->first();
+        }
+
+        if (!$cashbackSetting) {
+            return null;
+        }
+
+        // Calcula total de perdas do período
+        $totalLoss = $this->calculateTotalLoss($user->id, $type, $startDate, $endDate);
+        
+        // Se não houver perdas acima do mínimo, retorna null
+        if ($totalLoss < $cashbackSetting->min_loss) {
+            return null;
+        }
+
+        // Calcula valor do cashback
+        $cashbackAmount = $cashbackSetting->calculateCashback($totalLoss);
+        
+        if ($cashbackAmount <= 0) {
+            return null;
+        }
+
+        // Criar descrição identificando se é um cashback VIP ou global
+        $description = '';
+        if ($cashbackSetting->vip_level) {
+            $description = "Cashback VIP Nível {$cashbackSetting->vip_level} - {$cashbackSetting->percentage}%";
+        } else {
+            $description = "Cashback global - {$cashbackSetting->percentage}%";
+        }
+
+        // Cria registro de cashback
+        $userCashback = UserCashback::create([
+            'user_id' => $user->id,
+            'cashback_setting_id' => $cashbackSetting->id,
+            'total_loss' => $totalLoss,
+            'cashback_amount' => $cashbackAmount,
+            'percentage_applied' => $cashbackSetting->percentage,
+            'type' => $type,
+            'status' => 'pending',
+            'start_date' => $startDate,
+            'end_date' => $endDate,
+            'expires_at' => Carbon::now()->addDays($cashbackSetting->expiry_days),
+            'notes' => $description
+        ]);
+
+        // Sempre aplicar o cashback automaticamente
+        $applied = $userCashback->apply();
+        
+        if ($applied) {
+            \Illuminate\Support\Facades\Log::info("Cashback para usuário {$user->id} aplicado automaticamente: R$ " . number_format($cashbackAmount, 2, ',', '.'));
+        } else {
+            \Illuminate\Support\Facades\Log::warning("Falha ao aplicar cashback automaticamente para usuário {$user->id}");
+        }
+
+        return $userCashback;
+    }
+
+    /**
+     * Calcula o total de perdas do usuário em um período
+     * 
+     * @param int $userId
+     * @param string $type sports|virtual|all
+     * @param Carbon $startDate
+     * @param Carbon $endDate
+     * @return float
+     */
+    public function calculateTotalLoss($userId, $type = 'all', Carbon $startDate, Carbon $endDate)
+    {
+        $totalLoss = 0;
+        
+        // Se buscar todos os tipos ou apenas jogos virtuais
+        if ($type === 'all' || $type === 'virtual') {
+            // Calcula perdas em jogos virtuais
+            $virtualLoss = GameHistory::where('user_id', $userId)
+                ->whereBetween('created_at', [$startDate, $endDate])
+                ->where('action', 'loss')
+                ->where('provider', '!=', 'sports')
+                ->sum('amount');
+                
+            $totalLoss += $virtualLoss;
+        }
+        
+        // Se buscar todos os tipos ou apenas esportes
+        if ($type === 'all' || $type === 'sports') {
+            // Calcula perdas em apostas esportivas - usando a tabela sportbetsummary
+            // Primeiro identificamos as apostas perdidas (contempla ambos provedores)
+            $lostBets = SportBetSummary::where('user_id', $userId)
+                ->whereBetween('created_at', [$startDate, $endDate])
+                ->where(function($query) {
+                    $query->where('operation', 'lose')         // Digitain
+                          ->orWhere('status', 'lost');         // BetBy
+                })
+                ->select('transactionId')
+                ->distinct()
+                ->get()
+                ->pluck('transactionId');
+                
+            $sportsLoss = 0;
+            
+            if (!$lostBets->isEmpty()) {
+                // Agora buscamos os valores das apostas originais (debit) para essas apostas perdidas
+                $sportsLoss = DB::table('sportbetsummary as bet')
+                    ->join('sportbetsummary as lose', function($join) {
+                        $join->on('lose.transactionId', '=', 'bet.transactionId')
+                            ->where(function($query) {
+                                $query->where('lose.operation', '=', 'lose')       // Digitain
+                                      ->orWhere('lose.status', '=', 'lost');       // BetBy
+                            });
+                    })
+                    ->where('bet.user_id', $userId)
+                    ->whereIn('bet.transactionId', $lostBets)
+                    ->where('bet.operation', 'debit')
+                    ->sum('bet.amount');
+            }
+                
+            $totalLoss += $sportsLoss;
+        }
+        
+        return $totalLoss;
+    }
+
+    /**
+     * Obter histórico de apostas esportivas perdidas para um usuário
+     * 
+     * @param int $userId
+     * @param Carbon $startDate
+     * @param Carbon $endDate
+     * @return \Illuminate\Support\Collection
+     */
+    public function getSportsLostBets($userId, Carbon $startDate, Carbon $endDate)
+    {
+        // Primeiro identificamos as apostas perdidas (contempla ambos provedores)
+        $lostBets = SportBetSummary::where('user_id', $userId)
+            ->whereBetween('created_at', [$startDate, $endDate])
+            ->where(function($query) {
+                $query->where('operation', 'lose')         // Digitain
+                      ->orWhere('status', 'lost');         // BetBy
+            })
+            ->select('transactionId')
+            ->distinct()
+            ->get()
+            ->pluck('transactionId');
+        
+        if ($lostBets->isEmpty()) {
+            return collect([]);
+        }
+        
+        // Agora buscamos os dados das apostas originais (debit) para essas apostas perdidas
+        return DB::table('sportbetsummary as lose')
+            ->join('sportbetsummary as bet', function($join) {
+                $join->on('bet.transactionId', '=', 'lose.transactionId')
+                    ->where('bet.operation', '=', 'debit');
+            })
+            ->where('lose.user_id', $userId)
+            ->whereIn('lose.transactionId', $lostBets)
+            ->where(function($query) {
+                $query->where('lose.operation', 'lose')        // Digitain
+                      ->orWhere('lose.status', 'lost');        // BetBy
+            })
+            ->select(
+                'bet.transactionId',
+                'bet.created_at',
+                'bet.amount as bet_amount',  // Valor apostado
+                'lose.amount as lose_amount',  // Valor da perda
+                'bet.betslip'
+            )
+            ->orderBy('bet.created_at', 'desc')
+            ->get();
+    }
+
+    /**
+     * Obter histórico detalhado de perdas por tipo
+     * 
+     * @param int $userId
+     * @param Carbon $startDate
+     * @param Carbon $endDate
+     * @return array
+     */
+    public function getDetailedLossBreakdown($userId, Carbon $startDate, Carbon $endDate)
+    {
+        // Perdas em jogos virtuais por provedor
+        $virtualLossesByProvider = GameHistory::where('user_id', $userId)
+            ->whereBetween('created_at', [$startDate, $endDate])
+            ->where('action', 'loss')
+            ->where('provider', '!=', 'sports')
+            ->select('provider', DB::raw('SUM(amount) as total_loss'))
+            ->groupBy('provider')
+            ->get()
+            ->pluck('total_loss', 'provider')
+            ->toArray();
+            
+        // Total de perdas em jogos virtuais
+        $totalVirtualLoss = array_sum($virtualLossesByProvider);
+        
+        // Perdas em esportes - Buscamos as apostas perdidas e usamos o valor da aposta original (contempla ambos provedores)
+        $lostBets = SportBetSummary::where('user_id', $userId)
+            ->whereBetween('created_at', [$startDate, $endDate])
+            ->where(function($query) {
+                $query->where('operation', 'lose')         // Digitain
+                      ->orWhere('status', 'lost');         // BetBy
+            })
+            ->select('transactionId')
+            ->distinct()
+            ->get()
+            ->pluck('transactionId');
+            
+        $sportsLoss = 0;
+        
+        if (!$lostBets->isEmpty()) {
+            $sportsLoss = DB::table('sportbetsummary as bet')
+                ->join('sportbetsummary as lose', function($join) {
+                    $join->on('lose.transactionId', '=', 'bet.transactionId')
+                        ->where(function($query) {
+                            $query->where('lose.operation', '=', 'lose')       // Digitain
+                                  ->orWhere('lose.status', '=', 'lost');       // BetBy
+                        });
+                })
+                ->where('bet.user_id', $userId)
+                ->whereIn('bet.transactionId', $lostBets)
+                ->where('bet.operation', 'debit')
+                ->sum('bet.amount');
+        }
+        
+        return [
+            'virtual' => [
+                'total' => $totalVirtualLoss,
+                'by_provider' => $virtualLossesByProvider
+            ],
+            'sports' => [
+                'total' => $sportsLoss
+            ],
+            'grand_total' => $totalVirtualLoss + $sportsLoss
+        ];
+    }
+
+    /**
+     * Aplicar cashback pendente
+     * 
+     * @param int $cashbackId
+     * @return bool
+     */
+    public function applyCashback($cashbackId)
+    {
+        $cashback = UserCashback::find($cashbackId);
+        
+        if (!$cashback || $cashback->status !== 'pending') {
+            return false;
+        }
+        
+        return $cashback->apply();
+    }
+
+    /**
+     * Gerar relatório de cashbacks por período
+     * 
+     * @param Carbon $startDate
+     * @param Carbon $endDate
+     * @return array
+     */
+    public function generateCashbackReport(Carbon $startDate, Carbon $endDate)
+    {
+        $report = [
+            'total_cashbacks' => 0,
+            'total_amount' => 0,
+            'by_type' => [
+                'sports' => ['count' => 0, 'amount' => 0],
+                'virtual' => ['count' => 0, 'amount' => 0],
+                'all' => ['count' => 0, 'amount' => 0]
+            ],
+            'by_status' => [
+                'pending' => ['count' => 0, 'amount' => 0],
+                'credited' => ['count' => 0, 'amount' => 0],
+                'expired' => ['count' => 0, 'amount' => 0]
+            ]
+        ];
+        
+        $cashbacks = UserCashback::whereBetween('created_at', [$startDate, $endDate])->get();
+        
+        foreach ($cashbacks as $cashback) {
+            $report['total_cashbacks']++;
+            $report['total_amount'] += $cashback->cashback_amount;
+            
+            // Por tipo
+            $report['by_type'][$cashback->type]['count']++;
+            $report['by_type'][$cashback->type]['amount'] += $cashback->cashback_amount;
+            
+            // Por status
+            $report['by_status'][$cashback->status]['count']++;
+            $report['by_status'][$cashback->status]['amount'] += $cashback->cashback_amount;
+        }
+        
+        return $report;
+    }
+
+    /**
+     * Gerar relatório de cashbacks por período com detalhamento
+     * 
+     * @param Carbon $startDate
+     * @param Carbon $endDate
+     * @return array
+     */
+    public function generateDetailedCashbackReport(Carbon $startDate, Carbon $endDate)
+    {
+        $report = $this->generateCashbackReport($startDate, $endDate);
+        
+        // Adicionar informações sobre origem das perdas
+        $lossOrigins = [
+            'sports' => 0,
+            'virtual' => 0
+        ];
+        
+        // Calcular totais de perdas por tipo
+        $cashbacks = UserCashback::whereBetween('created_at', [$startDate, $endDate])->get();
+        
+        foreach ($cashbacks as $cashback) {
+            if ($cashback->type === 'sports') {
+                $lossOrigins['sports'] += $cashback->total_loss;
+            } elseif ($cashback->type === 'virtual') {
+                $lossOrigins['virtual'] += $cashback->total_loss;
+            } elseif ($cashback->type === 'all') {
+                // Para cashbacks do tipo 'all', precisamos consultar os detalhes
+                $details = $this->getDetailedLossBreakdown(
+                    $cashback->user_id, 
+                    $cashback->start_date, 
+                    $cashback->end_date
+                );
+                
+                $lossOrigins['sports'] += $details['sports']['total'];
+                $lossOrigins['virtual'] += $details['virtual']['total'];
+            }
+        }
+        
+        $report['loss_origins'] = $lossOrigins;
+        
+        return $report;
+    }
+
+    /**
+     * Verificar e processar cashbacks automáticos para todos os usuários
+     * 
+     * @param string $type sports|virtual|all
+     * @return array
+     */
+    public function processAutomaticCashbacks($type = 'all')
+    {
+        $results = [
+            'processed' => 0,
+            'amount' => 0,
+            'errors' => 0,
+            'global' => 0,
+            'vip' => 0
+        ];
+        
+        // Verifica se existem configurações globais ou por nível VIP ativas
+        $hasSettings = CashbackSetting::where('active', true)
+            ->where('auto_apply', true)
+            ->where(function($query) use ($type) {
+                $query->where('type', $type)
+                    ->orWhere('type', 'all');
+            })
+            ->where(function($query) {
+                $query->where('is_global', true)
+                    ->orWhereNotNull('vip_level');
+            })
+            ->exists();
+            
+        if (!$hasSettings) {
+            return $results;
+        }
+        
+        $startDate = Carbon::now()->subWeek()->startOfWeek();
+        $endDate = Carbon::now()->subWeek()->endOfWeek();
+        
+        // Busca usuários ativos que tiveram perdas no período
+        $activeUserIds = collect();
+        
+        // Usuários com perdas em jogos virtuais
+        if ($type === 'all' || $type === 'virtual') {
+            $virtualLossUserIds = GameHistory::whereBetween('created_at', [$startDate, $endDate])
+                ->where('action', 'loss')
+                ->pluck('user_id')
+                ->unique();
+                
+            $activeUserIds = $activeUserIds->merge($virtualLossUserIds);
+        }
+        
+        // Usuários com perdas em apostas esportivas (contempla ambos provedores)
+        if ($type === 'all' || $type === 'sports') {
+            $sportsLossUserIds = SportBetSummary::whereBetween('created_at', [$startDate, $endDate])
+                ->where(function($query) {
+                    $query->where('operation', 'lose')         // Digitain
+                          ->orWhere('status', 'lost');         // BetBy
+                })
+                ->pluck('user_id')
+                ->unique();
+                
+            $activeUserIds = $activeUserIds->merge($sportsLossUserIds);
+        }
+        
+        // Remover duplicatas
+        $activeUserIds = $activeUserIds->unique();
+            
+        foreach ($activeUserIds as $userId) {
+            try {
+                $user = User::find($userId);
+                
+                if (!$user) {
+                    continue;
+                }
+                
+                $cashback = $this->processCashback($user, $type, $startDate, $endDate);
+                
+                if ($cashback) {
+                    $results['processed']++;
+                    $results['amount'] += $cashback->cashback_amount;
+                    
+                    // Incrementa contadores específicos por tipo de cashback
+                    $cashbackSetting = CashbackSetting::find($cashback->cashback_setting_id);
+                    if ($cashbackSetting) {
+                        if ($cashbackSetting->is_global) {
+                            $results['global']++;
+                        } elseif ($cashbackSetting->vip_level) {
+                            $results['vip']++;
+                        }
+                    }
+                }
+            } catch (\Exception $e) {
+                Log::error('Erro ao processar cashback automático: ' . $e->getMessage());
+                $results['errors']++;
+            }
+        }
+        
+        return $results;
+    }
+
+    /**
+     * Verifica e processa cashbacks agendados que estão prontos para execução
+     * 
+     * @return array
+     */
+    public function processScheduledCashbacks()
+    {
+        $results = [
+            'processed' => 0,
+            'amount' => 0,
+            'errors' => 0,
+            'global' => 0,
+            'vip' => 0,
+            'settings_processed' => []
+        ];
+        
+        // Verificar o momento atual para comparação precisa com agendamentos
+        $now = now();
+        
+        // Buscar configurações ativas com agendamento ativo e data de próxima execução <= agora
+        $settings = CashbackSetting::where('active', true)
+            ->where('schedule_active', true)
+            ->where(function($query) use ($now) {
+                $query->whereNotNull('next_run_at')
+                      ->where('next_run_at', '<=', $now);
+            })
+            ->get();
+            
+        if ($settings->isEmpty()) {
+            Log::info("Nenhuma configuração de cashback agendada para execução neste momento: " . $now->format('Y-m-d H:i:s'));
+            
+            // Verificar próximos agendamentos para diagnóstico
+            $nextScheduled = CashbackSetting::where('active', true)
+                ->where('schedule_active', true)
+                ->whereNotNull('next_run_at')
+                ->orderBy('next_run_at')
+                ->limit(3)
+                ->get();
+                
+            if ($nextScheduled->isNotEmpty()) {
+                foreach ($nextScheduled as $next) {
+                    Log::info("Próximo agendamento: {$next->name} (ID: {$next->id}) - " . 
+                        $next->next_run_at->format('Y-m-d H:i:s') . " ({$next->scheduled_frequency})");
+                }
+            }
+            
+            return $results;
+        }
+        
+        Log::info("Encontradas " . $settings->count() . " configurações de cashback para processar: " . $now->format('Y-m-d H:i:s'));
+        
+        foreach ($settings as $setting) {
+            try {
+                Log::info("Processando configuração: {$setting->name} (ID: {$setting->id}, Frequência: {$setting->scheduled_frequency})");
+                
+                if ($setting->scheduled_frequency === 'once') {
+                    Log::info("Processando agendamento único para a data: " . 
+                        ($setting->next_run_at ? $setting->next_run_at->format('Y-m-d H:i:s') : 'Não definido'));
+                }
+                
+                // Processar cashback para esta configuração específica
+                $settingResults = $this->processForSetting($setting);
+                
+                // Marcar como executado e atualizar próximo agendamento
+                $setting->markAsRun();
+                
+                // Adicionar resultados ao total
+                $results['processed'] += $settingResults['processed'];
+                $results['amount'] += $settingResults['amount'];
+                $results['errors'] += $settingResults['errors'];
+                $results['global'] += $settingResults['global'];
+                $results['vip'] += $settingResults['vip'];
+                
+                // Adicionar detalhes desta configuração
+                $results['settings_processed'][] = [
+                    'id' => $setting->id,
+                    'name' => $setting->name,
+                    'processed' => $settingResults['processed'],
+                    'amount' => $settingResults['amount'],
+                    'next_run' => $setting->next_run_at
+                ];
+                
+                Log::info("Concluído processamento de {$setting->name}: {$settingResults['processed']} cashbacks, R$ " . 
+                    number_format($settingResults['amount'], 2, ',', '.'));
+                    
+                if ($setting->scheduled_frequency === 'once') {
+                    Log::info("Agendamento único processado e desativado");
+                } else if ($setting->next_run_at) {
+                    Log::info("Próxima execução agendada para: " . $setting->next_run_at->format('Y-m-d H:i:s'));
+                }
+            } catch (\Exception $e) {
+                Log::error('Erro ao processar cashback agendado (config ID: ' . $setting->id . '): ' . $e->getMessage(), [
+                    'trace' => $e->getTraceAsString()
+                ]);
+                $results['errors']++;
+            }
+        }
+        
+        return $results;
+    }
+
+    /**
+     * Processar cashbacks para uma configuração específica
+     * 
+     * @param CashbackSetting $setting
+     * @param int|null $specificUserId ID específico de usuário, se o cashback for para um usuário específico
+     * @return array
+     */
+    public function processForSetting(CashbackSetting $setting, $specificUserId = null)
+    {
+        $results = [
+            'processed' => 0,
+            'amount' => 0,
+            'errors' => 0,
+            'global' => 0,
+            'vip' => 0
+        ];
+        
+        if (!$setting->active) {
+            Log::warning("Tentativa de processar configuração inativa: {$setting->name} (ID: {$setting->id})");
+            return $results;
+        }
+        
+        // Determinar período do cashback
+        $endDate = $setting->next_run_at ?: now();
+        
+        // Definir data de início com base no último pagamento ou data de criação
+        if ($setting->last_run_at) {
+            // Se já houve pagamento anterior, começar a partir dele
+            $startDate = $setting->last_run_at;
+            Log::info("Usando data do último pagamento como início: " . $startDate->format('d/m/Y H:i:s'));
+        } else {
+            // Para o primeiro pagamento, verificar se há data de criação ou usar período padrão
+            $startDate = $setting->created_at ?: $endDate->copy()->subDays(7);
+            Log::info("Primeiro pagamento, usando data de criação: " . $startDate->format('d/m/Y H:i:s'));
+        }
+        
+        Log::info("Processando perdas no período: " . $startDate->format('d/m/Y H:i') . 
+            " até " . $endDate->format('d/m/Y H:i') . " para {$setting->name}");
+        
+        // Se for para um usuário específico, processar apenas para ele
+        if ($specificUserId) {
+            Log::info("Processando cashback específico para o usuário ID: {$specificUserId}");
+            $activeUserIds = collect([$specificUserId]);
+        } else {
+            // Buscar usuários ativos que tiveram perdas no período
+            $activeUserIds = collect();
+            $type = $setting->type;
+            
+            // Usuários com perdas em jogos virtuais
+            if ($type === 'all' || $type === 'virtual') {
+                $virtualLossUserIds = GameHistory::whereBetween('created_at', [$startDate, $endDate])
+                    ->where('action', 'loss')
+                    ->where('provider', '!=', 'sports')
+                    ->pluck('user_id')
+                    ->unique();
+                    
+                $activeUserIds = $activeUserIds->merge($virtualLossUserIds);
+                Log::info("Encontrados {$virtualLossUserIds->count()} usuários com perdas em jogos virtuais");
+            }
+            
+                    // Usuários com perdas em apostas esportivas (contempla ambos provedores)
+        if ($type === 'all' || $type === 'sports') {
+            $sportsLossUserIds = SportBetSummary::whereBetween('created_at', [$startDate, $endDate])
+                ->where(function($query) {
+                    $query->where('operation', 'lose')         // Digitain
+                          ->orWhere('status', 'lost');         // BetBy
+                })
+                ->pluck('user_id')
+                ->unique();
+                    
+                $activeUserIds = $activeUserIds->merge($sportsLossUserIds);
+                Log::info("Encontrados {$sportsLossUserIds->count()} usuários com perdas em apostas esportivas");
+            }
+            
+            // Remover duplicatas
+            $activeUserIds = $activeUserIds->unique();
+            Log::info("Total de {$activeUserIds->count()} usuários únicos com perdas no período");
+            
+            // Se for configuração específica de nível VIP, filtrar usuários
+            if (!$setting->is_global && $setting->vip_level) {
+                // Executar este bloqueio em pequenos lotes para evitar sobrecarga de memória
+                $filteredUserIds = collect();
+                foreach ($activeUserIds->chunk(100) as $idsChunk) {
+                    $users = User::whereIn('id', $idsChunk)->get();
+                    foreach ($users as $user) {
+                        $userRanking = $user->getRanking();
+                        $userVipLevel = $userRanking ? $userRanking['level'] : 1;
+                        
+                        if ($userVipLevel == $setting->vip_level) {
+                            $filteredUserIds->push($user->id);
+                        }
+                    }
+                }
+                Log::info("Filtrados {$filteredUserIds->count()} usuários do nível VIP {$setting->vip_level}");
+                $activeUserIds = $filteredUserIds;
+            }
+        }
+        
+        foreach ($activeUserIds as $userId) {
+            try {
+                $user = User::find($userId);
+                
+                if (!$user) {
+                    continue;
+                }
+                
+                // Para configurações globais, verificamos se o usuário não tem uma configuração específica de VIP
+                // Mas apenas se não for um cashback específico para este usuário
+                if (!$specificUserId && $setting->is_global) {
+                    $userRanking = $user->getRanking();
+                    $userVipLevel = $userRanking ? $userRanking['level'] : 1;
+                    
+                    // Verificar se existe uma configuração específica para o nível VIP do usuário
+                    $vipSetting = CashbackSetting::where('active', true)
+                        ->where('vip_level', $userVipLevel)
+                        ->where('type', $setting->type)
+                        ->first();
+                    
+                    // Se existe uma configuração específica para o nível VIP, pular este usuário
+                    if ($vipSetting) {
+                        continue;
+                    }
+                }
+                
+                // Calcular total de perdas do período
+                $totalLoss = $this->calculateTotalLoss($user->id, $setting->type, $startDate, $endDate);
+                
+                // Se não houver perdas acima do mínimo, pular este usuário
+                if ($totalLoss < $setting->min_loss) {
+                    continue;
+                }
+
+                // Calcular valor do cashback
+                $cashbackAmount = $setting->calculateCashback($totalLoss);
+                
+                if ($cashbackAmount <= 0) {
+                    continue;
+                }
+
+                // Criar descrição identificando o tipo de cashback
+                $description = '';
+                if ($specificUserId) {
+                    $description = "Cashback Específico - {$setting->percentage}%";
+                } else if ($setting->vip_level) {
+                    $description = "Cashback VIP Nível {$setting->vip_level} - {$setting->percentage}%";
+                } else {
+                    $description = "Cashback global - {$setting->percentage}%";
+                }
+                
+                // Verificar se já existe um cashback pendente para este usuário com esta configuração
+                $existingCashback = UserCashback::where('user_id', $user->id)
+                    ->where('cashback_setting_id', $setting->id)
+                    ->where('status', 'pending')
+                    ->first();
+                    
+                if ($existingCashback) {
+                    Log::info("Usuário {$user->id} já possui cashback pendente para esta configuração");
+                    continue;
+                }
+
+                // Criar registro de cashback
+                $userCashback = UserCashback::create([
+                    'user_id' => $user->id,
+                    'cashback_setting_id' => $setting->id,
+                    'total_loss' => $totalLoss,
+                    'cashback_amount' => $cashbackAmount,
+                    'percentage_applied' => $setting->percentage,
+                    'type' => $setting->type,
+                    'status' => 'pending',
+                    'start_date' => $startDate,
+                    'end_date' => $endDate,
+                    'expires_at' => now()->addDays($setting->expiry_days),
+                    'notes' => $description
+                ]);
+                
+                Log::info("Criado cashback para usuário {$user->id}: R$ " . 
+                    number_format($cashbackAmount, 2, ',', '.') . " (perda: R$ " . 
+                    number_format($totalLoss, 2, ',', '.') . ")");
+
+                // Sempre aplicar o cashback automaticamente
+                $applied = $userCashback->apply();
+                Log::info("Cashback " . ($applied ? "aplicado" : "não aplicado") . " automaticamente para usuário {$user->id}");
+                
+                $results['processed']++;
+                $results['amount'] += $cashbackAmount;
+                
+                // Incrementar contadores específicos
+                if ($setting->is_global) {
+                    $results['global']++;
+                } elseif ($setting->vip_level) {
+                    $results['vip']++;
+                }
+            } catch (\Exception $e) {
+                Log::error('Erro ao processar cashback para usuário ' . $userId . ': ' . $e->getMessage(), [
+                    'exception' => $e
+                ]);
+                $results['errors']++;
+            }
+        }
+        
+        return $results;
+    }
+
+    /**
+     * Enviar notificação de cashback para usuários por configuração ou nível VIP
+     * 
+     * @param int|null $settingId ID da configuração de cashback específica (null para todas as configurações)
+     * @param int|null $vipLevel Nível VIP específico (null para todos os níveis)
+     * @param string|null $type Tipo de cashback (sports, virtual, all)
+     * @param string|null $status Status dos cashbacks (pending, credited, expired)
+     * @param Carbon|null $startDate Data inicial do período
+     * @param Carbon|null $endDate Data final do período
+     * @return array Estatísticas do envio
+     */
+    public function sendCashbackNotifications($settingId = null, $vipLevel = null, $type = null, $status = 'credited', Carbon $startDate = null, Carbon $endDate = null)
+    {
+        $stats = [
+            'total_notifications' => 0,
+            'success' => 0,
+            'error' => 0
+        ];
+        
+        try {
+            // Definir período padrão se não for especificado (últimos 30 dias)
+            if (!$startDate) {
+                $startDate = Carbon::now()->subDays(30);
+            }
+            
+            if (!$endDate) {
+                $endDate = Carbon::now();
+            }
+            
+            // Construir a consulta de cashbacks
+            $query = UserCashback::with('user', 'setting')
+                ->whereBetween('created_at', [$startDate, $endDate]);
+            
+            // Filtrar por configuração específica, se fornecida
+            if ($settingId) {
+                $query->where('cashback_setting_id', $settingId);
+            }
+            
+            // Filtrar por tipo, se fornecido
+            if ($type) {
+                $query->where('type', $type);
+            }
+            
+            // Filtrar por status, se fornecido
+            if ($status) {
+                $query->where('status', $status);
+            }
+            
+            // Filtrar por nível VIP, se fornecido
+            if ($vipLevel) {
+                // Buscar configurações relacionadas ao nível VIP específico
+                $vipSettingIds = CashbackSetting::where('vip_level', $vipLevel)->pluck('id')->toArray();
+                if (!empty($vipSettingIds)) {
+                    $query->whereIn('cashback_setting_id', $vipSettingIds);
+                }
+            }
+            
+            // Agrupar por usuário para contabilizar estatísticas
+            $userCashbacks = $query->get()->groupBy('user_id');
+            
+            // Contabilizar estatísticas
+            foreach ($userCashbacks as $userId => $cashbacks) {
+                    $stats['success']++;
+            }
+            
+            $stats['total_notifications'] = $stats['success'];
+            
+        } catch (\Exception $e) {
+            Log::error("Erro ao processar cashback: " . $e->getMessage());
+            $stats['error']++;
+        }
+        
+        return $stats;
+    }
+    
+    /**
+     * Obter descrição do tipo de cashback em diferentes idiomas
+     * 
+     * @param string $type
+     * @param string $lang
+     * @return string
+     */
+    private function getTypeDescription($type, $lang = 'pt_br')
+    {
+        if ($lang === 'pt_br') {
+            switch ($type) {
+                case 'sports': return 'Apostas Esportivas';
+                case 'virtual': return 'Cassino';
+                case 'all':
+                default: return 'Todos os Jogos';
+            }
+        } elseif ($lang === 'en') {
+            switch ($type) {
+                case 'sports': return 'Sports Betting';
+                case 'virtual': return 'Casino';
+                case 'all':
+                default: return 'All Games';
+            }
+        } elseif ($lang === 'es') {
+            switch ($type) {
+                case 'sports': return 'Apuestas Deportivas';
+                case 'virtual': return 'Casino';
+                case 'all':
+                default: return 'Todos los Juegos';
+            }
+        }
+        
+        return 'All Games';
+    }
+} 

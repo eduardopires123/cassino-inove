@@ -1,8 +1,267 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:41              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\sHTeQ\fn52M\JkLI6; use JF89x\SHTEQ\FN52m\nMP37; use JF89X\T0ETd\jkli6\rCDdd; use jF89x\t0ETD\L0Mmh; use EC3mE\sHteq\S9D5T; use ec3me\H2Vuv\p2Qh1\DWmsc; use EC3mE\H2VUv\p2Qh1\DJLvJ; use ec3mE\h2vUV\P2qH1\Log; class Qfs_m extends NMP37 { public function JKBS3() { goto gbudf; n0E88: $lCC1y = L0mmH::c_mHY("\x73\164\x61\164\165\x73", 1)->A9jmH("\156\x61\155\x65", "\x61\163\143")->get(); goto wFoik; wFoik: return Lo0cY("\141\x64\x6d\151\156\x2e\160\145\162\x73\157\156\x61\154\151\x7a\x61\x63\x61\157\56\151\x63\x6f\x6e\145\x73", compact("\x69\x63\157\x6e\x73", "\147\141\155\x65\163")); goto n3FSk; gbudf: $JcUZR = rCdDd::A9jmH("\157\x72\144\x65\x6d", "\141\163\x63")->get(); goto n0E88; n3FSk: } public function aohQW(s9d5t $WFz1w) { try { goto EwIrh; szj6P: $ET0lE->s1ad5 = intval($nIe51); goto XnnDT; LcUCC: $ET0lE = new rCddd(); goto Eu4fV; b62wf: return jGkrl()->sBE1q(["\x73\x75\143\x63\145\163\x73" => true, "\155\x65\163\163\x61\x67\145" => "\xc3\x8d\143\157\x6e\145\40\x61\144\151\143\151\x6f\x6e\x61\x64\157\40\143\157\x6d\40\x73\x75\x63\x65\x73\x73\157", "\151\x63\157\156" => $ET0lE]); goto OYCK1; ifDuk: $this->GsrnB(); goto b62wf; U2pJP: $ET0lE->yxRV_ = $Pdh0U + 1; goto C6J53; BL29N: $ET0lE->f3ZTH = false; goto RfeWZ; IALq3: Log::info("\111\x63\157\x6e\x20\x63\162\151\141\144\157\x20\x63\157\x6d\x20\x73\165\143\145\163\163\x6f", ["\x69\144" => $ET0lE->id]); goto ifDuk; C6J53: $ET0lE->type = $WFz1w->PC2lr("\x74\171\160\x65", "\x69\143\157\156"); goto RaRyX; RfeWZ: goto Hq1fS; goto LDdi3; RHSq5: $ET0lE->dGd4q = $WFz1w->Pc2LR("\163\x76\x67"); goto YQsHm; LDdi3: Llghj: goto aDGX0; lOHYv: $Pdh0U = rCddD::max("\x6f\162\x64\x65\x6d") ?? 0; goto LcUCC; rzA8E: $ET0lE->dKzX1 = $WFz1w->pc2Lr("\147\x61\x6d\145\137\151\144"); goto U2pJP; tBf_A: $WFz1w->validate(["\x6e\x61\155\145" => "\162\145\161\x75\x69\x72\x65\x64\174\163\164\x72\151\156\x67\x7c\155\x61\170\72\62\65\x35", "\x73\166\x67" => "\162\145\x71\x75\151\x72\x65\x64\174\x73\164\x72\151\156\x67", "\154\151\x6e\153" => "\156\165\154\154\x61\142\x6c\145\174\163\164\162\x69\156\147\174\155\141\170\x3a\x32\x35\65", "\x67\x61\x6d\x65\x5f\151\x64" => "\156\x75\154\x6c\141\142\154\x65\174\163\164\162\x69\x6e\147\174\x6d\141\x78\72\x32\x35\x35", "\x61\143\x74\151\166\x65" => "\142\157\157\154\145\141\x6e", "\x74\x79\160\145" => "\x6e\x75\154\x6c\x61\x62\x6c\145\x7c\163\164\x72\x69\156\x67", "\150\157\x74" => "\x69\156\164\x65\x67\x65\x72\x7c\x69\x6e\x3a\60\x2c\x31\x2c\x32"]); goto lOHYv; Eu4fV: $ET0lE->name = $WFz1w->Pc2lR("\156\141\155\x65"); goto RHSq5; xdvJw: $nIe51 = $WFz1w->PC2lr("\150\x6f\x74"); goto szj6P; BdHyq: Hq1fS: goto xdvJw; aDGX0: $ET0lE->f3ZTH = true; goto BdHyq; EwIrh: Log::info("\x52\x65\x63\x65\142\x69\x64\157\x20\162\x65\x71\x75\x65\x73\x74\x20\160\141\x72\x61\x20\163\x74\157\162\x65\x20\x69\x63\157\156", ["\x6e\x61\155\x65" => $WFz1w->PC2Lr("\x6e\141\x6d\x65"), "\x73\x76\147" => substr($WFz1w->pC2lr("\x73\166\x67"), 0, 50) . "\56\x2e\x2e", "\x61\x63\164\151\166\x65" => $WFz1w->PC2Lr("\x61\143\x74\x69\166\145"), "\x61\143\164\x69\166\x65\137\164\x79\160\x65" => gettype($WFz1w->PC2lr("\x61\143\164\151\166\x65")), "\150\141\163\x5f\141\x63\x74\x69\x76\145" => $WFz1w->hkLBP("\141\143\164\151\166\145"), "\141\x6c\x6c\x5f\x64\x61\164\x61" => $WFz1w->P0wSL()]); goto tBf_A; YQsHm: $ET0lE->o9wPQ = $WFz1w->PC2lR("\154\151\156\153"); goto rzA8E; XnnDT: $ET0lE->save(); goto IALq3; RaRyX: $JK3SV = $WFz1w->pC2Lr("\x61\143\x74\x69\x76\145"); goto q0JiU; q0JiU: if ($JK3SV === "\x31" || $JK3SV === 1 || $JK3SV === true || $JK3SV === "\164\x72\165\145") { goto Llghj; } goto BL29N; OYCK1: } catch (\Exception $ai57B) { Log::P2m7E("\x45\162\x72\157\x20\x61\157\x20\x61\x64\151\143\151\x6f\x6e\x61\x72\x20\xc3\xad\x63\157\x6e\145\x3a\40" . $ai57B->getMessage()); return JgkRL()->sBe1Q(["\163\165\x63\143\145\163\x73" => false, "\x6d\145\x73\x73\x61\147\145" => "\105\162\x72\157\40\x61\157\x20\x61\144\151\143\x69\x6f\156\x61\162\40\xc3\xad\143\157\156\x65\72\40" . $ai57B->getMessage()], 500); } } public function update(S9D5T $WFz1w, $nlzPa) { try { goto k5ebT; LQZey: v7ERt: goto JjC_l; uND1C: $ET0lE->type = $WFz1w->type; goto EIRCX; QN93n: $this->gsRnb(); goto Fuqn2; UpMG2: ph0wZ: goto mui4P; JjC_l: if (!$WFz1w->HklbP("\x73\166\147")) { goto QnUb4; } goto xjmNe; g9RvF: $ET0lE->name = $WFz1w->name; goto LQZey; FU9A1: QnUb4: goto hUXgH; k5ebT: $ET0lE = rcDDD::UgyZw($nlzPa); goto K42HK; kAqjp: if (!$WFz1w->hklBP("\x68\157\164")) { goto ph0wZ; } goto zHI62; qQeiw: DMk5r: goto aWc43; xjmNe: $ET0lE->dGd4q = $WFz1w->dGd4q; goto FU9A1; QrV75: $ET0lE->o9wPQ = $WFz1w->o9wPQ; goto YlB1L; EIRCX: chVI9: goto kAqjp; Sy5OG: $ET0lE->yxRV_ = $WFz1w->yxRV_; goto hmmlp; Fuqn2: return jgKrL()->SbE1Q(["\163\x75\x63\x63\x65\163\x73" => true, "\155\145\x73\x73\141\x67\x65" => "\303\x8d\x63\157\156\x65\x20\x61\x74\165\141\x6c\x69\172\x61\144\157\x20\143\x6f\155\40\x73\165\x63\x65\x73\163\157", "\151\143\157\156" => $ET0lE]); goto Go38c; mui4P: $ET0lE->save(); goto QN93n; SP_nB: if (!$WFz1w->hKlbp("\x67\x61\x6d\145\137\x69\x64")) { goto DMk5r; } goto xhu6L; xGTS1: xidFn: goto KoW2i; o4Gm4: if (!$WFz1w->HkLBp("\x61\143\x74\151\166\x65")) { goto xidFn; } goto hb6oR; hmmlp: uPjTn: goto o4Gm4; hb6oR: $ET0lE->f3ZTH = $WFz1w->f3ZTH; goto xGTS1; hUXgH: if (!$WFz1w->HkLBp("\154\151\156\x6b")) { goto jp50U; } goto QrV75; K42HK: $WFz1w->validate(["\156\x61\155\145" => "\156\165\x6c\x6c\141\142\154\x65\x7c\163\164\162\151\x6e\x67\174\155\141\170\x3a\62\x35\x35", "\x73\166\x67" => "\x6e\x75\154\x6c\x61\142\154\x65\x7c\163\164\162\151\156\x67", "\x6c\x69\x6e\x6b" => "\156\165\x6c\154\141\142\154\x65\174\x73\164\x72\x69\x6e\x67\174\x6d\141\x78\72\62\x35\65", "\147\x61\x6d\145\137\151\x64" => "\156\165\154\x6c\x61\142\154\145\x7c\x73\164\x72\x69\x6e\x67\174\x6d\x61\170\x3a\x32\x35\x35", "\x61\143\x74\151\x76\145" => "\x6e\165\154\154\141\x62\154\145\x7c\x62\x6f\x6f\x6c\145\141\x6e", "\x74\171\160\x65" => "\x6e\x75\x6c\154\x61\142\154\145\x7c\163\x74\162\151\156\x67", "\150\x6f\x74" => "\156\x75\154\x6c\x61\x62\154\x65\x7c\x69\x6e\x74\145\147\x65\162\174\151\x6e\72\60\x2c\x31\54\x32"]); goto vn0WF; YlB1L: jp50U: goto SP_nB; KoW2i: if (!$WFz1w->hkLBp("\x74\171\160\145")) { goto chVI9; } goto uND1C; xhu6L: $ET0lE->dKzX1 = $WFz1w->dKzX1; goto qQeiw; vn0WF: if (!$WFz1w->HklBP("\156\141\x6d\145")) { goto v7ERt; } goto g9RvF; aWc43: if (!$WFz1w->HKlBp("\157\162\144\145\x6d")) { goto uPjTn; } goto Sy5OG; zHI62: $ET0lE->s1ad5 = $WFz1w->s1ad5; goto UpMG2; Go38c: } catch (\Exception $ai57B) { return Jgkrl()->sbe1Q(["\x73\165\143\143\x65\163\163" => false, "\155\145\163\163\141\x67\145" => "\x45\162\162\157\40\141\x6f\x20\x61\164\165\x61\x6c\x69\x7a\x61\x72\40\303\255\143\x6f\156\145\x3a\x20" . $ai57B->getMessage()], 500); } } public function destroy($nlzPa) { try { goto TjN6B; TstNY: $this->Gsrnb(); goto jv3by; AsTRp: Log::info("\303\x8d\x63\157\156\x65\40\145\170\x63\x6c\x75\303\xad\144\x6f\40\143\x6f\155\x20\163\x75\143\145\163\163\157", ["\151\144" => $nlzPa]); goto TstNY; TjN6B: Log::info("\123\157\x6c\151\143\x69\164\141\xc3\xa7\303\xa3\x6f\40\x70\141\x72\x61\x20\145\170\143\x6c\x75\151\x72\40\303\255\x63\x6f\156\145", ["\x69\144" => $nlzPa]); goto JfbOb; jv3by: return Jgkrl()->sBe1Q(["\x73\165\x63\x63\x65\163\x73" => true, "\155\x65\163\x73\141\147\x65" => "\xc3\215\143\157\x6e\145\x20\x72\x65\155\x6f\166\x69\x64\157\x20\143\157\x6d\x20\x73\x75\143\x65\163\x73\157"]); goto kNf9E; JfbOb: $ET0lE = rCdDd::ugyZw($nlzPa); goto YGvLT; YGvLT: $ET0lE->delete(); goto AsTRp; kNf9E: } catch (\Exception $ai57B) { Log::p2M7e("\105\x72\162\x6f\40\x61\157\40\162\145\x6d\x6f\166\x65\162\40\xc3\xad\143\x6f\x6e\x65\x3a\x20{$ai57B->getMessage()}", ["\x69\x64" => $nlzPa, "\x74\162\x61\143\145" => $ai57B->getTraceAsString()]); return JGkRl()->sBE1q(["\163\x75\143\x63\x65\x73\163" => false, "\155\145\x73\163\141\147\145" => "\x45\x72\162\x6f\x20\x61\x6f\40\x72\145\x6d\x6f\166\x65\162\40\303\xad\x63\157\156\145\x3a\40" . $ai57B->getMessage()], 500); } } public function g9SaX(S9D5t $WFz1w) { try { goto Nq1Wk; Jc23p: foreach ($k71PN as $nlzPa => $av1tV) { RCDDd::C_mhy("\x69\144", $nlzPa)->update(["\x6f\x72\144\145\x6d" => $av1tV]); jhvrJ: } goto I7ysF; RXM5A: return jGkrl()->sbE1Q(["\163\x75\x63\143\145\163\x73" => true, "\155\145\163\x73\x61\x67\x65" => "\x4f\x72\x64\x65\x6d\40\x61\164\165\141\x6c\151\x7a\141\144\x61\x20\x63\157\155\x20\x73\165\143\x65\163\x73\x6f"]); goto ad3HN; znE_a: $this->GSrnB(); goto RXM5A; I7ysF: uM8iY: goto znE_a; Nq1Wk: $k71PN = $WFz1w->get("\x69\x63\157\x6e\163"); goto Jc23p; ad3HN: } catch (\Exception $ai57B) { return jgKrL()->sbE1Q(["\x73\165\143\143\145\x73\163" => false, "\x6d\x65\x73\163\x61\x67\145" => "\x45\x72\x72\x6f\x20\141\x6f\40\141\164\x75\141\154\x69\x7a\x61\x72\x20\157\162\144\145\x6d\x3a\x20" . $ai57B->getMessage()], 500); } } public function GeZB_($nlzPa) { try { $ET0lE = RcddD::UgyZW($nlzPa); return jGkRl()->sbE1q(["\x73\x75\x63\x63\145\163\163" => true, "\151\143\x6f\156" => $ET0lE]); } catch (\Exception $ai57B) { return JgKRL()->SBE1Q(["\x73\165\x63\x63\145\163\163" => false, "\x6d\x65\163\x73\141\x67\145" => "\x45\x72\162\157\40\141\157\40\142\x75\x73\x63\x61\162\x20\xc3\255\143\157\156\145\72\40" . $ai57B->getMessage()], 500); } } public function B4g3r(S9d5T $WFz1w) { try { goto qqG79; PtN4F: return jgKRl()->SBe1q(["\x73\165\x63\x63\x65\163\x73" => false, "\x6d\x65\163\163\141\147\x65" => "\xc3\215\143\x6f\x6e\145\40\156\xc3\243\157\x20\x65\x6e\x63\x6f\x6e\x74\162\x61\x64\x6f"], 404); goto Vh62z; FrgEL: $ET0lE->save(); goto Za1QU; Lygn7: $ET0lE = RcDdd::YLB3M($nlzPa); goto tlSYK; tlSYK: if ($ET0lE) { goto DSVX5; } goto PtN4F; TVQYT: return jgkRl()->Sbe1Q(["\x73\165\143\143\145\x73\x73" => false, "\x6d\145\163\163\x61\147\145" => "\111\x44\40\x64\157\x20\303\xad\x63\157\x6e\x65\40\x6e\303\243\x6f\40\x66\157\x72\x6e\x65\x63\151\144\x6f"], 400); goto nrjXP; P0aTn: return JGkrL()->sbE1q(["\x73\165\x63\x63\145\x73\x73" => true, "\x6d\145\x73\x73\141\x67\x65" => "\x53\x74\x61\164\x75\x73\x20\144\x6f\x20\xc3\255\x63\x6f\156\145\40\141\x6c\164\x65\162\x61\x64\157\40\143\x6f\155\x20\x73\165\143\x65\x73\163\157"]); goto paI97; nrjXP: u_QZ1: goto Lygn7; Vh62z: DSVX5: goto Y1zgT; Y1zgT: $ET0lE->f3ZTH = $JK3SV; goto FrgEL; v74Vo: $JK3SV = $WFz1w->f3ZTH; goto rWjqW; rWjqW: if ($nlzPa) { goto u_QZ1; } goto TVQYT; Za1QU: $this->gSRNb(); goto P0aTn; qqG79: $nlzPa = $WFz1w->id; goto v74Vo; paI97: } catch (\Exception $ai57B) { return JgKRl()->sbE1q(["\x73\165\143\143\145\163\163" => false, "\155\145\x73\x73\141\x67\145" => "\105\162\162\157\40\x61\157\40\141\x74\165\x61\154\x69\x7a\x61\162\x20\x73\x74\x61\x74\x75\163\72\40" . $ai57B->getMessage()], 500); } } private function gSRNB() { try { goto rjhoU; dj5F4: return true; goto JjrL0; rjhoU: DJLvJ::jCIRA("\151\143\157\156\x73\x5f\x6d\x65\156\165"); goto fddVs; fddVs: dwMSC::call("\x63\x61\143\x68\x65\x3a\x63\x6c\x65\x61\162"); goto dj5F4; JjrL0: } catch (\Exception $ai57B) { Log::P2M7E("\x45\162\x72\157\40\141\157\x20\x6c\151\x6d\x70\x61\x72\40\143\141\x63\150\x65\72\40" . $ai57B->getMessage()); return false; } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Admin\Icon;
+use App\Models\GamesApi;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Log;
+
+class IconsController extends Controller
+{
+    public function index()
+    {
+        $icons = Icon::orderBy('ordem', 'asc')->get();
+        $games = GamesApi::where('status', 1)->orderBy('name', 'asc')->get();
+        
+        return view('admin.personalizacao.icones', compact('icons', 'games'));
+    }
+
+    public function store(Request $request)
+    {
+        try {
+            Log::info('Recebido request para store icon', [
+                'name' => $request->input('name'),
+                'svg' => substr($request->input('svg'), 0, 50) . '...',  // Log only the first 50 chars
+                'active' => $request->input('active'),
+                'active_type' => gettype($request->input('active')),
+                'has_active' => $request->has('active'),
+                'all_data' => $request->all()
+            ]);
+            
+            $request->validate([
+                'name' => 'required|string|max:255',
+                'svg' => 'required|string',
+                'link' => 'nullable|string|max:255',
+                'game_id' => 'nullable|string|max:255',
+                'active' => 'boolean',
+                'type' => 'nullable|string',
+                'hot' => 'integer|in:0,1,2'
+            ]);
+            
+            // Get the highest order value and add 1
+            $maxOrder = Icon::max('ordem') ?? 0;
+            
+            $icon = new Icon();
+            $icon->name = $request->input('name');
+            $icon->svg = $request->input('svg');
+            $icon->link = $request->input('link');
+            $icon->game_id = $request->input('game_id');
+            $icon->ordem = $maxOrder + 1;
+            $icon->type = $request->input('type', 'icon');
+            
+            // Handle the active field explicitly
+            $active = $request->input('active');
+            if ($active === '1' || $active === 1 || $active === true || $active === 'true') {
+                $icon->active = true;
+            } else {
+                $icon->active = false;
+            }
+            
+            // Handle the hot field
+            $hot = $request->input('hot');
+            $icon->hot = intval($hot);
+            
+            $icon->save();
+            
+            Log::info('Icon criado com sucesso', ['id' => $icon->id]);
+            
+            // Clear cache
+            $this->clearCache();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Ícone adicionado com sucesso',
+                'icon' => $icon
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao adicionar ícone: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao adicionar ícone: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function update(Request $request, $id)
+    {
+        try {
+            $icon = Icon::findOrFail($id);
+
+            $request->validate([
+                'name' => 'nullable|string|max:255',
+                'svg' => 'nullable|string',
+                'link' => 'nullable|string|max:255',
+                'game_id' => 'nullable|string|max:255',
+                'active' => 'nullable|boolean',
+                'type' => 'nullable|string',
+                'hot' => 'nullable|integer|in:0,1,2'
+            ]);
+
+            // Update fields if provided
+            if ($request->has('name')) $icon->name = $request->name;
+            if ($request->has('svg')) $icon->svg = $request->svg;
+            if ($request->has('link')) $icon->link = $request->link;
+            if ($request->has('game_id')) $icon->game_id = $request->game_id;
+            if ($request->has('ordem')) $icon->ordem = $request->ordem;
+            if ($request->has('active')) $icon->active = $request->active;
+            if ($request->has('type')) $icon->type = $request->type;
+            if ($request->has('hot')) $icon->hot = $request->hot;
+
+            $icon->save();
+            
+            // Clear cache
+            $this->clearCache();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Ícone atualizado com sucesso',
+                'icon' => $icon
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar ícone: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function destroy($id)
+    {
+        try {
+            Log::info('Solicitação para excluir ícone', ['id' => $id]);
+            
+            $icon = Icon::findOrFail($id);
+            
+            // Delete the icon
+            $icon->delete();
+            Log::info("Ícone excluído com sucesso", ['id' => $id]);
+            
+            // Clear cache
+            $this->clearCache();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Ícone removido com sucesso'
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error("Erro ao remover ícone: {$e->getMessage()}", [
+                'id' => $id,
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao remover ícone: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function updateOrder(Request $request)
+    {
+        try {
+            $orders = $request->get('icons');
+            
+            foreach ($orders as $id => $ordem) {
+                Icon::where('id', $id)->update(['ordem' => $ordem]);
+            }
+            
+            // Clear cache
+            $this->clearCache();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Ordem atualizada com sucesso'
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar ordem: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Get a single icon by ID
+     */
+    public function show($id)
+    {
+        try {
+            $icon = Icon::findOrFail($id);
+            
+            return response()->json([
+                'success' => true,
+                'icon' => $icon
+            ]);
+            
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao buscar ícone: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function toggleActive(Request $request)
+    {
+        try {
+            $id = $request->id;
+            $active = $request->active;
+            
+            if (!$id) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'ID do ícone não fornecido'
+                ], 400);
+            }
+            
+            $icon = Icon::find($id);
+            
+            if (!$icon) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Ícone não encontrado'
+                ], 404);
+            }
+            
+            $icon->active = $active;
+            $icon->save();
+            
+            // Clear cache
+            $this->clearCache();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Status do ícone alterado com sucesso'
+            ]);
+            
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar status: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Clear the application cache to refresh icon data
+     */
+    private function clearCache()
+    {
+        try {
+            Cache::forget('icons_menu');
+            Artisan::call('cache:clear');
+            return true;
+        } catch (\Exception $e) {
+            Log::error('Erro ao limpar cache: ' . $e->getMessage());
+            return false;
+        }
+    }
+} 

@@ -1,8 +1,1421 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:48              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\sHtEQ\fn52m; use EC3Me\shTeq\S9d5T; use ec3me\h2vUv\p2QH1\NxrOV; use jF89x\T0ETd\DiEQD; use jF89X\T0etd\Y0xep; use JF89X\T0eTD\l3e2N; use Ec3Me\H2VUv\P2qH1\LVLOX; use JF89x\T0eTD\uMYA4; use jf89x\T0eTd\r2256; class D07D1 extends NMP37 { public function BFsU1() { goto uHKbr; ntvyn: $tc6VC = null; goto OYWgK; xhuoR: if (!empty($UTO56)) { goto H_yxR; } goto J0zc1; OYWgK: $yYSch = null; goto tkjWv; M0d4U: $VkBl0 = $W82ze->level; goto ZMYU5; fnNO4: mut9i: goto b7KLQ; Wyf9V: if (count($UTO56) > 1) { goto WTOhD; } goto PFLOg; uHKbr: $e5HVA = nxRoV::yFGi_(); goto mb58j; hUvRB: uDGon: goto tWi9E; lMW8t: $yYSch = $UTO56[1]; goto XY7a4; lGp3y: $W82ze = $NHPtu->tUzpD(); goto UuRjo; sR0r0: Mm6dM: goto hUvRB; jID0e: OEtqO: goto SEqwX; IAyiu: $plpct = 0; goto zNpPe; HMeor: if (!(!$NHPtu || $NHPtu->level != $ZaNpK->level)) { goto kn3tj; } goto ecCdw; L66GF: lIfoK: goto G16FN; KoEPR: if (count($UTO56) > 1) { goto odTW3; } goto E6Gdj; cXKS8: goto WyFm1; goto sQDFn; U828M: kn3tj: goto Qr4_B; QS8jE: if (!($plpct > $nNvCo)) { goto ZOmsh; } goto w8b6t; m6HVy: xlsUS: goto OVivj; qzhwl: $e5HVA->hsa49 = 0; goto EESAj; hyWtX: ZOmsh: goto cRsE3; EFakT: if (!$ZaNpK) { goto xMCjU; } goto HMeor; tkjWv: $NHPtu = null; goto xhuoR; YqthX: ZIKf7: goto M0d4U; ViQ28: $e5HVA->save(); goto w0Oxm; Nl8Ez: $TcAkh = Y0XEP::G0jIT(); goto nl4i4; VUmjz: WyFm1: goto L66GF; fY3bX: if (!($e5HVA && $NHPtu)) { goto ls7IS; } goto l6qo5; B3hcv: $ZaNpK = null; goto G4w_j; l6WOs: return lo0cY("\166\x69\x70\56\x6c\x65\x76\145\x6c\163", compact("\162\141\156\153\151\x6e\x67", "\x6c\145\x76\x65\154\163\101\162\162\141\x79", "\164\x6f\x74\x61\154\104\145\x70\157\163\151\x74\x73", "\143\x75\162\162\x65\x6e\164\x4c\145\x76\145\154")); goto IBbDD; ZMYU5: $yYSch = $W82ze->toArray(); goto sR0r0; SStY7: if (!$e5HVA) { goto RcSTN; } goto kZCJX; faWUD: $nNvCo = $tc6VC["\154\x65\x76\x65\x6c"]; goto Wyf9V; XY7a4: $VkBl0 = $yYSch["\x6c\145\166\x65\154"]; goto VUmjz; Hyp03: WTOhD: goto ozuwC; skLVk: if (empty($UTO56)) { goto lIfoK; } goto KgF3U; AswzT: $VkBl0 = 2; goto ntvyn; g3aFA: RcSTN: goto Nl8Ez; fmjv_: pb5Ib: goto EFakT; S2gkY: if (!($plpct === 0 && $zu3Nl > 0)) { goto cTlVG; } goto qzhwl; sQDFn: odTW3: goto lMW8t; PFLOg: $yYSch = null; goto t70v0; usd8y: $NHPtu = Y0XeP::qIKdl($zu3Nl); goto B3hcv; OVivj: $nNvCo = $NHPtu->level; goto WLFd9; FbBkP: if ($e5HVA) { goto njX1O; } goto Vp_Yi; G4w_j: foreach ($TcAkh->t1Wb7("\x6d\x69\x6e\x5f\x64\145\x70\157\163\x69\x74") as $DeFpF) { goto NGPrG; NGPrG: if (!($zu3Nl >= $DeFpF->CLmNy)) { goto Dkqgy; } goto OC04f; HCmbK: Dkqgy: goto HH7c0; OC04f: $ZaNpK = $DeFpF; goto HCmbK; HH7c0: Sm01B: goto HMDK7; HMDK7: } goto fmjv_; lRbGb: $GadLW = ["\x6c\x65\166\x65\x6c" => $nNvCo, "\x6e\141\155\145" => $tc6VC["\156\x61\x6d\x65"] ?? "\x42\162\157\x6e\x7a\x65", "\151\x6d\x61\147\145" => $tc6VC["\151\155\x61\x67\x65"] ?? "\x69\155\147\57\x72\x61\156\153\151\x6e\147\57\61\56\160\156\x67", "\143\165\x72\162\145\x6e\x74\137\144\145\160\x6f\163\151\x74" => $zu3Nl, "\156\x65\x78\164\137\154\145\166\x65\x6c" => $VkBl0, "\156\x65\170\164\137\154\x65\166\x65\154\x5f\144\x65\160\157\x73\151\164" => $yYSch["\x6d\151\156\137\x64\145\160\157\x73\x69\x74"] ?? null, "\150\x61\x73\x5f\x72\145\x77\141\162\144" => false, "\x72\x65\x77\x61\162\x64\x5f\151\144" => null]; goto fY3bX; Qr4_B: xMCjU: goto KVC0L; tWi9E: ZWrC1: goto lRbGb; U9Rpk: goto Mm6dM; goto YqthX; cRsE3: try { goto gW9tW; gW9tW: $h3uzg = l3E2n::C_mHy("\x75\163\x65\162\x5f\x69\144", $e5HVA->id)->c_mhY("\166\x69\160\x5f\x6c\145\x76\145\x6c\x5f\151\x64", $NHPtu->id)->C_mHY("\151\x73\x5f\143\154\x61\x69\155\145\144", true)->iIBEq(); goto sD9yd; ST2v1: if (($nNvCo > $plpct || $plpct === 0) && !$h3uzg) { goto yKVZn; } goto u7_DV; u7_DV: goto Q1vqf; goto lsSeU; c1oDK: goto Q1vqf; goto AuYPH; sD9yd: if ($nNvCo <= $plpct && $plpct !== 0 || $h3uzg) { goto HX9iu; } goto ST2v1; AuYPH: yKVZn: goto roD_7; Ph_6I: Q1vqf: goto Cw67K; lsSeU: HX9iu: goto OSsuN; roD_7: $GadLW["\150\141\x73\x5f\162\145\167\141\162\x64"] = true; goto Ph_6I; OSsuN: $GadLW["\150\x61\x73\x5f\x72\145\x77\141\x72\144"] = false; goto c1oDK; Cw67K: } catch (\Exception $ai57B) { $GadLW["\150\x61\x73\x5f\162\x65\167\141\x72\144"] = true; } goto Hryt5; CexEy: njX1O: goto usd8y; b7KLQ: Lk6IF: goto V1WmG; ozuwC: $yYSch = $UTO56[1]; goto LlhLJ; Vp_Yi: if (empty($UTO56)) { goto L6RRn; } goto BdlWA; vQK0S: $zu3Nl = (float) $zu3Nl; goto g3aFA; j0Ecn: goto OEtqO; goto Hyp03; kj4zM: $VkBl0 = null; goto Nl9iA; EESAj: $e5HVA->save(); goto IAyiu; xESAU: $nNvCo = 1; goto AswzT; Q30o_: $VkBl0 = null; goto cXKS8; LlhLJ: $VkBl0 = $yYSch["\x6c\145\166\x65\x6c"]; goto jID0e; E6Gdj: $yYSch = null; goto Q30o_; J0zc1: $UTO56 = [["\154\x65\166\x65\x6c" => 1, "\x6e\141\155\x65" => "\102\x72\x6f\156\172\145", "\x6d\151\x6e\137\144\x65\x70\157\163\x69\x74" => 0, "\x69\x6d\141\147\145" => "\151\x6d\x67\57\x72\141\x6e\x6b\x69\x6e\x67\57\61\56\160\x6e\147", "\142\x65\156\x65\x66\x69\164\x73" => "\x42\145\x6e\145\x66\303\255\143\151\157\163\40\x62\xc3\241\x73\x69\x63\157\x73\40\x64\157\40\143\x6c\165\x62\x65\x20\126\x49\120"], ["\x6c\145\166\x65\x6c" => 2, "\x6e\141\155\x65" => "\x50\x72\141\x74\x61", "\x6d\151\x6e\137\x64\x65\x70\157\163\x69\164" => 3, "\151\155\141\x67\x65" => "\151\155\147\57\162\141\156\x6b\151\x6e\x67\x2f\x32\56\160\156\147", "\142\145\156\145\x66\x69\x74\x73" => "\102\145\156\x65\146\xc3\255\143\x69\x6f\163\x20\144\x6f\40\x6e\303\255\x76\x65\154\x20\160\162\x61\164\x61"]]; goto bNlMR; w0Oxm: $plpct = $e5HVA->hsa49; goto hyWtX; ecCdw: $NHPtu = $ZaNpK; goto U828M; kZCJX: $zu3Nl = DiEqD::C_MhY("\165\163\x65\162\x5f\x69\144", $e5HVA->id)->c_MHy("\164\171\x70\145", 0)->c_MHY("\x73\164\141\164\x75\x73", 1)->UY03O("\141\x6d\157\x75\x6e\164"); goto vQK0S; KgF3U: $tc6VC = $UTO56[0]; goto mQQub; mQQub: $nNvCo = $tc6VC["\x6c\x65\166\145\154"]; goto KoEPR; UuRjo: if ($W82ze) { goto ZIKf7; } goto kj4zM; Nl9iA: $yYSch = null; goto U9Rpk; BdlWA: $tc6VC = $UTO56[0]; goto faWUD; KVC0L: if (!(!$NHPtu && !$TcAkh->isEmpty())) { goto Lk6IF; } goto DryEl; WLFd9: $tc6VC = $NHPtu->toArray(); goto lGp3y; zNpPe: cTlVG: goto QS8jE; V1WmG: if ($NHPtu) { goto xlsUS; } goto skLVk; G16FN: goto uDGon; goto m6HVy; DryEl: foreach ($TcAkh->t1wb7("\x6d\151\x6e\x5f\x64\145\160\x6f\163\x69\x74") as $DeFpF) { goto nGFDz; CB2Ud: $NHPtu = $DeFpF; goto lEJbJ; xKxe4: frv2A: goto fy0cE; lEJbJ: H8Tox: goto xKxe4; nGFDz: if (!($zu3Nl >= $DeFpF->CLmNy)) { goto H8Tox; } goto CB2Ud; fy0cE: } goto fnNO4; Hryt5: ls7IS: goto l6WOs; bNlMR: H_yxR: goto FbBkP; mb58j: $zu3Nl = 0; goto SStY7; l6qo5: $plpct = $e5HVA->hsa49 ?? 0; goto S2gkY; qaLZ1: goto ZWrC1; goto CexEy; SEqwX: L6RRn: goto qaLZ1; w8b6t: $e5HVA->hsa49 = $nNvCo - 1; goto ViQ28; t70v0: $VkBl0 = null; goto j0Ecn; nl4i4: $UTO56 = $TcAkh->toArray(); goto xESAU; IBbDD: } public function pYFd7(S9d5T $WFz1w) { goto CPdaP; CPdaP: $e5HVA = NXROV::YfGI_(); goto dECwF; dECwF: if ($e5HVA) { goto xfial; } goto kd2E3; kd2E3: return fH6x5()->wwy32("\x6c\x6f\147\x69\156")->RNJfY("\x65\162\x72\157\x72", "\x56\157\143\xc3\xaa\x20\160\x72\x65\143\x69\163\141\40\145\x73\164\x61\x72\x20\154\157\x67\141\144\x6f\x20\x70\141\162\141\40\162\145\x73\x67\x61\164\x61\x72\40\162\145\143\x6f\x6d\x70\x65\x6e\163\x61\163\40\x56\111\x50\x2e"); goto LpTay; IbcYv: try { goto v0FRg; sfLS9: lVLOx::commit(); goto hTEm2; Jm5wu: $EbJHK->save(); goto xK5b0; Ej5c3: $v3YZR .= "\40\126\157\143\303\xaa\x20\x72\145\143\145\x62\145\165\x3a\40" . implode("\54\x20", $WEFt3) . "\x2e"; goto JcRrw; XxnNH: if (!($rcnrc > 0)) { goto QUAO1; } goto GyOuR; BTL2n: $WEFt3[] = "\122\x24\40" . number_format($WPrSW, 2, "\x2c", "\56") . "\40\144\145\x20\x73\x61\x6c\144\157\x20\x62\303\xb4\x6e\x75\x73"; goto P0fKR; H2d5w: $plWv7[] = "\122\44\x20" . number_format($LkAnl, 2, "\x2c", "\x2e") . "\40\144\145\x20\163\x61\154\x64\x6f\40\162\x65\x61\x6c"; goto Zry2J; y7HvJ: $EbJHK = new l3E2N(); goto mS4IW; A_rLR: if (!($nNvCo->level <= $plpct && $plpct !== 0 || $h3uzg)) { goto DjPj6; } goto eW40B; ep4Ag: k508x: goto uUbNT; oFSj9: DjPj6: goto y7HvJ; G6DHr: $plWv7[] = $VIfZt . "\x20\x72\157\x64\141\x64\x61\x73\x20\x67\162\xc3\xa1\164\151\163"; goto TBG91; hTEm2: $v3YZR = "\x50\141\162\x61\142\xc3\xa9\x6e\163\x21\40\x56\157\x63\xc3\xaa\x20\162\145\163\147\141\x74\x6f\165\x20\163\165\x61\40\x72\145\x63\157\x6d\160\145\x6e\x73\x61\x20\126\111\120\x20\143\157\x6d\40\163\165\x63\x65\163\163\x6f\56"; goto PySGy; TBG91: $OvwkG[] = "\122\157\x64\x61\144\x61\163\x3a\40" . number_format($hTAAI->vqBxI - $VIfZt); goto FYjGw; IzoIX: if (!($WPrSW > 0)) { goto lNcIT; } goto U4nXY; VlGNF: $WEFt3[] = $VIfZt . "\x20\162\157\144\x61\144\x61\x73\x20\147\162\303\xa1\x74\x69\x73"; goto XpYko; XpYko: G0HiM: goto S9yss; rsFx2: tv2qq: goto ZEVFe; Wkpqj: LCYw4: goto sfLS9; zTjT3: $hTAAI->AqmcG = ($hTAAI->AqmcG ?? 0) + $LkAnl; goto V_s05; xgpgg: $WPrSW = $nNvCo->aeeEY ?? 0; goto YPghE; m_Qoi: $hTAAI->save(); goto Hfpun; v0FRg: LVLOx::beginTransaction(); goto E6Zm1; E6Zm1: $zu3Nl = dIeQd::C_MHy("\165\x73\x65\162\x5f\x69\144", $e5HVA->id)->C_mhy("\x74\171\160\145", 1)->c_MHy("\x73\x74\141\x74\x75\x73", 1)->UY03O("\x61\x6d\157\x75\156\x74"); goto HmV2h; gktq2: $WEFt3[] = $rcnrc . "\x20\155\157\145\144\141\163"; goto GwNO5; uaJlo: if ($hTAAI) { goto w_i1I; } goto bGyTR; iXjdQ: $DzbA1 = []; goto XxnNH; lvw1l: return FH6x5()->jyyrV()->RNJfy("\x65\x72\x72\157\162", "\126\x6f\x63\xc3\xaa\40\x6e\303\243\x6f\40\160\157\x73\x73\x75\151\40\165\155\x20\156\303\255\x76\145\x6c\40\126\111\120\x20\x76\303\241\x6c\151\x64\x6f\40\x70\141\162\x61\40\x72\145\163\x67\141\164\x61\162\40\162\x65\x63\157\x6d\160\145\156\x73\x61\163\x2e"); goto NN3BX; R2epv: $LkAnl = $nNvCo->i8aoN ?? 0; goto xgpgg; bGyTR: LVLOX::rollBack(); goto NLXm8; MdNCP: $EbJHK->BndsH = $VIfZt; goto Jm5wu; HhtVR: $e5HVA->save(); goto jQQI8; j4goq: $EbJHK->oIMk7 = $WPrSW; goto MdNCP; iXALK: NsPoE: goto GZYNK; QQF7s: $OvwkG = []; goto iXjdQ; NdPSd: if (!($rcnrc > 0)) { goto mhtRk; } goto gktq2; n4zlC: RPNzw: goto RyC1V; YFUTv: $OvwkG[] = "\x43\157\x69\156\x73\72\40" . number_format($hTAAI->R1CVp - $rcnrc); goto ij1dr; ZEVFe: if (!($WPrSW > 0)) { goto RPNzw; } goto AftmJ; oezbw: if (!($VIfZt > 0)) { goto g7Zn5; } goto OWAD_; WLNAD: if (!($LkAnl > 0)) { goto n5vxE; } goto Edu6D; HmV2h: $xhJZI = dIeQD::C_MhY("\165\x73\145\x72\x5f\x69\144", $e5HVA->id)->C_mHY("\x74\x79\x70\145", 0)->c_mHy("\x73\x74\141\164\165\x73", 1)->uy03O("\x61\x6d\x6f\x75\156\x74"); goto jvu4S; mS4IW: $EbJHK->ROWMV = $e5HVA->id; goto BgT0P; Edu6D: $WEFt3[] = "\122\x24\40" . number_format($LkAnl, 2, "\54", "\56") . "\40\144\x65\40\163\141\154\144\x6f"; goto HC_uN; p5jwn: $hTAAI->R1CVp = ($hTAAI->R1CVp ?? 0) + $rcnrc; goto iXALK; P0fKR: yqHLH: goto QxTl_; haGNb: $DzbA1[] = "\x53\x61\154\144\157\x3a\40\122\x24\x20" . number_format($hTAAI->AqmcG, 2, "\x2c", "\x2e"); goto rsFx2; QxTl_: if (!($VIfZt > 0)) { goto G0HiM; } goto VlGNF; Zry2J: $OvwkG[] = "\123\141\154\x64\157\x3a\40\x52\44\x20" . number_format($hTAAI->AqmcG - $LkAnl, 2, "\x2c", "\56"); goto haGNb; PySGy: $WEFt3 = []; goto NdPSd; eJeYT: $EbJHK->IREfi = true; goto XVtHu; JcRrw: qQYCT: goto GXdLC; ij1dr: $DzbA1[] = "\103\x6f\151\156\163\x3a\40" . number_format($hTAAI->R1CVp); goto MlmFd; U4nXY: $hTAAI->tiNLb = ($hTAAI->tiNLb ?? 0) + $WPrSW; goto vEiL5; NN3BX: kdBvk: goto DBKF3; GZYNK: if (!($LkAnl > 0)) { goto cLG6b; } goto zTjT3; fYXEy: $rcnrc = $nNvCo->t5FE_ ?? 0; goto R2epv; RyC1V: if (!($VIfZt > 0)) { goto k508x; } goto G6DHr; rLJeu: \Jf89X\t0ETd\JKLI6\RPE1u::create(["\146\151\x65\x6c\144\x5f\156\x61\x6d\145" => "\122\145\143\x6f\155\x70\x65\156\x73\x61\40\x4e\xc3\255\166\145\x6c\x20\126\x49\x50", "\x6f\x6c\x64\137\x76\x61\154\165\x65" => implode("\54\40", $OvwkG), "\156\145\x77\137\x76\141\154\x75\145" => implode("\x2c\x20", $DzbA1), "\x75\x70\x64\x61\164\x65\x64\137\x62\171" => $nNvCo->id, "\x75\x73\145\162\137\151\144" => $e5HVA->id, "\x74\171\160\x65" => 10, "\154\157\x67" => "\x55\x73\x75\xc3\241\162\x69\157\x20\x72\145\x63\x65\142\x65\x75\40" . implode("\x2c\x20", $plWv7) . "\x20\x64\x6f\40\x6e\303\xad\166\145\x6c\40\x56\x49\x50\40" . $nNvCo->name]); goto Wkpqj; GyOuR: $plWv7[] = $rcnrc . "\40\143\x6f\x69\x6e\x73"; goto YFUTv; XVtHu: $EbJHK->hwpXs = whFH3(); goto fYXEy; Hfpun: $e5HVA->hsa49 = $nNvCo->level; goto HhtVR; vlPs8: $OvwkG[] = "\102\xc3\264\156\165\163\72\x20\x52\44\40" . number_format($hTAAI->tiNLb - $WPrSW, 2, "\54", "\56"); goto l05Z4; jQQI8: $plWv7 = []; goto QQF7s; DBKF3: $plpct = $e5HVA->hsa49 ?? 0; goto s9Nlw; PystN: return fh6X5()->JYyrv()->RnjFY("\x65\162\x72\157\x72", "\x56\x6f\143\303\252\x20\152\303\241\x20\x72\x65\x73\x67\141\164\x6f\x75\40\x74\157\x64\141\163\x20\141\163\40\162\x65\x63\x6f\x6d\x70\145\156\163\141\163\x20\x64\151\163\x70\x6f\x6e\303\255\166\145\151\x73\x20\160\141\x72\x61\x20\163\145\165\x20\x6e\303\255\x76\x65\x6c\x20\x56\111\x50\40\x61\164\165\x61\154\x2e"); goto oFSj9; FYjGw: $DzbA1[] = "\122\x6f\x64\x61\144\x61\x73\x3a\x20" . number_format($hTAAI->vqBxI); goto ep4Ag; Uvsi2: if (!($WPrSW > 0)) { goto yqHLH; } goto BTL2n; WpEk0: g7Zn5: goto m_Qoi; jld_R: $nNvCo = Y0XeP::QIkDl($I1TSv > 0 ? $I1TSv : $zu3Nl); goto KOT7C; eW40B: LvloX::rollBack(); goto PystN; xK5b0: $hTAAI = $e5HVA->d1U9g; goto uaJlo; GXdLC: return Fh6X5()->jyyrV()->rNJfY("\x73\165\x63\143\x65\163\x73", $v3YZR); goto Wg39H; l05Z4: $DzbA1[] = "\x42\xc3\xb4\x6e\x75\163\72\40\122\44\x20" . number_format($hTAAI->tiNLb, 2, "\54", "\56"); goto n4zlC; OWAD_: $hTAAI->vqBxI = ($hTAAI->vqBxI ?? 0) + $VIfZt; goto WpEk0; GwNO5: mhtRk: goto WLNAD; zt9mX: $EbJHK->qMIbY = $LkAnl; goto j4goq; vEiL5: lNcIT: goto oezbw; V_s05: cLG6b: goto IzoIX; eqczx: w_i1I: goto BqC89; q2iSQ: $zu3Nl = (float) $zu3Nl; goto jld_R; jvu4S: $I1TSv = (float) $xhJZI; goto q2iSQ; s9Nlw: $h3uzg = L3e2N::c_MhY("\165\x73\x65\162\x5f\151\144", $e5HVA->id)->c_MHy("\166\x69\160\x5f\x6c\x65\x76\x65\154\137\x69\x64", $nNvCo->id)->C_Mhy("\151\163\x5f\x63\x6c\x61\151\155\145\144", true)->iIbeQ(); goto A_rLR; BqC89: if (!($rcnrc > 0)) { goto NsPoE; } goto p5jwn; KOT7C: if ($nNvCo) { goto kdBvk; } goto lvw1l; AftmJ: $plWv7[] = "\122\44\x20" . number_format($WPrSW, 2, "\54", "\x2e") . "\40\x64\x65\40\163\141\154\x64\157\40\142\xc3\264\x6e\165\x73"; goto vlPs8; uUbNT: if (empty($plWv7)) { goto LCYw4; } goto rLJeu; S9yss: if (empty($WEFt3)) { goto qQYCT; } goto Ej5c3; HC_uN: n5vxE: goto Uvsi2; YPghE: $VIfZt = $nNvCo->ZKcx1 ?? 0; goto ocsl7; NLXm8: return fH6X5()->JYyrV()->rNJFy("\145\x72\162\x6f\162", "\x45\162\162\x6f\40\x61\157\x20\160\x72\x6f\x63\x65\x73\x73\141\x72\40\x73\165\x61\x20\x72\x65\x63\157\x6d\160\145\x6e\163\x61\x3a\40\143\141\162\164\145\x69\x72\141\40\156\303\xa3\x6f\40\x65\156\143\x6f\x6e\x74\x72\x61\144\141\56"); goto eqczx; zOr05: if (!($LkAnl > 0)) { goto tv2qq; } goto H2d5w; MlmFd: QUAO1: goto zOr05; BgT0P: $EbJHK->fSd4M = $nNvCo->id; goto eJeYT; ocsl7: $EbJHK->abEvH = $rcnrc; goto zt9mX; Wg39H: } catch (\Exception $ai57B) { LVLox::rollBack(); return FH6x5()->jyYrV()->RNJFy("\x65\162\162\157\162", "\117\x63\x6f\162\x72\145\x75\40\165\x6d\x20\145\162\x72\157\x20\x61\157\x20\160\162\x6f\x63\145\163\x73\141\x72\x20\x73\165\141\x20\162\145\143\157\x6d\160\145\156\x73\x61\40\126\111\120\72\40" . $ai57B->getMessage()); } goto TrsPf; LpTay: xfial: goto IbcYv; TrsPf: } public function sbAUX() { goto S_f8c; EW6AT: foreach ($j_qsK as $mfpo5) { goto Smf0A; QVO_w: $OsT6E = $mfpo5->mfJ8E()->C_mhy("\151\x73\137\162\141\x6e\x64\x6f\x6d\x5f\160\154\x61\x79\145\162", false)->C_mHy("\x70\x6f\151\x6e\164\163", "\76", 0)->IiBeQ(); goto zoeyV; AdwxD: $xg3cw = \jF89x\t0etd\Umya4::C_MHy("\165\x73\145\162\x5f\151\144", $e5HVA->id)->C_mhy("\x61\143\164\x69\x6f\x6e", "\154\x6f\x73\163")->c_MHY("\x63\162\x65\141\x74\145\x64\x5f\141\x74", "\76\x3d", $mfpo5->bXH45)->c_MhY("\143\x72\x65\x61\x74\145\144\x5f\x61\164", "\74\x3d", wHFh3())->ufMZi("\147\x61\x6d\x65", $mfpo5->SKbbp); goto x6o7V; zoeyV: $mfpo5->eg2O2 = $OsT6E; goto kSl1V; WR1dV: $mfpo5->Rd0dw = $Y9tY9; goto YQqXa; vLILD: eX0oE: goto oK9Dw; YQqXa: yUg9a: goto x12b0; oK9Dw: $QL9tC = false; goto yW0n2; yW0n2: if (!($e5HVA && !empty($mfpo5->SKbbp))) { goto yUg9a; } goto AdwxD; kSl1V: EfF4k: goto jAmtb; rDVt0: $mfpo5->v1xTx = $QL9tC; goto WR1dV; JDDh3: $mfpo5->k06gp = $mfpo5->mVZ__(); goto wZ4or; wZ4or: if (empty($mfpo5->or6jD)) { goto eX0oE; } goto JxpiC; am5ZC: $Y9tY9 = $xg3cw->Uy03O("\141\x6d\x6f\165\156\x74"); goto rDVt0; Smf0A: $mfpo5->s1lEb = $mfpo5->AO2HW(); goto JDDh3; JxpiC: try { goto ZHYe7; GnHcn: $sBwrV = []; goto jQNOM; rZTsW: CpzGh: goto fAZ0D; jQNOM: foreach ($IJRnN as $cAEfu) { goto Rmv5e; mN4S1: $sBwrV[] = $cAEfu->EWmd0; goto jCbi9; jCbi9: ftF3w: goto I64rn; Rmv5e: $HARhE[] = $cAEfu->name; goto mN4S1; I64rn: } goto rZTsW; ZHYe7: $D91Ry = explode("\x2c", $mfpo5->or6jD); goto pBxBd; pBxBd: $IJRnN = \lvlOx::ftZ7f("\147\141\x6d\145\x73\137\141\x70\151")->Ufmzi("\x67\141\155\145\x73\137\141\160\151\56\151\144", $D91Ry)->C_mHy("\147\141\155\145\163\137\141\x70\151\56\x73\164\141\164\165\163", 1)->get(["\x67\141\x6d\145\163\x5f\141\x70\x69\x2e\151\144", "\147\x61\x6d\145\x73\x5f\x61\160\x69\x2e\156\x61\x6d\145", "\x67\141\x6d\145\x73\x5f\x61\160\x69\56\x73\154\165\147"]); goto FtwD5; fAZ0D: $mfpo5->aK11q = $HARhE; goto NnDeV; NnDeV: $mfpo5->SKbbp = $sBwrV; goto WA1WR; FtwD5: $HARhE = []; goto GnHcn; WA1WR: } catch (\Exception $ai57B) { $mfpo5->aK11q = $D91Ry; $mfpo5->SKbbp = $D91Ry; } goto vLILD; x12b0: $mfpo5->GY5l0 = $mfpo5->fyH2g(5); goto QVO_w; x6o7V: $QL9tC = $xg3cw->IiBEQ(); goto am5ZC; jAmtb: } goto fjLRl; TWhM_: return lo0cy("\166\x69\x70\x2e\164\157\162\x6e\145\x69\x6f\x73", compact("\x72\x61\156\153\x69\156\147", "\141\143\x74\151\x76\145\x54\x6f\165\162\x6e\x61\155\145\x6e\164\x73")); goto pAdHh; fjLRl: wvgP5: goto TWhM_; pnbib: $j_qsK = \jF89X\t0eTD\r2256::obUUD(); goto EW6AT; S_f8c: $e5HVA = nxrOv::yFgi_(); goto i2Z2U; i2Z2U: $GadLW = $e5HVA ? $e5HVA->CEbWd() ?? ["\x6c\145\x76\x65\154" => 1, "\156\141\x6d\x65" => "\x42\162\157\156\x7a\x65", "\x69\155\141\x67\x65" => "\x69\x6d\x67\x2f\162\141\x6e\x6b\x69\x6e\147\57\x31\x2e\160\x6e\147", "\143\165\162\162\145\x6e\x74\137\x64\x65\x70\157\x73\x69\x74" => 0, "\x6e\145\x78\x74\137\154\x65\166\x65\154" => 2, "\156\x65\170\x74\x5f\x6c\145\166\145\154\137\144\145\x70\x6f\x73\151\164" => 200, "\160\x72\x6f\x67\x72\x65\163\x73" => 0, "\x68\141\x73\137\162\145\167\141\162\144" => false, "\x72\145\167\141\x72\x64\x5f\151\144" => null] : ["\154\x65\166\x65\154" => 1, "\156\x61\155\x65" => "\x42\x72\157\x6e\x7a\145", "\151\x6d\141\147\x65" => "\x69\155\147\57\x72\141\156\153\x69\156\x67\57\x31\56\160\156\x67", "\x63\x75\162\162\x65\x6e\x74\137\x64\145\160\157\163\151\x74" => 0, "\x6e\145\x78\164\137\x6c\x65\x76\x65\x6c" => 2, "\156\x65\x78\164\137\x6c\x65\x76\x65\x6c\x5f\x64\145\160\157\x73\151\164" => 200, "\160\162\157\147\x72\x65\163\x73" => 0, "\150\x61\163\137\162\145\x77\141\162\x64" => false, "\162\x65\x77\x61\x72\144\x5f\151\144" => null]; goto pnbib; pAdHh: } public function kf7ZW($nlzPa) { goto lwYth; a_hgr: $Y9tY9 = 0; goto WG0t2; KHvQS: if (!$e5HVA) { goto nlDuE; } goto k0H9q; pjliW: if ($mfpo5) { goto RE8cO; } goto bWGAZ; kiQ33: $R_DjD = clone $xg3cw; goto En0ZV; qnQOL: $pqbpw->R2QXj = $YZLyO; goto NkCK1; gMY8X: $mfpo5->v1xTx = $QL9tC; goto wIKVL; NuxEK: nlDuE: goto SyCZm; HlxjN: $bVJ9b = $mfpo5->I6hKf ?? 0.4; goto kiQ33; T60gP: if (!$pqbpw) { goto oOoL6; } goto qnQOL; XaKyY: $v1I4L = $mfpo5->v076Z($e5HVA->id); goto dm4u2; fYDo3: $mfpo5->U41uy = sprintf("\45\x30\62\144\x68\x20\x3a\40\x25\60\x32\x64\x6d\40\72\40\45\60\x32\x64\163", $cPeVY["\150\157\x75\162\x73"], $cPeVY["\x6d\x69\156\x75\x74\x65\163"], $cPeVY["\x73\145\x63\x6f\156\x64\x73"]); goto GsnP8; deelJ: MdwIT: goto jtjwc; DEqLV: try { goto pejOu; shDMS: $HARhE = []; goto o1Ifi; o1Ifi: $sBwrV = []; goto cVrCS; aTH1n: $mfpo5->aK11q = $HARhE; goto Ua5gK; wbc6y: EgXei: goto aTH1n; Ua5gK: $mfpo5->SKbbp = $sBwrV; goto KcUFo; HkZ7d: $IJRnN = \lvLox::ftZ7F("\147\x61\155\145\x73\137\141\x70\x69")->UfMzI("\147\x61\155\x65\163\x5f\x61\160\x69\x2e\151\144", $D91Ry)->C_Mhy("\147\x61\155\x65\x73\x5f\141\x70\x69\56\163\164\x61\164\165\x73", 1)->get(["\147\x61\155\x65\163\x5f\x61\x70\151\56\x69\x64", "\x67\x61\155\x65\163\137\141\x70\151\56\x6e\x61\155\x65", "\147\141\x6d\x65\163\x5f\141\160\151\x2e\163\154\x75\x67"]); goto shDMS; pejOu: $D91Ry = explode("\54", $mfpo5->or6jD); goto HkZ7d; cVrCS: foreach ($IJRnN as $cAEfu) { goto F5oBx; vZV0_: gBBVj: goto Mlwet; mKnY7: $sBwrV[] = $cAEfu->EWmd0; goto vZV0_; F5oBx: $HARhE[] = $cAEfu->name; goto mKnY7; Mlwet: } goto wbc6y; KcUFo: } catch (\Exception $ai57B) { $mfpo5->aK11q = $D91Ry; $mfpo5->SKbbp = $D91Ry; } goto l2SCc; OFobH: $GadLW = $e5HVA ? $e5HVA->CEBwD() ?? ["\154\145\166\145\154" => 1, "\x6e\141\155\145" => "\102\x72\157\156\172\145", "\x69\155\x61\x67\145" => "\x69\x6d\x67\57\x72\141\156\153\x69\x6e\147\x2f\x31\x2e\160\x6e\147", "\x63\x75\162\162\145\x6e\x74\137\x64\145\160\x6f\x73\151\x74" => 0, "\x6e\145\x78\164\x5f\154\x65\166\145\x6c" => 2, "\156\x65\170\164\x5f\154\145\x76\x65\154\x5f\144\145\160\x6f\163\x69\x74" => 200, "\x70\162\x6f\147\x72\145\163\163" => 0, "\150\141\x73\x5f\x72\x65\167\141\162\x64" => false, "\x72\145\167\x61\x72\144\137\x69\x64" => null] : ["\x6c\145\166\145\x6c" => 1, "\x6e\141\155\145" => "\x42\x72\157\x6e\172\145", "\151\x6d\x61\147\145" => "\151\x6d\x67\57\162\x61\156\153\x69\x6e\x67\57\61\56\x70\156\147", "\x63\x75\162\162\x65\156\164\137\x64\145\160\x6f\x73\151\164" => 0, "\156\x65\x78\x74\x5f\154\x65\166\145\154" => 2, "\156\145\170\164\x5f\x6c\x65\166\145\154\137\144\x65\160\157\x73\x69\164" => 200, "\160\162\157\147\162\145\x73\163" => 0, "\x68\141\x73\x5f\162\145\x77\x61\x72\144" => false, "\x72\x65\167\x61\162\144\x5f\151\144" => null]; goto p6kLe; gpgtn: if (!($QL9tC && $Y9tY9 > 0)) { goto YAbeB; } goto XaKyY; SyCZm: $mfpo5->GY5l0 = $mfpo5->fyH2g(20); goto mOvnw; Gifrn: YAbeB: goto bTvov; R93Y6: $pqbpw->save(); goto E3O7P; LtmBV: $Y9tY9 = $xg3cw->Uy03o("\x61\155\157\x75\x6e\164"); goto B91qD; p6kLe: $mfpo5 = \jf89X\t0ETd\r2256::Ylb3M($nlzPa); goto pjliW; gJ0tX: $cPeVY = $mfpo5->k06gp; goto fYDo3; IlH5d: t9ciW: goto gMY8X; QXHFs: $pqbpw->VY9ZK = wHfH3(); goto R93Y6; pvJyh: $gSI4i = false; goto KHvQS; lG_C4: switch ($mfpo5->xCUqX ?? "\x62\145\x74\137\x61\x6d\x6f\165\x6e\164") { case "\x62\x65\164\137\141\155\x6f\x75\x6e\164": $wdrxC = $Y9tY9 * $ZSiDG; goto t9ciW; case "\167\x69\156\137\141\x6d\x6f\x75\x6e\164": goto p263S; Fheze: $FFWDO = $WgfD1->Uy03o("\141\155\157\165\x6e\164"); goto mGiOV; MOjen: $WgfD1->c_mhy("\141\x63\x74\x69\x6f\156", "\167\x69\x6e"); goto Fheze; p263S: $WgfD1 = clone $xg3cw; goto MOjen; mGiOV: $wdrxC = $FFWDO * $ZSiDG; goto wJOme; wJOme: goto t9ciW; goto Gyya7; Gyya7: case "\x62\x65\x74\x5f\x63\157\x75\156\x74": goto ZU8qt; tbvpQ: goto t9ciW; goto bvYOd; IMmWh: $wdrxC = $xJ1ya * $ZSiDG; goto tbvpQ; ZU8qt: $xJ1ya = $xg3cw->count(); goto IMmWh; bvYOd: default: $wdrxC = $Y9tY9 * 100; } goto ygcpR; En0ZV: $R_DjD->C_Mhy("\x61\x6d\x6f\x75\x6e\164", "\x3e\75", $bVJ9b); goto VJyDH; wIKVL: $mfpo5->Rd0dw = $Y9tY9; goto w_8Z_; lwYth: $e5HVA = NXrOV::YFGi_(); goto OFobH; l2SCc: n1edh: goto cuHwB; NVOWm: if (!($e5HVA && !empty($mfpo5->SKbbp))) { goto AcU30; } goto dJJ77; Kbnk9: $mfpo5->k06gp = $mfpo5->mvZ__(); goto gJ0tX; jyYFE: hqusO: goto deelJ; VJyDH: $YZLyO = 0; goto sVH5L; bWGAZ: return FH6x5()->Wwy32("\166\151\x70\56\x74\x6f\x75\x72\156\x61\155\x65\156\x74\x73")->rNJfY("\x65\162\x72\x6f\162", "\124\x6f\162\156\145\151\157\40\156\xc3\243\157\x20\x65\156\x63\x6f\156\x74\162\141\144\x6f\x2e"); goto fHUfT; PfJ0o: $QL9tC = $xg3cw->IIBEQ(); goto LtmBV; dm4u2: if ($v1I4L) { goto dg2wA; } goto jy9Nu; mOvnw: $mfpo5->h8dPD = $mfpo5->MFj8e()->rNJFY("\165\x73\145\x72")->A9JMH("\x70\157\x69\156\164\x73", "\144\x65\163\x63")->get(); goto PTHfx; B91qD: $ZSiDG = $mfpo5->o1D02 ?? 100; goto lG_C4; PTHfx: return Lo0cY("\x76\151\160\56\x76\151\145\x77\164\157\162\156\145\151\157\x73", compact("\162\x61\x6e\x6b\151\x6e\x67", "\164\157\165\x72\156\x61\x6d\145\x6e\x74", "\x69\x73\120\x61\162\164\x69\x63\151\160\x61\x74\151\x6e\147")); goto JJ2Sy; ZtUek: dg2wA: goto Gifrn; sVH5L: switch ($mfpo5->xCUqX ?? "\142\145\164\137\141\x6d\x6f\x75\x6e\164") { case "\142\145\164\137\141\x6d\x6f\x75\x6e\164": goto BU4Kd; NQlMm: $YZLyO = $HOUTH * $ZSiDG; goto PlvWU; PlvWU: goto MdwIT; goto wxBFA; BU4Kd: $HOUTH = $R_DjD->UY03O("\141\x6d\x6f\165\x6e\x74"); goto NQlMm; wxBFA: case "\x77\151\x6e\x5f\x61\155\157\x75\x6e\x74": goto Zc8w9; H5NeJ: $WgfD1->C_MHy("\x61\x63\x74\151\157\156", "\167\151\156"); goto yts2u; yts2u: $FFWDO = $WgfD1->uy03O("\141\x6d\x6f\x75\156\164"); goto SIHr5; Zc8w9: $WgfD1 = clone $R_DjD; goto H5NeJ; w44d6: goto MdwIT; goto ALScA; SIHr5: $YZLyO = $FFWDO * $ZSiDG; goto w44d6; ALScA: case "\142\x65\164\x5f\143\157\x75\156\x74": goto N0zto; ICtGr: $YZLyO = $xJ1ya * $ZSiDG; goto vZKyn; vZKyn: goto MdwIT; goto ULonN; N0zto: $xJ1ya = $R_DjD->count(); goto ICtGr; ULonN: default: $HOUTH = $R_DjD->Uy03O("\x61\155\x6f\165\156\x74"); $YZLyO = $HOUTH * 100; } goto jyYFE; E3O7P: oOoL6: goto ZtUek; bTvov: AcU30: goto pvJyh; k0H9q: $gSI4i = $mfpo5->v076z($e5HVA->id); goto NuxEK; NkCK1: $pqbpw->duHx2 = $mfpo5->xCUqX ?? "\142\145\164\137\x61\155\157\x75\x6e\x74"; goto QXHFs; WG0t2: $wdrxC = 0; goto NVOWm; jy9Nu: $mfpo5->MFJ8E()->b8DuA(["\x74\x6f\165\x72\x6e\x61\155\x65\156\x74\x5f\151\144" => $mfpo5->id, "\x75\163\145\162\x5f\151\144" => $e5HVA->id], ["\x6a\x6f\x69\156\145\144\137\x61\164" => WHfh3(), "\x6c\141\163\164\x5f\x61\143\x74\151\166\145\137\x61\x74" => whFH3(), "\x69\163\x5f\x72\141\x6e\144\x6f\x6d\x5f\160\x6c\x61\171\x65\162" => false]); goto HlxjN; dJJ77: $xg3cw = \Jf89X\t0EtD\umYA4::C_MhY("\x75\163\145\x72\x5f\x69\x64", $e5HVA->id)->c_MHy("\x61\x63\x74\x69\157\x6e", "\x6c\157\x73\163")->c_mhY("\x63\x72\145\x61\164\x65\x64\x5f\x61\164", "\x3e\x3d", $mfpo5->bXH45)->C_MhY("\143\162\145\141\x74\145\x64\137\x61\164", "\74\x3d", WHFh3())->UFmzi("\147\141\155\145", $mfpo5->SKbbp); goto PfJ0o; GsnP8: if (empty($mfpo5->or6jD)) { goto n1edh; } goto DEqLV; cuHwB: $QL9tC = false; goto a_hgr; w_8Z_: $mfpo5->ReUya = $wdrxC; goto gpgtn; fHUfT: RE8cO: goto Zs6C_; Zs6C_: $mfpo5->s1lEb = $mfpo5->ao2Hw(); goto Kbnk9; jtjwc: $pqbpw = $mfpo5->Mfj8E()->C_MhY("\165\x73\145\x72\x5f\x69\x64", $e5HVA->id)->Yrkr9(); goto T60gP; ygcpR: Iqai9: goto IlH5d; JJ2Sy: } public function uWCYt() { goto QESIX; yEens: if ($e5HVA) { goto Bp96b; } goto iDK0l; UfPJP: return lO0Cy("\166\151\x70\x2e\155\x69\x73\x73\x6f\x65\163", compact("\162\141\x6e\153\151\156\147", "\x6d\x69\x73\163\151\157\156\163")); goto RRXFu; qMjKh: NsMjp: goto VvA9e; C1wVM: ohpMs: goto JvDKh; DSHuK: pP4M1: goto p4Z7O; JvDKh: $bv2BS = $YN6pD->get(); goto yEens; uxn5T: if ($e5HVA) { goto nGRZ3; } goto qz8w3; iDK0l: foreach ($bv2BS as &$sUA6R) { goto NJGP1; QwOtJ: $sUA6R->mbEzf = false; goto tOjgN; NJGP1: $sUA6R->oVigy = 0; goto thBKB; tOjgN: $sUA6R->LdHqU = false; goto pKjQG; thBKB: $sUA6R->K9siK = 0; goto GuskL; GuskL: $sUA6R->PwbRr = false; goto QwOtJ; Yc9nz: evZIh: goto JNOac; pKjQG: $sUA6R->lIVtb = ''; goto Yc9nz; JNOac: } goto qMjKh; qz8w3: $YN6pD->c_mhY("\162\x61\x6e\153\x69\x6e\147\137\164\x79\160\x65", "\141\x6c\x6c"); goto pgYg1; EqDwG: $GadLW = $e5HVA ? $e5HVA->CEbwd() ?? ["\154\x65\166\x65\x6c" => 1, "\156\x61\x6d\x65" => "\102\x72\157\x6e\x7a\x65", "\151\155\x61\x67\145" => "\x69\155\147\x2f\x72\141\156\x6b\x69\156\x67\57\x31\x2e\160\156\147", "\x63\x75\x72\x72\x65\x6e\164\137\x64\x65\160\x6f\163\x69\164" => 0, "\x6e\145\x78\x74\137\154\145\166\x65\x6c" => 2, "\156\145\170\164\x5f\x6c\145\166\x65\154\x5f\144\145\160\x6f\x73\x69\164" => 200, "\160\162\157\147\x72\145\x73\163" => 0, "\150\x61\x73\137\162\x65\167\x61\162\x64" => false, "\x72\145\x77\x61\x72\144\137\151\144" => null] : ["\154\x65\x76\145\154" => 1, "\156\x61\155\145" => "\x42\x72\157\156\x7a\x65", "\x69\x6d\x61\x67\145" => "\151\x6d\147\x2f\x72\x61\x6e\x6b\x69\156\x67\57\x31\x2e\x70\156\147", "\143\x75\162\162\145\156\x74\x5f\144\x65\x70\157\163\151\x74" => 0, "\156\145\x78\x74\x5f\154\x65\166\145\x6c" => 2, "\x6e\x65\170\164\137\x6c\x65\166\x65\154\x5f\144\x65\x70\157\163\151\164" => 200, "\x70\x72\157\147\162\x65\x73\x73" => 0, "\x68\x61\163\137\x72\145\x77\141\162\x64" => false, "\162\145\167\x61\162\144\137\x69\144" => null]; goto ONNW1; dXSNU: $l30Hu = $GadLW["\x6c\x65\166\x65\x6c"]; goto UtTkD; QESIX: $e5HVA = nxRoV::YFGi_(); goto EqDwG; p4Z7O: QfqiA: goto UfPJP; pgYg1: goto ohpMs; goto yf6sE; QZk_x: Bp96b: goto Uhuki; UtTkD: $YN6pD->C_Mhy(function ($XrAG1) use($l30Hu) { $XrAG1->C_mhY("\x72\141\156\x6b\x69\x6e\x67\137\164\171\x70\x65", "\x61\154\x6c")->iNY8c(function ($scVUQ) use($l30Hu) { $scVUQ->C_Mhy("\162\141\x6e\x6b\x69\x6e\147\137\164\171\160\145", "\155\151\x6e\x69\x6d\x75\155")->C_MhY("\164\x61\x72\x67\x65\164\x5f\162\x61\x6e\x6b\151\156\147\137\154\145\x76\145\154", "\x3c\75", $l30Hu); })->INY8C(function ($scVUQ) use($l30Hu) { $scVUQ->c_MhY("\x72\141\156\x6b\x69\156\147\x5f\164\171\x70\x65", "\x73\x70\x65\143\x69\146\151\143")->C_mhY("\164\x61\x72\147\145\164\137\x72\x61\x6e\x6b\x69\x6e\x67\137\x6c\145\166\x65\154", $l30Hu); }); }); goto C1wVM; VvA9e: goto QfqiA; goto QZk_x; yf6sE: nGRZ3: goto dXSNU; Uhuki: foreach ($bv2BS as &$sUA6R) { goto aLdeG; P4iqz: $sUA6R->lIVtb = $cAEfu ? $cAEfu->EWmd0 : ''; goto amvbc; amvbc: tm4H2: goto zAXTG; c4avh: $HERig = true; goto vOOfG; pgwfK: $mobFi = $TWhab ? $TWhab->EWmd0 : null; goto lb9iA; rlRdc: $sUA6R->mbEzf = $ZyrWR; goto HIuQx; CRIuN: goto htexC; goto b6i69; yVx4L: tRChe: goto C94Kh; aLdeG: $lg3LE = \jF89x\t0etD\fU5rm::c_mHy("\155\151\x73\x73\x69\x6f\156\x5f\151\x64", $sUA6R->id)->c_MhY("\x75\163\145\162\x5f\151\144", $e5HVA->id)->yrkR9(); goto r7998; oKl3C: if (!($h2iD5 && !$HERig && $rSBtR >= 100)) { goto KsRcL; } goto c4avh; b6i69: W6WHi: goto tlfKz; zwWg9: $cAEfu = $sUA6R->y5NOK()->YRKR9(); goto P4iqz; QK5EK: $ZyrWR = $lg3LE && $lg3LE->mbEzf ? true : false; goto LZmJI; nqTnD: $lg3LE->QgcXb = WHfH3(); goto tLqJq; OONQO: $sUA6R->K9siK = $rSBtR; goto LYJKC; es_h9: $kwEjZ = $k6_i1; goto UtNeI; qd3yF: $sUA6R->oVigy = $kwEjZ; goto OONQO; tlfKz: $xg3cw->UfMzI("\147\141\155\145", $gFKjk); goto O4c6E; EAs46: goto tm4H2; goto xyDVS; GCK5f: $xg3cw = uMYA4::c_MhY("\x75\163\145\162\x5f\x69\144", $e5HVA->id); goto vnFt0; tLqJq: $lg3LE->save(); goto yVx4L; VE_CQ: dxn7U: goto IJ5ou; r7998: $HERig = $lg3LE && $lg3LE->QgcXb ? true : false; goto QK5EK; xdT57: $xg3cw->C_mhY("\143\162\x65\141\164\x65\144\137\x61\164", "\x3e\x3d", $lg3LE->SUq_n); goto VE_CQ; C94Kh: KsRcL: goto qd3yF; IJ5ou: $k6_i1 = $xg3cw->C_mhY("\x61\x63\164\151\157\x6e", "\x6c\x6f\163\x73")->UY03o("\141\x6d\x6f\x75\156\x74"); goto es_h9; m7Ck6: if ($sUA6R->dKzX1) { goto ve0VU; } goto RO4Zz; UtNeI: $rSBtR = $h2iD5 ? min($kwEjZ / $sUA6R->qQfFB * 100, 100) : 0; goto oKl3C; vOOfG: if (!$lg3LE) { goto tRChe; } goto nqTnD; zAXTG: xXBq8: goto PbN8L; xyDVS: ve0VU: goto zwWg9; HIuQx: $sUA6R->LdHqU = $h2iD5; goto m7Ck6; LYJKC: $sUA6R->PwbRr = $HERig; goto rlRdc; O4c6E: htexC: goto dSea9; lb9iA: $gFKjk = $mobFi ? [$mobFi] : []; goto GCK5f; mZGxl: $TWhab = $sUA6R->Y5noK()->YRKR9(); goto pgwfK; LZmJI: $h2iD5 = $lg3LE && $lg3LE->SUq_n ? true : false; goto mZGxl; dSea9: if (!($lg3LE && $lg3LE->SUq_n)) { goto dxn7U; } goto xdT57; HWA0y: $xg3cw->C_mhy("\147\141\155\145", $TWhab->id); goto CRIuN; vnFt0: if (!empty($gFKjk)) { goto W6WHi; } goto HWA0y; RO4Zz: $sUA6R->lIVtb = ''; goto EAs46; PbN8L: } goto DSHuK; ONNW1: $YN6pD = \Jf89x\t0eTD\AFqei::C_MhY("\163\x74\x61\164\165\x73", 1); goto uxn5T; RRXFu: } public function aOhqW() { goto sNCcC; ypFPk: $fuNfU = []; goto lTkxa; sNCcC: $e5HVA = NXroV::yFGI_(); goto Jq_sH; lTkxa: return lo0cy("\166\x69\x70\x2e\x73\x74\x6f\162\x65", compact("\162\141\156\153\151\156\x67", "\x70\162\x6f\144\165\143\164\x73")); goto OYeFi; Jq_sH: $GadLW = $e5HVA ? $e5HVA->cebwD() ?? ["\154\145\166\145\x6c" => 1, "\156\141\x6d\145" => "\102\x72\157\x6e\172\145", "\x69\x6d\141\147\x65" => "\151\155\147\x2f\162\141\x6e\153\151\x6e\x67\x2f\61\x2e\160\156\x67", "\x63\x75\162\x72\x65\x6e\x74\x5f\x64\x65\160\x6f\x73\151\164" => 0, "\x6e\145\x78\164\x5f\154\x65\166\x65\x6c" => 2, "\156\x65\170\164\x5f\x6c\145\166\145\154\137\144\145\x70\157\163\x69\164" => 200, "\160\162\157\147\162\145\x73\163" => 0, "\150\141\163\137\162\x65\167\141\162\x64" => false, "\162\x65\167\141\x72\x64\x5f\151\144" => null] : ["\x6c\145\166\145\154" => 1, "\x6e\x61\155\x65" => "\102\x72\157\x6e\172\x65", "\x69\155\141\x67\x65" => "\x69\155\147\57\x72\x61\x6e\x6b\151\x6e\147\57\x31\x2e\x70\x6e\x67", "\143\x75\162\x72\x65\156\164\x5f\144\x65\x70\157\x73\151\164" => 0, "\156\x65\170\164\x5f\154\145\166\x65\x6c" => 2, "\x6e\145\x78\x74\x5f\154\145\x76\145\154\137\144\x65\160\157\x73\151\164" => 200, "\160\x72\157\x67\x72\145\x73\163" => 0, "\x68\141\x73\137\x72\145\167\x61\162\144" => false, "\x72\145\167\x61\x72\144\x5f\x69\144" => null]; goto ypFPk; OYeFi: } public function HmvVK() { goto GGk4j; GGk4j: $e5HVA = nxROV::YfGi_(); goto xMNdd; Jjl5z: return LO0Cy("\166\151\x70\56\155\151\x6e\151\55\147\141\x6d\145\x73", compact("\162\x61\156\x6b\x69\x6e\x67", "\x67\x61\x6d\x65\163")); goto LgNGe; xMNdd: $GadLW = $e5HVA ? $e5HVA->CeBWd() ?? ["\154\145\166\x65\x6c" => 1, "\156\x61\155\145" => "\x42\162\x6f\x6e\x7a\x65", "\151\x6d\x61\x67\x65" => "\151\x6d\147\x2f\x72\141\x6e\153\151\x6e\x67\57\61\56\160\156\x67", "\143\165\162\162\x65\156\164\137\x64\x65\160\157\x73\151\164" => 0, "\x6e\145\x78\x74\137\154\x65\x76\x65\x6c" => 2, "\156\145\170\x74\137\x6c\145\166\145\154\137\x64\x65\x70\157\163\151\164" => 200, "\x70\162\157\147\162\x65\x73\x73" => 0, "\x68\141\163\137\x72\145\167\141\162\144" => false, "\x72\x65\167\141\162\144\137\151\144" => null] : ["\154\145\x76\145\154" => 1, "\156\141\x6d\145" => "\x42\x72\157\x6e\172\x65", "\151\x6d\x61\147\145" => "\151\155\147\57\162\141\x6e\153\x69\156\x67\57\61\x2e\x70\156\x67", "\x63\165\x72\x72\x65\x6e\x74\x5f\x64\x65\160\x6f\x73\x69\x74" => 0, "\x6e\145\170\x74\137\154\x65\x76\145\154" => 2, "\x6e\x65\170\164\137\154\145\x76\145\x6c\x5f\144\x65\x70\x6f\x73\151\x74" => 200, "\160\x72\x6f\x67\162\x65\163\163" => 0, "\150\141\163\137\162\x65\167\x61\x72\144" => false, "\x72\x65\x77\141\x72\144\x5f\151\x64" => null]; goto zhdh6; zhdh6: $lCC1y = []; goto Jjl5z; LgNGe: } public function dYtXn() { goto fELsE; OefU9: i8keN: goto d2y9G; d2y9G: try { goto kwmZT; k2mmk: return jGKrl()->sBE1q(["\x73\165\143\x63\145\163\163" => true, "\x6d\151\x73\x73\x69\x6f\156\x73" => $bv2BS]); goto AtSfv; BS9Wf: $l30Hu = $GadLW["\154\145\x76\x65\x6c"]; goto gweEL; jO1ja: $YcPWM = $YN6pD->get(); goto Kuwno; gweEL: $YN6pD->c_MHy(function ($XrAG1) use($l30Hu) { $XrAG1->c_mHY("\162\x61\156\x6b\151\156\x67\137\164\171\160\145", "\x61\154\154")->iny8C(function ($scVUQ) use($l30Hu) { $scVUQ->C_MhY("\x72\x61\x6e\153\151\x6e\147\137\x74\x79\160\x65", "\155\151\x6e\x69\155\165\x6d")->c_MhY("\x74\x61\162\x67\145\x74\x5f\162\x61\156\x6b\x69\156\x67\x5f\154\145\x76\145\x6c", "\x3c\x3d", $l30Hu); })->inY8C(function ($scVUQ) use($l30Hu) { $scVUQ->c_MhY("\162\141\156\153\x69\x6e\147\x5f\x74\x79\160\145", "\x73\160\145\143\x69\146\151\143")->C_Mhy("\x74\141\x72\147\145\x74\x5f\x72\x61\x6e\153\x69\156\147\x5f\x6c\x65\166\x65\154", $l30Hu); }); }); goto jO1ja; kwmZT: $GadLW = $e5HVA->cEbWd() ?? ["\x6c\x65\166\x65\x6c" => 1, "\156\x61\x6d\145" => "\x42\x72\157\156\172\145", "\x69\x6d\141\147\145" => "\x69\155\x67\57\162\x61\x6e\153\151\x6e\147\x2f\61\x2e\160\156\147", "\x63\x75\162\x72\145\156\x74\137\144\x65\x70\157\163\151\164" => 0, "\x6e\x65\x78\164\x5f\154\145\x76\x65\154" => 2, "\156\x65\170\x74\137\x6c\145\x76\145\x6c\137\144\145\x70\x6f\x73\x69\164" => 200, "\160\162\157\147\x72\145\x73\x73" => 0, "\x68\x61\163\137\162\x65\x77\x61\162\144" => false, "\x72\145\167\141\162\144\x5f\x69\144" => null]; goto klsz_; Kuwno: $bv2BS = $YcPWM->VNT3x(function ($sUA6R) use($e5HVA) { goto E3wui; BGniM: if (!empty($gFKjk)) { goto iX2WW; } goto T4xsa; wZcbV: if (!$lg3LE->QgcXb) { goto CREHt; } goto phj52; cai1z: $rSBtR = $h2iD5 ? min($hQZTg / $sUA6R->qQfFB * 100, 100) : 0; goto qLPdb; UVoDk: $hQZTg = $k6_i1; goto cai1z; dtoA1: if (!($lg3LE && $lg3LE->SUq_n)) { goto yqdhH; } goto es9sk; kzAHA: iX2WW: goto nCaJz; WlM5E: $mobFi = $cAEfu ? $cAEfu->EWmd0 : ''; goto IAxqI; aTYLS: $TWhab = $sUA6R->y5nOk()->yRKR9(); goto FzEUY; PJpz0: $cAEfu = $sUA6R->y5nOK()->YRKR9(); goto WlM5E; TkaUQ: $lg3LE->QgcXb = WhFh3(); goto TrS32; E3wui: $lg3LE = \JF89X\T0eTD\Fu5RM::c_Mhy("\155\151\163\x73\151\x6f\x6e\x5f\x69\144", $sUA6R->id)->C_MHY("\165\163\145\x72\137\x69\x64", $e5HVA->id)->YrKR9(); goto HCFr_; mg6Em: $lg3LE->SUq_n = whFH3(); goto TkaUQ; phj52: goto n2h4O; goto sEx69; SJbzm: $h2iD5 = $lg3LE && $lg3LE->SUq_n ? true : false; goto aTYLS; T4xsa: $XrAG1->C_MhY("\147\x61\x6d\x65", $TWhab->id); goto QmVi2; ILHyW: $XrAG1 = UmYA4::c_mhY("\x75\163\x65\162\x5f\x69\144", $e5HVA->id); goto BGniM; sEx69: WbZBW: goto K1Yys; OujzI: if (!$sUA6R->dKzX1) { goto vjUOS; } goto PJpz0; dQJ1z: goto n2h4O; goto ul7Dr; ItezQ: $mobFi = ''; goto OujzI; HCFr_: $HERig = $lg3LE && $lg3LE->QgcXb ? true : false; goto WEIxD; DJyou: $gFKjk = $mobFi ? [$mobFi] : []; goto ILHyW; IAxqI: vjUOS: goto KXzKd; aFRg_: BrYIv: goto ItezQ; WEIxD: $p52Z6 = $lg3LE && $lg3LE->mbEzf ? true : false; goto SJbzm; ox9iX: yqdhH: goto H3Ell; c6CLe: GUPI6: goto dtoA1; K1Yys: $lg3LE = new \jF89x\T0ETd\fu5rm(); goto l0KcZ; qLPdb: if (!($h2iD5 && !$HERig && $rSBtR >= 100)) { goto BrYIv; } goto x2K2Q; KXzKd: return ["\151\144" => $sUA6R->id, "\x74\151\x74\x6c\x65" => $sUA6R->Wpzxn, "\144\145\163\143\x72\x69\160\x74\151\157\156" => $sUA6R->B5u2d, "\x69\x6d\141\147\x65" => $sUA6R->BUVn7, "\143\165\162\162\145\156\x74\137\x76\141\154\165\x65" => $h2iD5 ? $hQZTg : 0, "\x74\x61\x72\x67\145\164\137\166\x61\x6c\165\x65" => $sUA6R->qQfFB, "\162\x65\x77\141\162\144\x5f\x6b\157\151\x6e\163" => $sUA6R->okqPA, "\x72\145\167\x61\x72\x64\x5f\x62\x61\154\x61\x6e\143\x65" => $sUA6R->mijMP, "\x72\x65\x77\x61\x72\x64\137\x62\x61\x6c\x61\156\x63\x65\137\142\157\x6e\x75\163" => $sUA6R->c8XxP, "\x72\145\x77\141\x72\x64\137\x66\x72\x65\145\x5f\163\x70\151\156\x73" => $sUA6R->XYt_5, "\x70\162\157\x67\162\x65\x73\163" => $rSBtR, "\143\157\x6d\160\154\x65\164\145\x64" => $HERig, "\162\x65\x77\141\162\144\x5f\143\x6c\141\151\155\145\x64" => $p52Z6, "\141\143\x63\x65\160\x74\145\144" => $h2iD5, "\x67\x61\155\x65\137\x73\154\x75\x67" => $mobFi, "\147\141\x6d\145\x5f\151\x64" => $sUA6R->dKzX1]; goto sSmU5; TrS32: $lg3LE->save(); goto dQJ1z; l0KcZ: $lg3LE->ROWMV = $e5HVA->id; goto usVf5; l413I: n2h4O: goto aFRg_; GO1_g: $lg3LE->QgcXb = WHfH3(); goto fc9rR; UPbmo: if (!$lg3LE) { goto WbZBW; } goto wZcbV; es9sk: $XrAG1->C_MHy("\x63\x72\145\141\164\145\144\x5f\141\x74", "\x3e\75", $lg3LE->SUq_n); goto ox9iX; QmVi2: goto GUPI6; goto kzAHA; FzEUY: $mobFi = $TWhab ? $TWhab->EWmd0 : null; goto DJyou; x2K2Q: $HERig = true; goto UPbmo; H3Ell: $k6_i1 = $XrAG1->c_MHY("\141\143\x74\x69\157\x6e", "\154\157\163\x73")->uy03O("\x61\x6d\157\165\156\164"); goto UVoDk; fc9rR: $lg3LE->save(); goto l413I; nCaJz: $XrAG1->UfmZI("\147\x61\x6d\145", $gFKjk); goto c6CLe; ul7Dr: CREHt: goto GO1_g; usVf5: $lg3LE->bRSsZ = $sUA6R->id; goto mg6Em; sSmU5: }); goto k2mmk; klsz_: $YN6pD = \JF89X\t0eTD\AfqEi::C_MHY("\163\x74\141\164\165\163", 1); goto BS9Wf; AtSfv: } catch (\Exception $ai57B) { return JgKRL()->SBe1q(["\x73\165\143\x63\145\163\x73" => false, "\x6d\145\x73\163\x61\147\x65" => "\105\162\x72\157\x20\x61\x6f\40\142\165\x73\x63\x61\x72\40\160\x72\157\x67\x72\145\x73\x73\157\40\144\x61\163\40\x6d\151\x73\x73\303\xb5\x65\x73\72\40" . $ai57B->getMessage()]); } goto DKbbv; fELsE: $e5HVA = nxrOV::YFgI_(); goto Qlp3g; Qlp3g: if ($e5HVA) { goto i8keN; } goto E1ny3; E1ny3: return jgkRL()->sbE1q(["\x73\165\x63\x63\145\163\163" => false, "\155\145\163\163\x61\x67\x65" => "\125\163\165\303\241\x72\151\157\x20\156\xc3\243\x6f\x20\141\x75\164\145\x6e\x74\151\x63\x61\x64\157"]); goto OefU9; DKbbv: } public function YXM4b($QQO0c) { goto gmFMO; twRaW: j8Xzx: goto T2As7; T2As7: if (!(!$QQO0c || !is_numeric($QQO0c))) { goto tQavC; } goto eSs1T; eSs1T: return jgKRL()->SBE1Q(["\x73\165\143\143\145\x73\x73" => false, "\x6d\x65\163\x73\x61\147\x65" => "\111\104\x20\x64\x65\x20\155\151\163\163\303\xa3\157\40\x69\156\166\xc3\xa1\154\x69\x64\x6f"], 400); goto bVox3; G9863: return Jgkrl()->sbe1Q(["\163\x75\143\x63\145\x73\163" => false, "\155\145\x73\x73\x61\147\145" => "\x55\163\x75\xc3\241\x72\x69\x6f\40\156\xc3\243\x6f\40\141\165\x74\145\x6e\x74\x69\143\x61\x64\x6f"], 401); goto twRaW; fZ0j9: if ($e5HVA) { goto j8Xzx; } goto G9863; bVox3: tQavC: goto FDa5v; FDa5v: try { goto aoYxO; O1TnJ: if ($sUA6R) { goto lmIwb; } goto GDzjC; kaYpZ: $hpr6Y->save(); goto H3BQm; a6W5B: return jGKRL()->sBE1Q(["\163\x75\x63\143\145\163\x73" => false, "\x6d\x65\x73\163\x61\x67\145" => "\x56\x6f\143\303\xaa\x20\152\xc3\241\x20\x63\157\155\160\x6c\x65\x74\157\165\40\145\x73\x74\x61\x20\x6d\151\163\163\xc3\xa3\157\40\141\x6e\x74\145\162\x69\x6f\x72\155\x65\x6e\x74\145"], 400); goto F9lT8; QJ5Lf: $MrLqv = false; goto epR3I; kOqmX: $lg3LE->save(); goto vKGux; bDoJc: $lg3LE->ROWMV = $e5HVA->id; goto lNgan; MkwCo: $hpr6Y = \JF89X\T0Etd\FU5rM::C_MhY("\155\151\163\163\151\157\x6e\137\x69\144", $QQO0c)->c_MhY("\165\163\145\162\137\151\x64", $e5HVA->id)->yrkr9(); goto nf0Qa; epR3I: switch ($sUA6R->reLJg) { case "\141\154\154": $MrLqv = true; goto ibxbx; case "\x6d\x69\x6e\151\x6d\x75\x6d": $MrLqv = $l30Hu >= $sUA6R->H6VaP; goto ibxbx; case "\x73\160\x65\x63\151\146\151\x63": $MrLqv = $l30Hu == $sUA6R->H6VaP; goto ibxbx; } goto PK_xO; pvYp8: $lg3LE = new \Jf89x\T0ETD\Fu5rm(); goto bDoJc; mdIJe: if ($MrLqv) { goto SmoBu; } goto n3ZlG; LgLoc: if (!$hpr6Y->QgcXb) { goto z066S; } goto a6W5B; vKGux: return Jgkrl()->sbe1q(["\x73\165\x63\x63\x65\x73\163" => true, "\x6d\x65\x73\x73\x61\147\x65" => "\115\x69\163\163\303\243\x6f\40\x61\143\x65\151\x74\141\x20\143\x6f\x6d\x20\x73\165\143\145\163\163\x6f\x21\x20\101\x67\x6f\x72\141\40\163\x75\x61\163\x20\141\x70\x6f\163\x74\x61\x73\40\163\145\x72\303\xa3\157\40\x63\157\x6e\164\141\142\151\x6c\x69\x7a\141\144\141\163\40\x70\141\162\141\40\x65\163\164\x61\x20\x6d\x69\163\163\303\xa3\x6f\56", "\155\x69\163\x73\x69\x6f\156" => ["\151\x64" => $sUA6R->id, "\164\151\164\154\145" => $sUA6R->Wpzxn, "\x74\141\x72\x67\x65\x74\x5f\141\155\157\165\156\164" => $sUA6R->qQfFB]]); goto kP2S_; u8dKh: $GadLW = $e5HVA->CebWd() ?? ["\154\x65\166\145\154" => 1]; goto f1c5T; lNgan: $lg3LE->bRSsZ = $QQO0c; goto HG_oq; aoYxO: $sUA6R = \jf89x\T0ETD\AfQei::YLB3M($QQO0c); goto O1TnJ; E2dl1: $lg3LE->mbEzf = 0; goto kOqmX; n3ZlG: return jGKRL()->sbE1q(["\163\165\143\143\x65\163\x73" => false, "\155\145\163\163\x61\x67\x65" => "\x56\x6f\x63\xc3\xaa\40\x6e\xc3\243\157\x20\x74\145\155\x20\157\x20\162\x61\x6e\153\151\x6e\x67\40\156\x65\143\x65\x73\163\xc3\xa1\162\151\x6f\40\160\141\162\141\x20\x61\143\145\163\x73\141\162\40\x65\x73\x74\x61\x20\x6d\x69\163\x73\xc3\xa3\157"], 403); goto oCwvj; F9lT8: z066S: goto Eyy0x; oCwvj: SmoBu: goto MkwCo; nf0Qa: if (!$hpr6Y) { goto sej43; } goto LgLoc; q6thR: ibxbx: goto mdIJe; GDzjC: return jgkRL()->SBE1Q(["\x73\x75\x63\143\145\x73\163" => false, "\155\x65\x73\x73\141\x67\x65" => "\x4d\151\163\163\xc3\xa3\x6f\40\156\303\243\x6f\40\x65\x6e\x63\x6f\156\164\x72\x61\144\141"], 404); goto vAnoz; H3BQm: return jGKrL()->sBe1Q(["\x73\165\143\x63\145\x73\x73" => true, "\155\x65\x73\163\x61\147\x65" => "\x4d\x69\x73\163\303\243\157\x20\x72\x65\x69\x6e\x69\x63\x69\x61\144\141\x20\143\x6f\x6d\40\x73\165\x63\x65\x73\163\157\41\40\x41\147\x6f\162\x61\40\163\165\x61\163\x20\x61\160\x6f\163\164\x61\163\40\163\145\x72\303\243\x6f\40\143\157\x6e\x74\x61\142\151\154\151\x7a\141\144\x61\163\x20\160\141\162\x61\40\145\163\164\141\x20\155\x69\163\163\303\243\x6f\x2e", "\x6d\151\x73\x73\151\x6f\156" => ["\x69\144" => $sUA6R->id, "\x74\151\x74\x6c\x65" => $sUA6R->Wpzxn, "\x74\x61\x72\147\145\x74\x5f\x61\155\157\165\x6e\x74" => $sUA6R->qQfFB]]); goto obScW; vAnoz: lmIwb: goto u8dKh; obScW: sej43: goto pvYp8; f1c5T: $l30Hu = $GadLW["\x6c\145\166\x65\154"]; goto QJ5Lf; PK_xO: RVuUk: goto q6thR; HG_oq: $lg3LE->SUq_n = whfH3(); goto E2dl1; Eyy0x: $hpr6Y->SUq_n = wHfh3(); goto kaYpZ; kP2S_: } catch (\Exception $ai57B) { return JgKRL()->sBE1Q(["\x73\x75\x63\x63\145\163\163" => false, "\155\145\163\163\x61\147\x65" => "\105\162\x72\157\x20\x61\157\40\141\143\x65\151\164\141\162\x20\155\151\x73\163\303\xa3\x6f\72\x20" . $ai57B->getMessage()], 500); } goto b2AVZ; gmFMO: $e5HVA = NXrOV::yFGI_(); goto fZ0j9; b2AVZ: } public function F_ZXC($QQO0c) { goto uxB9G; OGdRt: qfg9P: goto sQZR1; eu_5k: return JgkRL()->Sbe1Q(["\163\x75\143\x63\x65\163\x73" => false, "\155\145\163\163\141\x67\x65" => "\x49\104\40\x64\145\x20\x6d\x69\163\163\303\xa3\x6f\x20\x69\x6e\x76\xc3\241\154\151\144\x6f"], 400); goto CO3rz; CO3rz: es4rT: goto sZ1_B; Fp1a9: if ($e5HVA) { goto qfg9P; } goto zGCkY; zGCkY: return JGkrL()->SBe1q(["\x73\165\x63\143\x65\163\163" => false, "\155\x65\x73\x73\141\147\x65" => "\125\x73\165\xc3\xa1\x72\151\x6f\x20\156\303\xa3\157\40\141\x75\164\x65\x6e\164\151\143\141\x64\x6f"], 401); goto OGdRt; sQZR1: if (!(!$QQO0c || !is_numeric($QQO0c))) { goto es4rT; } goto eu_5k; sZ1_B: try { goto W56cT; rUJvk: qREDJ: goto KM2sq; yWEjb: $GadLW = $e5HVA->CebWd() ?? ["\x6c\x65\166\x65\x6c" => 1]; goto fTzVO; u6taL: $hTAAI->R1CVp = ($hTAAI->R1CVp ?? 0) + $sUA6R->okqPA; goto QqRDF; hUe8e: HRehL: goto k7iJV; wzb4W: $lg3LE->save(); goto xQnT3; U9j9J: GpmvG: goto TQOV2; QqRDF: $MTmBr[] = $sUA6R->okqPA . "\40\x6d\x6f\145\x64\141\x73"; goto l8c21; aKvCB: if ($sUA6R) { goto pcMjr; } goto dVarT; H_2UG: $MTmBr[] = "\x52\44\x20" . number_format($sUA6R->c8XxP, 2, "\54", "\x2e") . "\40\x64\145\x20\163\x61\x6c\x64\157\40\142\303\264\x6e\165\x73"; goto iCpBO; kUhpv: $v3YZR = $lhDfr . implode("\x2c\40", $MTmBr) . "\40\x70\x65\154\x61\x20\x63\157\x6e\x63\154\x75\x73\303\xa3\157\x20\144\x61\40\155\x69\163\x73\303\xa3\x6f\41"; goto l6qKg; l8c21: n8nfT: goto qMku0; sUrsP: $lg3LE->mbEzf = true; goto BPh1R; mQ427: if (!($sUA6R->okqPA > 0)) { goto n8nfT; } goto u6taL; yb75K: return JgKRL()->Sbe1q(["\163\x75\x63\x63\145\163\x73" => false, "\155\145\163\163\141\x67\x65" => "\126\157\143\xc3\252\x20\152\303\xa1\x20\162\x65\x73\x67\x61\x74\x6f\x75\40\141\40\162\x65\x63\x6f\155\160\x65\156\163\141\x20\144\145\163\164\x61\40\155\151\x73\x73\303\xa3\157"], 400); goto RPRDP; dVarT: return jGkrl()->sBe1q(["\x73\165\143\143\145\x73\x73" => false, "\x6d\x65\163\x73\x61\x67\x65" => "\115\151\163\163\303\243\157\40\156\xc3\243\157\40\145\x6e\x63\x6f\x6e\x74\162\x61\144\141"], 404); goto jAFVR; OkLc7: $lg3LE->hwpXs = WHFh3(); goto wzb4W; xXvdU: $hTAAI->vqBxI = ($hTAAI->vqBxI ?? 0) + $sUA6R->XYt_5; goto WmeVn; WmeVn: $MTmBr[] = $sUA6R->XYt_5 . "\40\162\x6f\x64\141\144\141\x73\40\x67\162\xc3\241\164\151\x73"; goto e2YXv; RPRDP: OuzVY: goto Qkc76; i65Rh: $lhDfr = "\x50\x61\x72\x61\x62\xc3\xa9\156\163\41\40\x56\157\143\303\252\x20\162\x65\143\x65\142\145\165\40"; goto KMl6z; e2YXv: ygKzN: goto pSMMv; Qkc76: $lg3LE->mbEzf = true; goto OkLc7; tIict: if (!($sUA6R->XYt_5 > 0)) { goto ygKzN; } goto xXvdU; Oriq6: yUzJ4: goto i65Rh; g1RZL: switch ($sUA6R->reLJg) { case "\x61\x6c\154": $MrLqv = true; goto HRehL; case "\x6d\x69\x6e\151\x6d\165\x6d": $MrLqv = $l30Hu >= $sUA6R->H6VaP; goto HRehL; case "\163\160\145\143\151\146\x69\143": $MrLqv = $l30Hu == $sUA6R->H6VaP; goto HRehL; } goto CMs7H; zJlDj: $hTAAI->tiNLb = ($hTAAI->tiNLb ?? 0) + $sUA6R->c8XxP; goto H_2UG; GUNKo: $lg3LE->save(); goto MtOCc; xQnT3: goto N4MyH; goto U9j9J; oivMk: if (!($sUA6R->c8XxP > 0)) { goto dXV1s; } goto zJlDj; JYdeY: $hTAAI = $e5HVA->d1U9g; goto hJw1C; MtOCc: N4MyH: goto JYdeY; k7iJV: if ($MrLqv) { goto qREDJ; } goto EB53k; cXZIE: EGi5M: goto oivMk; jAFVR: pcMjr: goto yWEjb; KMl6z: $MTmBr = []; goto mQ427; kL5g0: $lg3LE->ROWMV = $e5HVA->id; goto I4__q; S4Pfo: return jgkrl()->sbE1Q(["\x73\x75\143\x63\x65\x73\163" => false, "\155\x65\163\x73\x61\x67\x65" => "\x43\x61\162\x74\145\x69\x72\141\40\x64\157\x20\x75\x73\x75\303\xa1\162\x69\x6f\40\156\303\xa3\x6f\40\x65\x6e\x63\157\156\164\162\x61\144\141"], 500); goto Oriq6; TQOV2: $lg3LE = new \Jf89x\T0EtD\Fu5Rm(); goto kL5g0; W56cT: $sUA6R = \Jf89X\t0etd\AfqEi::YLb3M($QQO0c); goto aKvCB; pSMMv: $hTAAI->save(); goto kUhpv; hXyNs: $MrLqv = false; goto g1RZL; BPh1R: $lg3LE->hwpXs = WHFH3(); goto GUNKo; KM2sq: $lg3LE = \JF89X\T0etD\FU5rM::C_MHy("\x6d\x69\x73\x73\151\157\x6e\137\151\144", $QQO0c)->c_Mhy("\165\x73\145\x72\137\x69\144", $e5HVA->id)->yRKr9(); goto q6Wb1; fTzVO: $l30Hu = $GadLW["\154\x65\166\145\154"]; goto hXyNs; CMs7H: xWfw2: goto hUe8e; qMku0: if (!($sUA6R->mijMP > 0)) { goto EGi5M; } goto VyINi; iTv5o: if (!$lg3LE->mbEzf) { goto OuzVY; } goto yb75K; iCpBO: dXV1s: goto tIict; hJw1C: if ($hTAAI) { goto yUzJ4; } goto S4Pfo; q6Wb1: if (!$lg3LE) { goto GpmvG; } goto iTv5o; VyINi: $hTAAI->AqmcG = ($hTAAI->AqmcG ?? 0) + $sUA6R->mijMP; goto w7XfZ; EB53k: return jGKRL()->SBe1q(["\163\165\143\x63\145\x73\163" => false, "\155\145\163\163\141\147\x65" => "\x56\157\143\xc3\xaa\40\x6e\303\xa3\x6f\x20\164\x65\x6d\x20\157\40\x72\x61\156\x6b\151\156\147\x20\x6e\145\143\x65\163\163\xc3\xa1\162\151\x6f\40\160\141\x72\141\40\141\x63\145\x73\163\x61\x72\40\145\x73\164\141\x20\x6d\151\163\163\xc3\243\157"], 403); goto rUJvk; TI0tO: $lg3LE->QgcXb = wHfH3(); goto sUrsP; I4__q: $lg3LE->bRSsZ = $QQO0c; goto TI0tO; w7XfZ: $MTmBr[] = "\122\44\x20" . number_format($sUA6R->mijMP, 2, "\x2c", "\56") . "\40\x64\145\x20\163\141\x6c\x64\157\x20\162\145\141\154"; goto cXZIE; l6qKg: return JgKRL()->sBe1Q(["\163\x75\x63\143\145\163\163" => true, "\x6d\145\x73\163\x61\x67\x65" => $v3YZR, "\156\x65\167\x5f\x62\x61\x6c\141\156\143\145" => $hTAAI->R1CVp ?? 0, "\x6e\x65\167\137\162\x65\x61\x6c\137\142\141\154\141\156\x63\x65" => $hTAAI->AqmcG ?? 0, "\156\x65\x77\x5f\x62\157\156\165\x73\137\142\141\154\141\156\x63\x65" => $hTAAI->tiNLb ?? 0, "\x6e\x65\167\137\x66\162\145\145\137\163\160\151\x6e\x73" => $hTAAI->vqBxI ?? 0, "\x63\157\x6d\x70\x6c\x65\x74\145\144" => true, "\162\x65\x77\141\162\144\x5f\143\154\x61\151\x6d\145\x64" => true, "\160\162\157\x67\162\145\x73\x73" => 100, "\x63\x75\162\x72\x65\x6e\164\137\x76\x61\x6c\x75\145" => $sUA6R->qQfFB, "\164\x61\x72\147\145\164\137\166\x61\154\165\145" => $sUA6R->qQfFB]); goto Zq_uP; Zq_uP: } catch (\Exception $ai57B) { return JgKRl()->Sbe1Q(["\163\165\143\x63\145\x73\x73" => false, "\x6d\x65\163\163\x61\147\145" => "\105\x72\x72\x6f\40\141\157\40\162\145\x73\147\x61\x74\141\162\x20\x72\145\143\x6f\155\x70\x65\x6e\163\141\x3a\x20" . $ai57B->getMessage()], 500); } goto DjjBL; uxB9G: $e5HVA = NXROV::yFgi_(); goto Fp1a9; DjjBL: } public function rbCjI(S9D5t $WFz1w) { goto A27g9; AWM7b: if ($e5HVA) { goto VJh3U; } goto mi0My; MbDm3: try { goto J2bzf; SRjSY: re2d2: goto WNVMB; pj0Zb: if (!$aC3i4) { goto xjgfY; } goto hf6EP; U2XzF: $XrAG1 = \lVLox::Ftz7f("\147\x61\x6d\145\163\137\150\151\163\x74\157\162\171")->C_Mhy("\165\x73\x65\x72\x5f\151\x64", $e5HVA->id)->c_mhy(function ($scVUQ) use($TWhab, $gFKjk) { goto bwDJI; aRny2: if (empty($TWhab->name)) { goto xKSD9; } goto uIurn; bwDJI: if (empty($gFKjk)) { goto rJ9Vk; } goto lx1FV; pK_rk: xKSD9: goto uhs5Y; uIurn: $scVUQ->INy8C("\x67\141\x6d\145", $TWhab->name); goto pK_rk; uhs5Y: $scVUQ->InY8c("\x67\141\155\145", $TWhab->id)->iNy8C("\x67\141\155\145", (string) $TWhab->id); goto kkUD_; aNFEa: rJ9Vk: goto aRny2; lx1FV: $scVUQ->ufmZI("\x67\x61\155\145", $gFKjk); goto aNFEa; kkUD_: }); goto pj0Zb; WNVMB: $mobFi = $TWhab->EWmd0 ?? null; goto wE4Y_; zD4u4: $aqwab = $XrAG1->c_mHY("\x61\x63\164\x69\x6f\x6e", "\154\x6f\163\x73")->Uy03o("\141\x6d\x6f\x75\x6e\164"); goto OOLXJ; OOLXJ: return JgkrL()->SBe1Q(["\163\165\x63\143\145\163\163" => true, "\147\141\x6d\x65\137\151\x6e\146\157" => ["\151\x64" => $TWhab->id, "\x6e\x61\x6d\145" => $TWhab->name], "\146\x72\157\155\137\x64\141\x74\145" => $aC3i4, "\x74\157\164\141\x6c\x5f\142\x65\164" => $aqwab, "\147\141\155\145\137\x73\x6c\x75\x67\x73\137\146\157\x75\156\144" => $gFKjk]); goto CfJCh; hf6EP: $XrAG1->c_Mhy("\x63\x72\x65\x61\x74\145\x64\137\x61\x74", "\76\x3d", $aC3i4); goto EsMI6; DU8Qo: return JGKrl()->SBe1q(["\x73\165\x63\143\145\x73\x73" => false, "\155\145\163\163\x61\147\x65" => "\112\157\147\x6f\x20\x6e\xc3\xa3\x6f\x20\x65\156\x63\157\x6e\164\x72\141\x64\x6f"], 404); goto SRjSY; J2bzf: $TWhab = \lvlOx::fTz7f("\147\x61\x6d\145\163\x5f\141\x70\151")->C_MhY("\151\x64", $lgvHq)->YrKR9(); goto HfxkX; HfxkX: if ($TWhab) { goto re2d2; } goto DU8Qo; EsMI6: xjgfY: goto zD4u4; wE4Y_: $gFKjk = $mobFi ? [$mobFi] : []; goto U2XzF; CfJCh: } catch (\Exception $ai57B) { return JGkRL()->sbE1Q(["\x73\x75\x63\x63\x65\163\163" => false, "\155\x65\163\163\141\x67\x65" => "\105\162\x72\157\x20\141\157\40\166\145\162\x69\146\x69\143\141\x72\x20\x61\160\157\x73\x74\x61\x73\x3a\x20" . $ai57B->getMessage()], 500); } goto svOKU; A27g9: $e5HVA = nXRoV::YfGi_(); goto AWM7b; Fmb01: $WFz1w->validate(["\147\x61\x6d\x65\137\x69\x64" => "\162\145\x71\165\x69\162\145\x64\x7c\x6e\x75\155\145\162\151\x63", "\144\x61\164\x65" => "\156\165\x6c\154\141\142\154\145\x7c\x64\141\x74\x65"]); goto w_oRP; w_oRP: $lgvHq = $WFz1w->pC2lr("\x67\x61\x6d\x65\137\151\144"); goto DWk1c; DWk1c: $aC3i4 = $WFz1w->Pc2LR("\144\141\164\145") ? date("\x59\x2d\x6d\55\x64\x20\x48\x3a\151\x3a\163", strtotime($WFz1w->pC2Lr("\144\x61\x74\x65"))) : null; goto MbDm3; mi0My: return jgKrl()->sbe1Q(["\163\165\143\143\145\163\163" => false, "\155\x65\163\x73\x61\x67\x65" => "\x55\163\x75\303\xa1\162\151\157\x20\156\xc3\243\157\40\x61\165\x74\145\156\164\151\x63\x61\x64\x6f"], 401); goto P8bai; P8bai: VJh3U: goto Fmb01; svOKU: } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use App\Models\Transactions;
+use App\Models\VipLevel;
+use App\Models\VipReward;
+use Illuminate\Support\Facades\DB;
+use App\Models\GameHistory;
+use App\Models\Tournament;
+
+class VipController extends Controller
+{
+    /**
+     * Mostrar a página de níveis VIP
+     *
+     * @return \Illuminate\View\View
+     */
+    public function levels()
+    {
+        $user = Auth::user();
+
+        // Calcular o total de depósitos do usuário
+        $totalDeposits = 0;
+        if ($user) {
+            // Obtém o total de depósitos (type=0) aprovados (status=1) para o usuário atual
+            $totalDeposits = Transactions::where('user_id', $user->id)
+                ->where('type', 0)
+                ->where('status', 1)
+                ->sum('amount');
+
+            // Converter para float para garantir formato correto
+            $totalDeposits = (float) $totalDeposits;
+        }
+
+        // Buscar todos os níveis VIP ativos do banco de dados
+        $levels = VipLevel::getAllActive();
+
+        // Converter para array para usar na view
+        $levelsArray = $levels->toArray();
+
+        // Determinar o nível atual do usuário com base no totalDeposits
+        $currentLevel = 1; // Nível padrão (Bronze)
+        $nextLevel = 2;
+        $currentLevelData = null;
+        $nextLevelData = null;
+        $currentLevelObj = null;
+
+        // Se não houver níveis definidos, criar um array de fallback
+        if (empty($levelsArray)) {
+            // Criar níveis básicos para que a página não quebre
+            $levelsArray = [
+                [
+                    'level' => 1,
+                    'name' => 'Bronze',
+                    'min_deposit' => 0,
+                    'image' => 'img/ranking/1.png',
+                    'benefits' => 'Benefícios básicos do clube VIP'
+                ],
+                [
+                    'level' => 2,
+                    'name' => 'Prata',
+                    'min_deposit' => 3, // Ajustando para 3 conforme solicitado
+                    'image' => 'img/ranking/2.png',
+                    'benefits' => 'Benefícios do nível prata'
+                ]
+            ];
+        }
+
+        if ($user) {
+            // Obter o nível atual com base no depósito
+            $currentLevelObj = VipLevel::getCurrentLevelByDeposit($totalDeposits);
+
+            // Verificar manualmente com base nos valores conhecidos do depósito
+            $actualLevel = null;
+            foreach ($levels->sortBy('min_deposit') as $level) {
+                if ($totalDeposits >= $level->min_deposit) {
+                    $actualLevel = $level;
+                }
+            }
+
+            if ($actualLevel) {
+                // Usar o nível verificado manualmente se for diferente do determinado pelo banco de dados
+                if (!$currentLevelObj || $currentLevelObj->level != $actualLevel->level) {
+                    $currentLevelObj = $actualLevel;
+                }
+            }
+
+            if (!$currentLevelObj && !$levels->isEmpty()) {
+                // Se não encontrou um nível, tentar determinar manualmente
+                foreach ($levels->sortBy('min_deposit') as $level) {
+                    if ($totalDeposits >= $level->min_deposit) {
+                        $currentLevelObj = $level;
+                    }
+                }
+            }
+
+            if ($currentLevelObj) {
+                $currentLevel = $currentLevelObj->level;
+                $currentLevelData = $currentLevelObj->toArray();
+
+                // Obter o próximo nível
+                $nextLevelObj = $currentLevelObj->getNextLevel();
+
+                if ($nextLevelObj) {
+                    $nextLevel = $nextLevelObj->level;
+                    $nextLevelData = $nextLevelObj->toArray();
+                } else {
+                    $nextLevel = null;
+                    $nextLevelData = null;
+                }
+            } else {
+                // Caso não tenha nível atual (não deve acontecer se o seeder for executado)
+                // Use o primeiro nível disponível
+                if (!empty($levelsArray)) {
+                    $currentLevelData = $levelsArray[0];
+                    $currentLevel = $currentLevelData['level'];
+
+                    if (count($levelsArray) > 1) {
+                        $nextLevelData = $levelsArray[1];
+                        $nextLevel = $nextLevelData['level'];
+                    } else {
+                        $nextLevelData = null;
+                        $nextLevel = null;
+                    }
+                }
+            }
+        } else {
+            // Usuário não autenticado, use o primeiro nível disponível
+            if (!empty($levelsArray)) {
+                $currentLevelData = $levelsArray[0];
+                $currentLevel = $currentLevelData['level'];
+
+                if (count($levelsArray) > 1) {
+                    $nextLevelData = $levelsArray[1];
+                    $nextLevel = $nextLevelData['level'];
+                } else {
+                    $nextLevelData = null;
+                    $nextLevel = null;
+                }
+            }
+        }
+
+        // Inicializar o ranking com valores padrão
+        $ranking = [
+            'level' => $currentLevel,
+            'name' => $currentLevelData['name'] ?? 'Bronze',
+            'image' => $currentLevelData['image'] ?? 'img/ranking/1.png',
+            'current_deposit' => $totalDeposits,
+            'next_level' => $nextLevel,
+            'next_level_deposit' => $nextLevelData['min_deposit'] ?? null,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Se o usuário estiver autenticado e tiver um nível atual, verificar recompensa
+        if ($user && $currentLevelObj) {
+            // Verificar o último nível recompensado do usuário
+            $lastVipLevel = $user->last_vip_level ?? 0;
+
+            // Se o last_vip_level for zero, inicializar com o valor 0
+            // Isso permite que o usuário resgata a recompensa do primeiro nível após o primeiro depósito
+            if ($lastVipLevel === 0 && $totalDeposits > 0) {
+                $user->last_vip_level = 0;
+                $user->save();
+                $lastVipLevel = 0;
+            }
+
+            // Corrigir o valor de last_vip_level se for maior que o nível atual
+            if ($lastVipLevel > $currentLevel) {
+                $user->last_vip_level = $currentLevel - 1;
+                $user->save();
+                $lastVipLevel = $user->last_vip_level;
+            }
+
+            // Verificar também se já existe um registro na tabela vip_level_rewards
+            try {
+                // Verificar existência de recompensa no banco de dados
+                $existingReward = VipReward::where('user_id', $user->id)
+                    ->where('vip_level_id', $currentLevelObj->id)
+                    ->where('is_claimed', true)
+                    ->exists();
+
+                // DUPLA VERIFICAÇÃO: last_vip_level E registro na tabela vip_level_rewards
+                // Só pode resgatar se o nível atual for maior que o último nível recompensado
+                // ou se for o primeiro resgate E não tiver registro de resgate para este nível
+                if (($currentLevel <= $lastVipLevel && $lastVipLevel !== 0) || $existingReward) {
+                    $ranking['has_reward'] = false;
+                } elseif (($currentLevel > $lastVipLevel || $lastVipLevel === 0) && !$existingReward) {
+                    $ranking['has_reward'] = true;
+                }
+            } catch (\Exception $e) {
+                // Em caso de erro, consideramos que a recompensa está disponível
+                $ranking['has_reward'] = true;
+            }
+        }
+
+        return view('vip.levels', compact('ranking', 'levelsArray', 'totalDeposits', 'currentLevel'));
+    }
+
+    /**
+     * Processar o resgate de recompensa VIP
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function claimReward(Request $request)
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return redirect()->route('login')
+                ->with('error', 'Você precisa estar logado para resgatar recompensas VIP.');
+        }
+
+        try {
+            DB::beginTransaction();
+
+            // Obter o nível atual do usuário
+            $totalDeposits = Transactions::where('user_id', $user->id)
+                ->where('type', 1)
+                ->where('status', 1)
+                ->sum('amount');
+
+            // Verificar na tabela de transações se o usuário já fez os depósitos reportados
+            // Esta é a verificação REAL do depósito atual
+            $depositsMade = Transactions::where('user_id', $user->id)
+                ->where('type', 0) // Tipo 0 é depósito na tabela mostrada pelo usuário
+                ->where('status', 1)
+                ->sum('amount');
+
+            // Usar o depósito real para determinar o nível
+            $realTotalDeposits = (float) $depositsMade;
+
+            // Converter para float
+            $totalDeposits = (float) $totalDeposits;
+
+            $currentLevel = VipLevel::getCurrentLevelByDeposit($realTotalDeposits > 0 ? $realTotalDeposits : $totalDeposits);
+
+            if (!$currentLevel) {
+                return redirect()->back()
+                    ->with('error', 'Você não possui um nível VIP válido para resgatar recompensas.');
+            }
+
+            // Verificar o último nível recompensado do usuário
+            $lastVipLevel = $user->last_vip_level ?? 0;
+
+            // Verificar se já existe um registro de recompensa para este nível e usuário
+            $existingReward = VipReward::where('user_id', $user->id)
+                ->where('vip_level_id', $currentLevel->id)
+                ->where('is_claimed', true)
+                ->exists();
+
+            // DUPLA VERIFICAÇÃO: verificar se o usuário pode resgatar a recompensa
+            // 1. O nível atual deve ser maior que o último nível recompensado (ou first_deposit)
+            // 2. E não deve existir um registro de recompensa já resgatada para este nível
+            if (($currentLevel->level <= $lastVipLevel && $lastVipLevel !== 0) || $existingReward) {
+                DB::rollBack();
+                return redirect()->back()
+                    ->with('error', 'Você já resgatou todas as recompensas disponíveis para seu nível VIP atual.');
+            }
+
+            // Criar novo registro de recompensa
+            $reward = new VipReward();
+            $reward->user_id = $user->id;
+            $reward->vip_level_id = $currentLevel->id;
+            $reward->is_claimed = true;
+            $reward->claimed_at = now();
+
+            // Processar recompensas
+            $coinsRewarded = $currentLevel->coins_reward ?? 0;
+            $balanceRewarded = $currentLevel->balance_reward ?? 0;
+            $balanceBonusRewarded = $currentLevel->balance_bonus_reward ?? 0;
+            $freeSpinsRewarded = $currentLevel->free_spins_reward ?? 0;
+
+            // Registrar valores na recompensa
+            $reward->coins_rewarded = $coinsRewarded;
+            $reward->balance_rewarded = $balanceRewarded;
+            $reward->balance_bonus_rewarded = $balanceBonusRewarded;
+            $reward->free_spins_rewarded = $freeSpinsRewarded;
+            $reward->save();
+
+            // Obter a carteira do usuário
+            $wallet = $user->wallet;
+
+            if (!$wallet) {
+                DB::rollBack();
+                return redirect()->back()
+                    ->with('error', 'Erro ao processar sua recompensa: carteira não encontrada.');
+            }
+
+            // Adicionar moedas e saldo à carteira do usuário
+            if ($coinsRewarded > 0) {
+                $wallet->coin = ($wallet->coin ?? 0) + $coinsRewarded;
+            }
+
+            if ($balanceRewarded > 0) {
+                $wallet->balance = ($wallet->balance ?? 0) + $balanceRewarded;
+            }
+
+            if ($balanceBonusRewarded > 0) {
+                $wallet->balance_bonus = ($wallet->balance_bonus ?? 0) + $balanceBonusRewarded;
+            }
+
+            if ($freeSpinsRewarded > 0) {
+                $wallet->free_spins = ($wallet->free_spins ?? 0) + $freeSpinsRewarded;
+            }
+
+            $wallet->save();
+
+            // Atualizar o último nível VIP recompensado do usuário
+            $user->last_vip_level = $currentLevel->level;
+            $user->save();
+
+            // Registrar um único log para todos os tipos de recompensa
+            $rewardTypes = [];
+            $oldValues = [];
+            $newValues = [];
+            
+            if ($coinsRewarded > 0) {
+                $rewardTypes[] = $coinsRewarded . ' coins';
+                $oldValues[] = 'Coins: ' . number_format($wallet->coin - $coinsRewarded);
+                $newValues[] = 'Coins: ' . number_format($wallet->coin);
+            }
+            
+            if ($balanceRewarded > 0) {
+                $rewardTypes[] = 'R$ ' . number_format($balanceRewarded, 2, ',', '.') . ' de saldo real';
+                $oldValues[] = 'Saldo: R$ ' . number_format($wallet->balance - $balanceRewarded, 2, ',', '.');
+                $newValues[] = 'Saldo: R$ ' . number_format($wallet->balance, 2, ',', '.');
+            }
+            
+            if ($balanceBonusRewarded > 0) {
+                $rewardTypes[] = 'R$ ' . number_format($balanceBonusRewarded, 2, ',', '.') . ' de saldo bônus';
+                $oldValues[] = 'Bônus: R$ ' . number_format($wallet->balance_bonus - $balanceBonusRewarded, 2, ',', '.');
+                $newValues[] = 'Bônus: R$ ' . number_format($wallet->balance_bonus, 2, ',', '.');
+            }
+            
+            if ($freeSpinsRewarded > 0) {
+                $rewardTypes[] = $freeSpinsRewarded . ' rodadas grátis';
+                $oldValues[] = 'Rodadas: ' . number_format($wallet->free_spins - $freeSpinsRewarded);
+                $newValues[] = 'Rodadas: ' . number_format($wallet->free_spins);
+            }
+            
+            // Criar um único log contendo todos os prêmios
+            if (!empty($rewardTypes)) {
+                \App\Models\Admin\Logs::create([
+                    'field_name' => 'Recompensa Nível VIP',
+                    'old_value' => implode(', ', $oldValues),
+                    'new_value' => implode(', ', $newValues),
+                    'updated_by' => $currentLevel->id, // ID do nível VIP
+                    'user_id' => $user->id,
+                    'type' => 10, // Tipo 10 para recompensas de nível VIP (todos os tipos)
+                    'log' => 'Usuário recebeu ' . implode(', ', $rewardTypes) . ' do nível VIP ' . $currentLevel->name
+                ]);
+            }
+
+            DB::commit();
+
+            // Mensagem de sucesso
+            $successMessage = 'Parabéns! Você resgatou sua recompensa VIP com sucesso.';
+
+            // Adicionar detalhes da recompensa à mensagem
+            $rewardDetails = [];
+            if ($coinsRewarded > 0) $rewardDetails[] = $coinsRewarded . ' moedas';
+            if ($balanceRewarded > 0) $rewardDetails[] = 'R$ ' . number_format($balanceRewarded, 2, ',', '.') . ' de saldo';
+            if ($balanceBonusRewarded > 0) $rewardDetails[] = 'R$ ' . number_format($balanceBonusRewarded, 2, ',', '.') . ' de saldo bônus';
+            if ($freeSpinsRewarded > 0) $rewardDetails[] = $freeSpinsRewarded . ' rodadas grátis';
+
+            if (!empty($rewardDetails)) {
+                $successMessage .= ' Você recebeu: ' . implode(', ', $rewardDetails) . '.';
+            }
+
+            return redirect()->back()->with('success', $successMessage);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            return redirect()->back()
+                ->with('error', 'Ocorreu um erro ao processar sua recompensa VIP: ' . $e->getMessage());
+        }
+    }
+
+    /**
+     * Mostrar a página de torneios
+     *
+     * @return \Illuminate\View\View
+     */
+    public function tournaments()
+    {
+        $user = Auth::user();
+
+        // Definir um ranking padrão caso a função getRanking() retorne null
+        $ranking = $user ? ($user->getRanking() ?? [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ]) : [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Buscar torneios ativos do banco de dados
+        $activeTournaments = \App\Models\Tournament::getActive();
+
+        // Adicionar informações adicionais a cada torneio
+        foreach ($activeTournaments as $tournament) {
+            // Adicionar contagem de jogadores
+            $tournament->playerCount = $tournament->getPlayerCount();
+
+            // Calcular tempo restante
+            $tournament->remainingTime = $tournament->getRemainingTimeFormatted();
+            
+            // Buscar informações sobre jogos qualificados se disponíveis
+            if (!empty($tournament->qualified_games)) {
+                try {
+                    // Tentar obter os nomes dos jogos a partir dos IDs usando a nova estrutura consolidada
+                    $gameIds = explode(',', $tournament->qualified_games);
+                    $qualifiedGames = \DB::table('games_api')
+                        ->whereIn('games_api.id', $gameIds)
+                        ->where('games_api.status', 1)
+                        ->get(['games_api.id', 'games_api.name', 'games_api.slug']);
+                    
+                    $gameNames = [];
+                    $gameIdentifiers = [];
+                    
+                    foreach ($qualifiedGames as $game) {
+                        $gameNames[] = $game->name;
+                        
+                        // Usar o slug diretamente da tabela consolidada games_api
+                        $gameIdentifiers[] = $game->slug;
+                    }
+                    
+                    $tournament->qualifiedGamesList = $gameNames;
+                    $tournament->qualifiedGamesIdentifiers = $gameIdentifiers;
+                } catch (\Exception $e) {
+                    // Em caso de erro, apenas use os IDs
+                    $tournament->qualifiedGamesList = $gameIds;
+                    $tournament->qualifiedGamesIdentifiers = $gameIds;
+                }
+            }
+            
+            // Verificar se o usuário atual tem apostas nos jogos deste torneio
+            $hasUserBets = false;
+            if ($user && !empty($tournament->qualifiedGamesIdentifiers)) {
+                $betsQuery = \App\Models\GameHistory::where('user_id', $user->id)
+                    ->where('action', 'loss')
+                    ->where('created_at', '>=', $tournament->start_date)
+                    ->where('created_at', '<=', now())
+                    ->whereIn('game', $tournament->qualifiedGamesIdentifiers);
+                
+                $hasUserBets = $betsQuery->exists();
+                $userBetsAmount = $betsQuery->sum('amount');
+                
+                $tournament->userHasBets = $hasUserBets;
+                $tournament->userBetsAmount = $userBetsAmount;
+            }
+
+            // Buscar top 5 jogadores
+            $tournament->topPlayersList = $tournament->topPlayers(5);
+            
+            // Verificar se há jogadores reais participando
+            $hasRealPlayers = $tournament->players()
+                ->where('is_random_player', false)
+                ->where('points', '>', 0)
+                ->exists();
+                
+            $tournament->hasRealPlayers = $hasRealPlayers;
+        }
+
+        return view('vip.torneios', compact('ranking', 'activeTournaments'));
+    }
+
+    /**
+     * Mostrar detalhes de um torneio específico
+     *
+     * @param int $id ID do torneio
+     * @return \Illuminate\View\View
+     */
+    public function tournamentDetails($id)
+    {
+        $user = Auth::user();
+
+        // Definir um ranking padrão caso a função getRanking() retorne null
+        $ranking = $user ? ($user->getRanking() ?? [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ]) : [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Buscar o torneio pelo ID
+        $tournament = \App\Models\Tournament::find($id);
+
+        if (!$tournament) {
+            return redirect()->route('vip.tournaments')
+                ->with('error', 'Torneio não encontrado.');
+        }
+
+        // Adicionar contagem de jogadores
+        $tournament->playerCount = $tournament->getPlayerCount();
+
+        // Calcular tempo restante
+        $tournament->remainingTime = $tournament->getRemainingTimeFormatted();
+        
+        // Formatar tempo restante como texto para o template
+        $remainingTimeObj = $tournament->remainingTime;
+        $tournament->remaining_text = sprintf(
+            "%02dh : %02dm : %02ds",
+            $remainingTimeObj['hours'],
+            $remainingTimeObj['minutes'],
+            $remainingTimeObj['seconds']
+        );
+        
+        // Buscar informações sobre jogos qualificados se disponíveis
+        if (!empty($tournament->qualified_games)) {
+            try {
+                // Tentar obter as informações completas dos jogos a partir dos IDs usando a nova estrutura consolidada
+                $gameIds = explode(',', $tournament->qualified_games);
+                $qualifiedGames = \DB::table('games_api')
+                    ->whereIn('games_api.id', $gameIds)
+                    ->where('games_api.status', 1)
+                    ->get(['games_api.id', 'games_api.name', 'games_api.slug']);
+                
+                $gameNames = [];
+                $gameIdentifiers = [];
+                
+                foreach ($qualifiedGames as $game) {
+                    $gameNames[] = $game->name;
+                    
+                    // Usar o slug diretamente da tabela consolidada games_api
+                    $gameIdentifiers[] = $game->slug;
+                }
+                
+                $tournament->qualifiedGamesList = $gameNames;
+                $tournament->qualifiedGamesIdentifiers = $gameIdentifiers;
+            } catch (\Exception $e) {
+                // Em caso de erro, apenas use os IDs
+                $tournament->qualifiedGamesList = $gameIds;
+                $tournament->qualifiedGamesIdentifiers = $gameIds;
+            }
+        }
+        
+        // Verificar se o usuário atual tem apostas nos jogos deste torneio
+        $hasUserBets = false;
+        $userBetsAmount = 0;
+        $userPointsEstimate = 0;
+        
+        if ($user && !empty($tournament->qualifiedGamesIdentifiers)) {
+            $betsQuery = \App\Models\GameHistory::where('user_id', $user->id)
+                ->where('action', 'loss')
+                ->where('created_at', '>=', $tournament->start_date)
+                ->where('created_at', '<=', now())
+                ->whereIn('game', $tournament->qualifiedGamesIdentifiers);
+            
+            $hasUserBets = $betsQuery->exists();
+            $userBetsAmount = $betsQuery->sum('amount');
+            
+            // Calcular estimativa de pontos baseado no método de cálculo do torneio
+            $pointsMultiplier = $tournament->points_multiplier ?? 100;
+            
+            switch ($tournament->points_calculation_type ?? 'bet_amount') {
+                case 'bet_amount':
+                    $userPointsEstimate = $userBetsAmount * $pointsMultiplier;
+                    break;
+                    
+                case 'win_amount':
+                    $winQuery = clone $betsQuery;
+                    $winQuery->where('action', 'win');
+                    $totalWinAmount = $winQuery->sum('amount');
+                    $userPointsEstimate = $totalWinAmount * $pointsMultiplier;
+                    break;
+                    
+                case 'bet_count':
+                    $betCount = $betsQuery->count();
+                    $userPointsEstimate = $betCount * $pointsMultiplier;
+                    break;
+                    
+                default:
+                    $userPointsEstimate = $userBetsAmount * 100; // Padrão: R$0,01 = 1 ponto
+            }
+            
+            $tournament->userHasBets = $hasUserBets;
+            $tournament->userBetsAmount = $userBetsAmount;
+            $tournament->userPointsEstimate = $userPointsEstimate;
+            
+            // Se o usuário tem apostas mas não está participando do torneio,
+            // registrar automaticamente o usuário no torneio
+            if ($hasUserBets && $userBetsAmount > 0) {
+                $isUserRegistered = $tournament->isUserParticipating($user->id);
+                
+                if (!$isUserRegistered) {
+                    // Adicionar o usuário ao torneio
+                    $tournament->players()->updateOrCreate(
+                        ['tournament_id' => $tournament->id, 'user_id' => $user->id],
+                        [
+                            'joined_at' => now(),
+                            'last_active_at' => now(),
+                            'is_random_player' => false
+                        ]
+                    );
+                    
+                    // Calcular os pontos imediatamente
+                    $minBetAmount = $tournament->min_bet_amount ?? 0.40;
+                    
+                    // Criar uma consulta para buscar apostas do jogador
+                    $pointsQuery = clone $betsQuery;
+                    $pointsQuery->where('amount', '>=', $minBetAmount);
+                    
+                    // Calcular pontos conforme o tipo de cálculo
+                    $points = 0;
+                    switch ($tournament->points_calculation_type ?? 'bet_amount') {
+                        case 'bet_amount':
+                            $totalAmount = $pointsQuery->sum('amount');
+                            $points = $totalAmount * $pointsMultiplier;
+                            break;
+                            
+                        case 'win_amount':
+                            $winQuery = clone $pointsQuery;
+                            $winQuery->where('action', 'win');
+                            $totalWinAmount = $winQuery->sum('amount');
+                            $points = $totalWinAmount * $pointsMultiplier;
+                            break;
+                            
+                        case 'bet_count':
+                            $betCount = $pointsQuery->count();
+                            $points = $betCount * $pointsMultiplier;
+                            break;
+                            
+                        default:
+                            $totalAmount = $pointsQuery->sum('amount');
+                            $points = $totalAmount * 100;
+                    }
+                    
+                    // Atualizar os pontos do jogador
+                    $player = $tournament->players()->where('user_id', $user->id)->first();
+                    if ($player) {
+                        $player->points = $points;
+                        $player->points_calculation_method = $tournament->points_calculation_type ?? 'bet_amount';
+                        $player->last_points_update = now();
+                        $player->save();
+                    }
+                }
+            }
+        }
+
+        // Verificar se o usuário está participando
+        $isParticipating = false;
+        if ($user) {
+            $isParticipating = $tournament->isUserParticipating($user->id);
+        }
+
+        // Buscar todos os jogadores para exibir o ranking completo
+        // Recarregar após possível registro do usuário atual
+        $tournament->topPlayersList = $tournament->topPlayers(20);
+        
+        // Também atribuir a playersList para compatibilidade com o template
+        $tournament->playersList = $tournament->players()
+            ->with('user')
+            ->orderBy('points', 'desc')
+            ->get();
+
+        // Exibir a página de detalhes do torneio
+        return view('vip.viewtorneios', compact('ranking', 'tournament', 'isParticipating'));
+    }
+
+    /**
+     * Mostrar a página de missões
+     *
+     * @return \Illuminate\View\View
+     */
+    public function missions()
+    {
+        $user = Auth::user();
+
+        // Definir um ranking padrão caso a função getRanking() retorne null
+        $ranking = $user ? ($user->getRanking() ?? [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ]) : [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Buscar missões ativas com filtro de ranking
+        $missionsQuery = \App\Models\Mission::where('status', 1);
+        
+        // Aplicar filtro de ranking apenas se o usuário estiver autenticado
+        if ($user) {
+            $userRankingLevel = $ranking['level'];
+            
+            $missionsQuery->where(function ($query) use ($userRankingLevel) {
+                // Missões para todos os rankings
+                $query->where('ranking_type', 'all')
+                      // Missões para ranking mínimo (usuário igual ou superior)
+                      ->orWhere(function ($q) use ($userRankingLevel) {
+                          $q->where('ranking_type', 'minimum')
+                            ->where('target_ranking_level', '<=', $userRankingLevel);
+                      })
+                      // Missões para ranking específico (usuário exatamente no nível)
+                      ->orWhere(function ($q) use ($userRankingLevel) {
+                          $q->where('ranking_type', 'specific')
+                            ->where('target_ranking_level', $userRankingLevel);
+                      });
+            });
+        } else {
+            // Para usuários não autenticados, mostrar apenas missões para todos
+            $missionsQuery->where('ranking_type', 'all');
+        }
+        
+        $missions = $missionsQuery->get();
+
+        // Para cada missão, adicionar informações de progresso do usuário
+        if ($user) {
+            foreach ($missions as &$mission) {
+                // Buscar o progresso do usuário para esta missão (se existir)
+                $completion = \App\Models\MissionCompletion::where('mission_id', $mission->id)
+                    ->where('user_id', $user->id)
+                    ->first();
+
+                // Definir valores padrão
+                // Consideramos completed = true se completed_at não for nulo
+                $completed = $completion && $completion->completed_at ? true : false;
+                $reward_claimed = $completion && $completion->reward_claimed ? true : false;
+                $accepted = $completion && $completion->accepted_at ? true : false;
+
+                // Buscar o valor total apostado pelo usuário neste jogo específico APÓS ter aceitado a missão
+                $gameInfo = $mission->game()->first();
+
+                // Buscar o slug diretamente da tabela consolidada games_api
+                $gameSlug = $gameInfo ? $gameInfo->slug : null;
+                $gameSlugs = $gameSlug ? [$gameSlug] : [];
+
+                // Construir query considerando todos os slugs possíveis
+                $betsQuery = GameHistory::where('user_id', $user->id);
+                
+                if (!empty($gameSlugs)) {
+                    $betsQuery->whereIn('game', $gameSlugs);
+                } else {
+                    // Fallback para ID do jogo se não houver slugs
+                    $betsQuery->where('game', $gameInfo->id);
+                }
+
+                // Se a missão foi aceita, filtrar apostas apenas após a data de aceitação
+                if ($completion && $completion->accepted_at) {
+                    $betsQuery->where('created_at', '>=', $completion->accepted_at);
+                }
+
+                $betsAmount = $betsQuery->where('action', 'loss')->sum('amount');
+
+                // Calcular o progresso baseado no valor real apostado
+                $current_value = $betsAmount;
+                $progress = $accepted ? min(($current_value / $mission->target_amount) * 100, 100) : 0;
+
+                // Atualizar o status de completude baseado no progresso atual
+                if ($accepted && !$completed && $progress >= 100) {
+                    // Se o usuário já atingiu o valor alvo mas a missão não está marcada como completa
+                    $completed = true;
+
+                    // Atualizar registro de conclusão
+                    if ($completion) {
+                        $completion->completed_at = now();
+                        $completion->save();
+                    }
+                }
+
+                $mission->current_value = $current_value;
+                $mission->progress = $progress;
+                $mission->completed = $completed;
+                $mission->reward_claimed = $reward_claimed;
+                $mission->accepted = $accepted;
+
+                // Se a missão estiver associada a um jogo, obter o slug do jogo
+                if ($mission->game_id) {
+                    $game = $mission->game()->first();
+                    $mission->game_slug = $game ? $game->slug : '';
+                } else {
+                    $mission->game_slug = '';
+                }
+            }
+        } else {
+            // Para usuários não autenticados, definir valores vazios
+            foreach ($missions as &$mission) {
+                $mission->current_value = 0;
+                $mission->progress = 0;
+                $mission->completed = false;
+                $mission->reward_claimed = false;
+                $mission->accepted = false;
+                $mission->game_slug = '';
+            }
+        }
+
+        return view('vip.missoes', compact('ranking', 'missions'));
+    }
+
+    /**
+     * Mostrar a loja VIP
+     *
+     * @return \Illuminate\View\View
+     */
+    public function store()
+    {
+        $user = Auth::user();
+
+        // Definir um ranking padrão caso a função getRanking() retorne null
+        $ranking = $user ? ($user->getRanking() ?? [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ]) : [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Aqui você pode adicionar lógica para buscar produtos disponíveis na loja
+        $products = [];
+
+        return view('vip.store', compact('ranking', 'products'));
+    }
+
+    /**
+     * Mostrar a página de mini-games
+     *
+     * @return \Illuminate\View\View
+     */
+    public function miniGames()
+    {
+        $user = Auth::user();
+
+        // Definir um ranking padrão caso a função getRanking() retorne null
+        $ranking = $user ? ($user->getRanking() ?? [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ]) : [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Aqui você pode adicionar lógica para buscar mini-games disponíveis
+        $games = [];
+
+        return view('vip.mini-games', compact('ranking', 'games'));
+    }
+
+    /**
+     * Obter o progresso atualizado das missões do usuário
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getMissionsProgress()
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado'
+            ]);
+        }
+
+        try {
+            // Obter ranking do usuário
+            $ranking = $user->getRanking() ?? [
+                'level' => 1,
+                'name' => 'Bronze',
+                'image' => 'img/ranking/1.png',
+                'current_deposit' => 0,
+                'next_level' => 2,
+                'next_level_deposit' => 200,
+                'progress' => 0,
+                'has_reward' => false,
+                'reward_id' => null
+            ];
+
+            // Buscar missões ativas com filtro de ranking
+            $missionsQuery = \App\Models\Mission::where('status', 1);
+            
+            $userRankingLevel = $ranking['level'];
+            
+            $missionsQuery->where(function ($query) use ($userRankingLevel) {
+                // Missões para todos os rankings
+                $query->where('ranking_type', 'all')
+                      // Missões para ranking mínimo (usuário igual ou superior)
+                      ->orWhere(function ($q) use ($userRankingLevel) {
+                          $q->where('ranking_type', 'minimum')
+                            ->where('target_ranking_level', '<=', $userRankingLevel);
+                      })
+                      // Missões para ranking específico (usuário exatamente no nível)
+                      ->orWhere(function ($q) use ($userRankingLevel) {
+                          $q->where('ranking_type', 'specific')
+                            ->where('target_ranking_level', $userRankingLevel);
+                      });
+            });
+
+            // Executar a consulta
+            $missionsData = $missionsQuery->get();
+
+            // Formatar as missões para a resposta JSON
+            $missions = $missionsData->map(function ($mission) use ($user) {
+                // Buscar o progresso do usuário para esta missão
+                $completion = \App\Models\MissionCompletion::where('mission_id', $mission->id)
+                    ->where('user_id', $user->id)
+                    ->first();
+
+                // Valores padrão se não houver registro de conclusão
+                // Consideramos completed = true se completed_at não for nulo
+                $completed = $completion && $completion->completed_at ? true : false;
+                $rewardClaimed = $completion && $completion->reward_claimed ? true : false;
+                $accepted = $completion && $completion->accepted_at ? true : false;
+
+                // Buscar o valor total apostado pelo usuário neste jogo específico
+                $gameInfo = $mission->game()->first();
+
+                // Buscar o slug diretamente da tabela consolidada games_api
+                $gameSlug = $gameInfo ? $gameInfo->slug : null;
+                $gameSlugs = $gameSlug ? [$gameSlug] : [];
+
+                // Construir query considerando todos os slugs possíveis
+                $query = GameHistory::where('user_id', $user->id);
+                
+                if (!empty($gameSlugs)) {
+                    $query->whereIn('game', $gameSlugs);
+                } else {
+                    // Fallback para ID do jogo se não houver slugs
+                    $query->where('game', $gameInfo->id);
+                }
+
+                // Se a missão foi aceita, filtrar apostas apenas após a data de aceitação
+                if ($completion && $completion->accepted_at) {
+                    $query->where('created_at', '>=', $completion->accepted_at);
+                }
+
+                // Executar a consulta e obter o valor total apostado
+                $betsAmount = $query->where('action', 'loss')->sum('amount');
+
+                // Calcular o progresso baseado no valor real apostado
+                $currentValue = $betsAmount;
+                $progress = $accepted ? min(($currentValue / $mission->target_amount) * 100, 100) : 0;
+
+                // Atualizar o status de completude baseado no progresso atual
+                if ($accepted && !$completed && $progress >= 100) {
+                    // Se o usuário já atingiu o valor alvo mas a missão não está marcada como completa
+                    $completed = true;
+
+                    // Atualizar ou criar registro de conclusão
+                    if (!$completion) {
+                        $completion = new \App\Models\MissionCompletion();
+                        $completion->user_id = $user->id;
+                        $completion->mission_id = $mission->id;
+                        $completion->accepted_at = now();
+                        $completion->completed_at = now();
+                        $completion->save();
+                    } elseif (!$completion->completed_at) {
+                        $completion->completed_at = now();
+                        $completion->save();
+                    }
+                }
+
+                // Se a missão estiver associada a um jogo, obter o slug do jogo
+                $gameSlug = '';
+                if ($mission->game_id) {
+                    $game = $mission->game()->first();
+                    $gameSlug = $game ? $game->slug : '';
+                }
+
+                // Retornar os dados formatados
+                return [
+                    'id' => $mission->id,
+                    'title' => $mission->title,
+                    'description' => $mission->description,
+                    'image' => $mission->image,
+                    'current_value' => ($accepted) ? $currentValue : 0,
+                    'target_value' => $mission->target_amount,
+                    'reward_koins' => $mission->reward_koins,
+                    'reward_balance' => $mission->reward_balance,
+                    'reward_balance_bonus' => $mission->reward_balance_bonus,
+                    'reward_free_spins' => $mission->reward_free_spins,
+                    'progress' => $progress,
+                    'completed' => $completed,
+                    'reward_claimed' => $rewardClaimed,
+                    'accepted' => $accepted,
+                    'game_slug' => $gameSlug,
+                    'game_id' => $mission->game_id
+                ];
+            });
+
+            return response()->json([
+                'success' => true,
+                'missions' => $missions
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao buscar progresso das missões: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    /**
+     * Aceitar uma missão
+     *
+     * @param int $missionId ID da missão a ser aceita
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function acceptMission($missionId)
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado'
+            ], 401);
+        }
+
+        // Verificar se o ID da missão é válido
+        if (!$missionId || !is_numeric($missionId)) {
+            return response()->json([
+                'success' => false,
+                'message' => 'ID de missão inválido'
+            ], 400);
+        }
+
+        try {
+            // Verificar se a missão existe
+            $mission = \App\Models\Mission::find($missionId);
+
+            if (!$mission) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Missão não encontrada'
+                ], 404);
+            }
+
+            // Verificar se o usuário tem acesso à missão baseado no ranking
+            $ranking = $user->getRanking() ?? ['level' => 1];
+            $userRankingLevel = $ranking['level'];
+
+            $hasAccess = false;
+            switch ($mission->ranking_type) {
+                case 'all':
+                    $hasAccess = true;
+                    break;
+                case 'minimum':
+                    $hasAccess = $userRankingLevel >= $mission->target_ranking_level;
+                    break;
+                case 'specific':
+                    $hasAccess = $userRankingLevel == $mission->target_ranking_level;
+                    break;
+            }
+
+            if (!$hasAccess) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Você não tem o ranking necessário para acessar esta missão'
+                ], 403);
+            }
+
+            // Verificar se o usuário já aceitou esta missão
+            $existingCompletion = \App\Models\MissionCompletion::where('mission_id', $missionId)
+                ->where('user_id', $user->id)
+                ->first();
+
+            if ($existingCompletion) {
+                // Se já aceitou e completou a missão, retornar erro
+                if ($existingCompletion->completed_at) {
+                    return response()->json([
+                        'success' => false,
+                        'message' => 'Você já completou esta missão anteriormente'
+                    ], 400);
+                }
+
+                // Se já aceitou a missão, atualizar a data de aceitação para reiniciar a contagem
+                $existingCompletion->accepted_at = now();
+                $existingCompletion->save();
+
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Missão reiniciada com sucesso! Agora suas apostas serão contabilizadas para esta missão.',
+                    'mission' => [
+                        'id' => $mission->id,
+                        'title' => $mission->title,
+                        'target_amount' => $mission->target_amount
+                    ]
+                ]);
+            }
+
+            // Criar um novo registro de aceitação de missão
+            $completion = new \App\Models\MissionCompletion();
+            $completion->user_id = $user->id;
+            $completion->mission_id = $missionId;
+            $completion->accepted_at = now();
+            $completion->reward_claimed = 0; // Inicializa com recompensa não resgatada
+            $completion->save();
+
+            // Retornar sucesso
+            return response()->json([
+                'success' => true,
+                'message' => 'Missão aceita com sucesso! Agora suas apostas serão contabilizadas para esta missão.',
+                'mission' => [
+                    'id' => $mission->id,
+                    'title' => $mission->title,
+                    'target_amount' => $mission->target_amount
+                ]
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao aceitar missão: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Resgatar recompensa de uma missão
+     *
+     * @param int $missionId ID da missão a ser resgatada
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function claimMissionReward($missionId)
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado'
+            ], 401);
+        }
+
+        // Verificar se o ID da missão é válido
+        if (!$missionId || !is_numeric($missionId)) {
+            return response()->json([
+                'success' => false,
+                'message' => 'ID de missão inválido'
+            ], 400);
+        }
+
+        try {
+            // Verificar se a missão existe
+            $mission = \App\Models\Mission::find($missionId);
+
+            if (!$mission) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Missão não encontrada'
+                ], 404);
+            }
+
+            // Verificar se o usuário tem acesso à missão baseado no ranking
+            $ranking = $user->getRanking() ?? ['level' => 1];
+            $userRankingLevel = $ranking['level'];
+
+            $hasAccess = false;
+            switch ($mission->ranking_type) {
+                case 'all':
+                    $hasAccess = true;
+                    break;
+                case 'minimum':
+                    $hasAccess = $userRankingLevel >= $mission->target_ranking_level;
+                    break;
+                case 'specific':
+                    $hasAccess = $userRankingLevel == $mission->target_ranking_level;
+                    break;
+            }
+
+            if (!$hasAccess) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Você não tem o ranking necessário para acessar esta missão'
+                ], 403);
+            }
+
+            // Verificar se o usuário já tem um registro para esta missão
+            $completion = \App\Models\MissionCompletion::where('mission_id', $missionId)
+                ->where('user_id', $user->id)
+                ->first();
+
+            // Se não existir, criar um novo registro
+            if (!$completion) {
+                $completion = new \App\Models\MissionCompletion();
+                $completion->user_id = $user->id;
+                $completion->mission_id = $missionId;
+                $completion->completed_at = now();
+                $completion->reward_claimed = true;
+                $completion->claimed_at = now();
+                $completion->save();
+            } else {
+                // Se já existir, verificar se a recompensa já foi resgatada
+                if ($completion->reward_claimed) {
+                    return response()->json([
+                        'success' => false,
+                        'message' => 'Você já resgatou a recompensa desta missão'
+                    ], 400);
+                }
+
+                // Atualizar o registro existente
+                $completion->reward_claimed = true;
+                $completion->claimed_at = now();
+                $completion->save();
+            }
+
+            $wallet = $user->wallet;
+
+            if (!$wallet) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Carteira do usuário não encontrada'
+                ], 500);
+            }
+
+            // Inicializa mensagem de recompensa
+            $rewardMessage = 'Parabéns! Você recebeu ';
+            $rewardItems = [];
+
+            // Adicionar recompensa de koins ao usuário
+            if ($mission->reward_koins > 0) {
+                $wallet->coin = ($wallet->coin ?? 0) + $mission->reward_koins;
+                $rewardItems[] = $mission->reward_koins . ' moedas';
+            }
+
+            // Adicionar recompensa de saldo real ao usuário
+            if ($mission->reward_balance > 0) {
+                $wallet->balance = ($wallet->balance ?? 0) + $mission->reward_balance;
+                $rewardItems[] = 'R$ ' . number_format($mission->reward_balance, 2, ',', '.') . ' de saldo real';
+            }
+
+            // Adicionar recompensa de saldo bônus ao usuário
+            if ($mission->reward_balance_bonus > 0) {
+                $wallet->balance_bonus = ($wallet->balance_bonus ?? 0) + $mission->reward_balance_bonus;
+                $rewardItems[] = 'R$ ' . number_format($mission->reward_balance_bonus, 2, ',', '.') . ' de saldo bônus';
+            }
+
+            // Adicionar recompensa de rodadas grátis ao usuário
+            if ($mission->reward_free_spins > 0) {
+                $wallet->free_spins = ($wallet->free_spins ?? 0) + $mission->reward_free_spins;
+                $rewardItems[] = $mission->reward_free_spins . ' rodadas grátis';
+            }
+
+            // Salvar a carteira atualizada
+            $wallet->save();
+
+            // Finalizar mensagem
+            $successMessage = $rewardMessage . implode(', ', $rewardItems) . ' pela conclusão da missão!';
+
+            // Retornar sucesso
+            return response()->json([
+                'success' => true,
+                'message' => $successMessage,
+                'new_balance' => $wallet->coin ?? 0,
+                'new_real_balance' => $wallet->balance ?? 0,
+                'new_bonus_balance' => $wallet->balance_bonus ?? 0,
+                'new_free_spins' => $wallet->free_spins ?? 0,
+                'completed' => true,
+                'reward_claimed' => true,
+                'progress' => 100,
+                'current_value' => $mission->target_amount,
+                'target_value' => $mission->target_amount
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao resgatar recompensa: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Verificar apostas do usuário em um jogo específico
+     */
+    public function checkGameBets(Request $request)
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado'
+            ], 401);
+        }
+
+        // Validar parâmetros
+        $request->validate([
+            'game_id' => 'required|numeric',
+            'date' => 'nullable|date'
+        ]);
+
+        $gameId = $request->input('game_id');
+        $fromDate = $request->input('date') ? date('Y-m-d H:i:s', strtotime($request->input('date'))) : null;
+
+        try {
+            // Buscar o jogo na tabela games_api
+            $gameInfo = \DB::table('games_api')->where('id', $gameId)->first();
+
+            if (!$gameInfo) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Jogo não encontrado'
+                ], 404);
+            }
+
+            // Buscar o slug diretamente da tabela consolidada games_api
+            $gameSlug = $gameInfo->slug ?? null;
+            $gameSlugs = $gameSlug ? [$gameSlug] : [];
+
+            // Construir a consulta para somar apostas
+            $query = \DB::table('games_history')
+                ->where('user_id', $user->id)
+                ->where(function($q) use ($gameInfo, $gameSlugs) {
+                    // Verificar pelos slugs da nova tabela
+                    if (!empty($gameSlugs)) {
+                        $q->whereIn('game', $gameSlugs);
+                    }
+
+                    // Verificar pelo nome do jogo
+                    if (!empty($gameInfo->name)) {
+                        $q->orWhere('game', $gameInfo->name);
+                    }
+
+                    // Verificar pelo ID do jogo
+                    $q->orWhere('game', $gameInfo->id)
+                        ->orWhere('game', (string)$gameInfo->id);
+                });
+
+            // Filtrar por data, se fornecida
+            if ($fromDate) {
+                $query->where('created_at', '>=', $fromDate);
+            }
+
+            // Somar os valores
+            $totalBet = $query->where('action', 'loss')->sum('amount');
+
+            return response()->json([
+                'success' => true,
+                'game_info' => [
+                    'id' => $gameInfo->id,
+                    'name' => $gameInfo->name
+                ],
+                'from_date' => $fromDate,
+                'total_bet' => $totalBet,
+                'game_slugs_found' => $gameSlugs
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao verificar apostas: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+}

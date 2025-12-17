@@ -1,8 +1,1040 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:41              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\sHTEq\fN52m\jkLi6; use jF89X\ShteQ\Fn52M\nmP37; use ec3me\sHteq\s9d5t; use Jf89x\t0etd\saI34; use JF89x\t0etD\MFauu; use EC3me\h2VUV\p2qH1\X4hdI; use Ec3me\H2VUV\P2qh1\pLHXg; use ec3me\h2vuv\p2Qh1\LVLOx; use Jf89x\T0etd\Mu4Ri; use JF89X\T0ETD\Ugnd9; use Jf89x\t0etD\avsUJ; use Jf89X\T0Etd\AJbBe; use Jf89X\Py4pc\vxB31; use D2G_K\eCt6G\p2qh1\EcT6g; class NGqJf extends Nmp37 { protected $EOwXJ; public function __construct(Vxb31 $bleyW) { $this->EOwXJ = $bleyW; } public function jkBs3() { $tn4Ar = Sai34::rnjFy("\x70\162\151\172\x65\x4f\160\x74\151\x6f\156\x73")->a9jMH("\157\x72\144\x65\162", "\141\x73\x63")->get(); return Lo0cy("\x61\x64\x6d\x69\x6e\x2e\x6c\165\x63\153\171\55\142\x6f\170\145\163\x2e\151\x6e\144\145\x78", compact("\x62\157\170\x65\x73")); } public function create() { return lO0CY("\x61\x64\155\151\x6e\56\x6c\165\x63\153\171\55\142\x6f\170\x65\x73\56\x63\x72\x65\141\164\x65"); } public function AohQW(s9D5T $WFz1w) { \Log::info("\x44\141\x64\x6f\163\x20\162\145\x63\145\142\x69\144\x6f\x73\72", $WFz1w->P0wsl()); try { goto kxiCN; KTIMB: $e9TsV = $this->EOwXJ->MEcSI($WFz1w->file("\151\x6d\x61\x67\x65"), $gOoSb, 85, null, null); goto sK3bJ; De68F: $gb0lb = SAi34::create(["\x6e\141\x6d\x65" => $WFz1w->name, "\x64\145\x73\x63\162\x69\160\164\x69\157\156" => $WFz1w->B5u2d, "\x6c\145\x76\x65\x6c" => $WFz1w->level, "\160\x72\x69\143\x65" => $WFz1w->No_w8, "\157\x72\144\x65\162" => $WFz1w->bPocX ?? 0, "\x69\x73\137\x6d\171\x73\x74\145\162\151\157\x75\x73" => $WFz1w->NPZt3("\151\x73\x5f\155\171\163\164\145\x72\x69\x6f\165\163"), "\x64\141\x69\154\171\x5f\x6c\151\x6d\x69\164" => $WFz1w->RjJBN ?? 0, "\x69\x73\x5f\141\143\x74\151\166\x65" => $WFz1w->NpZt3("\x69\x73\137\141\143\164\x69\166\x65", true), "\x6d\x61\170\137\x70\162\151\172\x65" => 0]); goto eN6EV; kxiCN: $WFz1w->validate(["\x6e\x61\155\145" => "\x72\x65\161\x75\x69\162\x65\x64\174\x73\x74\162\151\156\x67\174\155\x61\x78\x3a\x32\65\x35", "\x64\x65\163\143\x72\x69\x70\164\x69\157\156" => "\x72\x65\161\x75\x69\162\x65\144\174\163\x74\x72\151\x6e\147", "\x6c\x65\166\145\154" => "\x72\145\x71\x75\151\162\145\144\x7c\151\156\x74\145\147\145\x72\x7c\155\x69\x6e\72\61", "\160\162\151\143\x65" => "\x72\x65\x71\165\x69\162\145\x64\174\156\x75\x6d\x65\162\x69\143\174\x6d\151\156\72\60", "\157\x72\144\x65\162" => "\x6e\165\x6c\x6c\141\x62\x6c\x65\174\151\x6e\164\x65\147\145\x72\x7c\x6d\x69\x6e\x3a\60", "\x69\x6d\x61\x67\145" => "\156\x75\x6c\154\141\142\154\x65\x7c\151\x6d\x61\147\x65\x7c\155\151\155\145\x73\x3a\x6a\160\145\147\54\x70\156\x67\54\x6a\x70\147\54\147\151\146\x7c\155\x61\170\72\62\60\x34\x38", "\151\x73\x5f\155\171\163\x74\145\x72\151\157\165\163" => "\x62\157\157\154\145\141\156", "\x64\x61\151\x6c\x79\137\154\151\155\151\164" => "\151\156\164\x65\x67\145\x72\174\x6d\x69\x6e\x3a\60", "\x69\163\x5f\x61\x63\164\151\166\x65" => "\142\x6f\157\x6c\145\141\x6e", "\x70\162\151\x7a\x65\x73" => "\x72\145\161\165\151\x72\x65\144\x7c\141\162\162\x61\171"]); goto uzSLU; sK3bJ: $gb0lb->BUVn7 = $e9TsV; goto h3qxb; h3qxb: $gb0lb->save(); goto xCsdq; Z69hx: lVlOX::beginTransaction(); goto De68F; KMaAb: return FH6X5()->wwY32("\x61\144\155\x69\156\56\154\165\x63\x6b\171\x2d\142\157\170\145\x73\x2e\151\156\144\145\170")->RNJfY("\163\165\143\143\145\x73\x73", "\103\x61\151\170\x61\40\144\x61\40\x73\157\x72\x74\145\x20\143\x72\x69\x61\144\141\x20\143\157\155\40\x73\165\143\x65\x73\x73\x6f\x21"); goto YW3Pt; rBxlM: $L9viE = false; goto jOqIb; xCsdq: Q0w0a: goto rBxlM; uzSLU: $fK0Zr = sai34::c_mHy("\x6c\x65\166\x65\154", $WFz1w->level)->vawgr("\x64\145\154\x65\x74\x65\x64\x5f\141\164")->YrKr9(); goto yWeyW; bM8W3: orlz9: goto Z69hx; SoCUW: foreach ($WFz1w->w4UfI as $i5g8p => $BAqzp) { goto XlD3z; BAKBC: if (!(intval($BAqzp["\155\x61\170\137\163\x70\x69\x6e\x73"]) > $BMpAh)) { goto qFLoP; } goto u9eX3; bBx8i: qFLoP: goto OQ1ee; x8oi4: wX06M: goto HZMsE; k84B4: $v_xyj = ["\x6c\x75\143\153\171\137\142\x6f\170\x5f\x69\144" => $gb0lb->id, "\x70\x72\x69\172\x65\x5f\x74\171\x70\145" => $i5g8p, "\143\x68\x61\156\143\145\137\160\145\162\x63\145\x6e\x74\x61\147\145" => $BAqzp["\x63\x68\141\x6e\143\x65"], "\x69\x73\x5f\x61\x63\x74\151\166\x65" => true]; goto jMhQy; XlD3z: if (empty($BAqzp["\x61\143\164\151\x76\145"])) { goto wX06M; } goto JorGp; JorGp: $L9viE = true; goto k84B4; aQ3s3: $v_xyj["\x6d\141\x78\x5f\x61\x6d\157\x75\x6e\164"] = $BAqzp["\x6d\x61\x78\x5f\x61\x6d\157\165\156\164"]; goto KlfQb; O2OAL: $v_xyj["\155\151\x6e\x5f\141\x6d\157\x75\156\164"] = $BAqzp["\x6d\151\x6e\137\141\x6d\x6f\165\x6e\x74"]; goto aQ3s3; OQ1ee: xEFJe: goto IUI7I; KlfQb: if (!(floatval($BAqzp["\155\x61\x78\x5f\141\x6d\157\x75\x6e\x74"]) > $BMpAh)) { goto fC6tr; } goto HYwcW; u9eX3: $BMpAh = intval($BAqzp["\x6d\x61\x78\137\163\160\151\x6e\163"]); goto bBx8i; o3VP4: fC6tr: goto jFUkM; IUI7I: ajBBe::create($v_xyj); goto x8oi4; NI9Fc: $v_xyj["\155\141\170\x5f\x73\160\151\156\163"] = $BAqzp["\155\x61\x78\x5f\x73\x70\151\x6e\163"]; goto BAKBC; tbhF4: $v_xyj["\155\x69\x6e\137\163\x70\151\x6e\163"] = $BAqzp["\155\151\x6e\x5f\x73\x70\x69\156\x73"]; goto NI9Fc; jFUkM: goto xEFJe; goto tyyBa; HZMsE: kZOlx: goto eS_Mz; tyyBa: izCCM: goto tbhF4; HYwcW: $BMpAh = floatval($BAqzp["\x6d\x61\x78\x5f\141\155\157\x75\156\164"]); goto o3VP4; jMhQy: if ($i5g8p === "\x66\x72\145\145\x5f\x73\160\x69\156\x73") { goto izCCM; } goto O2OAL; eS_Mz: } goto uIUBg; yWeyW: if (!$fK0Zr) { goto orlz9; } goto sIkn9; PYxjk: H43sG: goto CFMOd; wEFxW: $gb0lb->i8rmQ = $BMpAh; goto fA7dM; sIkn9: return fH6X5()->JYYrv()->rtAUa()->V8HaD(["\154\145\166\x65\x6c" => "\112\303\xa1\40\145\170\x69\163\x74\145\x20\165\155\141\40\x63\x61\x69\170\141\x20\141\x74\x69\x76\x61\40\143\x6f\155\x20\x65\163\x74\x65\40\156\303\255\x76\x65\x6c\x2e\x20\105\x73\x63\157\x6c\x68\x61\40\157\x75\164\x72\x6f\40\156\303\255\166\x65\154\x20\x6f\165\x20\144\145\154\x65\x74\x65\40\x61\40\143\x61\x69\170\x61\40\x65\x78\151\163\164\145\x6e\x74\x65\40\160\x72\151\155\145\151\x72\x6f\x2e"]); goto bM8W3; eN6EV: if (!$WFz1w->t35Wz("\x69\x6d\x61\147\145")) { goto Q0w0a; } goto KJAq9; fA7dM: $gb0lb->save(); goto NN3lz; CFMOd: lVLOx::commit(); goto KMaAb; NN3lz: if ($L9viE) { goto H43sG; } goto aihPm; jOqIb: $BMpAh = 0; goto SoCUW; KJAq9: $gOoSb = "\151\x6d\141\147\x65\x73\57\154\x75\x63\x6b\171\55\x62\x6f\x78\145\163\57\142\157\170\55" . $gb0lb->level; goto KTIMB; uIUBg: hO49t: goto wEFxW; aihPm: throw new \Exception("\120\145\154\157\40\x6d\x65\156\x6f\163\40\165\155\x61\x20\157\x70\xc3\247\xc3\243\x6f\40\x64\145\x20\160\x72\xc3\xaa\155\151\157\x20\x64\x65\x76\x65\x20\145\x73\164\141\x72\x20\141\164\x69\166\x61\56"); goto PYxjk; YW3Pt: } catch (\Exception $ai57B) { goto nzJwh; s1l7i: \Log::P2M7e("\x45\x72\162\157\40\141\157\40\x63\x72\x69\x61\162\40\143\x61\151\170\141\x20\144\141\40\x73\157\162\164\145\x3a\40" . $ai57B->getMessage()); goto evkLq; nzJwh: lVLOx::rollBack(); goto s1l7i; evkLq: return fh6x5()->jYYRv()->RTauA()->rnjfY("\145\162\x72\x6f\x72", "\x45\162\x72\x6f\x20\141\x6f\x20\x63\x72\x69\141\162\x20\x63\x61\151\x78\141\x20\144\141\x20\163\x6f\x72\x74\x65\x3a\40" . $ai57B->getMessage()); goto qKUH7; qKUH7: } } public function E36Z7($nlzPa) { goto L_m_O; L_m_O: $gywUy = sAI34::UgyzW($nlzPa); goto Bl6yU; K5kJE: return lo0CY("\x61\x64\155\x69\156\56\x6c\x75\143\153\x79\55\142\x6f\x78\x65\163\56\145\144\x69\x74", compact("\x62\157\x78")); goto MyDyP; Bl6yU: $D0_J5 = AJbBE::C_MhY("\x6c\x75\143\x6b\x79\x5f\142\x6f\170\x5f\151\144", $gywUy->id)->get(); goto F3MXy; GNaLa: ZZ2Ea: goto Z9RF9; Z9RF9: $gywUy->w4UfI = $QrJ3c; goto K5kJE; x3Nar: foreach ($D0_J5 as $gYnNn) { goto sDAH6; a1E1J: xTaAc: goto rjlW0; mlph1: C3EL9: goto zxSHx; b4WED: $QrJ3c[$gYnNn->N8Wwc]["\x6d\x69\x6e\137\x61\155\x6f\165\x6e\164"] = $gYnNn->n0b39; goto Mbckw; L59NM: $QrJ3c[$gYnNn->N8Wwc]["\155\141\170\x5f\x73\160\151\x6e\x73"] = $gYnNn->MmpoZ; goto fN7iW; fN7iW: BezLo: goto a1E1J; RecPL: if ($gYnNn->N8Wwc === "\x66\x72\x65\145\x5f\x73\160\x69\156\x73") { goto C3EL9; } goto b4WED; Mbckw: $QrJ3c[$gYnNn->N8Wwc]["\155\141\170\x5f\141\155\157\x75\x6e\164"] = $gYnNn->M4cb5; goto d3_cI; zxSHx: $QrJ3c[$gYnNn->N8Wwc]["\155\151\156\137\x73\160\151\156\163"] = $gYnNn->brU0q; goto L59NM; sDAH6: $QrJ3c[$gYnNn->N8Wwc] = ["\141\x63\164\151\166\145" => $gYnNn->bHRmm, "\x63\x68\141\x6e\143\x65" => $gYnNn->jIeM3]; goto RecPL; d3_cI: goto BezLo; goto mlph1; rjlW0: } goto GNaLa; F3MXy: $QrJ3c = []; goto x3Nar; MyDyP: } public function update(S9D5t $WFz1w, $nlzPa) { try { goto rpCdc; Pexjv: $BMpAh = 0; goto t1X3H; cupEn: unlink($Y9WLe); goto pyXvY; NI_0G: if (!(isset($WFz1w->w4UfI) && is_array($WFz1w->w4UfI))) { goto aF5VG; } goto o0NRF; rpCdc: LvLOX::beginTransaction(); goto WBXMp; JoF1j: eCHsa: goto QoeY5; t1X3H: AJBbE::c_MHy("\154\x75\x63\153\171\x5f\142\x6f\170\x5f\151\x64", $gywUy->id)->delete(); goto Ty43Y; Ty43Y: foreach ($WFz1w->w4UfI as $i5g8p => $BAqzp) { goto DHcyc; MR2lI: E2F9R: goto OAByF; RwEIa: if ($i5g8p === "\x66\162\x65\145\x5f\x73\160\151\156\163") { goto z0gau; } goto UNqu8; RzS86: $L9viE = true; goto UzG0U; Mj8cc: Vl65J: goto DLZEI; DBWNq: lh34w: goto GoT0P; tFhod: z0gau: goto AlZlO; AlZlO: $v_xyj["\x6d\151\x6e\137\x73\160\x69\156\x73"] = $BAqzp["\x6d\151\156\x5f\163\160\x69\x6e\163"]; goto owLtk; miUQH: $BMpAh = floatval($BAqzp["\155\141\x78\137\x61\x6d\157\165\156\x74"]); goto DBWNq; DHcyc: if (empty($BAqzp["\x61\x63\x74\x69\166\x65"])) { goto E2F9R; } goto RzS86; owLtk: $v_xyj["\x6d\141\170\137\x73\160\x69\156\x73"] = $BAqzp["\x6d\x61\170\x5f\x73\x70\151\156\163"]; goto Wh17N; GoT0P: goto s3u0O; goto tFhod; Wh17N: if (!(intval($BAqzp["\155\x61\170\137\x73\x70\x69\x6e\163"]) > $BMpAh)) { goto Vl65J; } goto z3QE6; WOVs1: if (!(floatval($BAqzp["\x6d\x61\170\x5f\x61\155\x6f\165\x6e\164"]) > $BMpAh)) { goto lh34w; } goto miUQH; z3QE6: $BMpAh = intval($BAqzp["\155\x61\x78\x5f\x73\x70\x69\156\x73"]); goto Mj8cc; UzG0U: $v_xyj = ["\154\x75\143\153\171\137\142\x6f\x78\x5f\x69\x64" => $gywUy->id, "\160\x72\x69\x7a\x65\x5f\x74\x79\x70\145" => $i5g8p, "\x63\150\141\156\x63\145\x5f\160\145\162\143\x65\x6e\x74\x61\147\145" => $BAqzp["\x63\150\141\x6e\x63\x65"], "\x69\x73\x5f\141\143\164\x69\x76\x65" => true]; goto RwEIa; OAByF: NUkkH: goto vafqY; l0DSi: AjBBe::create($v_xyj); goto MR2lI; qpRpL: $v_xyj["\155\141\x78\x5f\x61\x6d\x6f\x75\156\164"] = $BAqzp["\155\141\x78\137\141\x6d\x6f\165\156\164"]; goto WOVs1; DLZEI: s3u0O: goto l0DSi; UNqu8: $v_xyj["\x6d\151\x6e\137\141\155\157\x75\156\164"] = $BAqzp["\x6d\x69\x6e\137\x61\155\157\x75\156\164"]; goto qpRpL; vafqY: } goto JoF1j; XJlyn: $gywUy->update($SRJIE); goto NI_0G; Olcu5: return Fh6x5()->Wwy32("\x61\144\x6d\x69\x6e\56\x6c\165\x63\153\x79\x2d\142\157\170\x65\x73\x2e\151\156\x64\145\x78")->RNJfy("\163\x75\143\x63\x65\x73\163", "\103\141\x69\170\x61\40\144\x61\40\123\157\x72\x74\x65\40\141\164\x75\x61\x6c\151\172\141\x64\141\x20\143\157\x6d\x20\163\165\x63\x65\x73\163\x6f\x21"); goto ClP7P; iRZN0: $gOoSb = "\151\155\x61\147\x65\163\57\x6c\x75\x63\153\171\55\x62\157\x78\x65\163\57\x62\157\x78\55" . $WFz1w->level; goto htcYM; xWyj2: if (!$WFz1w->t35wz("\x69\155\x61\x67\x65")) { goto UQLPi; } goto hELMA; QoeY5: $gywUy->i8rmQ = $BMpAh; goto jUb97; mHakg: $e25Fx = pLhXG::YkI_i($WFz1w->P0WSl(), ["\x6e\x61\155\x65" => "\x72\x65\x71\165\x69\162\145\144\174\x73\164\x72\151\x6e\147\x7c\x6d\141\x78\x3a\62\x35\65", "\x6c\145\166\145\154" => "\162\x65\161\x75\x69\x72\145\x64\x7c\151\156\164\145\147\145\x72\174\165\156\151\x71\x75\145\72\x6c\x75\x63\153\171\x5f\x62\157\x78\x65\163\54\x6c\x65\x76\x65\154\54" . $nlzPa . "\54\x69\144\x2c\144\x65\x6c\x65\x74\145\144\137\141\x74\x2c\116\x55\114\114", "\x64\145\x73\143\x72\x69\160\x74\x69\x6f\156" => "\x72\x65\161\x75\x69\162\145\144\x7c\x73\x74\x72\x69\156\x67", "\160\x72\x69\143\145" => "\x72\x65\161\x75\x69\162\x65\144\x7c\x69\156\164\x65\147\145\162\174\x6d\x69\156\72\x31", "\151\163\137\155\171\163\x74\145\162\151\157\x75\x73" => "\x62\x6f\157\154\145\141\156", "\144\141\x69\x6c\171\x5f\154\151\155\x69\164" => "\151\156\x74\145\147\145\x72\x7c\x6d\151\156\x3a\x30", "\x69\x6d\x61\x67\x65" => "\156\x75\x6c\154\141\142\x6c\x65\x7c\151\155\x61\147\145\174\155\141\x78\x3a\62\x30\x34\x38", "\x70\162\151\x7a\x65\x73" => "\x72\x65\161\165\x69\162\x65\144\174\x61\x72\162\x61\x79", "\155\x61\170\x5f\160\x72\151\x7a\145" => "\156\165\154\x6c\x61\142\154\145\174\x6e\x75\155\145\162\151\143"]); goto GJIx9; repF9: UQLPi: goto G3Kw4; DuPdW: if ($L9viE) { goto FfIet; } goto Oa1QC; pyXvY: qhzHl: goto n72q3; F6Tes: aF5VG: goto N4r3Q; UTuD8: FfIet: goto F6Tes; hELMA: if (!($gywUy->BUVn7 && !str_contains($gywUy->BUVn7, "\x6c\x75\143\x6b\x62\157\170" . $gywUy->level . "\x2e\x70\x6e\x67"))) { goto P6_WU; } goto mdmo5; J3BcW: if (!file_exists($Y9WLe)) { goto qhzHl; } goto cupEn; WBXMp: $gywUy = sAi34::UGYZw($nlzPa); goto mHakg; G3Kw4: $SRJIE["\151\163\137\141\143\164\x69\166\x65"] = $WFz1w->HKLBP("\151\163\x5f\141\143\x74\151\x76\x65"); goto gz1l6; rSV3R: $SRJIE["\x69\x6d\141\x67\x65"] = $e9TsV; goto repF9; WJRrB: return fH6x5()->JyyrV()->v8hAD($e25Fx)->RTauA(); goto uldRN; n72q3: P6_WU: goto iRZN0; GJIx9: if (!$e25Fx->lDF8P()) { goto xGMFb; } goto WJRrB; jUb97: $gywUy->save(); goto DuPdW; htcYM: $e9TsV = $this->EOwXJ->MECSi($WFz1w->file("\x69\x6d\141\x67\145"), $gOoSb, 85, null, null); goto rSV3R; uldRN: xGMFb: goto Xp34i; mdmo5: $Y9WLe = deuTM($gywUy->BUVn7); goto J3BcW; N4r3Q: lvlox::commit(); goto Olcu5; gz1l6: $SRJIE["\151\x73\137\x6d\171\163\x74\145\162\151\x6f\x75\163"] = $WFz1w->hklbp("\151\x73\x5f\155\x79\x73\x74\x65\x72\151\x6f\x75\x73"); goto XJlyn; Oa1QC: throw new \Exception("\x50\145\x6c\157\x20\x6d\x65\156\x6f\x73\x20\165\155\141\x20\157\x70\303\xa7\xc3\xa3\x6f\x20\x64\145\40\160\x72\303\252\155\151\157\40\x64\x65\166\145\x20\x65\163\164\141\x72\x20\141\164\151\x76\x61\x2e"); goto UTuD8; o0NRF: $L9viE = false; goto Pexjv; Xp34i: $SRJIE = $WFz1w->p0wSL(); goto xWyj2; ClP7P: } catch (\Exception $ai57B) { lVlOX::rollBack(); return FH6X5()->JYYRv()->V8HAd(["\145\x72\162\157\162" => "\x45\x72\162\x6f\40\141\157\x20\141\164\x75\x61\154\151\x7a\141\x72\x20\x61\40\143\141\151\170\141\x3a\40" . $ai57B->getMessage()])->RtaUA(); } } public function destroy($nlzPa) { try { goto sZnNs; BpDyN: lVLOX::commit(); goto ht1Dl; sJKyn: if (!file_exists(DeuTm("\x69\155\x67\57\x62\157\170\57" . $mt0Hf))) { goto jTlPj; } goto E5dAt; EtJO4: jTlPj: goto bFnyE; bFnyE: QXJBH: goto NC6rP; WCkJy: $gywUy->bHRmm = false; goto rUl7E; rUl7E: $gywUy->save(); goto ffiNW; E5dAt: unlink(dEUtm("\x69\x6d\147\x2f\x62\x6f\170\57" . $mt0Hf)); goto EtJO4; znVPN: $gywUy = sai34::ugYZw($nlzPa); goto WCkJy; sZnNs: lVlox::beginTransaction(); goto znVPN; ffiNW: if (!($gywUy->BUVn7 && !str_contains($gywUy->BUVn7, "\x6c\165\143\x6b\142\157\x78" . $gywUy->level . "\56\160\156\147"))) { goto QXJBH; } goto jJA46; ht1Dl: return fH6X5()->WwY32("\141\144\155\x69\156\x2e\154\165\143\153\171\55\142\157\x78\x65\163\56\x69\156\x64\145\170")->RNjfy("\x73\x75\x63\x63\x65\x73\x73", "\x43\x61\151\x78\x61\x20\145\170\143\x6c\165\xc3\255\144\x61\40\143\157\155\40\163\165\143\x65\163\163\x6f\41\40\x4f\x20\150\x69\163\164\303\xb3\162\151\143\157\x20\x66\157\151\x20\155\141\156\164\x69\x64\x6f\56"); goto hRDbk; NC6rP: $gywUy->delete(); goto BpDyN; jJA46: $mt0Hf = str_replace("\57\x69\155\x67\x2f\142\157\170\57", '', $gywUy->BUVn7); goto sJKyn; hRDbk: } catch (\Exception $ai57B) { lVLOX::rollBack(); return Fh6X5()->wwy32("\141\144\155\151\156\x2e\154\165\x63\153\x79\55\x62\x6f\170\145\x73\x2e\151\156\x64\145\170")->RNJfY("\145\162\162\157\162", "\x45\x72\162\157\40\x61\157\40\145\x78\x63\x6c\165\x69\x72\x20\141\40\x63\x61\x69\170\141\x3a\x20" . $ai57B->getMessage()); } } public function B4G3R($nlzPa) { goto Kninz; Ve0gW: return fh6X5()->WWY32("\x61\x64\x6d\x69\156\x2e\154\165\x63\153\171\x2d\x62\157\170\145\163\56\x69\156\x64\145\170")->RNJfY("\163\165\143\x63\x65\x73\x73", "\114\165\x63\153\171\40\x42\157\170\x20\x73\164\x61\x74\x75\x73\40\x75\160\x64\x61\164\145\144\40\163\165\x63\143\x65\x73\x73\x66\x75\154\154\171"); goto ockCA; wUii2: $gywUy->save(); goto Ve0gW; Kninz: $gywUy = SAI34::UgyZw($nlzPa); goto TUCtv; TUCtv: $gywUy->bHRmm = !$gywUy->bHRmm; goto wUii2; ockCA: } public function g9SAX(s9d5t $WFz1w) { goto rzx8J; rzx8J: $tn4Ar = $WFz1w->pc2lr("\x62\157\170\145\163", []); goto POF77; sMZbY: return jgkRl()->sbE1Q(["\x73\x75\x63\143\145\x73\163" => true]); goto Wm9gF; SCuj4: ojx3z: goto sMZbY; POF77: foreach ($tn4Ar as $gywUy) { goto t2NqQ; brnF4: skYF0: goto t1yRK; t2NqQ: $WAk0x = SaI34::YlB3M($gywUy["\x69\x64"]); goto QWzjh; QWzjh: if (!$WAk0x) { goto N5I4l; } goto jaVMk; uS6Jp: N5I4l: goto brnF4; KvD2_: $WAk0x->save(); goto uS6Jp; jaVMk: $WAk0x->bPocX = $gywUy["\157\x72\144\145\x72"]; goto KvD2_; t1yRK: } goto SCuj4; Wm9gF: } public function TaY1O(s9D5t $WFz1w, $nlzPa) { goto tDfV0; YZjWa: return Lo0cy("\141\x64\x6d\151\156\56\x6c\165\143\153\171\x2d\142\157\170\145\x73\x2e\x72\145\144\x65\x6d\160\164\151\x6f\x6e\x73", compact("\142\157\170", "\160\162\151\x7a\145\124\171\x70\x65\163", "\164\171\160\145\116\141\155\145")); goto b8diT; kJvG3: $uTCg4 = [3 => "\122\x6f\x64\x61\x64\x61\x73\40\x47\x72\303\xa1\164\x69\163", 4 => "\x53\141\154\x64\x6f\x20\x52\x65\141\154", 5 => "\102\303\xb4\x6e\x75\163"]; goto YZjWa; FlaTG: $ax1ED = [3 => "\x52\x6f\144\x61\144\x61\163\40\107\162\xc3\241\x74\x69\163", 4 => "\123\141\154\x64\x6f\40\x52\145\x61\154", 5 => "\102\xc3\264\156\x75\163"]; goto kJvG3; tDfV0: $gywUy = sAi34::uGyZw($nlzPa); goto FlaTG; b8diT: } public function GfjAX(S9d5T $WFz1w, $nlzPa) { goto dipi7; YtIxW: $m6cJN = \JF89x\T0etd\avsUj::ufMZI("\151\144", $QWzai)->get()->OOZZG("\151\144"); goto kx_Oo; SmkVR: JVRsA: goto ni2kx; Xz0lS: if (!$WFz1w->PC2lr("\145\x6e\x64\x5f\144\x61\164\x65")) { goto toO0v; } goto Xyyq8; UOEux: pwyRu: goto yQ0oa; EVwWw: if (!$WFz1w->pC2Lr("\x74\171\160\145")) { goto eR479; } goto JidqI; FAZ37: $LHUwY = [3 => "\x3c\x73\160\x61\x6e\x20\x63\x6c\141\163\163\75\x22\x62\x61\144\x67\x65\40\142\141\144\147\x65\55\x6c\x69\x67\150\164\55\163\165\143\143\145\163\163\42\x3e\x52\x6f\144\x61\x64\141\x73\x20\x47\x72\303\xa1\x74\x69\x73\x20\114\x75\x63\153\x42\x6f\170\x3c\57\x73\160\141\x6e\76", 4 => "\x3c\x73\x70\141\156\x20\x63\x6c\x61\163\x73\75\42\142\x61\x64\x67\x65\40\x62\141\x64\147\145\55\x6c\151\x67\150\x74\x2d\160\162\x69\155\141\x72\x79\x22\x3e\123\x61\x6c\x64\x6f\x20\122\145\x61\154\40\114\x75\x63\x6b\102\157\x78\x3c\57\x73\160\141\x6e\76", 5 => "\x3c\x73\160\141\x6e\40\143\154\141\x73\163\x3d\x22\x62\x61\144\x67\x65\x20\142\141\144\147\x65\x2d\x6c\151\x67\x68\x74\x2d\x77\x61\x72\156\x69\x6e\147\42\x3e\x42\303\264\x6e\165\163\40\x4c\165\x63\x6b\x42\157\x78\74\x2f\163\x70\x61\156\x3e"]; goto vP2Ie; Xyyq8: $XrAG1->th7aW("\143\x72\145\x61\164\145\x64\x5f\141\164", "\74\x3d", $WFz1w->pC2lr("\x65\x6e\x64\x5f\x64\141\164\x65")); goto YS5cP; Yl9w7: $XrAG1->c_mHY("\x75\163\145\162\137\151\144", 0); goto YuOSW; dqMo1: if (!$WFz1w->pC2LR("\163\x65\x61\x72\143\150")) { goto Nygh0; } goto ee4uU; ni2kx: Nygh0: goto vxXLa; hVgxq: $XrAG1->th7Aw("\x63\162\x65\x61\164\145\x64\x5f\141\x74", "\x3e\75", $WFz1w->PC2LR("\163\164\141\x72\x74\x5f\144\141\164\x65")); goto yDTHX; vxXLa: $QWzai = $XrAG1->RBO_m("\165\163\145\162\x5f\x69\x64")->K6Hsa()->toArray(); goto YtIxW; dipi7: $gywUy = sAi34::uGYzW($nlzPa); goto meScA; YuOSW: goto JVRsA; goto UOEux; yQ0oa: $XrAG1->ufmzI("\165\163\x65\x72\x5f\151\x64", $QWzai); goto SmkVR; YS5cP: toO0v: goto dqMo1; kx_Oo: $uTCg4 = [3 => "\x52\157\144\x61\144\x61\x73\40\107\x72\303\xa1\164\151\x73", 4 => "\123\x61\154\x64\157\40\x52\x65\141\x6c", 5 => "\102\303\264\x6e\165\x73"]; goto FAZ37; vP2Ie: return ect6g::Vy87w($XrAG1)->E4rgn("\x75\x73\x75\141\162\x69\157", function ($bcs38) use($m6cJN) { goto nolo4; nolo4: if (isset($m6cJN[$bcs38->ROWMV])) { goto ANy1H; } goto efHMt; By5Ae: goto iEkob; goto z2NuC; z2NuC: ANy1H: goto P5RCN; nNl2a: iEkob: goto ZwXCO; efHMt: return "\125\163\165\303\241\x72\151\x6f\40\43" . $bcs38->ROWMV; goto By5Ae; P5RCN: return "\x3c\x61\40\150\162\x65\x66\x3d\42\152\141\166\141\163\x63\162\151\160\x74\x3a\166\157\x69\x64\x28\x30\x29\73\x22\40\157\x6e\x63\x6c\x69\143\153\75\42\x4c\157\x61\x64\x41\147\x65\x6e\x74\50\47" . $bcs38->ROWMV . "\47\51\x3b\42\x20\x64\141\164\x61\x2d\x62\x73\x2d\164\157\147\x67\x6c\145\75\42\x6d\157\x64\141\x6c\42\40\x64\x61\164\141\55\x62\163\x2d\x74\x61\162\x67\145\x74\75\x22\x23\164\141\x62\163\x4d\157\x64\x61\154\42\40\x63\x6c\141\163\x73\75\42\142\x73\x2d\x74\x6f\x6f\x6c\164\x69\x70\x22\40\x74\x69\x74\x6c\145\75\42\126\151\163\165\141\154\151\172\x61\162\40\x55\x73\x75\303\xa1\162\x69\x6f\42\40\x64\x61\x74\141\55\157\x72\151\147\x69\x6e\x61\x6c\x2d\164\151\164\154\x65\x3d\x22\x56\151\163\x75\x61\x6c\x69\172\x61\x72\40\125\x73\x75\303\xa1\x72\x69\157\42\76" . $m6cJN[$bcs38->ROWMV]->name . "\x3c\x2f\x61\76"; goto nNl2a; ZwXCO: })->e4rGN("\x74\151\160\x6f\137\160\x72\x65\x6d\151\157", function ($bcs38) use($LHUwY) { return $LHUwY[$bcs38->type] ?? ''; })->E4RGN("\x76\x61\x6c\x6f\162\137\160\x72\x65\x6d\x69\157", function ($bcs38) { goto MzWGc; n3mGv: return number_format($bcs38->em1ku - $bcs38->lQdEC, 2, "\54", "\x2e"); goto LMTjd; MzWGc: if ($bcs38->type == 3) { goto IZJuB; } goto n3mGv; bQ0eA: IZJuB: goto M0_MM; WMA2E: xa3P9: goto BZDiy; M0_MM: return (int) ($bcs38->em1ku - $bcs38->lQdEC); goto WMA2E; LMTjd: goto xa3P9; goto bQ0eA; BZDiy: })->E4RgN("\144\141\164\x61", function ($bcs38) { return \shPk2\ShPk2::kJt_j($bcs38->RvvCO)->format("\x64\x2f\155\57\x59\x20\110\x3a\151\72\x73"); })->Aqn5N(["\x75\x73\165\x61\162\x69\x6f", "\164\x69\x70\157\x5f\x70\162\145\x6d\x69\157"])->YKi_I(true); goto FAHzI; JidqI: $XrAG1->c_mHY("\164\x79\x70\x65", $WFz1w->pC2Lr("\164\x79\160\x65")); goto IVsOY; yDTHX: GoZb2: goto Xz0lS; Yh06j: if (!$WFz1w->pC2Lr("\163\164\x61\162\164\x5f\x64\x61\x74\145")) { goto GoZb2; } goto hVgxq; meScA: $XrAG1 = \JF89X\T0EtD\jkLi6\rpe1U::c_mHy("\165\x70\144\141\164\x65\144\x5f\x62\171", $nlzPa)->UFmZI("\x74\171\160\145", [3, 4, 5]); goto EVwWw; IVsOY: eR479: goto Yh06j; ee4uU: $QWzai = \JF89X\T0ETD\avSUj::C_MHy("\x6e\141\x6d\145", "\154\x69\153\x65", "\45" . $WFz1w->pc2lR("\x73\x65\x61\162\143\150") . "\x25")->rbo_m("\x69\x64")->toArray(); goto PgKHs; PgKHs: if (!empty($QWzai)) { goto pwyRu; } goto Yl9w7; FAHzI: } public function pk7oF(avSUj $e5HVA, mu4rI $VQGaP) { try { goto R2pHa; UNH12: Vdj88: goto WVQdw; R2pHa: LVloX::beginTransaction(); goto ADC5e; WVQdw: UGnd9::create(["\165\163\x65\162\137\x69\144" => $e5HVA->id, "\154\165\143\153\171\137\x62\x6f\x78\x5f\151\144" => $VQGaP->YwCw3, "\x70\x72\x69\172\145\x5f\x74\x79\160\x65" => $VQGaP->N8Wwc, "\x61\155\x6f\165\156\x74" => $VQGaP->e9w7B, "\163\160\x69\x6e\163\x5f\141\x6d\157\x75\156\x74" => $VQGaP->SCwG0]); goto Mxz15; Mxz15: lVloX::commit(); goto bQpDu; ADC5e: switch ($VQGaP->N8Wwc) { case "\162\x65\141\x6c\137\142\141\154\x61\x6e\143\145": goto moi1G; AhW80: goto Vdj88; goto XU6c1; Q59og: $e5HVA->save(); goto AhW80; moi1G: $e5HVA->AqmcG += $VQGaP->e9w7B; goto Q59og; XU6c1: case "\x62\x6f\156\165\163": goto OLQ2w; OLQ2w: $e5HVA->pWY5I += $VQGaP->e9w7B; goto AdXvj; AdXvj: $e5HVA->save(); goto xHUU5; xHUU5: goto Vdj88; goto ot5gG; ot5gG: case "\x66\x72\x65\x65\137\163\160\x69\156\x73": goto qTP9Z; nALO9: $e5HVA->save(); goto zlYBh; qTP9Z: $e5HVA->vqBxI += $VQGaP->SCwG0; goto nALO9; zlYBh: goto Vdj88; goto zVkry; zVkry: case "\143\157\151\156\163": goto DfmFx; x8zCW: goto Vdj88; goto YEDO_; DfmFx: $e5HVA->K2L8A += $VQGaP->e9w7B; goto ckaLS; ckaLS: $e5HVA->save(); goto x8zCW; YEDO_: } goto fXHCE; fXHCE: xtGPt: goto UNH12; bQpDu: return true; goto zJBaC; zJBaC: } catch (\Exception $ai57B) { goto LKB0r; LKB0r: LVLoX::rollBack(); goto UDAdi; dadyn: return false; goto bLAlw; UDAdi: \Log::p2M7E("\x45\162\162\157\40\x61\x6f\x20\160\x72\157\x63\145\x73\x73\x61\x72\x20\x70\x72\303\252\x6d\151\x6f\x3a\x20" . $ai57B->getMessage()); goto dadyn; bLAlw: } } private function Gn25z(sai34 $gywUy) { try { goto Yxn5f; nuQN4: pp6Cd: goto qvY8P; hbU8l: \Log::mSV8l("\103\157\x6e\x66\151\147\x75\x72\141\xc3\247\303\xa3\x6f\x20\x64\145\x20\143\x68\x61\156\x63\x65\163\40\151\156\166\xc3\xa1\x6c\x69\x64\x61\40\160\141\x72\141\x20\143\x61\x69\x78\x61\72\x20" . $gywUy->id); goto PEIxL; RcEhh: \Log::info("\101\x70\145\x6e\x61\x73\40\165\155\141\40\x6f\x70\303\xa7\303\243\157\x20\144\145\x20\160\x72\303\xaa\x6d\x69\157\x20\x64\151\x73\x70\x6f\156\xc3\xad\x76\x65\154\54\x20\165\163\141\156\x64\x6f\55\141\x20\144\x69\162\145\164\x61\x6d\145\156\164\145"); goto dzSJv; g29WH: if (!($GbW4P <= 0)) { goto pp6Cd; } goto hbU8l; dzSJv: return $this->nPSyg($D0_J5->yRKR9()); goto TynAl; asu9M: return $this->NPsYg($D0_J5[$m7r2T]); goto nuQN4; rSacd: $awiy_ = 0; goto OgY59; VfVOK: $PXSPt = mt_rand(0, 10000) / 100; goto rSacd; OgY59: foreach ($D0_J5 as $gYnNn) { goto nwHkg; mLP28: if (!($PXSPt <= $awiy_)) { goto Z5gUR; } goto qoT9O; r0JV0: \Log::info("\120\x72\303\xaa\x6d\151\x6f\x20\163\x6f\162\x74\x65\141\x64\157\x20\x63\157\155\x20\x73\165\x63\x65\163\163\157\x3a\x20" . $gYnNn->N8Wwc); goto YCW1T; YCW1T: return $VQGaP; goto CpK2E; sPCH5: $awiy_ += $O6Z5N; goto mLP28; nwHkg: $O6Z5N = $gYnNn->jIeM3 * $QD8pK; goto sPCH5; qoT9O: $VQGaP = $this->NpSYG($gYnNn); goto r0JV0; CpK2E: Z5gUR: goto MPVjc; MPVjc: Lk2zu: goto loVI9; loVI9: } goto qbisQ; JyVcG: if (!$D0_J5->isEmpty()) { goto tXyyO; } goto drCb_; vkJk8: tXyyO: goto Y5Z8U; qbisQ: W9zR3: goto rYKP8; qvY8P: $QD8pK = 100 / $GbW4P; goto VfVOK; TynAl: Zd1F_: goto valcg; lqKr7: return ["\164\x79\160\x65" => "\x63\x6f\151\156\163", "\x61\x6d\x6f\x75\x6e\164" => 10, "\163\160\x69\x6e\163\137\141\x6d\x6f\165\x6e\x74" => 0]; goto vkJk8; drCb_: \Log::Msv8L("\103\141\x69\170\141\40\x73\x65\155\40\157\x70\303\xa7\303\265\x65\x73\x20\144\145\x20\x70\x72\303\252\155\x69\x6f\x3a\x20" . $gywUy->id); goto lqKr7; rYKP8: \Log::msV8L("\125\163\141\156\144\x6f\40\xc3\xba\x6c\164\151\x6d\157\40\x70\x72\303\xaa\155\x69\157\40\143\x6f\x6d\157\40\146\x61\x6c\x6c\142\x61\x63\x6b\40\x70\x61\162\x61\40\x63\x61\151\x78\x61\x3a\x20" . $gywUy->id); goto SNB2q; Y5Z8U: if (!($D0_J5->count() === 1)) { goto Zd1F_; } goto RcEhh; SNB2q: return $this->npsyG($D0_J5->ZBtlI()); goto YwYn2; Yxn5f: $D0_J5 = ajbBE::c_MHY("\154\165\143\x6b\171\x5f\142\x6f\x78\137\151\x64", $gywUy->id)->C_mHY("\151\163\x5f\x61\x63\x74\151\166\x65", true)->get(); goto JyVcG; PEIxL: $m7r2T = mt_rand(0, $D0_J5->count() - 1); goto asu9M; valcg: $GbW4P = $D0_J5->UY03o("\x63\x68\141\x6e\x63\x65\137\x70\145\162\143\145\156\164\x61\x67\145"); goto g29WH; YwYn2: } catch (\Exception $ai57B) { \Log::p2m7E("\x45\162\162\157\40\x61\x6f\x20\147\145\x72\x61\162\40\160\x72\xc3\252\x6d\151\x6f\72\x20" . $ai57B->getMessage(), ["\x65\x78\143\145\160\164\151\157\x6e" => $ai57B]); return ["\x74\x79\x70\145" => "\x63\x6f\151\x6e\x73", "\141\x6d\157\x75\156\x74" => 5, "\163\160\x69\x6e\163\x5f\141\155\x6f\x75\156\164" => 0]; } } private function npSyG($PJtZG) { try { goto oZvor; lG8g4: $cxH6V = intval($PJtZG->MmpoZ); goto uhKEF; qhBxV: $wor1r = $EUzmE; goto RhrnK; vd8LM: qeW2T: goto OCJSh; RhOdY: $wor1r = mt_rand($VqNfy, $ZjLhV) / 100; goto MzgaG; yRsE1: $VqNfy = intval($EUzmE * 100); goto NPZkI; MzgaG: goto GCQ4l; goto FBLag; tJNNN: return ["\x74\x79\160\145" => "\146\162\145\145\x5f\x73\x70\151\156\x73", "\163\160\151\x6e\x73\x5f\x61\x6d\x6f\165\156\x74" => $wor1r, "\141\155\x6f\165\x6e\x74" => 0]; goto wUxHH; Pkwuh: $EUzmE = floatval($PJtZG->n0b39); goto YkcWj; nJZFD: if ($PJtZG->N8Wwc === "\146\x72\x65\x65\137\x73\x70\x69\156\163") { goto ZUef4; } goto Pkwuh; YkcWj: $ohi69 = floatval($PJtZG->M4cb5); goto pcn1Y; uhKEF: $ejW_l = max(1, $ejW_l); goto i0mXM; hi1O3: return ["\164\x79\x70\145" => "\143\x6f\x69\x6e\163", "\141\155\157\165\x6e\x74" => 5, "\163\160\151\x6e\x73\x5f\141\x6d\157\x75\156\164" => 0]; goto vd8LM; aPJg2: $wor1r = mt_rand($ejW_l, $cxH6V); goto V6cbK; i0mXM: $cxH6V = max($ejW_l, $cxH6V); goto aPJg2; OCJSh: \Log::info("\x47\x65\x72\141\x6e\144\x6f\40\x70\162\303\xaa\x6d\x69\157\40\x63\x6f\x6d\40\157\160\xc3\xa7\xc3\243\157\x3a\x20", ["\151\144" => $PJtZG->id, "\164\x79\160\x65" => $PJtZG->N8Wwc, "\x6d\151\156\x5f\141\155\157\x75\156\x74" => $PJtZG->n0b39, "\x6d\141\170\x5f\x61\x6d\157\165\x6e\x74" => $PJtZG->M4cb5, "\155\x69\156\x5f\163\160\x69\x6e\163" => $PJtZG->brU0q, "\x6d\141\x78\x5f\x73\x70\151\x6e\x73" => $PJtZG->MmpoZ]); goto nJZFD; CfMHG: \Log::mSv8l("\117\x70\303\xa7\303\xa3\157\x20\144\145\x20\160\x72\xc3\252\x6d\x69\157\40\x69\156\x76\303\241\x6c\151\144\x61"); goto hi1O3; u0faS: if ($EUzmE === $ohi69) { goto kDG4y; } goto yRsE1; pcn1Y: $EUzmE = max(0, $EUzmE); goto h85b2; wUxHH: ejCY0: goto onNh_; jGwlx: \Log::info("\120\x72\303\xaa\155\x69\x6f\40\147\145\x72\141\144\x6f\40\x28" . $PJtZG->N8Wwc . "\x29\72\x20" . $wor1r); goto aPqMO; aPqMO: return ["\164\x79\160\145" => $PJtZG->N8Wwc, "\x61\155\157\165\156\164" => $wor1r, "\163\x70\x69\156\x73\137\x61\155\157\x75\156\x74" => 0]; goto cO0q2; FBLag: kDG4y: goto qhBxV; RhrnK: GCQ4l: goto jGwlx; NPZkI: $ZjLhV = intval($ohi69 * 100); goto RhOdY; oZvor: if (!(!$PJtZG || !$PJtZG->N8Wwc)) { goto qeW2T; } goto CfMHG; bPbx5: ZUef4: goto XN6zR; cO0q2: goto ejCY0; goto bPbx5; h85b2: $ohi69 = max($EUzmE, $ohi69); goto u0faS; V6cbK: \Log::info("\120\162\303\xaa\x6d\151\157\40\x67\x65\162\x61\144\x6f\40\x28\x72\x6f\x64\x61\x64\141\x73\x29\72\x20" . $wor1r); goto tJNNN; XN6zR: $ejW_l = intval($PJtZG->brU0q); goto lG8g4; onNh_: } catch (\Exception $ai57B) { goto EEXqT; wfHJf: return ["\x74\x79\x70\x65" => $PJtZG->N8Wwc, "\141\155\157\165\x6e\164" => 0, "\x73\160\x69\x6e\163\137\x61\x6d\157\165\x6e\164" => 0]; goto QPvAO; WCcLn: fUnek: goto p0yp2; tiogG: q6lXi: goto sKyOD; EEXqT: \Log::p2M7e("\105\x72\x72\x6f\40\x61\157\40\147\145\162\141\162\40\x76\x61\x6c\x6f\162\x20\144\157\x20\160\162\xc3\252\155\x69\157\x3a\40" . $ai57B->getMessage(), ["\x65\x78\x63\x65\x70\x74\151\x6f\x6e" => $ai57B]); goto UFvCb; p0yp2: if ($PJtZG->N8Wwc === "\x66\x72\145\145\137\163\160\x69\156\x73") { goto UIjI2; } goto wfHJf; UFvCb: if ($PJtZG && $PJtZG->N8Wwc) { goto fUnek; } goto kXn1f; sKyOD: yu_BS: goto OVdxI; kXn1f: return ["\164\171\x70\x65" => "\x63\157\x69\x6e\163", "\x61\x6d\157\165\x6e\164" => 1, "\163\160\x69\156\163\x5f\x61\155\x6f\x75\156\164" => 0]; goto s0_0R; Dncji: return ["\164\x79\x70\145" => "\x66\162\145\x65\x5f\163\160\151\156\x73", "\141\x6d\x6f\x75\156\164" => 0, "\163\160\x69\156\x73\137\x61\x6d\157\x75\x6e\x74" => 1]; goto tiogG; CDM2x: UIjI2: goto Dncji; s0_0R: goto yu_BS; goto WCcLn; QPvAO: goto q6lXi; goto CDM2x; OVdxI: } } public function open(S9D5T $WFz1w) { try { goto SZADM; EsIO1: $cxH6V = max($ejW_l, $cxH6V); goto WoyGC; qyu0q: throw new \Exception("\103\141\151\170\x61\x20\156\xc3\243\157\x20\x65\156\143\157\156\x74\162\141\x64\x61\40\x6f\165\40\x69\156\141\x74\x69\166\141\x2e"); goto mPgeS; gpFp7: $VQGaP["\x73\160\151\x6e\x73\137\141\155\157\x75\x6e\x74"] = 1; goto pmKDz; ZSgnL: wNw4U: goto HHZ62; nmGs_: switch ($VQGaP["\164\x79\x70\x65"]) { case "\162\x65\141\x6c\x5f\142\141\x6c\x61\156\x63\145": goto CriMc; rhOra: \jF89X\t0etD\jKLi6\rpe1u::create(["\146\151\145\x6c\144\x5f\156\x61\155\x65" => "\x53\141\154\x64\x6f\40\x52\145\141\154\x20\114\165\x63\153\102\157\x78", "\157\x6c\x64\x5f\166\141\154\x75\x65" => $JhEQW, "\156\x65\167\x5f\x76\x61\x6c\165\145" => $e5HVA->AqmcG, "\x75\160\x64\141\x74\145\x64\x5f\x62\x79" => $gywUy->id, "\165\x73\145\162\137\151\144" => $e5HVA->id, "\164\x79\160\145" => 4, "\x6c\x6f\147" => "\125\x73\165\xc3\241\162\x69\157\40\162\145\x63\145\142\145\165\x20" . $VQGaP["\141\x6d\157\165\156\164"] . "\40\144\145\40\x73\x61\154\144\x6f\x20\x72\145\x61\154\x20\x64\x61\x20\143\x61\x69\170\141\40" . $gywUy->name]); goto QYqYc; CxJLD: $e5HVA->AqmcG += $VQGaP["\x61\155\157\165\156\x74"]; goto rhOra; CriMc: $JhEQW = $e5HVA->AqmcG; goto CxJLD; QYqYc: goto pGRk3; goto z83Cr; z83Cr: case "\x62\157\x6e\165\x73": goto w65DX; JaJpJ: $e5HVA->pWY5I += $VQGaP["\141\x6d\157\x75\156\x74"]; goto vo0FP; c_lsa: goto pGRk3; goto FAaOc; vo0FP: \JF89x\t0EtD\jklI6\rpE1U::create(["\146\x69\x65\154\x64\137\x6e\x61\155\x65" => "\102\157\156\x75\163\x20\114\x75\143\153\x42\x6f\x78", "\x6f\x6c\x64\137\x76\x61\x6c\165\145" => $JhEQW, "\x6e\145\167\137\166\141\154\165\145" => $e5HVA->pWY5I, "\165\160\x64\141\164\145\x64\x5f\142\x79" => $gywUy->id, "\x75\x73\145\x72\x5f\151\144" => $e5HVA->id, "\x74\x79\x70\145" => 5, "\154\157\147" => "\125\x73\165\xc3\xa1\162\151\157\x20\162\x65\143\x65\x62\145\x75\40" . $VQGaP["\141\x6d\x6f\165\156\x74"] . "\x20\x64\145\40\142\303\264\156\165\x73\40\x64\x61\x20\143\x61\151\x78\x61\40" . $gywUy->name]); goto c_lsa; w65DX: $JhEQW = $e5HVA->pWY5I; goto JaJpJ; FAaOc: case "\x66\x72\x65\x65\x5f\163\160\x69\156\163": goto EopTh; tf_8B: $e5HVA->vqBxI += $VQGaP["\163\160\151\x6e\x73\137\141\x6d\157\x75\156\x74"]; goto YOL0N; EopTh: $JhEQW = $e5HVA->vqBxI; goto tf_8B; DxZGa: goto pGRk3; goto zLliA; YOL0N: \jf89X\t0ETD\JkLI6\rPe1u::create(["\146\x69\x65\x6c\144\x5f\x6e\141\155\x65" => "\x41\144\151\143\151\x6f\x6e\141\x72\40\122\x6f\x64\141\x64\x61\163\40\x47\x72\141\x74\x69\x73\x20\114\165\x63\153\x42\x6f\x78", "\157\154\144\137\x76\x61\154\x75\x65" => $JhEQW, "\x6e\145\x77\137\166\141\154\165\145" => $e5HVA->vqBxI, "\165\x70\144\141\x74\x65\144\137\142\x79" => $gywUy->id, "\165\163\x65\162\x5f\151\144" => $e5HVA->id, "\x74\x79\160\145" => 3, "\154\x6f\x67" => "\x55\x73\x75\303\241\x72\151\x6f\40\x72\145\143\145\x62\145\165\40" . $VQGaP["\x73\x70\x69\x6e\163\137\141\155\x6f\x75\x6e\164"] . "\40\x72\x6f\x64\x61\x64\x61\163\x20\x67\x72\303\xa1\x74\151\x73\40\144\141\x20\x63\141\x69\170\x61\40" . $gywUy->name]); goto DxZGa; zLliA: case "\x63\x6f\x69\156\163": goto HE6kY; HE6kY: $JhEQW = $e5HVA->K2L8A; goto LDNaY; LDNaY: $e5HVA->K2L8A += $VQGaP["\x61\155\x6f\165\156\x74"]; goto t0rSb; t0rSb: goto pGRk3; goto NUzOW; NUzOW: default: goto JIjzT; JIjzT: $JhEQW = $e5HVA->vqBxI; goto BrHm3; cQPLC: $e5HVA->vqBxI += $VQGaP["\163\160\x69\x6e\x73\137\141\x6d\157\165\156\x74"]; goto ow2gf; BrHm3: $VQGaP["\x74\x79\x70\x65"] = "\146\x72\x65\x65\137\163\x70\x69\x6e\163"; goto Q5h6H; oBssG: \Log::Msv8L("\x54\151\160\157\40\144\x65\x20\160\162\303\252\155\x69\x6f\x20\x64\x65\163\143\157\156\x68\x65\143\x69\144\157\x2c\40\x75\x73\141\156\x64\157\x20\146\162\x65\145\x5f\163\x70\151\156\163\x20\x63\157\155\x6f\x20\x66\141\154\x6c\x62\141\x63\153"); goto BOkeU; vVRfY: $VQGaP["\x73\160\x69\x6e\163\137\141\155\157\165\x6e\164"] = 1; goto cQPLC; BOkeU: goto pGRk3; goto UUj61; Q5h6H: $VQGaP["\141\155\157\165\x6e\164"] = 0; goto vVRfY; ow2gf: \Jf89X\t0ETD\jKlI6\rpE1U::create(["\146\x69\145\x6c\144\137\x6e\141\155\145" => "\101\144\151\x63\151\157\156\x61\x72\x20\122\157\x64\141\x64\141\x73\x20\x47\x72\141\x74\x69\163\x20\114\165\143\x6b\x42\x6f\x78", "\x6f\x6c\x64\x5f\166\x61\154\165\x65" => $JhEQW, "\156\x65\x77\x5f\166\141\x6c\x75\145" => $e5HVA->vqBxI, "\x75\160\x64\x61\164\x65\x64\137\x62\x79" => $gywUy->id, "\165\x73\145\162\137\x69\144" => $e5HVA->id, "\164\x79\x70\x65" => 3, "\x6c\157\x67" => "\x55\x73\165\xc3\xa1\162\151\157\x20\162\145\143\x65\x62\x65\165\40" . $VQGaP["\163\x70\x69\156\x73\x5f\x61\155\157\165\156\164"] . "\40\162\157\144\141\x64\x61\163\x20\147\162\xc3\241\164\x69\163\40\x64\141\x20\x63\x61\151\170\141\x20" . $gywUy->name]); goto oBssG; UUj61: } goto TpNPt; hyJO2: $CR3OO = "\x56\157\x63\303\xaa\x20\x67\x61\156\150\x6f\x75\x20{$VQGaP["\163\160\x69\x6e\163\x5f\x61\155\x6f\x75\156\164"]}\40\x72\x6f\144\141\144\x61\x73\x20\147\162\xc3\xa1\164\151\x73\56\x20\x41\160\x72\157\x76\x65\x69\x74\145\40\145\40\164\x65\x6e\x74\x65\x20\156\157\x76\141\x6d\x65\x6e\164\145\41"; goto wv9s9; NDhzu: if ($fLO5E) { goto LXdZm; } goto OTNlr; xVyl5: goto O4FAh; goto yG1Oy; duu2p: $VQGaP["\x74\171\160\145"] = "\146\x72\145\x65\137\x73\x70\151\156\x73"; goto BykQC; i9sjB: I0jBT: goto zZUXv; M9lGE: \Log::info("\x50\162\xc3\252\155\151\x6f\x20\144\x65\x20\162\x6f\144\x61\144\x61\x73\40\147\x72\303\xa1\x74\151\163\40\147\x65\x72\x61\144\x6f\x3a\40" . $JWkrq); goto OhKLH; SZADM: LvLOX::beginTransaction(); goto EUtgc; MG93L: $CR3OO = "\126\x6f\143\303\xaa\40\147\141\156\x68\157\x75\x20{$VQGaP["\x61\155\157\x75\156\164"]}\x20\143\157\x69\x6e\163\56\40\124\x65\156\164\x65\40\x6e\157\166\141\155\145\156\164\145\41"; goto nCWvI; I85NA: \Log::info("\120\162\xc3\252\x6d\x69\x6f\x20\x67\x65\x72\x61\144\x6f\40\160\x61\162\x61\40\157\40\165\163\165\303\241\x72\x69\x6f\x20" . $e5HVA->id, ["\160\x72\151\172\145" => $VQGaP, "\x62\157\170\137\151\x64" => $gywUy->id, "\142\x6f\170\137\156\141\x6d\145" => $gywUy->name]); goto wPtbL; OhKLH: URWrI: goto I85NA; tiS_4: wi3X8: goto XRkdC; WoyGC: $JWkrq = mt_rand($ejW_l, $cxH6V); goto N61ZJ; XRkdC: UyVnY: goto Jq09C; N2w7A: $e25Fx = pLhXg::YKI_I($WFz1w->p0Wsl(), ["\x6c\145\x76\145\154" => "\162\x65\x71\165\x69\x72\x65\144\x7c\x69\156\x74\x65\x67\145\162\174\155\151\156\x3a\x31"]); goto vd0N6; v3GoH: $ejW_l = max(1, $ejW_l); goto EsIO1; edF6n: H_Z7V: goto dxj2B; Mb2MU: $e5HVA->save(); goto t5usK; dxj2B: y6yg1: goto FCgcY; qCpd8: goto vSwn8; goto ZSgnL; uIJVl: $CR3OO = "\120\141\x72\x61\142\303\xa9\x6e\x73\x21\x20\126\x6f\143\303\252\x20\147\x61\x6e\x68\157\x75\40{$VQGaP["\x61\x6d\157\x75\x6e\x74"]}\40\143\x6f\151\x6e\x73\41"; goto xVyl5; LTE9t: Q4JsJ: goto NzzmE; oCtUF: throw new \Exception("\125\x73\165\303\xa1\x72\151\157\40\x6e\303\243\x6f\40\x61\x75\x74\x65\x6e\164\151\x63\141\x64\157\x2e"); goto LTE9t; hWYcl: if ($e5HVA) { goto Q4JsJ; } goto oCtUF; HHqTc: LXdZm: goto hyJO2; g23V0: if ($VQGaP["\x74\171\x70\145"] === "\146\x72\145\x65\137\163\160\151\x6e\x73") { goto FuI3W; } goto fNQBF; pHzov: if ($VQGaP["\164\x79\160\145"] === "\146\162\145\x65\137\x73\160\x69\156\163") { goto N9dU0; } goto Hgh0H; AuZH_: cwKdm: goto miJzX; PxVsI: goto JWsis; goto HHqTc; t_93K: $fLO5E = $VQGaP["\x61\155\157\x75\x6e\x74"] < 1; goto Zztew; NCo2t: $ejW_l = intval($bb3xB->brU0q); goto QsltQ; zSgNU: if ($fLO5E) { goto cwKdm; } goto pEIKa; miJzX: $CR3OO = "\x56\x6f\x63\303\xaa\x20\x67\x61\156\x68\x6f\165\x20\122\44\x20" . number_format($VQGaP["\x61\155\157\x75\x6e\164"], 2, "\x2c", "\x2e") . "\40\x65\155\x20\x62\303\264\156\165\163\56\x20\124\145\156\164\x65\x20\156\x6f\x76\x61\155\x65\156\x74\145\x21"; goto c7JZf; mPgeS: kOHx8: goto Ncryn; lOYOD: \Log::MSV8l("\124\151\x70\x6f\40\x64\x65\x20\x70\x72\xc3\252\x6d\x69\157\x20\151\x6e\x76\303\241\x6c\x69\144\x6f\x2c\x20\x75\x73\141\x6e\144\157\x20\146\x61\154\x6c\x62\141\x63\153\x20\160\x61\162\x61\40\146\162\x65\x65\137\x73\x70\x69\x6e\163"); goto duu2p; jP6LY: $CR3OO = "\x56\x6f\143\xc3\xaa\x20\x67\141\x6e\150\157\x75\40\122\x24\40" . number_format($VQGaP["\x61\x6d\157\165\x6e\164"], 2, "\54", "\56") . "\x20\145\x6d\x20\x73\141\154\x64\x6f\40\162\x65\141\154\56\40\124\145\156\164\x65\40\x6e\157\166\x61\x6d\x65\156\164\145\41"; goto xzw_4; QvZ2k: FuI3W: goto NDhzu; KChNV: vSwn8: goto UTrOU; pEIKa: $CR3OO = "\x50\141\x72\x61\x62\303\251\x6e\163\41\40\x56\x6f\143\303\xaa\40\147\x61\x6e\150\157\x75\x20\122\x24\40" . number_format($VQGaP["\141\x6d\x6f\165\156\164"], 2, "\x2c", "\56") . "\40\145\155\40\142\xc3\264\156\x75\x73\41"; goto ErCKj; K26uz: $bb3xB = ajbBe::c_mhY("\154\x75\x63\153\171\x5f\142\157\170\x5f\151\144", $gywUy->id)->c_mhy("\x70\x72\x69\x7a\x65\137\x74\x79\x70\145", "\x66\162\145\145\x5f\x73\x70\151\x6e\163")->C_MHy("\151\163\137\x61\143\x74\x69\x76\x65", true)->yRkr9(); goto U8O1J; qIiXT: $e5HVA->save(); goto K26uz; fNQBF: if ($VQGaP["\x74\x79\160\145"] === "\x72\145\x61\154\137\142\x61\154\x61\x6e\143\x65") { goto wNw4U; } goto n96R_; xzw_4: i3VfZ: goto CjFlq; G_8so: UG4ey: goto t_93K; c7JZf: a0Dax: goto KChNV; Jq09C: $e5HVA->K2L8A -= $gywUy->No_w8; goto qIiXT; pmKDz: iea4L: goto hjjU6; U8O1J: if ($bb3xB) { goto yr7Zc; } goto RlIO6; ko8_G: Nfszk: goto zSgNU; FCgcY: $fLO5E = false; goto nbGoi; TpNPt: dQMoo: goto CmAmB; N61ZJ: $VQGaP = ["\x74\x79\160\x65" => "\x66\x72\x65\145\137\163\160\151\x6e\x73", "\x61\155\x6f\165\x6e\164" => 0, "\163\160\x69\156\x73\x5f\x61\155\157\x75\156\x74" => $JWkrq]; goto M9lGE; hjjU6: switch ($VQGaP["\x74\171\x70\145"]) { case "\146\x72\x65\x65\137\x73\x70\151\x6e\x73": goto iE1z0; PbNnE: $VQGaP["\141\155\157\165\x6e\164"] = 0; goto mtpuL; iE1z0: $VQGaP["\163\160\151\156\163\137\141\155\x6f\x75\x6e\x74"] = max(1, intval($VQGaP["\163\x70\151\x6e\x73\x5f\x61\x6d\157\x75\156\x74"] ?? 0)); goto PbNnE; mtpuL: goto y6yg1; goto b8fwC; b8fwC: case "\162\x65\x61\154\137\x62\x61\154\x61\x6e\143\145": case "\x62\157\156\x75\x73": case "\x63\x6f\151\x6e\163": goto bKMaK; bKMaK: $VQGaP["\x61\155\157\x75\x6e\164"] = floatval($VQGaP["\x61\x6d\x6f\x75\156\164"] ?? 0); goto I2Bba; puD6G: goto y6yg1; goto qo78Q; I2Bba: $VQGaP["\163\160\151\156\x73\137\x61\155\157\165\x6e\x74"] = 0; goto puD6G; qo78Q: default: goto CSYuu; Px83O: $VQGaP["\x73\160\151\x6e\163\137\141\155\157\x75\156\x74"] = 1; goto VOKld; CSYuu: \Log::MsV8L("\124\151\x70\157\x20\x64\145\40\160\x72\303\xaa\x6d\151\157\40\144\145\163\143\x6f\156\150\x65\x63\x69\144\157\x3a\40" . $VQGaP["\x74\x79\x70\x65"] . "\x2c\x20\143\x6f\156\166\x65\x72\x74\145\156\144\x6f\x20\x70\x61\162\141\x20\146\x72\145\145\x5f\163\x70\151\156\x73"); goto cZMGz; tV_3G: $VQGaP["\x61\155\157\165\156\164"] = 0; goto Px83O; cZMGz: $VQGaP["\x74\171\160\145"] = "\146\x72\x65\x65\137\x73\x70\151\156\163"; goto tV_3G; VOKld: goto y6yg1; goto BvdfZ; BvdfZ: } goto edF6n; iZ4tf: lvlOX::commit(); goto s7M03; wPtbL: if (!(!isset($VQGaP["\x74\x79\160\x65"]) || empty($VQGaP["\164\171\160\145"]))) { goto iea4L; } goto lOYOD; EUtgc: \Log::info("\x52\x65\161\165\151\x73\151\303\xa7\xc3\xa3\x6f\x20\144\x65\x20\x61\142\145\162\x74\165\162\141\40\x64\x65\40\143\x61\x69\170\x61\40\x72\145\x63\145\142\151\144\x61", $WFz1w->p0WSl()); goto N2w7A; qNNlF: \Log::info("\117\x70\xc3\247\xc3\xa3\157\40\144\145\40\x66\x72\x65\x65\137\x73\x70\151\156\163\x20\145\156\143\x6f\156\x74\162\x61\x64\141\x2c\x20\x67\x65\x72\141\x6e\x64\157\x20\160\x72\145\x6d\x69\141\303\247\xc3\xa3\157", ["\x6f\x70\x74\151\157\156\x5f\151\x64" => $bb3xB->id, "\155\x69\x6e\x5f\163\x70\151\x6e\163" => $bb3xB->brU0q, "\155\141\170\137\163\x70\x69\x6e\163" => $bb3xB->MmpoZ]); goto NCo2t; QsltQ: $cxH6V = intval($bb3xB->MmpoZ); goto v3GoH; c2nyf: if ($gywUy) { goto kOHx8; } goto qyu0q; CmAmB: pGRk3: goto Mb2MU; riuzY: goto QsR7q; goto i9sjB; WARgY: goto i3VfZ; goto Gjmzj; vd0N6: if (!$e25Fx->LDf8p()) { goto kkJSG; } goto zn9qe; RlIO6: \Log::Msv8l("\116\x65\x6e\x68\x75\155\141\x20\157\x70\303\xa7\xc3\xa3\x6f\40\x64\x65\40\146\x72\x65\145\x5f\163\x70\x69\156\x73\40\x65\x6e\x63\157\156\164\x72\x61\x64\141\54\x20\x75\x73\141\x6e\x64\x6f\40\x67\145\x6e\145\162\141\164\x65\x50\162\151\172\x65"); goto Vhn95; BykQC: $VQGaP["\x61\x6d\x6f\165\156\164"] = 0; goto gpFp7; OTNlr: $CR3OO = "\120\141\162\141\142\303\251\156\163\41\40\x56\x6f\x63\xc3\252\40\147\141\156\150\x6f\x75\40{$VQGaP["\x73\160\151\x6e\x73\x5f\141\155\157\x75\x6e\x74"]}\40\162\157\x64\x61\x64\141\163\x20\147\x72\303\xa1\x74\x69\x73\41"; goto PxVsI; GNkoF: \Log::info("\x52\145\x73\x70\157\163\164\141\40\145\x6e\166\151\141\x64\x61\40\x61\x6f\40\x63\154\x69\145\x6e\x74\x65\x3a", $ejwrw); goto vw2He; zZUXv: $fLO5E = $VQGaP["\x61\155\x6f\x75\x6e\x74"] < 5; goto mzVkL; CdGDl: kkJSG: goto O46Yl; kzIcO: if (!($e5HVA->K2L8A < $gywUy->No_w8)) { goto kfBy0; } goto DH1id; VUoKN: if ($fLO5E) { goto huByv; } goto uIJVl; Gjmzj: Mua_R: goto jP6LY; cyVfu: if (!($njaSP >= $gywUy->RjJBN)) { goto wi3X8; } goto tRXrn; nCWvI: O4FAh: goto JWF4b; NzzmE: \Log::info("\x55\x73\x75\xc3\xa1\x72\x69\x6f\40\164\145\156\164\141\156\x64\x6f\x20\141\142\x72\151\162\x20\x63\x61\x69\x78\x61", ["\165\163\145\162\x5f\151\x64" => $e5HVA->id, "\x62\x6f\x78\x5f\x69\144" => $gywUy->id, "\x63\157\x69\x6e\x73" => $e5HVA->K2L8A, "\160\x72\151\143\x65" => $gywUy->No_w8]); goto kzIcO; vw2He: return JgKrL()->sbE1q($ejwrw); goto KJ5NR; hyTlo: $fLO5E = $VQGaP["\x73\x70\151\x6e\x73\137\x61\155\157\165\156\164"] < 10; goto riuzY; s7M03: $CR3OO = ''; goto g23V0; E6oRd: $CR3OO = "\120\141\x72\x61\x62\303\xa9\x6e\x73\x21\x20\x56\x6f\143\303\252\40\x67\141\156\150\x6f\x75\40\122\44\40" . number_format($VQGaP["\141\x6d\x6f\x75\156\x74"], 2, "\x2c", "\56") . "\40\145\155\x20\x73\141\x6c\144\157\40\x72\x65\141\154\x21"; goto WARgY; t5usK: UgND9::create(["\165\x73\145\x72\x5f\x69\x64" => $e5HVA->id, "\154\165\143\x6b\171\137\x62\157\x78\x5f\x69\144" => $gywUy->id, "\x70\x72\151\172\x65\x5f\164\x79\160\145" => $VQGaP["\164\x79\x70\145"], "\x61\x6d\x6f\x75\156\x74" => $VQGaP["\141\155\157\x75\156\164"], "\163\160\x69\x6e\163\137\141\x6d\x6f\165\156\164" => $VQGaP["\163\160\x69\x6e\163\x5f\141\x6d\x6f\165\x6e\164"]]); goto iZ4tf; zn9qe: throw new \Exception("\x43\x61\151\x78\141\40\x69\x6e\166\303\xa1\154\151\x64\141\x20\x6f\165\x20\156\xc3\243\x6f\x20\x65\x6e\143\157\156\164\162\x61\x64\141\56"); goto CdGDl; n96R_: if ($VQGaP["\164\171\160\x65"] === "\142\157\x6e\165\x73") { goto Nfszk; } goto VUoKN; Vhn95: $VQGaP = $this->GN25Z($gywUy); goto DvumP; NygRB: N9dU0: goto hyTlo; wv9s9: JWsis: goto qCpd8; mzVkL: QsR7q: goto nmGs_; CjFlq: goto vSwn8; goto ko8_G; yG1Oy: huByv: goto MG93L; DH1id: throw new \Exception("\x53\x61\154\x64\x6f\x20\151\156\163\x75\146\x69\143\x69\x65\x6e\164\x65\40\144\145\40\143\157\x69\156\163\56"); goto dew3J; HKoCQ: goto QsR7q; goto G_8so; Zztew: goto QsR7q; goto NygRB; nOVYV: yr7Zc: goto qNNlF; UTrOU: $ejwrw = ["\163\165\x63\143\x65\163\x73" => true, "\164\151\x74\x6c\145" => $fLO5E ? "\x51\165\x65\x20\160\x65\156\x61\x21" : "\x50\141\x72\141\142\303\xa9\156\163\x21", "\x70\x72\151\172\145\137\x74\x79\x70\145" => $VQGaP["\164\x79\x70\x65"], "\141\155\x6f\165\156\x74" => $VQGaP["\141\x6d\157\165\156\164"], "\163\x70\x69\x6e\x73\137\141\x6d\157\x75\x6e\164" => $VQGaP["\x73\160\151\x6e\x73\137\141\155\157\x75\x6e\164"], "\165\x73\145\162\137\142\141\154\141\156\143\145" => $e5HVA->AqmcG, "\x75\163\145\x72\137\x62\157\156\x75\x73" => $e5HVA->pWY5I, "\x75\x73\145\162\x5f\146\162\145\145\x5f\163\160\151\156\163" => $e5HVA->vqBxI, "\x75\163\x65\x72\x5f\x63\x6f\x69\x6e\x73" => $e5HVA->K2L8A, "\142\157\170\x5f\x6e\141\x6d\x65" => $gywUy->name, "\x6d\x65\163\163\x61\x67\x65" => $CR3OO]; goto GNkoF; ErCKj: goto a0Dax; goto AuZH_; Hgh0H: if ($VQGaP["\x74\171\160\145"] === "\143\x6f\151\x6e\163") { goto I0jBT; } goto HKoCQ; O46Yl: $gywUy = saI34::C_mHY("\154\x65\x76\x65\154", $WFz1w->level)->c_MHy("\x69\x73\x5f\141\x63\x74\151\x76\145", true)->YRkR9(); goto c2nyf; nbGoi: if ($VQGaP["\x74\x79\x70\145"] === "\162\x65\x61\x6c\137\x62\x61\154\x61\x6e\x63\x65" || $VQGaP["\164\x79\160\x65"] === "\142\157\156\x75\x73") { goto UG4ey; } goto pHzov; DvumP: goto URWrI; goto nOVYV; dew3J: kfBy0: goto FcFIv; JWF4b: goto vSwn8; goto QvZ2k; FcFIv: if (!($gywUy->K5NTu && $gywUy->RjJBN > 0)) { goto UyVnY; } goto RipEW; tRXrn: throw new \Exception("\114\151\155\151\x74\x65\40\144\x69\xc3\xa1\162\151\x6f\40\x64\x65\40\141\x62\145\x72\164\x75\x72\141\x73\x20\x61\x74\151\156\147\x69\x64\x6f\40\x70\x61\x72\x61\x20\145\163\x74\141\40\143\141\151\170\x61\56"); goto tiS_4; Ncryn: $e5HVA = nxrOv()->yfgI_(); goto hWYcl; RipEW: $njaSP = ugNd9::C_mHY("\x75\163\x65\162\x5f\x69\144", $e5HVA->id)->C_MHy("\154\x75\143\x6b\x79\x5f\142\157\170\137\x69\144", $gywUy->id)->Th7aw("\x63\162\x65\141\164\145\x64\137\141\164", WHfh3())->count(); goto cyVfu; HHZ62: if ($fLO5E) { goto Mua_R; } goto E6oRd; KJ5NR: } catch (\Exception $ai57B) { goto c2SzU; jF8x7: \Log::p2m7e("\105\x72\x72\157\x20\141\x6f\40\x61\x62\x72\x69\162\x20\143\141\151\170\141\x3a\x20" . $ai57B->getMessage(), ["\x65\170\x63\x65\x70\x74\x69\x6f\156" => $ai57B]); goto JA2kx; c2SzU: lVLox::rollBack(); goto jF8x7; JA2kx: return jgKrL()->sBE1Q(["\x73\x75\143\x63\x65\163\163" => false, "\155\145\x73\163\x61\x67\145" => $ai57B->getMessage()]); goto XaiGf; XaiGf: } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\LuckyBox;
+use App\Models\LuckyBoxPurchase;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\DB;
+use App\Models\LuckyBoxPrize;
+use App\Models\LuckyBoxHistory;
+use App\Models\User;
+use App\Models\LuckyBoxPrizeOption;
+use App\Services\ImageService;
+use Yajra\DataTables\Facades\DataTables;
+
+class LuckyBoxController extends Controller
+{
+    protected $imageService;
+    
+    /**
+     * Construtor da classe
+     */
+    public function __construct(ImageService $imageService)
+    {
+        $this->imageService = $imageService;
+    }
+
+    /**
+     * Display a listing of lucky boxes.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function index()
+    {
+        $boxes = LuckyBox::with('prizeOptions')->orderBy('order', 'asc')->get();
+        return view('admin.lucky-boxes.index', compact('boxes'));
+    }
+
+    /**
+     * Show the form for creating a new lucky box.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function create()
+    {
+        return view('admin.lucky-boxes.create');
+    }
+
+    /**
+     * Store a newly created lucky box in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function store(Request $request)
+    {
+        \Log::info('Dados recebidos:', $request->all());
+
+        try {
+            $request->validate([
+                'name' => 'required|string|max:255',
+                'description' => 'required|string',
+                'level' => 'required|integer|min:1',
+                'price' => 'required|numeric|min:0',
+                'order' => 'nullable|integer|min:0',
+                'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+                'is_mysterious' => 'boolean',
+                'daily_limit' => 'integer|min:0',
+                'is_active' => 'boolean',
+                'prizes' => 'required|array'
+            ]);
+
+            // Check if there's an active box with the same level
+            $existingActiveBox = LuckyBox::where('level', $request->level)->whereNull('deleted_at')->first();
+            if ($existingActiveBox) {
+                return redirect()->back()
+                    ->withInput()
+                    ->withErrors(['level' => 'Já existe uma caixa ativa com este nível. Escolha outro nível ou delete a caixa existente primeiro.']);
+            }
+
+            DB::beginTransaction();
+
+            // Criar a caixa da sorte
+            $luckyBox = LuckyBox::create([
+                'name' => $request->name,
+                'description' => $request->description,
+                'level' => $request->level,
+                'price' => $request->price,
+                'order' => $request->order ?? 0,
+                'is_mysterious' => $request->boolean('is_mysterious'),
+                'daily_limit' => $request->daily_limit ?? 0,
+                'is_active' => $request->boolean('is_active', true),
+                'max_prize' => 0 // Valor padrão inicial
+            ]);
+
+            // Processar imagem se fornecida
+            if ($request->hasFile('image')) {
+                // Definir o caminho de destino
+                $basePath = 'images/lucky-boxes/box-' . $luckyBox->level;
+                
+                // Usar o ImageService para converter para AVIF e salvar
+                $imagePath = $this->imageService->saveOptimizedImage(
+                    $request->file('image'),
+                    $basePath,
+                    85, // qualidade
+                    null, // largura máxima (null para manter o tamanho original)
+                    null // altura (mantém proporção)
+                );
+                
+                $luckyBox->image = $imagePath;
+                $luckyBox->save();
+            }
+
+            // Processar as opções de prêmios
+            $hasActivePrize = false;
+            $maxPrizeValue = 0;
+            foreach ($request->prizes as $type => $config) {
+                if (!empty($config['active'])) {
+                    $hasActivePrize = true;
+                    
+                    // Criar a opção de prêmio
+                    $prizeData = [
+                        'lucky_box_id' => $luckyBox->id,
+                        'prize_type' => $type,
+                        'chance_percentage' => $config['chance'],
+                        'is_active' => true
+                    ];
+
+                    // Adicionar campos específicos baseado no tipo de prêmio
+                    if ($type === 'free_spins') {
+                        $prizeData['min_spins'] = $config['min_spins'];
+                        $prizeData['max_spins'] = $config['max_spins'];
+                        
+                        // Atualizar max_prize se for maior que o atual
+                        if (intval($config['max_spins']) > $maxPrizeValue) {
+                            $maxPrizeValue = intval($config['max_spins']);
+                        }
+                    } else {
+                        $prizeData['min_amount'] = $config['min_amount'];
+                        $prizeData['max_amount'] = $config['max_amount'];
+                        
+                        // Atualizar max_prize se for maior que o atual
+                        if (floatval($config['max_amount']) > $maxPrizeValue) {
+                            $maxPrizeValue = floatval($config['max_amount']);
+                        }
+                    }
+
+                    LuckyBoxPrizeOption::create($prizeData);
+                }
+            }
+
+            // Atualizar o valor máximo de prêmio
+            $luckyBox->max_prize = $maxPrizeValue;
+            $luckyBox->save();
+
+            if (!$hasActivePrize) {
+                throw new \Exception('Pelo menos uma opção de prêmio deve estar ativa.');
+            }
+
+            DB::commit();
+            return redirect()->route('admin.lucky-boxes.index')->with('success', 'Caixa da sorte criada com sucesso!');
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            \Log::error('Erro ao criar caixa da sorte: ' . $e->getMessage());
+            return redirect()->back()
+                ->withInput()
+                ->with('error', 'Erro ao criar caixa da sorte: ' . $e->getMessage());
+        }
+    }
+
+    /**
+     * Show the form for editing the specified lucky box.
+     *
+     * @param  int  $id
+     * @return \Illuminate\View\View
+     */
+    public function edit($id)
+    {
+        $box = LuckyBox::findOrFail($id);
+        
+        // Buscar as opções de prêmios e organizá-las para a view
+        $prizeOptions = LuckyBoxPrizeOption::where('lucky_box_id', $box->id)->get();
+        
+        // Inicializar o objeto prizes
+        $prizes = [];
+        
+        // Organizar as opções por tipo
+        foreach ($prizeOptions as $option) {
+            $prizes[$option->prize_type] = [
+                'active' => $option->is_active,
+                'chance' => $option->chance_percentage
+            ];
+            
+            // Adicionar campos específicos com base no tipo de prêmio
+            if ($option->prize_type === 'free_spins') {
+                $prizes[$option->prize_type]['min_spins'] = $option->min_spins;
+                $prizes[$option->prize_type]['max_spins'] = $option->max_spins;
+            } else {
+                $prizes[$option->prize_type]['min_amount'] = $option->min_amount;
+                $prizes[$option->prize_type]['max_amount'] = $option->max_amount;
+            }
+        }
+        
+        // Adicionar o objeto prizes ao objeto box
+        $box->prizes = $prizes;
+        
+        return view('admin.lucky-boxes.edit', compact('box'));
+    }
+
+    /**
+     * Update the specified lucky box in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function update(Request $request, $id)
+    {
+        try {
+            DB::beginTransaction();
+            
+            $box = LuckyBox::findOrFail($id);
+            
+            $validator = Validator::make($request->all(), [
+                'name' => 'required|string|max:255',
+                'level' => 'required|integer|unique:lucky_boxes,level,' . $id . ',id,deleted_at,NULL',
+                'description' => 'required|string',
+                'price' => 'required|integer|min:1',
+                'is_mysterious' => 'boolean',
+                'daily_limit' => 'integer|min:0',
+                'image' => 'nullable|image|max:2048',
+                'prizes' => 'required|array',
+                'max_prize' => 'nullable|numeric'
+            ]);
+
+            if ($validator->fails()) {
+                return redirect()->back()
+                    ->withErrors($validator)
+                    ->withInput();
+            }
+
+            $data = $request->all();
+            
+            // Handle image upload
+            if ($request->hasFile('image')) {
+                // Delete old image if it's not the default one
+                if ($box->image && !str_contains($box->image, 'luckbox' . $box->level . '.png')) {
+                    $oldPath = public_path($box->image);
+                    if (file_exists($oldPath)) {
+                        unlink($oldPath);
+                    }
+                }
+                
+                // Definir o caminho de destino
+                $basePath = 'images/lucky-boxes/box-' . $request->level;
+                
+                // Usar o ImageService para converter para AVIF e salvar
+                $imagePath = $this->imageService->saveOptimizedImage(
+                    $request->file('image'),
+                    $basePath,
+                    85, // qualidade
+                    null, // largura máxima (null para manter o tamanho original)
+                    null // altura (mantém proporção)
+                );
+                
+                $data['image'] = $imagePath;
+            }
+            
+            // Set boolean values
+            $data['is_active'] = $request->has('is_active');
+            $data['is_mysterious'] = $request->has('is_mysterious');
+            
+            $box->update($data);
+            
+            // Processar as opções de prêmios
+            if (isset($request->prizes) && is_array($request->prizes)) {
+                $hasActivePrize = false;
+                $maxPrizeValue = 0;
+                
+                // Remover as opções de prêmios existentes
+                LuckyBoxPrizeOption::where('lucky_box_id', $box->id)->delete();
+                
+                foreach ($request->prizes as $type => $config) {
+                    if (!empty($config['active'])) {
+                        $hasActivePrize = true;
+                        
+                        // Criar a opção de prêmio
+                        $prizeData = [
+                            'lucky_box_id' => $box->id,
+                            'prize_type' => $type,
+                            'chance_percentage' => $config['chance'],
+                            'is_active' => true
+                        ];
+
+                        // Adicionar campos específicos baseado no tipo de prêmio
+                        if ($type === 'free_spins') {
+                            $prizeData['min_spins'] = $config['min_spins'];
+                            $prizeData['max_spins'] = $config['max_spins'];
+                            
+                            // Atualizar max_prize se for maior que o atual
+                            if (intval($config['max_spins']) > $maxPrizeValue) {
+                                $maxPrizeValue = intval($config['max_spins']);
+                            }
+                        } else {
+                            $prizeData['min_amount'] = $config['min_amount'];
+                            $prizeData['max_amount'] = $config['max_amount'];
+                            
+                            // Atualizar max_prize se for maior que o atual
+                            if (floatval($config['max_amount']) > $maxPrizeValue) {
+                                $maxPrizeValue = floatval($config['max_amount']);
+                            }
+                        }
+
+                        LuckyBoxPrizeOption::create($prizeData);
+                    }
+                }
+                
+                // Atualizar o valor máximo de prêmio
+                $box->max_prize = $maxPrizeValue;
+                $box->save();
+
+                if (!$hasActivePrize) {
+                    throw new \Exception('Pelo menos uma opção de prêmio deve estar ativa.');
+                }
+            }
+            
+            DB::commit();
+            
+            return redirect()->route('admin.lucky-boxes.index')
+                ->with('success', 'Caixa da Sorte atualizada com sucesso!');
+        } catch (\Exception $e) {
+            DB::rollBack();
+            return redirect()->back()
+                ->withErrors(['error' => 'Erro ao atualizar a caixa: ' . $e->getMessage()])
+                ->withInput();
+        }
+    }
+
+    /**
+     * Remove the specified lucky box from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function destroy($id)
+    {
+        try {
+            DB::beginTransaction();
+            
+            $box = LuckyBox::findOrFail($id);
+            
+            // Desativar a caixa antes de excluir
+            $box->is_active = false;
+            $box->save();
+            
+            // Delete the image if it's not a default one
+            if ($box->image && !str_contains($box->image, 'luckbox' . $box->level . '.png')) {
+                $path = str_replace('/img/box/', '', $box->image);
+                if (file_exists(public_path('img/box/' . $path))) {
+                    unlink(public_path('img/box/' . $path));
+                }
+            }
+            
+            // Soft delete da caixa
+            $box->delete();
+            
+            DB::commit();
+            
+            return redirect()->route('admin.lucky-boxes.index')
+                ->with('success', 'Caixa excluída com sucesso! O histórico foi mantido.');
+                
+        } catch (\Exception $e) {
+            DB::rollBack();
+            
+            return redirect()->route('admin.lucky-boxes.index')
+                ->with('error', 'Erro ao excluir a caixa: ' . $e->getMessage());
+        }
+    }
+    
+    /**
+     * Toggle the active status of a lucky box.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function toggleActive($id)
+    {
+        $box = LuckyBox::findOrFail($id);
+        $box->is_active = !$box->is_active;
+        $box->save();
+        
+        return redirect()->route('admin.lucky-boxes.index')
+            ->with('success', 'Lucky Box status updated successfully');
+    }
+    
+    /**
+     * Update the order of lucky boxes.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateOrder(Request $request)
+    {
+        $boxes = $request->input('boxes', []);
+        
+        foreach ($boxes as $box) {
+            $boxModel = LuckyBox::find($box['id']);
+            if ($boxModel) {
+                $boxModel->order = $box['order'];
+                $boxModel->save();
+            }
+        }
+        
+        return response()->json(['success' => true]);
+    }
+
+    /**
+     * Display redemptions of a specific lucky box.
+     *
+     * @param  int  $id
+     * @return \Illuminate\View\View
+     */
+    public function redemptions(Request $request, $id)
+    {
+        $box = LuckyBox::findOrFail($id);
+        
+        // Preparar os tipos de prêmios para o filtro
+        $prizeTypes = [
+            3 => 'Rodadas Grátis',
+            4 => 'Saldo Real',
+            5 => 'Bônus'
+        ];
+        
+        // Tipos de prêmios para exibição na tabela
+        $typeName = [
+            3 => 'Rodadas Grátis',
+            4 => 'Saldo Real',
+            5 => 'Bônus'
+        ];
+        
+        return view('admin.lucky-boxes.redemptions', compact('box', 'prizeTypes', 'typeName'));
+    }
+    
+    /**
+     * Fornece dados para a tabela de resgates das caixas da sorte
+     *
+     * @param Request $request
+     * @param int $id
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function redemptionsData(Request $request, $id)
+    {
+        $box = LuckyBox::findOrFail($id);
+        
+        // Buscar logs relacionados a esta caixa da sorte
+        $query = \App\Models\Admin\Logs::where('updated_by', $id)
+            ->whereIn('type', [3, 4, 5]);
+            
+        // Aplicar filtros
+        if ($request->input('type')) {
+            $query->where('type', $request->input('type'));
+        }
+        
+        if ($request->input('start_date')) {
+            $query->whereDate('created_at', '>=', $request->input('start_date'));
+        }
+        
+        if ($request->input('end_date')) {
+            $query->whereDate('created_at', '<=', $request->input('end_date'));
+        }
+        
+        if ($request->input('search')) {
+            // Buscar usuários pelo nome
+            $userIds = \App\Models\User::where('name', 'like', '%' . $request->input('search') . '%')
+                ->pluck('id')
+                ->toArray();
+                
+            // Filtrar pelos IDs de usuários encontrados
+            if (!empty($userIds)) {
+                $query->whereIn('user_id', $userIds);
+            } else {
+                $query->where('user_id', 0); // Força não encontrar resultados
+            }
+        }
+        
+        // Obter usuários relacionados
+        $userIds = $query->pluck('user_id')->unique()->toArray();
+        $users = \App\Models\User::whereIn('id', $userIds)->get()->keyBy('id');
+        
+        // Tipos de prêmios para exibição na tabela
+        $typeName = [
+            3 => 'Rodadas Grátis',
+            4 => 'Saldo Real',
+            5 => 'Bônus'
+        ];
+        
+        // Configurar labels de tipo para exibição na tabela
+        $typeLabels = [
+            3 => '<span class="badge badge-light-success">Rodadas Grátis LuckBox</span>',
+            4 => '<span class="badge badge-light-primary">Saldo Real LuckBox</span>',
+            5 => '<span class="badge badge-light-warning">Bônus LuckBox</span>'
+        ];
+        
+        return DataTables::of($query)
+            ->addColumn('usuario', function ($log) use ($users) {
+                if (isset($users[$log->user_id])) {
+                    return '<a href="javascript:void(0);" onclick="LoadAgent(\'' . $log->user_id . '\');" data-bs-toggle="modal" data-bs-target="#tabsModal" class="bs-tooltip" title="Visualizar Usuário" data-original-title="Visualizar Usuário">' .
+                        $users[$log->user_id]->name .
+                        '</a>';
+                } else {
+                    return 'Usuário #' . $log->user_id;
+                }
+            })
+            ->addColumn('tipo_premio', function ($log) use ($typeLabels) {
+                return $typeLabels[$log->type] ?? '';
+            })
+            ->addColumn('valor_premio', function ($log) {
+                if ($log->type == 3) {
+                    return (int)($log->new_value - $log->old_value);
+                } else {
+                    return number_format($log->new_value - $log->old_value, 2, ',', '.');
+                }
+            })
+            ->addColumn('data', function ($log) {
+                return \Carbon\Carbon::parse($log->created_at)->format('d/m/Y H:i:s');
+            })
+            ->rawColumns(['usuario', 'tipo_premio'])
+            ->make(true);
+    }
+
+    public function processReward(User $user, LuckyBoxPrize $prize)
+    {
+        try {
+            DB::beginTransaction();
+
+            switch ($prize->prize_type) {
+                case 'real_balance':
+                    $user->balance += $prize->amount;
+                    $user->save();
+                    break;
+
+                case 'bonus':
+                    $user->bonus_balance += $prize->amount;
+                    $user->save();
+                    break;
+
+                case 'free_spins':
+                    // Aqui você implementa a lógica para adicionar rodadas grátis
+                    $user->free_spins += $prize->spins_amount;
+                    $user->save();
+                    break;
+
+                case 'coins':
+                    $user->coins += $prize->amount;
+                    $user->save();
+                    break;
+            }
+
+            // Registrar o histórico do prêmio
+            LuckyBoxHistory::create([
+                'user_id' => $user->id,
+                'lucky_box_id' => $prize->lucky_box_id,
+                'prize_type' => $prize->prize_type,
+                'amount' => $prize->amount,
+                'spins_amount' => $prize->spins_amount
+            ]);
+
+            DB::commit();
+            return true;
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            \Log::error('Erro ao processar prêmio: ' . $e->getMessage());
+            return false;
+        }
+    }
+
+    private function generatePrize(LuckyBox $box)
+    {
+        try {
+            // Buscar todas as opções de prêmios ativas para esta caixa
+            $prizeOptions = LuckyBoxPrizeOption::where('lucky_box_id', $box->id)
+                ->where('is_active', true)
+                ->get();
+
+            // Se não houver opções, criar um prêmio padrão
+            if ($prizeOptions->isEmpty()) {
+                \Log::warning('Caixa sem opções de prêmio: ' . $box->id);
+                
+                return [
+                    'type' => 'coins',
+                    'amount' => 10,
+                    'spins_amount' => 0
+                ];
+            }
+
+            // Se houver apenas 1 opção ativa, usar ela diretamente
+            if ($prizeOptions->count() === 1) {
+                \Log::info('Apenas uma opção de prêmio disponível, usando-a diretamente');
+                return $this->generatePrizeValue($prizeOptions->first());
+            }
+
+            // Calcular o total de chances
+            $totalChance = $prizeOptions->sum('chance_percentage');
+            
+            // Verificar se o total de chances é válido
+            if ($totalChance <= 0) {
+                \Log::warning('Configuração de chances inválida para caixa: ' . $box->id);
+                
+                // Selecionar uma opção aleatoriamente
+                $randomIndex = mt_rand(0, $prizeOptions->count() - 1);
+                return $this->generatePrizeValue($prizeOptions[$randomIndex]);
+            }
+            
+            // Normalizar as chances se o total não for 100%
+            $scaleFactor = 100 / $totalChance;
+            
+            // Gerar um número aleatório entre 0 e 100
+            $random = mt_rand(0, 10000) / 100; // Para melhor precisão
+            
+            // Encontrar qual prêmio foi sorteado
+            $currentSum = 0;
+            foreach ($prizeOptions as $option) {
+                // Usar a chance normalizada
+                $normalizedChance = $option->chance_percentage * $scaleFactor;
+                $currentSum += $normalizedChance;
+                
+                if ($random <= $currentSum) {
+                    // Encontramos o prêmio!
+                    $prize = $this->generatePrizeValue($option);
+                    \Log::info('Prêmio sorteado com sucesso: ' . $option->prize_type);
+                    return $prize;
+                }
+            }
+
+            // Fallback para o último prêmio
+            \Log::warning('Usando último prêmio como fallback para caixa: ' . $box->id);
+            return $this->generatePrizeValue($prizeOptions->last());
+        } catch (\Exception $e) {
+            \Log::error('Erro ao gerar prêmio: ' . $e->getMessage(), ['exception' => $e]);
+            
+            // Retornar um prêmio padrão em caso de erro
+            return [
+                'type' => 'coins',
+                'amount' => 5,
+                'spins_amount' => 0
+            ];
+        }
+    }
+
+    private function generatePrizeValue($prizeOption)
+    {
+        try {
+            // Verificar se a opção de prêmio é válida
+            if (!$prizeOption || !$prizeOption->prize_type) {
+                \Log::warning('Opção de prêmio inválida');
+                return [
+                    'type' => 'coins',
+                    'amount' => 5,
+                    'spins_amount' => 0
+                ];
+            }
+            
+            // Log para debug
+            \Log::info('Gerando prêmio com opção: ', [
+                'id' => $prizeOption->id, 
+                'type' => $prizeOption->prize_type,
+                'min_amount' => $prizeOption->min_amount,
+                'max_amount' => $prizeOption->max_amount,
+                'min_spins' => $prizeOption->min_spins,
+                'max_spins' => $prizeOption->max_spins
+            ]);
+            
+            if ($prizeOption->prize_type === 'free_spins') {
+                // Garantir que os valores min e max são válidos
+                $minSpins = intval($prizeOption->min_spins);
+                $maxSpins = intval($prizeOption->max_spins);
+                
+                // Garantir que min e max sejam pelo menos 1 e que max seja maior ou igual a min
+                $minSpins = max(1, $minSpins);
+                $maxSpins = max($minSpins, $maxSpins);
+                
+                // Gerar um valor aleatório entre min e max
+                $value = mt_rand($minSpins, $maxSpins);
+                
+                \Log::info('Prêmio gerado (rodadas): ' . $value);
+                
+                return [
+                    'type' => 'free_spins',
+                    'spins_amount' => $value,
+                    'amount' => 0
+                ];
+            } else {
+                // Para saldo real, bônus e coins
+                // Garantir que os valores min e max são válidos
+                $minAmount = floatval($prizeOption->min_amount);
+                $maxAmount = floatval($prizeOption->max_amount);
+                
+                // Garantir que min e max sejam pelo menos positivos e que max seja maior ou igual a min
+                $minAmount = max(0, $minAmount);
+                $maxAmount = max($minAmount, $maxAmount);
+                
+                // Se forem iguais, retornar o valor exato
+                if ($minAmount === $maxAmount) {
+                    $value = $minAmount;
+                } else {
+                    // Multiplicar por 100 para trabalhar com inteiros (evitar problemas de precisão)
+                    $min = intval($minAmount * 100);
+                    $max = intval($maxAmount * 100);
+                    $value = mt_rand($min, $max) / 100; // Dividir por 100 para voltar ao valor decimal
+                }
+                
+                \Log::info('Prêmio gerado (' . $prizeOption->prize_type . '): ' . $value);
+                
+                return [
+                    'type' => $prizeOption->prize_type,
+                    'amount' => $value,
+                    'spins_amount' => 0
+                ];
+            }
+        } catch (\Exception $e) {
+            \Log::error('Erro ao gerar valor do prêmio: ' . $e->getMessage(), ['exception' => $e]);
+            
+            // Valor de fallback em caso de erro
+            if ($prizeOption && $prizeOption->prize_type) {
+                if ($prizeOption->prize_type === 'free_spins') {
+                    return [
+                        'type' => 'free_spins',
+                        'amount' => 0,
+                        'spins_amount' => 1
+                    ];
+                } else {
+                    return [
+                        'type' => $prizeOption->prize_type,
+                        'amount' => 0,
+                        'spins_amount' => 0
+                    ];
+                }
+            } else {
+                return [
+                    'type' => 'coins',
+                    'amount' => 1,
+                    'spins_amount' => 0
+                ];
+            }
+        }
+    }
+
+    public function open(Request $request)
+    {
+        try {
+            DB::beginTransaction();
+
+            \Log::info('Requisição de abertura de caixa recebida', $request->all());
+
+            // Validar os dados de entrada
+            $validator = Validator::make($request->all(), [
+                'level' => 'required|integer|min:1'
+            ]);
+
+            if ($validator->fails()) {
+                throw new \Exception('Caixa inválida ou não encontrada.');
+            }
+
+            $box = LuckyBox::where('level', $request->level)
+                           ->where('is_active', true)
+                           ->first();
+                           
+            if (!$box) {
+                throw new \Exception('Caixa não encontrada ou inativa.');
+            }
+                           
+            $user = auth()->user();
+
+            if (!$user) {
+                throw new \Exception('Usuário não autenticado.');
+            }
+
+            \Log::info('Usuário tentando abrir caixa', [
+                'user_id' => $user->id,
+                'box_id' => $box->id,
+                'coins' => $user->coins,
+                'price' => $box->price
+            ]);
+
+            // Verificar se o usuário tem coins suficientes
+            if ($user->coins < $box->price) {
+                throw new \Exception('Saldo insuficiente de coins.');
+            }
+
+            // Verificar limite diário se for caixa misteriosa
+            if ($box->is_mysterious && $box->daily_limit > 0) {
+                $todayOpenings = LuckyBoxHistory::where('user_id', $user->id)
+                    ->where('lucky_box_id', $box->id)
+                    ->whereDate('created_at', now())
+                    ->count();
+
+                if ($todayOpenings >= $box->daily_limit) {
+                    throw new \Exception('Limite diário de aberturas atingido para esta caixa.');
+                }
+            }
+
+            // Deduzir os coins
+            $user->coins -= $box->price;
+            $user->save();
+
+            // Buscar diretamente uma opção de free_spins ativa
+            $freeSpinsOption = LuckyBoxPrizeOption::where('lucky_box_id', $box->id)
+                                               ->where('prize_type', 'free_spins')
+                                               ->where('is_active', true)
+                                               ->first();
+            
+            // Se existir uma opção de free_spins, vamos forçar essa premiação
+            if ($freeSpinsOption) {
+                \Log::info('Opção de free_spins encontrada, gerando premiação', [
+                    'option_id' => $freeSpinsOption->id,
+                    'min_spins' => $freeSpinsOption->min_spins,
+                    'max_spins' => $freeSpinsOption->max_spins
+                ]);
+                
+                // Garantir valores válidos para min e max spins
+                $minSpins = intval($freeSpinsOption->min_spins);
+                $maxSpins = intval($freeSpinsOption->max_spins);
+                
+                // Garantir que min <= max e ambos são positivos
+                $minSpins = max(1, $minSpins);
+                $maxSpins = max($minSpins, $maxSpins);
+                
+                // Gerar um valor aleatório entre min e max
+                $spinsAmount = mt_rand($minSpins, $maxSpins);
+                
+                $prize = [
+                    'type' => 'free_spins',
+                    'amount' => 0,
+                    'spins_amount' => $spinsAmount
+                ];
+                
+                \Log::info('Prêmio de rodadas grátis gerado: ' . $spinsAmount);
+            } else {
+                // Fallback para outro tipo de prêmio se não houver free_spins
+                \Log::warning('Nenhuma opção de free_spins encontrada, usando generatePrize');
+                $prize = $this->generatePrize($box);
+            }
+            
+            // Log detalhado do prêmio gerado
+            \Log::info('Prêmio gerado para o usuário ' . $user->id, [
+                'prize' => $prize,
+                'box_id' => $box->id,
+                'box_name' => $box->name
+            ]);
+            
+            // Validar o prêmio gerado e aplicar correções se necessário
+            if (!isset($prize['type']) || empty($prize['type'])) {
+                \Log::warning('Tipo de prêmio inválido, usando fallback para free_spins');
+                $prize['type'] = 'free_spins';
+                $prize['amount'] = 0;
+                $prize['spins_amount'] = 1;
+            }
+            
+            // Garantir que os valores sejam definidos e não sejam zero ou negativos
+            switch ($prize['type']) {
+                case 'free_spins':
+                    $prize['spins_amount'] = max(1, intval($prize['spins_amount'] ?? 0));
+                    $prize['amount'] = 0;
+                    break;
+                case 'real_balance':
+                case 'bonus':
+                case 'coins':
+                    $prize['amount'] = floatval($prize['amount'] ?? 0);
+                    $prize['spins_amount'] = 0;
+                    break;
+                default:
+                    // Caso o tipo seja desconhecido, mudar para free_spins
+                    \Log::warning('Tipo de prêmio desconhecido: ' . $prize['type'] . ', convertendo para free_spins');
+                    $prize['type'] = 'free_spins';
+                    $prize['amount'] = 0;
+                    $prize['spins_amount'] = 1;
+                    break;
+            }
+
+            // Verificar se é um prêmio de valor baixo para ajustar o título
+            $isLowPrize = false;
+            if ($prize['type'] === 'real_balance' || $prize['type'] === 'bonus') {
+                $isLowPrize = $prize['amount'] < 1;
+            } elseif ($prize['type'] === 'free_spins') {
+                $isLowPrize = $prize['spins_amount'] < 10;
+            } elseif ($prize['type'] === 'coins') {
+                $isLowPrize = $prize['amount'] < 5;
+            }
+
+            // Aplicar o prêmio ao usuário
+            switch ($prize['type']) {
+                case 'real_balance':
+                    $oldValue = $user->balance;
+                    $user->balance += $prize['amount'];
+                    
+                    // Registrar no log
+                    \App\Models\Admin\Logs::create([
+                        'field_name' => 'Saldo Real LuckBox',
+                        'old_value' => $oldValue,
+                        'new_value' => $user->balance,
+                        'updated_by' => $box->id, // ID da caixa
+                        'user_id' => $user->id,
+                        'type' => 4, // Tipo 4 para Saldo Real
+                        'log' => 'Usuário recebeu ' . $prize['amount'] . ' de saldo real da caixa ' . $box->name
+                    ]);
+                    break;
+                case 'bonus':
+                    $oldValue = $user->bonus_balance;
+                    $user->bonus_balance += $prize['amount'];
+                    
+                    // Registrar no log
+                    \App\Models\Admin\Logs::create([
+                        'field_name' => 'Bonus LuckBox',
+                        'old_value' => $oldValue,
+                        'new_value' => $user->bonus_balance,
+                        'updated_by' => $box->id, // ID da caixa
+                        'user_id' => $user->id,
+                        'type' => 5, // Tipo 5 para Bônus
+                        'log' => 'Usuário recebeu ' . $prize['amount'] . ' de bônus da caixa ' . $box->name
+                    ]);
+                    break;
+                case 'free_spins':
+                    $oldValue = $user->free_spins;
+                    $user->free_spins += $prize['spins_amount'];
+                    
+                    // Registrar no log
+                    \App\Models\Admin\Logs::create([
+                        'field_name' => 'Adicionar Rodadas Gratis LuckBox',
+                        'old_value' => $oldValue,
+                        'new_value' => $user->free_spins,
+                        'updated_by' => $box->id, // ID da caixa
+                        'user_id' => $user->id,
+                        'type' => 3, // Tipo 3 para Rodadas Grátis
+                        'log' => 'Usuário recebeu ' . $prize['spins_amount'] . ' rodadas grátis da caixa ' . $box->name
+                    ]);
+                    break;
+                case 'coins':
+                    $oldValue = $user->coins;
+                    $user->coins += $prize['amount'];
+                    
+                    // Neste caso não registramos log pois não foi solicitado
+                    break;
+                default:
+                    // Fallback para free_spins se o tipo for desconhecido (nunca deveria chegar aqui)
+                    $oldValue = $user->free_spins;
+                    $prize['type'] = 'free_spins';
+                    $prize['amount'] = 0;
+                    $prize['spins_amount'] = 1;
+                    $user->free_spins += $prize['spins_amount'];
+                    
+                    // Registrar no log
+                    \App\Models\Admin\Logs::create([
+                        'field_name' => 'Adicionar Rodadas Gratis LuckBox',
+                        'old_value' => $oldValue,
+                        'new_value' => $user->free_spins,
+                        'updated_by' => $box->id, // ID da caixa
+                        'user_id' => $user->id,
+                        'type' => 3, // Tipo 3 para Rodadas Grátis
+                        'log' => 'Usuário recebeu ' . $prize['spins_amount'] . ' rodadas grátis da caixa ' . $box->name
+                    ]);
+                    
+                    \Log::warning('Tipo de prêmio desconhecido, usando free_spins como fallback');
+                    break;
+            }
+            $user->save();
+
+            // Registrar no histórico
+            LuckyBoxHistory::create([
+                'user_id' => $user->id,
+                'lucky_box_id' => $box->id,
+                'prize_type' => $prize['type'],
+                'amount' => $prize['amount'],
+                'spins_amount' => $prize['spins_amount']
+            ]);
+
+            DB::commit();
+            
+            // Definir mensagem personalizada com base no tipo de prêmio
+            $message = '';
+            if ($prize['type'] === 'free_spins') {
+                if ($isLowPrize) {
+                    $message = "Você ganhou {$prize['spins_amount']} rodadas grátis. Aproveite e tente novamente!";
+                } else {
+                    $message = "Parabéns! Você ganhou {$prize['spins_amount']} rodadas grátis!";
+                }
+            } elseif ($prize['type'] === 'real_balance') {
+                if ($isLowPrize) {
+                    $message = "Você ganhou R$ " . number_format($prize['amount'], 2, ',', '.') . " em saldo real. Tente novamente!";
+                } else {
+                    $message = "Parabéns! Você ganhou R$ " . number_format($prize['amount'], 2, ',', '.') . " em saldo real!";
+                }
+            } elseif ($prize['type'] === 'bonus') {
+                if ($isLowPrize) {
+                    $message = "Você ganhou R$ " . number_format($prize['amount'], 2, ',', '.') . " em bônus. Tente novamente!";
+                } else {
+                    $message = "Parabéns! Você ganhou R$ " . number_format($prize['amount'], 2, ',', '.') . " em bônus!";
+                }
+            } else { // coins
+                if ($isLowPrize) {
+                    $message = "Você ganhou {$prize['amount']} coins. Tente novamente!";
+                } else {
+                    $message = "Parabéns! Você ganhou {$prize['amount']} coins!";
+                }
+            }
+            
+            // Construir a resposta com todos os dados necessários
+            $response = [
+                'success' => true,
+                'title' => $isLowPrize ? 'Que pena!' : 'Parabéns!',
+                'prize_type' => $prize['type'],
+                'amount' => $prize['amount'],
+                'spins_amount' => $prize['spins_amount'],
+                'user_balance' => $user->balance,
+                'user_bonus' => $user->bonus_balance,
+                'user_free_spins' => $user->free_spins,
+                'user_coins' => $user->coins,
+                'box_name' => $box->name,
+                'message' => $message
+            ];
+            
+            \Log::info('Resposta enviada ao cliente:', $response);
+            
+            return response()->json($response);
+
+        } catch (\Exception $e) {
+            DB::rollBack();
+            \Log::error('Erro ao abrir caixa: ' . $e->getMessage(), ['exception' => $e]);
+            
+            return response()->json([
+                'success' => false,
+                'message' => $e->getMessage()
+            ]);
+        }
+    }
+} 

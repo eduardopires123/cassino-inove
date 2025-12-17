@@ -1,8 +1,96 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:44              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\sHtEQ\fn52m; use EC3mE\shteq\s9d5t; use Ec3me\h2vUV\P2qh1\dJlVj; use jf89X\T0eTd\OVU1I; class ZPXYH extends NmP37 { public function xXh9Z() { try { $q6kbK = DjLVJ::XEqI0("\146\151\x6c\x65")->mJFJ5("\x73\151\164\145\x5f\x62\141\156\156\145\x72\x73", 3600, function () { goto FQezW; AUKIu: return $q6kbK; goto Lv51t; FQezW: $q6kbK = oVu1I::c_MHy("\141\143\x74\x69\166\x65", 1)->a9jMh("\x6f\162\144\x65\x6d", "\x61\x73\143")->get(); goto M4oxs; M4oxs: $q6kbK->k3Dm2(function ($lC9vt) { $lC9vt->seS4J = ltrim($lC9vt->seS4J, "\57"); }); goto AUKIu; Lv51t: }); return jgkrl()->sBe1q($q6kbK); } catch (\Exception $ai57B) { return jGkRl()->sBE1Q(["\145\162\162\157\x72" => "\x45\x72\x72\x6f\40\141\x6f\40\143\x61\x72\162\145\x67\x61\162\40\142\x61\x6e\x6e\145\x72\x73"], 500); } } public function dUfuT($RA9T5) { try { goto c3KE2; c3KE2: $FXcdu = "\163\x69\x74\x65\x5f\142\x61\156\x6e\x65\x72\x73\137" . $RA9T5; goto y6hv6; UDla9: return JgkrL()->SBe1q($q6kbK); goto O_Q3i; y6hv6: $q6kbK = dJlVj::MjFJ5($FXcdu, WhFh3()->RW_8l(30), function () use($RA9T5) { $q6kbK = oVu1i::c_MhY("\x61\x63\164\x69\166\x65", 1)->C_mHy("\x74\151\160\157", $RA9T5)->A9jmH("\157\x72\144\x65\155", "\x61\x73\143")->get(); return $q6kbK; }); goto UDla9; O_Q3i: } catch (\Exception $ai57B) { return jgKrL()->sbE1Q(["\145\162\162\x6f\162" => "\x45\162\162\x6f\x20\x61\157\x20\x63\141\x72\162\x65\x67\141\x72\x20\142\141\x6e\156\x65\x72\x73\40\x64\x6f\x20\164\151\160\x6f\40" . $RA9T5 . $ai57B->getMessage()], 500); } } public function bD6_M() { return $this->dufut("\x73\x6c\151\144\x65"); } public function Rn5BQ() { return $this->duFuT("\x72\x65\147\151\x73\164\145\x72"); } public function SbN0p() { return $this->DuFut("\154\x6f\x67\151\x6e"); } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+use App\Models\Banner;
+
+class BannerController extends Controller
+{
+    /**
+     * Obter todos os banners ativos
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getBanners()
+    {
+        try {
+            // Usar o driver de arquivo para cache
+            $banners = Cache::driver('file')->remember('site_banners', 3600, function () {
+                $banners = Banner::where('active', 1)
+                    ->orderBy('ordem', 'asc')
+                    ->get();
+
+                // Garantir que as URLs das imagens estejam corretas
+                $banners->each(function ($banner) {
+                    // Remover barras iniciais extras se existirem
+                    $banner->imagem = ltrim($banner->imagem, '/');
+                });
+
+                return $banners;
+            });
+
+            return response()->json($banners);
+        } catch (\Exception $e) {
+            return response()->json(['error' => 'Erro ao carregar banners'], 500);
+        }
+    }
+
+    /**
+     * Obter banners por tipo específico
+     *
+     * @param string $tipo
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getBannersByType($tipo)
+    {
+        try {
+            // Cache específico para cada tipo de banner
+            $cacheKey = 'site_banners_' . $tipo;
+
+            $banners = Cache::remember($cacheKey, now()->addMinutes(30), function () use ($tipo) {
+                $banners = Banner::where('active', 1)
+                    ->where('tipo', $tipo)
+                    ->orderBy('ordem', 'asc')
+                    ->get();
+
+                return $banners;
+            });
+
+            return response()->json($banners);
+        } catch (\Exception $e) {
+            return response()->json(['error' => 'Erro ao carregar banners do tipo ' . $tipo . $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Método de conveniência para obter banners de slide
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getSlides()
+    {
+        return $this->getBannersByType('slide');
+    }
+
+    /**
+     * Método de conveniência para obter banners de registro
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getRegisterBanners()
+    {
+        return $this->getBannersByType('register');
+    }
+
+    /**
+     * Método de conveniência para obter banners de login
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getLoginBanners()
+    {
+        return $this->getBannersByType('login');
+    }
+}

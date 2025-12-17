@@ -4,7 +4,6 @@ namespace App\ViewComposers;
 
 use Illuminate\View\View;
 use App\Helpers\Core as Helper;
-use App\Helpers\SeoHelper;
 use App\Http\Controllers\Admin\CustomCSSController;
 use App\Models\FooterSettings;
 use App\Models\HomeSectionsSettings;
@@ -63,49 +62,12 @@ class AppLayoutComposer
         // Obter configurações do footer
         $footerSettings = FooterSettings::getSettings();
 
-        // Gerar SEO Meta Tags
-        $seoMetaTags = SeoHelper::isActive() ? SeoHelper::generateAllMetaTags() : '';
-        $seoScripts = SeoHelper::isActive() ? SeoHelper::generateAllScripts() : '';
-        $seoBodyScripts = SeoHelper::isActive() ? SeoHelper::generateBodyScripts() : '';
-        $seoActive = SeoHelper::isActive();
-
-        // Verificar se PWA está ativado (independente de SEO estar ativo)
-        $pwaEnabled = false;
-        $seoSettings = null;
-        // Buscar configurações PWA independente de is_active
-        $pwaSettings = \App\Models\SeoSettings::getPwaSettings();
-        $pwaEnabled = $pwaSettings->pwa_enabled ?? false;
-        
-        // Buscar configurações SEO apenas se SEO estiver ativo
-        if ($seoActive) {
-            $seoSettings = \App\Models\SeoSettings::getSettings();
-        }
-
-        // Definir dados do site baseado no SEO ou configurações gerais
-        // Se SEO está ativo, usar dados do SEO, senão usar dados das configurações gerais
-        $siteName = $seoActive && $seoSettings && $seoSettings->site_title 
-            ? $seoSettings->site_title 
-            : ($Infos->name ?? config('app.name'));
-        
-        $siteSubtitle = $seoActive && $seoSettings && $seoSettings->site_subtitle 
-            ? $seoSettings->site_subtitle 
-            : null;
-        
-        $siteSubname = $seoActive && $seoSettings && $seoSettings->og_site_name 
-            ? $seoSettings->og_site_name 
-            : ($Infos->subname ?? config('app.name'));
-        
-        $siteDescription = $seoActive && $seoSettings && $seoSettings->site_description 
-            ? $seoSettings->site_description 
-            : ($Infos->name ?? config('app.name'));
-        
-        $siteFavicon = $seoActive && $seoSettings && $seoSettings->favicon 
-            ? $seoSettings->favicon 
-            : ($Infos->favicon ?? null);
-        
-        $siteAppleTouchIcon = $seoActive && $seoSettings && $seoSettings->apple_touch_icon 
-            ? $seoSettings->apple_touch_icon 
-            : null;
+        // Definir dados do site baseado nas configurações gerais
+        $siteName = $Infos->name ?? config('app.name');
+        $siteSubtitle = null;
+        $siteSubname = $Infos->subname ?? config('app.name');
+        $siteDescription = $Infos->name ?? config('app.name');
+        $siteFavicon = $Infos->favicon ?? null;
 
         // Compartilhar todas as variáveis com a view
         $view->with([
@@ -121,17 +83,11 @@ class AppLayoutComposer
             'BonusMulti' => $BonusMulti,
             'BonusAllDeposits' => $BonusAllDeposits,
             'footerSettings' => $footerSettings,
-            'seoMetaTags' => $seoMetaTags,
-            'seoScripts' => $seoScripts,
-            'seoBodyScripts' => $seoBodyScripts,
-            'seoActive' => $seoActive,
-            'pwaEnabled' => $pwaEnabled,
             'siteName' => $siteName,
             'siteSubtitle' => $siteSubtitle,
             'siteSubname' => $siteSubname,
             'siteDescription' => $siteDescription,
             'siteFavicon' => $siteFavicon,
-            'siteAppleTouchIcon' => $siteAppleTouchIcon,
         ]);
     }
 }

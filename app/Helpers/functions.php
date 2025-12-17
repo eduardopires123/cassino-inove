@@ -1,8 +1,161 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:50              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- use bnHqH\e7cen\IvP5m\tcjT0; goto DMbai; KX2z_: function LOeN8($qlCSX, $wTI8y = "\151\155\x61\x67\x65") { goto V3BSJ; ffU_G: return $qlCSX->Qr9RI; goto lpulq; X_WQN: OI9xf: goto MWyOP; Ukm84: ekG2E: goto X1Rw0; N5Ox_: if (isset($qlCSX->wx7Xh) && !empty($qlCSX->wx7Xh)) { goto p0MdR; } goto fiFmO; lpulq: fv5ZO: goto RDpcL; V3BSJ: if (!(isset($qlCSX->Qr9RI) && !empty($qlCSX->Qr9RI))) { goto fv5ZO; } goto ffU_G; aGzZx: aiNXd: goto fJfL8; Q6_HU: if (isset($qlCSX->ukt_S) && !empty($qlCSX->ukt_S)) { goto XQICX; } goto N5Ox_; nchl2: $vU5fW = $qlCSX->{$wTI8y}; goto d14D8; ImPXE: goto ekG2E; goto dXP3r; grw0h: UPYhG: goto p2pER; Q978s: $vU5fW = $qlCSX->wx7Xh; goto Ukm84; dXP3r: XQICX: goto XY_YM; tLQ1c: r4ISS: goto EbBE2; X1Rw0: if (!empty($vU5fW)) { goto aiNXd; } goto medam; RDpcL: $vU5fW = ''; goto LbtiE; d14D8: goto ekG2E; goto grw0h; p2pER: $vU5fW = $qlCSX->vVY7Y; goto ImPXE; tK4AE: if (isset($qlCSX->vVY7Y) && !empty($qlCSX->vVY7Y)) { goto UPYhG; } goto Q6_HU; fJfL8: if (!preg_match("\x2f\x5e\x68\x74\164\x70\163\77\72\x5c\x2f\134\x2f\x2f\151", $vU5fW)) { goto OI9xf; } goto JwEwh; MWyOP: if (!(strpos($vU5fW, "\163\164\157\162\141\147\145\57") === 0)) { goto r4ISS; } goto bO85D; M30fq: p0MdR: goto Q978s; bO85D: return QTJEr($vU5fW); goto tLQ1c; JwEwh: return $vU5fW; goto X_WQN; VGX7H: goto ekG2E; goto M30fq; EbBE2: return dO1uU($vU5fW); goto ufpXb; medam: return ''; goto aGzZx; XY_YM: $vU5fW = $qlCSX->ukt_S; goto VGX7H; QhPZH: S7mV6: goto nchl2; fiFmO: goto ekG2E; goto QhPZH; LbtiE: if (isset($qlCSX->{$wTI8y}) && !empty($qlCSX->{$wTI8y})) { goto S7mV6; } goto tK4AE; ufpXb: } goto Mmlul; qPry1: function p097a($lpUio) { goto G0gQN; UqL11: if (!isset($lpUio->vVY7Y)) { goto EPD5l; } goto cAIbU; I3M19: EPD5l: goto jmrqa; tU9cy: CzpBG: goto UqL11; OFHcy: return rWUfc($lpUio)->LOU5L(function ($qlCSX) { return p097A($qlCSX); }); goto tU9cy; jmrqa: return $lpUio; goto bWokx; cAIbU: $lpUio->Qr9RI = GwmaA($lpUio->vVY7Y); goto I3M19; G0gQN: if (!(is_array($lpUio) || $lpUio instanceof \BNHQh\e7cEN\yxaIl)) { goto CzpBG; } goto OFHcy; bWokx: } goto KX2z_; DMbai: function M6w6x($DzXc0) { goto ODm1M; ODm1M: if (!empty($DzXc0)) { goto mVE3n; } goto Ten5N; g_1rx: return number_format($DzXc0, 2, "\54", "\x2e"); goto CDq66; Ten5N: $DzXc0 = 0; goto qKltR; qKltR: mVE3n: goto g_1rx; CDq66: } goto V99ID; V99ID: function W1hLp($fRc6M) { goto Esq2K; Esq2K: $yHokh = tcjt0()->mA_kd(); goto o8462; fhOme: if (!($fRc6M == 9)) { goto o4lfd; } goto O9g3l; wn77T: goto mz2RU; goto S9MyN; OdOYw: qX6Aq: goto LnxGZ; o8462: $rVeTB = sZElg\uUx9Y\gB0t8\CJi4x::juaD9("\165\163\145\162\x5f\151\144", $yHokh->id)->WwJmb(); goto TD6ck; MAN8M: return 1; goto nqDBy; J9X2y: if (isset($GQlLQ[$fRc6M]) && $GQlLQ[$fRc6M] == 1) { goto derHQ; } goto t9Ipx; Bh9jv: uVv8q: goto J9X2y; t9Ipx: return 0; goto vl2ZD; xi_tx: if ($yHokh->JMSfG == 2) { goto uVv8q; } goto qpgZX; qpgZX: if ($yHokh->JMSfG == 3) { goto PC2QO; } goto ObmGj; ObmGj: goto mz2RU; goto Bh9jv; vl2ZD: goto kHpOj; goto FOy9v; tAiB4: V30DH: goto OVdNU; nqDBy: kHpOj: goto wn77T; S9MyN: PC2QO: goto fhOme; KCIL3: goto qX6Aq; goto tAiB4; sx1Cc: o4lfd: goto k4WWQ; O9g3l: return 1; goto sx1Cc; TD6ck: $GQlLQ = json_decode($rVeTB->rQD64, true); goto upJKA; OVdNU: return 1; goto OdOYw; LnxGZ: return 0; goto yNOnN; upJKA: if ($yHokh->JMSfG == 1) { goto V30DH; } goto xi_tx; FOy9v: derHQ: goto MAN8M; k4WWQ: mz2RU: goto KCIL3; yNOnN: } goto BNw9Q; BNw9Q: function gwmaa($vU5fW) { goto UHTqo; h7Nqc: return $vU5fW; goto ctJKz; jBkrc: return do1uU($vU5fW); goto kndmf; ctJKz: yxl7f: goto jBkrc; UHTqo: if (!(empty($vU5fW) || preg_match("\x2f\x5e\150\164\164\x70\x73\77\72\x5c\57\134\57\x2f\151", $vU5fW))) { goto yxl7f; } goto h7Nqc; kndmf: } goto qPry1; Mmlul: function z8lS2() { goto F_fQ0; Ts70b: $elnRQ = $XKFcd->H5rDH ?? "\x63\141\163\x73\151\156\157"; goto jPaTG; jPaTG: return $elnRQ === "\x63\141\x73\x73\151\x6e\x6f" ? LgmnQ("\150\157\x6d\x65") : lgMNq("\143\x61\x73\163\151\156\x6f\56\x69\156\x64\145\x78"); goto fAHYn; F_fQ0: $XKFcd = SZElg\QIurk\d6Ram::IpBbK(); goto Ts70b; fAHYn: }
+
+// Arquivo de funções auxiliares
+// Você pode adicionar funções globais úteis aqui
+
+use Illuminate\Support\Facades\Auth;
+
+/**
+ * Exemplo de função auxiliar
+ *
+ * @param string $text
+ * @return string
+ */
+// function exemplo($text) {
+//     return $text;
+// }
+
+/**
+ * Formata um valor numérico para o formato de moeda brasileira
+ *
+ * @param float $valor Valor a ser formatado
+ * @return string Valor formatado (ex: 1.000,00)
+ */
+function FormataReal($valor) {
+    if (empty($valor)) $valor = 0;
+    return number_format($valor, 2, ',', '.');
+}
+
+/**
+ * Verifica se o usuário logado tem permissão para um determinado módulo
+ *
+ * @param int $permissionId ID da permissão a ser verificada
+ * @return int Retorna 1 se tem permissão, 0 se não tem
+ */
+function ChecaPermissao($permissionId) {
+    $user = auth()->user();
+    $User = App\Models\Admin\Permissions::where('user_id', $user->id)->first();
+    $PermissoesData = json_decode($User->permission, true);
+
+    if ($user->is_admin == 1) {
+        return 1;
+    }else {
+        if ($user->is_admin == 2) {
+            if (isset($PermissoesData[$permissionId]) && $PermissoesData[$permissionId] == 1) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }elseif ($user->is_admin == 3) {
+            if ($permissionId == 9) {
+                return 1;
+            }
+        }
+    }
+
+    return 0;
+}
+
+/**
+ * Completa uma URL de imagem se ela não for uma URL completa
+ *
+ * @param string $imagePath Caminho da imagem
+ * @return string URL completa da imagem
+ */
+function completeImageUrl($imagePath)
+{
+    // Verifica se a imagem já é uma URL completa
+    if (empty($imagePath) || preg_match('/^https?:\/\//i', $imagePath)) {
+        return $imagePath;
+    }
+
+    // Se o caminho não é uma URL completa, usar asset() para gerar a URL da pasta public
+    return asset($imagePath);
+}
+
+/**
+ * Completa URLs de imagens em objetos de jogos
+ *
+ * @param object|array $game Objeto ou coleção de objetos de jogo
+ * @return object|array Objeto ou coleção com URLs completas
+ */
+function completeGameImageUrl($game)
+{
+    if (is_array($game) || $game instanceof \Illuminate\Support\Collection) {
+        // Para coleções ou arrays, aplique a função a cada item
+        return collect($game)->map(function($item) {
+            return completeGameImageUrl($item);
+        });
+    }
+
+    // Cria a propriedade image_url no objeto com a URL completa
+    if (isset($game->image)) {
+        $game->image_url = completeImageUrl($game->image);
+    }
+
+    return $game;
+}
+
+/**
+ * Função otimizada para gerar URLs corretas de imagens de jogos
+ * Funciona com diferentes tipos de campos de imagem
+ *
+ * @param object $item Objeto do jogo ou item que contém imagem
+ * @param string $field Campo da imagem (image, game_image, img, etc)
+ * @return string URL completa da imagem
+ */
+function getGameImageUrl($item, $field = 'image')
+{
+    // Se o item tem um campo image_url específico, usar primeiro
+    if (isset($item->image_url) && !empty($item->image_url)) {
+        return $item->image_url;
+    }
+    
+    // Determinar o valor da imagem baseado no campo informado
+    $imagePath = '';
+    
+    if (isset($item->$field) && !empty($item->$field)) {
+        $imagePath = $item->$field;
+    } elseif (isset($item->image) && !empty($item->image)) {
+        $imagePath = $item->image;
+    } elseif (isset($item->game_image) && !empty($item->game_image)) {
+        $imagePath = $item->game_image;
+    } elseif (isset($item->img) && !empty($item->img)) {
+        $imagePath = $item->img;
+    }
+    
+    // Se não encontrou nenhuma imagem, retornar string vazia
+    if (empty($imagePath)) {
+        return '';
+    }
+    
+    // Verifica se a imagem já é uma URL completa
+    if (preg_match('/^https?:\/\//i', $imagePath)) {
+        return $imagePath;
+    }
+    
+    // Se começar com 'storage/', usar url() para gerar a URL completa
+    if (strpos($imagePath, 'storage/') === 0) {
+        return url($imagePath);
+    }
+    
+    // Se for apenas um caminho relativo, usar asset()
+    return asset($imagePath);
+}
+
+/**
+ * Retorna a URL correta para a página do cassino baseado na configuração de página inicial padrão
+ *
+ * @return string URL da página do cassino
+ */
+function getCassinoUrl()
+{
+    $settings = App\Helpers\Core::getSetting();
+    $defaultHomePage = $settings->default_home_page ?? 'cassino';
+
+    // Se cassino é a página inicial padrão, usar a rota home (/)
+    // Caso contrário, usar a rota específica do cassino (/cassino)
+    return $defaultHomePage === 'cassino' ? route('home') : route('cassino.index');
+}
+
+// Deixe este arquivo vazio se você não precisar de funções auxiliares por enquanto

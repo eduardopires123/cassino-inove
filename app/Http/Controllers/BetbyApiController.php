@@ -1,8 +1,506 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\ShTEq\Fn52m; use jF89X\CK8uV\u_w0I as WLfO8; use Ec3mE\sHTeQ\S9D5T; use eC3mE\H2vUV\p2qh1\LvLoX; use EC3me\H2Vuv\p2Qh1\Log; use ec3mE\H2vUv\p2Qh1\pLHxG; use JF89x\T0ETd\AVsuj; use Jf89x\t0ETd\T0CPG; use jF89X\T0eTd\D0Svl; use jF89x\T0EtD\c40Q0; use Exception; use MSNxP\jE6Vl\Je6VL; use MsnXp\jE6vL\Key; use JF89x\t0eTd\L71oa; use JF89x\T0eTd\rsFbT; use jf89X\T0etD\NRZVI; use jf89X\t0etD\dOY2t; class ccCEa extends NMP37 { protected $XWsRC; public function __construct() { $this->XWsRC = WLFo8::w5N1F(); } public function Fg10l($i7RPy) { goto ZAUPv; ZAUPv: list($qrK5Q, $H7BG0, $aUgvc) = explode("\x2e", $i7RPy); goto NTM9l; NTM9l: $Rfm5x = json_decode($this->SCWEF($qrK5Q), false); goto gpTAQ; gpTAQ: $NpJXl = json_decode($this->sCwEF($H7BG0), false); goto kfBS2; kfBS2: return ["\x68\145\x61\144\145\162" => $Rfm5x, "\x70\141\x79\x6c\x6f\x61\144" => $NpJXl, "\x73\x69\147\x6e\x61\x74\165\x72\145" => $aUgvc]; goto Lo9Xc; Lo9Xc: } public function scwef($SRJIE) { goto flCBt; flCBt: $bDqY5 = strtr($SRJIE, "\x2d\137", "\x2b\x2f"); goto mB2tF; fn2de: return base64_decode($vXwVa); goto UUSK2; mB2tF: $vXwVa = str_pad($bDqY5, strlen($bDqY5) % 4, "\x3d", STR_PAD_RIGHT); goto fn2de; UUSK2: } public function ping(S9D5t $WFz1w) { \LvlOX::Ftz7F("\144\145\x62\165\147")->insert(["\164\145\170\x74" => "\142\x70\151\156\147\x20\76\40" . json_encode($WFz1w->P0Wsl())]); return JGkrl()->SBE1q(["\x74\x69\x6d\x65\163\x74\141\x6d\160" => time()], 200); } public function XJ8GS(S9d5T $WFz1w) { return \lVlOX::AF37Z(function () use($WFz1w) { try { goto oyYS_; YMBLy: if (isset($WFz1w->iqvyc)) { goto ooxh_; } goto Cu16Y; jR0ft: FAtnf: goto Tq5kk; Tq5kk: RsFbt::create(["\160\162\157\x76\151\x64\145\162" => "\142\145\164\x62\171", "\x75\163\x65\162\137\151\x64" => (string) $Dbxml->id, "\x74\x72\141\x6e\163\x61\143\164\x69\157\156\111\144" => $MHtu1->id, "\x6f\x70\145\162\x61\x74\151\157\156" => "\155\x61\x6b\145", "\x73\x74\x61\164\165\x73" => "\x50\x65\x6e\x64\x69\156\x67", "\x73\x74\141\164\165\163\x65\154" => "\x4e\x69\154", "\x72\145\x61\163\157\x6e" => "\116\x69\154", "\x61\x6d\x6f\165\156\164" => $P1IO1, "\164\x72\x61\x6e\163\x61\143\164\151\157\156" => json_encode($MHtu1), "\x62\x65\164\x73\x6c\x69\x70" => json_encode($WFz1w)]); goto fQMXL; mxvyb: $vOJ9t = $this->Fg10L($SRJIE["\160\x61\171\x6c\157\141\144"]); goto UUA44; At5VW: \lVLOx::ftZ7F("\144\x65\x62\x75\147")->insert(["\164\x65\x78\164" => "\x62\155\x61\153\x65\40\76\x20" . json_encode($WFz1w)]); goto JKIx6; v9ISu: $MHtu1 = $WFz1w->iqvyc; goto Kpmd6; UUA44: $WFz1w = $vOJ9t["\160\141\x79\x6c\x6f\x61\x64"]->Npzwj; goto At5VW; P7cxb: $Dbxml->RFKu1()->update(["\142\x61\154\x61\156\x63\145\x5f\x62\157\156\x75\163\137\162\157\x6c\x6c\157\x76\x65\x72\x5f\x75\163\145\144" => $Dbxml->d1U9g->V2vmL + $m3GKS]); goto Ok5xv; aJ2Zn: return JGkrL()->SBe1q(["\143\x6f\144\145" => 1005, "\x6d\145\x73\163\x61\x67\x65" => "\120\154\141\171\x65\162\x20\151\x73\40\142\154\x6f\143\153\145\144"], 400); goto Pfm3l; ME4OZ: return Jgkrl()->Sbe1q(["\143\157\x64\145" => 2002, "\x6d\x65\x73\x73\141\147\145" => "\111\156\x76\141\x6c\151\x64\40\x63\165\x72\x72\145\x6e\143\x79"], 400); goto fNKPT; eM6_D: return jgKRl()->sBe1q(["\151\x64" => $EDGnu, "\x65\x78\164\x5f\x74\162\141\156\x73\141\143\164\x69\x6f\156\x5f\151\x64" => (string) $MHtu1->id, "\x70\x61\162\x65\x6e\164\x5f\x74\162\141\x6e\163\x61\143\164\151\157\156\137\x69\144" => null, "\165\x73\x65\x72\137\151\144" => $this->XWsRC->AGSTP . "\55" . $Dbxml->id, "\x6f\160\145\x72\x61\x74\151\x6f\x6e" => "\142\x65\x74", "\141\x6d\x6f\x75\156\164" => $P1IO1, "\x63\165\x72\162\x65\x6e\x63\171" => "\x42\x52\114", "\x62\x61\x6c\141\156\x63\x65" => $RAvZ_], 200); goto RRDxF; znth8: return jGKRl()->sbe1Q(["\143\157\144\145" => 2001, "\155\x65\x73\163\x61\x67\145" => "\x4e\157\x74\x20\x65\156\157\165\147\x68\x20\x6d\157\x6e\x65\171"], 400); goto pukcU; ntt0E: $EDGnu = $MHtu1->id; goto K6XHt; Wq_VU: $Dbxml = AvSUj::C_mHy("\151\144", $TO4lJ)->RU29H()->YRKr9(); goto dddyu; fQMXL: $rs2KM = lVloX::Ftz7F("\167\141\154\154\x65\x74\163")->c_mhY("\165\x73\145\162\137\x69\144", $Dbxml->id)->X_83q("\x62\141\154\141\156\143\x65"); goto z0QrK; pukcU: FOxbp: goto YMBLy; gNKhJ: if (!($Dbxml->C_KaU == 1)) { goto jOnhx; } goto aJ2Zn; Pfm3l: jOnhx: goto evETY; Npl3B: $TO4lJ = $c_bLk[1]; goto miFGm; miFGm: $Dbxml = null; goto Wq_VU; Csuhl: if (!$qczFj) { goto FAtnf; } goto Bzkps; LAzAH: $m3GKS = WlFo8::PvOrh($P1IO1); goto Q1kvK; Kpmd6: $qczFj = NrzVi::C_MHY("\x74\162\141\x6e\163\x61\x63\164\151\157\x6e\137\151\144", $MHtu1->id)->yRkR9(); goto Csuhl; oyYS_: $SRJIE = json_decode(json_encode($WFz1w->p0wsl()), true); goto mxvyb; Ok5xv: DOy2T::Create(["\x74\111\x64" => $Dbxml->id, "\164\x72\x61\156\163\141\x63\x74\151\157\x6e\137\151\144" => $MHtu1->id, "\x70\141\162\145\156\x74" => $MHtu1->id]); goto eM6_D; JKIx6: if (!($WFz1w->bjrLI != "\x42\122\x4c")) { goto oJmvM; } goto ME4OZ; pWzJN: if (!($Qflx3 === 0)) { goto FOxbp; } goto znth8; ylLfG: $rC2Zo = $WFz1w->gC39v; goto v9ISu; Cu16Y: return jGkRl()->SBe1q(["\x63\x6f\144\145" => 2004, "\x6d\x65\x73\163\x61\147\x65" => "\x42\141\x64\40\162\145\x71\165\x65\163\x74"], 400); goto r42zI; nYJn0: P7hO9: goto gNKhJ; CxDm5: return JGKRL()->sbE1q(["\143\157\x64\x65" => 1007, "\155\145\x73\163\141\147\145" => "\123\x65\163\163\151\157\x6e\40\x69\x73\40\145\x78\x70\x69\162\x65\x64"], 400); goto nYJn0; dddyu: if ($Dbxml) { goto P7hO9; } goto CxDm5; JLk80: $gaxC1 = $WFz1w->vA8qa; goto ylLfG; fNKPT: oJmvM: goto g29cP; Q1kvK: $Qflx3 = lVlox::update("\x55\x50\x44\101\x54\x45\40\167\141\154\x6c\145\164\163\40\123\105\x54\40\x62\x61\x6c\141\x6e\143\145\x20\75\40\142\141\x6c\x61\156\x63\145\x20\55\40\77\40\x57\110\105\122\x45\x20\165\163\145\162\x5f\151\144\x20\x3d\x20\x3f\x20\x41\116\x44\x20\142\x61\x6c\141\x6e\x63\145\x20\76\75\x20\77", [$m3GKS, $Dbxml->id, $m3GKS]); goto pWzJN; r42zI: ooxh_: goto JLk80; K6XHt: $Dbxml->RfKU1()->update(["\141\x6e\x74\x69\x5f\x62\x6f\164" => LvlOx::JFqoG("\107\122\x45\101\x54\x45\x53\x54\50\60\54\40\141\156\x74\151\137\x62\157\x74\40\55\x20" . (int) $m3GKS . "\51")]); goto P7cxb; Bzkps: return JGkRl()->Sbe1q(["\x63\x6f\144\145" => 2004, "\155\145\x73\x73\141\x67\x65" => "\102\141\x64\x20\162\x65\161\x75\145\x73\164"], 400); goto jR0ft; evETY: $P1IO1 = $WFz1w->e9w7B; goto LAzAH; g29cP: $c_bLk = explode("\x2d", $WFz1w->vA8qa); goto Npl3B; z0QrK: $RAvZ_ = (int) ($rs2KM * 100); goto ntt0E; RRDxF: } catch (Exception $ai57B) { return jgkRL()->Sbe1q(["\x63\157\144\x65" => 2004, "\155\x65\163\x73\x61\147\145" => "\x42\141\x64\40\162\145\161\x75\x65\163\x74", "\x65\162\x72\x6f\162" => $ai57B->getMessage()], 400); } }); } public function sHY0O(s9d5T $WFz1w) { } public function SZ_oH(S9D5t $WFz1w) { goto Y4KLS; Y4KLS: $SRJIE = json_decode(json_encode($WFz1w->p0wsL()), true); goto BYMQK; kNLJb: $WFz1w = $vOJ9t["\160\x61\171\154\157\x61\144"]->Npzwj; goto WlOhC; WlOhC: \lVloX::FtZ7F("\144\x65\142\165\147")->insert(["\x74\145\x78\164" => "\142\163\x65\164\x74\x6c\145\x6d\145\x6e\164\40\76\40" . json_encode($WFz1w)]); goto rcWCp; BYMQK: $vOJ9t = $this->fg10L($SRJIE["\160\141\x79\154\x6f\x61\x64"]); goto kNLJb; GVYHX: rSFbT::C_mhY("\x69\144", $QjjI3)->update(["\x73\x74\141\164\165\163\145\x6c" => $P0JC8]); goto jTl16; Abf85: $QjjI3 = $WFz1w->sdzdL; goto GVYHX; jTl16: return JgKRL()->sbe1Q([], 200); goto RDaIK; rcWCp: $P0JC8 = $WFz1w->status; goto Abf85; RDaIK: } public function iFACW(S9d5T $WFz1w) { goto BuydM; TRtPn: if ($IqEvu) { goto dmCLx; } goto GLyZX; BuydM: $SRJIE = json_decode(json_encode($WFz1w->P0WSl()), true); goto isqVV; e1dLn: goto gqN23; goto xNLYh; ZINjI: $IqEvu = RSfbt::C_mHY("\x74\x72\141\x6e\163\141\143\164\x69\157\156\111\x64", $QjjI3)->YrkR9(); goto TRtPn; wr3cK: $WFz1w = $vOJ9t["\160\x61\171\x6c\x6f\141\144"]->Npzwj; goto ISRTd; iJgKa: return jgKrl()->sBE1Q(["\x69\144" => $MHtu1->id, "\145\170\x74\137\164\x72\x61\x6e\163\x61\143\x74\151\x6f\156\137\x69\x64" => (string) $MHtu1->id, "\160\x61\x72\145\156\x74\x5f\164\162\141\x6e\163\141\143\x74\151\x6f\156\137\x69\x64" => $blVBg, "\165\163\x65\162\137\x69\x64" => $this->XWsRC->AGSTP . "\55" . $Dbxml->id, "\157\x70\145\162\x61\x74\151\157\156" => "\162\x65\x66\165\x6e\144", "\x61\155\157\x75\156\164" => $MHtu1->e9w7B, "\x63\165\x72\x72\x65\x6e\x63\171" => "\x42\122\x4c", "\x62\x61\154\141\x6e\x63\x65" => $RAvZ_], 200); goto Gn4nm; sFRWp: $Dbxml = AVSUj::c_MHY("\x69\x64", $IqEvu->ROWMV)->yrkr9(); goto xzOLk; Gn4nm: GWnHW: goto uw4dK; LIgOM: $R82sN = $WFz1w->VysBD; goto j69VL; MJhcz: doy2t::Create(["\x74\111\x64" => $Dbxml->id, "\164\162\x61\156\163\x61\143\164\x69\x6f\x6e\137\151\x64" => $MHtu1->id, "\160\x61\x72\145\156\164" => $MHtu1->phZ0h]); goto iJgKa; mR1jC: $IqEvu->save(); goto sFRWp; HPPAW: $QjjI3 = $WFz1w->sdzdL; goto LIgOM; dp9EX: $Dbxml->d1U9g->zgsoQ("\x62\x61\x6c\141\x6e\143\x65", $MHtu1->e9w7B / 100); goto mFweG; yvXJv: $blVBg = $MHtu1->phZ0h; goto MJhcz; mFweG: VKsuY: goto uePAp; lZL1e: return jGKrL()->sbE1q([], 200); goto OaqUc; cxs_L: $W1qyR = $IqEvu->status; goto CpoZ4; GLyZX: return JgkrL()->Sbe1Q(["\x63\157\x64\x65" => 2003, "\x6d\145\163\163\141\x67\145" => "\x50\x61\162\145\x6e\x74\x20\x74\162\141\x6e\x73\x61\143\164\x69\x6f\156\x20\156\x6f\164\40\x66\157\x75\x6e\x64"], 400); goto e1dLn; qalub: $RAvZ_ = (int) ($rs2KM * 100); goto yvXJv; CpoZ4: $IqEvu->status = $MHtu1->yHt5T; goto Bcdfq; ISRTd: \LvlOx::ftz7f("\x64\145\142\165\147")->insert(["\164\x65\x78\x74" => "\142\162\145\x66\x75\156\x64\x20\x3e\x20" . json_encode($WFz1w)]); goto HPPAW; wk2MH: if (!($W1qyR != "\x72\x65\146\165\x6e\144")) { goto VKsuY; } goto dp9EX; xzOLk: if (!$Dbxml) { goto GWnHW; } goto wk2MH; uw4dK: gqN23: goto lZL1e; xNLYh: dmCLx: goto cxs_L; j69VL: $MHtu1 = $WFz1w->iqvyc; goto ZINjI; uePAp: $rs2KM = $Dbxml->d1U9g->AqmcG; goto qalub; isqVV: $vOJ9t = $this->fg10l($SRJIE["\x70\x61\171\x6c\x6f\x61\x64"]); goto wr3cK; Bcdfq: $IqEvu->VysBD = $R82sN; goto mR1jC; OaqUc: } public function Nh4z0(s9d5T $WFz1w) { goto Qud0D; Hwti3: $rs2KM = $Dbxml->d1U9g->AqmcG; goto FDR1c; Qud0D: $SRJIE = json_decode(json_encode($WFz1w->P0wSl()), true); goto sB9IZ; RRPZY: if (!($W1qyR != "\167\x69\x6e")) { goto RvEDL; } goto MmV8F; DbyZx: $Dbxml = AVsUJ::C_MhY("\151\144", $IqEvu->ROWMV)->Yrkr9(); goto Kklqm; MmV8F: $Dbxml->d1U9g->ZGSOq("\x62\141\154\x61\x6e\143\x65", $MHtu1->e9w7B / 100); goto pxdkf; bBFqg: dOY2T::Create(["\164\111\x64" => $Dbxml->id, "\x74\x72\141\x6e\163\141\143\x74\x69\157\x6e\137\x69\x64" => $MHtu1->id, "\160\141\x72\145\x6e\x74" => $MHtu1->phZ0h]); goto IJ_nz; IJ_nz: $blVBg = $MHtu1->phZ0h; goto sJayV; Yrf2N: $IqEvu->gv_FE = $WFz1w->e9w7B; goto WU7jJ; cmtJf: $QjjI3 = $WFz1w->sdzdL; goto chS5F; XoAdh: $IqEvu->status = $MHtu1->yHt5T; goto Yrf2N; sJayV: return JgkRL()->SBE1q(["\151\x64" => $MHtu1->id, "\145\x78\164\137\164\162\x61\156\x73\x61\x63\164\x69\157\x6e\x5f\x69\x64" => (string) $MHtu1->id, "\160\x61\162\145\156\x74\137\164\162\x61\156\163\x61\143\x74\151\157\156\x5f\x69\144" => $blVBg, "\x75\x73\145\162\x5f\x69\144" => $this->XWsRC->AGSTP . "\x2d" . $Dbxml->id, "\x6f\x70\145\x72\x61\x74\x69\157\156" => "\167\151\x6e", "\141\155\157\x75\156\x74" => (int) $MHtu1->e9w7B, "\x63\x75\x72\x72\x65\156\143\171" => "\x42\122\x4c", "\x62\141\x6c\x61\x6e\143\x65" => $RAvZ_], 200); goto l4DHL; s3TlH: $WFz1w = $vOJ9t["\x70\x61\x79\x6c\157\141\x64"]->Npzwj; goto xmDge; xmDge: \LVlox::FtZ7f("\x64\x65\142\165\147")->insert(["\164\145\x78\x74" => "\142\167\x69\x6e\40\x3e\40" . json_encode($WFz1w)]); goto cmtJf; WU7jJ: $IqEvu->Ya7iu = $WFz1w->lQvbp; goto Lcbkl; FDR1c: $RAvZ_ = (int) ($rs2KM * 100); goto bBFqg; wQmd6: hfDSJ: goto eqyub; BSF63: if ($IqEvu) { goto PtYFk; } goto ZWQ0W; Kklqm: if (!$Dbxml) { goto DYZFJ; } goto RRPZY; Qbj6D: goto hfDSJ; goto TF23A; Lcbkl: $IqEvu->save(); goto DbyZx; ZWQ0W: return jGKrL()->SBe1Q(["\x63\157\x64\x65" => 2003, "\155\x65\x73\x73\141\147\145" => "\120\x61\x72\x65\x6e\x74\x20\164\x72\141\x6e\x73\x61\x63\164\x69\x6f\x6e\40\156\x6f\164\40\146\157\165\x6e\144"], 400); goto Qbj6D; pxdkf: if (!$WFz1w->lQvbp) { goto S1B4s; } goto lU7eO; sB9IZ: $vOJ9t = $this->FG10L($SRJIE["\160\x61\171\x6c\157\x61\144"]); goto s3TlH; esJpF: $Dbxml->d1U9g->zgsoq("\x61\x6e\x74\151\x5f\142\x6f\x74", $smsLS / 100); goto rnAsY; rnAsY: S1B4s: goto adgpr; tAcdr: $W1qyR = $IqEvu->status; goto XoAdh; adgpr: RvEDL: goto Hwti3; lU7eO: $smsLS = $WFz1w->e9w7B >= $IqEvu->e9w7B ? $IqEvu->e9w7B : $WFz1w->e9w7B; goto esJpF; chS5F: $MHtu1 = $WFz1w->iqvyc; goto ocM3H; ocM3H: $IqEvu = rSfbT::c_MHY("\x74\162\x61\x6e\163\x61\x63\164\151\x6f\156\111\x64", $QjjI3)->YRkR9(); goto BSF63; l4DHL: DYZFJ: goto wQmd6; TF23A: PtYFk: goto tAcdr; eqyub: } public function IOITX(S9d5t $WFz1w) { goto u3BCU; dmxk7: $Dbxml = avsuj::c_mHy("\151\x64", $IqEvu->ROWMV)->yrKr9(); goto nsROo; Jq13T: FdQrq: goto L2Xdl; rfz9_: $IqEvu = rSfBT::C_MhY("\164\162\x61\x6e\x73\141\143\x74\x69\x6f\x6e\111\x64", $QjjI3)->yrKR9(); goto jUixM; jUixM: if ($IqEvu) { goto hb2ub; } goto c72zZ; lT5Ut: if (!$Dbxml) { goto FdQrq; } goto n_JfM; emDzE: $MHtu1 = $WFz1w->iqvyc; goto rfz9_; c72zZ: return JgkRL()->Sbe1q(["\143\157\x64\145" => 2003, "\155\145\163\x73\141\x67\x65" => "\120\x61\162\x65\156\164\x20\164\x72\141\156\x73\x61\x63\164\151\x6f\156\40\156\157\164\40\146\157\x75\x6e\144"], 400); goto ApN01; sM1Gu: $IqEvu->status = $MHtu1->yHt5T; goto oQdIP; qgPh_: $QjjI3 = $WFz1w->sdzdL; goto emDzE; pn0mP: $RAvZ_ = (int) ($rs2KM * 100); goto lT5Ut; ApN01: goto RqIw6; goto Y_fn2; u3BCU: $SRJIE = json_decode(json_encode($WFz1w->p0WSl()), true); goto ZZsEM; ZZsEM: $vOJ9t = $this->fG10l($SRJIE["\160\x61\171\154\157\x61\144"]); goto RVJTI; L2Xdl: RqIw6: goto r6QJd; n_JfM: $blVBg = $MHtu1->phZ0h; goto D98IG; D98IG: doy2T::Create(["\x74\111\144" => $Dbxml->id, "\x74\162\x61\x6e\x73\141\x63\x74\151\x6f\x6e\137\x69\144" => $MHtu1->id, "\x70\141\x72\x65\156\164" => $MHtu1->phZ0h]); goto dGwy_; Y_fn2: hb2ub: goto sM1Gu; RVJTI: $WFz1w = $vOJ9t["\160\x61\x79\x6c\x6f\141\x64"]->Npzwj; goto nMgb1; nMgb1: \lvLOx::FTz7F("\144\145\142\x75\147")->insert(["\164\145\170\x74" => "\x62\x6c\x6f\163\x74\x20\x3e\x20" . json_encode($WFz1w)]); goto qgPh_; nsROo: $rs2KM = $Dbxml->d1U9g->AqmcG; goto pn0mP; oQdIP: $IqEvu->save(); goto dmxk7; dGwy_: return jGkRL()->sbE1q(["\151\144" => $MHtu1->id, "\x65\170\164\x5f\164\162\141\156\163\x61\143\164\151\x6f\x6e\137\x69\144" => (string) $MHtu1->id, "\x70\141\162\145\156\164\137\x74\x72\x61\156\x73\141\143\164\x69\x6f\156\x5f\151\144" => $blVBg, "\x75\x73\x65\162\137\151\144" => $this->XWsRC->AGSTP . "\x2d" . $Dbxml->id, "\157\x70\x65\162\141\164\151\x6f\156" => "\x6c\157\163\164", "\x62\141\x6c\x61\x6e\143\145" => $RAvZ_], 200); goto Jq13T; r6QJd: } public function Vbc3q(S9d5t $WFz1w) { goto QnSuU; CcWc4: $Dbxml->d1U9g->zGsoq("\142\141\x6c\141\x6e\143\x65", $IqEvu->e9w7B / 100); goto nBHlp; l1lEq: $R82sN = $WFz1w->VysBD; goto kPLMC; oiW41: $Dbxml = avSuj::c_mHY("\151\144", $IqEvu->ROWMV)->YrKR9(); goto uuGDq; nBHlp: hM5RT: goto XUodT; byFvN: $lumNW = $WFz1w->Gc1Rh; goto l1lEq; kPLMC: $IqEvu = rsFBt::c_MHy("\x74\x72\x61\x6e\x73\x61\x63\164\x69\x6f\x6e\x49\x64", $lumNW)->YrKR9(); goto uEnO1; XUodT: return JGkrL()->sBE1Q([], 200); goto tPTiN; NzXBv: if (!$IqEvu) { goto PTfDh; } goto za1XO; LFFIi: $WFz1w = $vOJ9t["\x70\141\171\x6c\157\141\x64"]->Npzwj; goto BNmef; pboYU: $vOJ9t = $this->fG10L($SRJIE["\x70\141\x79\x6c\157\x61\144"]); goto LFFIi; QnSuU: $SRJIE = json_decode(json_encode($WFz1w->P0WSl()), true); goto pboYU; tPTiN: PTfDh: goto zZH79; za1XO: $IqEvu->status = "\144\151\x73\143\141\x72\144"; goto JXugd; uEnO1: $GiVjC = nRZVI::create(["\x74\x72\x61\x6e\x73\x61\x63\164\151\157\x6e\137\151\144" => $lumNW, "\162\145\x61\x73\x6f\x6e" => $R82sN]); goto NzXBv; BNmef: \lVLOx::fTz7f("\144\145\x62\165\x67")->insert(["\164\x65\x78\164" => "\x62\x64\151\x73\143\x61\x72\144\40\x3e\x20" . json_encode($WFz1w)]); goto cXgSB; cXgSB: $hfXGz = $WFz1w->Hx2Bh; goto byFvN; JXugd: $IqEvu->VysBD = $R82sN; goto mvTA7; uuGDq: if (!$Dbxml) { goto hM5RT; } goto CcWc4; zZH79: return JgKrL()->Sbe1q([], 200); goto q4dEA; mvTA7: $IqEvu->save(); goto oiW41; q4dEA: } public function G2WtE(S9D5T $WFz1w) { goto PTGtk; gYwRz: doy2t::Create(["\164\x49\144" => $Dbxml->id, "\x74\x72\x61\x6e\x73\x61\143\x74\151\157\156\x5f\151\144" => $MHtu1->id, "\160\141\x72\145\156\x74" => $MHtu1->phZ0h]); goto Nu67D; ebBdv: $UdKNj = 0; goto GZyOW; gIe_M: $RAvZ_ = (int) ($rs2KM * 100); goto pw0WU; pYcoc: $MHtu1 = $WFz1w->iqvyc; goto P0dfx; PTGtk: $SRJIE = json_decode(json_encode($WFz1w->p0wsL()), true); goto U9TsZ; Zm20l: $rs2KM = $Dbxml->d1U9g->AqmcG; goto gIe_M; U9TsZ: $vOJ9t = $this->fg10L($SRJIE["\160\141\x79\154\157\x61\144"]); goto EKEDA; Ul7lA: $W1qyR = $IqEvu->status; goto KByN5; GZyOW: if (!($W1qyR == "\167\151\x6e" or $W1qyR == "\162\x65\x66\x75\156\x64")) { goto nm6jA; } goto FECN2; rqNkW: $IqEvu->save(); goto z1nbO; mvP8Q: rTz2J: goto m7B1V; bFvhq: return JGkrl()->SbE1Q(["\x63\x6f\144\x65" => 2003, "\x6d\x65\163\163\141\147\145" => "\x50\x61\162\x65\x6e\164\40\164\x72\141\156\x73\141\143\x74\151\157\156\x20\x6e\x6f\164\40\x66\157\x75\x6e\144"], 400); goto T3lv1; T3lv1: goto h_tue; goto cahOf; P0dfx: $IqEvu = RsfBT::C_mHY("\x74\x72\141\x6e\163\x61\x63\164\x69\x6f\156\111\144", $QjjI3)->YrKr9(); goto AzKaB; aYGvq: $UdKNj = $MHtu1->e9w7B; goto X2tWw; iICaU: if (!$Dbxml) { goto rTz2J; } goto D3j1T; c0EPt: \LvLOX::FtZ7F("\144\145\x62\x75\147")->insert(["\164\145\x78\x74" => "\142\162\157\154\x6c\x62\141\x63\x6b\40\x3e\x20" . json_encode($WFz1w)]); goto uzHOh; X2tWw: nm6jA: goto Zm20l; m7B1V: h_tue: goto sO07m; EKEDA: $WFz1w = $vOJ9t["\160\x61\171\154\x6f\x61\144"]->Npzwj; goto c0EPt; AzKaB: if ($IqEvu) { goto HDxZ8; } goto bFvhq; pw0WU: $blVBg = $MHtu1->phZ0h; goto gYwRz; cahOf: HDxZ8: goto Ul7lA; Nu67D: return JgkrL()->SBe1Q(["\151\x64" => $MHtu1->id, "\145\170\x74\x5f\164\162\141\x6e\x73\141\x63\164\x69\x6f\156\x5f\x69\x64" => (string) $MHtu1->id, "\160\141\162\x65\156\x74\x5f\x74\162\141\x6e\x73\x61\x63\164\151\x6f\x6e\137\x69\x64" => $blVBg, "\165\x73\x65\x72\137\151\x64" => $this->XWsRC->AGSTP . "\x2d" . $Dbxml->id, "\157\x70\x65\x72\x61\x74\151\x6f\x6e" => "\x72\157\x6c\x6c\x62\x61\x63\x6b", "\141\x6d\157\x75\156\x74" => (int) $UdKNj, "\x63\165\162\x72\145\156\143\x79" => "\102\122\114", "\x62\x61\x6c\x61\x6e\x63\145" => $RAvZ_], 200); goto mvP8Q; D3j1T: \LvLoX::FTz7f("\x64\145\x62\165\147")->insert(["\164\145\170\164" => "\x62\162\x6f\154\x6c\142\141\143\153\40\120\x72\145\123\164\141\164\x75\163\40\76\x20" . $W1qyR]); goto ebBdv; FECN2: $Dbxml->d1U9g->OnV0k("\x62\141\154\141\x6e\x63\x65", $MHtu1->e9w7B / 100); goto aYGvq; uzHOh: $QjjI3 = $WFz1w->sdzdL; goto pYcoc; z1nbO: $Dbxml = AVsUj::C_mHY("\151\x64", $IqEvu->ROWMV)->YrKR9(); goto iICaU; KByN5: $IqEvu->status = $MHtu1->yHt5T; goto rqNkW; sO07m: } public function JtYls(S9D5t $WFz1w) { } }
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Core as Helper;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Validator;
+use App\Models\User;
+use App\Models\BetbyTransaction;
+use App\Models\BetbyBetslip;
+use App\Models\Wallet;
+use Exception;
+
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
+
+use App\Models\DebugLogs;
+
+use App\Models\SportBetSummary;
+use App\Models\SportBetDiscards;
+use App\Models\SportBetParents;
+
+class BetbyApiController extends Controller
+{
+    protected $Settings;
+
+    public function __construct()
+    {
+        $this->Settings = Helper::getSetting();
+    }
+
+    public function decodeJwt($jwt) {
+        list($header, $payload, $signature) = explode('.', $jwt);
+
+        $decodedHeader = json_decode($this->base64UrlDecode($header), false);
+        $decodedPayload = json_decode($this->base64UrlDecode($payload), false);
+
+        return [
+            'header' => $decodedHeader,
+            'payload' => $decodedPayload,
+            'signature' => $signature
+        ];
+    }
+
+    public function base64UrlDecode($data) {
+        $base64 = strtr($data, '-_', '+/');
+        $paddedBase64 = str_pad($base64, strlen($base64) % 4, '=', STR_PAD_RIGHT);
+        return base64_decode($paddedBase64);
+    }
+
+    /**
+     * Método PING - Verificar disponibilidade da API
+     * GET /ping
+     */
+    public function ping(Request $request)
+    {
+        \DB::table('debug')->insert(['text' => 'bping > ' . json_encode($request->all())]);
+        return response()->json(['timestamp' => time()], 200);
+    }
+
+    /**
+     * Método BET_MAKE - Processar nova aposta
+     * POST /bet/make
+     */
+    public function betMake(Request $request)
+    {
+        return \DB::transaction(function () use ($request) {
+            try {
+                $data = json_decode(json_encode($request->all()), true);
+                $decoded = $this->decodeJwt($data['payload']);
+                $request = $decoded['payload']->payload;
+
+                \DB::table('debug')->insert(['text' => 'bmake > ' . json_encode($request)]);
+
+                if ($request->currency != "BRL") {
+                    return response()->json(["code" => 2002, "message" => "Invalid currency"], 400);
+                }
+
+                $Corte = explode('-', $request->player_id);
+                $UserID = $Corte[1];
+
+                $User = null;
+                $User = User::Where('id', $UserID)->lockForUpdate()->first();
+
+                if (!$User) {
+                    return response()->json(["code" => 1007, "message" => "Session is expired"], 400);
+                }
+
+                if ($User->banned == 1) {
+                    return response()->json(["code" => 1005, "message" => "Player is blocked"], 400);
+                }
+
+                $centsamount    = $request->amount;
+                $rsamount       = Helper::convertToRealAmount($centsamount);
+
+                $affected = DB::update(
+                    'UPDATE wallets SET balance = balance - ? WHERE user_id = ? AND balance >= ?',
+                    [ $rsamount, $User->id, $rsamount ]
+                );
+
+                if ($affected === 0) {
+                    return response()->json(["code" => 2001, "message" => "Not enough money"], 400);
+                }
+
+                if (!isset($request->transaction)) {
+                    return response()->json(["code" => 2004, "message" => "Bad request"], 400);
+                }
+
+                $player_id = $request->player_id;
+                $session_id = $request->session_id;
+                $transaction = $request->transaction;
+
+                $CheckDiscard = SportBetDiscards::Where('transaction_id', $transaction->id)->first();
+
+                if ($CheckDiscard) {
+                    return response()->json(["code" => 2004, "message" => "Bad request"], 400);
+                }
+
+                SportBetSummary::create([
+                    'provider' => 'betby',
+                    'user_id' => (string)$User->id,
+                    'transactionId' => $transaction->id,
+                    'operation' => 'make',
+                    'status' => 'Pending',
+                    'statusel' => 'Nil',
+                    'reason' => 'Nil',
+                    'amount' => $centsamount,
+                    'transaction' => json_encode($transaction),
+                    'betslip' => json_encode($request),
+                ]);
+
+                $balance = DB::table('wallets')->where('user_id', $User->id)->value('balance');
+                $balanceLong = (int)($balance * 100);
+
+                $IDX = $transaction->id;
+
+                $User->wallet()->update([
+                    'anti_bot' => DB::raw('GREATEST(0, anti_bot - ' . (int)$rsamount . ')')
+                ]);
+
+                $User->wallet()->update([
+                    'balance_bonus_rollover_used' => $User->wallet->balance_bonus_rollover_used + $rsamount
+                ]);
+
+                SportBetParents::Create([
+                    'tId' => $User->id,
+                    'transaction_id' => $transaction->id,
+                    'parent' => $transaction->id,
+                ]);
+
+                return response()->json([
+                    "id" => $IDX,
+                    "ext_transaction_id" => (string)$transaction->id,
+                    "parent_transaction_id" => null,
+                    "user_id" => $this->Settings->sportpartnername . '-' . $User->id,
+                    "operation" => "bet",
+                    "amount" => $centsamount,
+                    "currency" => "BRL",
+                    "balance" => $balanceLong,
+                ], 200);
+            } catch (Exception $e) {
+                return response()->json(["code" => 2004, "message" => "Bad request", "error" => $e->getMessage()], 400);
+            }
+        });
+    }
+
+    /**
+     * Método BET_COMMIT - Confirmar aposta aceita (opcional)
+     * POST /bet/commit
+     */
+    public function betCommit(Request $request)
+    {
+
+    }
+
+    /**
+     * Método BET_SETTLEMENT - Liquidação final da aposta
+     * POST /bet/settlement
+     */
+    public function betSettlement(Request $request)
+    {
+        $data       = json_decode(json_encode($request->all()), true);
+        $decoded    = $this->decodeJwt($data['payload']);
+        $request    = $decoded['payload']->payload;
+
+        \DB::table('debug')->insert(['text' => 'bsettlement > ' . json_encode($request)]);
+
+        $status = $request->status;
+        $bet_transaction_id = $request->bet_transaction_id;
+
+        SportBetSummary::Where('id', $bet_transaction_id)->update(['statusel' => $status]);
+        return response()->json([], 200);
+    }
+
+    /**
+     * Método BET_REFUND - Estorno de aposta cancelada
+     * POST /bet/refund
+     */
+    public function betRefund(Request $request)
+    {
+        $data       = json_decode(json_encode($request->all()), true);
+        $decoded    = $this->decodeJwt($data['payload']);
+        $request    = $decoded['payload']->payload;
+
+        \DB::table('debug')->insert(['text' => 'brefund > ' . json_encode($request)]);
+
+        $bet_transaction_id = $request->bet_transaction_id;
+        $reason = $request->reason;
+        $transaction = $request->transaction;
+
+        $tInfo = SportBetSummary::Where('transactionId', $bet_transaction_id)->first();
+
+        if ($tInfo){
+            $PreStatus = $tInfo->status;
+            $tInfo->status = $transaction->operation;
+            $tInfo->reason = $reason;
+            $tInfo->save();
+
+            $User = User::Where('id', $tInfo->user_id)->first();
+
+            if ($User){
+                if ($PreStatus != "refund") {
+                    //$User->wallet->balance += $transaction->amount / 100;
+                    //$User->wallet->save();
+                    $User->wallet->increment('balance', $transaction->amount / 100);
+                }
+
+                $balance = $User->wallet->balance;
+                $balanceLong = (int)($balance * 100);
+
+                $Parent = $transaction->parent_transaction_id;
+
+                SportBetParents::Create([
+                    'tId' => $User->id,
+                    'transaction_id' => $transaction->id,
+                    'parent' => $transaction->parent_transaction_id,
+                ]);
+
+                return response()->json([
+                    "id" => $transaction->id,
+                    "ext_transaction_id" => (string)$transaction->id,
+                    "parent_transaction_id" => $Parent,
+                    "user_id" => $this->Settings->sportpartnername . '-' . $User->id,
+                    "operation" => "refund",
+                    "amount" => $transaction->amount,
+                    "currency" => "BRL",
+                    "balance" => $balanceLong,
+                ], 200);
+            }
+        }else{
+            return response()->json([
+                "code" => 2003,
+                "message" => "Parent transaction not found",
+            ], 400);
+        }
+
+        return response()->json([], 200);
+    }
+
+    /**
+     * Método BET_WIN - Processar ganho de aposta
+     * POST /bet/win
+     */
+    public function betWin(Request $request)
+    {
+        $data       = json_decode(json_encode($request->all()), true);
+        $decoded    = $this->decodeJwt($data['payload']);
+        $request    = $decoded['payload']->payload;
+
+        \DB::table('debug')->insert(['text' => 'bwin > ' . json_encode($request)]);
+
+        $bet_transaction_id = $request->bet_transaction_id;
+        $transaction = $request->transaction;
+
+        $tInfo = SportBetSummary::Where('transactionId', $bet_transaction_id)->first();
+
+        if ($tInfo){
+            $PreStatus = $tInfo->status;
+            $tInfo->status = $transaction->operation;
+            $tInfo->amount_win = $request->amount;
+            $tInfo->cashout = $request->is_cashout;
+
+            $tInfo->save();
+
+            $User = User::Where('id', $tInfo->user_id)->first();
+
+            if ($User){
+                if ($PreStatus != "win") {
+                    //$User->wallet->balance += $transaction->amount / 100;
+                    //$User->wallet->save();
+                    $User->wallet->increment('balance', $transaction->amount / 100);
+
+                    if ($request->is_cashout) {
+                        $valor = ($request->amount >= $tInfo->amount) ? $tInfo->amount : $request->amount;
+
+                        $User->wallet->increment('anti_bot', $valor / 100);
+                    }
+                }
+
+                $balance = $User->wallet->balance;
+                $balanceLong = (int)($balance * 100);
+
+                SportBetParents::Create([
+                    'tId' => $User->id,
+                    'transaction_id' => $transaction->id,
+                    'parent' => $transaction->parent_transaction_id,
+                ]);
+
+                $Parent = $transaction->parent_transaction_id;
+
+                return response()->json([
+                    "id" => $transaction->id,
+                    "ext_transaction_id" => (string)$transaction->id,
+                    "parent_transaction_id" => $Parent,
+                    "user_id" => $this->Settings->sportpartnername . '-' . $User->id,
+                    "operation" => "win",
+                    "amount" => (int)$transaction->amount,
+                    "currency" => "BRL",
+                    "balance" => $balanceLong,
+                ], 200);
+            }
+        }else{
+            return response()->json([
+                "code" => 2003,
+                "message" => "Parent transaction not found",
+            ], 400);
+        }
+    }
+
+    /**
+     * Método BET_LOST - Processar perda de aposta
+     * POST /bet/lost
+     */
+    public function betLost(Request $request)
+    {
+        $data       = json_decode(json_encode($request->all()), true);
+        $decoded    = $this->decodeJwt($data['payload']);
+        $request    = $decoded['payload']->payload;
+
+        \DB::table('debug')->insert(['text' => 'blost > ' . json_encode($request)]);
+
+        $bet_transaction_id = $request->bet_transaction_id;
+        $transaction = $request->transaction;
+
+        $tInfo = SportBetSummary::Where('transactionId', $bet_transaction_id)->first();
+
+        if ($tInfo){
+            $tInfo->status = $transaction->operation;
+            $tInfo->save();
+
+            $User = User::Where('id', $tInfo->user_id)->first();
+
+            $balance = $User->wallet->balance;
+            $balanceLong = (int)($balance * 100);
+
+            if ($User){
+                $Parent = $transaction->parent_transaction_id;
+
+                SportBetParents::Create([
+                    'tId' => $User->id,
+                    'transaction_id' => $transaction->id,
+                    'parent' => $transaction->parent_transaction_id,
+                ]);
+
+                return response()->json([
+                    "id" => $transaction->id,
+                    "ext_transaction_id" => (string)$transaction->id,
+                    "parent_transaction_id" => $Parent,
+                    "user_id" => $this->Settings->sportpartnername . '-' . $User->id,
+                    "operation" => "lost",
+                    "balance" => $balanceLong
+                ], 200);
+            }
+        }else{
+            return response()->json([
+                "code" => 2003,
+                "message" => "Parent transaction not found",
+            ], 400);
+        }
+    }
+
+    /**
+     * Método BET_DISCARD - Descartar aposta devido a falha
+     * POST /bet/discard
+     */
+    public function betDiscard(Request $request)
+    {
+        $data       = json_decode(json_encode($request->all()), true);
+        $decoded    = $this->decodeJwt($data['payload']);
+        $request    = $decoded['payload']->payload;
+
+        \DB::table('debug')->insert(['text' => 'bdiscard > ' . json_encode($request)]);
+
+        $ext_player_id = $request->ext_player_id;
+        $transaction_id = $request->transaction_id;
+        $reason = $request->reason;
+
+        $tInfo = SportBetSummary::Where('transactionId', $transaction_id)->first();
+
+        $DInfo = SportBetDiscards::create([
+            'transaction_id' => $transaction_id,
+            'reason' => $reason,
+        ]);
+
+        if ($tInfo){
+            $tInfo->status = "discard";
+            $tInfo->reason = $reason;
+            $tInfo->save();
+
+            $User = User::Where('id', $tInfo->user_id)->first();
+
+            if ($User){
+                //$User->wallet->balance += $tInfo->amount / 100;
+                //$User->wallet->save();
+                $User->wallet->increment('balance', $tInfo->amount / 100);
+            }
+
+            return response()->json([], 200);
+        }
+
+        return response()->json([], 200);
+    }
+
+    /**
+     * Método BET_ROLLBACK - Rollback de aposta
+     * POST /bet/rollback
+     */
+    public function betRollback(Request $request)
+    {
+        $data       = json_decode(json_encode($request->all()), true);
+        $decoded    = $this->decodeJwt($data['payload']);
+        $request    = $decoded['payload']->payload;
+
+        \DB::table('debug')->insert(['text' => 'brollback > ' . json_encode($request)]);
+
+        $bet_transaction_id = $request->bet_transaction_id;
+        $transaction = $request->transaction;
+
+        $tInfo = SportBetSummary::Where('transactionId', $bet_transaction_id)->first();
+
+        if ($tInfo) {
+            $PreStatus = $tInfo->status;
+            $tInfo->status = $transaction->operation;
+            $tInfo->save();
+
+            $User = User::Where('id', $tInfo->user_id)->first();
+
+            if ($User){
+                \DB::table('debug')->insert(['text' => 'brollback PreStatus > ' . $PreStatus]);
+
+                $amount = 0;
+
+                if (($PreStatus == "win") or ($PreStatus == "refund")) {
+                    //$User->wallet->balance -= $transaction->amount / 100;
+                    //$User->wallet->save();
+                    $User->wallet->decrement('balance', $transaction->amount / 100);
+                    $amount = $transaction->amount;
+                }
+
+                /*if (($PreStatus == "win") or ($PreStatus == "canceled")) {
+                    \DB::table('debug')->insert(['text' => 'brollback Volta Saldo PreStatus > ' . $PreStatus ]);
+                    $User->wallet->balance -= $transaction->amount / 100;
+                    $User->wallet->save();
+                }*/
+
+                $balance = $User->wallet->balance;
+                $balanceLong = (int)($balance * 100);
+
+                $Parent = $transaction->parent_transaction_id;
+
+                SportBetParents::Create([
+                    'tId' => $User->id,
+                    'transaction_id' => $transaction->id,
+                    'parent' => $transaction->parent_transaction_id,
+                ]);
+
+                return response()->json([
+                    "id" => $transaction->id,
+                    "ext_transaction_id" => (string)$transaction->id,
+                    "parent_transaction_id" => $Parent,
+                    "user_id" => $this->Settings->sportpartnername . '-' . $User->id,
+                    "operation" => "rollback",
+                    "amount" => (int)$amount,
+                    "currency" => "BRL",
+                    "balance" => $balanceLong,
+                ], 200);
+            }
+        }else{
+            return response()->json([
+                "code" => 2003,
+                "message" => "Parent transaction not found",
+            ], 400);
+        }
+    }
+
+    /**
+     * Método PLAYER_SEGMENT - Atualizar segmento do jogador (opcional)
+     * PUT /player/segment
+     */
+    public function playerSegment(Request $request)
+    {
+    }
+}

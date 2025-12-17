@@ -1,8 +1,191 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89X\sHTeq\fn52M; use EC3mE\ShTEQ\S9D5T; use Ec3mE\h2VUV\p2QH1\Nxrov; use sHpK2\shpK2; use Jf89x\T0EtD\aVSuJ; use Jf89x\t0Etd\DieQD; use jF89x\T0etd\pSmYO; use jf89x\T0Etd\uMYa4; class DPOvo extends nMp37 { public function HBUr4(s9D5T $WFz1w) { goto JSOkA; IP10F: gqhoS: goto xYoVj; mP0CA: return LO0CY("\x6d\x69\156\x69\x67\141\155\145\163\56\x62\157\x78\144\x69\141\x72\x69\x61", compact("\165\x73\x65\x72", "\x72\141\156\x6b\151\x6e\x67", "\x6d\x69\163\163\x69\157\156\163\x43\x6f\155\160\154\145\164\x65\144", "\144\151\141\x73")); goto YtEUL; JSOkA: $e5HVA = Nxrov::yfGi_(); goto bprw5; L63Fj: $jsL0T = []; goto da0cF; O6fdc: $eZJ0l = $this->Isa1o($e5HVA->id, $SRJIE); goto ObcUl; MkUOV: $NZZvC = PsmYO::c_Mhy("\165\x73\x65\x72\137\x69\144", $e5HVA->id)->Th7AW("\x67\x69\x66\x74\137\144\141\164\x65", $SRJIE->format("\131\55\155\x2d\144"))->YrKr9(); goto ZyAKl; bprw5: if ($e5HVA) { goto gqhoS; } goto DEEzi; ZyAKl: MNdPH: goto toz0N; ObcUl: $NZZvC = null; goto wIarW; da0cF: $IzN49 = 6; goto yQpJi; huhPV: oXdGu: goto B1avs; YZB0z: St6pt: goto mP0CA; gFqyO: $d57Wd = sHPK2::oHj2r(); goto L63Fj; Tt6dh: $SRJIE = $d57Wd->copy()->jFBuc($IzN49); goto f8P40; Qptit: goto wSsFA; goto YZB0z; toz0N: $pogpe = $NZZvC ? ["\x70\162\x65\155\151\157" => $NZZvC->kYBkL, "\151\155\x61\x67\145\x6d" => $NZZvC->nst_R, "\x6e\157\155\x65" => $NZZvC->iPxyl] : $this->QTlEJ($SRJIE); goto CzmaK; DEEzi: return fh6X5()->wWy32("\154\157\147\x69\156"); goto IP10F; f8P40: $B632y = $SRJIE->format("\x64\x20\115"); goto O6fdc; B1avs: $IzN49--; goto Qptit; CzmaK: $jsL0T[] = ["\144\141\164\141" => $B632y, "\144\141\x74\141\x5f\x63\157\x6d\160\154\145\x74\141" => $SRJIE->format("\x59\x2d\155\55\144"), "\x63\x6c\x61\x69\155\145\144" => $eZJ0l, "\160\162\x65\x6d\151\x6f" => $pogpe["\x70\162\x65\155\151\x6f"], "\x70\x72\145\155\x69\x6f\137\x69\x6d\x61\147\x65\x6d" => $pogpe["\151\155\141\147\145\155"], "\x70\162\x65\155\x69\157\x5f\156\x6f\155\145" => $pogpe["\156\x6f\x6d\145"], "\155\151\163\163\145\144" => $SRJIE->iqh6h($d57Wd->copy()->vqUyu()) && !$eZJ0l, "\x69\163\137\x74\x6f\x64\141\171" => $SRJIE->nV7Ux($d57Wd)]; goto huhPV; AbQgF: if (!($IzN49 >= 0)) { goto St6pt; } goto Tt6dh; xYoVj: $GadLW = $e5HVA->CEBWD() ?? ["\x6c\x65\x76\145\x6c" => 1, "\156\x61\x6d\145" => "\x42\x72\157\x6e\172\x65", "\151\x6d\141\x67\x65" => "\x69\155\x67\57\x72\x61\156\153\x69\156\x67\57\x31\x2e\x70\x6e\x67", "\x63\x75\162\x72\x65\x6e\x74\137\144\x65\160\x6f\x73\x69\x74" => 0, "\x6e\145\x78\164\137\x6c\x65\166\145\154" => 2, "\156\145\170\164\137\154\x65\166\145\x6c\x5f\144\x65\160\157\x73\x69\164" => 200, "\160\x72\157\147\162\145\163\163" => 0, "\150\141\x73\x5f\x72\145\x77\141\162\144" => false, "\162\145\167\141\162\x64\x5f\x69\x64" => null]; goto TA7IL; yQpJi: wSsFA: goto AbQgF; wIarW: if (!$eZJ0l) { goto MNdPH; } goto MkUOV; TA7IL: $ANdzr = \jF89X\t0Etd\FU5Rm::c_mHy("\165\163\145\162\x5f\151\x64", $e5HVA->id)->rktIR("\x63\x6f\155\160\x6c\x65\x74\x65\x64\x5f\x61\164")->count(); goto gFqyO; YtEUL: } private function iSa1o($k26uY, Shpk2 $SRJIE) { return PsmYo::L4_3r($k26uY, $SRJIE->format("\131\55\155\55\x64")); } private function qtLEj(shPK2 $SRJIE) { goto xtRM5; iTinF: return $AfwF0[$j0ftQ]; goto wxff5; TSy4Z: $j0ftQ = $SRJIE->D0vSo % count($AfwF0); goto iTinF; xtRM5: $AfwF0 = [["\x70\x72\x65\x6d\x69\x6f" => "\x72\141\163\160\x61\x64\x69\x6e\150\x61", "\151\x6d\141\147\x65\155" => "\x68\x74\164\160\x73\72\57\x2f\x64\x31\64\x36\x62\x34\x6d\67\x72\153\x76\152\153\x77\56\x63\154\x6f\x75\144\x66\162\157\x6e\x74\56\x6e\145\x74\57\x32\141\64\64\x33\144\x66\67\64\146\x31\x33\x36\66\x30\65\x37\61\61\70\x33\x31\x2d\122\x41\123\120\x41\104\x49\x4e\110\x41\103\117\x4d\111\x50\x48\117\x4e\x45\62\x35\x36\56\160\156\x67", "\x6e\x6f\x6d\x65" => "\122\141\163\160\x61\x64\x69\x6e\x68\141\x20\143\x6f\155\40\x69\120\x68\x6f\x6e\145"], ["\160\162\145\155\x69\x6f" => "\x72\x6f\154\x65\x74\x61", "\x69\155\141\x67\145\x6d" => "\150\164\x74\160\x73\72\57\57\144\x31\64\66\142\64\155\x37\x72\153\166\x6a\153\x77\x2e\143\x6c\x6f\165\144\146\162\157\156\164\56\156\x65\x74\x2f\67\x31\60\143\x30\61\66\141\145\x34\x31\x66\61\x64\x35\x31\65\x30\62\66\x33\x39\x2d\122\117\x4c\105\x54\x41\103\117\x4d\111\120\x48\x4f\116\105\62\65\66\x2e\160\156\x67", "\156\x6f\155\145" => "\x52\157\x6c\x65\x74\141\40\x63\157\155\40\151\x50\150\x6f\x6e\x65"], ["\x70\162\145\x6d\x69\x6f" => "\152\157\x67\x6f", "\x69\155\x61\x67\145\x6d" => "\x68\x74\x74\160\x73\x3a\x2f\x2f\x64\61\64\66\x62\64\x6d\x37\162\x6b\166\152\x6b\167\x2e\143\154\x6f\165\144\x66\x72\157\x6e\x74\56\156\145\x74\57\x61\x62\x32\144\67\65\67\x62\70\x37\63\x66\144\x38\64\x31\x30\70\67\x39\67\142\x2d\115\x41\123\124\105\122\112\x4f\x4b\105\122\x32\65\66\x2e\160\156\x67", "\156\x6f\x6d\x65" => "\115\x61\163\164\x65\x72\40\x4a\157\x6b\145\162"], ["\x70\x72\145\x6d\151\157" => "\144\x72\x61\147\x6f\x65\x73", "\x69\x6d\141\x67\145\155" => "\x68\x74\164\x70\x73\x3a\57\57\x64\61\x34\66\x62\x34\155\x37\162\x6b\x76\x6a\x6b\167\x2e\143\154\157\165\144\x66\x72\x6f\156\164\x2e\x6e\x65\x74\x2f\62\x66\146\71\x61\64\62\71\x66\x34\x66\x31\143\x39\146\61\x66\66\x38\70\145\x39\x2d\70\x38\70\144\x72\x61\x67\x6f\x6e\x73\x32\x35\66\x2e\x70\156\147", "\x6e\157\x6d\145" => "\70\x38\70\40\104\x72\x61\x67\x6f\156\163"]]; goto TSy4Z; wxff5: } public function F_vuR(S9d5T $WFz1w) { goto y6Tf1; QZuxI: if (!$this->isA1O($e5HVA->id, $nvETq)) { goto DyqlM; } goto UxuXP; Z1Bqw: DyqlM: goto Ul5t3; jEAHH: $nvETq = shPk2::KJT_j($SRJIE); goto QZuxI; Yxsg3: return jGKRL()->SbE1q(["\163\x75\143\x63\x65\x73\163" => true, "\x6d\x65\163\x73\141\x67\x65" => "\120\x72\xc3\252\x6d\151\157\x20\x72\x65\143\145\142\151\x64\157\x20\143\x6f\x6d\40\x73\165\x63\x65\x73\163\157\41", "\x70\x72\x65\155\x69\157" => $pogpe]); goto HQyra; SfD1_: return JGKrL()->sbE1q(["\x73\165\143\143\145\163\x73" => false, "\155\145\163\163\141\x67\x65" => "\125\163\165\303\xa1\162\151\x6f\40\156\xc3\243\x6f\x20\x61\x75\x74\x65\156\x74\151\x63\x61\x64\x6f"], 401); goto vkMqE; y6Tf1: $e5HVA = NxroV::yFGI_(); goto b6fl0; UxuXP: return JGKRl()->SBe1Q(["\163\165\x63\143\145\163\x73" => false, "\155\x65\163\x73\x61\147\x65" => "\126\157\x63\303\252\40\152\303\241\40\162\145\x63\x65\x62\x65\x75\x20\x65\x73\164\145\40\x70\162\xc3\252\x6d\x69\157"], 400); goto Z1Bqw; vkMqE: sxNm2: goto ulPCa; ulPCa: $SRJIE = $WFz1w->Pc2Lr("\144\141\x74\x61", Shpk2::Ohj2R()->format("\131\x2d\155\55\144")); goto jEAHH; JLe1N: NgzwR: goto kLOnK; Cw39U: PSmYO::HmyV9($e5HVA->id, $nvETq->format("\131\x2d\155\x2d\x64"), $pogpe["\x70\x72\145\155\x69\157"], $pogpe["\x6e\157\155\x65"], $pogpe["\151\x6d\x61\147\145\x6d"]); goto Yxsg3; Ul5t3: if (!$nvETq->BpNj2(sHPk2::ohj2R())) { goto NgzwR; } goto bn0N4; kLOnK: $pogpe = $this->QtlEj($nvETq); goto Cw39U; b6fl0: if ($e5HVA) { goto sxNm2; } goto SfD1_; bn0N4: return JGKrL()->sbe1Q(["\x73\165\x63\x63\145\x73\163" => false, "\x6d\x65\x73\x73\141\147\145" => "\126\157\143\303\xaa\40\156\xc3\243\x6f\x20\x70\x6f\x64\145\40\x72\x65\x63\x65\142\145\x72\x20\160\162\303\252\x6d\x69\157\163\40\x66\165\x74\165\162\157\163"], 400); goto JLe1N; HQyra: } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Carbon\Carbon;
+use App\Models\User;
+use App\Models\Transactions;
+use App\Models\DailyGift;
+use App\Models\GameHistory;
+
+class MinigamesController extends Controller
+{
+    /**
+     * Exibe a página do presente diário
+     *
+     * @param Request $request
+     * @return \Illuminate\View\View
+     */
+    public function boxDiaria(Request $request)
+    {
+        $user = Auth::user();
+
+        // Se o usuário não estiver autenticado, redireciona para login
+        if (!$user) {
+            return redirect()->route('login');
+        }
+
+        // Obtém o ranking do usuário
+        $ranking = $user->getRanking() ?? [
+            'level' => 1,
+            'name' => 'Bronze',
+            'image' => 'img/ranking/1.png',
+            'current_deposit' => 0,
+            'next_level' => 2,
+            'next_level_deposit' => 200,
+            'progress' => 0,
+            'has_reward' => false,
+            'reward_id' => null
+        ];
+
+        // Obtém o total de missões concluídas
+        $missionsCompleted = \App\Models\MissionCompletion::where('user_id', $user->id)
+            ->whereNotNull('completed_at')
+            ->count();
+
+        // Obtém os últimos 7 dias para os prêmios diários
+        $hoje = Carbon::now();
+        $dias = [];
+        
+        // Cria um array com os dados dos últimos 7 dias
+        for ($i = 6; $i >= 0; $i--) {
+            $data = $hoje->copy()->subDays($i);
+            $formattedDate = $data->format('d M'); // Formato: "08 jun"
+            
+            // Verifica se o usuário já recebeu o prêmio neste dia
+            $premioClaimed = $this->verificaPremioRecebido($user->id, $data);
+            
+            // Obtém informações sobre o presente recebido, se houver
+            $presenteInfo = null;
+            if ($premioClaimed) {
+                $presenteInfo = DailyGift::where('user_id', $user->id)
+                    ->whereDate('gift_date', $data->format('Y-m-d'))
+                    ->first();
+            }
+            
+            // Obtém o prêmio disponível para o dia
+            $premioInfo = $presenteInfo ? [
+                'premio' => $presenteInfo->gift_type,
+                'imagem' => $presenteInfo->gift_image,
+                'nome' => $presenteInfo->gift_name
+            ] : $this->getPremioInfo($data);
+            
+            $dias[] = [
+                'data' => $formattedDate,
+                'data_completa' => $data->format('Y-m-d'),
+                'claimed' => $premioClaimed,
+                'premio' => $premioInfo['premio'],
+                'premio_imagem' => $premioInfo['imagem'],
+                'premio_nome' => $premioInfo['nome'],
+                'missed' => $data->lt($hoje->copy()->startOfDay()) && !$premioClaimed,
+                'is_today' => $data->isSameDay($hoje)
+            ];
+        }
+
+        // Retorna a view com os dados necessários
+        return view('minigames.boxdiaria', compact('user', 'ranking', 'missionsCompleted', 'dias'));
+    }
+
+    /**
+     * Verifica se o usuário já recebeu o prêmio em uma determinada data
+     *
+     * @param int $userId ID do usuário
+     * @param Carbon $data Data para verificação
+     * @return bool
+     */
+    private function verificaPremioRecebido($userId, Carbon $data)
+    {
+        // Verifica no banco de dados se o usuário já recebeu o prêmio nesta data
+        return DailyGift::hasUserClaimedOnDate($userId, $data->format('Y-m-d'));
+    }
+
+    /**
+     * Obtém informações sobre o prêmio disponível para uma data específica
+     *
+     * @param Carbon $data Data para a qual buscar o prêmio
+     * @return array Informações do prêmio
+     */
+    private function getPremioInfo(Carbon $data)
+    {
+        // Em uma implementação real, você buscaria essas informações no banco de dados
+        // Aqui estamos usando um array simulado com opções de prêmios
+
+        $premios = [
+            [
+                'premio' => 'raspadinha',
+                'imagem' => 'https://d146b4m7rkvjkw.cloudfront.net/2a443df74f136605711831-RASPADINHACOMIPHONE256.png',
+                'nome' => 'Raspadinha com iPhone'
+            ],
+            [
+                'premio' => 'roleta',
+                'imagem' => 'https://d146b4m7rkvjkw.cloudfront.net/710c016ae41f1d51502639-ROLETACOMIPHONE256.png',
+                'nome' => 'Roleta com iPhone'
+            ],
+            [
+                'premio' => 'jogo',
+                'imagem' => 'https://d146b4m7rkvjkw.cloudfront.net/ab2d757b873fd84108797b-MASTERJOKER256.png',
+                'nome' => 'Master Joker'
+            ],
+            [
+                'premio' => 'dragoes',
+                'imagem' => 'https://d146b4m7rkvjkw.cloudfront.net/2ff9a429f4f1c9f1f688e9-888dragons256.png',
+                'nome' => '888 Dragons'
+            ]
+        ];
+
+        // Usa o dia da semana como índice para selecionar o prêmio
+        $index = $data->dayOfWeek % count($premios);
+        return $premios[$index];
+    }
+
+    /**
+     * Processa a solicitação para receber o prêmio diário
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function receberPremio(Request $request)
+    {
+        $user = Auth::user();
+        
+        // Verifica se o usuário está autenticado
+        if (!$user) {
+            return response()->json(['success' => false, 'message' => 'Usuário não autenticado'], 401);
+        }
+        
+        // Obtém a data do prêmio a ser recebido
+        $data = $request->input('data', Carbon::now()->format('Y-m-d'));
+        $dataCarbon = Carbon::parse($data);
+        
+        // Verifica se o usuário já recebeu o prêmio nesta data
+        if ($this->verificaPremioRecebido($user->id, $dataCarbon)) {
+            return response()->json(['success' => false, 'message' => 'Você já recebeu este prêmio'], 400);
+        }
+        
+        // Verifica se está tentando receber um prêmio futuro
+        if ($dataCarbon->gt(Carbon::now())) {
+            return response()->json(['success' => false, 'message' => 'Você não pode receber prêmios futuros'], 400);
+        }
+        
+        // Obtém as informações do prêmio
+        $premioInfo = $this->getPremioInfo($dataCarbon);
+        
+        // Registra que o usuário recebeu o prêmio
+        DailyGift::registerGift(
+            $user->id, 
+            $dataCarbon->format('Y-m-d'),
+            $premioInfo['premio'],
+            $premioInfo['nome'],
+            $premioInfo['imagem']
+        );
+        
+        // Retorna resposta de sucesso com informações do prêmio
+        return response()->json([
+            'success' => true, 
+            'message' => 'Prêmio recebido com sucesso!',
+            'premio' => $premioInfo
+        ]);
+    }
+} 

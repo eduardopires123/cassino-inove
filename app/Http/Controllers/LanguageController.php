@@ -1,8 +1,145 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\shtEq\FN52m; use ec3me\shTeq\s9d5t; use ec3ME\h2vuv\p2qH1\jF89x; use Ec3Me\h2vUv\p2Qh1\nxRov; use EC3me\H2Vuv\p2Qh1\GYsWE; use Ec3mE\H2vUV\p2qH1\DjlvJ; use eC3mE\H2vUv\p2Qh1\DwMsC; use eC3mE\H2vuV\p2qh1\Log; class w6jku extends NMP37 { const zot3I = array("\160\x74\x5f\102\122", "\145\156", "\x65\163"); public function switch(S9d5t $WFz1w, $wJwb1 = null) { goto lgIOo; DlwSP: S6LOy: goto zlzwY; lgIOo: if (!($WFz1w->o_ZtJ("\x70\x6f\x73\x74") && $WFz1w->q_Xxm())) { goto bAZSZ; } goto k7zbL; M7G_e: return Fh6x5()->JYyRV()->RNjFy("\x65\x72\x72\x6f\162", "\x49\x64\x69\x6f\155\141\x20\151\156\x76\303\xa1\154\151\x64\157"); goto DlwSP; zlzwY: try { goto NARDj; kBg5X: Log::info("\111\x64\x69\x6f\x6d\x61\x20\141\x6c\164\x65\x72\x61\x64\x6f\40\160\141\x72\141\x3a\x20{$wJwb1}", ["\165\x73\x65\x72\137\x69\x64" => NxROV::pTueJ() ?? "\x67\x75\145\163\x74", "\x69\160" => $WFz1w->qw_yb(), "\x6d\145\x74\x68\x6f\144" => $WFz1w->o_ZTJ("\x70\x6f\x73\164") ? "\x41\x4a\101\x58" : "\107\x45\124"]); goto oEZhp; lDYrj: return Fh6x5("\57")->Wxbm5($XVpjP)->rnJfy("\x73\165\x63\x63\145\163\x73", "\111\144\151\157\x6d\141\x20\x61\154\164\x65\x72\141\x64\157\x20\x63\157\x6d\x20\x73\x75\143\x65\163\163\157"); goto PnI8O; Bo2mP: $e5HVA = NxRov::YFgI_(); goto PkCz0; RRnR8: return JGkRL()->sbe1Q(["\163\165\143\x63\145\163\x73" => true, "\155\145\x73\x73\141\x67\x65" => "\x49\x64\x69\157\x6d\x61\x20\141\154\x74\145\162\x61\x64\x6f\x20\x63\x6f\x6d\40\x73\x75\143\x65\x73\163\157", "\x6c\157\143\x61\154\x65" => $wJwb1])->wXbm5($XVpjP); goto z4AWS; ELWnu: $XVpjP = gYswE::YkI_I("\x75\x73\x65\x72\137\154\x6f\x63\141\154\145", $wJwb1, 525600); goto kBg5X; Nzl3t: X4lGh: goto ELWnu; z4AWS: S7hHb: goto lDYrj; cKMDA: $e5HVA->save(); goto Nzl3t; iAli4: if (!NXROv::c_4Hv()) { goto X4lGh; } goto Bo2mP; NARDj: $this->JfAQU(); goto iAli4; PkCz0: $e5HVA->Q2YCO = $wJwb1; goto cKMDA; oEZhp: if (!$WFz1w->q_XXM()) { goto S7hHb; } goto RRnR8; PnI8O: } catch (\Exception $ai57B) { goto XWRaN; nop4A: return jgKRl()->sBE1Q(["\163\x75\143\x63\145\x73\x73" => false, "\x6d\x65\163\163\x61\147\x65" => "\x45\162\162\x6f\x20\x61\x6f\x20\141\154\x74\x65\x72\141\x72\40\151\x64\151\x6f\155\x61"], 500); goto TZ7zE; oAYRs: return fh6X5()->jYyRv()->RNJFY("\x65\162\x72\x6f\162", "\105\x72\162\x6f\x20\x61\x6f\40\141\x6c\164\x65\x72\x61\x72\40\x69\x64\151\157\x6d\x61"); goto t0OJG; XWRaN: Log::P2m7E("\x45\162\x72\x6f\x20\141\157\x20\141\x6c\x74\x65\162\141\x72\40\151\x64\x69\157\155\x61\x3a\40" . $ai57B->getMessage(), ["\x6c\x6f\x63\x61\x6c\x65" => $wJwb1, "\165\163\x65\x72\137\151\144" => nXRov::Ptuej() ?? "\147\x75\145\163\x74"]); goto Bb7iR; TZ7zE: DiZF0: goto oAYRs; Bb7iR: if (!$WFz1w->Q_xXM()) { goto DiZF0; } goto nop4A; t0OJG: } goto kQFd1; ik2d1: bAZSZ: goto TupT0; FNcI1: if (!$WFz1w->Q_Xxm()) { goto QpGqn; } goto gZbHk; TupT0: if (!(!$wJwb1 || !in_array($wJwb1, self::zot3I))) { goto S6LOy; } goto FNcI1; S3ICq: QpGqn: goto M7G_e; k7zbL: $wJwb1 = $WFz1w->pC2LR("\154\141\x6e\147\165\141\x67\x65") ?? $WFz1w->Pc2LR("\x6c\157\143\x61\x6c\145"); goto ik2d1; gZbHk: return jGKRL()->SBe1Q(["\x73\x75\x63\143\145\163\163" => false, "\155\145\163\x73\141\147\145" => "\x49\144\151\157\x6d\141\40\x69\x6e\x76\303\xa1\x6c\x69\144\157"], 400); goto S3ICq; kQFd1: } public function wYi7O() { try { goto NV2fF; NV2fF: $this->jfAQu(); goto r5Iw5; r5Iw5: Log::info("\x43\157\x6f\x6b\151\x65\x20\144\145\x20\x69\144\151\x6f\x6d\141\x20\162\x65\x6d\x6f\x76\x69\144\157\54\40\x76\157\x6c\x74\141\156\x64\x6f\40\x61\x6f\40\151\144\151\x6f\155\141\40\160\141\x64\x72\303\xa3\x6f"); goto rFej3; rFej3: return fH6x5("\x2f")->WXBM5(gysWE::JCIRA("\x75\163\145\162\137\x6c\x6f\x63\x61\x6c\145"))->rNjFY("\x73\x75\143\x63\x65\x73\163", "\x49\144\x69\157\155\x61\x20\x72\x65\x73\145\x74\x61\x64\x6f\40\160\141\x72\141\x20\x6f\40\160\141\144\x72\303\xa3\x6f"); goto ii4h_; ii4h_: } catch (\Exception $ai57B) { Log::p2M7e("\x45\162\162\x6f\x20\x61\x6f\x20\x6c\x69\x6d\160\x61\x72\x20\143\x6f\157\x6b\151\145\40\144\145\x20\151\144\151\157\x6d\141\72\40" . $ai57B->getMessage()); return fH6x5()->JyyRV()->rNjfy("\145\162\162\157\x72", "\x45\x72\x72\157\40\141\x6f\40\162\x65\163\x65\164\141\x72\40\151\144\x69\157\x6d\x61"); } } private function JFaqU() { try { goto zGBOc; bWNNx: Log::info("\124\x6f\144\157\163\x20\157\x73\40\x63\141\x63\150\145\x73\40\x66\157\x72\141\155\x20\x6c\151\155\160\x6f\x73\40\143\157\x6d\x20\x73\165\143\145\163\163\x6f"); goto jLJ7a; Kci8K: djlvj::flush(); goto MIsNv; MIsNv: DwmsC::call("\166\x69\145\x77\72\143\154\145\141\162"); goto kavBW; yGja8: dwMsC::call("\162\157\165\164\x65\72\x63\154\x65\141\x72"); goto uA1t1; kavBW: dWmsc::call("\x63\x6f\156\146\x69\147\72\x63\x6c\x65\x61\x72"); goto yGja8; uA1t1: try { DwMSC::call("\x65\166\145\x6e\x74\x3a\143\x6c\x65\x61\x72"); } catch (\Exception $ai57B) { } goto bWNNx; zGBOc: \Jf89x\shteQ\fN52m\K2SfK::RcRFb(); goto Kci8K; jLJ7a: } catch (\Exception $ai57B) { Log::p2m7E("\105\162\x72\157\40\141\157\x20\x6c\x69\155\160\141\162\x20\x63\x61\143\150\x65\163\x3a\40" . $ai57B->getMessage()); throw $ai57B; } } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Log;
+
+class LanguageController extends Controller
+{
+    /**
+     * Idiomas suportados pelo sistema
+     */
+    const SUPPORTED_LOCALES = ['pt_BR', 'en', 'es'];
+    
+    /**
+     * Trocar idioma (método principal)
+     * Usado tanto para AJAX quanto para redirect
+     */
+    public function switch(Request $request, $locale = null)
+    {
+        // Se for AJAX, pegar locale do request
+        if ($request->isMethod('post') && $request->expectsJson()) {
+            $locale = $request->input('language') ?? $request->input('locale');
+        }
+        
+        // Validar idioma
+        if (!$locale || !in_array($locale, self::SUPPORTED_LOCALES)) {
+            if ($request->expectsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Idioma inválido'
+                ], 400);
+            }
+            return redirect()->back()->with('error', 'Idioma inválido');
+        }
+        
+        try {
+            // 1. Limpar TODO o cache
+            $this->clearAllCaches();
+            
+            // 2. Salvar idioma no usuário logado (se houver)
+            if (Auth::check()) {
+                $user = Auth::user();
+                $user->language = $locale;
+                $user->save();
+            }
+            
+            // 3. Criar cookie com nova preferência
+            $cookie = Cookie::make('user_locale', $locale, 525600); // 1 ano
+            
+            // 4. Log da operação
+            Log::info("Idioma alterado para: {$locale}", [
+                'user_id' => Auth::id() ?? 'guest',
+                'ip' => $request->ip(),
+                'method' => $request->isMethod('post') ? 'AJAX' : 'GET'
+            ]);
+            
+            // 5. Retornar resposta adequada
+            if ($request->expectsJson()) {
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Idioma alterado com sucesso',
+                    'locale' => $locale
+                ])->withCookie($cookie);
+            }
+            
+            return redirect('/')->withCookie($cookie)->with('success', 'Idioma alterado com sucesso');
+            
+        } catch (\Exception $e) {
+            Log::error('Erro ao alterar idioma: ' . $e->getMessage(), [
+                'locale' => $locale,
+                'user_id' => Auth::id() ?? 'guest'
+            ]);
+            
+            if ($request->expectsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao alterar idioma'
+                ], 500);
+            }
+            
+            return redirect()->back()->with('error', 'Erro ao alterar idioma');
+        }
+    }
+    
+    /**
+     * Limpar cookie de idioma (voltar para o padrão)
+     */
+    public function clear()
+    {
+        try {
+            $this->clearAllCaches();
+            
+            Log::info('Cookie de idioma removido, voltando ao idioma padrão');
+            
+            return redirect('/')->withCookie(Cookie::forget('user_locale'))
+                ->with('success', 'Idioma resetado para o padrão');
+                
+        } catch (\Exception $e) {
+            Log::error('Erro ao limpar cookie de idioma: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'Erro ao resetar idioma');
+        }
+    }
+    
+    /**
+     * Limpar todos os caches do sistema
+     */
+    private function clearAllCaches()
+    {
+        try {
+            // 1. Cache específico das partials (footer, sidebar, etc.)
+            \App\Http\Controllers\PartialsController::clearPartialsCache();
+            
+            // 2. Cache do Laravel (Redis/File)
+            Cache::flush();
+            
+            // 3. Limpar views compiladas
+            Artisan::call('view:clear');
+            
+            // 4. Limpar cache de configuração
+            Artisan::call('config:clear');
+            
+            // 5. Limpar cache de rotas
+            Artisan::call('route:clear');
+            
+            // 6. Limpar cache de eventos (se existir)
+            try {
+                Artisan::call('event:clear');
+            } catch (\Exception $e) {
+                // Ignorar se não existir
+            }
+            
+            Log::info('Todos os caches foram limpos com sucesso');
+            
+        } catch (\Exception $e) {
+            Log::error('Erro ao limpar caches: ' . $e->getMessage());
+            throw $e;
+        }
+    }
+}

@@ -1,8 +1,344 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:49              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace nR8e2\yfU0e; use Q7Q4H\hremd\RKRc8\hy402; use q7q4h\HrEMD\Rkrc8\xuDcz; use q7Q4H\hReMd\rkRC8\Hash; use q7Q4h\hRemD\LHBeq; use nr8E2\H7dTb\tRR30; use YJ_ea\yJ_eA; class BMxlK { const hCxHT = 300; const TVGIC = 10; public function p_ibY(int $X67Ei, int $UR4ny, array $B6czP) : array { goto YCGq8; ZsOWH: $fuX2O = "\162\141\163\x70\141\144\x69\x6e\150\x61\137\163\145\163\x73\151\157\156\137{$gGWOe}"; goto wZ3FN; oVdg6: $tua3G = hy402::get($nDt1U, []); goto gAPLN; XRgW5: $this->YmOLi($X67Ei); goto ZsOWH; dAM0N: $MQQrs = ["\x73\x65\163\x73\151\x6f\x6e\137\x69\x64" => $gGWOe, "\165\x73\x65\x72\137\151\144" => $X67Ei, "\x72\141\x73\x70\141\x64\151\156\150\141\137\x69\x64" => $UR4ny, "\143\x72\x65\141\x74\x65\144\137\141\164" => ubE84(), "\x65\170\160\151\x72\145\163\x5f\x61\x74" => UBE84()->pO4M3(self::hCxHT), "\x73\164\141\x74\x65" => "\143\x72\x65\x61\164\x65\x64", "\147\x61\x6d\x65\x5f\x64\141\x74\141" => $B6czP, "\151\160\137\x61\144\144\x72\145\x73\163" => ohgHB()->Ju3hz(), "\165\163\145\x72\137\x61\147\x65\x6e\164" => oHGHB()->Xv1aC(), "\143\150\145\143\x6b\x73\x75\x6d" => $this->uXizh($B6czP)]; goto XRgW5; gAPLN: $tua3G[] = $gGWOe; goto NjKA2; LATLs: $ay4a0 = $this->kweCY($X67Ei, $UR4ny, $gGWOe); goto dAM0N; dYx7n: return ["\163\145\x73\163\151\x6f\156\x5f\164\x6f\x6b\x65\x6e" => $ay4a0, "\163\145\x73\163\x69\157\156\x5f\151\x64" => $gGWOe, "\x65\x78\160\151\162\145\x73\137\x61\x74" => $MQQrs["\145\170\160\x69\162\x65\x73\x5f\141\x74"]->nJfyZ]; goto F40TQ; YCGq8: $gGWOe = $this->s95ES(); goto LATLs; NjKA2: HY402::PG79a($nDt1U, array_slice($tua3G, -self::TVGIC), self::hCxHT); goto dYx7n; wDlS5: $nDt1U = "\x72\x61\163\160\141\x64\x69\x6e\x68\x61\137\165\x73\x65\x72\137\x73\145\163\x73\151\157\156\x73\x5f{$X67Ei}"; goto oVdg6; wZ3FN: hy402::pG79a($fuX2O, $MQQrs, self::hCxHT); goto wDlS5; F40TQ: } public function VcGfU(string $ay4a0, int $X67Ei) : ?array { goto UnGib; GjCis: if ($this->bAK_Z($MQQrs, $OiV0d)) { goto mARpB; } goto jS7pj; e5tVu: return null; goto eFMPY; eFMPY: UJr5O: goto SnOaq; YUcWb: mARpB: goto oMppV; kOexy: mof_S: goto GjCis; Z0DbN: $MQQrs = hy402::get($fuX2O); goto JhG1t; jS7pj: $this->RThU7($OiV0d["\x73\x65\x73\163\151\157\156\137\x69\144"]); goto k53VC; JhG1t: if ($MQQrs) { goto aqdwi; } goto VK_HL; VK_HL: return null; goto FUCal; ByF7s: $this->RtHu7($OiV0d["\x73\145\x73\x73\151\157\156\x5f\151\x64"]); goto rts11; UnGib: $OiV0d = $this->DEscB($ay4a0); goto uTbEI; oMppV: return $MQQrs; goto EpR_y; uTbEI: if (!(!$OiV0d || $OiV0d["\x75\163\x65\162\137\151\x64"] !== $X67Ei)) { goto UJr5O; } goto e5tVu; DbvLt: if (!UBe84()->ICSMT($MQQrs["\x65\170\x70\151\162\x65\163\x5f\141\164"])) { goto mof_S; } goto ByF7s; rts11: return null; goto kOexy; k53VC: return null; goto YUcWb; SnOaq: $fuX2O = "\162\141\163\160\x61\144\x69\x6e\x68\141\x5f\163\145\163\x73\x69\x6f\x6e\x5f{$OiV0d["\x73\x65\163\163\151\157\156\x5f\151\x64"]}"; goto Z0DbN; FUCal: aqdwi: goto DbvLt; EpR_y: } public function g1eIB(string $gGWOe, string $nwA_i, array $dRpsd = []) : bool { goto uJnwr; JZ7ec: $MQQrs["\165\x70\144\x61\x74\145\x64\x5f\x61\x74"] = ubE84(); goto ce44c; JdWJS: $S836F = ["\143\x72\145\x61\x74\145\144" => ["\160\x6c\x61\171\x69\x6e\147", "\143\x6f\155\x70\154\x65\x74\x65\144"], "\x70\154\141\x79\x69\156\x67" => ["\143\154\x61\x69\155\151\156\x67", "\143\157\x6d\160\154\145\x74\145\x64"], "\x63\x6c\141\151\155\x69\x6e\x67" => ["\143\157\x6d\x70\x6c\145\x74\x65\x64"], "\x63\157\x6d\160\x6c\145\164\145\144" => []]; goto gUx6G; MFCCe: u1XUH: goto JdWJS; ce44c: $MQQrs = array_merge($MQQrs, $dRpsd); goto wE1NC; fQDm2: return false; goto U3h9H; S9b7l: $MQQrs["\x63\150\x65\x63\x6b\x73\x75\x6d"] = $this->Uxizh($dRpsd["\x67\141\x6d\145\x5f\x64\x61\164\141"]); goto q0hh3; wE1NC: if (!isset($dRpsd["\x67\x61\155\x65\x5f\144\141\x74\x61"])) { goto rNB3m; } goto S9b7l; Aa4J4: return true; goto rSXGb; q0hh3: rNB3m: goto A8OGq; c2KwV: $MQQrs["\x73\x74\x61\x74\x65"] = $nwA_i; goto JZ7ec; YzKE5: return false; goto MFCCe; U3h9H: wNRhV: goto c2KwV; Or7Iu: if ($MQQrs) { goto u1XUH; } goto YzKE5; E2oTJ: if (!(!isset($S836F[$cxf8c]) || !in_array($nwA_i, $S836F[$cxf8c]))) { goto wNRhV; } goto fQDm2; J7kFE: $MQQrs = Hy402::get($fuX2O); goto Or7Iu; A8OGq: HY402::pG79A($fuX2O, $MQQrs, self::hCxHT); goto Aa4J4; gUx6G: $cxf8c = $MQQrs["\x73\164\141\164\145"]; goto E2oTJ; uJnwr: $fuX2O = "\162\x61\x73\160\x61\144\151\156\150\141\x5f\x73\x65\163\163\151\x6f\x6e\137{$gGWOe}"; goto J7kFE; rSXGb: } public function zywlN(string $ay4a0, int $sAd7J) : bool { goto HKF3B; zhlRH: return false; goto JaA2s; W_yPF: if ($MQQrs) { goto yZ8Kr; } goto E1BaE; a7bqA: return false; goto sUf7D; WMfpk: cE0Ts: goto NDnNB; FmqEh: yZ8Kr: goto WKdE_; q7J42: $ZBgFm = TRR30::JIw67("\x69\144", $sAd7J)->jiW67("\x75\163\145\162\x5f\x69\x64", $MQQrs["\165\x73\145\162\137\151\x64"])->jiw67("\x73\164\x61\x74\x75\x73", "\160\145\156\x64\151\156\147")->ko7RR(); goto BceVg; NIw_0: return true; goto J4se2; JaA2s: xkSVl: goto axgFc; pPIhQ: return false; goto dOzj0; axgFc: if (!(!isset($MQQrs["\150\x69\x73\164\x6f\x72\x79\x5f\x69\144"]) || $MQQrs["\150\151\163\164\x6f\162\171\137\x69\x64"] !== $sAd7J)) { goto f4ZUD; } goto a7bqA; WKdE_: if (!($MQQrs["\163\164\141\164\145"] !== "\160\x6c\x61\x79\x69\156\147")) { goto xkSVl; } goto zhlRH; HKF3B: $MQQrs = $this->vcGfU($ay4a0, XUdcz::Rjiqz()); goto W_yPF; BceVg: if ($ZBgFm) { goto cE0Ts; } goto mmLa8; mmLa8: return false; goto WMfpk; E1BaE: return false; goto FmqEh; dOzj0: hkOi1: goto NIw_0; sUf7D: f4ZUD: goto q7J42; NDnNB: if (!(UbE84()->LaJ1C($ZBgFm->nnabz) > 5)) { goto hkOi1; } goto pPIhQ; J4se2: } public function ckjUT(int $X67Ei, string $vFJhb) : string { goto I4MDS; I4MDS: $hZZrE = ["\165\163\145\162\x5f\x69\144" => $X67Ei, "\x61\x63\x74\x69\x6f\156" => $vFJhb, "\x74\151\x6d\145\x73\164\141\x6d\x70" => uBe84()->nJfyZ, "\156\157\x6e\x63\145" => LhbeQ::osO2V(16)]; goto beegy; beegy: $se4kk = base64_encode(json_encode($hZZrE)); goto mk19V; mk19V: $WdLxv = hash_hmac("\x73\x68\x61\62\x35\x36", $se4kk, LOYKa("\x61\160\x70\x2e\x6b\145\171")); goto mJ0AP; mJ0AP: return $se4kk . "\x2e" . $WdLxv; goto A400I; A400I: } public function DH3B1(string $c6ecm, int $X67Ei, string $vFJhb) : bool { goto fN2d7; CxJdT: return true; goto Mslcr; YEQpu: if (!($hZZrE["\165\163\x65\x72\x5f\151\x64"] !== $X67Ei || $hZZrE["\x61\143\x74\151\x6f\x6e"] !== $vFJhb)) { goto PyyF3; } goto qis1D; qis1D: return false; goto yvi5u; Ak8nf: $hZZrE = json_decode(base64_decode($se4kk), true); goto gzI4N; GPeBD: return false; goto TrvJq; yvi5u: PyyF3: goto WWO0E; JST1C: if (hash_equals($JNYoK, $WdLxv)) { goto KqvQ2; } goto GPeBD; bF2Dh: tsxHI: goto AbKLl; t2HsK: return false; goto l32Gl; fN2d7: $U94zp = explode("\x2e", $c6ecm); goto Mass1; Mass1: if (!(count($U94zp) !== 2)) { goto tsxHI; } goto D31gq; D31gq: return false; goto bF2Dh; l32Gl: GDPUH: goto YEQpu; TrvJq: KqvQ2: goto Ak8nf; gzI4N: if ($hZZrE) { goto GDPUH; } goto t2HsK; lrAP6: return false; goto nwRx8; u3Ta0: $JNYoK = hash_hmac("\163\150\141\62\65\66", $se4kk, loYkA("\x61\x70\x70\x2e\x6b\145\171")); goto JST1C; AbKLl: [$se4kk, $WdLxv] = $U94zp; goto u3Ta0; nwRx8: nglnp: goto CxJdT; WWO0E: if (!(Ube84()->nJfyZ - $hZZrE["\x74\151\x6d\x65\163\x74\x61\x6d\x70"] > 3600)) { goto nglnp; } goto lrAP6; Mslcr: } public function GFsGc(array $B6czP, int $X67Ei, int $UR4ny) : string { goto mCpIg; pw_z_: return hash_hmac("\x73\x68\x61\62\x35\x36", $se4kk, LOyKA("\141\160\x70\x2e\153\x65\x79")); goto WPWSh; Ly4ng: ksort($hZZrE); goto j2KAC; mCpIg: $hZZrE = ["\165\163\x65\x72\x5f\x69\x64" => $X67Ei, "\162\x61\x73\160\141\x64\x69\156\x68\141\x5f\x69\x64" => $UR4ny, "\162\x65\x73\165\154\x74\x73" => $B6czP["\x72\x65\x73\x75\x6c\164\x73"] ?? [], "\160\162\151\172\145\137\151\x6e\146\x6f" => $B6czP["\160\162\x69\172\x65\x5f\x69\156\x66\157"] ?? [], "\x74\151\155\x65\163\164\x61\x6d\x70" => $B6czP["\164\x69\155\x65\x73\164\x61\155\160"] ?? uBE84()->nJfyZ]; goto Ly4ng; j2KAC: $se4kk = json_encode($hZZrE); goto pw_z_; WPWSh: } public function VNQmJ(array $B6czP, string $JAVQQ, int $X67Ei, int $UR4ny) : bool { $X5PVv = $this->gfsgC($B6czP, $X67Ei, $UR4ny); return hash_equals($JAVQQ, $X5PVv); } public function rThu7(string $gGWOe) : void { goto JGIHt; YvydA: $tua3G = hy402::get($nDt1U, []); goto OwGw2; x6l_E: $nDt1U = "\162\141\163\160\x61\144\151\x6e\150\x61\x5f\165\163\145\162\137\x73\145\x73\x73\151\157\156\x73\x5f{$MQQrs["\165\x73\145\x72\137\151\x64"]}"; goto YvydA; T3mCh: HY402::pG79a($nDt1U, $tua3G, self::hCxHT); goto AmiDv; yhECr: if (!$MQQrs) { goto zZMXB; } goto x6l_E; OwGw2: $tua3G = array_filter($tua3G, fn($IKOsK) => $IKOsK !== $gGWOe); goto T3mCh; m1mjE: $MQQrs = hY402::get($fuX2O); goto yhECr; xS0be: HY402::yNMNF($fuX2O); goto UZCUr; JGIHt: $fuX2O = "\x72\141\x73\x70\x61\144\151\x6e\150\141\x5f\163\145\x73\x73\151\157\156\137{$gGWOe}"; goto m1mjE; AmiDv: zZMXB: goto xS0be; UZCUr: } private function s95ES() : string { return Lhbeq::RBQAe()->L0d10(); } private function KWecy(int $X67Ei, int $UR4ny, string $gGWOe) : string { goto v9yqm; Cle7v: $se4kk = base64_encode(json_encode($hZZrE)); goto ytCun; ytCun: $WdLxv = hash_hmac("\x73\150\x61\62\x35\x36", $se4kk, loyKA("\x61\x70\160\56\x6b\145\x79")); goto UyJiL; UyJiL: return $se4kk . "\x2e" . $WdLxv; goto jDtkD; v9yqm: $hZZrE = ["\165\163\145\162\x5f\x69\144" => $X67Ei, "\x72\x61\x73\160\x61\144\x69\x6e\150\141\137\151\144" => $UR4ny, "\x73\145\x73\163\x69\x6f\156\137\x69\x64" => $gGWOe, "\164\151\155\145\163\164\x61\x6d\x70" => uBE84()->nJfyZ]; goto Cle7v; jDtkD: } private function Descb(string $c6ecm) : ?array { goto tSPQ5; fzm_H: return null; goto BvH3u; N3iyx: $JNYoK = hash_hmac("\163\150\x61\x32\x35\x36", $se4kk, LOYka("\x61\160\x70\56\x6b\145\x79")); goto E1Cuj; k6S2j: if (!(count($U94zp) !== 2)) { goto J_wEU; } goto fzm_H; E1Cuj: if (hash_equals($JNYoK, $WdLxv)) { goto l7QwW; } goto mY5KP; pVkki: return json_decode(base64_decode($se4kk), true); goto p6sKd; mY5KP: return null; goto BragI; Mh7J2: [$se4kk, $WdLxv] = $U94zp; goto N3iyx; BvH3u: J_wEU: goto Mh7J2; BragI: l7QwW: goto pVkki; tSPQ5: $U94zp = explode("\x2e", $c6ecm); goto k6S2j; p6sKd: } private function uXIZh(array $hZZrE) : string { ksort($hZZrE); return hash("\163\x68\x61\62\65\x36", json_encode($hZZrE)); } private function bak_z(array $MQQrs, array $OiV0d) : bool { return $MQQrs["\165\x73\x65\162\x5f\x69\144"] === $OiV0d["\x75\x73\145\162\x5f\151\144"] && $MQQrs["\162\141\x73\160\x61\x64\151\x6e\150\141\137\151\x64"] === $OiV0d["\x72\x61\163\x70\x61\x64\151\156\150\x61\x5f\151\144"] && $MQQrs["\163\145\x73\x73\x69\x6f\x6e\x5f\151\x64"] === $OiV0d["\163\x65\x73\163\151\157\x6e\x5f\151\x64"]; } private function YMoli(int $X67Ei) : void { goto Vj6eW; Vj6eW: $nDt1U = "\162\x61\x73\x70\x61\x64\151\156\150\141\x5f\165\163\145\162\x5f\163\x65\163\163\151\x6f\156\163\x5f{$X67Ei}"; goto dlABd; pA5iP: $RU0p4 = array_slice($tua3G, 0, count($tua3G) - self::TVGIC + 1); goto bHOa0; Mnk7Q: UcLqj: goto tdetn; bHOa0: foreach ($RU0p4 as $gGWOe) { $this->Rthu7($gGWOe); uXgp1: } goto qTlGs; UJseT: if (!(count($tua3G) >= self::TVGIC)) { goto UcLqj; } goto pA5iP; qTlGs: AZxle: goto Mnk7Q; dlABd: $tua3G = HY402::get($nDt1U, []); goto UJseT; tdetn: } }
+
+namespace App\Services;
+
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use App\Models\RaspadinhaHistory;
+use Carbon\Carbon;
+
+class RaspadinhaSecurityService
+{
+    const SESSION_DURATION = 300; // 5 minutos - suficiente para jogar
+    const MAX_SESSIONS_PER_USER = 10; // Permite múltiplas abas/sessões
+    
+    /**
+     * Criar nova sessão de jogo segura
+     */
+    public function createGameSession(int $userId, int $raspadinhaId, array $gameData): array
+    {
+        $sessionId = $this->generateSecureSessionId();
+        $sessionToken = $this->generateSessionToken($userId, $raspadinhaId, $sessionId);
+        
+        // Dados da sessão
+        $sessionData = [
+            'session_id' => $sessionId,
+            'user_id' => $userId,
+            'raspadinha_id' => $raspadinhaId,
+            'created_at' => now(),
+            'expires_at' => now()->addSeconds(self::SESSION_DURATION),
+            'state' => 'created',
+            'game_data' => $gameData,
+            'ip_address' => request()->ip(),
+            'user_agent' => request()->userAgent(),
+            'checksum' => $this->generateDataChecksum($gameData)
+        ];
+        
+        // Limitar sessões por usuário
+        $this->cleanupUserSessions($userId);
+        
+        // Armazenar sessão
+        $sessionKey = "raspadinha_session_{$sessionId}";
+        Cache::put($sessionKey, $sessionData, self::SESSION_DURATION);
+        
+        // Indexar por usuário
+        $userSessionsKey = "raspadinha_user_sessions_{$userId}";
+        $userSessions = Cache::get($userSessionsKey, []);
+        $userSessions[] = $sessionId;
+        Cache::put($userSessionsKey, array_slice($userSessions, -self::MAX_SESSIONS_PER_USER), self::SESSION_DURATION);
+        
+        return [
+            'session_token' => $sessionToken,
+            'session_id' => $sessionId,
+            'expires_at' => $sessionData['expires_at']->timestamp
+        ];
+    }
+    
+    /**
+     * Validar sessão de jogo
+     */
+    public function validateGameSession(string $sessionToken, int $userId): ?array
+    {
+        $tokenData = $this->parseSessionToken($sessionToken);
+        
+        if (!$tokenData || $tokenData['user_id'] !== $userId) {
+            return null;
+        }
+        
+        $sessionKey = "raspadinha_session_{$tokenData['session_id']}";
+        $sessionData = Cache::get($sessionKey);
+        
+        if (!$sessionData) {
+            return null;
+        }
+        
+        // Verificar expiração
+        if (now()->isAfter($sessionData['expires_at'])) {
+            $this->destroySession($tokenData['session_id']);
+            return null;
+        }
+        
+        // Verificar integridade
+        if (!$this->validateSessionIntegrity($sessionData, $tokenData)) {
+            $this->destroySession($tokenData['session_id']);
+            return null;
+        }
+        
+        return $sessionData;
+    }
+    
+    /**
+     * Atualizar estado da sessão
+     */
+    public function updateSessionState(string $sessionId, string $newState, array $additionalData = []): bool
+    {
+        $sessionKey = "raspadinha_session_{$sessionId}";
+        $sessionData = Cache::get($sessionKey);
+        
+        if (!$sessionData) {
+            return false;
+        }
+        
+        // Estados válidos: created -> playing -> claiming -> completed
+        $validTransitions = [
+            'created' => ['playing', 'completed'],
+            'playing' => ['claiming', 'completed'],
+            'claiming' => ['completed'],
+            'completed' => []
+        ];
+        
+        $currentState = $sessionData['state'];
+        if (!isset($validTransitions[$currentState]) || !in_array($newState, $validTransitions[$currentState])) {
+            return false;
+        }
+        
+        // Atualizar dados da sessão
+        $sessionData['state'] = $newState;
+        $sessionData['updated_at'] = now();
+        $sessionData = array_merge($sessionData, $additionalData);
+        
+        // Recalcular checksum se necessário
+        if (isset($additionalData['game_data'])) {
+            $sessionData['checksum'] = $this->generateDataChecksum($additionalData['game_data']);
+        }
+        
+        Cache::put($sessionKey, $sessionData, self::SESSION_DURATION);
+        
+        return true;
+    }
+    
+    /**
+     * Validar que claim-prize corresponde à sessão
+     */
+    public function validateClaimPrize(string $sessionToken, int $historyId): bool
+    {
+        $sessionData = $this->validateGameSession($sessionToken, Auth::id());
+        
+        if (!$sessionData) {
+            return false;
+        }
+        
+        // Verificar se está no estado correto
+        if ($sessionData['state'] !== 'playing') {
+            return false;
+        }
+        
+        // Verificar se o history_id corresponde à sessão
+        if (!isset($sessionData['history_id']) || $sessionData['history_id'] !== $historyId) {
+            return false;
+        }
+        
+        // Verificar se o history existe e pertence ao usuário
+        $history = RaspadinhaHistory::where('id', $historyId)
+            ->where('user_id', $sessionData['user_id'])
+            ->where('status', 'pending')
+            ->first();
+            
+        if (!$history) {
+            return false;
+        }
+        
+        // Verificar se não é muito antigo (máximo 5 minutos entre play e claim - permite usuário pensar)
+        if (now()->diffInMinutes($history->created_at) > 5) {
+            return false;
+        }
+        
+        return true;
+    }
+    
+    /**
+     * Gerar token seguro para anti-CSRF
+     */
+    public function generateAntiCSRFToken(int $userId, string $action): string
+    {
+        $data = [
+            'user_id' => $userId,
+            'action' => $action,
+            'timestamp' => now()->timestamp,
+            'nonce' => Str::random(16)
+        ];
+        
+        $payload = base64_encode(json_encode($data));
+        $signature = hash_hmac('sha256', $payload, config('app.key'));
+        
+        return $payload . '.' . $signature;
+    }
+    
+    /**
+     * Validar token anti-CSRF
+     */
+    public function validateAntiCSRFToken(string $token, int $userId, string $action): bool
+    {
+        $parts = explode('.', $token);
+        if (count($parts) !== 2) {
+            return false;
+        }
+        
+        [$payload, $signature] = $parts;
+        
+        // Verificar assinatura
+        $expectedSignature = hash_hmac('sha256', $payload, config('app.key'));
+        if (!hash_equals($expectedSignature, $signature)) {
+            return false;
+        }
+        
+        // Decodificar dados
+        $data = json_decode(base64_decode($payload), true);
+        if (!$data) {
+            return false;
+        }
+        
+        // Validar dados
+        if ($data['user_id'] !== $userId || $data['action'] !== $action) {
+            return false;
+        }
+        
+        // Verificar expiração (máximo 1 hora)
+        if (now()->timestamp - $data['timestamp'] > 3600) {
+            return false;
+        }
+        
+        return true;
+    }
+    
+    /**
+     * Gerar checksum para detectar manipulação de dados
+     */
+    public function generateGameDataChecksum(array $gameData, int $userId, int $raspadinhaId): string
+    {
+        $data = [
+            'user_id' => $userId,
+            'raspadinha_id' => $raspadinhaId,
+            'results' => $gameData['results'] ?? [],
+            'prize_info' => $gameData['prize_info'] ?? [],
+            'timestamp' => $gameData['timestamp'] ?? now()->timestamp
+        ];
+        
+        ksort($data);
+        $payload = json_encode($data);
+        
+        return hash_hmac('sha256', $payload, config('app.key'));
+    }
+    
+    /**
+     * Validar checksum dos dados do jogo
+     */
+    public function validateGameDataChecksum(array $gameData, string $expectedChecksum, int $userId, int $raspadinhaId): bool
+    {
+        $calculatedChecksum = $this->generateGameDataChecksum($gameData, $userId, $raspadinhaId);
+        return hash_equals($expectedChecksum, $calculatedChecksum);
+    }
+    
+    /**
+     * Destruir sessão
+     */
+    public function destroySession(string $sessionId): void
+    {
+        $sessionKey = "raspadinha_session_{$sessionId}";
+        $sessionData = Cache::get($sessionKey);
+        
+        if ($sessionData) {
+            // Remover da lista de sessões do usuário
+            $userSessionsKey = "raspadinha_user_sessions_{$sessionData['user_id']}";
+            $userSessions = Cache::get($userSessionsKey, []);
+            $userSessions = array_filter($userSessions, fn($id) => $id !== $sessionId);
+            Cache::put($userSessionsKey, $userSessions, self::SESSION_DURATION);
+        }
+        
+        Cache::forget($sessionKey);
+    }
+    
+    // ================================
+    // MÉTODOS PRIVADOS
+    // ================================
+    
+    private function generateSecureSessionId(): string
+    {
+        return Str::uuid()->toString();
+    }
+    
+    private function generateSessionToken(int $userId, int $raspadinhaId, string $sessionId): string
+    {
+        $data = [
+            'user_id' => $userId,
+            'raspadinha_id' => $raspadinhaId,
+            'session_id' => $sessionId,
+            'timestamp' => now()->timestamp
+        ];
+        
+        $payload = base64_encode(json_encode($data));
+        $signature = hash_hmac('sha256', $payload, config('app.key'));
+        
+        return $payload . '.' . $signature;
+    }
+    
+    private function parseSessionToken(string $token): ?array
+    {
+        $parts = explode('.', $token);
+        if (count($parts) !== 2) {
+            return null;
+        }
+        
+        [$payload, $signature] = $parts;
+        
+        // Verificar assinatura
+        $expectedSignature = hash_hmac('sha256', $payload, config('app.key'));
+        if (!hash_equals($expectedSignature, $signature)) {
+            return null;
+        }
+        
+        return json_decode(base64_decode($payload), true);
+    }
+    
+    private function generateDataChecksum(array $data): string
+    {
+        ksort($data);
+        return hash('sha256', json_encode($data));
+    }
+    
+    private function validateSessionIntegrity(array $sessionData, array $tokenData): bool
+    {
+        // Verificar se dados básicos coincidem
+        return $sessionData['user_id'] === $tokenData['user_id'] &&
+               $sessionData['raspadinha_id'] === $tokenData['raspadinha_id'] &&
+               $sessionData['session_id'] === $tokenData['session_id'];
+    }
+    
+    private function cleanupUserSessions(int $userId): void
+    {
+        $userSessionsKey = "raspadinha_user_sessions_{$userId}";
+        $userSessions = Cache::get($userSessionsKey, []);
+        
+        // Limitar número de sessões
+        if (count($userSessions) >= self::MAX_SESSIONS_PER_USER) {
+            // Remover sessões mais antigas
+            $sessionsToRemove = array_slice($userSessions, 0, count($userSessions) - self::MAX_SESSIONS_PER_USER + 1);
+            
+            foreach ($sessionsToRemove as $sessionId) {
+                $this->destroySession($sessionId);
+            }
+        }
+    }
+} 

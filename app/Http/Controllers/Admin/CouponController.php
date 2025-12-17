@@ -1,8 +1,136 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:40              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89x\SHtEQ\FN52M\JKLi6; use jF89x\sHTeq\FN52M\NMp37; use JF89x\T0etd\WFTV9; use Jf89x\t0EtD\rbq9w; use ec3ME\SHtEq\S9D5T; use ec3ME\H2VUv\Tc4Rx; use Ec3ME\NZjo_\hEdvN; class qX_0K extends nmP37 { public function jkBs3() { $w09fq = WftV9::c_MHy("\x69\163\x5f\144\145\x6c\x65\x74\145\144", false)->a9jMH("\x63\162\x65\141\164\145\x64\137\x61\x74", "\x64\x65\163\143")->XFnE7(15); return Lo0CY("\x61\144\x6d\x69\x6e\56\x63\157\x75\160\x6f\156\163\56\151\156\x64\x65\170", compact("\x63\x6f\165\x70\x6f\156\x73")); } public function create() { return LO0CY("\141\x64\155\x69\x6e\56\x63\157\x75\160\x6f\x6e\163\x2e\x63\162\145\141\x74\145"); } public function AoHqw(s9d5t $WFz1w) { goto FFf95; qCZ5l: goto zkzI0; goto w829I; KCTUH: if (!$WFz1w->code) { goto zSF5D; } goto Zsn2m; w829I: zSF5D: goto yhtPu; t7e1h: goto stMfR; goto U5QLf; FFf95: $WFz1w->validate(["\143\157\x64\x65" => "\x6e\165\154\154\141\x62\x6c\145\174\165\x6e\x69\161\x75\145\x3a\x63\157\165\160\157\156\x73\x2c\x63\x6f\x64\x65", "\144\145\x73\143\x72\151\x70\164\151\x6f\156" => "\x6e\165\154\x6c\141\142\154\x65\174\163\x74\x72\x69\x6e\x67\174\x6d\x61\170\72\x32\x35\65", "\164\x79\160\145" => ["\x72\145\161\165\x69\162\x65\144", HedVN::iRuCf(["\142\141\x6c\x61\x6e\x63\x65", "\x62\x6f\156\165\163"])], "\x61\x6d\x6f\165\156\164" => "\162\145\x71\165\x69\x72\145\x64\x7c\156\165\155\145\x72\151\x63\174\x6d\151\x6e\x3a\60\x2e\60\61", "\x76\141\154\x69\x64\x5f\x66\162\x6f\x6d" => "\x6e\x75\154\x6c\x61\142\x6c\x65\174\x64\141\x74\145", "\x76\x61\154\151\x64\x5f\x75\x6e\x74\151\x6c" => "\156\x75\154\x6c\141\x62\x6c\145\x7c\x64\141\164\x65\x7c\141\146\x74\145\x72\x5f\x6f\162\x5f\145\161\x75\x61\154\72\x76\x61\154\x69\144\137\x66\162\x6f\155", "\x6d\141\170\137\x75\163\x61\x67\145\163" => "\162\x65\161\165\151\162\145\x64\x7c\x69\156\x74\145\x67\x65\x72\x7c\x6d\151\x6e\72\61", "\151\x73\x5f\141\x63\164\151\x76\145" => "\142\x6f\157\x6c\145\x61\x6e"]); goto KCTUH; AYcTv: stMfR: goto nTp5M; Zsn2m: $R3n9k = $WFz1w->code; goto qCZ5l; NTUOY: zkzI0: goto m54wt; NsWsz: $R3n9k = Tc4RX::xrHDs(Tc4RX::mnRfv(8)); goto t7e1h; U5QLf: wkA1L: goto NTUOY; m54wt: wfTv9::create(["\143\157\x64\x65" => $R3n9k, "\144\x65\163\x63\x72\x69\x70\x74\x69\157\156" => $WFz1w->B5u2d, "\x74\x79\160\145" => $WFz1w->type, "\x61\155\157\165\x6e\x74" => $WFz1w->e9w7B, "\x76\x61\x6c\x69\x64\137\x66\x72\x6f\155" => $WFz1w->xKSGu, "\x76\141\154\x69\144\137\x75\156\164\151\x6c" => $WFz1w->P6uaH, "\x6d\x61\170\x5f\165\x73\141\x67\x65\163" => $WFz1w->tpr2A, "\151\x73\137\x61\x63\164\151\166\145" => $WFz1w->HKLbP("\x69\x73\137\x61\x63\164\151\166\145")]); goto BAUY8; nTp5M: if (!wFTv9::c_mHy("\x63\157\x64\x65", $R3n9k)->IibEQ()) { goto wkA1L; } goto NsWsz; yhtPu: $R3n9k = tc4rX::XrHds(TC4rX::MnrfV(8)); goto AYcTv; BAUY8: return FH6x5()->wWY32("\141\144\x6d\151\x6e\56\143\x6f\165\160\x6f\156\163\x2e\151\156\x64\x65\170")->rnJfy("\163\165\143\143\x65\x73\x73", "\103\x75\160\157\155\x20\143\x72\151\x61\x64\x6f\x20\x63\x6f\155\x20\x73\x75\x63\x65\x73\x73\157\x21"); goto kTYuy; kTYuy: } public function e36z7(WFTv9 $UQ38D) { return lO0cy("\x61\x64\155\x69\x6e\x2e\x63\x6f\165\x70\157\156\x73\56\145\144\x69\164", compact("\143\157\x75\160\157\156")); } public function update(S9D5T $WFz1w, WFTv9 $UQ38D) { goto BIU3w; BIU3w: $WFz1w->validate(["\x63\x6f\x64\145" => ["\x6e\x75\x6c\154\141\x62\154\145", hedVn::k6HSA("\143\x6f\x75\160\157\x6e\163")->c3BA2($UQ38D->id)], "\144\145\x73\143\162\151\x70\164\151\x6f\x6e" => "\x6e\x75\154\154\141\142\154\x65\174\x73\164\x72\x69\156\x67\x7c\x6d\141\170\72\x32\x35\x35", "\x74\x79\x70\145" => ["\x72\145\161\165\x69\162\x65\144", hEdvn::IrUCF(["\x62\x61\x6c\x61\x6e\143\x65", "\x62\x6f\x6e\165\163"])], "\141\x6d\157\x75\x6e\x74" => "\x72\145\161\165\151\x72\x65\x64\174\156\165\155\x65\162\x69\x63\174\x6d\x69\156\72\60\x2e\x30\x31", "\166\141\x6c\x69\x64\x5f\146\x72\157\155" => "\156\x75\154\154\x61\x62\154\145\x7c\x64\141\164\145", "\x76\141\x6c\151\x64\x5f\x75\x6e\164\151\x6c" => "\156\165\x6c\154\x61\x62\154\x65\x7c\x64\141\164\x65\x7c\141\x66\x74\x65\162\x5f\x6f\x72\137\x65\161\x75\x61\154\72\x76\x61\154\151\x64\x5f\x66\x72\157\155", "\x6d\x61\170\137\165\163\141\x67\145\163" => "\162\145\x71\x75\151\x72\145\x64\174\x69\156\164\145\147\145\162\x7c\x6d\x69\156\72\61"]); goto PMK1Q; PMK1Q: $UQ38D->update(["\143\x6f\x64\x65" => $WFz1w->code ?: $UQ38D->code, "\144\x65\x73\x63\x72\151\x70\164\x69\157\x6e" => $WFz1w->B5u2d, "\164\x79\160\x65" => $WFz1w->type, "\x61\x6d\157\x75\x6e\x74" => $WFz1w->e9w7B, "\x76\141\154\x69\144\137\146\162\x6f\x6d" => $WFz1w->xKSGu, "\x76\x61\154\x69\144\137\x75\x6e\164\151\x6c" => $WFz1w->P6uaH, "\155\x61\170\137\x75\x73\x61\147\x65\163" => $WFz1w->tpr2A, "\x69\x73\x5f\141\143\x74\x69\x76\145" => $WFz1w->bHRmm == "\157\156" ? true : false]); goto uMDca; uMDca: return fh6X5()->wWy32("\141\x64\x6d\151\156\56\143\x6f\165\160\x6f\156\163\56\151\x6e\x64\145\170")->RNJfy("\163\x75\143\143\145\x73\x73", "\x43\x75\160\157\x6d\40\141\x74\165\141\154\151\x7a\x61\144\157\40\143\x6f\x6d\40\x73\x75\143\145\163\163\x6f\41"); goto aD62A; aD62A: } public function destroy(wfTv9 $UQ38D) { $UQ38D->delete(); return fH6X5()->wWy32("\x61\x64\155\151\156\56\x63\x6f\x75\x70\x6f\x6e\163\x2e\151\x6e\x64\145\x78")->rnjfY("\163\x75\x63\143\145\163\x73", "\x43\x75\x70\x6f\x6d\40\162\145\155\x6f\166\x69\144\x6f\40\x63\x6f\x6d\40\x73\165\143\145\x73\163\x6f\41"); } public function tAy1O(wfTV9 $UQ38D) { $K9f7F = $UQ38D->tay1o()->rnjfY("\x75\163\x65\x72")->a9Jmh("\162\145\x64\x65\x65\155\x65\144\137\141\x74", "\144\145\x73\143")->xfnE7(15); return LO0cY("\141\144\x6d\x69\x6e\x2e\x63\157\x75\x70\157\156\163\56\x72\x65\144\x65\155\160\164\151\157\156\x73", compact("\x63\x6f\165\x70\x6f\156", "\162\x65\144\145\155\x70\x74\x69\157\x6e\163")); } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Coupon;
+use App\Models\CouponRedemption;
+use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+use Illuminate\Validation\Rule;
+
+class CouponController extends Controller
+{
+    /**
+     * Display a listing of the coupons.
+     */
+    public function index()
+    {
+        $coupons = Coupon::where('is_deleted', false)
+            ->orderBy('created_at', 'desc')
+            ->paginate(15);
+
+        return view('admin.coupons.index', compact('coupons'));
+    }
+
+    /**
+     * Show the form for creating a new coupon.
+     */
+    public function create()
+    {
+        return view('admin.coupons.create');
+    }
+
+    /**
+     * Store a newly created coupon in storage.
+     */
+    public function store(Request $request)
+    {
+        $request->validate([
+            'code' => 'nullable|unique:coupons,code',
+            'description' => 'nullable|string|max:255',
+            'type' => ['required', Rule::in(['balance', 'bonus'])],
+            'amount' => 'required|numeric|min:0.01',
+            'valid_from' => 'nullable|date',
+            'valid_until' => 'nullable|date|after_or_equal:valid_from',
+            'max_usages' => 'required|integer|min:1',
+            'is_active' => 'boolean',
+        ]);
+
+        // Generate a random code if not provided
+        if (!$request->code) {
+            $code = Str::upper(Str::random(8));
+            while (Coupon::where('code', $code)->exists()) {
+                $code = Str::upper(Str::random(8));
+            }
+        } else {
+            $code = $request->code;
+        }
+
+        Coupon::create([
+            'code' => $code,
+            'description' => $request->description,
+            'type' => $request->type,
+            'amount' => $request->amount,
+            'valid_from' => $request->valid_from,
+            'valid_until' => $request->valid_until,
+            'max_usages' => $request->max_usages,
+            'is_active' => $request->has('is_active'),
+        ]);
+
+        return redirect()->route('admin.coupons.index')
+            ->with('success', 'Cupom criado com sucesso!');
+    }
+
+    /**
+     * Show the form for editing the specified coupon.
+     */
+    public function edit(Coupon $coupon)
+    {
+        return view('admin.coupons.edit', compact('coupon'));
+    }
+
+    /**
+     * Update the specified coupon in storage.
+     */
+    public function update(Request $request, Coupon $coupon)
+    {
+        $request->validate([
+            'code' => ['nullable', Rule::unique('coupons')->ignore($coupon->id)],
+            'description' => 'nullable|string|max:255',
+            'type' => ['required', Rule::in(['balance', 'bonus'])],
+            'amount' => 'required|numeric|min:0.01',
+            'valid_from' => 'nullable|date',
+            'valid_until' => 'nullable|date|after_or_equal:valid_from',
+            'max_usages' => 'required|integer|min:1',
+        ]);
+
+        $coupon->update([
+            'code' => $request->code ?: $coupon->code,
+            'description' => $request->description,
+            'type' => $request->type,
+            'amount' => $request->amount,
+            'valid_from' => $request->valid_from,
+            'valid_until' => $request->valid_until,
+            'max_usages' => $request->max_usages,
+            'is_active' => ($request->is_active == "on" ? true : false),
+        ]);
+
+        return redirect()->route('admin.coupons.index')
+            ->with('success', 'Cupom atualizado com sucesso!');
+    }
+
+    /**
+     * Soft delete the specified coupon.
+     */
+    public function destroy(Coupon $coupon)
+    {
+        $coupon->delete();
+
+        return redirect()->route('admin.coupons.index')
+            ->with('success', 'Cupom removido com sucesso!');
+    }
+
+    /**
+     * Display the redemption history for a coupon.
+     */
+    public function redemptions(Coupon $coupon)
+    {
+        $redemptions = $coupon->redemptions()
+            ->with('user')
+            ->orderBy('redeemed_at', 'desc')
+            ->paginate(15);
+
+        return view('admin.coupons.redemptions', compact('coupon', 'redemptions'));
+    }
+}

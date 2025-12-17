@@ -1,8 +1,162 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89x\sHtEq\Fn52m; use jF89x\T0ETD\WFtV9; use jF89X\t0EtD\Rbq9W; use jf89X\T0ETd\c40Q0; use eC3ME\SHTeQ\S9d5t; use Ec3ME\H2Vuv\p2qH1\NXrOV; use Ec3mE\h2vUV\p2qH1\LVLoX; use Shpk2\SHpk2; class DY65t extends NMP37 { public function nuL3z() { return lO0CY("\160\162\x6f\x66\x69\x6c\x65\56\162\145\144\145\x65\x6d\55\143\x6f\165\160\157\156"); } public function XHmfj(S9d5t $WFz1w) { goto vGkJb; Gc18R: return JGkRL()->SBE1Q(["\163\x75\143\x63\145\163\163" => false, "\145\x72\x72\x6f\x72" => "\x43\165\160\157\x6d\40\151\x6e\x76\xc3\241\154\151\144\x6f\x20\x6f\x75\x20\145\x78\160\x69\162\x61\144\157\56"]); goto FKBPU; KAQd0: return JgkrL()->sBe1q(["\x73\x75\x63\143\145\163\163" => false, "\145\x72\x72\x6f\162" => "\x43\165\160\157\x6d\x20\151\x6e\x76\303\xa1\154\151\144\x6f\x20\157\x75\x20\145\x78\x70\151\x72\x61\144\x6f\56"]); goto VlVRR; FYBu4: return jgkrL()->Sbe1q(["\x73\165\143\143\x65\x73\x73" => false, "\145\x72\162\157\162" => "\x45\163\164\x65\x20\x63\x75\x70\x6f\155\x20\x6a\xc3\241\x20\141\164\151\x6e\147\x69\x75\40\x6f\x20\154\151\155\x69\x74\145\x20\155\xc3\xa1\x78\151\x6d\x6f\x20\x64\x65\40\x75\x74\151\x6c\151\x7a\141\xc3\247\xc3\xb5\x65\x73\56"]); goto pGk4T; eqdA0: $e5HVA = nXrov::YfGi_(); goto cGfTo; k7bpN: return hkg9f()->RNjFy("\145\162\162\157\x72", "\126\157\143\303\252\x20\152\303\xa1\x20\162\145\163\x67\x61\x74\x6f\x75\40\x65\163\164\145\x20\143\165\160\157\x6d\x2e"); goto HV02H; cGaSp: try { goto QI8jJ; MPWRE: Eo0Ic: goto epUEl; HF7V2: $hTAAI->tiNLb += $UQ38D->e9w7B; goto EzDBp; o84Bz: $hTAAI->bieE3 = shPK2::Ohj2r()->lsHSx($jBnZw->SWUdK); goto MPWRE; tvAPF: CC1Yy: goto tBXhu; Levfm: $hTAAI = $e5HVA->d1U9g; goto HQXWC; PTmHU: $UQ38D->save(); goto o7G7o; hIebH: $hTAAI->Pe1PV = $UQ38D->e9w7B * $jBnZw->IBuXv; goto ZcW96; tBXhu: $hTAAI->save(); goto syvNL; XOBsU: return JgKrL()->sBe1Q(["\163\x75\143\143\145\163\163" => true, "\155\x65\163\x73\x61\x67\x65" => $v3YZR, "\141\x6d\157\165\x6e\x74" => $UQ38D->e9w7B, "\x74\171\160\145" => $UQ38D->type]); goto pJnxT; HQXWC: if ($UQ38D->type == "\142\141\154\141\156\143\145") { goto Asq82; } goto HF7V2; EzDBp: if ($hTAAI->Pe1PV === null || $hTAAI->Pe1PV == 0) { goto y9vEe; } goto IVqr0; epUEl: goto CC1Yy; goto UVrCh; pJnxT: cH2VN: goto Gr9Hg; ZcW96: $hTAAI->V2vmL = 0; goto x0Xxx; UVrCh: Asq82: goto EOgNX; syvNL: RbQ9w::create(["\x63\x6f\x75\x70\157\156\137\x69\144" => $UQ38D->id, "\165\x73\x65\x72\x5f\151\x64" => $e5HVA->id, "\141\x6d\x6f\x75\x6e\x74" => $UQ38D->e9w7B, "\x72\145\144\x65\145\155\145\x64\137\141\x74" => WhFh3()]); goto kqNgV; x0Xxx: Yxe2r: goto ZOC5o; IVqr0: $hTAAI->Pe1PV += $UQ38D->e9w7B * $jBnZw->IBuXv; goto dMQbf; JDRZF: $v3YZR = "\103\x75\x70\157\155\40\x72\x65\x73\147\141\164\x61\144\x6f\40\143\157\x6d\40\163\x75\143\x65\x73\163\x6f\41\40" . ($UQ38D->type == "\142\x61\x6c\141\x6e\143\145" ? "\x52\44\x20" . number_format($UQ38D->e9w7B, 2, "\x2c", "\56") . "\40\x61\144\151\x63\x69\x6f\156\141\144\157\x20\x61\x6f\40\x73\x65\165\40\x73\x61\154\144\157\56" : "\122\44\40" . number_format($UQ38D->e9w7B, 2, "\54", "\x2e") . "\x20\141\x64\x69\x63\x69\x6f\x6e\141\x64\x6f\40\x61\157\x20\163\x65\165\40\x73\141\154\144\x6f\x20\144\145\40\142\303\xb4\x6e\x75\163\x2e"); goto U99lj; U99lj: if (!($WFz1w->ATZoG() || $WFz1w->M8TPp())) { goto cH2VN; } goto XOBsU; o7G7o: lvloX::commit(); goto JDRZF; QI8jJ: lvlOx::beginTransaction(); goto Levfm; EOgNX: $hTAAI->AqmcG += $UQ38D->e9w7B; goto tvAPF; WLiWr: y9vEe: goto hIebH; kqNgV: $UQ38D->A3hFa += 1; goto PTmHU; Gr9Hg: return hkG9f()->RnjFY("\x73\x75\143\x63\x65\163\163", $v3YZR); goto j2oGf; ZOC5o: if (!($hTAAI->bieE3 === null)) { goto Eo0Ic; } goto o84Bz; dMQbf: goto Yxe2r; goto WLiWr; j2oGf: } catch (\Exception $ai57B) { goto RhKPs; vFWRz: return hkG9f()->RNjfy("\145\x72\x72\157\162", "\x4f\143\157\162\162\x65\x75\40\165\155\x20\145\162\x72\157\x20\141\157\x20\x72\x65\163\x67\x61\x74\141\x72\40\x6f\x20\143\165\160\x6f\155\x2e\40\x50\x6f\x72\40\146\x61\x76\x6f\x72\54\x20\x74\x65\x6e\x74\145\x20\156\x6f\166\141\155\145\x6e\x74\145\56"); goto YnWis; a_313: if (!($WFz1w->atzoG() || $WFz1w->m8TpP())) { goto HzriA; } goto OapOG; OapOG: return jGKRL()->sbE1q(["\x73\165\143\143\x65\163\163" => false, "\145\x72\162\x6f\162" => "\117\x63\x6f\x72\x72\145\165\40\x75\155\40\x65\162\162\157\40\141\157\x20\162\x65\x73\147\x61\164\x61\162\x20\157\x20\x63\x75\x70\x6f\x6d\x2e\40\x50\x6f\x72\40\146\x61\x76\157\162\54\40\164\145\x6e\x74\145\x20\156\x6f\x76\x61\155\x65\156\x74\x65\56"]); goto jJV8N; RhKPs: LVloX::rollBack(); goto a_313; jJV8N: HzriA: goto vFWRz; YnWis: } goto kgqoR; HV02H: mwjew: goto AWd4E; CEvzM: return HkG9f()->rNJfY("\145\x72\x72\157\162", "\103\165\x70\157\x6d\x20\x69\x6e\166\303\241\x6c\151\144\x6f\40\x6f\x75\x20\x65\170\160\151\x72\141\x64\157\56"); goto o2KcB; To2e4: if (!($WFz1w->aTzog() || $WFz1w->M8tPP())) { goto N2eUP; } goto Gc18R; tZNob: BSYtO: goto T1YgD; Nw1QP: return JGKRl()->sBe1q(["\x73\165\143\x63\145\163\163" => false, "\145\162\x72\x6f\162" => "\x56\157\143\303\252\40\152\303\241\x20\162\145\x73\x67\x61\164\x6f\165\x20\145\x73\x74\145\40\143\x75\x70\x6f\155\x2e"]); goto v4Cbr; AWd4E: $jBnZw = \Jf89X\CK8uV\U_w0I::W5N1f(); goto cGaSp; u2WR5: j2cZn: goto eqdA0; qrjg5: $UQ38D = WFTv9::c_mHY("\x63\x6f\x64\x65", $WFz1w->code)->C_MHY("\x69\x73\x5f\x61\143\164\151\x76\x65", true)->C_Mhy("\151\x73\137\144\x65\x6c\x65\164\x65\144", false)->yRkR9(); goto Xzxww; MH86r: if ($UQ38D->isValid()) { goto j2cZn; } goto To2e4; jS4NX: return hkg9F()->rnjfY("\145\x72\162\157\x72", "\103\165\160\x6f\x6d\40\151\x6e\166\xc3\241\154\151\x64\157\40\x6f\165\40\145\x78\160\x69\162\141\x64\x6f\x2e"); goto u2WR5; pGk4T: Oxdcw: goto mlUIm; vGkJb: try { $WFz1w->validate(["\x63\x6f\x64\x65" => "\x72\145\x71\165\x69\162\x65\144\x7c\163\x74\162\x69\156\x67\x7c\x65\x78\151\163\164\x73\x3a\x63\157\x75\x70\157\x6e\163\54\143\157\144\x65"]); } catch (\Exception $ai57B) { goto QaK4N; QaK4N: if (!($WFz1w->ATZOG() || $WFz1w->m8TpP())) { goto H9NcA; } goto jKY75; KzQX3: return Hkg9F()->rNJfy("\145\x72\x72\x6f\162", "\103\xc3\xb3\144\151\x67\157\x20\144\x65\40\x63\165\160\x6f\155\x20\x69\156\166\303\xa1\x6c\x69\144\x6f\40\x6f\x75\x20\156\303\xa3\x6f\40\x65\156\143\x6f\x6e\164\x72\141\144\157\56"); goto SzGNo; wuqLV: H9NcA: goto KzQX3; jKY75: return jGkRL()->sbe1Q(["\x73\x75\143\143\x65\x73\163" => false, "\x65\x72\162\157\x72" => "\x43\xc3\263\x64\151\x67\157\x20\x64\145\x20\x63\x75\x70\157\155\x20\151\156\x76\303\241\x6c\151\144\x6f\x20\x6f\165\40\156\303\243\x6f\x20\x65\156\x63\157\x6e\x74\162\x61\x64\157\56"]); goto wuqLV; SzGNo: } goto qrjg5; tArvb: if (!($WFz1w->aTZOg() || $WFz1w->M8tPp())) { goto Oxdcw; } goto FYBu4; mlUIm: return HkG9F()->RnjFy("\x65\162\x72\x6f\162", "\105\x73\x74\145\40\143\x75\160\x6f\155\40\152\xc3\xa1\40\x61\x74\151\x6e\147\151\165\40\157\40\x6c\151\x6d\x69\x74\x65\x20\155\xc3\241\x78\x69\x6d\157\40\x64\145\40\x75\x74\x69\x6c\x69\172\x61\303\247\303\265\x65\x73\56"); goto tZNob; T1YgD: if (!$UQ38D->wLEv6($e5HVA->id)) { goto mwjew; } goto xWSvS; YncxM: if (!($WFz1w->aTzoG() || $WFz1w->m8tPP())) { goto NntKD; } goto KAQd0; o2KcB: IjbwP: goto MH86r; VlVRR: NntKD: goto CEvzM; xWSvS: if (!($WFz1w->atzog() || $WFz1w->m8tpp())) { goto cbKs_; } goto Nw1QP; v4Cbr: cbKs_: goto k7bpN; FKBPU: N2eUP: goto jS4NX; Xzxww: if ($UQ38D) { goto IjbwP; } goto YncxM; cGfTo: if (!($UQ38D->tpr2A > 0 && $UQ38D->A3hFa >= $UQ38D->tpr2A)) { goto BSYtO; } goto tArvb; kgqoR: } }
+
+namespace App\Http\Controllers;
+
+use App\Models\Coupon;
+use App\Models\CouponRedemption;
+use App\Models\Wallet;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Carbon\Carbon;
+
+class CouponRedemptionController extends Controller
+{
+    /**
+     * Display the coupon redemption form.
+     */
+    public function showRedemptionForm()
+    {
+        return view('profile.redeem-coupon');
+    }
+
+    /**
+     * Process a coupon redemption.
+     */
+    public function redeemCoupon(Request $request)
+    {
+        try {
+            $request->validate([
+                'code' => 'required|string|exists:coupons,code',
+            ]);
+        } catch (\Exception $e) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'error' => 'Código de cupom inválido ou não encontrado.'
+                ]);
+            }
+            return back()->with('error', 'Código de cupom inválido ou não encontrado.');
+        }
+
+        $coupon = Coupon::where('code', $request->code)
+            ->where('is_active', true)
+            ->where('is_deleted', false)
+            ->first();
+
+        if (!$coupon) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'error' => 'Cupom inválido ou expirado.'
+                ]);
+            }
+            return back()->with('error', 'Cupom inválido ou expirado.');
+        }
+
+        if (!$coupon->isValid()) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'error' => 'Cupom inválido ou expirado.'
+                ]);
+            }
+            return back()->with('error', 'Cupom inválido ou expirado.');
+        }
+
+        $user = Auth::user();
+
+        // Check if max usages is reached
+        if ($coupon->max_usages > 0 && $coupon->used_count >= $coupon->max_usages) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'error' => 'Este cupom já atingiu o limite máximo de utilizações.'
+                ]);
+            }
+            return back()->with('error', 'Este cupom já atingiu o limite máximo de utilizações.');
+        }
+
+        // Check if user has already redeemed this coupon
+        if ($coupon->hasBeenRedeemedByUser($user->id)) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'error' => 'Você já resgatou este cupom.'
+                ]);
+            }
+            return back()->with('error', 'Você já resgatou este cupom.');
+        }
+
+        $Settings = \App\Helpers\Core::getSetting();
+
+        try {
+            DB::beginTransaction();
+
+            // Add the amount to the appropriate balance
+            $wallet = $user->wallet;
+
+            if ($coupon->type == 'balance') {
+                $wallet->balance += $coupon->amount;
+            } else { // bonus
+                $wallet->balance_bonus += $coupon->amount;
+
+                // If balance_bonus_rollover is empty, set it
+                if ($wallet->balance_bonus_rollover === null || $wallet->balance_bonus_rollover == 0) {
+                    $wallet->balance_bonus_rollover = $coupon->amount * $Settings->bonus_rollover;
+                    $wallet->balance_bonus_rollover_used = 0;
+                } else {
+                    $wallet->balance_bonus_rollover += $coupon->amount * $Settings->bonus_rollover;
+                }
+
+                // Set expiration time to 7 days from now if not set
+                if ($wallet->balance_bonus_expire === null) {
+                    $wallet->balance_bonus_expire = Carbon::now()->addDays($Settings->bonus_expire_days);
+                }
+            }
+
+            $wallet->save();
+
+            // Create redemption record
+            CouponRedemption::create([
+                'coupon_id' => $coupon->id,
+                'user_id' => $user->id,
+                'amount' => $coupon->amount,
+                'redeemed_at' => now(),
+            ]);
+
+            // Update coupon usage count
+            $coupon->used_count += 1;
+            $coupon->save();
+
+            DB::commit();
+
+            $successMessage = 'Cupom resgatado com sucesso! ' .
+                ($coupon->type == 'balance' ?
+                    'R$ ' . number_format($coupon->amount, 2, ',', '.') . ' adicionado ao seu saldo.' :
+                    'R$ ' . number_format($coupon->amount, 2, ',', '.') . ' adicionado ao seu saldo de bônus.');
+
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => true,
+                    'message' => $successMessage,
+                    'amount' => $coupon->amount,
+                    'type' => $coupon->type
+                ]);
+            }
+
+            return back()->with('success', $successMessage);
+        } catch (\Exception $e) {
+            DB::rollBack();
+
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'error' => 'Ocorreu um erro ao resgatar o cupom. Por favor, tente novamente.'
+                ]);
+            }
+
+            return back()->with('error', 'Ocorreu um erro ao resgatar o cupom. Por favor, tente novamente.');
+        }
+    }
+}

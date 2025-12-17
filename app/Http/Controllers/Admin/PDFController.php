@@ -1,8 +1,43 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:42              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\shteQ\Fn52M\jKli6; use jf89X\T0ETd\AVSUJ; use jf89x\sHTEQ\FN52M\nMP37; use eC3mE\SHTEq\s9d5T; use i7cCr\yOUo5\E6tsK\lNDM9; use shpk2\Shpk2; class f2wYP extends nMp37 { public function lxzRO($nlzPa, S9d5t $WFz1w) { goto TzG91; lFs_G: $WuiwK = avsuJ::C_Mhy("\x69\156\166\151\164\145\x72", $nlzPa)->get(); goto kA6y1; bv6K0: $BeKSn = LNDm9::kameo("\x61\144\155\x69\156\x2e\141\146\x69\x6c\151\141\x63\141\157\56\x65\170\x70\x6f\162\164", $SRJIE); goto itjcI; rUO3T: l_Y3N: goto GKJP1; GEhnm: return FH6X5()->wWY32("\141\x64\155\x69\x6e\x2e\154\157\x67\151\156"); goto rUO3T; TzG91: $MGM8c = nxRov()->yFgi_(); goto drTyX; RGSKf: NyPw2: goto T0LZ7; T0LZ7: $lN8Z2 = aVsUJ::YlB3m($nlzPa); goto lFs_G; GKJP1: if (!($MGM8c->opaCn === 0)) { goto NyPw2; } goto FbL0l; drTyX: if ($MGM8c) { goto l_Y3N; } goto GEhnm; FbL0l: return jGkRl()->SBe1q(["\x73\x74\141\x74\165\x73" => false, "\155\x65\x73\x73\141\x67\145" => "\126\x6f\143\303\xaa\x20\x6e\xc3\xa3\x6f\40\x74\x65\x6d\40\x61\x63\145\163\x73\157\40\x61\40\145\163\x73\141\x20\160\303\241\x67\151\x6e\141\x21"], 400); goto RGSKf; itjcI: return jgkrl($BeKSn->LHTji(), 200)->header("\103\x6f\x6e\164\145\x6e\164\55\x54\171\160\145", "\x61\160\x70\154\x69\143\x61\x74\151\x6f\x6e\x2f\160\x64\146")->header("\103\x6f\156\x74\145\156\164\x2d\104\x69\x73\x70\x6f\163\x69\x74\x69\157\x6e", "\x69\156\154\x69\156\145\73\40\146\x69\154\145\x6e\141\155\145\75\x22\143\x6f\155\160\x72\157\x76\141\156\x74\x65\56\160\144\x66\x22"); goto giZ30; kA6y1: $SRJIE = ["\x75\163\145\x72\156\x61\x6d\x65" => $lN8Z2->name, "\164\x69\x74\154\x65" => "\103\x6f\x6d\160\x72\x6f\166\141\x6e\x74\145\x20\x64\145\40\x70\x61\147\x61\155\x65\x6e\x74\157", "\145\x6d\151\x74\x69\144\157\137\x65\x6d" => sHPK2::Ohj2R()->format("\x64\x2f\x6d\x2f\x59\x20\110\72\x69\x3a\x73"), "\141\146\x69\154\151\x61\x64\157\x73" => $WuiwK]; goto bv6K0; giZ30: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Models\User;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Barryvdh\DomPDF\Facade\Pdf;
+
+use Carbon\Carbon;
+
+class PDFController extends Controller
+{
+    public function exportar($id, Request $request)
+    {
+        $UserAuth = Auth()->user();
+
+        if (!$UserAuth) {
+            return redirect()->route('admin.login');
+        }
+
+        if ($UserAuth->is_admin === 0) {
+            return response()->json(['status' => false, 'message' => 'Você não tem acesso a essa página!'], 400);
+        }
+
+        $Gerente = User::find($id);
+        $Afiliados = User::where('inviter', $id)->get();
+
+        $data = [
+            'username' => $Gerente->name,
+            'title' => 'Comprovante de pagamento',
+            'emitido_em' => Carbon::now()->format('d/m/Y H:i:s'),
+            'afiliados' => $Afiliados,
+        ];
+
+        $pdf = Pdf::loadView('admin.afiliacao.export', $data);
+
+        return response($pdf->output(), 200)
+            ->header('Content-Type', 'application/pdf')
+            ->header('Content-Disposition', 'inline; filename="comprovante.pdf"');
+    }
+}

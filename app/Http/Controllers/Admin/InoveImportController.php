@@ -1,8 +1,765 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:41              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\sHteq\FN52M\JKli6; use JF89x\SHTeQ\fn52M\nmP37; use ec3Me\sHtEq\S9D5T; use JF89x\T0eTd\l0MmH; use Jf89X\T0EtD\jKLI6\YSnnk; use EC3me\h2vUv\p2Qh1\SHteQ; use eC3Me\H2vuV\p2Qh1\Log; class VHJ_5 extends nmP37 { private $bY4fV = "\150\164\164\x70\x73\72\57\57\141\x70\x69\56\x69\156\157\x76\x65\x69\x67\141\x6d\x69\x6e\147\x2e\143\157\155\57\x67\x61\155\x65\163\57\x6c\x69\x73\164"; private $f2Gr0 = "\x68\164\x74\x70\163\72\x2f\x2f\141\x70\x69\x2e\151\156\x6f\x76\145\x69\x67\141\x6d\151\x6e\x67\x2e\x63\157\155\x2f\147\x61\x6d\x65\163\57\160\162\157\166\151\144\x65\x72\x73"; private $FCRCV = "\111\156\157\x76\145"; public function jkBS3() { return LO0CY("\141\x64\x6d\x69\156\56\x69\x6d\160\x6f\x72\164\56\151\156\x6f\x76\x65"); } public function WQP1j(S9d5t $WFz1w) { goto zVjtB; CCoKt: try { goto tpMUM; A6B4q: return jgKRl("\x45\162\162\157\40\x61\157\40\x63\x61\x72\162\x65\147\141\x72\x20\x69\155\141\147\x65\x6d", $ejwrw->gf5ju()); goto ZqJa2; td2pQ: return jgKrL($ejwrw->SVSmR())->header("\x43\157\156\164\145\x6e\164\x2d\124\x79\160\x65", $BPYlR)->header("\x43\x61\143\x68\145\55\103\x6f\x6e\164\x72\x6f\x6c", "\160\165\142\154\x69\x63\x2c\x20\155\141\x78\x2d\141\147\145\x3d\x38\x36\64\60\60")->header("\x41\143\x63\x65\163\163\x2d\103\157\156\x74\x72\x6f\x6c\55\x41\154\x6c\x6f\x77\55\x4f\162\151\x67\x69\156", "\x2a"); goto dHSUu; tpMUM: $ejwrw = ShTeq::TzuRm(10)->mJ7du(["\x55\x73\x65\x72\55\101\147\145\x6e\164" => "\115\x6f\172\151\x6c\x6c\x61\x2f\x35\x2e\x30\40\x28\127\x69\x6e\x64\157\x77\163\40\116\x54\x20\61\x30\56\60\x3b\x20\127\x69\x6e\x36\x34\x3b\x20\x78\66\x34\51\40\101\160\x70\x6c\145\x57\x65\x62\x4b\151\x74\x2f\x35\x33\x37\x2e\x33\x36", "\122\x65\x66\145\162\145\162" => "\150\164\x74\160\163\x3a\57\57\x64\x65\x6d\x6f\x2e\x69\156\x6f\166\145\x69\147\x61\155\x69\156\x67\56\x63\157\155\57"])->get($E07Iz); goto OGGdm; ZqJa2: UucRS: goto YoUHr; YoUHr: $BPYlR = $ejwrw->header("\x43\x6f\x6e\x74\x65\x6e\x74\55\x54\171\160\145") ?: "\x69\155\x61\x67\x65\x2f\167\x65\x62\160"; goto td2pQ; OGGdm: if ($ejwrw->Erxv2()) { goto UucRS; } goto A6B4q; dHSUu: } catch (\Exception $ai57B) { Log::p2M7e("\x45\x72\162\x6f\40\156\x6f\x20\x70\162\157\x78\x79\x20\144\x65\x20\x69\x6d\x61\147\x65\x6d\72\x20" . $ai57B->getMessage()); return JgKRl("\105\x72\x72\x6f\40\141\157\x20\160\162\157\143\145\163\x73\141\162\x20\151\x6d\141\x67\145\155", 500); } goto bDK_g; j6aEK: return jgKRl("\x55\122\114\x20\156\303\243\x6f\x20\x66\157\162\156\145\143\151\x64\141", 400); goto Wl_RY; Wl_RY: BET1I: goto CCoKt; zVjtB: $E07Iz = $WFz1w->query("\165\162\x6c"); goto m6Vhw; m6Vhw: if ($E07Iz) { goto BET1I; } goto j6aEK; bDK_g: } public function AMX10() { try { goto H1hHb; XeIdU: $lCC1y = $ejwrw->sBE1Q(); goto vUNOQ; IxXY9: return jgkrl()->sBE1Q(["\x73\165\143\143\x65\x73\x73" => false, "\x6d\145\x73\163\x61\147\x65" => "\x45\x72\x72\x6f\40\x61\157\40\143\x6f\156\x65\143\x74\x61\162\40\x63\x6f\x6d\x20\141\40\x41\120\x49\x20\x64\141\40\x49\156\x6f\x76\x65\x3a\x20" . $ejwrw->GF5Ju()]); goto AlYfD; vUNOQ: if (!empty($lCC1y)) { goto oSmD0; } goto CCf7t; Jvs8H: oSmD0: goto Zl37R; AlYfD: yMqr3: goto XeIdU; H1hHb: $ejwrw = ShtEQ::TzURM(30)->get($this->bY4fV); goto o8zmi; o8zmi: if ($ejwrw->ERxV2()) { goto yMqr3; } goto IxXY9; CCf7t: return JGKRL()->sBE1Q(["\163\x75\x63\x63\145\163\163" => false, "\x6d\x65\x73\163\x61\x67\x65" => "\x4e\145\156\x68\165\x6d\x20\152\x6f\147\x6f\x20\145\x6e\143\x6f\x6e\x74\162\141\x64\x6f\40\x6e\141\x20\x41\x50\111\x20\x64\141\x20\111\x6e\157\x76\x65"]); goto Jvs8H; Zl37R: return JGkRL()->SBE1q(["\x73\165\x63\143\x65\163\163" => true, "\147\x61\155\145\x73" => $lCC1y]); goto KR1Hc; KR1Hc: } catch (\Exception $ai57B) { Log::P2m7E("\x45\162\162\x6f\x20\141\157\40\x62\x75\163\x63\141\x72\40\152\x6f\147\x6f\163\x20\144\141\40\x49\x6e\157\x76\x65\x3a\x20" . $ai57B->getMessage()); return JgKrL()->Sbe1q(["\x73\165\x63\143\145\163\x73" => false, "\155\x65\163\163\141\x67\x65" => "\105\x72\162\157\x20\151\x6e\x74\145\162\x6e\x6f\x3a\x20" . $ai57B->getMessage()]); } } public function t2S94() { try { $IjOGg = l0mMH::RNjFY("\x70\x72\x6f\x76\151\x64\x65\x72")->c_Mhy("\x64\x69\x73\x74\x72\151\x62\165\164\x69\157\156", $this->FCRCV)->QQeOK("\x69\x64", "\x6e\141\x6d\x65", "\144\151\163\x74\x72\x69\x62\165\164\151\x6f\x6e", "\151\x6d\x61\147\145", "\163\154\x75\147", "\160\162\x6f\x76\151\144\145\x72\137\x69\x64")->get()->vnt3X(function ($cAEfu) { $ma2bp = $cAEfu->mPft9?->name ?? "\x44\145\163\x63\x6f\156\150\145\143\151\144\157"; return ["\x69\x64" => $cAEfu->id, "\x6e\141\x6d\145" => $cAEfu->name, "\160\x72\x6f\x76\151\144\145\162\137\x6e\x61\155\x65" => $ma2bp, "\144\151\163\164\x72\x69\142\165\164\x69\157\156" => $cAEfu->FCRCV, "\x69\x6d\x61\x67\x65" => $cAEfu->BUVn7, "\163\154\x75\147" => $cAEfu->EWmd0]; }); return JGkRl()->SbE1q(["\x73\165\143\x63\x65\x73\163" => true, "\x65\170\x69\163\164\151\x6e\x67\107\x61\x6d\x65\x73" => $IjOGg]); } catch (\Exception $ai57B) { Log::P2M7E("\x45\x72\x72\x6f\40\x61\x6f\40\142\x75\163\x63\141\162\x20\152\x6f\x67\x6f\163\x20\x65\x78\151\163\x74\145\x6e\x74\x65\x73\40\144\141\x20\x49\156\x6f\166\x65\72\40" . $ai57B->getMessage()); return JGkRl()->sbe1Q(["\x73\x75\x63\x63\x65\x73\x73" => false, "\155\x65\163\163\141\x67\145" => "\105\162\162\x6f\x20\141\x6f\40\142\x75\163\x63\x61\x72\x20\152\157\147\157\x73\x20\x65\x78\151\x73\164\145\x6e\164\145\163\x3a\40" . $ai57B->getMessage()]); } } public function nRTrp(s9d5T $WFz1w) { goto YHudh; xPsct: $WFz1w->validate(["\147\x61\x6d\x65\163" => "\x72\145\x71\x75\151\x72\145\x64\174\141\162\x72\141\171", "\x67\141\x6d\x65\163\56\x2a" => "\162\x65\161\165\x69\162\x65\144\174\x73\x74\x72\x69\x6e\147"]); goto wc9hG; wc9hG: $D91Ry = $WFz1w->KXiHM; goto snIlO; STzHI: $PpbdM = 0; goto UYtR4; xnUsa: try { goto jW85T; FQjmn: foreach ($D91Ry as $lgvHq) { try { goto iBcIe; Ck8nI: goto WBzjP; goto g1SFp; g1SFp: jYRxB: goto m2QUT; K88Jr: SipOh: goto adxi6; iBcIe: $i2fdh = $T9Aer->get($lgvHq); goto bfXc8; XDfdP: $PpbdM++; goto tflVW; Vq9wq: $Vg2Ci[$lgvHq] = $smCIb; goto AveRJ; adxi6: $AwKKX++; goto d8Q5x; m2QUT: $smCIb = $this->p9bSc($i2fdh); goto Vq9wq; d8Q5x: goto X5zLF; goto w6QiE; bfXc8: if ($i2fdh) { goto jYRxB; } goto vsLZm; tflVW: goto X5zLF; goto eCvA1; AveRJ: if ($smCIb["\x73\x74\x61\x74\x75\x73"] === "\151\x6d\x70\x6f\162\x74\x65\144") { goto SipOh; } goto xXyyL; KMScd: goto X5zLF; goto K88Jr; opLdC: $sqwVt++; goto Ck8nI; utGu8: if ($smCIb["\163\164\141\x74\x75\163"] === "\141\x6c\x72\145\141\144\171\137\145\170\x69\x73\164\163") { goto YgWXg; } goto my_wJ; vsLZm: $Vg2Ci[$lgvHq] = ["\163\164\141\x74\165\x73" => "\x65\x72\162\157\x72", "\x6d\145\163\x73\x61\147\145" => "\112\x6f\147\x6f\x20\x6e\303\xa3\x6f\40\145\x6e\143\157\x6e\164\162\x61\144\x6f\x20\x6e\x61\40\x41\x50\111"]; goto opLdC; my_wJ: $sqwVt++; goto KMScd; eCvA1: YgWXg: goto Jqusw; w6QiE: PJvtX: goto XDfdP; xXyyL: if ($smCIb["\163\164\x61\164\x75\x73"] === "\x75\x70\144\x61\x74\145\x64") { goto PJvtX; } goto utGu8; Jqusw: X5zLF: goto IIwfO; IIwfO: } catch (\Exception $ai57B) { goto DIDCt; KVjrJ: $Vg2Ci[$lgvHq] = ["\163\x74\141\x74\x75\x73" => "\145\162\x72\157\x72", "\155\145\x73\163\141\x67\145" => "\105\x72\162\x6f\40\x69\156\x74\145\162\x6e\x6f\x3a\x20" . $ai57B->getMessage()]; goto FkcUe; FkcUe: $sqwVt++; goto fmalH; DIDCt: Log::p2M7e("\x45\x72\x72\x6f\x20\x61\157\40\160\162\x6f\x63\x65\163\x73\x61\162\x20\152\x6f\147\x6f\x20\x49\x44\x20{$lgvHq}\x3a\x20" . $ai57B->getMessage()); goto KVjrJ; fmalH: } WBzjP: } goto By_Lq; uayym: return JGkRl()->sBE1Q(["\163\x75\143\x63\145\163\163" => true, "\155\x65\x73\x73\x61\147\145" => $CR3OO, "\151\155\160\x6f\162\x74\x65\144\137\143\157\x75\156\x74" => $AwKKX, "\165\x70\144\141\x74\145\144\x5f\143\x6f\x75\156\x74" => $PpbdM, "\x65\162\162\x6f\162\137\143\x6f\x75\x6e\x74" => $sqwVt, "\x67\x61\x6d\x65\x73" => $Vg2Ci]); goto tLALS; eH1LC: if ($ejwrw->erxv2()) { goto fthcu; } goto mzwMT; By_Lq: dnh3H: goto sEtIV; bw4cr: $eJOi_ = $ejwrw->sbe1q(); goto h3lej; Echgp: fthcu: goto bw4cr; mzwMT: return JgKrl()->SBe1Q(["\163\165\143\x63\145\x73\163" => false, "\x6d\145\163\x73\x61\x67\x65" => "\105\162\x72\157\40\141\x6f\x20\x63\157\156\x65\143\x74\141\x72\x20\143\157\x6d\x20\141\x20\x41\120\111\40\144\141\40\111\x6e\157\x76\145\72\x20" . $ejwrw->gf5Ju()]); goto Echgp; sEtIV: $CR3OO = $this->oNkZ3($AwKKX, $PpbdM, $sqwVt); goto dINXA; h3lej: $T9Aer = yHA8R($eJOi_)->OOZzg("\151\x64"); goto FQjmn; jW85T: $ejwrw = Shteq::tZurM(30)->get($this->bY4fV); goto eH1LC; dINXA: Log::info("\x49\x6d\160\157\162\164\141\xc3\247\xc3\xa3\x6f\x20\143\x6f\x6e\x63\x6c\x75\xc3\xad\x64\141", ["\151\155\160\x6f\162\164\145\x64" => $AwKKX, "\x75\160\x64\141\x74\145\x64" => $PpbdM, "\x65\x72\162\157\162\163" => $sqwVt]); goto uayym; tLALS: } catch (\Exception $ai57B) { Log::P2m7E("\105\162\162\x6f\x20\x67\145\162\x61\x6c\x20\156\141\40\151\155\x70\x6f\162\164\141\xc3\247\xc3\243\x6f\x3a\40" . $ai57B->getMessage()); return JGkrl()->sbe1Q(["\x73\x75\143\x63\x65\x73\x73" => false, "\x6d\145\163\x73\141\x67\145" => "\105\x72\x72\157\40\x6e\141\40\151\x6d\160\157\162\164\141\xc3\247\xc3\243\x6f\x3a\40" . $ai57B->getMessage()]); } goto pTGN2; UYtR4: $sqwVt = 0; goto Linhd; DnWiQ: $AwKKX = 0; goto STzHI; YHudh: ini_set("\x6d\145\x6d\x6f\162\x79\137\x6c\151\155\x69\x74", "\61\60\x32\x34\x4d"); goto i7HSJ; Linhd: Log::info("\x49\x6e\x69\143\151\x61\x6e\x64\x6f\x20\151\155\x70\x6f\x72\164\x61\xc3\247\xc3\xa3\157\x20\144\x65\40\x6a\x6f\147\x6f\163\x20\x64\141\40\x49\x6e\x6f\x76\x65", ["\x63\x6f\165\156\164" => count($D91Ry)]); goto xnUsa; i7HSJ: set_time_limit(600); goto xPsct; snIlO: $Vg2Ci = []; goto DnWiQ; pTGN2: } private function p9BsC($i2fdh) { try { goto wtwuY; gyOW2: return ["\x73\x74\141\164\x75\163" => "\x65\162\162\x6f\x72", "\155\x65\x73\x73\x61\147\x65" => "\x45\162\162\157\40\141\157\40\160\162\x6f\x63\145\163\163\141\x72\40\x70\x72\157\166\x65\x64\x6f\x72"]; goto JyGe3; LLWrh: KnX3A: goto jys1x; Ab_iD: if ($MSuAG) { goto KnX3A; } goto Kt4aS; FVcG3: $MSuAG = L0mmh::C_mhY("\163\x6c\x75\x67", $AAocX)->C_MHy("\x64\151\x73\164\x72\151\142\165\164\x69\x6f\156", $this->FCRCV)->C_MHY("\x70\162\157\166\151\144\x65\x72\x5f\x69\144", $ejv9L->id)->Yrkr9(); goto Ab_iD; LSQMc: return ["\163\x74\141\x74\165\x73" => "\x61\154\162\145\x61\x64\x79\137\145\170\x69\x73\164\163", "\156\x61\155\x65" => $KsfUZ, "\x70\x72\x6f\166\x69\x64\x65\162\137\156\141\x6d\x65" => $zde91, "\x63\141\164\145\x67\x6f\x72\171" => ucfirst($i2fdh["\x63\x61\x74\145\x67\x6f\x72\x79"]), "\x6d\x65\163\x73\141\147\145" => "\x4a\157\147\157\x20\x6a\303\xa1\40\x65\x78\151\x73\x74\145\x20\x70\x61\x72\141\40\144\x69\x73\x74\x72\x69\142\165\x69\303\xa7\303\xa3\x6f\40\111\x6e\x6f\166\145\40\145\x20\155\x65\163\155\x6f\x20\160\x72\157\x76\145\x64\x6f\x72"]; goto fe2jU; Xna9f: return ["\x73\x74\141\164\165\163" => "\151\x6d\x70\x6f\162\x74\145\144", "\x6e\141\x6d\x65" => $KsfUZ, "\160\162\x6f\166\x69\144\145\x72\x5f\x6e\141\x6d\145" => $zde91, "\x63\x61\164\x65\x67\157\162\171" => ucfirst($i2fdh["\143\x61\x74\x65\x67\157\x72\x79"]), "\155\x65\163\163\141\x67\145" => "\x4e\157\166\x6f\40\152\x6f\x67\157\x20\151\x6d\x70\157\162\164\x61\144\157"]; goto B1vpv; J0hqu: $ejv9L = $this->vtq1w($i2fdh["\160\162\157\x76\151\144\145\162"], $ma2bp, $zde91); goto YYdf5; yjjhE: $KsfUZ = $this->ySq87($BNDxx); goto uJI7N; DoHFf: $this->j0RkP($MSuAG, $i2fdh, $ejv9L, $KsfUZ); goto LSQMc; B1vpv: goto vfHOz; goto LLWrh; DpKRp: $AAocX = $i2fdh["\x73\x6c\165\147\x73"][0]["\163\154\x75\147"] ?? null; goto OfVpq; ONLvQ: $BNDxx = $i2fdh["\156\x61\x6d\145"]; goto yjjhE; uJI7N: Log::info("\x50\162\157\x63\x65\x73\163\x61\x6e\x64\x6f\x20\x6a\157\147\157\72\40\116\x6f\x6d\x65\40\x6f\x72\x69\x67\151\156\x61\x6c\75\47{$BNDxx}\x27\x2c\x20\x4e\x6f\x6d\145\x20\x6e\x6f\162\155\x61\x6c\151\x7a\x61\144\157\75\47{$KsfUZ}\47\x2c\40\123\154\165\147\75\x27{$AAocX}\x27"); goto FVcG3; OfVpq: if ($AAocX) { goto unA4V; } goto QcLlU; fe2jU: vfHOz: goto Cp773; Kt4aS: $cAEfu = $this->d0POs($i2fdh, $ejv9L, $AAocX, $KsfUZ); goto Xna9f; QcLlU: return ["\x73\x74\x61\164\165\163" => "\145\x72\x72\x6f\x72", "\x6d\x65\x73\163\141\x67\145" => "\x53\x6c\165\147\x20\x6e\xc3\xa3\157\x20\145\x6e\143\x6f\x6e\164\x72\141\144\157"]; goto wvfah; Hf2Ha: $zde91 = $i2fdh["\160\x72\157\x76\x69\x64\x65\162\137\156\x61\x6d\x65"]; goto J0hqu; jys1x: Log::info("\x53\x6c\165\147\x20\x27{$AAocX}\x27\x20\152\xc3\xa1\40\x65\170\x69\x73\164\145\40\160\141\162\141\x20\111\x6e\157\166\x65\40\50\160\162\157\166\x65\144\157\x72\72\x20{$ejv9L->name}\51\40\156\x6f\40\152\157\147\157\x3a\40{$MSuAG->name}"); goto DoHFf; JyGe3: pvask: goto DpKRp; wtwuY: $ma2bp = $i2fdh["\x70\162\157\166\x69\144\x65\162"]; goto Hf2Ha; YYdf5: if ($ejv9L) { goto pvask; } goto gyOW2; wvfah: unA4V: goto ONLvQ; Cp773: } catch (\Exception $ai57B) { Log::P2M7e("\105\x72\162\157\40\141\157\40\x70\162\157\x63\x65\x73\x73\x61\162\40\x6a\157\x67\x6f\x3a\x20" . $ai57B->getMessage()); return ["\x73\x74\141\164\165\163" => "\145\162\162\x6f\x72", "\x6d\145\x73\163\141\147\x65" => $ai57B->getMessage()]; } } private function SFWhh($ma2bp) { goto OeVTw; lWFLm: oI0yo: goto rE3Ay; rE3Ay: return strtoupper(str_replace("\x5f", "\40", $ma2bp)); goto X3hN5; OeVTw: if ($ma2bp) { goto oI0yo; } goto zg2Sd; zg2Sd: return ''; goto lWFLm; X3hN5: } private function VTq1w($NQHuW, $ma2bp, $zde91 = null) { goto TnaBD; NUJHr: if (!$ejv9L) { goto IcEnp; } goto U1bcP; hnnUZ: $ejv9L = ysnNk::create(["\x6e\x61\155\145" => strtoupper($zde91 ?: $ma2bp), "\x70\x72\157\x76\x69\144\145\x72\137\x6e\x61\155\145" => $NQHuW, "\x61\143\x74\151\x76\x65" => 1, "\x64\x69\163\x74\162\151\142\165\164\151\x6f\x6e" => $this->FCRCV, "\151\155\x67" => null]); goto t5LPN; VrIgY: jxINr: goto k8QbQ; CC_sD: if ($ejv9L) { goto TJ0k5; } goto QICp1; GWsiK: if ($ejv9L) { goto X7wWL; } goto oBjqg; uhYNY: Log::info("\116\x61\155\145\x20\141\164\x75\x61\154\151\172\141\144\157\x20\160\141\x72\141\40{$NQHuW}\x3a\40" . strtoupper($zde91)); goto IE1Nh; TnaBD: $ejv9L = YSNnk::C_MHY("\x70\x72\157\166\x69\x64\145\x72\137\x6e\141\x6d\x65", $NQHuW)->C_mHY("\x64\151\x73\x74\162\151\142\x75\x74\x69\x6f\x6e", $this->FCRCV)->yrKr9(); goto GWsiK; t5LPN: Log::info("\x4e\157\166\x6f\40\x70\162\x6f\x76\x65\x64\157\x72\40\143\162\151\141\x64\x6f\x20\x70\141\162\x61\x20{$this->FCRCV}\72\x20{$NQHuW}\40\50\x6e\x6f\155\145\x3a\40" . strtoupper($zde91 ?: $ma2bp) . "\51"); goto VrIgY; oBjqg: $ejv9L = ysnnk::C_MhY("\x6e\141\155\145", strtoupper($zde91 ?: $ma2bp))->C_MHy("\144\151\x73\164\162\151\x62\165\164\x69\x6f\x6e", $this->FCRCV)->YrkR9(); goto g_6MS; QICp1: $ejv9L = Ysnnk::c_MhY("\156\141\x6d\145", "\x4c\111\113\105", "\x25" . strtoupper($zde91 ?: $ma2bp) . "\45")->c_MHy("\x64\x69\x73\164\x72\x69\x62\165\164\x69\x6f\156", $this->FCRCV)->yrKr9(); goto y3Otf; hA8HP: $ejv9L->name = strtoupper($zde91); goto JH3AG; m0BgV: goto jxINr; goto txpT_; JH3AG: $ejv9L->save(); goto uhYNY; txpT_: IcEnp: goto hnnUZ; y3Otf: TJ0k5: goto NUJHr; U1bcP: if (!($zde91 && empty($ejv9L->name))) { goto I0Pqq; } goto hA8HP; k8QbQ: return $ejv9L; goto Nl2KG; IE1Nh: I0Pqq: goto m0BgV; g_6MS: X7wWL: goto CC_sD; Nl2KG: } private function D0pOS($i2fdh, $ejv9L, $AAocX, $KsfUZ = null) { goto iU4Fr; iU4Fr: $TZI2K = $KsfUZ ?: $i2fdh["\x6e\141\155\x65"]; goto oO8sq; O7Tjm: Log::info("\x4e\157\x76\157\40\152\x6f\x67\x6f\40\x63\162\x69\x61\x64\157\x3a\x20{$TZI2K}\40\x28{$AAocX}\x29\x20\x63\x6f\155\x20\x69\155\x61\147\x65\x6d\72\x20" . ($iTaOH ?: "\x73\145\155\40\x69\x6d\x61\x67\145\155")); goto vCGF0; Y4bIY: $cAEfu = l0Mmh::create(["\156\x61\155\145" => $TZI2K, "\x63\141\164\145\x67\157\x72\171" => ucfirst($i2fdh["\x63\x61\x74\145\147\x6f\x72\x79"]), "\x69\x6d\x61\x67\145" => $iTaOH, "\x64\151\163\x74\x72\151\142\165\x74\x69\157\x6e" => $this->FCRCV, "\x73\x74\141\x74\165\163" => $i2fdh["\x61\x63\x74\x69\166\145"] ? 1 : 0, "\x73\x6c\165\x67" => $AAocX, "\x70\x72\157\x76\151\144\145\x72\137\x69\x64" => $ejv9L->id]); goto O7Tjm; oO8sq: $iTaOH = $i2fdh["\163\154\165\x67\163"][0]["\x69\x6d\141\147\145"] ?? null; goto Y4bIY; vCGF0: return $cAEfu; goto qwRDk; qwRDk: } private function j0rkp($cAEfu, $i2fdh, $ejv9L, $KsfUZ = null) { goto XnhE4; pOgdO: $TZI2K = $KsfUZ ?: $i2fdh["\x6e\x61\x6d\x65"]; goto ojbKF; XnhE4: $h2aci = ["\x63\141\164\x65\147\157\162\x79" => ucfirst($i2fdh["\143\x61\164\145\147\157\162\x79"]), "\x73\x74\141\164\165\x73" => $i2fdh["\141\143\164\x69\166\145"] ? 1 : 0]; goto ZyW3c; D_ybM: $h2aci["\151\155\141\147\x65"] = $CmqcS; goto loD1I; ojbKF: Log::info("\112\x6f\147\157\40\x61\x74\165\x61\154\x69\x7a\141\144\157\x3a\x20{$TZI2K}"); goto dR_G3; Jz9dJ: $CmqcS = $i2fdh["\163\x6c\x75\147\x73"][0]["\151\155\141\x67\145"] ?? null; goto xCPyz; KUOqf: NfpZN: goto fRi1Z; ZQbrs: Log::info("\116\157\x6d\x65\x20\144\157\40\x6a\157\147\x6f\40\156\157\x72\x6d\141\x6c\151\x7a\141\144\x6f\40\x64\x65\x20\x27{$cAEfu->name}\47\x20\160\x61\162\141\40\x27{$KsfUZ}\x27"); goto KUOqf; loD1I: eQW2S: goto tKlwH; EmizN: $cAEfu->update($h2aci); goto pOgdO; fRi1Z: if (!(empty($cAEfu->BUVn7) || !$this->crkvC($cAEfu->BUVn7))) { goto iyouO; } goto Jz9dJ; ZyW3c: if (!($KsfUZ && $cAEfu->name !== $KsfUZ)) { goto NfpZN; } goto CCMIZ; tKlwH: iyouO: goto EmizN; CCMIZ: $h2aci["\156\141\x6d\x65"] = $KsfUZ; goto ZQbrs; xCPyz: if (empty($CmqcS)) { goto eQW2S; } goto D_ybM; dR_G3: } private function onkz3($ol3vG, $S69Vb, $emtI8) { goto Lx50N; amxN6: if (!($S69Vb > 0)) { goto J3TUu; } goto TS058; nEPLv: iHiSy: goto amxN6; Hvp4i: if (!($emtI8 > 0)) { goto b1vq1; } goto uj1UO; dT2Xq: return "\x4e\145\156\150\165\x6d\x61\40\x61\x6c\x74\145\x72\x61\xc3\247\xc3\xa3\x6f\40\162\x65\141\154\151\x7a\x61\144\141"; goto CzxHX; Lx50N: $TkYag = []; goto NC22z; TS058: $TkYag[] = "{$S69Vb}\40\152\x6f\147\157\x73\40\x61\x74\x75\x61\154\151\x7a\141\144\157\163"; goto A1D1x; A1D1x: J3TUu: goto Hvp4i; CzxHX: tOv62: goto B7Z_r; kh68Q: $TkYag[] = "{$ol3vG}\x20\x6a\157\147\x6f\x73\x20\x69\x6d\160\157\162\164\141\144\157\x73"; goto nEPLv; hK7SW: b1vq1: goto bIOAP; B7Z_r: return "\120\x72\157\143\145\163\163\141\x6d\x65\x6e\164\x6f\x20\x63\157\156\x63\154\165\303\xad\x64\157\72\40" . implode("\x2c\40", $TkYag); goto uxWBa; NC22z: if (!($ol3vG > 0)) { goto iHiSy; } goto kh68Q; uj1UO: $TkYag[] = "{$emtI8}\40\145\x72\162\x6f\163"; goto hK7SW; bIOAP: if (!empty($TkYag)) { goto tOv62; } goto dT2Xq; uxWBa: } public function dkblE() { try { goto K1ldC; JsWxI: return JGKRL()->SBe1q(["\x73\x75\x63\x63\x65\163\x73" => false, "\155\145\x73\163\x61\147\145" => "\x4e\x65\x6e\150\165\x6d\x20\x70\162\157\x76\145\144\157\162\x20\145\156\143\157\156\164\x72\x61\x64\157\x20\156\x61\40\101\x50\111\x20\x64\x61\40\x49\x6e\157\166\x65"]); goto B50QR; FpwI2: $jOQtp = $ejwrw->SBe1Q(); goto nloj7; GF500: IYS2I: goto FpwI2; K1ldC: $ejwrw = shTeQ::TZuRM(30)->get($this->f2Gr0); goto bNrX0; xspZp: return jGKRL()->sBe1Q(["\163\165\x63\143\x65\163\x73" => false, "\x6d\x65\x73\x73\141\x67\x65" => "\105\x72\x72\157\x20\141\157\40\x63\x6f\x6e\x65\x63\164\x61\162\x20\x63\x6f\x6d\40\x61\40\x41\x50\x49\40\x64\141\x20\111\156\x6f\166\x65\72\x20" . $ejwrw->Gf5jU()]); goto GF500; bNrX0: if ($ejwrw->ERxv2()) { goto IYS2I; } goto xspZp; B50QR: azRRK: goto hd9e0; hd9e0: return JGkRL()->SBE1Q(["\163\165\x63\143\145\x73\x73" => true, "\160\162\x6f\x76\151\144\x65\x72\x73" => $jOQtp]); goto KkCrr; nloj7: if (!empty($jOQtp)) { goto azRRK; } goto JsWxI; KkCrr: } catch (\Exception $ai57B) { Log::p2m7E("\105\162\x72\x6f\x20\141\157\x20\x62\x75\163\x63\x61\162\40\160\162\x6f\166\145\x64\x6f\162\145\x73\40\144\141\40\x49\156\x6f\166\145\x3a\x20" . $ai57B->getMessage()); return JgKRL()->sBe1q(["\x73\165\x63\x63\145\x73\163" => false, "\x6d\x65\x73\x73\141\147\145" => "\x45\162\162\x6f\x20\x69\x6e\164\145\x72\156\157\72\x20" . $ai57B->getMessage()]); } } public function hUT8i() { try { goto dyswu; uTqHI: return jGkRL()->SBE1Q(["\163\165\x63\143\x65\x73\163" => true, "\155\x65\163\163\141\147\145" => $CR3OO, "\x69\x6d\x70\157\162\164\x65\x64\x5f\x63\x6f\x75\156\164" => $AwKKX, "\x75\160\144\141\x74\145\x64\x5f\143\157\165\156\164" => $PpbdM, "\x70\x72\157\166\151\144\x65\x72\x73" => $rU_rU]); goto Tt_XB; UG7Ld: wsvW7: goto gWDKS; pBCCb: B20yM: goto KOWl0; A4bjS: if ($ejwrw->ERxv2()) { goto B20yM; } goto L6m6L; gKHli: return jgkRl()->Sbe1q(["\163\x75\143\x63\145\x73\163" => false, "\x6d\145\x73\163\x61\147\145" => "\116\145\156\150\165\155\40\160\162\x6f\166\145\144\x6f\x72\x20\145\156\x63\157\x6e\164\162\141\x64\157\x20\156\x61\x20\x41\x50\x49\x20\144\141\x20\x49\x6e\157\166\x65"]); goto UG7Ld; s_2QF: foreach ($rkpci as $Tb7Sc) { try { goto BvdFA; hac7F: $y0Uab[] = "\x6e\x61\x6d\145"; goto b1Jik; nL1tR: $AwKKX++; goto MvN5d; sGypr: $o8Jap->f3ZTH = $Tb7Sc["\x61\143\164\151\166\145"]; goto xxG08; Ynnan: MIiyf: goto IjQK6; PQUoS: $o8Jap = YSNnK::C_MhY("\156\x61\x6d\145", "\x4c\x49\x4b\105", "\x25" . strtoupper($zde91) . "\x25")->c_MHy("\x64\151\163\164\x72\x69\x62\x75\x74\x69\157\x6e", $this->FCRCV)->yRkR9(); goto zubkL; jN_U5: $y0Uab[] = "\160\162\157\x76\151\144\x65\162\x5f\156\141\x6d\145"; goto Ynnan; zubkL: ZcnvN: goto bXI66; kWWPU: Aa_aU: goto C8Rbs; xWEKG: s9X4p: goto l9zU9; ZhcW9: $NQHuW = $Tb7Sc["\160\162\x6f\166\151\x64\x65\x72"]; goto O06r_; hcrmX: tZmaU: goto grv45; oLbPc: $o8Jap->FAVJd = $NQHuW; goto jN_U5; htaT1: $o8Jap->FCRCV = $this->FCRCV; goto aOegW; JTy1W: $o8Jap = YsnNK::c_mHy("\x70\x72\x6f\x76\x69\144\x65\x72\137\x6e\x61\x6d\x65", $NQHuW)->c_MHy("\144\x69\x73\164\x72\151\142\x75\x74\151\x6f\x6e", $this->FCRCV)->yrKr9(); goto YGMQe; bXI66: if ($o8Jap) { goto s9X4p; } goto a2Lvx; a2Lvx: ySnnk::create(["\x6e\x61\155\x65" => strtoupper($zde91), "\x70\162\157\166\151\144\x65\x72\137\x6e\x61\155\145" => $NQHuW, "\141\x63\x74\x69\x76\x65" => $Tb7Sc["\141\143\x74\151\x76\145"], "\144\151\x73\x74\162\x69\142\x75\x74\151\x6f\x6e" => $this->FCRCV, "\x69\155\147" => $Tb7Sc["\x69\x6d\x61\147\145"] ?? null]); goto nL1tR; ZLr1a: khGYT: goto xov_3; fMLx7: $KsfUZ = trim(str_replace(["\15", "\xa"], '', $KsfUZ)); goto JTy1W; b1Jik: Oem_N: goto jMC7r; xxG08: $y0Uab[] = "\141\143\164\x69\x76\x65"; goto OGBks; AB8MN: $o8Jap->save(); goto xdE_8; O06r_: $zde91 = $Tb7Sc["\160\162\157\166\x69\144\145\162\137\156\141\x6d\x65"]; goto fMLx7; xGaqN: $rU_rU[] = ["\x6e\141\155\145" => $KsfUZ, "\x70\162\157\x76\151\144\145\x72\x5f\143\x6f\x64\145" => $NQHuW, "\x73\x74\141\x74\x75\x73" => "\x75\x70\x64\141\x74\145\144", "\x75\x70\x64\x61\x74\x65\x64\137\x66\x69\145\154\x64\x73" => $y0Uab]; goto ZqUCo; VSNBn: if ($o8Jap) { goto ZcnvN; } goto PQUoS; xov_3: if (!($o8Jap->f3ZTH !== $Tb7Sc["\x61\143\164\151\166\x65"])) { goto xNHRQ; } goto sGypr; YGMQe: if ($o8Jap) { goto fd3p4; } goto GCL4i; yVo5v: $o8Jap->name = $aBCPZ; goto hac7F; jMC7r: if (!($o8Jap->FAVJd !== $NQHuW)) { goto MIiyf; } goto oLbPc; TNwyj: $aBCPZ = strtoupper($zde91); goto GJNFf; GJNFf: if (!($o8Jap->name !== $aBCPZ)) { goto Oem_N; } goto yVo5v; ZqUCo: gckXA: goto hcrmX; fW6EP: fd3p4: goto VSNBn; aOegW: $y0Uab[] = "\144\151\x73\164\x72\151\x62\165\x74\151\157\156"; goto ZLr1a; yUgOp: $o8Jap->IpVnC = $Tb7Sc["\x69\155\141\x67\x65"]; goto aEKvI; rqn4N: goto tZmaU; goto xWEKG; OGBks: xNHRQ: goto nln8K; MvN5d: $rU_rU[] = ["\x6e\141\x6d\145" => strtoupper($zde91), "\x70\x72\x6f\x76\x69\x64\x65\162\x5f\143\x6f\x64\x65" => $NQHuW, "\163\x74\x61\x74\x75\163" => "\151\155\x70\x6f\x72\164\145\x64"]; goto rqn4N; aEKvI: $y0Uab[] = "\x69\x6d\147"; goto kWWPU; xdE_8: $PpbdM++; goto xGaqN; GCL4i: $o8Jap = YSnNk::c_MhY("\x6e\x61\155\145", strtoupper($zde91))->c_mHY("\144\151\x73\x74\162\151\x62\165\x74\151\x6f\x6e", $this->FCRCV)->yRkR9(); goto fW6EP; nln8K: if (empty($y0Uab)) { goto gckXA; } goto AB8MN; BvdFA: $KsfUZ = $Tb7Sc["\x70\x72\x6f\166\x69\144\145\162"]; goto ZhcW9; C8Rbs: if (!empty($o8Jap->FCRCV)) { goto khGYT; } goto htaT1; l9zU9: $y0Uab = []; goto TNwyj; IjQK6: if (!(empty($o8Jap->IpVnC) && !empty($Tb7Sc["\151\155\141\x67\x65"]))) { goto Aa_aU; } goto yUgOp; grv45: } catch (\Exception $ai57B) { Log::p2M7E("\x45\x72\162\x6f\40\x61\x6f\x20\x70\162\x6f\143\x65\x73\x73\x61\162\x20\x70\162\157\166\145\144\157\x72\72\x20" . $ai57B->getMessage(), ["\x70\x72\x6f\x76\151\144\145\162" => $Tb7Sc]); } ODg5c: } goto gLIMq; gLIMq: Oa1GW: goto jcqK5; HEuxd: $PpbdM = 0; goto tNMqq; jcqK5: $CR3OO = $this->USBOG($AwKKX, $PpbdM); goto uTqHI; qxpSA: if (!empty($rkpci)) { goto wsvW7; } goto gKHli; dyswu: $ejwrw = sHtEq::TZURM(30)->get($this->f2Gr0); goto A4bjS; KOWl0: $rkpci = $ejwrw->sbE1Q(); goto qxpSA; gWDKS: $AwKKX = 0; goto HEuxd; tNMqq: $rU_rU = []; goto s_2QF; L6m6L: return JgkRl()->Sbe1Q(["\x73\165\143\143\x65\x73\163" => false, "\155\145\x73\163\141\147\145" => "\105\x72\x72\157\x20\141\157\40\143\157\x6e\145\143\164\x61\x72\x20\x63\x6f\x6d\40\x61\40\x41\120\x49\40\144\141\x20\111\156\157\x76\x65\72\x20" . $ejwrw->Gf5ju()]); goto pBCCb; Tt_XB: } catch (\Exception $ai57B) { Log::P2M7E("\105\x72\162\x6f\x20\x61\x6f\x20\151\155\160\157\x72\164\x61\162\40\160\162\157\166\145\x64\x6f\162\145\163\40\x64\x61\x20\x49\156\x6f\166\145\72\x20" . $ai57B->getMessage()); return JGkrl()->SBe1Q(["\x73\165\143\143\x65\x73\x73" => false, "\x6d\x65\163\x73\141\x67\x65" => "\105\162\162\x6f\x20\x6e\x61\x20\151\155\160\157\162\164\141\303\xa7\xc3\xa3\x6f\x3a\x20" . $ai57B->getMessage()]); } } public function P7y5X() { try { goto HyKj8; Tycg3: $rkpci = $ejwrw->Sbe1Q(); goto RdZan; X_pbX: foreach ($rkpci as $Tb7Sc) { goto zzf8C; hkqXT: $ejv9L->FAVJd = $NQHuW; goto Q32k3; cmMU4: if (!($ejv9L->name !== $aBCPZ)) { goto OX0t3; } goto UqCih; eUhXn: if ($ejv9L) { goto x1cx1; } goto ZOYKx; ZjT7A: oMJXr: goto X4BJi; Kh711: $y0Uab[] = "\151\x6d\147"; goto ngRAT; MZ9iO: gteuo: goto bN71J; KkS23: goto uujSZ; goto K4ubz; K457j: $rU_rU[] = ["\x6e\x61\155\x65" => strtoupper($zde91), "\x70\162\x6f\166\151\x64\145\162\x5f\143\157\144\x65" => $NQHuW, "\x73\164\x61\x74\x75\163" => "\x75\x70\x64\x61\164\x65\x64", "\x75\160\144\141\164\x65\144\x5f\146\151\145\154\x64\163" => $y0Uab]; goto Kkmax; Gq9Dk: $aBCPZ = strtoupper($zde91); goto cmMU4; ngRAT: k5DfP: goto o_SAm; HXs3z: Log::Msv8L("\x50\162\157\x76\x65\x64\157\162\x20\x6e\303\xa3\157\40\145\156\x63\x6f\x6e\x74\162\x61\x64\x6f\40\156\141\x20\142\141\163\x65\x20\x64\x65\40\144\141\144\157\x73\x3a\40{$NQHuW}\x20\50\156\x6f\155\x65\72\x20{$zde91}\x29"); goto xWTHs; XUjRu: $ejv9L = ySnNk::c_MhY("\156\x61\x6d\145", "\114\x49\113\x45", "\x25" . strtoupper($zde91) . "\x25")->C_mHY("\144\151\163\x74\162\151\142\x75\x74\x69\x6f\x6e", $this->FCRCV)->YrkR9(); goto GVOC5; kAiq_: Log::info("\116\x65\156\x68\x75\155\x20\x63\141\155\x70\x6f\40\160\x72\x65\143\x69\x73\141\40\x73\x65\x72\x20\x61\164\165\141\x6c\x69\x7a\141\144\157\x20\160\141\162\x61\x20\157\x20\160\162\x6f\166\145\x64\x6f\x72\40{$ejv9L->name}"); goto KkS23; K4ubz: QSROn: goto n29Sg; n29Sg: Log::info("\123\141\x6c\x76\x61\x6e\144\157\40\160\x72\x6f\166\145\144\x6f\x72\x20{$ejv9L->name}\40\143\157\x6d\40\x63\141\x6d\160\157\x73\x20\x61\x74\x75\141\x6c\x69\x7a\x61\144\x6f\x73\x3a\x20" . implode("\x2c\x20", $y0Uab)); goto lH2ud; foBWy: OX0t3: goto nFrRK; r93TQ: $ejv9L->FCRCV = $this->FCRCV; goto mb4DJ; n8hv4: if (!empty($y0Uab)) { goto QSROn; } goto kAiq_; lH2ud: $ejv9L->save(); goto jMbhG; qgyFI: ffZTv: goto MZ9iO; uOkxh: Log::info("\101\164\x75\x61\154\x69\x7a\141\156\144\x6f\40\160\162\x6f\x76\x69\144\x65\162\x5f\x6e\x61\x6d\x65\40\x64\145\x20\x27{$ejv9L->FAVJd}\x27\x20\160\x61\x72\x61\40\47{$NQHuW}\x27"); goto hkqXT; cqxxH: if ($ejv9L) { goto bEKhy; } goto XUjRu; LqK3r: $y0Uab = []; goto Gq9Dk; cKeHo: $zde91 = $Tb7Sc["\x70\x72\x6f\166\151\144\x65\162\x5f\156\141\x6d\145"]; goto ZgUAW; jMbhG: $PpbdM++; goto K457j; o_SAm: if (!empty($ejv9L->FCRCV)) { goto bRlsv; } goto r93TQ; KU3qo: QXnF8: goto PZOUn; wHqEN: if (!(empty($ejv9L->IpVnC) && !empty($Tb7Sc["\x69\155\141\x67\x65"]))) { goto k5DfP; } goto cj2dC; UqCih: Log::info("\x41\164\165\x61\154\x69\172\x61\156\x64\157\x20\x6e\x61\155\145\x20\144\x65\x20\47{$ejv9L->name}\47\x20\x70\x61\x72\x61\40\x27{$aBCPZ}\x27"); goto aZQ58; GVOC5: bEKhy: goto Phn5s; mb4DJ: $y0Uab[] = "\x64\151\x73\164\x72\151\x62\165\x74\151\157\156"; goto CV3ET; ZOYKx: $ejv9L = ysNnk::C_MhY("\156\141\155\145", strtoupper($zde91))->c_MHy("\144\x69\163\164\x72\x69\142\165\164\151\x6f\x6e", $this->FCRCV)->YRKR9(); goto o9kDf; aZQ58: $ejv9L->name = $aBCPZ; goto DM3lV; unAbR: MDXLS: goto wHqEN; xWTHs: goto ffZTv; goto KU3qo; DM3lV: $y0Uab[] = "\x6e\141\x6d\145"; goto foBWy; ZgUAW: Log::info("\120\162\x6f\x63\145\163\x73\x61\x6e\x64\x6f\x20\160\162\x6f\x76\x65\144\157\x72\x20\x70\141\162\x61\x20\141\164\x75\141\154\151\172\141\303\247\303\243\157\72\40{$KsfUZ}\x20\x28\x70\162\x6f\x76\x69\x64\145\x72\x5f\156\141\x6d\x65\72\x20{$zde91}\51"); goto lLNif; Kkmax: uujSZ: goto qgyFI; lLNif: $ejv9L = YSnnk::C_mHY("\x70\x72\157\166\x69\144\145\x72\137\156\x61\155\145", $NQHuW)->C_MhY("\x64\151\x73\164\162\151\x62\x75\164\x69\157\156", $this->FCRCV)->YRkR9(); goto eUhXn; Phn5s: if ($ejv9L) { goto oMJXr; } goto jPndP; CV3ET: bRlsv: goto n8hv4; X4BJi: if ($ejv9L) { goto QXnF8; } goto HXs3z; zzf8C: $KsfUZ = $Tb7Sc["\160\x72\x6f\x76\x69\x64\145\162"]; goto gBKlP; cj2dC: $ejv9L->IpVnC = $Tb7Sc["\151\x6d\141\x67\145"]; goto Kh711; gBKlP: $NQHuW = $Tb7Sc["\x70\162\157\x76\151\x64\x65\x72"]; goto cKeHo; nFrRK: if (!($ejv9L->FAVJd !== $NQHuW)) { goto MDXLS; } goto uOkxh; jPndP: $ejv9L = YsnnK::c_MHy("\160\x72\x6f\x76\151\144\145\162\x5f\156\x61\x6d\x65", "\x4c\x49\113\x45", $NQHuW . "\x25")->c_mhy("\144\151\x73\164\162\x69\142\x75\164\x69\x6f\x6e", $this->FCRCV)->C_Mhy(function ($XrAG1) { $XrAG1->vawgR("\x6e\x61\155\x65")->iny8C("\156\141\155\x65", ''); })->YrkR9(); goto ZjT7A; Q32k3: $y0Uab[] = "\x70\162\157\166\151\144\x65\x72\x5f\x6e\141\155\145"; goto unAbR; o9kDf: x1cx1: goto cqxxH; PZOUn: Log::info("\120\162\x6f\166\x65\144\157\x72\40\145\156\143\x6f\x6e\164\x72\141\x64\x6f\72\40{$ejv9L->name}\40\x28\111\x44\x3a\40{$ejv9L->id}\54\40\160\162\157\166\x69\144\x65\x72\x5f\156\x61\155\x65\x20\x61\x74\x75\x61\154\x3a\x20" . ($ejv9L->FAVJd ?? "\x4e\125\x4c\114") . "\x29"); goto LqK3r; bN71J: } goto nvji8; HyKj8: $ejwrw = shTEq::TzURM(30)->get($this->f2Gr0); goto VT61Y; VOiUZ: return JGKRL()->sBE1Q(["\163\x75\143\143\x65\163\x73" => false, "\155\x65\x73\x73\141\147\x65" => "\105\x72\162\x6f\40\141\x6f\40\143\x6f\156\x65\143\x74\x61\162\x20\143\157\x6d\x20\x61\40\x41\x50\111\40\x64\x61\40\111\x6e\157\166\x65\x3a\x20" . $ejwrw->gf5ju()]); goto N6NAe; VT61Y: if ($ejwrw->erXV2()) { goto VIzgt; } goto VOiUZ; AbHCp: $rU_rU = []; goto X_pbX; c2LbR: return JGKrl()->sBe1Q(["\x73\x75\x63\143\x65\x73\x73" => true, "\155\x65\x73\163\x61\147\x65" => $PpbdM > 0 ? "\101\x74\165\141\154\x69\x7a\x61\303\xa7\xc3\243\157\40\x63\x6f\156\x63\x6c\165\303\255\x64\141\72\40{$PpbdM}\x20\x70\x72\x6f\166\145\144\x6f\162\x65\163\40\x61\x74\165\x61\154\151\x7a\x61\x64\x6f\163" : "\116\145\x6e\x68\165\x6d\x20\x70\162\157\x76\x65\x64\157\x72\x20\160\162\x65\143\151\x73\x61\x76\141\x20\x64\x65\40\x61\x74\x75\141\x6c\151\x7a\141\xc3\xa7\303\243\x6f", "\x75\x70\144\141\x74\x65\144\x5f\x63\x6f\x75\x6e\164" => $PpbdM, "\160\x72\157\x76\x69\x64\x65\162\x73" => $rU_rU]); goto K3tns; N6NAe: VIzgt: goto Tycg3; nvji8: lTkS1: goto c2LbR; RdZan: $PpbdM = 0; goto AbHCp; K3tns: } catch (\Exception $ai57B) { Log::P2M7e("\x45\x72\x72\x6f\40\x61\157\x20\141\164\x75\141\x6c\151\x7a\x61\162\x20\160\162\157\166\x65\144\157\162\145\x73\40\144\x61\40\x49\x6e\157\x76\x65\x3a\x20" . $ai57B->getMessage()); return JgKRL()->SBe1q(["\163\x75\x63\x63\145\163\163" => false, "\155\145\x73\163\x61\x67\x65" => "\x45\x72\x72\x6f\x20\x6e\141\x20\141\x74\x75\x61\154\x69\x7a\x61\303\xa7\303\xa3\157\72\40" . $ai57B->getMessage()]); } } private function uSbOG($ol3vG, $S69Vb) { goto kX6xQ; wUp7_: $TkYag[] = "{$S69Vb}\x20\x70\162\157\x76\145\144\x6f\x72\x65\163\40\x61\164\165\141\154\x69\172\141\144\x6f\x73"; goto dUVY_; f4SMo: Noe1U: goto TXgtI; pNpeS: $TkYag[] = "{$ol3vG}\40\x70\162\157\166\x65\x64\x6f\x72\145\163\x20\151\x6d\x70\x6f\x72\164\141\x64\x6f\163"; goto f4SMo; TXgtI: if (!($S69Vb > 0)) { goto lO80T; } goto wUp7_; dUVY_: lO80T: goto tG3Ly; TVdbL: Aoy5N: goto YR_PU; W3DV2: return "\116\x65\x6e\x68\165\x6d\x61\x20\x61\154\x74\145\162\141\xc3\xa7\xc3\xa3\x6f\x20\x72\145\x61\x6c\151\x7a\x61\144\x61"; goto TVdbL; kX6xQ: $TkYag = []; goto WQiyK; YR_PU: return "\120\162\157\143\145\163\163\141\x6d\145\156\164\x6f\x20\x63\157\x6e\143\x6c\165\xc3\xad\x64\157\x3a\x20" . implode("\x2c\40", $TkYag); goto q8ag_; WQiyK: if (!($ol3vG > 0)) { goto Noe1U; } goto pNpeS; tG3Ly: if (!empty($TkYag)) { goto Aoy5N; } goto W3DV2; q8ag_: } private function ysq87($Tq89T) { goto hKwa2; hxMiN: $DRPSB = ucwords($DRPSB); goto AMBPA; k_Rfu: FCrP1: goto Oiqck; AMBPA: return $DRPSB; goto o0Xkr; WMwaT: return ''; goto k_Rfu; Oiqck: $DRPSB = strtolower(str_replace("\x5f", "\40", $Tq89T)); goto hxMiN; hKwa2: if ($Tq89T) { goto FCrP1; } goto WMwaT; o0Xkr: } private function CrKvC($tB4a8) { goto iOu9m; nH2sm: return true; goto JDB0l; I8Jjf: return false; goto G4HxG; JDB0l: xh6MH: goto I8Jjf; iOu9m: if (!(filter_var($tB4a8, FILTER_VALIDATE_URL) && (strpos($tB4a8, "\x68\x74\164\x70\x3a\x2f\57") === 0 || strpos($tB4a8, "\150\164\164\x70\163\x3a\57\57") === 0))) { goto xh6MH; } goto nH2sm; G4HxG: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\GamesApi;
+use App\Models\Admin\Providers;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
+
+class InoveImportController extends Controller
+{
+    private $apiUrl = 'https://api.inoveigaming.com/games/list';
+    private $providersApiUrl = 'https://api.inoveigaming.com/games/providers';
+    private $distribution = 'Inove';
+
+    public function index()
+    {
+        return view('admin.import.inove');
+    }
+
+    /**
+     * Proxy para carregar imagens externas e evitar problemas de CORS
+     */
+    public function proxyImage(Request $request)
+    {
+        $imageUrl = $request->query('url');
+        
+        if (!$imageUrl) {
+            return response('URL não fornecida', 400);
+        }
+
+        try {
+            // Fazer requisição para a imagem externa
+            $response = Http::timeout(10)
+                ->withHeaders([
+                    'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                    'Referer' => 'https://demo.inoveigaming.com/',
+                ])
+                ->get($imageUrl);
+
+            if (!$response->successful()) {
+                return response('Erro ao carregar imagem', $response->status());
+            }
+
+            // Determinar o tipo de conteúdo
+            $contentType = $response->header('Content-Type') ?: 'image/webp';
+
+            // Retornar a imagem com headers CORS corretos
+            return response($response->body())
+                ->header('Content-Type', $contentType)
+                ->header('Cache-Control', 'public, max-age=86400') // Cache de 24 horas
+                ->header('Access-Control-Allow-Origin', '*');
+
+        } catch (\Exception $e) {
+            Log::error('Erro no proxy de imagem: ' . $e->getMessage());
+            return response('Erro ao processar imagem', 500);
+        }
+    }
+
+    public function getGames()
+    {
+        try {
+            $response = Http::timeout(30)->get($this->apiUrl);
+
+            if (!$response->successful()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao conectar com a API da Inove: ' . $response->status()
+                ]);
+            }
+
+            $games = $response->json();
+
+            if (empty($games)) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum jogo encontrado na API da Inove'
+                ]);
+            }
+
+            return response()->json([
+                'success' => true,
+                'games' => $games
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao buscar jogos da Inove: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function getExistingGames()
+    {
+        try {
+            // Buscar jogos que têm distribution Inove diretamente na tabela games_api
+            $existingGames = GamesApi::with('provider')
+                ->where('distribution', $this->distribution)
+                ->select('id', 'name', 'distribution', 'image', 'slug', 'provider_id')
+                ->get()
+                ->map(function($game) {
+                    $providerName = $game->provider?->name ?? 'Desconhecido';
+                    
+                    return [
+                        'id' => $game->id,
+                        'name' => $game->name,
+                        'provider_name' => $providerName,
+                        'distribution' => $game->distribution,
+                        'image' => $game->image,
+                        'slug' => $game->slug // Campo consolidado - cada jogo tem apenas um slug
+                    ];
+                });
+
+            return response()->json([
+                'success' => true,
+                'existingGames' => $existingGames
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao buscar jogos existentes da Inove: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao buscar jogos existentes: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function importGames(Request $request)
+    {
+        // Aumentar limite de memória e tempo de execução
+        ini_set('memory_limit', '1024M');
+        set_time_limit(600);
+
+        $request->validate([
+            'games' => 'required|array',
+            'games.*' => 'required|string'
+        ]);
+
+        $gameIds = $request->games;
+        $processedGames = [];
+        $importedCount = 0;
+        $updatedCount = 0;
+        $errorCount = 0;
+
+        Log::info('Iniciando importação de jogos da Inove', ['count' => count($gameIds)]);
+
+        try {
+            $response = Http::timeout(30)->get($this->apiUrl);
+
+            if (!$response->successful()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao conectar com a API da Inove: ' . $response->status()
+                ]);
+            }
+
+            $apiGames = $response->json();
+            $gamesById = collect($apiGames)->keyBy('id');
+
+            foreach ($gameIds as $gameId) {
+                try {
+                    $gameData = $gamesById->get($gameId);
+
+                    if (!$gameData) {
+                        $processedGames[$gameId] = [
+                            'status' => 'error',
+                            'message' => 'Jogo não encontrado na API'
+                        ];
+                        $errorCount++;
+                        continue;
+                    }
+
+                    $result = $this->processGame($gameData);
+                    $processedGames[$gameId] = $result;
+
+                    if ($result['status'] === 'imported') {
+                        $importedCount++;
+                    } elseif ($result['status'] === 'updated') {
+                        $updatedCount++;
+                    } elseif ($result['status'] === 'already_exists') {
+                        // Jogo já existe com este slug - não conta como erro nem como atualização
+                        // Mantém os contadores como estão
+                    } else {
+                        $errorCount++;
+                    }
+
+                } catch (\Exception $e) {
+                    Log::error("Erro ao processar jogo ID {$gameId}: " . $e->getMessage());
+                    $processedGames[$gameId] = [
+                        'status' => 'error',
+                        'message' => 'Erro interno: ' . $e->getMessage()
+                    ];
+                    $errorCount++;
+                }
+            }
+
+            $message = $this->buildResponseMessage($importedCount, $updatedCount, $errorCount);
+
+            Log::info('Importação concluída', [
+                'imported' => $importedCount,
+                'updated' => $updatedCount,
+                'errors' => $errorCount
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => $message,
+                'imported_count' => $importedCount,
+                'updated_count' => $updatedCount,
+                'error_count' => $errorCount,
+                'games' => $processedGames
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro geral na importação: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro na importação: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    private function processGame($gameData)
+    {
+        try {
+            $providerName = $gameData['provider']; // Usar o código como nome
+            $originalProviderName = $gameData['provider_name'];
+
+            $provider = $this->findOrCreateProvider($gameData['provider'], $providerName, $originalProviderName);
+
+            if (!$provider) {
+                return [
+                    'status' => 'error',
+                    'message' => 'Erro ao processar provedor'
+                ];
+            }
+
+            $slug = $gameData['slugs'][0]['slug'] ?? null;
+            if (!$slug) {
+                return [
+                    'status' => 'error',
+                    'message' => 'Slug não encontrado'
+                ];
+            }
+
+            // Normalizar o nome do jogo para evitar duplicações
+            $originalName = $gameData['name'];
+            $normalizedName = $this->normalizeGameName($originalName);
+            
+            // Log para debug
+            Log::info("Processando jogo: Nome original='{$originalName}', Nome normalizado='{$normalizedName}', Slug='{$slug}'");
+            
+            // VERIFICAÇÃO: Buscar jogo pelo slug, provedor e distribuição diretamente na games_api
+            $existingGame = GamesApi::where('slug', $slug)
+                ->where('distribution', $this->distribution)
+                ->where('provider_id', $provider->id)
+                ->first();
+            
+            if ($existingGame) {
+                Log::info("Slug '{$slug}' já existe para Inove (provedor: {$provider->name}) no jogo: {$existingGame->name}");
+                
+                // Atualizar dados do jogo existente (incluindo normalização do nome se necessário)
+                $this->updateGame($existingGame, $gameData, $provider, $normalizedName);
+                
+                return [
+                    'status' => 'already_exists',
+                    'name' => $normalizedName,
+                    'provider_name' => $originalProviderName,
+                    'category' => ucfirst($gameData['category']),
+                    'message' => 'Jogo já existe para distribuição Inove e mesmo provedor'
+                ];
+            } else {
+                // Jogo não existe - criar novo com nome normalizado
+                $game = $this->createGame($gameData, $provider, $slug, $normalizedName);
+
+                return [
+                    'status' => 'imported',
+                    'name' => $normalizedName,
+                    'provider_name' => $originalProviderName,
+                    'category' => ucfirst($gameData['category']),
+                    'message' => 'Novo jogo importado'
+                ];
+            }
+
+        } catch (\Exception $e) {
+            Log::error("Erro ao processar jogo: " . $e->getMessage());
+            return [
+                'status' => 'error',
+                'message' => $e->getMessage()
+            ];
+        }
+    }
+
+    private function normalizeProviderName($providerName)
+    {
+        if (!$providerName) return '';
+
+        return strtoupper(str_replace('_', ' ', $providerName));
+    }
+
+    private function findOrCreateProvider($providerCode, $providerName, $originalProviderName = null)
+    {
+        // Buscar provedor pelo provider_name (código do sistema) E distribuição
+        $provider = Providers::where('provider_name', $providerCode)
+                            ->where('distribution', $this->distribution)
+                            ->first();
+
+        if (!$provider) {
+            // Se não encontrou pelo código, buscar pelo name (nome completo em maiúsculo)
+            $provider = Providers::where('name', strtoupper($originalProviderName ?: $providerName))
+                                ->where('distribution', $this->distribution)
+                                ->first();
+        }
+
+        if (!$provider) {
+            // Se ainda não encontrou, buscar por LIKE no name para casos parciais
+            $provider = Providers::where('name', 'LIKE', '%' . strtoupper($originalProviderName ?: $providerName) . '%')
+                                ->where('distribution', $this->distribution)
+                                ->first();
+        }
+
+        if (!$provider) {
+            $provider = Providers::create([
+                'name' => strtoupper($originalProviderName ?: $providerName), // Nome completo em MAIÚSCULO (ex: PRAGMATIC PLAY LIVE)
+                'provider_name' => $providerCode, // Código do sistema (ex: PRAGMATICLIVE)
+                'active' => 1,
+                'distribution' => $this->distribution,
+                'img' => null
+            ]);
+            Log::info("Novo provedor criado para {$this->distribution}: {$providerCode} (nome: " . strtoupper($originalProviderName ?: $providerName) . ")");
+        } else {
+            // Atualizar name se estiver vazio
+            if ($originalProviderName && empty($provider->name)) {
+                $provider->name = strtoupper($originalProviderName);
+                $provider->save();
+                Log::info("Name atualizado para {$providerCode}: " . strtoupper($originalProviderName));
+            }
+        }
+
+        return $provider;
+    }
+
+    private function createGame($gameData, $provider, $slug, $normalizedName = null)
+    {
+        // Usar nome normalizado se fornecido, senão usar o nome original
+        $gameName = $normalizedName ?: $gameData['name'];
+        
+        // A imagem está dentro do array slugs na estrutura atual da API
+        $imageToUse = $gameData['slugs'][0]['image'] ?? null;
+
+        $game = GamesApi::create([
+            'name' => $gameName,
+            'category' => ucfirst($gameData['category']),
+            'image' => $imageToUse,
+            'distribution' => $this->distribution,
+            'status' => $gameData['active'] ? 1 : 0,
+            'slug' => $slug,
+            'provider_id' => $provider->id
+        ]);
+
+        Log::info("Novo jogo criado: {$gameName} ({$slug}) com imagem: " . ($imageToUse ?: 'sem imagem'));
+
+        return $game;
+    }
+
+    private function updateGame($game, $gameData, $provider, $normalizedName = null)
+    {
+        $updateData = [
+            'category' => ucfirst($gameData['category']),
+            'status' => $gameData['active'] ? 1 : 0
+        ];
+
+        // Normalizar o nome se fornecido e for diferente do nome atual
+        if ($normalizedName && $game->name !== $normalizedName) {
+            $updateData['name'] = $normalizedName;
+            Log::info("Nome do jogo normalizado de '{$game->name}' para '{$normalizedName}'");
+        }
+
+        // Atualizar imagem apenas se não existe ou se não for uma URL válida
+        if (empty($game->image) || !$this->isImageUrl($game->image)) {
+            // A imagem está dentro do array slugs na estrutura atual da API
+            $newImage = $gameData['slugs'][0]['image'] ?? null;
+            
+            if (!empty($newImage)) {
+                $updateData['image'] = $newImage;
+            }
+        }
+
+        $game->update($updateData);
+
+        $gameName = $normalizedName ?: $gameData['name'];
+        Log::info("Jogo atualizado: {$gameName}");
+    }
+
+    private function buildResponseMessage($imported, $updated, $errors)
+    {
+        $parts = [];
+
+        if ($imported > 0) {
+            $parts[] = "{$imported} jogos importados";
+        }
+
+        if ($updated > 0) {
+            $parts[] = "{$updated} jogos atualizados";
+        }
+
+        if ($errors > 0) {
+            $parts[] = "{$errors} erros";
+        }
+
+        if (empty($parts)) {
+            return 'Nenhuma alteração realizada';
+        }
+
+        return 'Processamento concluído: ' . implode(', ', $parts);
+    }
+
+    public function getProviders()
+    {
+        try {
+            $response = Http::timeout(30)->get($this->providersApiUrl);
+
+            if (!$response->successful()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao conectar com a API da Inove: ' . $response->status()
+                ]);
+            }
+
+            $providers = $response->json();
+
+            if (empty($providers)) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum provedor encontrado na API da Inove'
+                ]);
+            }
+
+            return response()->json([
+                'success' => true,
+                'providers' => $providers
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao buscar provedores da Inove: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function importProviders()
+    {
+        try {
+            $response = Http::timeout(30)->get($this->providersApiUrl);
+
+            if (!$response->successful()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao conectar com a API da Inove: ' . $response->status()
+                ]);
+            }
+
+            $apiProviders = $response->json();
+
+            if (empty($apiProviders)) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum provedor encontrado na API da Inove'
+                ]);
+            }
+
+            $importedCount = 0;
+            $updatedCount = 0;
+            $processedProviders = [];
+
+            foreach ($apiProviders as $apiProvider) {
+                try {
+                    $normalizedName = $apiProvider['provider']; // Usar o código como nome
+                    $providerCode = $apiProvider['provider'];
+                    $originalProviderName = $apiProvider['provider_name'];
+
+                    // Limpar caracteres especiais como \r\n do nome normalizado para busca
+                    $normalizedName = trim(str_replace(["\r", "\n"], '', $normalizedName));
+
+                    // Buscar provedor primeiro pelo provider_name (código do sistema)
+                    $existingProvider = Providers::where('provider_name', $providerCode)
+                                                  ->where('distribution', $this->distribution)
+                                                  ->first();
+
+                    // Se não encontrou pelo código, buscar pelo name (nome completo em maiúsculo)
+                    if (!$existingProvider) {
+                        $existingProvider = Providers::where('name', strtoupper($originalProviderName))
+                                                      ->where('distribution', $this->distribution)
+                                                      ->first();
+                    }
+
+                    // Se ainda não encontrou, buscar por LIKE no name para casos parciais
+                    if (!$existingProvider) {
+                        $existingProvider = Providers::where('name', 'LIKE', '%' . strtoupper($originalProviderName) . '%')
+                                                      ->where('distribution', $this->distribution)
+                                                      ->first();
+                    }
+
+                    if ($existingProvider) {
+                        // Atualizar provedor existente
+                        $updatedFields = [];
+
+                        // Atualizar name (nome completo em maiúsculo) SEMPRE se diferente
+                        $expectedName = strtoupper($originalProviderName);
+                        if ($existingProvider->name !== $expectedName) {
+                            $existingProvider->name = $expectedName;
+                            $updatedFields[] = 'name';
+                        }
+
+                        // Atualizar provider_name (código do sistema) SEMPRE se diferente
+                        if ($existingProvider->provider_name !== $providerCode) {
+                            $existingProvider->provider_name = $providerCode;
+                            $updatedFields[] = 'provider_name';
+                        }
+
+                        if (empty($existingProvider->img) && !empty($apiProvider['image'])) {
+                            $existingProvider->img = $apiProvider['image'];
+                            $updatedFields[] = 'img';
+                        }
+
+                        if (empty($existingProvider->distribution)) {
+                            $existingProvider->distribution = $this->distribution;
+                            $updatedFields[] = 'distribution';
+                        }
+
+                        if ($existingProvider->active !== $apiProvider['active']) {
+                            $existingProvider->active = $apiProvider['active'];
+                            $updatedFields[] = 'active';
+                        }
+
+                        if (!empty($updatedFields)) {
+                            $existingProvider->save();
+                            $updatedCount++;
+
+                            $processedProviders[] = [
+                                'name' => $normalizedName,
+                                'provider_code' => $providerCode,
+                                'status' => 'updated',
+                                'updated_fields' => $updatedFields
+                            ];
+                        }
+                    } else {
+                        // Criar novo provedor
+                        Providers::create([
+                            'name' => strtoupper($originalProviderName), // Nome completo em MAIÚSCULO (ex: PRAGMATIC PLAY LIVE)
+                            'provider_name' => $providerCode, // Código do sistema (ex: PRAGMATICLIVE)
+                            'active' => $apiProvider['active'],
+                            'distribution' => $this->distribution,
+                            'img' => $apiProvider['image'] ?? null
+                        ]);
+
+                        $importedCount++;
+                        $processedProviders[] = [
+                            'name' => strtoupper($originalProviderName),
+                            'provider_code' => $providerCode,
+                            'status' => 'imported'
+                        ];
+                    }
+                } catch (\Exception $e) {
+                    Log::error("Erro ao processar provedor: " . $e->getMessage(), ['provider' => $apiProvider]);
+                }
+            }
+
+            $message = $this->buildProvidersResponseMessage($importedCount, $updatedCount);
+
+            return response()->json([
+                'success' => true,
+                'message' => $message,
+                'imported_count' => $importedCount,
+                'updated_count' => $updatedCount,
+                'providers' => $processedProviders
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao importar provedores da Inove: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro na importação: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function updateProviders()
+    {
+        try {
+            $response = Http::timeout(30)->get($this->providersApiUrl);
+
+            if (!$response->successful()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao conectar com a API da Inove: ' . $response->status()
+                ]);
+            }
+
+            $apiProviders = $response->json();
+            $updatedCount = 0;
+            $processedProviders = [];
+
+                        foreach ($apiProviders as $apiProvider) {
+                $normalizedName = $apiProvider['provider']; // Usar o código como nome
+                $providerCode = $apiProvider['provider'];
+                $originalProviderName = $apiProvider['provider_name'];
+
+                    // Log para debug
+                    Log::info("Processando provedor para atualização: {$normalizedName} (provider_name: {$originalProviderName})");
+
+                // Buscar provedor primeiro pelo provider_name (código do sistema)
+                $provider = Providers::where('provider_name', $providerCode)
+                                   ->where('distribution', $this->distribution)
+                                   ->first();
+
+                // Se não encontrou pelo código, buscar pelo name (nome completo em maiúsculo)
+                if (!$provider) {
+                    $provider = Providers::where('name', strtoupper($originalProviderName))
+                                       ->where('distribution', $this->distribution)
+                                       ->first();
+                }
+
+                // Se ainda não encontrou, buscar por LIKE no name para casos parciais
+                if (!$provider) {
+                    $provider = Providers::where('name', 'LIKE', '%' . strtoupper($originalProviderName) . '%')
+                                       ->where('distribution', $this->distribution)
+                                       ->first();
+                }
+
+                // Se ainda não encontrou, buscar provedores com name null ou vazio que tenham código similar
+                if (!$provider) {
+                    $provider = Providers::where('provider_name', 'LIKE', $providerCode . '%')
+                                       ->where('distribution', $this->distribution)
+                                       ->where(function($query) {
+                                           $query->whereNull('name')
+                                                 ->orWhere('name', '');
+                                       })
+                                       ->first();
+                }
+
+                if ($provider) {
+                    Log::info("Provedor encontrado: {$provider->name} (ID: {$provider->id}, provider_name atual: " . ($provider->provider_name ?? 'NULL') . ")");
+                    
+                    $updatedFields = [];
+
+                    // Forçar atualização do name (nome completo em maiúsculo) SEMPRE
+                    $expectedName = strtoupper($originalProviderName);
+                    if ($provider->name !== $expectedName) {
+                        Log::info("Atualizando name de '{$provider->name}' para '{$expectedName}'");
+                        $provider->name = $expectedName;
+                        $updatedFields[] = 'name';
+                    }
+
+                    // Forçar atualização do provider_name (código do sistema) SEMPRE
+                    if ($provider->provider_name !== $providerCode) {
+                        Log::info("Atualizando provider_name de '{$provider->provider_name}' para '{$providerCode}'");
+                        $provider->provider_name = $providerCode;
+                        $updatedFields[] = 'provider_name';
+                    }
+
+                    if (empty($provider->img) && !empty($apiProvider['image'])) {
+                        $provider->img = $apiProvider['image'];
+                        $updatedFields[] = 'img';
+                    }
+
+                    if (empty($provider->distribution)) {
+                        $provider->distribution = $this->distribution;
+                        $updatedFields[] = 'distribution';
+                    }
+
+                    if (!empty($updatedFields)) {
+                        Log::info("Salvando provedor {$provider->name} com campos atualizados: " . implode(', ', $updatedFields));
+                        $provider->save();
+                        $updatedCount++;
+
+                        $processedProviders[] = [
+                            'name' => strtoupper($originalProviderName),
+                            'provider_code' => $providerCode,
+                            'status' => 'updated',
+                            'updated_fields' => $updatedFields
+                        ];
+                    } else {
+                        Log::info("Nenhum campo precisa ser atualizado para o provedor {$provider->name}");
+                    }
+                } else {
+                    Log::warning("Provedor não encontrado na base de dados: {$providerCode} (nome: {$originalProviderName})");
+                }
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' => $updatedCount > 0 ?
+                    "Atualização concluída: {$updatedCount} provedores atualizados" :
+                    'Nenhum provedor precisava de atualização',
+                'updated_count' => $updatedCount,
+                'providers' => $processedProviders
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao atualizar provedores da Inove: ' . $e->getMessage());
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro na atualização: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    private function buildProvidersResponseMessage($imported, $updated)
+    {
+        $parts = [];
+
+        if ($imported > 0) {
+            $parts[] = "{$imported} provedores importados";
+        }
+
+        if ($updated > 0) {
+            $parts[] = "{$updated} provedores atualizados";
+        }
+
+        if (empty($parts)) {
+            return 'Nenhuma alteração realizada';
+        }
+
+        return 'Processamento concluído: ' . implode(', ', $parts);
+    }
+
+    /**
+     * Normaliza o nome do jogo para formato humanizado
+     * Ex: AUTO_MEGA_ROULETTE -> Auto Mega Roulette
+     */
+    private function normalizeGameName($name)
+    {
+        if (!$name) return '';
+
+        // Converter para minúsculas e substituir underscores por espaços
+        $normalized = strtolower(str_replace('_', ' ', $name));
+        
+        // Capitalizar cada palavra
+        $normalized = ucwords($normalized);
+        
+        return $normalized;
+    }
+
+    /**
+     * Verifica se uma string é uma URL de imagem válida
+     */
+    private function isImageUrl($imageString)
+    {
+        // Verificar se é uma URL válida (começa com http ou https)
+        if (filter_var($imageString, FILTER_VALIDATE_URL) &&
+            (strpos($imageString, 'http://') === 0 || strpos($imageString, 'https://') === 0)) {
+            return true;
+        }
+
+        // Se não for URL, é considerado caminho local
+        return false;
+    }
+}

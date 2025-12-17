@@ -1,8 +1,251 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:44              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89X\SHTEQ\fN52M\NXRov; use jF89x\ShtEQ\Fn52M\NMP37; use Ec3mE\QpX1V\NXrOV\kO0KT; use eC3me\sHteq\s9D5T; use Ec3me\h2VUv\p2QH1\LVLOX; use eC3me\H2vUV\P2qH1\Hash; use SHpK2\shpk2; use EC3Me\H2vuV\p2qh1\Log; use ec3me\H2vUv\p2qH1\ZYXnL; use Jf89X\T0EtD\AvsuJ; use eC3Me\h2Vuv\tc4Rx; use ec3me\H2vuv\P2Qh1\nXRoV; use eC3Me\h2vuV\p2QH1\wg7wV; class x929h extends nMp37 { use KO0kT; protected $GuH45 = "\57"; public function __construct() { $this->ZAJpW("\147\x75\x65\163\x74"); } public function p84dM(S9D5T $WFz1w, $IIU0r = null) { goto AfBbP; Y60Aa: Log::MSv8l("\124\157\153\x65\x6e\x20\x69\x6e\x76\xc3\241\x6c\151\x64\157\40\157\x75\x20\x65\170\160\x69\x72\x61\x64\x6f\72\40\162\145\x64\x69\162\x65\x63\x69\157\156\x61\x6e\x64\157\x20\x70\141\162\141\x20\x70\303\xa1\147\151\156\141\x20\x64\145\40\163\157\154\151\143\x69\164\x61\xc3\247\xc3\xa3\157"); goto rHrhV; z7GlN: return Fh6X5("\x2f")->rnjfy("\x65\162\162\157\x72", "\105\163\x74\145\40\154\151\x6e\x6b\40\x64\145\40\x72\x65\x64\x65\x66\x69\156\151\xc3\247\xc3\243\157\x20\x64\x65\40\x73\x65\x6e\150\x61\40\x6a\303\241\x20\x66\157\x69\40\x75\164\151\154\151\x7a\x61\x64\x6f\x2e\40\120\x6f\x72\x20\x66\141\166\x6f\162\x2c\x20\x73\x6f\x6c\151\x63\x69\164\x65\40\x75\x6d\40\x6e\157\166\157\x20\154\x69\156\153\40\x73\145\40\156\145\x63\145\163\x73\xc3\241\x72\x69\157\x2e"); goto Jnmp9; YAgKh: if ($lYh9X) { goto dFtTW; } goto EYapt; F5bnt: goto H2BIW; goto rIwbN; rHrhV: return fh6X5()->wWy32("\x70\141\x73\x73\x77\157\162\x64\x2e\162\145\x71\165\145\163\x74")->RNJFy("\145\162\162\157\162", "\x45\x73\x74\145\x20\164\x6f\x6b\x65\x6e\x20\144\x65\40\162\145\144\145\146\151\156\151\303\247\303\243\157\40\x64\x65\x20\163\145\156\150\141\40\xc3\xa9\x20\x69\x6e\166\303\241\x6c\151\x64\157\x20\157\x75\x20\x6a\xc3\xa1\40\x65\x78\160\151\x72\157\x75\56\40\x50\x6f\x72\x20\146\141\x76\157\x72\54\x20\163\x6f\x6c\x69\143\x69\164\145\40\x75\x6d\40\x6e\x6f\166\157\40\x6c\151\x6e\x6b\40\144\x65\40\162\x65\x64\145\x66\x69\156\x69\303\247\303\243\157\x2e"); goto P1qB3; EYapt: Log::mSV8L("\105\155\x61\x69\x6c\40\156\xc3\243\x6f\40\146\x6f\x72\x6e\145\x63\x69\144\157\40\x6e\x61\40\163\157\x6c\151\143\151\164\x61\303\xa7\xc3\243\x6f\x20\144\x65\x20\162\145\x64\145\x66\x69\x6e\x69\xc3\xa7\303\xa3\x6f"); goto F5bnt; a903R: if (!$yQPuC) { goto Xj9cS; } goto Ym6rc; i9w5A: Log::info("\x52\x65\x73\165\x6c\164\x61\144\157\40\144\141\40\x76\x61\154\151\144\x61\303\xa7\303\xa3\x6f", ["\x74\x6f\x6b\x65\156\x5f\x76\141\154\x69\x64\157" => $WgXqi ? "\x53\x69\155" : "\x4e\303\xa3\157", "\150\141\x73\150\137\143\x68\x65\143\153" => Hash::c_4Hv($IIU0r, $lWKwN->VKzZM) ? "\120\141\163\x73\x6f\165" : "\x46\141\154\150\x6f\165"]); goto MlMSk; zmz5J: Log::info("\124\x65\156\x74\141\x74\x69\166\x61\40\144\x65\x20\162\x65\144\x65\x66\x69\x6e\x69\xc3\247\303\243\157\40\144\145\40\163\145\156\150\x61", ["\x74\x6f\153\x65\156" => substr($IIU0r, 0, 10) . "\56\x2e\56", "\x65\x6d\x61\x69\154" => $lYh9X ? substr($lYh9X, 0, 3) . "\x2a\52\52" . strstr($lYh9X, "\100") : "\x6e\xc3\243\157\40\x66\157\x72\156\145\x63\151\144\x6f"]); goto sftLd; BGcld: if ($WgXqi) { goto jAXPU; } goto Y60Aa; sftLd: $WgXqi = false; goto sdXo2; WZoiv: if ($lWKwN) { goto XiOSV; } goto jKz_J; dQRlT: $JPypa = SHpk2::kJT_J($lWKwN->RvvCO); goto mSXhH; Ym6rc: Log::MsV8l("\x54\x6f\153\x65\156\40\152\303\241\40\146\x6f\x69\x20\x75\x74\151\154\151\172\x61\x64\x6f\72\x20\x72\x65\144\151\x72\145\143\x69\x6f\x6e\141\x6e\x64\x6f\x20\160\141\x72\141\x20\x68\157\x6d\x65\x20\160\141\x67\145"); goto z7GlN; zHCpn: $WgXqi = $pidlM->iQh6H($I6hWW) && Hash::C_4Hv($IIU0r, $lWKwN->VKzZM); goto i9w5A; T31tb: return lO0cY("\x61\165\x74\150\x2e\x70\x61\x73\163\167\x6f\162\144\x73\56\x72\145\x73\x65\x74", ["\164\157\153\145\156" => $IIU0r, "\x65\x6d\141\x69\x6c" => $lYh9X, "\x74\157\x6b\145\x6e\x56\x61\x6c\x69\144" => true]); goto KLj0D; sdXo2: $yQPuC = false; goto YAgKh; MlMSk: vv5Lm: goto pfvoD; VydZ2: Log::info("\x54\x6f\153\x65\x6e\x20\x76\x61\154\x69\x64\141\x64\x6f\40\143\157\x6d\x20\x73\x75\143\145\x73\x73\157\54\x20\x72\x65\x74\x6f\162\156\141\156\144\x6f\x20\160\xc3\241\x67\x69\x6e\x61\40\144\145\x20\162\145\x73\x65\x74"); goto T31tb; mSXhH: $I6hWW = $JPypa->Rw_8L(lVIq5("\141\165\164\x68\56\x70\x61\x73\x73\x77\157\x72\x64\163\x2e\x75\163\x65\x72\x73\x2e\x65\x78\x70\x69\x72\x65", 60)); goto w0z9o; mNWtH: Log::info("\x56\145\x72\151\146\151\x63\141\303\xa7\xc3\243\157\x20\x64\x65\x20\164\157\153\145\156", ["\164\157\x6b\145\156\137\x63\x72\151\x61\x64\x6f\x5f\145\155" => $JPypa->format("\x59\x2d\x6d\x2d\x64\x20\x48\72\x69\72\163"), "\x74\157\153\145\156\x5f\x65\170\160\x69\x72\141\137\x65\x6d" => $I6hWW->format("\131\x2d\155\x2d\144\40\110\72\151\x3a\x73"), "\141\147\x6f\x72\141" => $pidlM->format("\x59\55\x6d\55\x64\x20\110\x3a\x69\x3a\163"), "\145\170\x70\x69\x72\141\144\157" => $pidlM->bPNj2($I6hWW) ? "\x53\151\155" : "\116\xc3\243\157"]); goto zHCpn; D6eY5: Log::MSV8L("\x54\x6f\153\x65\156\x20\156\165\x6c\x6f\x20\162\145\x63\145\142\x69\x64\x6f\x20\145\155\x20\163\150\157\x77\x52\x65\x73\145\164\106\157\x72\155"); goto eFGE3; AfBbP: if (!($IIU0r === null)) { goto IHxMV; } goto D6eY5; fdkzg: $lWKwN = Lvlox::fTz7f("\160\141\x73\x73\x77\157\x72\144\x5f\x72\145\163\145\x74\x73")->C_mhy("\145\x6d\141\x69\154", $lYh9X)->YRKr9(); goto WZoiv; sb6jA: $lYh9X = $WFz1w->VzAAC; goto zmz5J; eFGE3: return fH6x5()->Wwy32("\x70\x61\163\163\167\157\x72\x64\56\162\145\161\x75\x65\163\x74")->RNJfy("\x65\162\x72\157\162", "\x54\157\153\145\156\40\x64\x65\40\162\145\x64\145\146\x69\156\x69\xc3\247\303\xa3\157\x20\x61\x75\x73\145\156\x74\145\x2e\x20\120\157\162\40\146\x61\x76\x6f\x72\x2c\x20\163\x6f\x6c\x69\143\x69\164\x65\x20\165\155\40\156\157\x76\x6f\x20\x6c\151\156\x6b\x20\x64\x65\40\x72\x65\144\x65\x66\x69\x6e\151\303\247\xc3\243\x6f\40\144\145\x20\x73\145\x6e\150\141\56"); goto L8l4w; tOwAr: Log::MsV8l("\x54\x6f\153\x65\x6e\x20\x6e\303\xa3\157\40\x65\x6e\x63\x6f\x6e\x74\x72\141\x64\157\40\x2d\40\x70\x6f\x73\x73\151\166\x65\x6c\x6d\x65\x6e\164\x65\40\152\303\241\40\146\157\x69\40\165\x74\x69\x6c\151\x7a\x61\144\157", ["\x65\x6d\141\x69\154" => substr($lYh9X, 0, 3) . "\52\x2a\x2a" . strstr($lYh9X, "\100")]); goto zjVnc; pfvoD: H2BIW: goto a903R; L8l4w: IHxMV: goto sb6jA; ZX1gA: XiOSV: goto dQRlT; zjVnc: goto vv5Lm; goto ZX1gA; rIwbN: dFtTW: goto fdkzg; w0z9o: $pidlM = shpk2::OhJ2R(); goto mNWtH; P1qB3: jAXPU: goto VydZ2; jKz_J: $yQPuC = true; goto tOwAr; Jnmp9: Xj9cS: goto BGcld; KLj0D: } public function reset(S9D5T $WFz1w) { goto bG5tW; T02qS: Log::msV8L("\125\x73\x75\xc3\xa1\x72\x69\x6f\40\156\303\xa3\x6f\x20\x65\156\x63\x6f\x6e\x74\162\x61\144\x6f\40\143\157\155\x20\157\x20\x65\155\x61\151\x6c\x20\146\157\162\x6e\x65\x63\151\x64\157"); goto px6Bk; can0l: $e5HVA = avSUj::c_MhY("\x65\155\141\151\x6c", $lYh9X)->yrkr9(); goto bMAhV; wZLdL: $I6hWW = $JPypa->rw_8l(LVIq5("\x61\165\164\150\x2e\160\141\x73\163\167\157\x72\x64\x73\x2e\165\163\x65\x72\163\x2e\x65\x78\x70\x69\162\x65", 60)); goto wxz0r; NZV1y: Log::mSv8L("\x54\157\153\x65\156\40\151\156\166\303\xa1\154\151\144\157\x20\x6f\165\40\x65\x78\160\151\x72\x61\x64\157\40\x6e\141\40\x72\x65\144\x65\146\x69\x6e\x69\303\247\303\xa3\157\x20\x64\145\40\163\145\x6e\150\141"); goto atAY4; jR31C: $lWKwN = lVLoX::FTz7F("\x70\x61\x73\163\167\x6f\x72\144\x5f\x72\145\163\x65\x74\163")->c_mhY("\145\x6d\141\x69\x6c", $lYh9X)->yrKr9(); goto Fx0n9; Vkv02: return HkG9F()->v8had(["\x65\x6d\141\151\x6c" => "\116\xc3\xa3\157\x20\146\157\151\x20\x70\x6f\163\163\303\255\x76\145\154\x20\145\x6e\143\157\x6e\164\x72\141\x72\40\x75\155\x20\164\x6f\153\x65\156\40\x76\303\241\154\151\x64\157\40\160\141\162\x61\40\x65\163\x74\145\x20\145\155\x61\151\x6c\56"]); goto yOfr2; px6Bk: return Hkg9f()->V8HAd(["\x65\x6d\x61\x69\x6c" => "\x4e\xc3\xa3\157\x20\x66\x6f\x69\x20\x70\x6f\x73\163\xc3\255\x76\145\154\x20\x65\156\143\157\x6e\x74\162\141\162\40\x75\155\x20\x75\163\x75\xc3\xa1\x72\151\157\x20\143\157\155\x20\145\x73\x74\x65\x20\x65\155\x61\x69\154\56"]); goto mP_4j; mP_4j: cZAHg: goto kmU4W; U_qiw: Log::info("\120\162\157\x63\145\x73\x73\141\156\x64\x6f\x20\162\145\144\x65\x66\x69\x6e\151\xc3\247\xc3\243\157\40\x64\x65\x20\x73\145\x6e\x68\141", ["\164\157\x6b\145\156" => substr($IIU0r, 0, 10) . "\x2e\56\x2e", "\145\155\141\x69\154" => substr($lYh9X, 0, 3) . "\52\x2a\x2a" . strstr($lYh9X, "\x40"), "\x74\x6f\x6b\145\x6e\x5f\162\x6f\x75\164\145" => $WFz1w->Wwy32("\164\x6f\x6b\x65\156"), "\x66\165\x6c\x6c\x5f\165\x72\x6c" => $WFz1w->qVeye(), "\141\154\x6c\137\x69\156\160\x75\x74\x73" => $WFz1w->UtXGk(["\160\x61\163\163\167\157\x72\144", "\x70\141\x73\163\167\157\162\144\x5f\143\x6f\x6e\x66\151\x72\x6d\141\x74\151\x6f\x6e"])]); goto jR31C; ZjNMH: Log::info("\x56\145\162\x69\146\x69\x63\141\303\xa7\303\xa3\x6f\40\144\x6f\x20\x74\157\x6b\x65\156\40\x6e\x61\40\x72\x65\x64\x65\x66\151\156\x69\303\xa7\xc3\243\x6f", ["\x74\157\153\145\x6e\x5f\x76\x61\154\151\144\157" => $xOOqK ? "\123\x69\x6d" : "\x4e\xc3\243\157", "\x68\x61\163\x68\x5f\x63\x68\x65\x63\x6b" => Hash::c_4HV($IIU0r, $lWKwN->VKzZM) ? "\x50\x61\x73\163\x6f\x75" : "\106\141\x6c\150\x6f\165", "\145\170\160\x69\162\141\x64\157" => $pidlM->BpnJ2($I6hWW) ? "\123\151\x6d" : "\x4e\xc3\243\157"]); goto mwKKc; Fx0n9: if ($lWKwN) { goto Kotcj; } goto w37Ft; w37Ft: Log::mSv8l("\x54\x6f\x6b\x65\x6e\x20\156\303\243\157\40\145\156\x63\157\156\x74\x72\141\x64\157\x20\x70\x61\162\x61\40\x6f\40\145\155\141\x69\x6c\x20\x66\x6f\x72\156\x65\x63\151\x64\x6f\40\156\141\x20\162\145\x64\145\x66\151\156\151\xc3\xa7\303\xa3\157\40\144\145\x20\x73\x65\156\x68\x61"); goto Vkv02; fWgzL: W0Ncy: goto can0l; nW1ju: $xOOqK = $pidlM->iQH6H($I6hWW) && Hash::c_4hv($IIU0r, $lWKwN->VKzZM); goto ZjNMH; atAY4: return hkG9F()->v8hAD(["\x65\x6d\141\x69\x6c" => "\x45\x73\164\x65\40\x74\157\153\145\156\40\x64\x65\40\x72\145\144\145\x66\x69\x6e\151\303\xa7\xc3\xa3\x6f\x20\144\x65\x20\163\x65\156\x68\141\x20\303\xa9\40\x69\x6e\x76\xc3\xa1\154\151\x64\157\x2e"]); goto fWgzL; mwKKc: if ($xOOqK) { goto W0Ncy; } goto NZV1y; kmU4W: try { goto DNhpY; aYvX8: LvLoX::fTZ7F("\160\141\163\163\x77\157\x72\x64\x5f\162\x65\163\145\164\x73")->C_mHy("\145\x6d\x61\151\154", $lYh9X)->delete(); goto kiAto; kiAto: Log::info("\x53\x65\156\150\x61\40\162\145\x64\145\146\x69\x6e\x69\144\x61\x20\x63\157\155\40\163\x75\143\145\163\x73\x6f", ["\165\163\145\x72\x5f\x69\x64" => $e5HVA->id, "\145\x6d\141\151\x6c" => substr($e5HVA->VzAAC, 0, 3) . "\52\x2a\x2a" . strstr($e5HVA->VzAAC, "\100")]); goto jUhbO; E_8rk: nXROV::mSTTA($e5HVA); goto JPDeI; DNhpY: $e5HVA->olFCR = Hash::ykI_I($WFz1w->olFCR); goto NzUyn; NzUyn: if (!wG7wv::Hor2V("\165\163\145\x72\x73", "\x72\145\x6d\x65\155\x62\145\162\x5f\164\157\x6b\x65\x6e")) { goto QCcBL; } goto pliJx; zYB4P: $e5HVA->save(); goto aYvX8; pliJx: $e5HVA->inn1j(tc4Rx::mNRfv(60)); goto H31JK; H31JK: QCcBL: goto zYB4P; JPDeI: return Fh6X5($this->FXAZR())->rnjFY("\163\164\141\x74\x75\x73", "\x53\x75\x61\x20\x73\145\156\150\141\40\146\x6f\x69\x20\162\x65\x64\x65\146\x69\x6e\x69\144\x61\40\143\157\x6d\x20\163\x75\143\x65\x73\163\x6f\x21"); goto nIz_b; jUhbO: MUP7p(new \Ec3ME\nXrOv\aPBju\IP3k5($e5HVA)); goto E_8rk; nIz_b: } catch (\Exception $ai57B) { Log::P2m7e("\x45\162\x72\x6f\40\141\157\40\162\145\x64\x65\x66\x69\x6e\x69\x72\x20\x73\145\156\x68\x61\72\40" . $ai57B->getMessage()); try { goto rk6R7; HVJIN: NxrOv::MsTta($e5HVA); goto xHdxc; EJIV4: LVLoX::FTz7f("\x70\141\x73\x73\167\157\162\144\137\162\x65\163\145\x74\163")->C_mHY("\x65\x6d\141\x69\x6c", $lYh9X)->delete(); goto veRPH; xHdxc: return FH6X5($this->FXAZr())->RnJfY("\163\164\141\164\x75\x73", "\x53\x75\141\40\x73\145\156\x68\x61\x20\146\x6f\x69\40\x72\x65\144\x65\x66\x69\x6e\151\x64\x61\x20\x63\157\x6d\40\x73\x75\143\x65\163\x73\157\41"); goto Y31K3; veRPH: Log::info("\x53\x65\x6e\150\141\40\162\145\x64\145\146\x69\156\x69\144\x61\40\143\x6f\x6d\x20\x73\x75\x63\145\163\163\157\40\x28\155\303\xa9\x74\157\x64\x6f\x20\x61\x6c\164\x65\x72\x6e\141\x74\x69\166\x6f\x29"); goto HVJIN; rk6R7: LvlOX::FTz7F("\x75\163\x65\x72\x73")->C_mhy("\x69\x64", $e5HVA->id)->update(["\160\x61\163\x73\167\x6f\x72\x64" => Hash::YKI_i($WFz1w->olFCR)]); goto EJIV4; Y31K3: } catch (\Exception $WnI80) { Log::P2M7e("\106\141\x6c\150\141\x20\156\x61\x20\x61\142\157\x72\144\x61\x67\x65\x6d\x20\x61\154\x74\x65\162\156\141\164\151\166\x61\72\40" . $WnI80->getMessage()); return hkg9f()->V8hAD(["\145\x6d\141\151\x6c" => "\105\162\x72\157\x20\141\157\x20\x72\145\144\x65\x66\151\x6e\x69\x72\x20\x73\145\156\150\141\56\x20\x50\x6f\x72\40\x66\141\166\x6f\162\54\x20\x74\145\156\164\x65\x20\156\x6f\x76\141\x6d\x65\156\164\145\x20\155\x61\x69\163\40\x74\141\x72\x64\x65\x2e"]); } } goto JtkBv; IpUJK: $IIU0r = $WFz1w->VKzZM; goto U_qiw; bMAhV: if ($e5HVA) { goto cZAHg; } goto T02qS; yOfr2: Kotcj: goto iQXNn; iQXNn: $JPypa = shPK2::KJT_j($lWKwN->RvvCO); goto wZLdL; wxz0r: $pidlM = shpK2::oHj2R(); goto nW1ju; f0yzA: $lYh9X = $WFz1w->VzAAC; goto IpUJK; bG5tW: $WFz1w->validate($this->hiimm(), $this->Xsmn8()); goto f0yzA; JtkBv: } }
+
+namespace App\Http\Controllers\Auth;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Foundation\Auth\ResetsPasswords;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Carbon\Carbon;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Password;
+use App\Models\User;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Schema;
+
+class ResetPasswordController extends Controller
+{
+    /*
+    |--------------------------------------------------------------------------
+    | Password Reset Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller is responsible for handling password reset requests
+    | and uses a simple trait to include this behavior. You're free to
+    | explore this trait and override any methods you wish to tweak.
+    |
+    */
+
+    use ResetsPasswords;
+
+    /**
+     * Where to redirect users after resetting their password.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/';
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('guest');
+    }
+    
+    /**
+     * Display the password reset view for the given token.
+     *
+     * If no token is present, display the link request form.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  string|null  $token
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function showResetForm(Request $request, $token = null)
+    {
+        if ($token === null) {
+            Log::warning('Token nulo recebido em showResetForm');
+            return redirect()->route('password.request')
+                ->with('error', 'Token de redefinição ausente. Por favor, solicite um novo link de redefinição de senha.');
+        }
+
+        $email = $request->email;
+        
+        Log::info('Tentativa de redefinição de senha', [
+            'token' => substr($token, 0, 10) . '...',
+            'email' => $email ? substr($email, 0, 3) . '***' . strstr($email, '@') : 'não fornecido'
+        ]);
+        
+        // Verifica se o token é válido
+        $tokenValid = false;
+        $tokenUsed = false;
+        
+        if ($email) {
+            $record = DB::table('password_resets')
+                ->where('email', $email)
+                ->first();
+            
+            if ($record) {
+                // Verifica se o token está dentro do período de validade (60 minutos padrão)
+                $createdAt = Carbon::parse($record->created_at);
+                $expiresAt = $createdAt->addMinutes(config('auth.passwords.users.expire', 60));
+                $now = Carbon::now();
+                
+                Log::info('Verificação de token', [
+                    'token_criado_em' => $createdAt->format('Y-m-d H:i:s'),
+                    'token_expira_em' => $expiresAt->format('Y-m-d H:i:s'),
+                    'agora' => $now->format('Y-m-d H:i:s'),
+                    'expirado' => $now->gt($expiresAt) ? 'Sim' : 'Não'
+                ]);
+                
+                $tokenValid = $now->lt($expiresAt) && Hash::check($token, $record->token);
+                
+                Log::info('Resultado da validação', [
+                    'token_valido' => $tokenValid ? 'Sim' : 'Não',
+                    'hash_check' => Hash::check($token, $record->token) ? 'Passou' : 'Falhou'
+                ]);
+            } else {
+                // Token não encontrado - pode ter sido usado/deletado
+                $tokenUsed = true;
+                Log::warning('Token não encontrado - possivelmente já foi utilizado', [
+                    'email' => substr($email, 0, 3) . '***' . strstr($email, '@')
+                ]);
+            }
+        } else {
+            Log::warning('Email não fornecido na solicitação de redefinição');
+        }
+        
+        // Se o token foi usado (não existe mais na tabela), redireciona para home com erro
+        if ($tokenUsed) {
+            Log::warning('Token já foi utilizado: redirecionando para home page');
+            return redirect('/')
+                ->with('error', 'Este link de redefinição de senha já foi utilizado. Por favor, solicite um novo link se necessário.');
+        }
+        
+        if (!$tokenValid) {
+            // Se o token não for válido, redireciona com uma mensagem
+            Log::warning('Token inválido ou expirado: redirecionando para página de solicitação');
+            return redirect()
+                ->route('password.request')
+                ->with('error', 'Este token de redefinição de senha é inválido ou já expirou. Por favor, solicite um novo link de redefinição.');
+        }
+        
+        Log::info('Token validado com sucesso, retornando página de reset');
+        return view('auth.passwords.reset', [
+            'token' => $token,
+            'email' => $email,
+            'tokenValid' => true
+        ]);
+    }
+    
+    /**
+     * Override do método reset para garantir validação consistente com showResetForm
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function reset(Request $request)
+    {
+        $request->validate($this->rules(), $this->validationErrorMessages());
+
+        $email = $request->email;
+        $token = $request->token;
+        
+        Log::info('Processando redefinição de senha', [
+            'token' => substr($token, 0, 10) . '...',
+            'email' => substr($email, 0, 3) . '***' . strstr($email, '@'),
+            'token_route' => $request->route('token'), // Adicional para debug
+            'full_url' => $request->fullUrl(), // Adicional para debug
+            'all_inputs' => $request->except(['password', 'password_confirmation']) // Adicional para debug
+        ]);
+        
+        // Verificação manual do token
+        $record = DB::table('password_resets')
+            ->where('email', $email)
+            ->first();
+            
+        if (!$record) {
+            Log::warning('Token não encontrado para o email fornecido na redefinição de senha');
+            return back()->withErrors(['email' => 'Não foi possível encontrar um token válido para este email.']);
+        }
+        
+        // Verifica se o token é válido
+        $createdAt = Carbon::parse($record->created_at);
+        $expiresAt = $createdAt->addMinutes(config('auth.passwords.users.expire', 60));
+        $now = Carbon::now();
+        
+        $isValid = $now->lt($expiresAt) && Hash::check($token, $record->token);
+        
+        Log::info('Verificação do token na redefinição', [
+            'token_valido' => $isValid ? 'Sim' : 'Não',
+            'hash_check' => Hash::check($token, $record->token) ? 'Passou' : 'Falhou',
+            'expirado' => $now->gt($expiresAt) ? 'Sim' : 'Não'
+        ]);
+        
+        if (!$isValid) {
+            Log::warning('Token inválido ou expirado na redefinição de senha');
+            return back()->withErrors(['email' => 'Este token de redefinição de senha é inválido.']);
+        }
+
+        // Se a validação manual passou com sucesso, vamos implementar a redefinição diretamente
+        // ao invés de usar o broker, que pode estar causando problemas
+        $user = User::where('email', $email)->first();
+        
+        if (!$user) {
+            Log::warning('Usuário não encontrado com o email fornecido');
+            return back()->withErrors(['email' => 'Não foi possível encontrar um usuário com este email.']);
+        }
+        
+        try {
+            // Atualizar a senha diretamente
+            $user->password = Hash::make($request->password);
+            
+            // Verificar se o modelo tem a coluna remember_token antes de tentar defini-la
+            if (Schema::hasColumn('users', 'remember_token')) {
+                $user->setRememberToken(Str::random(60));
+            }
+            
+            $user->save();
+            
+            // Remover o token usado
+            DB::table('password_resets')
+                ->where('email', $email)
+                ->delete();
+            
+            Log::info('Senha redefinida com sucesso', [
+                'user_id' => $user->id,
+                'email' => substr($user->email, 0, 3) . '***' . strstr($user->email, '@')
+            ]);
+            
+            // Disparar evento de senha redefinida
+            event(new \Illuminate\Auth\Events\PasswordReset($user));
+            
+            // Autenticar o usuário
+            Auth::login($user);
+            
+            return redirect($this->redirectPath())
+                ->with('status', 'Sua senha foi redefinida com sucesso!');
+                
+        } catch (\Exception $e) {
+            Log::error('Erro ao redefinir senha: ' . $e->getMessage());
+            
+            // Tentar uma abordagem mais simples (apenas atualizar a senha)
+            try {
+                DB::table('users')
+                    ->where('id', $user->id)
+                    ->update(['password' => Hash::make($request->password)]);
+                
+                // Remover o token usado
+                DB::table('password_resets')
+                    ->where('email', $email)
+                    ->delete();
+                
+                Log::info('Senha redefinida com sucesso (método alternativo)');
+                
+                // Autenticar o usuário
+                Auth::login($user);
+                
+                return redirect($this->redirectPath())
+                    ->with('status', 'Sua senha foi redefinida com sucesso!');
+            } catch (\Exception $e2) {
+                Log::error('Falha na abordagem alternativa: ' . $e2->getMessage());
+                return back()->withErrors(['email' => 'Erro ao redefinir senha. Por favor, tente novamente mais tarde.']);
+            }
+        }
+    }
+} 

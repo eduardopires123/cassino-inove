@@ -1,8 +1,564 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:40              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\sHtEQ\fN52M\jKli6; use Jf89x\shtEq\fN52m\nMP37; use ec3ME\shtEQ\s9D5t; use jF89x\T0ETD\JiKjn; use jF89X\t0ETD\ckPME; use jf89X\T0etD\jKlI6\uenYs; use Jf89X\t0ETd\jKLI6\KRe2u; use JF89x\t0etD\AvSuj; use eC3mE\H2Vuv\P2QH1\Log; class IIyPd extends nmP37 { private $stPVX = array("\x69\155\141\147\145\57\x6a\160\145\x67", "\151\155\141\147\145\x2f\160\156\x67", "\x69\x6d\141\x67\145\x2f\147\x69\x66", "\151\x6d\x61\x67\145\x2f\x69\143\157", "\x69\155\141\147\145\x2f\167\x65\x62\160", "\151\155\x61\147\x65\x2f\163\166\147\x2b\170\x6d\x6c", "\151\x6d\141\147\145\x2f\x78\x2d\151\143\x6f\156", "\x69\155\x61\x67\145\x2f\x76\x6e\x64\56\155\x69\x63\x72\x6f\x73\157\146\164\56\151\x63\x6f\156"); private $XwQr0 = 5 * 1024 * 1024; private $m1vh7 = 2024; private $A7iwb = 2024; public function FqfEO() { $jBnZw = jIkJN::yrKR9(); return lo0cY("\141\144\x6d\151\156\56\x63\157\156\146\x69\x67\56\x63\x6f\x6e\146\x69\147\165\x72\141\x63\x6f\x65\x73\137\x67\x65\x72\141\x69\x73", compact("\123\x65\x74\x74\151\156\147\163")); } public function mjSNR(S9D5T $WFz1w) { try { goto BBUHI; Ftqtq: try { goto vMuOt; Anif2: $S69Vb = true; goto MJWZC; s8qDr: $VcK0m->SdJ3_($P7xbj, $Xto9Q); goto CAx_L; PpJ47: Cj2S7: goto H2BL_; jQTIP: $VcK0m->Sdj3_($P7xbj, $Xto9Q); goto JJuj3; Ny2C5: $Xto9Q = "\x6c\x6f\x67\157\137" . time() . "\56" . $VcK0m->Yiekv(); goto jQTIP; Br1CQ: goto vwIXh; goto PpJ47; rD0Qo: $Ez0tS->bkt_3 = $Ji8v2; goto Br1CQ; Ia2dO: if ($iSu3D === "\146\x61\166\x69\x63\157\x6e") { goto Cj2S7; } goto Ny2C5; H2BL_: $Xto9Q = "\146\141\166\151\x63\157\156\137" . time() . "\56" . $VcK0m->YIEKv(); goto s8qDr; JJuj3: $Ji8v2 = "\x69\155\147\57\154\157\x67\157\x2f" . $Xto9Q; goto rD0Qo; CAx_L: $Ji8v2 = "\151\155\x67\x2f\154\157\147\x6f\57" . $Xto9Q; goto we6hg; we6hg: $Ez0tS->otsQM = $Ji8v2; goto SwLg8; vMuOt: $this->dXuqv($VcK0m); goto Ia2dO; SwLg8: vwIXh: goto Anif2; MJWZC: } catch (\Exception $ai57B) { goto aJSHG; jYRU6: throw $ai57B; goto PVbn8; pcTYk: return jgKrl()->SbE1Q(["\x73\x75\143\x63\x65\x73\163" => false, "\x6d\145\163\163\x61\x67\145" => "\x45\x72\x72\x6f\40\141\x6f\40\x70\x72\x6f\x63\145\163\x73\141\x72\x20\151\155\x61\x67\145\x6d\72\x20" . $ai57B->getMessage()], 422); goto z9Qs0; z9Qs0: mqHAe: goto jYRU6; aJSHG: if (!$YLGwV) { goto mqHAe; } goto pcTYk; PVbn8: } goto A3Q6y; PtKK5: $iSu3D = $WFz1w->pC2lR("\146\x69\x6c\145\x54\171\x70\x65", "\154\157\147\x6f"); goto Ftqtq; OGUIk: $P7xbj = deUTm("\x69\155\147\x2f\154\157\147\157"); goto L3xCI; GOrVY: GTgxQ: goto dG7At; jkFDS: $ejwrw = ["\163\165\x63\143\x65\x73\163" => true, "\x6d\x65\x73\x73\x61\147\x65" => "\x43\x6f\x6e\x66\151\x67\165\x72\141\xc3\xa7\303\265\x65\163\40\x61\x74\165\x61\154\x69\172\141\144\x61\163\40\143\157\x6d\40\163\165\x63\145\x73\163\157"]; goto Xjthp; bJlMA: $YLGwV = $WFz1w->Rrza_("\x58\x2d\122\x65\x71\x75\145\163\x74\145\x64\x2d\x57\x69\164\150") && $WFz1w->header("\130\55\x52\145\x71\x75\x65\163\164\145\x64\55\127\151\164\150") == "\130\115\x4c\110\164\164\160\122\145\161\x75\145\163\164" && ($WFz1w->t35wz("\146\x69\x6c\x65\160\x6f\x6e\x64") || $WFz1w->t35wz("\146\151\x6c\x65\x70\157\x6e\144\137\146\x61\166\151\x63\157\156")); goto S6nb_; h3YOz: if (!$WFz1w->T35Wz("\146\x69\x6c\145\x70\x6f\x6e\144")) { goto bfwHd; } goto wvFAn; z05Fj: $S69Vb = false; goto bJlMA; arzPr: a2k0L: goto JMXAf; A0fxm: r60aX: goto h3YOz; S6nb_: $EdfO_ = ["\x6e\x61\155\145" => "\163\164\162\151\156\147", "\x73\165\142\164\x69\x74\x6c\x65" => "\163\164\x72\x69\x6e\x67", "\155\x69\156\x5f\163\141\x71\x75\x65\x5f\156" => "\x6e\165\x6d\x65\162\151\143", "\x6d\141\170\x5f\163\x61\x71\x75\145\x5f\x6e" => "\156\x75\155\x65\162\151\143", "\x6d\141\170\x5f\x73\x61\x71\x75\x65\137\141\165\164" => "\156\165\155\x65\x72\151\x63", "\155\x61\170\137\x73\x61\x71\165\145\137\144\x69\x61\x72\151\x6f" => "\x6e\x75\x6d\x65\x72\x69\x63", "\x6d\141\170\x5f\x71\165\141\x6e\164\151\x64\x61\x64\x65\137\163\141\161\x75\145\x73\x5f\144\x69\141\x72\x69\x6f" => "\151\156\x74\145\x67\x65\x72", "\155\x61\x78\137\x71\165\x61\x6e\x74\x69\x64\141\x64\x65\x5f\163\x61\x71\x75\145\x73\x5f\141\x75\x74\x6f\155\141\x74\151\143\157\x73\137\144\151\141\162\151\x6f" => "\151\x6e\x74\145\147\x65\x72", "\162\157\154\154\x6f\166\x65\x72\137\163\141\161\x75\145" => "\x69\156\164\145\x67\145\x72", "\x6d\x69\156\137\x64\145\x70" => "\x6e\165\155\145\162\x69\143", "\x6d\141\170\x5f\144\145\x70" => "\x6e\x75\155\x65\x72\x69\x63", "\x62\x6f\x6e\165\x73\x5f\x6d\x69\x6e\x5f\x64\x65\160" => "\x6e\165\x6d\145\x72\x69\143", "\142\157\x6e\165\x73\x5f\x6d\x61\170\137\x64\x65\x70" => "\156\x75\155\145\162\x69\x63", "\x62\x6f\x6e\165\x73\x5f\x6d\165\154\164" => "\x69\156\164\x65\147\x65\x72", "\x62\157\156\165\x73\137\x72\157\x6c\x6c\x6f\166\x65\162" => "\151\156\164\x65\x67\x65\162", "\x62\x6f\x6e\x75\163\137\145\170\x70\151\x72\145\137\x64\141\171\x73" => "\x69\x6e\164\145\147\x65\x72", "\x74\x61\167\153\164\x6f\x5f\x73\x72\143" => "\163\164\x72\151\x6e\147", "\164\x61\x77\153\164\x6f\137\141\x63\164\151\x76\145" => "\x69\x6e\x74\x65\147\x65\x72", "\x6a\151\166\x6f\143\150\141\164\x5f\163\x72\143" => "\x73\x74\x72\x69\x6e\x67", "\152\151\166\x6f\143\150\141\x74\x5f\x61\143\x74\151\x76\145" => "\x69\156\164\x65\x67\x65\x72", "\145\x6e\x61\142\x6c\145\x5f\x63\141\163\163\x69\x6e\157\x5f\x62\157\156\x75\163" => "\x69\x6e\164\145\147\x65\162", "\142\157\x6e\165\163\x5f\x61\x6c\x6c\x5f\144\145\160\x6f\x73\x69\164\163" => "\151\x6e\164\145\147\145\x72", "\144\x65\x66\x61\165\154\x74\x5f\x68\x6f\155\x65\137\x70\141\x67\145" => "\x73\164\x72\x69\x6e\147"]; goto aQ60B; AVls9: if (!$WFz1w->T35Wz("\x66\151\x6c\145\160\157\156\x64\137\146\141\166\151\143\157\156")) { goto SY0rY; } goto K5VXe; witDW: mkdir($P7xbj, 0755, true); goto A0fxm; VwAcA: SY0rY: goto fI2o2; K5VXe: $VcK0m = $WFz1w->file("\x66\151\154\x65\160\x6f\x6e\144\x5f\x66\x61\166\151\143\x6f\x6e"); goto pB6eR; dooS3: return JGkrl()->sbE1q($ejwrw); goto GOrVY; U97vL: $Ez0tS->save(); goto arzPr; dG7At: return jGkRL()->sBe1q(["\x73\x75\x63\x63\145\163\x73" => true, "\x6d\145\x73\163\x61\147\x65" => "\x43\x6f\156\x66\x69\x67\x75\162\x61\303\247\xc3\xb5\x65\163\40\x61\164\x75\141\x6c\x69\x7a\141\x64\141\163\40\143\x6f\x6d\40\163\165\x63\x65\163\163\157"]); goto Q4YTM; wvFAn: $VcK0m = $WFz1w->file("\146\x69\x6c\x65\x70\x6f\x6e\x64"); goto PtKK5; JMXAf: if (!$YLGwV) { goto GTgxQ; } goto jkFDS; fI2o2: if (!$S69Vb) { goto a2k0L; } goto U97vL; aQ60B: foreach ($EdfO_ as $se6F1 => $i5g8p) { goto TR1Su; vDYh4: if ($wor1r === '' || $wor1r === null) { goto rqowT; } goto mlbn1; YPHl9: o3o0C: goto RCpyz; bRrNC: goto VbNpO; goto GV78F; grWR6: if ($i5g8p === "\x69\156\x74\145\147\145\162") { goto tlHjf; } goto liKZt; jofWt: KHego: goto UVk0_; hvkNb: jI1CZ: goto u6axq; ex0xv: VbNpO: goto x6iIQ; SzCNA: qvor1: goto wUjn7; bzBjK: if (!($wor1r === null || $wor1r === '' || $wor1r === "\x6e\165\154\x6c")) { goto sEZ1i; } goto a3PAo; pldXl: $S69Vb = true; goto liygJ; dx7tU: $Ez0tS->{$se6F1} = $wor1r; goto pldXl; mlbn1: if (!is_numeric($wor1r)) { goto o3o0C; } goto smNJD; c35Cd: $wor1r = $WFz1w->pc2lr($se6F1); goto bzBjK; X5EwT: rh1_w: goto CDLoY; oQnCX: $wor1r = (float) $wor1r; goto bRrNC; ZpgGt: $Ez0tS->YmGyT = $wor1r; goto WZc9s; u6axq: $wor1r = str_replace("\x2c", "\56", $wor1r); goto HgjL0; V4y0l: $wor1r = (int) $wor1r; goto ex0xv; TR1Su: if (!($WFz1w->HkLbP($se6F1) || $WFz1w->GQk8u($se6F1))) { goto ylWnu; } goto c35Cd; liygJ: ZENs2: goto YJPjj; CDLoY: ylWnu: goto SzCNA; YJPjj: goto rh1_w; goto jofWt; tL0FW: sEZ1i: goto vMbo1; CzG8m: $wor1r = trim($wor1r); goto vDYh4; vMbo1: if ($i5g8p === "\156\165\155\145\x72\x69\x63" && is_string($wor1r)) { goto jI1CZ; } goto grWR6; BmUxe: if (!is_string($wor1r)) { goto WC78F; } goto CzG8m; XaOg7: st24r: goto X5EwT; liKZt: goto VbNpO; goto hvkNb; WZc9s: $S69Vb = true; goto XaOg7; DpcIr: if (!($hQZTg != $wor1r)) { goto ZENs2; } goto dx7tU; srQvq: goto xtoTt; goto YPHl9; G0LYR: agS0j: goto tL0FW; a3PAo: if ($i5g8p === "\151\x6e\x74\x65\x67\x65\x72") { goto Ownip; } goto jZmAF; jZmAF: goto qvor1; goto czDRt; RCpyz: goto qvor1; goto n5CyN; B9RZW: rqowT: goto a77uc; Wprsh: WC78F: goto V4y0l; EzDd0: r0P_m: goto oQnCX; ZRXXg: $wor1r = 0; goto G0LYR; a77uc: $wor1r = 0; goto srQvq; HgjL0: if (!(!is_numeric($wor1r) && $wor1r !== '')) { goto r0P_m; } goto xOrBS; qhQHh: $hQZTg = $Ez0tS->{$se6F1} ?? null; goto DpcIr; GV78F: tlHjf: goto BmUxe; x6iIQ: if ($se6F1 === "\163\x75\x62\x74\x69\x74\x6c\145") { goto KHego; } goto qhQHh; n5CyN: xtoTt: goto Wprsh; UVk0_: if (!($Ez0tS->YmGyT != $wor1r)) { goto st24r; } goto ZpgGt; smNJD: goto xtoTt; goto B9RZW; d6Nka: Ownip: goto ZRXXg; czDRt: goto agS0j; goto d6Nka; xOrBS: goto qvor1; goto EzDd0; wUjn7: } goto QK6j7; pB6eR: try { goto r3roT; r3roT: $this->DXuQV($VcK0m); goto g8HYW; g8HYW: $Xto9Q = "\146\x61\166\x69\143\157\156\x5f" . time() . "\x2e" . $VcK0m->yIEkV(); goto g85zJ; OZMYT: $S69Vb = true; goto Jt68f; g85zJ: $VcK0m->sdj3_($P7xbj, $Xto9Q); goto eA_G3; eA_G3: $Ji8v2 = "\x69\x6d\x67\x2f\x6c\157\x67\157\57" . $Xto9Q; goto wijgV; wijgV: $Ez0tS->otsQM = $Ji8v2; goto OZMYT; Jt68f: } catch (\Exception $ai57B) { goto hrBgz; axim5: loJb3: goto h2Yfs; hrBgz: if (!$YLGwV) { goto loJb3; } goto uvm1U; uvm1U: return jGkrL()->SBE1Q(["\x73\165\x63\x63\145\163\x73" => false, "\155\x65\163\x73\141\x67\x65" => "\x45\162\162\x6f\x20\141\x6f\40\160\x72\157\143\x65\163\163\141\162\40\146\x61\x76\x69\143\x6f\x6e\x3a\40" . $ai57B->getMessage()], 422); goto axim5; h2Yfs: throw $ai57B; goto Yt35I; Yt35I: } goto VwAcA; BBUHI: $Ez0tS = jIKjn::YRKR9(); goto z05Fj; L3xCI: if (file_exists($P7xbj)) { goto r60aX; } goto witDW; A3Q6y: bfwHd: goto AVls9; Xjthp: if (!isset($Ji8v2)) { goto UwtNj; } goto gMoVP; zC7XP: UwtNj: goto dooS3; QK6j7: JDhKn: goto OGUIk; gMoVP: $ejwrw["\146\x69\154\x65\137\160\x61\x74\150"] = b0Qx4($Ji8v2); goto zC7XP; Q4YTM: } catch (\Exception $ai57B) { Log::P2m7E("\x45\x72\162\x6f\x20\x61\157\40\x73\141\x6c\x76\141\162\40\x63\157\156\x66\x69\x67\165\162\141\303\247\xc3\265\x65\x73\72\40" . $ai57B->getMessage()); return JGkrL()->SBE1q(["\163\x75\143\x63\145\x73\163" => false, "\155\145\163\x73\x61\147\145" => "\105\162\162\x6f\x20\141\157\40\x73\141\x6c\166\x61\x72\40\x63\x6f\156\146\151\x67\165\x72\141\xc3\247\xc3\xb5\x65\x73\72\x20" . $ai57B->getMessage()], 422); } } public function I5LEQ() { return LO0CY("\141\x64\x6d\151\x6e\56\x63\157\x6e\x66\x69\147\56\147\141\164\145\x77\141\x79\163"); } public function YPtRa(S9d5T $WFz1w) { try { goto PMIql; EgxCr: goto iKqOn; goto oZ02d; bejMg: return jGkRl()->Sbe1Q(["\163\165\x63\143\x65\x73\x73" => true, "\x6d\145\x73\163\x61\147\x65" => "\x47\141\164\145\x77\x61\171\x20\141\x74\x75\141\x6c\151\172\x61\144\157\x20\x63\157\155\40\x73\x75\143\x65\x73\x73\157"]); goto K3vro; zLPiG: return jGkrl()->sBe1Q(["\163\x75\x63\143\145\163\x73" => false, "\x6d\x65\163\163\141\x67\145" => "\120\141\162\303\xa2\x6d\x65\x74\162\x6f\x73\40\151\x6e\166\xc3\241\x6c\x69\144\x6f\163\x3a\40" . $e25Fx->WlqvZ()->yRkR9()], 400); goto mP_VV; M1Fed: return jGkrL()->SbE1q(["\x73\165\143\x63\145\163\163" => false, "\x6d\145\x73\x73\141\x67\x65" => "\107\141\164\145\x77\x61\x79\x20\156\303\243\157\x20\145\156\143\x6f\156\x74\162\x61\x64\x6f"], 404); goto gj3rX; vhc9m: $H65mz->{$se6F1} = $wor1r; goto JDUX1; JDUX1: $H65mz->save(["\x65\166\145\156\164\x73" => false]); goto bejMg; oZ02d: JQ6Ax: goto NKvIa; oc8km: $H65mz->lF9EZ = false; goto vhc9m; PMIql: $e25Fx = \EC3mE\H2vuV\P2Qh1\pLHxg::YKi_I($WFz1w->P0WsL(), ["\156\157\x6d\145" => "\x72\145\x71\165\x69\x72\x65\x64\x7c\163\x74\162\x69\156\x67", "\146\151\145\154\x64" => "\x72\x65\161\x75\x69\x72\145\x64\x7c\x73\164\162\x69\156\147", "\166\x61\x6c\165\x65" => "\x70\x72\x65\163\145\156\x74"]); goto oycym; sRx4j: if ($se6F1 === "\x61\143\x74\x69\x76\145") { goto JQ6Ax; } goto PRICr; oycym: if (!$e25Fx->LdF8P()) { goto Vbpbh; } goto zLPiG; NKvIa: $wor1r = (int) $wor1r; goto V325E; DJtQ5: $H65mz = CKPme::c_mHy("\x6e\x6f\x6d\145", $YMHmG)->YRkR9(); goto dTmJr; dTmJr: if ($H65mz) { goto iIbMb; } goto M1Fed; gj3rX: iIbMb: goto sRx4j; tpTws: $se6F1 = $WFz1w->PC2lr("\x66\151\145\154\144"); goto Kzm16; V325E: iKqOn: goto oc8km; Kzm16: $wor1r = $WFz1w->PC2LR("\x76\x61\154\165\145", ''); goto DJtQ5; DAmpm: $YMHmG = $WFz1w->pc2Lr("\x6e\x6f\x6d\145"); goto tpTws; PRICr: $wor1r = (string) $wor1r; goto EgxCr; mP_VV: Vbpbh: goto DAmpm; K3vro: } catch (\Error $ai57B) { \Ec3Me\h2VuV\p2qH1\Log::p2M7e("\x45\162\x72\157\x20\143\x72\303\xad\164\x69\143\157\40\x61\157\40\141\164\165\x61\154\x69\x7a\x61\162\x20\147\141\x74\x65\x77\141\x79\x3a\40" . $ai57B->getMessage()); return JgkrL()->SBe1q(["\163\x75\143\143\145\163\163" => false, "\155\x65\163\163\141\147\x65" => "\105\x72\x72\157\40\x69\156\164\145\x72\x6e\157\40\x64\157\40\x73\145\x72\x76\x69\144\157\162\x3a\40" . $ai57B->getMessage()], 500); } catch (\Exception $ai57B) { \EC3ME\H2vUV\P2qH1\Log::P2m7e("\x45\x72\162\157\x20\141\x6f\40\141\x74\165\141\x6c\x69\x7a\141\162\40\147\x61\x74\145\x77\141\171\72\x20" . $ai57B->getMessage()); return JGkrL()->SBe1q(["\x73\x75\x63\x63\145\x73\163" => false, "\x6d\x65\163\x73\x61\147\x65" => "\105\x72\162\x6f\x20\x69\156\x74\145\162\x6e\157\40\x64\x6f\x20\163\145\x72\166\x69\144\157\x72\40\141\x6f\40\x61\x74\165\141\x6c\151\172\141\x72\x20\147\141\x74\145\167\x61\171"], 500); } } public function A08P1() { return LO0cY("\x61\x64\155\x69\x6e\56\x63\x6f\156\x66\151\147\x2e\x61\160\x69\163\x67\x61\155\145\x73"); } public function pUwRd(s9D5t $WFz1w) { try { goto dtCmI; sdA1G: $se6F1 = $WFz1w->pC2lr("\146\x69\x65\x6c\x64"); goto nHIG5; VnBcb: $Ez0tS = jIKJn::YRKr9(); goto BLaFr; FvFHC: $Ez0tS->lF9EZ = false; goto XMt1r; Qf5is: $YMHmG = $WFz1w->pc2Lr("\156\x6f\155\145"); goto sdA1G; U4_yG: YPodz: goto Qf5is; QQtFU: if (array_key_exists($se6F1, $Ez0tS->getAttributes())) { goto l6oyj; } goto mFUCF; dtCmI: $e25Fx = \ec3me\h2Vuv\P2qH1\pLHxg::YKi_I($WFz1w->P0wsl(), ["\156\x6f\155\x65" => "\162\145\161\x75\151\162\145\x64\x7c\163\164\162\x69\x6e\x67", "\x66\151\145\154\144" => "\162\145\x71\x75\x69\162\x65\144\x7c\163\164\162\151\156\x67", "\166\x61\x6c\165\x65" => "\160\x72\x65\163\145\156\164"]); goto FCX6W; XMt1r: $Ez0tS->{$se6F1} = $wor1r; goto uZxMX; eseaQ: return jGKRL()->sBE1Q(["\163\x75\143\x63\x65\163\163" => false, "\155\x65\x73\x73\141\x67\145" => "\x50\x61\x72\xc3\xa2\x6d\x65\x74\x72\157\163\x20\151\x6e\166\xc3\241\x6c\x69\144\157\163\72\40" . $e25Fx->wlQvz()->YRKR9()], 400); goto U4_yG; ReVTV: return jgkRl()->SbE1q(["\163\x75\143\143\145\x73\x73" => true, "\155\145\x73\x73\x61\147\145" => "\x41\120\x49\x20\x61\x74\x75\141\154\151\x7a\141\x64\141\x20\x63\157\155\40\x73\165\x63\x65\x73\x73\157"]); goto ApaKN; nHIG5: $wor1r = $WFz1w->pc2lR("\166\141\154\165\145", ''); goto VnBcb; Rw7j5: l6oyj: goto FvFHC; BLaFr: if ($Ez0tS) { goto TQbLA; } goto il6sB; uZxMX: $Ez0tS->save(["\x65\x76\145\x6e\164\x73" => false]); goto ReVTV; il6sB: return JgKrL()->sbE1Q(["\x73\x75\x63\x63\145\x73\x73" => false, "\155\x65\163\163\141\x67\145" => "\103\157\x6e\x66\151\147\x75\162\x61\303\xa7\xc3\xb5\x65\163\40\x6e\303\xa3\157\x20\145\156\143\157\156\x74\162\141\144\141\163"], 404); goto jHcFz; FCX6W: if (!$e25Fx->LDf8p()) { goto YPodz; } goto eseaQ; jHcFz: TQbLA: goto QQtFU; mFUCF: return JGKRl()->sBe1q(["\x73\x75\x63\x63\x65\163\x73" => false, "\x6d\x65\163\x73\141\147\x65" => "\103\141\155\160\x6f\40\156\303\xa3\x6f\x20\145\x6e\x63\x6f\x6e\164\x72\x61\144\x6f\x20\156\x61\x73\x20\143\157\x6e\x66\151\x67\165\x72\141\303\247\303\265\x65\x73"], 400); goto Rw7j5; ApaKN: } catch (\Error $ai57B) { \eC3me\h2vUv\P2Qh1\Log::P2M7e("\x45\162\x72\x6f\x20\x63\x72\303\255\164\151\x63\157\40\141\157\40\x61\x74\x75\x61\154\151\x7a\x61\162\x20\x41\120\111\x3a\40" . $ai57B->getMessage()); return jGKRL()->sBE1q(["\x73\165\143\143\x65\x73\163" => false, "\155\145\x73\163\x61\x67\x65" => "\105\x72\162\157\x20\x69\x6e\x74\145\x72\x6e\x6f\40\144\x6f\x20\163\145\162\166\151\144\x6f\162\x3a\40" . $ai57B->getMessage()], 500); } catch (\Exception $ai57B) { \eC3ME\H2vUv\p2Qh1\Log::P2M7E("\x45\162\x72\x6f\40\141\157\40\141\x74\165\x61\154\151\x7a\141\162\x20\x41\x50\x49\x3a\40" . $ai57B->getMessage()); return jgkRL()->sbE1Q(["\x73\x75\143\143\145\163\x73" => false, "\155\x65\x73\163\x61\x67\x65" => "\x45\162\162\x6f\40\151\156\x74\x65\x72\156\x6f\40\x64\157\x20\x73\145\162\166\x69\144\157\162\40\x61\x6f\x20\141\x74\x75\x61\154\x69\x7a\x61\162\x20\x41\x50\x49"], 500); } } public function OAFxe() { return Lo0Cy("\x61\x64\155\151\156\56\143\157\156\146\151\147\56\142\x61\156\x63\x6f"); } public function FdMgX(S9D5T $WFz1w) { return JgkRl()->sbE1Q(["\x73\x75\x63\143\x65\163\163" => true]); } public function NAikN() { return lo0cy("\141\x64\x6d\x69\156\56\143\157\156\x66\151\x67\x2e\146\165\156\x63\157\145\x73\x65\160\145\162\x6d\151\x73\x73\x6f\145\163"); } public function svsW6(S9D5t $WFz1w) { goto fOeVk; UGSJL: $iVnGP = $WFz1w->PC2LR("\x70\145\162\155\151\163\163\x69\x6f\x6e\x73", []); goto HfmXZ; HfmXZ: kre2u::B8dUA(["\165\163\145\x72\x5f\x69\x64" => $k26uY], ["\160\x65\162\155\151\163\163\x69\x6f\156" => json_encode($iVnGP)]); goto gq2I9; fOeVk: $k26uY = $WFz1w->Pc2Lr("\165\163\145\x72\137\x69\x64"); goto UGSJL; gq2I9: return JGKrl()->SbE1Q(["\x73\165\143\143\145\x73\x73" => true]); goto zOt5Z; zOt5Z: } public function xxLqm($k26uY) { try { goto kbrXB; u8ubu: exhch: goto l45ip; mUmID: eCAgM: goto AbdjZ; SMvRL: goto exhch; goto mUmID; C5_Lx: foreach ($xkYLa as $nlzPa => $YMHmG) { goto k_0nF; FVPHT: $QEqeW .= "\x3c\144\151\166\40\x63\154\x61\x73\x73\75\x22\143\157\154\55\155\x64\55\64\x20\x6d\x62\55\x33\x22\x3e"; goto mljRC; oQbIr: $QEqeW .= "\74\x6c\x61\142\x65\154\x20\143\154\141\163\163\75\x22\x66\157\162\x6d\x2d\x63\150\145\143\153\55\154\141\x62\145\154\42\40\x66\x6f\x72\75\42\x70\145\162\155\151\163\x73\x69\157\156\137" . $nlzPa . "\x22\x3e" . $YMHmG . "\74\57\154\141\x62\x65\154\x3e"; goto RiXAr; mljRC: $QEqeW .= "\x3c\144\151\166\x20\x63\154\141\163\163\x3d\42\146\x6f\162\155\55\x63\x68\145\x63\x6b\x20\146\x6f\162\155\55\163\167\151\x74\143\150\42\76"; goto iVGYW; UZeJR: xfH8Y: goto aSNu0; RiXAr: $QEqeW .= "\x3c\x2f\144\x69\x76\76"; goto fh23h; fh23h: $QEqeW .= "\74\57\x64\151\166\x3e"; goto UZeJR; iVGYW: $QEqeW .= "\x3c\x69\156\x70\x75\164\40\x63\154\x61\163\163\75\x22\146\157\x72\155\55\143\150\145\143\x6b\55\x69\156\x70\x75\164\x22\40\x74\171\x70\145\x3d\x22\x63\x68\145\x63\x6b\142\x6f\x78\42\x20\x72\x6f\154\145\x3d\42\x73\167\151\164\143\x68\42\40\x6e\141\155\x65\x3d\x22\160\145\162\x6d\x69\163\x73\151\157\156\137" . $nlzPa . "\42\x20\x69\144\x3d\42\160\x65\162\x6d\x69\163\x73\x69\157\x6e\137" . $nlzPa . "\42\40" . $NQDQP . "\76"; goto oQbIr; k_0nF: $NQDQP = $XtPm_[$nlzPa] ? "\143\x68\145\143\153\x65\x64" : ''; goto FVPHT; aSNu0: } goto RufR9; QACM3: $QEqeW .= "\x3c\x69\156\x70\165\164\40\164\x79\160\x65\x3d\x22\x68\x69\144\144\x65\x6e\x22\40\151\x64\x3d\42\160\145\x72\x6d\x69\x73\163\151\x6f\156\x5f\x75\x73\x65\162\x5f\151\144\42\40\x76\x61\x6c\165\145\x3d\x22" . $k26uY . "\42\x3e"; goto dEW6U; tqIMr: $QEqeW .= "\x3c\57\144\x69\x76\76"; goto OyZAA; l45ip: $QEqeW = "\74\x64\151\x76\40\143\154\141\163\163\x3d\42\146\x6f\x72\x6d\55\x67\x72\x6f\x75\x70\x22\x3e"; goto QACM3; FMco2: foreach ($xkYLa as $nlzPa => $YMHmG) { $XtPm_[$nlzPa] = isset($WfY2q[$nlzPa]) ? (int) $WfY2q[$nlzPa] : 0; XQSyG: } goto GUuLI; nfPKY: TKME5: goto SMvRL; dEW6U: $QEqeW .= "\x3c\x68\x35\x3e\120\145\x72\155\x69\163\x73\xc3\265\145\x73\40\144\157\40\165\x73\x75\303\241\x72\151\x6f\72\x20" . $e5HVA->name . "\x3c\57\150\65\76"; goto Y9_Ex; TUEr1: foreach ($xkYLa as $nlzPa => $YMHmG) { $XtPm_[$nlzPa] = 0; N4_Mn: } goto nfPKY; UUhz2: $iVnGP = krE2u::C_MhY("\x75\163\x65\162\x5f\x69\144", $k26uY)->yRKR9(); goto YpSqp; nDvch: $XtPm_ = []; goto mwDMe; mwDMe: if ($iVnGP) { goto eCAgM; } goto TUEr1; bqmbX: $QEqeW .= "\x3c\x2f\x64\151\166\x3e"; goto tqIMr; AbdjZ: $WfY2q = json_decode($iVnGP->GOGun, true); goto FMco2; GUuLI: p3nlM: goto u8ubu; OyZAA: return $QEqeW; goto gZOJZ; Y9_Ex: $QEqeW .= "\74\144\x69\166\40\x63\x6c\x61\x73\x73\75\42\162\x6f\x77\42\76"; goto C5_Lx; YpSqp: $xkYLa = ["\x31" => "\120\145\x72\163\157\156\x61\154\x69\172\141\303\xa7\303\243\157", "\x32" => "\x43\141\163\x73\151\x6e\157", "\63" => "\x53\x70\157\162\164\x73\x42\x6f\x6f\x6b", "\x34" => "\120\141\147\x61\x6d\145\156\164\x6f\x73", "\65" => "\x55\163\x75\303\241\162\151\157\x73", "\x36" => "\x41\144\155\x69\156\x69\x73\164\162\141\303\xa7\xc3\243\x6f", "\x37" => "\101\146\151\x6c\x69\141\xc3\xa7\xc3\243\x6f", "\x31\x31" => "\127\150\x61\x74\x73\101\x70\160"]; goto nDvch; kbrXB: $e5HVA = AVSUj::ugyZw($k26uY); goto UUhz2; RufR9: pAY3N: goto bqmbX; gZOJZ: } catch (\Exception $ai57B) { return jGkrL()->SBE1Q(["\145\162\162\157\x72" => $ai57B->getMessage()], 500); } } public function HYr4l(S9d5T $WFz1w) { try { goto vl2Vu; aBXz5: $BEnRO = KrE2u::w5UoM(["\165\x73\145\162\x5f\151\x64" => $k26uY]); goto hHXPF; yuWqG: return jgKrl()->SbE1Q(["\163\x75\143\x63\x65\x73\x73" => true, "\x6d\x65\x73\163\141\147\145" => "\x50\x65\162\155\x69\x73\163\303\265\145\163\x20\x73\141\x6c\166\141\x73\x20\143\157\155\x20\x73\x75\x63\145\163\163\157"]); goto cmxzl; vl2Vu: $k26uY = $WFz1w->PC2lR("\165\x73\x65\162\137\151\144"); goto hem2h; hHXPF: $BEnRO->GOGun = json_encode($iVnGP); goto ZYqva; luMs5: $e5HVA = aVSUJ::ugYZW($k26uY); goto aBXz5; hem2h: $iVnGP = $WFz1w->Pc2lr("\x70\x65\x72\155\151\x73\x73\151\157\x6e\163", []); goto luMs5; ZYqva: $BEnRO->save(); goto yuWqG; cmxzl: } catch (\Exception $ai57B) { return jgKRL()->sbe1Q(["\145\162\x72\157\x72" => $ai57B->getMessage()], 500); } } public function BionI($k26uY) { try { goto mgsi6; tYynE: return Jgkrl()->sBE1Q(["\163\x75\x63\143\x65\x73\x73" => true, "\155\145\x73\x73\x61\147\145" => "\x50\x65\162\155\x69\163\x73\xc3\265\x65\163\x20\x72\x65\x6d\x6f\x76\x69\x64\141\163\x20\143\x6f\x6d\x20\163\165\x63\145\163\163\157"]); goto zlrSD; gUHun: $iVnGP->delete(); goto tYynE; ZyzuT: if (!$iVnGP) { goto QNnml; } goto gUHun; Cicnv: return jgkrL()->sbE1q(["\x73\x75\143\143\145\x73\163" => false, "\x6d\x65\163\163\x61\147\x65" => "\x4e\145\156\x68\165\155\x61\40\160\145\162\155\x69\163\163\xc3\243\157\x20\145\156\143\157\156\164\162\141\144\141\x20\x70\141\162\141\x20\145\x73\164\145\40\165\163\165\xc3\241\162\x69\x6f"]); goto s65ah; zlrSD: QNnml: goto Cicnv; mgsi6: $iVnGP = KRE2U::C_mHy("\165\163\145\x72\137\x69\x64", $k26uY)->yrKR9(); goto ZyzuT; s65ah: } catch (\Exception $ai57B) { return jGKrl()->sBE1Q(["\x65\162\x72\x6f\x72" => $ai57B->getMessage()], 500); } } private function DxuQV($xESqV) { goto KXIta; E4KPJ: $C4A5E = implode("\54\40", array_map(function ($zgMy7) { return str_replace(["\151\x6d\x61\147\145\57", "\x61\160\x70\154\151\x63\141\164\x69\x6f\156\x2f"], '', $zgMy7); }, $this->stPVX)); goto R7P0N; pEbOs: $rfWfu = $this->XwQr0 / (1024 * 1024); goto gJ2Wr; bEw5y: Asaie: goto TvjGy; Isk7C: if (!in_array($xESqV->getMimeType(), $AUiw7)) { goto ilkxg; } goto qk8oP; Amnkv: $AUiw7 = ["\x69\x6d\x61\147\x65\x2f\152\x70\x65\147", "\151\155\x61\x67\145\x2f\160\156\x67", "\x69\155\141\147\145\57\x67\x69\x66", "\151\155\x61\147\145\57\x77\145\142\x70"]; goto Isk7C; TvjGy: if (!($xESqV->getSize() > $this->XwQr0)) { goto sNkVM; } goto pEbOs; KXIta: if (in_array($xESqV->getMimeType(), $this->stPVX)) { goto Asaie; } goto E4KPJ; R7P0N: throw new \Exception("\x54\x69\160\x6f\x20\x64\x65\x20\x61\162\161\x75\x69\166\157\x20\151\156\x76\303\xa1\154\x69\144\157\x2e\40\124\x69\x70\x6f\163\x20\160\145\162\x6d\151\x74\151\x64\x6f\163\x3a\x20{$C4A5E}"); goto bEw5y; qk8oP: try { goto UsyNr; GnD0z: if (!($dYdoL > $this->m1vh7 || $Xtx14 > $this->A7iwb)) { goto mHq1N; } goto LAg_C; fLwuR: igSaZ: goto a2Bxa; JfqiO: mHq1N: goto fLwuR; LaKgB: $Xtx14 = $roNYh[1]; goto GnD0z; pfevf: $dYdoL = $roNYh[0]; goto LaKgB; KeyVY: if (!$roNYh) { goto igSaZ; } goto pfevf; UsyNr: $roNYh = getimagesize($xESqV->getPathname()); goto KeyVY; LAg_C: throw new \Exception("\101\x20\151\x6d\141\x67\x65\155\x20\145\x78\x63\145\144\145\x20\157\x20\x74\x61\x6d\x61\156\x68\x6f\x20\155\303\xa1\x78\151\x6d\157\40\160\145\x72\155\151\x74\x69\144\157\x20\144\x65\x20{$this->m1vh7}\x78{$this->A7iwb}\40\x70\151\x78\x65\154\x73"); goto JfqiO; a2Bxa: } catch (\Exception $ai57B) { } goto BziUc; BziUc: ilkxg: goto lFEi5; gJ2Wr: throw new \Exception("\x4f\x20\141\162\x71\165\x69\x76\157\40\145\170\x63\145\144\145\40\x6f\40\164\x61\x6d\141\156\x68\157\40\x6d\303\241\x78\151\155\157\40\x70\145\x72\155\x69\x74\151\x64\x6f\40\x64\145\40{$rfWfu}\x4d\x42"); goto Yppvq; Yppvq: sNkVM: goto Amnkv; lFEi5: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Settings;
+use App\Models\Gateways;
+use App\Models\Admin\CustomCSS;
+use App\Models\Admin\Permissions;
+use App\Models\User;
+use Illuminate\Support\Facades\Log;
+
+class ConfigController extends Controller
+{
+    /**
+     * Lista de tipos MIME permitidos para imagens
+     */
+    private $allowedMimes = [
+        'image/jpeg',
+        'image/png',
+        'image/gif',
+        'image/ico',
+        'image/webp',
+        'image/svg+xml',
+        'image/x-icon',  // Para favicon
+        'image/vnd.microsoft.icon' // Outro tipo para favicon
+    ];
+
+    /**
+     * Tamanho máximo permitido para arquivos em bytes (5MB)
+     */
+    private $maxFileSize = 5 * 1024 * 1024;
+
+    /**
+     * Dimensões máximas para imagens
+     */
+    private $maxWidth = 2024;
+    private $maxHeight = 2024;
+
+    public function configuracoes()
+    {
+        $Settings = Settings::first();
+        return view('admin.config.configuracoes_gerais', compact('Settings'));
+    }
+
+    public function salvarConfiguracoes(Request $request)
+    {
+        try {
+            $settings = Settings::first();
+            $updated = false;
+
+            // Check if it's a FilePond file upload request from iOS
+            $isFilepondRequest = $request->hasHeader('X-Requested-With') &&
+                $request->header('X-Requested-With') == 'XMLHttpRequest' &&
+                ($request->hasFile('filepond') || $request->hasFile('filepond_favicon'));
+
+            // Mapear campos permitidos e seus tipos para validação
+            $allowedFields = [
+                'name' => 'string',
+                'subtitle' => 'string',
+                'min_saque_n' => 'numeric',
+                'max_saque_n' => 'numeric',
+                'max_saque_aut' => 'numeric',
+                'max_saque_diario' => 'numeric',
+                'max_quantidade_saques_diario' => 'integer',
+                'max_quantidade_saques_automaticos_diario' => 'integer',
+                'rollover_saque' => 'integer',
+                'min_dep' => 'numeric',
+                'max_dep' => 'numeric',
+                'bonus_min_dep' => 'numeric',
+                'bonus_max_dep' => 'numeric',
+                'bonus_mult' => 'integer',
+                'bonus_rollover' => 'integer',
+                'bonus_expire_days' => 'integer',
+                'tawkto_src' => 'string',
+                'tawkto_active' => 'integer',
+                'jivochat_src' => 'string',
+                'jivochat_active' => 'integer',
+                'enable_cassino_bonus' => 'integer',
+                'bonus_all_deposits' => 'integer',
+                'default_home_page' => 'string'
+            ];
+
+            // Processar apenas os campos enviados no request
+            foreach ($allowedFields as $field => $type) {
+                // Verificar se o campo existe no request (mesmo que vazio)
+                if ($request->has($field) || $request->filled($field)) {
+                    $value = $request->input($field);
+
+                    // Tratar valores vazios ou null
+                    if ($value === null || $value === '' || $value === 'null') {
+                        // Para campos integer, valor vazio significa 0
+                        if ($type === 'integer') {
+                            $value = 0;
+                        } else {
+                            // Para outros tipos, pular se vazio
+                            continue;
+                        }
+                    }
+
+                    // Validar e converter o valor conforme o tipo esperado
+                    if ($type === 'numeric' && is_string($value)) {
+                        // Garantir formato decimal correto
+                        $value = str_replace(',', '.', $value);
+
+                        // Verificar se o valor é um número válido
+                        if (!is_numeric($value) && $value !== '') {
+                            continue; // Pula este campo se o valor não for numérico
+                        }
+                        $value = (float)$value;
+                    } elseif ($type === 'integer') {
+                        // Converter para inteiro se possível
+                        if (is_string($value)) {
+                            // Remover espaços e caracteres não numéricos (exceto sinal negativo)
+                            $value = trim($value);
+                            // Permitir valores vazios, 0, e números positivos
+                            if ($value === '' || $value === null) {
+                                $value = 0;
+                            } elseif (!is_numeric($value)) {
+                                continue; // Pula este campo se o valor não for numérico
+                            }
+                        }
+                        $value = (int)$value;
+                    }
+
+                    // Tratar caso especial: campo 'subtitle' deve ser salvo na coluna 'subname'
+                    if ($field === 'subtitle') {
+                        if ($settings->subname != $value) {
+                            $settings->subname = $value;
+                            $updated = true;
+                        }
+                    } else {
+                        // Atualizar o campo apenas se for diferente
+                        // Usar comparação estrita para evitar problemas com tipos
+                        $currentValue = $settings->$field ?? null;
+                        if ($currentValue != $value) {
+                            $settings->$field = $value;
+                            $updated = true;
+                        }
+                    }
+                }
+            }
+
+            // Verificar se o diretório existe, se não, criá-lo
+            $uploadPath = public_path('img/logo');
+            if (!file_exists($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
+
+            // Validar e processar upload de logo, se houver
+            if ($request->hasFile('filepond')) {
+                $file = $request->file('filepond');
+                $fileType = $request->input('fileType', 'logo');
+
+                try {
+                    // Validar MIME type
+                    $this->validateImage($file);
+
+                    // Se for especificado como favicon, salvar como favicon
+                    if ($fileType === 'favicon') {
+                        $fileName = 'favicon_' . time() . '.' . $file->getClientOriginalExtension();
+                        $file->move($uploadPath, $fileName);
+                        $filePath = 'img/logo/' . $fileName;
+                        $settings->favicon = $filePath;
+                    } else {
+                        // Caso contrário, salvar como logo
+                        $fileName = 'logo_' . time() . '.' . $file->getClientOriginalExtension();
+                        $file->move($uploadPath, $fileName);
+                        $filePath = 'img/logo/' . $fileName;
+                        $settings->logo = $filePath;
+                    }
+                    $updated = true;
+                } catch (\Exception $e) {
+                    // Caso seja uma requisição AJAX, retornar erro específico
+                    if ($isFilepondRequest) {
+                        return response()->json([
+                            'success' => false,
+                            'message' => 'Erro ao processar imagem: ' . $e->getMessage()
+                        ], 422);
+                    }
+                    // Se não for AJAX, propagar a exceção
+                    throw $e;
+                }
+            }
+
+            // Validar e processar upload de favicon, se houver
+            if ($request->hasFile('filepond_favicon')) {
+                $file = $request->file('filepond_favicon');
+
+                try {
+                    // Validar MIME type
+                    $this->validateImage($file);
+
+                    $fileName = 'favicon_' . time() . '.' . $file->getClientOriginalExtension();
+                    $file->move($uploadPath, $fileName);
+                    $filePath = 'img/logo/' . $fileName;
+                    $settings->favicon = $filePath;
+                    $updated = true;
+                } catch (\Exception $e) {
+                    // Caso seja uma requisição AJAX, retornar erro específico
+                    if ($isFilepondRequest) {
+                        return response()->json([
+                            'success' => false,
+                            'message' => 'Erro ao processar favicon: ' . $e->getMessage()
+                        ], 422);
+                    }
+                    // Se não for AJAX, propagar a exceção
+                    throw $e;
+                }
+            }
+
+            // Salvar apenas se houver mudanças
+            if ($updated) {
+                $settings->save();
+            }
+
+            // Se for requisição do FilePond, responder adequadamente
+            if ($isFilepondRequest) {
+                $response = [
+                    'success' => true,
+                    'message' => 'Configurações atualizadas com sucesso'
+                ];
+
+                // Adicionar caminho do arquivo se disponível
+                if (isset($filePath)) {
+                    $response['file_path'] = asset($filePath);
+                }
+
+                return response()->json($response);
+            }
+
+            return response()->json(['success' => true, 'message' => 'Configurações atualizadas com sucesso']);
+        } catch (\Exception $e) {
+            Log::error('Erro ao salvar configurações: ' . $e->getMessage());
+            return response()->json(['success' => false, 'message' => 'Erro ao salvar configurações: ' . $e->getMessage()], 422);
+        }
+    }
+
+    public function gateways()
+    {
+        return view('admin.config.gateways');
+    }
+
+    public function atualizarGateway(Request $request)
+    {
+        try {
+            // Validar request - mais flexível, sem restringir os campos
+            $validator = \Illuminate\Support\Facades\Validator::make($request->all(), [
+                'nome' => 'required|string',
+                'field' => 'required|string',
+                'value' => 'present', // Permite valores vazios
+            ]);
+
+            if ($validator->fails()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Parâmetros inválidos: ' . $validator->errors()->first()
+                ], 400);
+            }
+
+            $nome = $request->input('nome');
+            $field = $request->input('field');
+            $value = $request->input('value', ''); // Valor padrão vazio se não for fornecido
+
+            // Validar nome do gateway
+            $gateway = Gateways::where('nome', $nome)->first();
+
+            if (!$gateway) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Gateway não encontrado'
+                ], 404);
+            }
+
+            // Processar valores de acordo com o campo
+            if ($field === 'active') {
+                $value = (int)$value; // Converter para inteiro
+            } else {
+                // Permitir strings vazias
+                $value = (string)$value;
+            }
+
+            // Desabilitar temporariamente os eventos do modelo para evitar erros de log
+            $gateway->timestamps = false;  // Evitar atualização de timestamps
+
+            // Atualizar o gateway e salvar (sem eventos)
+            $gateway->$field = $value;
+            $gateway->save(['events' => false]);  // Salvar sem disparar eventos
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Gateway atualizado com sucesso'
+            ]);
+        } catch (\Error $e) {
+            // Erro de classe não encontrada ou similar
+            \Illuminate\Support\Facades\Log::error('Erro crítico ao atualizar gateway: ' . $e->getMessage());
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor: ' . $e->getMessage()
+            ], 500);
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Erro ao atualizar gateway: ' . $e->getMessage());
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor ao atualizar gateway'
+            ], 500);
+        }
+    }
+
+    public function apisgames()
+    {
+        return view('admin.config.apisgames');
+    }
+
+    public function atualizarApi(Request $request)
+    {
+        try {
+            // Validar request
+            $validator = \Illuminate\Support\Facades\Validator::make($request->all(), [
+                'nome' => 'required|string',
+                'field' => 'required|string',
+                'value' => 'present', // Permite valores vazios
+            ]);
+
+            if ($validator->fails()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Parâmetros inválidos: ' . $validator->errors()->first()
+                ], 400);
+            }
+
+            $nome = $request->input('nome');
+            $field = $request->input('field');
+            $value = $request->input('value', ''); // Valor padrão vazio se não for fornecido
+
+            // Obter configurações
+            $settings = Settings::first();
+
+            if (!$settings) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Configurações não encontradas'
+                ], 404);
+            }
+
+            // Verificar se o campo existe no modelo Settings
+            if (!array_key_exists($field, $settings->getAttributes())) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Campo não encontrado nas configurações'
+                ], 400);
+            }
+
+            // Desabilitar temporariamente os eventos do modelo
+            $settings->timestamps = false;
+
+            // Atualizar o campo e salvar
+            $settings->$field = $value;
+            $settings->save(['events' => false]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'API atualizada com sucesso'
+            ]);
+        } catch (\Error $e) {
+            // Erro de classe não encontrada ou similar
+            \Illuminate\Support\Facades\Log::error('Erro crítico ao atualizar API: ' . $e->getMessage());
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor: ' . $e->getMessage()
+            ], 500);
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Erro ao atualizar API: ' . $e->getMessage());
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor ao atualizar API'
+            ], 500);
+        }
+    }
+
+    public function banco()
+    {
+        return view('admin.config.banco');
+    }
+
+    public function realizarSaque(Request $request)
+    {
+        // Implementar lógica de saque bancário
+        return response()->json(['success' => true]);
+    }
+
+    public function funcoesPermissoes()
+    {
+        return view('admin.config.funcoesepermissoes');
+    }
+
+    public function salvarPermissoes(Request $request)
+    {
+        $userId = $request->input('user_id');
+        $permissions = $request->input('permissions', []);
+
+        Permissions::updateOrCreate(
+            ['user_id' => $userId],
+            ['permission' => json_encode($permissions)]
+        );
+
+        return response()->json(['success' => true]);
+    }
+
+    /**
+     * Carrega as permissões de um usuário específico
+     */
+    public function loadPermissions($userId)
+    {
+        try {
+            $user = User::findOrFail($userId);
+            $permissions = Permissions::where('user_id', $userId)->first();
+
+            // Lista de permissões disponíveis
+            $mapaPermissoes = [
+                '1' => 'Personalização',
+                '2' => 'Cassino',
+                '3' => 'SportsBook',
+                '4' => 'Pagamentos',
+                '5' => 'Usuários',
+                '6' => 'Administração',
+                '7' => 'Afiliação',
+                '11' => 'WhatsApp'
+            ];
+
+            // Obter os valores atuais das permissões
+            $valoresPermissoes = [];
+            if ($permissions) {
+                $permissoesArray = json_decode($permissions->permission, true);
+                foreach ($mapaPermissoes as $id => $nome) {
+                    $valoresPermissoes[$id] = isset($permissoesArray[$id]) ? (int)$permissoesArray[$id] : 0;
+                }
+            } else {
+                // Sem permissões ainda, inicializar com zeros
+                foreach ($mapaPermissoes as $id => $nome) {
+                    $valoresPermissoes[$id] = 0;
+                }
+            }
+
+            // Construir HTML do formulário de permissões
+            $html = '<div class="form-group">';
+            $html .= '<input type="hidden" id="permission_user_id" value="'.$userId.'">';
+            $html .= '<h5>Permissões do usuário: '.$user->name.'</h5>';
+            $html .= '<div class="row">';
+
+            foreach ($mapaPermissoes as $id => $nome) {
+                $checked = $valoresPermissoes[$id] ? 'checked' : '';
+
+                $html .= '<div class="col-md-4 mb-3">';
+                $html .= '<div class="form-check form-switch">';
+                $html .= '<input class="form-check-input" type="checkbox" role="switch" name="permission_'.$id.'" id="permission_'.$id.'" '.$checked.'>';
+                $html .= '<label class="form-check-label" for="permission_'.$id.'">'.$nome.'</label>';
+                $html .= '</div>';
+                $html .= '</div>';
+            }
+
+            $html .= '</div>';
+            $html .= '</div>';
+
+            return $html;
+
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Salva as permissões de um usuário
+     */
+    public function savePermissions(Request $request)
+    {
+        try {
+            $userId = $request->input('user_id');
+            $permissions = $request->input('permissions', []);
+
+            // Validar usuário
+            $user = User::findOrFail($userId);
+
+            // Verificar ou criar o registro de permissões
+            $permissionsModel = Permissions::firstOrNew(['user_id' => $userId]);
+
+            // Salvar permissões como JSON
+            $permissionsModel->permission = json_encode($permissions);
+            $permissionsModel->save();
+
+            return response()->json(['success' => true, 'message' => 'Permissões salvas com sucesso']);
+
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Remove as permissões de um usuário
+     */
+    public function deletePermissions($userId)
+    {
+        try {
+            $permissions = Permissions::where('user_id', $userId)->first();
+
+            if ($permissions) {
+                $permissions->delete();
+                return response()->json(['success' => true, 'message' => 'Permissões removidas com sucesso']);
+            }
+
+            return response()->json(['success' => false, 'message' => 'Nenhuma permissão encontrada para este usuário']);
+
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Valida um arquivo de imagem
+     *
+     * @param \Illuminate\Http\UploadedFile $image
+     * @throws \Exception
+     */
+    private function validateImage($image)
+    {
+        // Verificar tipo MIME
+        if (!in_array($image->getMimeType(), $this->allowedMimes)) {
+            $allowedTypesStr = implode(', ', array_map(function($mime) {
+                return str_replace(['image/', 'application/'], '', $mime);
+            }, $this->allowedMimes));
+
+            throw new \Exception("Tipo de arquivo inválido. Tipos permitidos: {$allowedTypesStr}");
+        }
+
+        // Verificar tamanho
+        if ($image->getSize() > $this->maxFileSize) {
+            $maxSizeMB = $this->maxFileSize / (1024 * 1024);
+            throw new \Exception("O arquivo excede o tamanho máximo permitido de {$maxSizeMB}MB");
+        }
+
+        // Verificar dimensões para imagens (exceto ícones)
+        $imageMimes = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+        if (in_array($image->getMimeType(), $imageMimes)) {
+            try {
+                $imageInfo = getimagesize($image->getPathname());
+                if ($imageInfo) {
+                    $width = $imageInfo[0];
+                    $height = $imageInfo[1];
+
+                    if ($width > $this->maxWidth || $height > $this->maxHeight) {
+                        throw new \Exception("A imagem excede o tamanho máximo permitido de {$this->maxWidth}x{$this->maxHeight} pixels");
+                    }
+                }
+            } catch (\Exception $e) {
+                // Registra o erro mas não interrompe o processo
+            }
+        }
+    }
+}

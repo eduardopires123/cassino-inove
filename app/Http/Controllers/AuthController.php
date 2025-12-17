@@ -1,8 +1,1089 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:44              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89X\SHTeQ\Fn52m; use jF89X\T0EtD\y5IDf; use jF89X\T0EtD\aVsuJ; use eC3ME\SHtEq\s9d5T; use eC3ME\H2VUv\P2Qh1\NXrov; use ec3me\H2vuV\P2Qh1\Hash; use Ec3ME\H2vUv\p2QH1\pLHXG; use Ec3ME\NXroV\apbju\IP3K5; use eC3me\H2Vuv\p2QH1\ZyXnL; use eC3ME\NZjO_\iut8t; use eC3Me\H2vuv\p2Qh1\lVLOx; use EC3Me\h2vUV\p2qh1\jf89X; use Ec3mE\H2vuV\p2qH1\VA9mt; use ec3ME\H2VUV\P2qH1\GySwE; use Jf89x\t0ETd\c40q0; use jf89X\t0eTD\Ja5m5; class vi1pT extends Nmp37 { public function FMOAY() { return fH6x5()->wwY32("\150\x6f\x6d\145"); } public function msTTa(s9D5T $WFz1w) { try { goto LcBZh; SMm4f: return JGkrl()->SBE1q(["\163\x75\x63\143\145\x73\x73" => true, "\x72\145\144\151\x72\x65\x63\x74" => '', "\x6d\x65\163\x73\x61\147\x65" => "\114\x6f\147\x69\156\x20\162\x65\141\x6c\151\x7a\x61\x64\157\40\x63\157\x6d\40\x73\165\x63\x65\163\163\x6f\41", "\163\150\x6f\167\114\157\141\x64\x69\156\x67" => true, "\x75\163\x65\x72" => $e5HVA]); goto u8ET7; Vd17S: $YlE2c = $WFz1w->NpZT3("\x72\x65\155\x65\155\x62\x65\x72"); goto wlX43; PFKub: return jGkrL()->sBE1Q(["\163\x75\x63\x63\x65\163\163" => false, "\x6d\x65\163\x73\141\147\x65" => "\101\x73\x20\x63\162\145\144\145\156\143\x69\141\151\163\x20\146\157\162\x6e\x65\x63\x69\144\x61\163\40\x6e\xc3\xa3\x6f\40\x63\157\x72\162\x65\x73\x70\x6f\x6e\x64\145\155\40\141\157\x73\x20\156\x6f\x73\163\157\x73\x20\x72\x65\x67\151\163\164\162\x6f\x73\x2e"], 401); goto THFfH; BV7Dn: Hk762: goto SMm4f; EslRU: $e5HVA->HLo0F = 0; goto VZ6dO; lNEOl: $e5HVA->SsF4C = 1; goto EslRU; cHU2G: VA9mT()->jCiRa("\x63\x75\162\x72\x65\156\164\x5f\164\141\x62\x5f\151\144"); goto mOt6u; kJ1n7: KnlCi: goto aNhJO; pvp2o: uJVCR: goto BV7Dn; zOBsR: if (!NxROv::WohCx($WQNsN, $YlE2c)) { goto tl6d6; } goto cHU2G; Y0Pt4: if (!$WFz1w->m8TPp()) { goto dL8bV; } goto Zth3v; R37Tm: GySWe::POyLt("\x75\x73\145\162\x5f\x6c\x6f\x63\x61\154\145", $vMABc, 525600); goto Ftu6D; muDrF: $e5HVA->save(); goto Li192; G8P2z: OGiNB: goto ZJrak; wlX43: $WQNsN = [$z5IT9 => $dKmup, "\160\141\x73\163\167\x6f\162\144" => $WFz1w->olFCR]; goto H9RLt; F4Mcp: $e5HVA = nXroV::yFGi_(); goto lNEOl; qcC6a: $dKmup = strtolower(trim($WFz1w->VzAAC)); goto G8P2z; ULwcG: if ($e5HVA->opaCn >= 1) { goto hzOMX; } goto csYCk; ZtMWx: return JGKRl()->SbE1Q(["\163\165\143\143\x65\163\x73" => false, "\x6d\x65\163\x73\x61\147\145" => "\x41\163\x20\143\x72\x65\x64\145\156\143\x69\141\x69\x73\x20\x66\x6f\162\156\x65\143\151\144\141\x73\x20\x6e\303\xa3\x6f\40\x63\x6f\x72\162\x65\x73\160\x6f\156\x64\x65\155\x20\141\157\163\40\156\157\x73\x73\x6f\x73\40\x72\x65\147\x69\x73\164\x72\x6f\x73\x2e"], 401); goto kJ1n7; u8ET7: tl6d6: goto PFKub; gYqi8: fOsoH: goto K6FSS; LcBZh: $z5IT9 = filter_var($WFz1w->VzAAC, FILTER_VALIDATE_EMAIL) ? "\x65\155\x61\151\154" : "\x63\x70\146"; goto WqGWS; Zth3v: return jgkRl()->Sbe1q(["\x73\165\143\143\145\163\163" => true, "\162\x65\144\x69\x72\x65\x63\164" => An4P4("\57\141\x64\155"), "\155\x65\x73\x73\x61\147\145" => "\114\157\147\x69\x6e\40\162\x65\x61\x6c\x69\x7a\x61\x64\x6f\40\x63\157\x6d\40\x73\165\x63\x65\163\x73\x6f\41", "\x73\150\157\167\x4c\157\x61\144\151\x6e\147" => true, "\x75\163\x65\x72" => $e5HVA]); goto Aod4C; Ftu6D: if (!($WFz1w->HKlBp("\141\144\x6d\x69\x6e") && $WFz1w->Ca_JV >= 1)) { goto Hk762; } goto ULwcG; csYCk: nxROV::kGKPb(); goto gQWHU; Zf2Rw: if (!$WFz1w->M8TPp()) { goto fOsoH; } goto N8TIK; nPX09: $WFz1w->Pkfl2()->aPOFj(); goto Zf2Rw; HAMN9: goto uJVCR; goto MNApv; DR1R4: Yt1BH: goto qcC6a; H9RLt: $e5HVA = AVSuj::C_mHy($z5IT9, $dKmup)->yRkr9(); goto gofjz; VZ6dO: $e5HVA->NUVHF = WhFh3(); goto muDrF; Ijtc5: return jgKRL()->Sbe1Q(["\x73\165\x63\143\145\163\163" => false, "\155\145\x73\163\141\147\x65" => "\x53\x75\141\x20\143\x6f\x6e\164\141\40\x65\156\143\x6f\156\x74\162\141\x2d\x73\145\40\142\x6c\x6f\161\x75\x65\x61\144\x61\54\x20\x65\x6e\164\x72\x65\x20\x65\x6d\40\143\x6f\156\164\x61\x74\x6f\40\143\157\x6d\40\157\x20\163\x75\x70\157\x72\x74\x65\x21"], 403); goto fNHC3; MNApv: hzOMX: goto Y0Pt4; fNHC3: xcHbg: goto yjelI; Fz_8X: goto OGiNB; goto DR1R4; kd05x: return Fh6X5()->tWT3V(an4P4("\57\x61\x64\155")); goto pvp2o; N8TIK: return jgKrL()->sBE1Q(["\163\165\143\143\145\163\x73" => false, "\x6d\x65\x73\163\x61\147\145" => "\x56\157\x63\303\252\40\156\303\243\157\x20\x74\x65\155\40\160\145\162\155\x69\x73\x73\303\243\x6f\40\x70\141\162\x61\40\141\x63\x65\163\163\x61\162\x20\x6f\x20\160\141\x69\156\x65\x6c\x20\141\144\155\151\156\151\x73\164\x72\141\x74\x69\x76\157\56"], 403); goto gYqi8; MJxCF: $vMABc = $e5HVA->Q2YCO ?? "\x70\164\137\102\122"; goto Vqemg; WqGWS: if ($z5IT9 === "\145\155\141\151\x6c") { goto Yt1BH; } goto phmzi; ZJrak: $WFz1w->validate(["\x65\x6d\141\151\154" => "\x72\145\x71\x75\x69\162\x65\x64", "\x70\x61\163\163\167\x6f\162\144" => "\162\145\x71\x75\x69\x72\x65\144"]); goto Vd17S; aNhJO: if (!($e5HVA->C_KaU == 1)) { goto xcHbg; } goto Ijtc5; Li192: Va9MT(["\154\x6f\x67\151\x6e\x5f\164\x69\155\145\163\164\x61\x6d\x70" => time()]); goto MJxCF; phmzi: $dKmup = preg_replace("\57\133\136\60\x2d\x39\x5d\57", '', $WFz1w->VzAAC); goto Fz_8X; PCQIo: jf89x::setLocale($vMABc); goto R37Tm; K6FSS: return Hkg9f()->V8had(["\x65\x6d\141\151\154" => "\126\x6f\x63\xc3\xaa\x20\x6e\xc3\xa3\157\x20\164\x65\155\x20\x70\x65\162\155\151\x73\x73\303\243\x6f\x20\x70\141\162\141\40\141\x63\145\163\163\141\162\x20\157\x20\160\x61\x69\x6e\145\x6c\x20\141\x64\155\151\156\x69\x73\x74\x72\141\164\x69\x76\x6f\x2e"]); goto HAMN9; gQWHU: $WFz1w->pKfL2()->Kk_f3(); goto nPX09; mOt6u: $WFz1w->PkfL2()->hjsTb(); goto F4Mcp; yjelI: Y5IDF::C_mhy("\165\163\145\x72\x5f\151\x64", $e5HVA->id)->delete(); goto zOBsR; Vqemg: Va9mt::W4JEh("\154\x6f\143\x61\x6c\145", $vMABc); goto PCQIo; Aod4C: dL8bV: goto kd05x; gofjz: if ($e5HVA) { goto KnlCi; } goto ZtMWx; THFfH: } catch (\Exception $ai57B) { return JGkRl()->sbe1q(["\x73\165\x63\x63\x65\163\x73" => false, "\155\x65\163\x73\x61\x67\145" => "\x4f\143\x6f\x72\162\145\165\x20\x75\x6d\x20\x65\162\162\157\x20\141\157\x20\x70\162\157\143\145\x73\x73\x61\x72\40\x73\145\x75\40\154\x6f\147\x69\x6e\x2e\40\x44\x65\x74\141\x6c\x68\x65\163\x3a\40" . $ai57B->getMessage()], 500); } } public function kWg27() { return Lo0CY("\141\x75\x74\150\56\162\145\147\151\x73\x74\x65\162\55\155\157\144\141\154"); } public function KzUIm(S9d5t $WFz1w) { try { goto W3vrS; o2DaS: ltW3r: goto BJGXd; zbP4L: $e5HVA->Q2YCO = "\160\x74\137\102\122"; goto dujJh; WXv5L: $e5HVA = nXroV::YfgI_(); goto zbP4L; dujJh: $e5HVA->save(); goto d2cZ9; wqFBr: return jGkrl()->sBe1q(["\x73\x75\x63\x63\145\163\x73" => false, "\155\x65\x73\x73\141\147\145" => "\103\x50\106\x20\152\xc3\241\40\143\141\x64\x61\163\x74\x72\141\x64\x6f", "\145\x72\x72\x6f\x72\163" => ["\x70\151\170" => ["\x45\163\x74\145\x20\x43\x50\106\40\x6a\xc3\241\x20\x65\163\x74\xc3\xa1\x20\143\141\x64\141\x73\x74\162\141\144\157\40\x6e\157\40\x73\x69\x73\x74\145\x6d\141\56\40\x50\157\x72\x20\146\x61\x76\157\x72\54\x20\x66\141\xc3\xa7\141\40\154\157\x67\151\156\x20\x6f\x75\x20\x75\x73\145\x20\x6f\x75\164\162\157\x20\x43\x50\106\56"]]], 422); goto GDmY0; BPZN9: NxrOV::mstta($e5HVA); goto jYn5J; rneHy: $ME9bQ = AvsuJ::C_mHy(function ($XrAG1) use($ZmclE) { goto Hs7jC; r48aC: $XrAG1->Iny8C("\x63\x70\146", $k5LCt)->INY8c("\x70\151\170", $k5LCt); goto aN08t; Hs7jC: $XrAG1->c_MHy("\x63\160\146", $ZmclE)->iny8C("\160\x69\170", $ZmclE); goto DnIof; juqzF: $k5LCt = substr($ZmclE, 0, 3) . "\56" . substr($ZmclE, 3, 3) . "\x2e" . substr($ZmclE, 6, 3) . "\55" . substr($ZmclE, 9, 2); goto r48aC; DnIof: if (!(strlen($ZmclE) === 11)) { goto f3ij7; } goto juqzF; aN08t: f3ij7: goto b8Dad; b8Dad: })->yRKR9(); goto hHuNR; ogUDg: if (!$WFz1w->M8TPp()) { goto n1DEf; } goto TfkTc; KKbDO: kKGT8: goto BPZN9; Xr_7y: if (!$ZmclE) { goto KBq5w; } goto rneHy; ii2Tr: if (!$WFz1w->VzAAC) { goto NonUp; } goto ByKv5; gAWWe: NonUp: goto y1VAg; FP_D_: V2fvH: goto gAWWe; ByKv5: $Kia2G = AVsuj::C_mHy("\145\x6d\141\151\154", $WFz1w->VzAAC)->yrKR9(); goto cmNJd; hHuNR: if (!$ME9bQ) { goto PiKkW; } goto M5az8; OMfD2: return jGkrl()->sBe1Q(["\163\x75\x63\x63\x65\163\163" => false, "\x6d\145\163\x73\x61\147\145" => "\105\x72\162\x6f\x20\x64\x65\40\x76\141\154\x69\144\x61\xc3\xa7\303\243\157", "\x65\x72\x72\x6f\x72\163" => $e25Fx->WlQvz()], 422); goto o2DaS; BmX2z: return Fh6x5()->jyyrv()->v8Had(["\x65\155\141\151\154" => "\x45\163\x74\145\40\x65\155\141\151\154\40\152\303\xa1\40\x65\x73\x74\303\xa1\x20\x63\x61\144\x61\163\x74\x72\141\x64\x6f\40\x6e\x6f\x20\x73\151\163\164\x65\x6d\141\x2e\40\120\x6f\162\40\146\141\166\x6f\162\x2c\x20\146\141\303\xa7\141\40\154\157\147\x69\x6e\40\157\165\40\x75\x73\145\40\x6f\165\x74\x72\157\40\x65\x6d\x61\x69\x6c\56"])->RTAua($WFz1w->uTXGk("\160\141\x73\x73\x77\157\162\144")); goto FP_D_; cmNJd: if (!$Kia2G) { goto V2fvH; } goto ogUDg; ERmRX: $this->JHcX6($WFz1w, $e5HVA); goto SmrY3; E3INl: GYSwE::pOylT("\x75\163\145\x72\x5f\154\x6f\143\141\x6c\x65", "\x70\x74\x5f\x42\x52", 525600); goto lmWFY; SmrY3: if (!$WFz1w->M8tpP()) { goto b5xH7; } goto bTAVH; BHxL1: KBq5w: goto ii2Tr; mrtFg: if (!($izSQQ !== 0)) { goto kKGT8; } goto HS4Qp; xHQAH: $izSQQ = 0; goto fJNBs; okw0h: C40Q0::create(["\x75\x73\145\162\x5f\151\144" => $e5HVA->id, "\x62\141\x6c\141\156\143\145" => 0, "\142\141\154\141\x6e\x63\145\137\142\x6f\156\x75\x73" => 0, "\x62\141\154\141\156\x63\145\137\142\157\156\165\163\137\x72\157\154\154\157\166\145\x72" => 0, "\x62\141\x6c\141\x6e\143\145\x5f\x62\x6f\156\165\163\137\162\x6f\x6c\x6c\157\166\x65\162\137\x75\163\145\x64" => 0, "\x68\x69\144\145\x5f\x62\141\154\141\156\143\145" => 0, "\x68\151\144\145\x5f\x62\x61\154\x61\x6e\143\x65\162\145\146\x65\x72" => 0, "\164\157\164\x61\x6c\x5f\x62\145\164" => 0, "\x74\157\x74\x61\154\137\167\157\156" => 0, "\x74\157\x74\141\154\137\x6c\x6f\x73\x65" => 0, "\x6c\141\163\x74\137\x77\x6f\156" => 0, "\x6c\141\163\x74\137\x6c\157\163\145" => 0, "\x72\x65\x66\145\162\120\x65\162\x63\145\156\x74" => 0, "\162\x65\x66\145\x72\x5f\x72\x65\167\x61\x72\144\x73" => 0, "\x63\157\151\x6e" => 0]); goto mrtFg; iriN_: return fH6x5()->jYYRV()->v8HaD(["\160\x69\x78" => "\x45\x73\x74\145\x20\x43\120\x46\x20\x6a\303\xa1\40\145\x73\164\xc3\241\40\x63\x61\x64\x61\163\x74\162\141\x64\157\40\x6e\x6f\x20\x73\151\x73\164\145\x6d\x61\x2e\x20\120\157\x72\40\x66\x61\166\x6f\162\54\x20\x66\141\303\xa7\141\40\x6c\x6f\147\x69\x6e\40\x6f\x75\40\x75\163\x65\40\157\x75\164\162\157\40\x43\x50\106\x2e"])->RTAua($WFz1w->UtxGk("\x70\x61\163\x73\x77\x6f\162\x64")); goto mH3O8; rDKSV: return fh6x5()->WwY32("\150\157\155\x65"); goto AznEo; wHOxX: b5xH7: goto rDKSV; d2cZ9: Va9mt::W4jeh("\x6c\157\x63\141\154\x65", "\x70\x74\x5f\x42\x52"); goto HRgAK; IIpUn: n1DEf: goto BmX2z; TfkTc: return jgKRl()->SbE1Q(["\x73\165\x63\x63\x65\163\x73" => false, "\x6d\x65\x73\x73\x61\147\x65" => "\x45\x6d\141\151\x6c\x20\152\303\xa1\40\143\x61\144\141\163\164\162\x61\144\x6f", "\x65\162\x72\x6f\x72\x73" => ["\145\155\x61\x69\154" => ["\105\163\x74\145\40\145\x6d\x61\x69\x6c\40\152\xc3\xa1\40\x65\163\x74\303\xa1\x20\x63\x61\x64\141\x73\x74\162\x61\144\157\x20\156\x6f\40\163\151\x73\164\145\x6d\x61\56\40\120\157\x72\40\146\141\166\157\x72\x2c\40\x66\141\303\xa7\x61\40\154\x6f\x67\151\x6e\40\x6f\x75\x20\165\163\145\x20\157\165\164\x72\157\40\145\x6d\x61\151\x6c\x2e"]]], 422); goto IIpUn; WqYfd: if (AvsUJ::ylb3M($izSQQ)) { goto hbdMC; } goto xHQAH; GuFvF: MKsaZ: goto njBSM; bTAVH: return jGkrl()->Sbe1q(["\x73\x75\143\143\145\x73\163" => true, "\162\x65\144\151\162\x65\143\x74" => w3qN1("\x68\157\155\x65"), "\x6d\x65\x73\163\141\x67\145" => "\122\x65\x67\151\x73\164\162\x6f\40\162\x65\141\x6c\x69\x7a\141\x64\157\40\143\157\155\40\x73\x75\x63\x65\163\x73\157\41"]); goto wHOxX; pMY11: $e5HVA = AvsUj::create(["\x6e\141\155\x65" => $Tq89T, "\x65\x6d\141\x69\x6c" => $WFz1w->VzAAC, "\160\x61\x73\x73\167\x6f\x72\x64" => Hash::ykI_i($WFz1w->olFCR), "\x70\x68\157\x6e\145" => $WFz1w->h7T8u, "\x63\x70\146" => $VPG2l, "\160\151\170" => $VPG2l, "\x6e\141\163\x63\151\x6d\145\156\x74\157" => $WFz1w->ujsXU, "\x73\164\141\x74\x75\163" => "\x61\143\x74\151\166\x65", "\x69\x73\137\x61\x64\155\x69\x6e" => 0, "\x69\x73\137\x61\x66\x66\x69\154\x69\x61\164\145" => 0, "\x6c\157\x67\147\x65\x64\137\151\x6e" => 0, "\142\x61\156\156\x65\144" => 0, "\160\154\141\171\151\x6e\147" => 0, "\160\154\x61\171\145\144" => 0, "\x69\x6d\141\x67\x65" => "\x69\155\x67\57\141\x76\141\164\x61\162\57\x31\65\56\160\x6e\147", "\151\x6e\x76\151\x74\x65\x72" => $izSQQ]); goto okw0h; mH3O8: PiKkW: goto BHxL1; u_bkL: if (!$e25Fx->LDf8p()) { goto MKsaZ; } goto xmmCb; BJGXd: return fH6X5()->JyYrV()->V8haD($e25Fx)->RTAUA($WFz1w->utxgK("\x70\x61\x73\163\167\157\162\x64")); goto GuFvF; jYn5J: if (!nXROv::C_4HV()) { goto xxExQ; } goto WXv5L; ikHZV: $izSQQ = $WFz1w->Elxkq ?? 0; goto WqYfd; M5az8: if (!$WFz1w->m8tpp()) { goto IWlS2; } goto wqFBr; HRgAK: JF89X::setLocale("\160\x74\137\x42\122"); goto E3INl; njBSM: $Tq89T = $WFz1w->name ?? explode("\100", $WFz1w->VzAAC)[0]; goto lanBd; lanBd: $VPG2l = $ZmclE ?: preg_replace("\x2f\133\x5e\x30\55\x39\x5d\57", '', $WFz1w->h8Xv0); goto ikHZV; HS4Qp: jA5m5::Create(["\x75\163\145\162\137\x69\144" => $e5HVA->id, "\151\156\166\x69\164\145\x72" => $WFz1w->Elxkq, "\x73\x74\x61\164\x75\163" => 1]); goto KKbDO; GDmY0: IWlS2: goto iriN_; fJNBs: hbdMC: goto pMY11; xmmCb: if (!$WFz1w->m8TPp()) { goto ltW3r; } goto OMfD2; y1VAg: $e25Fx = PLHxG::YKI_I($WFz1w->P0WsL(), ["\145\x6d\141\x69\154" => "\x72\x65\161\165\x69\x72\x65\144\x7c\163\164\x72\151\156\147\174\145\x6d\x61\151\154\174\155\x61\x78\72\x31\71\x31\x7c\x75\156\151\x71\x75\145\72\x75\163\x65\x72\x73", "\x70\141\163\163\x77\x6f\162\144" => "\x72\x65\x71\165\x69\162\x65\x64\x7c\163\164\162\151\156\x67\174\155\151\x6e\x3a\70", "\160\x68\157\x6e\145" => "\156\165\154\154\x61\142\x6c\145\x7c\163\164\162\151\156\147\x7c\x6d\141\170\x3a\62\x30", "\143\160\x66" => "\162\x65\x71\165\x69\162\x65\x64\x7c\x73\164\x72\x69\156\x67\x7c\155\141\x78\x3a\62\x30", "\164\145\162\155\x73\137\141\147\162\x65\x65\155\x65\156\164" => "\x72\x65\x71\165\151\162\x65\x64\174\142\x6f\x6f\x6c\x65\141\x6e"]); goto u_bkL; W3vrS: $ZmclE = preg_replace("\x2f\133\136\60\55\x39\x5d\x2f", '', $WFz1w->yC2NC); goto Xr_7y; lmWFY: xxExQ: goto ERmRX; AznEo: } catch (\Exception $ai57B) { goto wJd8M; ZaZ8c: return hkg9f()->V8Had(["\x65\x72\162\157\x72" => "\x4f\143\157\162\x72\145\165\40\165\155\40\145\162\162\x6f\40\141\x6f\40\160\x72\157\x63\x65\x73\163\141\x72\40\163\145\165\40\162\145\147\x69\163\x74\x72\157\x2e\40\124\145\156\x74\145\40\x6e\157\166\141\x6d\145\x6e\x74\x65\x20\x6d\x61\x69\x73\x20\x74\141\162\144\x65\x2e"]); goto OyULx; wJd8M: if (!$WFz1w->M8TpP()) { goto lC_pY; } goto zzwJF; zzwJF: return jgKRL()->SbE1q(["\x73\x75\x63\x63\x65\x73\x73" => false, "\x6d\x65\163\x73\x61\x67\x65" => "\x4f\x63\x6f\162\x72\145\x75\40\x75\x6d\40\x65\162\x72\157\x20\141\157\40\160\x72\157\x63\x65\x73\163\141\x72\x20\163\x65\165\40\x72\x65\x67\151\163\164\162\157\x2e\40\104\x65\x74\141\154\x68\145\x73\72\40" . $ai57B->getMessage()], 500); goto UWJmR; UWJmR: lC_pY: goto ZaZ8c; OyULx: } } protected function jHcX6(S9d5T $WFz1w, $e5HVA) { goto B5NyH; U6FQp: try { goto i8gds; fakRC: $YrFmr = jf89X(\Jf89x\pY4pC\mB4hA::class); goto bS1jn; i8gds: $IIU0r = \Jf89x\t0ETD\AwPiy::TOMRy($e5HVA, "\x65\155\x61\151\154", 24); goto i2NtB; i2NtB: $LZs8L = aN4p4("\x2f\x76\145\162\151\146\171\x2d\145\155\141\151\x6c\x2f" . $e5HVA->id . "\57" . $IIU0r->VKzZM); goto Lh5tK; Lh5tK: $PqR21 = ["\156\157\x6d\x65" => $e5HVA->name, "\x65\x6d\x61\151\154" => $e5HVA->VzAAC, "\163\x69\x74\x65\137\156\141\155\145" => lVIq5("\141\160\160\56\156\x61\x6d\145"), "\x6c\x69\x6e\153\137\x76\145\162\x69\146\x69\x63\x61\x63\141\x6f" => $LZs8L, "\154\x6f\147\157\137\165\x72\x6c" => lVIq5("\141\x70\x70\x2e\165\162\x6c") . "\57\151\155\x67\x2f\154\x6f\147\157\57\144\145\x66\x61\165\154\164\56\160\156\x67", "\146\x61\x63\x65\142\x6f\157\x6b\137\165\162\154" => "\43", "\x69\156\163\x74\x61\147\x72\141\x6d\x5f\x75\162\154" => "\43", "\x74\x77\151\164\x74\x65\162\137\165\162\154" => "\43", "\x73\157\143\x69\141\154\x5f\x66\x61\x63\145\142\157\157\x6b\137\x69\143\157\x6e" => LVIq5("\141\x70\x70\x2e\x75\162\154") . "\x2f\x69\155\x67\57\163\x6f\x63\151\x61\x6c\x2f\x66\141\x63\x65\142\x6f\x6f\153\x2e\x70\x6e\x67", "\x73\157\x63\151\x61\154\x5f\151\156\x73\164\x61\147\x72\x61\x6d\137\x69\143\157\156" => lViq5("\141\x70\160\x2e\165\162\154") . "\x2f\x69\155\x67\x2f\163\x6f\x63\x69\141\x6c\57\x69\x6e\x73\164\x61\147\x72\141\x6d\x2e\x70\156\x67", "\163\157\x63\151\141\154\x5f\x74\167\151\x74\164\x65\162\x5f\x69\x63\157\156" => lviQ5("\x61\x70\160\x2e\x75\162\154") . "\57\151\155\147\57\x73\x6f\x63\x69\x61\154\x2f\164\x77\x69\164\164\145\x72\x2e\x70\156\x67", "\x74\145\162\155\x6f\x73\137\165\162\x6c" => An4p4("\x2f\164\x65\162\x6d\157\x73"), "\160\162\151\x76\141\x63\151\144\x61\144\145\x5f\x75\x72\154" => An4p4("\x2f\160\x6f\x6c\x69\x74\x69\143\141\x2d\x64\x65\55\x70\162\151\166\141\143\x69\x64\x61\144\145"), "\x79\145\141\x72" => date("\131")]; goto fakRC; bS1jn: $YrFmr->iT_dX($e5HVA->VzAAC, "\x77\x65\154\143\157\155\145", $PqR21); goto UK4tQ; UK4tQ: } catch (\Exception $ai57B) { } goto Nd3EU; Nd3EU: return Fh6x5()->twt3V(w3qn1("\x68\157\155\145")); goto RCApO; B5NyH: nxRov::mSTTa($e5HVA); goto U6FQp; RCApO: } public function kGKpB(S9d5t $WFz1w) { goto waobL; NedJO: $WFz1w->pkfL2()->aPOFj(); goto U2J6p; JpcHC: rgzqU: goto oSPa7; G0AvP: $WFz1w->pKFl2()->kk_F3(); goto NedJO; UCDPp: return jGKRL()->SBE1Q(["\163\x75\x63\x63\145\x73\x73" => true]); goto JpcHC; waobL: $e5HVA = NxROv::YFgI_(); goto SNW4x; oSPa7: return fh6X5("\57"); goto HfFlZ; SNW4x: $e5HVA->SsF4C = 0; goto ioIgG; ioIgG: $e5HVA->save(); goto f1oJi; U2J6p: if (!$WFz1w->M8tpP()) { goto rgzqU; } goto UCDPp; f1oJi: nxRoV::kgkpB(); goto G0AvP; HfFlZ: } public function c3v1Q(s9D5T $WFz1w) { try { goto EiGPK; qyZ4w: $WFz1w->PKFl2()->KK_F3(); goto NOKlg; sFm6R: $e5HVA->save(); goto L9cM5; Sq8H1: \Log::info("\114\x6f\x67\157\165\x74\40\101\x4a\x41\x58\40\x72\x65\x61\x6c\x69\x7a\141\x64\157\40\143\x6f\155\40\x73\x75\143\145\x73\x73\157", ["\165\163\145\162\x5f\x69\144" => $k26uY]); goto bA1O2; NOKlg: $WFz1w->PkFl2()->aPOfJ(); goto Sq8H1; bA1O2: return jgKRL()->SBE1Q(["\x73\165\x63\143\145\x73\163" => true, "\x6d\145\x73\x73\x61\147\145" => "\126\157\143\xc3\xaa\40\x73\x61\x69\x75\40\144\141\40\163\165\x61\x20\143\157\156\x74\141\41"]); goto u1hEt; L9cM5: nXRov::kGkPb(); goto qyZ4w; nsuCl: $e5HVA = NXRoV::YFGi_(); goto I7Vd7; I7Vd7: $e5HVA->SsF4C = 0; goto sFm6R; EiGPK: $k26uY = Nxrov::pTuej(); goto nsuCl; u1hEt: } catch (\Exception $ai57B) { \Log::p2m7e("\105\162\x72\x6f\40\x6e\157\40\154\157\x67\x6f\x75\x74\x20\x41\112\101\x58", ["\145\x72\162\157\x72" => $ai57B->getMessage(), "\164\162\x61\x63\x65" => $ai57B->getTraceAsString()]); return JGkrl()->sBe1q(["\x73\x75\x63\143\145\163\163" => false, "\x6d\145\x73\163\141\147\x65" => "\105\162\x72\x6f\x20\x61\157\x20\x70\162\x6f\143\145\163\163\x61\162\40\x6c\x6f\147\157\165\x74\72\x20" . $ai57B->getMessage()], 500); } } public function GyjZc(S9D5T $WFz1w) { goto X7HEd; wFCJX: return jgkrL()->Sbe1Q(["\166\141\154\x69\x64" => !$U8f9e]); goto n8DU7; X7HEd: $ZmclE = $WFz1w->yC2NC; goto Gl577; Gl577: $U8f9e = avSuj::c_Mhy("\143\160\146", $ZmclE)->iibEQ(); goto wFCJX; n8DU7: } public function iNzd7() { return lO0CY("\141\165\164\x68\56\146\157\162\147\x6f\x74\x2d\x70\141\x73\163\167\x6f\x72\144"); } public function HsnNN(S9D5t $WFz1w) { goto SpFGK; XC4ff: return $gY8sR->fQYlM($WFz1w); goto GXHSI; SpFGK: \EC3Me\h2vUv\p2qH1\Log::info("\75\75\75\40\101\125\x54\x48\x43\117\x4e\x54\x52\117\x4c\x4c\105\122\x20\123\105\x4e\x44\x52\105\123\105\x54\114\x49\116\x4b\x20\111\x4e\x54\x45\122\x43\x45\x50\124\x41\x44\117\40\75\x3d\x3d", ["\x6d\x65\x74\x68\157\144" => "\101\165\164\150\x43\x6f\156\164\162\x6f\154\154\x65\x72\x40\x73\145\x6e\144\122\x65\x73\145\164\x4c\x69\x6e\x6b", "\162\x65\144\x69\162\x65\x63\164\151\x6e\147\137\164\x6f" => "\106\157\162\147\157\x74\x50\x61\x73\x73\167\x6f\x72\144\103\x6f\156\164\162\157\x6c\154\145\x72\100\163\145\156\x64\122\x65\163\145\x74\x4c\x69\156\x6b\105\x6d\x61\151\154\x43\x75\x73\164\x6f\155"]); goto IMMws; IMMws: $gY8sR = jF89x(\jF89x\SHteq\FN52M\nxrOv\Pw6Bt::class); goto XC4ff; GXHSI: } public function p84dm(s9D5T $WFz1w, $IIU0r) { return lO0Cy("\x61\165\164\x68\56\162\145\x73\x65\x74\x2d\x70\x61\x73\163\167\157\162\144", ["\164\157\153\145\156" => $IIU0r, "\x65\155\141\151\154" => $WFz1w->VzAAC]); } public function Sk50I(s9d5t $WFz1w) { goto kHdD_; wAC3V: MUp7P(new Ip3k5($e5HVA)); goto wrbon; UQatS: if (!$pidlM->bpnJ2($I6hWW)) { goto eVxvp; } goto xcysS; tGcml: QWOq3: goto jHfYw; ZYO4i: c2I1y: goto rB4dh; spUbA: \ec3me\H2vuv\p2QH1\Log::MsV8l("\x55\163\x75\xc3\241\x72\151\x6f\x20\156\xc3\243\157\x20\x65\156\x63\157\x6e\164\x72\141\x64\x6f\x20\143\157\x6d\x20\x6f\40\x65\x6d\141\x69\154\x20\x66\x6f\x72\156\x65\143\x69\144\x6f"); goto gGn8W; rZtry: if ($e5HVA) { goto qZiO_; } goto spUbA; ZbXNz: qZiO_: goto FYnUu; Bq235: return fH6x5()->WwY32("\150\157\x6d\x65")->rnjfy("\163\x74\141\164\x75\163", "\123\x75\x61\x20\x73\145\156\x68\x61\x20\x66\x6f\x69\40\x72\145\144\x65\146\x69\x6e\151\144\x61\40\x63\x6f\155\x20\x73\x75\x63\x65\163\163\x6f\41"); goto BG3Kq; z145E: return hKG9F()->v8hAd(["\x65\155\141\151\x6c" => "\105\163\x74\145\40\x74\x6f\153\145\x6e\40\144\x65\40\162\145\144\x65\146\151\x6e\x69\303\xa7\xc3\xa3\157\40\144\145\40\x73\x65\156\x68\x61\40\303\251\40\x69\x6e\x76\303\241\154\x69\x64\157\x2e"]); goto tGcml; MuS8T: return HkG9f()->v8hAD(["\145\155\x61\x69\x6c" => "\x54\x6f\153\145\x6e\x20\x6e\xc3\243\157\x20\x65\x6e\x63\x6f\x6e\164\162\x61\x64\x6f\x20\x70\141\162\141\40\145\163\164\145\x20\x65\x6d\141\151\x6c\56"]); goto ZYO4i; JcsXK: $pidlM = \shPK2\SHpk2::OHJ2R(); goto UQatS; FYnUu: $e5HVA->olFCR = \Ec3ME\h2vUV\P2qh1\Hash::yKi_I($WFz1w->olFCR); goto S3g03; RzXGL: $e5HVA->save(); goto YrkeT; lBepu: return HkG9f()->V8haD(["\145\x6d\141\x69\154" => "\x45\x73\164\145\40\164\x6f\153\x65\156\x20\x64\145\x20\162\145\x64\145\146\151\x6e\x69\303\247\303\243\x6f\x20\144\145\x20\163\x65\x6e\150\x61\x20\x6a\xc3\241\x20\145\170\x70\151\x72\x6f\165\x2e"]); goto b5VYx; S3g03: $e5HVA->iNN1J(\ec3ME\H2vUv\tc4RX::MnRFV(60)); goto RzXGL; FhtPW: $zjbGr = \Ec3ME\H2VUv\P2qH1\LvLOX::FTZ7f("\x70\x61\x73\163\167\x6f\162\144\x5f\162\x65\x73\145\x74\x73")->c_mhy("\145\155\141\x69\154", $WFz1w->VzAAC)->YRKR9(); goto QThTq; kfj9C: \Ec3mE\H2VUv\P2qh1\Log::info("\126\x65\x72\x69\146\151\143\x61\303\247\303\243\x6f\40\155\x61\x6e\165\x61\154\40\144\157\x20\x74\157\x6b\x65\x6e", ["\164\x6f\153\145\156\137\166\141\x6c\151\144\157" => $xOOqK ? "\x53\151\x6d" : "\x4e\xc3\243\157"]); goto ZzPep; wrbon: \eC3mE\h2vUv\p2QH1\NxRov::MStta($e5HVA); goto Bq235; gGn8W: return hKG9f()->v8had(["\x65\155\141\x69\x6c" => "\116\303\xa3\x6f\x20\146\157\x69\40\160\157\163\x73\303\xad\166\x65\x6c\40\x65\x6e\x63\157\156\x74\162\141\162\40\x75\x6d\40\x75\163\165\303\241\x72\x69\x6f\x20\143\157\x6d\40\x65\x73\164\145\40\x65\156\x64\x65\x72\145\xc3\xa7\157\40\144\145\40\x65\155\x61\x69\154\x2e"]); goto ZbXNz; kHdD_: $WFz1w->validate(["\164\157\153\x65\x6e" => "\162\145\x71\165\x69\x72\x65\x64", "\145\155\x61\151\x6c" => "\x72\x65\161\165\151\162\x65\144\x7c\145\155\141\151\x6c", "\160\x61\x73\x73\167\157\x72\x64" => "\162\x65\x71\x75\151\162\145\144\174\x6d\x69\156\72\66\x7c\x63\x6f\x6e\146\x69\162\155\145\144"]); goto ga1cq; b5VYx: eVxvp: goto yi7gz; ga1cq: \EC3ME\H2VUv\p2qh1\Log::info("\x54\x65\156\x74\x61\x74\x69\x76\x61\x20\144\x65\x20\x72\x65\x64\x65\x66\x69\x6e\x69\xc3\xa7\xc3\xa3\x6f\x20\144\x65\x20\x73\x65\156\150\x61", ["\x74\x6f\x6b\x65\156" => substr($WFz1w->VKzZM, 0, 10) . "\56\x2e\56", "\x65\x6d\141\x69\x6c" => substr($WFz1w->VzAAC, 0, 3) . "\x2a\52\52" . strstr($WFz1w->VzAAC, "\x40")]); goto FhtPW; gN5D3: \EC3ME\h2VUV\p2qH1\Log::Msv8l("\x54\x6f\x6b\x65\x6e\x20\156\xc3\xa3\x6f\40\x63\157\x72\x72\x65\163\160\x6f\156\x64\x65\x20\x61\x6f\40\150\x61\x73\x68\40\x61\162\155\141\x7a\x65\x6e\x61\144\x6f"); goto z145E; xcysS: \Ec3Me\H2vUV\P2Qh1\Log::msv8l("\124\x6f\x6b\x65\156\x20\x65\x78\160\151\x72\141\x64\x6f", ["\x63\162\x69\x61\144\x6f\x5f\x65\155" => $JPypa->format("\131\x2d\x6d\55\x64\40\110\x3a\151\x3a\163"), "\145\170\160\151\x72\141\137\x65\x6d" => $I6hWW->format("\131\55\x6d\55\144\x20\110\x3a\151\72\163"), "\141\147\x6f\162\x61" => $pidlM->format("\x59\x2d\x6d\55\x64\40\x48\x3a\151\x3a\x73")]); goto lBepu; QThTq: if ($zjbGr) { goto c2I1y; } goto J7ml_; ZzPep: if ($xOOqK) { goto QWOq3; } goto gN5D3; jHfYw: $JPypa = \SHpk2\SHpK2::KJT_J($zjbGr->RvvCO); goto DJqAw; J7ml_: \Ec3ME\H2vUv\p2qH1\Log::msv8l("\x4e\x65\156\150\165\155\x20\162\145\x67\x69\x73\x74\x72\x6f\40\x64\x65\x20\x74\x6f\x6b\145\x6e\x20\145\x6e\x63\157\156\164\162\x61\144\x6f\x20\160\141\x72\141\x20\x6f\x20\145\x6d\x61\x69\x6c\x20\x66\x6f\x72\x6e\145\143\x69\144\x6f", ["\x65\155\141\151\154" => substr($WFz1w->VzAAC, 0, 3) . "\52\x2a\52" . strstr($WFz1w->VzAAC, "\x40")]); goto MuS8T; yi7gz: $e5HVA = \JF89x\T0etd\AvsuJ::c_mhy("\145\x6d\141\151\x6c", $WFz1w->VzAAC)->YrKr9(); goto rZtry; rB4dh: $xOOqK = \ec3Me\H2VUv\p2Qh1\Hash::C_4Hv($WFz1w->VKzZM, $zjbGr->VKzZM); goto kfj9C; DJqAw: $I6hWW = $JPypa->rw_8l(LVIq5("\141\x75\x74\x68\56\x70\x61\163\163\167\157\162\144\163\x2e\x75\163\x65\162\x73\56\x65\170\x70\151\x72\x65", 60)); goto JcsXK; YrkeT: \eC3mE\H2vuV\p2qH1\lvlOx::FtZ7F("\160\141\x73\163\x77\x6f\x72\144\137\162\x65\163\x65\164\x73")->C_MHY("\145\x6d\x61\151\154", $WFz1w->VzAAC)->delete(); goto wAC3V; BG3Kq: } public function uAD5P() { return \hyRU0\SRtov\P2qH1\SrtoV::xEQI0("\x67\x6f\x6f\x67\x6c\145")->ALhE3(); } public function XUJtP() { try { goto jRypz; KCoAx: gDGrg: goto X6uuT; amsF5: if (!$e5HVA) { goto quD45; } goto nBSPt; iqbXr: return Fh6x5()->twt3V(W3qN1("\x68\x6f\155\145")); goto Wltuu; cLGEy: if (!$e5HVA) { goto QcHkJ; } goto vJsvN; vJqRv: $lYh9X = $kh5UO->gJ3_V(); goto spr8O; dmWv8: FFzNK: goto x44go; PQC1w: $e5HVA->save(); goto zpPX8; jRypz: $kh5UO = \hYRu0\srtOv\P2Qh1\srtOv::xEqI0("\x67\x6f\157\147\x6c\x65")->yfGI_(); goto hwq9R; V0icV: \ec3Me\H2vuV\P2qh1\VA9Mt::w4JeH("\x6c\157\x63\141\x6c\x65", $vMABc); goto I_YH9; UDBmZ: $Tq89T = $kh5UO->getName() ?? explode("\x40", $kh5UO->gj3_V())[0]; goto vJqRv; q6CJf: QcHkJ: goto BkQJn; s_OLV: C40Q0::create(["\165\x73\x65\x72\x5f\151\144" => $e5HVA->id, "\142\141\154\141\x6e\143\x65" => 0, "\142\x61\154\141\x6e\x63\145\137\142\157\x6e\165\x73" => 0, "\142\141\x6c\141\x6e\x63\145\137\x62\x6f\x6e\x75\x73\137\162\x6f\x6c\x6c\x6f\x76\x65\162" => 0, "\x62\x61\x6c\141\156\x63\145\x5f\x62\157\x6e\165\163\x5f\x72\x6f\154\x6c\157\x76\x65\x72\137\165\x73\145\144" => 0, "\150\x69\144\145\x5f\142\141\154\141\x6e\143\x65" => 0, "\x68\x69\144\x65\x5f\x62\x61\x6c\141\156\x63\x65\162\145\x66\x65\162" => 0, "\164\x6f\164\141\154\x5f\x62\145\164" => 0, "\x74\157\164\x61\x6c\x5f\x77\x6f\156" => 0, "\x74\x6f\164\x61\154\137\154\x6f\163\145" => 0, "\154\x61\163\x74\137\167\157\x6e" => 0, "\x6c\141\163\x74\x5f\x6c\x6f\x73\x65" => 0, "\162\x65\x66\x65\162\x50\145\x72\x63\x65\156\164" => 0, "\162\x65\146\x65\162\137\162\145\x77\141\162\144\163" => 0, "\143\157\151\x6e" => 0]); goto KCoAx; X6uuT: goto FFzNK; goto B2XKz; I_YH9: \EC3mE\h2VUv\p2Qh1\Jf89x::setLocale($vMABc); goto JfX2g; hwq9R: $e5HVA = AVsuJ::c_Mhy("\x67\157\x6f\x67\154\145\x5f\x69\144", $kh5UO->getId())->YRkR9(); goto m1BO8; Gb5Zh: $e5HVA->save(); goto q6CJf; qghX7: $e5HVA->NUVHF = WHfh3(); goto PQC1w; JfX2g: \EC3mE\H2VUV\p2qh1\GYsWe::POYlT("\165\x73\x65\162\137\x6c\157\143\141\x6c\x65", $vMABc, 525600); goto iqbXr; m1BO8: if (!(!$e5HVA && $kh5UO->Gj3_V())) { goto Wj8GU; } goto nlpC1; zpPX8: $vMABc = $e5HVA->Q2YCO ?? "\x70\x74\137\102\122"; goto V0icV; oxZVh: C40q0::create(["\x75\163\145\x72\137\x69\144" => $e5HVA->id, "\x62\141\154\141\x6e\x63\x65" => 0, "\142\x61\154\x61\x6e\x63\145\x5f\x62\157\x6e\165\163" => 0, "\x62\x61\154\x61\156\x63\145\137\x62\157\x6e\x75\x73\x5f\x72\157\x6c\x6c\x6f\x76\145\x72" => 0, "\x62\141\x6c\141\x6e\x63\145\137\142\x6f\x6e\x75\163\x5f\162\157\x6c\154\157\x76\x65\x72\137\165\x73\x65\x64" => 0, "\x68\151\144\x65\137\142\141\x6c\141\156\143\145" => 0, "\x68\151\x64\x65\x5f\142\x61\154\x61\156\143\x65\x72\x65\x66\x65\162" => 0, "\164\157\x74\x61\x6c\x5f\x62\145\x74" => 0, "\x74\x6f\164\x61\154\137\x77\157\x6e" => 0, "\x74\x6f\x74\141\x6c\x5f\x6c\x6f\x73\145" => 0, "\154\141\x73\x74\x5f\x77\157\156" => 0, "\x6c\141\x73\x74\x5f\154\x6f\x73\x65" => 0, "\x72\145\x66\x65\162\x50\x65\x72\x63\x65\x6e\164" => 0, "\162\145\x66\145\162\137\162\145\x77\x61\x72\x64\x73" => 0, "\x63\157\x69\156" => 0]); goto dmWv8; BkQJn: Wj8GU: goto amsF5; vJsvN: $e5HVA->dgdpu = $kh5UO->getId(); goto Gb5Zh; nBSPt: if ($e5HVA->d1U9g) { goto gDGrg; } goto s_OLV; OQLQx: $e5HVA->SsF4C = 1; goto qghX7; spr8O: $e5HVA = AvSUJ::create(["\x6e\141\x6d\x65" => $Tq89T, "\145\155\141\x69\x6c" => $lYh9X, "\x70\x61\163\x73\x77\157\x72\x64" => \ec3me\h2vUv\p2qH1\Hash::YkI_I(\Ec3mE\H2VUV\Tc4rx::mNrfv(24)), "\147\x6f\157\147\154\x65\137\x69\144" => $kh5UO->getId(), "\163\164\x61\x74\x75\163" => "\x61\143\164\151\166\145", "\151\x73\137\x61\144\x6d\x69\x6e" => 0, "\x69\x73\137\x61\146\x66\x69\154\151\141\x74\145" => 0, "\154\157\x67\x67\145\x64\x5f\x69\x6e" => 0, "\x62\x61\156\x6e\145\x64" => 0, "\160\x6c\x61\171\151\x6e\x67" => 0, "\x70\x6c\141\x79\145\x64" => 0, "\x69\155\141\x67\145" => $kh5UO->Lolxb()]); goto oxZVh; nlpC1: $e5HVA = avsuj::c_mHY("\145\155\x61\151\x6c", $kh5UO->gJ3_v())->YRKR9(); goto cLGEy; B2XKz: quD45: goto UDBmZ; x44go: \EC3mE\h2vUv\p2QH1\NXrOV::mstTa($e5HVA); goto OQLQx; Wltuu: } catch (\Exception $ai57B) { return Fh6x5()->wWY32("\150\157\x6d\145")->rNjfY("\145\162\x72\157\162", "\x45\x72\x72\x6f\x20\x61\x6f\40\x72\145\141\x6c\151\172\x61\x72\x20\154\x6f\147\x69\x6e\x20\143\x6f\x6d\40\x47\157\x6f\x67\154\145\72\40" . $ai57B->getMessage()); } } public function lZv5M() { return \hyRu0\SrtoV\p2Qh1\sRtoV::XeQI0("\164\x77\151\x74\143\150")->ALHe3(); } public function ACDge() { try { goto Fn62L; cJoU5: \EC3me\h2vUv\p2qH1\Va9MT::W4JeH("\x6c\x6f\x63\x61\x6c\145", $vMABc); goto En8r2; RGrwK: ONDHP: goto kkrdV; JIwA_: $Tq89T = $Pb0e5->getName() ?? $Pb0e5->GIlzi(); goto V46J3; eMHbR: goto tyvYq; goto pZEVt; fk9HY: $lYh9X = $Pb0e5->getId() . "\x40\x74\167\x69\x74\143\150\56\x75\163\x65\x72"; goto NFQ3v; IkWJN: $e5HVA = avsuj::c_MHy("\x74\167\151\164\x63\150\137\x69\x64", $Pb0e5->getId())->yrkR9(); goto iA5Lp; dMzpl: $e5HVA->save(); goto hPYcg; edKZD: $e5HVA->NUVHF = Whfh3(); goto B0UhM; iA5Lp: if (!(!$e5HVA && $Pb0e5->Gj3_v())) { goto ONDHP; } goto SFaXx; haC3w: tyvYq: goto scFAa; KeB2v: if ($e5HVA->d1U9g) { goto JgWmf; } goto CR_gV; BIEyV: $e5HVA = AvSUj::create(["\156\141\155\x65" => $Tq89T, "\x65\155\x61\151\x6c" => $lYh9X, "\160\x61\x73\163\167\157\162\x64" => \Ec3mE\H2vuv\P2QH1\Hash::yKi_I(\ec3mE\H2vuV\tC4rX::mNRFV(24)), "\x74\167\151\x74\x63\x68\137\151\x64" => $Pb0e5->getId(), "\163\164\141\x74\x75\163" => "\141\143\x74\151\x76\x65", "\x69\x73\137\141\144\x6d\151\x6e" => 0, "\x69\163\x5f\x61\146\146\151\x6c\x69\141\164\x65" => 0, "\154\157\x67\147\145\x64\137\151\156" => 0, "\x62\141\156\156\x65\144" => 0, "\160\154\x61\x79\151\x6e\147" => 0, "\160\x6c\141\171\145\x64" => 0, "\151\x6d\x61\147\x65" => $Pb0e5->lolXB()]); goto asUPb; En8r2: \EC3mE\h2vUV\P2Qh1\Jf89x::setLocale($vMABc); goto E3FXR; pZEVt: B_F77: goto JIwA_; scFAa: \eC3Me\H2vUv\p2Qh1\NXrOv::MsTtA($e5HVA); goto xHVwW; gG9EV: $vMABc = $e5HVA->Q2YCO ?? "\x70\164\x5f\102\122"; goto cJoU5; B0UhM: $e5HVA->save(); goto gG9EV; oZWxk: $e5HVA->elCUR = $Pb0e5->getId(); goto dMzpl; SFaXx: $e5HVA = AvSUJ::C_MHy("\x65\x6d\x61\151\x6c", $Pb0e5->gj3_V())->YRkr9(); goto sMAsX; xHVwW: $e5HVA->SsF4C = 1; goto edKZD; NFQ3v: eMBaK: goto BIEyV; hPYcg: CxWaj: goto RGrwK; kkrdV: if (!$e5HVA) { goto B_F77; } goto KeB2v; ixCD8: if ($lYh9X) { goto eMBaK; } goto fk9HY; Fn62L: $Pb0e5 = \HyRU0\SRtOv\P2qh1\sRtoV::xEqI0("\164\x77\x69\164\x63\x68")->YFGi_(); goto IkWJN; asUPb: c40Q0::create(["\165\163\145\162\137\151\144" => $e5HVA->id, "\142\x61\154\141\156\143\145" => 0, "\x62\x61\154\141\x6e\x63\x65\x5f\x62\x6f\x6e\165\163" => 0, "\x62\141\154\x61\x6e\143\145\137\x62\x6f\x6e\x75\163\x5f\x72\x6f\x6c\154\x6f\166\x65\x72" => 0, "\142\141\x6c\x61\156\143\145\x5f\142\157\156\165\x73\137\162\157\x6c\154\x6f\166\x65\162\x5f\x75\x73\x65\144" => 0, "\150\151\144\x65\137\x62\141\154\141\x6e\143\145" => 0, "\150\x69\x64\145\x5f\x62\141\154\x61\x6e\143\145\x72\x65\x66\145\x72" => 0, "\x74\x6f\x74\x61\x6c\137\x62\145\164" => 0, "\x74\x6f\164\141\x6c\137\x77\x6f\x6e" => 0, "\x74\157\x74\141\154\137\x6c\157\163\x65" => 0, "\x6c\x61\x73\x74\x5f\x77\x6f\156" => 0, "\154\x61\163\164\x5f\154\157\163\x65" => 0, "\x72\x65\x66\145\x72\x50\x65\x72\x63\x65\x6e\x74" => 0, "\x72\x65\146\145\162\x5f\x72\145\167\x61\x72\x64\163" => 0, "\x63\157\x69\156" => 0]); goto haC3w; E3FXR: \eC3ME\h2VUV\p2Qh1\GySwE::poYLt("\165\x73\x65\162\137\x6c\x6f\143\x61\x6c\x65", $vMABc, 525600); goto VPx4k; DU3cZ: JgWmf: goto eMHbR; V46J3: $lYh9X = $Pb0e5->GJ3_v(); goto ixCD8; sMAsX: if (!$e5HVA) { goto CxWaj; } goto oZWxk; CR_gV: C40q0::create(["\x75\163\x65\x72\137\151\x64" => $e5HVA->id, "\x62\x61\154\141\x6e\143\145" => 0, "\142\x61\154\x61\x6e\x63\x65\137\x62\x6f\156\x75\x73" => 0, "\x62\x61\154\141\156\143\145\x5f\142\157\x6e\x75\x73\x5f\x72\157\154\154\157\166\x65\162" => 0, "\x62\141\154\x61\x6e\x63\145\137\x62\x6f\156\165\x73\137\x72\x6f\x6c\154\157\166\145\162\137\165\x73\145\144" => 0, "\150\x69\x64\145\x5f\142\x61\x6c\141\x6e\143\x65" => 0, "\x68\x69\x64\145\137\142\141\154\x61\156\143\145\x72\x65\x66\x65\x72" => 0, "\x74\157\164\x61\154\x5f\x62\145\164" => 0, "\164\x6f\x74\x61\x6c\x5f\x77\x6f\x6e" => 0, "\x74\x6f\164\141\x6c\137\x6c\x6f\163\x65" => 0, "\x6c\x61\163\164\x5f\x77\x6f\x6e" => 0, "\x6c\x61\163\164\x5f\x6c\x6f\163\145" => 0, "\x72\x65\x66\145\162\x50\145\x72\x63\145\156\164" => 0, "\x72\x65\146\145\x72\x5f\x72\x65\x77\x61\x72\144\x73" => 0, "\143\157\x69\x6e" => 0]); goto DU3cZ; VPx4k: return LO0cy("\x61\165\164\x68\56\x74\167\x69\164\143\x68\56\x70\x6f\x70\x75\x70\x2d\143\x6c\157\163\x65", ["\163\x75\143\143\x65\163\163" => true, "\x6d\x65\x73\x73\x61\147\x65" => "\x4c\157\147\x69\156\x20\x72\145\x61\x6c\151\172\x61\x64\157\40\x63\157\155\x20\163\165\143\x65\163\163\157\x21"]); goto oqghd; oqghd: } catch (\Exception $ai57B) { return LO0CY("\x61\165\164\x68\x2e\164\167\151\x74\x63\x68\56\x70\157\x70\165\160\x2d\x63\x6c\x6f\163\145", ["\x73\165\143\143\145\163\x73" => false, "\x6d\145\x73\163\x61\x67\x65" => "\105\162\162\x6f\40\141\157\40\162\x65\141\154\151\x7a\x61\162\40\x6c\157\x67\x69\156\x20\143\x6f\x6d\40\x54\x77\x69\x74\x63\x68\72\40" . $ai57B->getMessage()]); } } public function W3Sru() { return lO0cY("\141\x75\x74\150\56\154\157\x67\151\x6e\x2d\x6d\x6f\x64\x61\x6c"); } public function EL5_f() { return Lo0cy("\141\165\164\150\x2e\x72\x65\147\151\163\x74\x65\x72\x2d\x6d\157\144\141\154"); } public function v9Lax(s9d5T $WFz1w) { goto cXEKr; cXEKr: $mz4Wc = $WFz1w->validate(["\154\x61\156\x67\165\x61\147\x65" => "\x72\145\161\165\151\x72\145\x64\174\x69\x6e\72\160\x74\137\x42\122\x2c\145\163\54\145\156"]); goto lXKnQ; XNpWw: JF89x::setLocale($UJous); goto sPNvU; q1w5P: $e5HVA->Q2YCO = $UJous; goto TSikD; TSikD: $e5HVA->save(); goto y5NWB; G5sq9: if (!NXrov::C_4hV()) { goto Xbqnr; } goto sdza4; caq05: Va9mT::W4JEH("\154\x6f\143\141\x6c\x65", $UJous); goto XNpWw; sdza4: $e5HVA = NxROv::yFGi_(); goto q1w5P; BFsPF: return jGKrL()->SbE1Q(["\163\165\143\143\x65\x73\x73" => true, "\x6c\x61\x6e\147\x75\141\x67\x65" => $UJous]); goto mW50p; y5NWB: Xbqnr: goto caq05; sPNvU: GYSWe::pOyLt("\165\163\145\162\137\154\157\x63\x61\154\x65", $UJous, 525600); goto BFsPF; lXKnQ: $UJous = $mz4Wc["\154\141\x6e\x67\165\x61\147\x65"]; goto G5sq9; mW50p: } public function JRbZs(S9d5T $WFz1w) { goto eefcx; qnlHS: fHHLf: goto I9vSa; PNAvw: return jGKRL()->sbE1q(["\151\163\101\x64\x6d\x69\156" => true]); goto qnlHS; eefcx: if (!(NXrov::C_4hv() && nxroV::yfgI_()->opaCn >= 1)) { goto fHHLf; } goto PNAvw; I9vSa: return JGkRL()->sBE1q(["\x69\x73\101\x64\x6d\x69\x6e" => false]); goto Tpfwm; Tpfwm: } public function zG7ku(s9d5T $WFz1w) { goto BZmw9; BZmw9: $lYh9X = $WFz1w->Pc2LR("\x65\x6d\141\151\x6c"); goto xzpHS; Fft8e: return JGKrL()->sBE1Q(["\x65\162\x72\x6f\162" => "\x45\x6d\141\151\154\x20\156\303\243\157\x20\x66\x6f\162\156\145\143\x69\144\157"], 400); goto Tf234; LtpAA: $U8f9e = AVsuj::c_Mhy("\145\155\141\x69\154", $lYh9X)->IIbEQ(); goto MJMkH; xzpHS: if ($lYh9X) { goto hZXgo; } goto Fft8e; Tf234: hZXgo: goto LtpAA; MJMkH: return JGKrL()->SBe1Q(["\x61\x76\141\151\154\141\142\x6c\145" => !$U8f9e, "\145\x78\x69\x73\x74\x73" => $U8f9e, "\x65\x6d\x61\x69\154" => $lYh9X]); goto XKiKA; XKiKA: } public function pVZXV(s9d5t $WFz1w) { goto fEcV5; Ns7_g: return jGKrL()->sBE1q(["\145\x72\x72\157\x72" => "\103\x50\106\40\x69\x6e\x76\xc3\241\154\151\144\157"], 400); goto pY9Z_; HUS4s: if ($ZmclE) { goto Vji1W; } goto s3WUC; YZquV: $osMwZ = aVsUJ::c_mHY("\x70\x69\x78", $ZmclE)->IIBeq(); goto CUtcp; vXpGn: $ZmclE = preg_replace("\57\x5b\136\60\55\71\135\x2f", '', $ZmclE); goto uCaLV; fEcV5: $ZmclE = $WFz1w->Pc2lr("\x63\x70\146"); goto HUS4s; uM9tF: $Oi6pS = AvsuJ::c_mhY("\143\160\x66", $ZmclE)->iIBeq(); goto YZquV; B0UYG: Vji1W: goto vXpGn; s3WUC: return jGkrl()->SbE1Q(["\145\162\x72\157\162" => "\x43\120\106\40\156\xc3\243\x6f\40\146\157\162\x6e\x65\143\151\x64\157"], 400); goto B0UYG; CUtcp: $U8f9e = $Oi6pS || $osMwZ; goto gdmBF; pY9Z_: FzpEk: goto uM9tF; gdmBF: return jgkrL()->sbe1q(["\x61\x76\141\151\154\x61\142\154\145" => !$U8f9e, "\x65\x78\151\x73\164\x73" => $U8f9e, "\143\x70\x66" => $ZmclE]); goto Kli3d; uCaLV: if (!(strlen($ZmclE) !== 11)) { goto FzpEk; } goto Ns7_g; Kli3d: } public function xqNRw(S9d5t $WFz1w) { goto ul8Np; xdojX: $Oi6pS = AVSuj::c_Mhy("\x63\x70\146", $ZmclE)->Iibeq(); goto Zs3WS; G7fym: $ZmclE = preg_replace("\57\x5b\136\x30\x2d\x39\x5d\x2f", '', $ZmclE); goto Ngn2F; j7vrs: $ejwrw["\x65\x6d\141\151\x6c\137\145\x78\151\163\164\x73"] = avSuJ::C_MhY("\x65\155\141\x69\154", $lYh9X)->iIbeQ(); goto Oz1I8; Oz1I8: m42qG: goto jHM6l; I91vs: if (!$lYh9X) { goto m42qG; } goto j7vrs; TxSJL: bhGAD: goto oE5BO; BifFA: $ejwrw["\143\x70\146\x5f\x65\x78\x69\163\x74\x73"] = $Oi6pS || $osMwZ; goto SpiX5; ul8Np: $lYh9X = $WFz1w->pc2Lr("\x65\155\141\x69\x6c"); goto hoOAc; Ngn2F: if (!(strlen($ZmclE) === 11)) { goto aMZ0B; } goto xdojX; oE5BO: return JGKRL()->Sbe1q($ejwrw); goto u4hl0; hoOAc: $ZmclE = $WFz1w->Pc2Lr("\143\160\146"); goto Xu_Xv; SpiX5: aMZ0B: goto TxSJL; jHM6l: if (!$ZmclE) { goto bhGAD; } goto G7fym; Zs3WS: $osMwZ = AvSuj::C_MHy("\160\151\170", $ZmclE)->iIBeq(); goto BifFA; Xu_Xv: $ejwrw = ["\145\x6d\x61\x69\x6c\x5f\145\x78\151\x73\x74\163" => false, "\143\x70\x66\x5f\x65\170\151\163\x74\x73" => false]; goto I91vs; u4hl0: } public function hrSqk(S9d5t $WFz1w) { goto QT2oh; GH_Wf: $ejwrw["\x63\160\x66\137\x65\x78\151\x73\x74\x73"] = $Oi6pS || $osMwZ || $vJkwZ; goto Cy0vu; ayJ0R: $Rjopq = avSUj::c_mhY("\143\160\146", $JEVhs)->INY8C("\160\151\x78", $JEVhs)->INY8C("\x63\x70\x66", $C87pq)->iNy8c("\x70\151\170", $C87pq)->IiBeq(); goto iW2IZ; WkIK_: $C87pq = substr($ZmclE, 0, 9) . "\55" . substr($ZmclE, 9, 2); goto ayJ0R; Fp8nu: $ZmclE = preg_replace("\x2f\x5b\x5e\60\55\x39\x5d\57", '', $ZmclE); goto mF2j_; fViBT: $JEVhs = substr($ZmclE, 0, 3) . "\56" . substr($ZmclE, 3, 3) . "\x2e" . substr($ZmclE, 6, 5); goto WkIK_; iW2IZ: $ejwrw["\143\x70\146\137\145\x78\x69\x73\x74\x73"] = $ejwrw["\143\160\x66\x5f\145\x78\151\x73\x74\x73"] || $Rjopq; goto z1JWy; Cy0vu: if ($ejwrw["\x63\160\146\137\x65\170\x69\163\x74\163"]) { goto E7xp7; } goto fViBT; xWdrT: $vJkwZ = AVSuj::c_mHy("\x63\160\x66", $k5LCt)->INy8c("\x70\x69\x78", $k5LCt)->IIBeQ(); goto GH_Wf; a8cnk: $k5LCt = substr($ZmclE, 0, 3) . "\56" . substr($ZmclE, 3, 3) . "\x2e" . substr($ZmclE, 6, 3) . "\55" . substr($ZmclE, 9, 2); goto xWdrT; z1JWy: E7xp7: goto jjWAz; QT2oh: $lYh9X = $WFz1w->Pc2LR("\x65\x6d\141\x69\x6c"); goto hu0hh; bJ4Df: return JGKrl()->sbE1Q($ejwrw); goto eIoz3; hu0hh: $ZmclE = $WFz1w->Pc2lr("\x63\x70\146"); goto Fp8nu; mF2j_: $ejwrw = ["\x65\x6d\x61\151\x6c\x5f\x65\x78\151\x73\164\x73" => false, "\x63\160\146\137\x65\170\151\x73\164\163" => false]; goto ZKntW; jhK9H: if (!($ZmclE && strlen($ZmclE) === 11)) { goto vbLzH; } goto q0_S4; mIHjC: $osMwZ = AvSuJ::c_MhY("\160\151\170", $ZmclE)->IiBEQ(); goto a8cnk; P_SjM: $ejwrw["\x65\x6d\141\151\154\x5f\x65\170\x69\x73\164\163"] = AVSuJ::c_mHy("\145\155\141\x69\x6c", $lYh9X)->IIBEQ(); goto MeCUD; MeCUD: tpi4i: goto jhK9H; q0_S4: $Oi6pS = aVsuj::C_MHY("\143\160\146", $ZmclE)->iIbEQ(); goto mIHjC; ZKntW: if (!$lYh9X) { goto tpi4i; } goto P_SjM; jjWAz: vbLzH: goto bJ4Df; eIoz3: } public function Sgw1C(s9D5t $WFz1w) { goto yq_7F; dIFuE: return JgkRl()->sbE1q(["\145\x78\151\x73\164\x73" => $U8f9e, "\144\x75\x70\154\x69\x63\x61\x74\145" => $U8f9e, "\x61\166\x61\151\154\x61\142\x6c\145" => !$U8f9e, "\x66\151\x65\154\144" => $se6F1, "\x76\141\x6c\x75\x65" => $wor1r]); goto a3DYE; X2hM9: $wor1r = preg_replace("\x2f\x5b\136\60\55\x39\135\57", '', $wor1r); goto Aii61; Y__gk: $wor1r = $WFz1w->pc2lr("\x63\160\x66", ''); goto AYx9x; o9hxe: if (!($se6F1 === "\x63\x70\x66")) { goto iGx77; } goto D9w_f; AYx9x: if (!(empty($se6F1) || empty($wor1r))) { goto hqVTO; } goto acTx3; Aii61: bZnbF: goto jClq0; D9w_f: $XrAG1->C_mHy(function ($scVUQ) use($wor1r) { goto X6O98; j_ynq: $scVUQ->iNY8c("\143\x70\x66", $EzQ7i)->INY8c("\160\x69\170", $EzQ7i); goto M3xCN; LAQwD: if (!(strlen($wor1r) === 11)) { goto CbD5K; } goto Kd3be; M3xCN: CbD5K: goto CzCCK; X6O98: $scVUQ->c_mHy("\x63\x70\146", $wor1r)->Iny8C("\x70\151\x78", $wor1r); goto LAQwD; Kd3be: $EzQ7i = substr($wor1r, 0, 3) . "\56" . substr($wor1r, 3, 3) . "\x2e" . substr($wor1r, 6, 3) . "\55" . substr($wor1r, 9, 2); goto j_ynq; CzCCK: }); goto qtN0a; RDD50: if (!($se6F1 === "\143\160\x66")) { goto bZnbF; } goto X2hM9; qtN0a: iGx77: goto oatU3; acTx3: return JGKrL()->sbE1q(["\x65\x78\x69\x73\x74\x73" => false, "\x65\162\x72\x6f\x72" => "\103\x61\155\x70\157\40\157\x75\40\x76\x61\154\157\x72\40\156\303\xa3\x6f\40\145\x73\x70\145\143\x69\146\x69\x63\x61\144\157\56\x5b" . $se6F1 . "\x5d\133" . $wor1r . "\135"]); goto QTd6j; yq_7F: $se6F1 = $WFz1w->PC2Lr("\146\151\x65\154\x64", ''); goto Y__gk; QTd6j: hqVTO: goto RDD50; jClq0: $XrAG1 = AVsuj::query(); goto o9hxe; oatU3: $U8f9e = $XrAG1->IibEQ(); goto dIFuE; a3DYE: } }
+
+namespace App\Http\Controllers;
+
+use App\Models\Sessions;
+use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Auth\Events\PasswordReset;
+use Illuminate\Support\Facades\Password;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Cookie;
+use App\Models\Wallet;
+use App\Models\Affiliates;
+
+class AuthController extends Controller
+{
+    /**
+     * Mostrar formulário de login.
+     */
+    public function showLoginForm()
+    {
+        // Redirecionando para a home que já deve ter o modal de login
+        return redirect()->route('home');
+
+        // Ou retorne a view que realmente existe no seu sistema
+        // return view('auth.login-modal');
+    }
+
+    /**
+     * Processar tentativa de login.
+     */
+    public function login(Request $request)
+    {
+
+        try {
+            // Verifica se é um e-mail ou CPF
+            $campo = filter_var($request->email, FILTER_VALIDATE_EMAIL)
+                ? 'email'
+                : 'cpf';
+
+            if ($campo === 'email')
+            {
+                $emailOuCpf = strtolower(trim($request->email));
+            }else{
+                $emailOuCpf =  preg_replace('/[^0-9]/', '', $request->email);
+            }
+
+            // Validação tradicional do Laravel
+            $request->validate([
+                'email' => 'required',
+                'password' => 'required',
+            ]);
+
+            $remember = $request->boolean('remember');
+
+            // Credenciais para tentativa de login
+            $credentials = [
+                $campo => $emailOuCpf,
+                'password' => $request->password
+            ];
+
+            $user = User::where($campo, $emailOuCpf)->first();
+
+            if (!$user) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'As credenciais fornecidas não correspondem aos nossos registros.',
+                ], 401);
+            }
+
+            if ($user->banned == 1) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Sua conta encontra-se bloqueada, entre em contato com o suporte!',
+                ], 403);
+            }
+
+            Sessions::Where('user_id', $user->id)->delete();
+
+            if (Auth::attempt($credentials, $remember)) {
+                session()->forget('current_tab_id');
+
+                $request->session()->regenerate();
+
+                $user = Auth::user();
+                $user->logged_in = 1;
+                $user->playing = 0;
+                $user->last_login = now();
+                $user->save();
+
+                session(['login_timestamp' => time()]);
+
+                // Após login bem-sucedido, definir idioma
+                // Definir idioma do usuário, se existir
+                $userLanguage = $user->language ?? 'pt_BR';
+
+                Session::put('locale', $userLanguage);
+                App::setLocale($userLanguage);
+                Cookie::queue('user_locale', $userLanguage, 525600); // Cookie com duração de 1 ano
+
+                // Verificar se é tentativa de login no painel administrativo
+                if ($request->has('admin') && $request->admin >= 1) {
+                    // Verificar se o usuário é realmente administrador
+                    if ($user->is_admin >= 1) {
+                        if ($request->wantsJson()) {
+                            return response()->json([
+                                'success' => true,
+                                'redirect' => url('/adm'),
+                                'message' => 'Login realizado com sucesso!',
+                                'showLoading' => true,
+                                'user' => $user
+                            ]);
+                        }
+
+                        return redirect()->intended(url('/adm'));
+                    } else {
+                        // Deslogar o usuário se ele não tem permissão de administrador
+                        Auth::logout();
+                        $request->session()->invalidate();
+                        $request->session()->regenerateToken();
+
+                        if ($request->wantsJson()) {
+                            return response()->json([
+                                'success' => false,
+                                'message' => 'Você não tem permissão para acessar o painel administrativo.',
+                            ], 403);
+                        }
+
+                        return back()
+                            ->withErrors([
+                                'email' => 'Você não tem permissão para acessar o painel administrativo.',
+                            ]);
+                    }
+                }
+
+                return response()->json([
+                    'success' => true,
+                    'redirect' => '',
+                    'message' => 'Login realizado com sucesso!',
+                    'showLoading' => true,
+                    'user' => $user
+                ]);
+            }
+
+            return response()->json([
+                'success' => false,
+                'message' => 'As credenciais fornecidas não correspondem aos nossos registros.',
+            ], 401);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Ocorreu um erro ao processar seu login. Detalhes: ' . $e->getMessage(),
+            ], 500);
+        }
+    }
+
+    /**
+     * Mostrar formulário de registro.
+     */
+    public function showRegistrationForm()
+    {
+        return view('auth.register-modal');
+    }
+
+    /**
+     * Processar registro de novo usuário.
+     */
+    public function register(Request $request)
+    {
+        try {
+            // Extrair CPF antes da validação para verificar duplicatas
+            $cpf = preg_replace('/[^0-9]/', '', $request->cpf);
+
+            // Verificação manual de email e CPF duplicados
+            if ($cpf) {
+                // Verificar se o CPF já existe (em qualquer formato)
+                $existingCpf = User::where(function($query) use ($cpf) {
+                    $query->where('cpf', $cpf)
+                        ->orWhere('pix', $cpf);
+
+                    // Verificar também com formato de pontuação
+                    if (strlen($cpf) === 11) {
+                        $formattedCpf = substr($cpf, 0, 3) . '.' .
+                            substr($cpf, 3, 3) . '.' .
+                            substr($cpf, 6, 3) . '-' .
+                            substr($cpf, 9, 2);
+
+                        $query->orWhere('cpf', $formattedCpf)
+                            ->orWhere('pix', $formattedCpf);
+                    }
+                })->first();
+
+                if ($existingCpf) {
+                    if ($request->wantsJson()) {
+                        return response()->json([
+                            'success' => false,
+                            'message' => 'CPF já cadastrado',
+                            'errors' => [
+                                'pix' => ['Este CPF já está cadastrado no sistema. Por favor, faça login ou use outro CPF.']
+                            ]
+                        ], 422);
+                    }
+
+                    return redirect()->back()
+                        ->withErrors(['pix' => 'Este CPF já está cadastrado no sistema. Por favor, faça login ou use outro CPF.'])
+                        ->withInput($request->except('password'));
+                }
+            }
+
+            // Verificar duplicação de email
+            if ($request->email) {
+                $existingEmail = User::where('email', $request->email)->first();
+
+                if ($existingEmail) {
+                    if ($request->wantsJson()) {
+                        return response()->json([
+                            'success' => false,
+                            'message' => 'Email já cadastrado',
+                            'errors' => [
+                                'email' => ['Este email já está cadastrado no sistema. Por favor, faça login ou use outro email.']
+                            ]
+                        ], 422);
+                    }
+
+                    return redirect()->back()
+                        ->withErrors(['email' => 'Este email já está cadastrado no sistema. Por favor, faça login ou use outro email.'])
+                        ->withInput($request->except('password'));
+                }
+            }
+
+            // Validação normal após verificação de duplicatas
+            $validator = Validator::make($request->all(), [
+                'email' => 'required|string|email|max:191|unique:users',
+                'password' => 'required|string|min:8',
+                'phone' => 'nullable|string|max:20',
+                'cpf' => 'required|string|max:20', // Validação do CPF
+                'terms_agreement' => 'required|boolean',
+            ]);
+
+            if ($validator->fails()) {
+                if ($request->wantsJson()) {
+                    return response()->json([
+                        'success' => false,
+                        'message' => 'Erro de validação',
+                        'errors' => $validator->errors()
+                    ], 422);
+                }
+
+                return redirect()->back()
+                    ->withErrors($validator)
+                    ->withInput($request->except('password'));
+            }
+
+            // Formatando o nome a partir do email (opcional)
+            $name = $request->name ?? explode('@', $request->email)[0];
+
+            // Garantir que o CPF esteja sem formatação
+            $cleanedCpf = $cpf ?: preg_replace('/[^0-9]/', '', $request->pix);
+
+            $ref = $request->ref ?? 0;
+
+            if (!User::find($ref)) {
+                $ref = 0;
+            }
+
+            $user = User::create([
+                'name' => $name,
+                'email' => $request->email,
+                'password' => Hash::make($request->password),
+                'phone' => $request->phone,
+                'cpf' => $cleanedCpf,
+                'pix' => $cleanedCpf,
+                'nascimento' => $request->nascimento,
+                'status' => 'active',
+                'is_admin' => 0,
+                'is_affiliate' => 0,
+                'logged_in' => 0,
+                'banned' => 0,
+                'playing' => 0,
+                'played' => 0,
+                'image' => 'img/avatar/15.png', // Avatar padrão
+                'inviter' => $ref,
+            ]);
+
+            // Criar carteira para o novo usuário
+            Wallet::create([
+                'user_id' => $user->id,
+                'balance' => 0,
+                'balance_bonus' => 0,
+                'balance_bonus_rollover' => 0,
+                'balance_bonus_rollover_used' => 0,
+                'hide_balance' => 0,
+                'hide_balancerefer' => 0,
+                'total_bet' => 0,
+                'total_won' => 0,
+                'total_lose' => 0,
+                'last_won' => 0,
+                'last_lose' => 0,
+                'referPercent' => 0,
+                'refer_rewards' => 0,
+                'coin' => 0,
+            ]);
+
+            if ($ref !== 0) {
+                Affiliates::Create([
+                    'user_id' => $user->id,
+                    'inviter' => $request->ref,
+                    'status' => 1,
+                ]);
+            }
+
+            Auth::login($user);
+
+            // Após registro bem-sucedido
+            if (Auth::check()) {
+                $user = Auth::user();
+
+                // Salvar o idioma preferido na tabela de usuário
+                $user->language = 'pt_BR';
+                $user->save();
+
+                Session::put('locale', 'pt_BR');
+                App::setLocale('pt_BR');
+                Cookie::queue('user_locale', 'pt_BR', 525600); // Cookie com duração de 1 ano
+            }
+
+            // Chamar o método registered para enviar email de boas-vindas
+            $this->registered($request, $user);
+
+            if ($request->wantsJson()) {
+                return response()->json([
+                    'success' => true,
+                    'redirect' => route('home'),
+                    'message' => 'Registro realizado com sucesso!'
+                ]);
+            }
+
+            return redirect()->route('home');
+        } catch (\Exception $e) {
+            if ($request->wantsJson()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Ocorreu um erro ao processar seu registro. Detalhes: ' . $e->getMessage(),
+                ], 500);
+            }
+
+            return back()
+                ->withErrors([
+                    'error' => 'Ocorreu um erro ao processar seu registro. Tente novamente mais tarde.',
+                ]);
+        }
+    }
+
+    protected function registered(Request $request, $user)
+    {
+        // Autentica o usuário após o registro
+        Auth::login($user);
+
+        try {
+            // Criar token de verificação
+            $token = \App\Models\VerificationToken::createToken($user, 'email', 24);
+
+            // Montar URL de verificação
+            $verificationUrl = url('/verify-email/' . $user->id . '/' . $token->token);
+
+            // Dados para o template de email
+            $templateData = [
+                'nome' => $user->name,
+                'email' => $user->email,
+                'site_name' => config('app.name'),
+                'link_verificacao' => $verificationUrl,
+                'logo_url' => config('app.url') . '/img/logo/default.png',
+                'facebook_url' => '#',
+                'instagram_url' => '#',
+                'twitter_url' => '#',
+                'social_facebook_icon' => config('app.url') . '/img/social/facebook.png',
+                'social_instagram_icon' => config('app.url') . '/img/social/instagram.png',
+                'social_twitter_icon' => config('app.url') . '/img/social/twitter.png',
+                'termos_url' => url('/termos'),
+                'privacidade_url' => url('/politica-de-privacidade'),
+                'year' => date('Y')
+            ];
+
+            // Enviar email de boas-vindas usando o BrevoService
+            $brevoService = app(\App\Services\BrevoService::class);
+            $brevoService->enviarEmailTemplate(
+                $user->email, // Passar apenas o email como string
+                'welcome', // Slug do template de boas-vindas
+                $templateData
+            );
+        } catch (\Exception $e) {
+            // Falha silenciosa no envio de email
+        }
+
+        return redirect()->intended(route('home'));
+    }
+
+    /**
+     * Processar logout.
+     */
+    public function logout(Request $request)
+    {
+        $user = Auth::user();
+        $user->logged_in = 0;
+        $user->save();
+
+        Auth::logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        if ($request->wantsJson()) {
+            return response()->json([
+                'success' => true
+            ]);
+        }
+
+        // Redirecionar para a página inicial
+        return redirect('/');
+    }
+
+    /**
+     * Método otimizado para logout via AJAX
+     */
+    public function logoutAjax(Request $request)
+    {
+        try {
+            // Registrar o usuário atual para detalhes de log
+            $userId = Auth::id();
+
+            $user = Auth::user();
+            $user->logged_in = 0;
+            $user->save();
+
+            Auth::logout();
+            $request->session()->invalidate();
+            $request->session()->regenerateToken();
+
+            \Log::info('Logout AJAX realizado com sucesso', ['user_id' => $userId]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Você saiu da sua conta!'
+            ]);
+        } catch (\Exception $e) {
+            \Log::error('Erro no logout AJAX', [
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString()
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao processar logout: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Processar validação de CPF.
+     */
+    public function validateCpf(Request $request)
+    {
+        $cpf = $request->cpf;
+        $exists = User::where('cpf', $cpf)->exists();
+
+        return response()->json(['valid' => !$exists]);
+    }
+
+    /**
+     * Mostrar formulário de "esqueci minha senha".
+     */
+    public function showForgotForm()
+    {
+        return view('auth.forgot-password');
+    }
+
+    /**
+     * Enviar link de redefinição de senha.
+     */
+    public function sendResetLink(Request $request)
+    {
+        \Illuminate\Support\Facades\Log::info('=== AUTHCONTROLLER SENDRESETLINK INTERCEPTADO ===', [
+            'method' => 'AuthController@sendResetLink',
+            'redirecting_to' => 'ForgotPasswordController@sendResetLinkEmailCustom'
+        ]);
+        
+        // Redirecionar para nosso método customizado
+        $forgotPasswordController = app(\App\Http\Controllers\Auth\ForgotPasswordController::class);
+        return $forgotPasswordController->sendResetLinkEmailCustom($request);
+    }
+
+    /**
+     * Mostrar formulário de redefinição de senha.
+     */
+    public function showResetForm(Request $request, $token)
+    {
+        return view('auth.reset-password', ['token' => $token, 'email' => $request->email]);
+    }
+
+    /**
+     * Redefinir a senha do usuário.
+     */
+    public function resetPassword(Request $request)
+    {
+        $request->validate([
+            'token' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|min:6|confirmed',
+        ]);
+
+        \Illuminate\Support\Facades\Log::info('Tentativa de redefinição de senha', [
+            'token' => substr($request->token, 0, 10) . '...',
+            'email' => substr($request->email, 0, 3) . '***' . strstr($request->email, '@')
+        ]);
+
+        // Verificar se o token existe e é válido
+        $tokenRecord = \Illuminate\Support\Facades\DB::table('password_resets')
+            ->where('email', $request->email)
+            ->first();
+
+        if (!$tokenRecord) {
+            \Illuminate\Support\Facades\Log::warning('Nenhum registro de token encontrado para o email fornecido', [
+                'email' => substr($request->email, 0, 3) . '***' . strstr($request->email, '@')
+            ]);
+            return back()->withErrors(['email' => 'Token não encontrado para este email.']);
+        }
+
+        // Verificar o hash do token manualmente
+        $isValid = \Illuminate\Support\Facades\Hash::check($request->token, $tokenRecord->token);
+        \Illuminate\Support\Facades\Log::info('Verificação manual do token', [
+            'token_valido' => $isValid ? 'Sim' : 'Não'
+        ]);
+
+        if (!$isValid) {
+            \Illuminate\Support\Facades\Log::warning('Token não corresponde ao hash armazenado');
+            return back()->withErrors(['email' => 'Este token de redefinição de senha é inválido.']);
+        }
+
+        // Verificar expiração
+        $createdAt = \Carbon\Carbon::parse($tokenRecord->created_at);
+        $expiresAt = $createdAt->addMinutes(config('auth.passwords.users.expire', 60));
+        $now = \Carbon\Carbon::now();
+
+        if ($now->gt($expiresAt)) {
+            \Illuminate\Support\Facades\Log::warning('Token expirado', [
+                'criado_em' => $createdAt->format('Y-m-d H:i:s'),
+                'expira_em' => $expiresAt->format('Y-m-d H:i:s'),
+                'agora' => $now->format('Y-m-d H:i:s')
+            ]);
+            return back()->withErrors(['email' => 'Este token de redefinição de senha já expirou.']);
+        }
+
+        // Buscar o usuário
+        $user = \App\Models\User::where('email', $request->email)->first();
+
+        if (!$user) {
+            \Illuminate\Support\Facades\Log::warning('Usuário não encontrado com o email fornecido');
+            return back()->withErrors(['email' => 'Não foi possível encontrar um usuário com este endereço de email.']);
+        }
+
+        // Atualizar a senha manualmente
+        $user->password = \Illuminate\Support\Facades\Hash::make($request->password);
+        $user->setRememberToken(\Illuminate\Support\Str::random(60));
+        $user->save();
+
+        // Remover o token usado
+        \Illuminate\Support\Facades\DB::table('password_resets')
+            ->where('email', $request->email)
+            ->delete();
+
+        event(new PasswordReset($user));
+
+        // Fazer login do usuário
+        \Illuminate\Support\Facades\Auth::login($user);
+
+        return redirect()->route('home')->with('status', 'Sua senha foi redefinida com sucesso!');
+    }
+
+    /**
+     * Autenticação via Google
+     */
+    public function redirectToGoogle()
+    {
+        return \Laravel\Socialite\Facades\Socialite::driver('google')->redirect();
+    }
+
+    /**
+     * Callback do Google
+     */
+    public function handleGoogleCallback()
+    {
+        try {
+            $googleUser = \Laravel\Socialite\Facades\Socialite::driver('google')->user();
+
+            // Verificar se o usuário já existe pelo google_id
+            $user = User::where('google_id', $googleUser->getId())->first();
+
+            // Se não existir pelo google_id, verificar pelo email
+            if (!$user && $googleUser->getEmail()) {
+                $user = User::where('email', $googleUser->getEmail())->first();
+
+                // Se encontrar o usuário pelo email, atualizar o google_id
+                if ($user) {
+                    $user->google_id = $googleUser->getId();
+                    $user->save();
+                }
+            }
+
+            // Se não existir, criar um novo usuário
+            if (!$user) {
+                // Criando nome de usuário com base no nome do Google
+                $name = $googleUser->getName() ?? explode('@', $googleUser->getEmail())[0];
+                $email = $googleUser->getEmail();
+
+                $user = User::create([
+                    'name' => $name,
+                    'email' => $email,
+                    'password' => \Illuminate\Support\Facades\Hash::make(\Illuminate\Support\Str::random(24)),
+                    'google_id' => $googleUser->getId(),
+                    'status' => 'active',
+                    'is_admin' => 0,
+                    'is_affiliate' => 0,
+                    'logged_in' => 0,
+                    'banned' => 0,
+                    'playing' => 0,
+                    'played' => 0,
+                    'image' => $googleUser->getAvatar(),
+                ]);
+
+                // Criar wallet para o novo usuário
+                Wallet::create([
+                    'user_id' => $user->id,
+                    'balance' => 0,
+                    'balance_bonus' => 0,
+                    'balance_bonus_rollover' => 0,
+                    'balance_bonus_rollover_used' => 0,
+                    'hide_balance' => 0,
+                    'hide_balancerefer' => 0,
+                    'total_bet' => 0,
+                    'total_won' => 0,
+                    'total_lose' => 0,
+                    'last_won' => 0,
+                    'last_lose' => 0,
+                    'referPercent' => 0,
+                    'refer_rewards' => 0,
+                    'coin' => 0
+                ]);
+            } else {
+                // Verificar se o usuário já tem wallet
+                if (!$user->wallet) {
+                    // Criar wallet para o usuário existente que não tem
+                    Wallet::create([
+                        'user_id' => $user->id,
+                        'balance' => 0,
+                        'balance_bonus' => 0,
+                        'balance_bonus_rollover' => 0,
+                        'balance_bonus_rollover_used' => 0,
+                        'hide_balance' => 0,
+                        'hide_balancerefer' => 0,
+                        'total_bet' => 0,
+                        'total_won' => 0,
+                        'total_lose' => 0,
+                        'last_won' => 0,
+                        'last_lose' => 0,
+                        'referPercent' => 0,
+                        'refer_rewards' => 0,
+                        'coin' => 0
+                    ]);
+                }
+            }
+
+            // Fazer login
+            \Illuminate\Support\Facades\Auth::login($user);
+
+            $user->logged_in = 1;
+            $user->last_login = now();
+            $user->save();
+
+            // Configurar idioma do usuário
+            $userLanguage = $user->language ?? 'pt_BR';
+            \Illuminate\Support\Facades\Session::put('locale', $userLanguage);
+            \Illuminate\Support\Facades\App::setLocale($userLanguage);
+            \Illuminate\Support\Facades\Cookie::queue('user_locale', $userLanguage, 525600);
+
+            return redirect()->intended(route('home'));
+
+        } catch (\Exception $e) {
+            return redirect()->route('home')->with('error', 'Erro ao realizar login com Google: ' . $e->getMessage());
+        }
+    }
+
+    /**
+     * Autenticação via Twitch
+     */
+    public function redirectToTwitch()
+    {
+        return \Laravel\Socialite\Facades\Socialite::driver('twitch')->redirect();
+    }
+
+    /**
+     * Callback da Twitch
+     */
+    public function handleTwitchCallback()
+    {
+        try {
+            $twitchUser = \Laravel\Socialite\Facades\Socialite::driver('twitch')->user();
+
+            // Verificar se o usuário já existe pelo twitch_id
+            $user = User::where('twitch_id', $twitchUser->getId())->first();
+
+            // Se não existir pelo twitch_id, verificar pelo email
+            if (!$user && $twitchUser->getEmail()) {
+                $user = User::where('email', $twitchUser->getEmail())->first();
+
+                // Se encontrar o usuário pelo email, atualizar o twitch_id
+                if ($user) {
+                    $user->twitch_id = $twitchUser->getId();
+                    $user->save();
+                }
+            }
+
+            // Se não existir, criar um novo usuário
+            if (!$user) {
+                // Criando nome de usuário com base no nome do Twitch
+                $name = $twitchUser->getName() ?? $twitchUser->getNickname();
+                $email = $twitchUser->getEmail();
+
+                // Se não tiver email, criar um email temporário
+                if (!$email) {
+                    $email = $twitchUser->getId() . '@twitch.user';
+                }
+
+                $user = User::create([
+                    'name' => $name,
+                    'email' => $email,
+                    'password' => \Illuminate\Support\Facades\Hash::make(\Illuminate\Support\Str::random(24)),
+                    'twitch_id' => $twitchUser->getId(),
+                    'status' => 'active',
+                    'is_admin' => 0,
+                    'is_affiliate' => 0,
+                    'logged_in' => 0,
+                    'banned' => 0,
+                    'playing' => 0,
+                    'played' => 0,
+                    'image' => $twitchUser->getAvatar(),
+                ]);
+
+                // Criar wallet para o novo usuário
+                Wallet::create([
+                    'user_id' => $user->id,
+                    'balance' => 0,
+                    'balance_bonus' => 0,
+                    'balance_bonus_rollover' => 0,
+                    'balance_bonus_rollover_used' => 0,
+                    'hide_balance' => 0,
+                    'hide_balancerefer' => 0,
+                    'total_bet' => 0,
+                    'total_won' => 0,
+                    'total_lose' => 0,
+                    'last_won' => 0,
+                    'last_lose' => 0,
+                    'referPercent' => 0,
+                    'refer_rewards' => 0,
+                    'coin' => 0
+                ]);
+            } else {
+                // Verificar se o usuário já tem wallet
+                if (!$user->wallet) {
+                    // Criar wallet para o usuário existente que não tem
+                    Wallet::create([
+                        'user_id' => $user->id,
+                        'balance' => 0,
+                        'balance_bonus' => 0,
+                        'balance_bonus_rollover' => 0,
+                        'balance_bonus_rollover_used' => 0,
+                        'hide_balance' => 0,
+                        'hide_balancerefer' => 0,
+                        'total_bet' => 0,
+                        'total_won' => 0,
+                        'total_lose' => 0,
+                        'last_won' => 0,
+                        'last_lose' => 0,
+                        'referPercent' => 0,
+                        'refer_rewards' => 0,
+                        'coin' => 0
+                    ]);
+                }
+            }
+
+            // Fazer login
+            \Illuminate\Support\Facades\Auth::login($user);
+
+            $user->logged_in = 1;
+            $user->last_login = now();
+            $user->save();
+
+            // Configurar idioma do usuário
+            $userLanguage = $user->language ?? 'pt_BR';
+            \Illuminate\Support\Facades\Session::put('locale', $userLanguage);
+            \Illuminate\Support\Facades\App::setLocale($userLanguage);
+            \Illuminate\Support\Facades\Cookie::queue('user_locale', $userLanguage, 525600);
+
+            // Retornar a view para fechar o popup com sucesso
+            return view('auth.twitch.popup-close', [
+                'success' => true,
+                'message' => 'Login realizado com sucesso!'
+            ]);
+
+        } catch (\Exception $e) {
+            // Retornar a view para fechar o popup com erro
+            return view('auth.twitch.popup-close', [
+                'success' => false,
+                'message' => 'Erro ao realizar login com Twitch: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    public function getLoginModal()
+    {
+        return view('auth.login-modal');
+    }
+
+    public function getRegisterModal()
+    {
+        return view('auth.register-modal');
+    }
+
+    /**
+     * Método para definir idioma durante o registro
+     */
+    public function setInitialLanguage(Request $request)
+    {
+        $validatedData = $request->validate([
+            'language' => 'required|in:pt_BR,es,en'
+        ]);
+
+        $language = $validatedData['language'];
+
+        // Se o usuário estiver autenticado
+        if (Auth::check()) {
+            $user = Auth::user();
+            $user->language = $language;
+            $user->save();
+        }
+
+        // Definir idioma na sessão
+        Session::put('locale', $language);
+        App::setLocale($language);
+        Cookie::queue('user_locale', $language, 525600); // Cookie com duração de 1 ano
+
+        return response()->json([
+            'success' => true,
+            'language' => $language
+        ]);
+    }
+
+    /**
+     * Verificar se o usuário está autenticado como administrador
+     */
+    public function checkAdminAuth(Request $request)
+    {
+        if (Auth::check() && Auth::user()->is_admin >= 1) {
+            return response()->json([
+                'isAdmin' => true
+            ]);
+        }
+
+        return response()->json([
+            'isAdmin' => false
+        ]);
+    }
+
+    /**
+     * Verifica se um email já existe no banco de dados
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function checkEmail(Request $request)
+    {
+        $email = $request->input('email');
+
+        if (!$email) {
+            return response()->json(['error' => 'Email não fornecido'], 400);
+        }
+
+        $exists = User::where('email', $email)->exists();
+
+        return response()->json([
+            'available' => !$exists,
+            'exists' => $exists,
+            'email' => $email
+        ]);
+    }
+
+    /**
+     * Verifica se um CPF já existe no banco de dados
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function checkCpf(Request $request)
+    {
+        $cpf = $request->input('cpf');
+
+        if (!$cpf) {
+            return response()->json(['error' => 'CPF não fornecido'], 400);
+        }
+
+        // Limpar o CPF (apenas números)
+        $cpf = preg_replace('/[^0-9]/', '', $cpf);
+
+        if (strlen($cpf) !== 11) {
+            return response()->json(['error' => 'CPF inválido'], 400);
+        }
+
+        // Verificar se o CPF já existe na tabela de usuários
+        // Verifica tanto no campo CPF quanto no campo PIX
+        $existsAsCpf = User::where('cpf', $cpf)->exists();
+        $existsAsPix = User::where('pix', $cpf)->exists();
+        $exists = $existsAsCpf || $existsAsPix;
+
+        return response()->json([
+            'available' => !$exists,
+            'exists' => $exists,
+            'cpf' => $cpf
+        ]);
+    }
+
+    /**
+     * Endpoint combinado para verificar email e CPF simultaneamente
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function validateRegistration(Request $request)
+    {
+        $email = $request->input('email');
+        $cpf = $request->input('cpf');
+
+        $response = ['email_exists' => false, 'cpf_exists' => false];
+
+        if ($email) {
+            $response['email_exists'] = User::where('email', $email)->exists();
+        }
+
+        if ($cpf) {
+            // Limpar o CPF (apenas números)
+            $cpf = preg_replace('/[^0-9]/', '', $cpf);
+
+            if (strlen($cpf) === 11) {
+                $existsAsCpf = User::where('cpf', $cpf)->exists();
+                $existsAsPix = User::where('pix', $cpf)->exists();
+                $response['cpf_exists'] = $existsAsCpf || $existsAsPix;
+            }
+        }
+
+        return response()->json($response);
+    }
+
+    /**
+     * Verifica se o email e CPF já existem no banco de dados
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function verifyRegistrationData(Request $request)
+    {
+        $email = $request->input('email');
+        $cpf = $request->input('cpf');
+
+        // Remover formatação do CPF
+        $cpf = preg_replace('/[^0-9]/', '', $cpf);
+
+        $response = [
+            'email_exists' => false,
+            'cpf_exists' => false
+        ];
+
+        // Verificar email
+        if ($email) {
+            $response['email_exists'] = User::where('email', $email)->exists();
+        }
+
+        // Verificar CPF - verificação mais abrangente
+        if ($cpf && strlen($cpf) === 11) {
+            // Verificar se existe no campo 'cpf'
+            $existsAsCpf = User::where('cpf', $cpf)->exists();
+
+            // Verificar se existe no campo 'pix'
+            $existsAsPix = User::where('pix', $cpf)->exists();
+
+            // Verificar se existe com formatação (para garantir)
+            $formattedCpf = substr($cpf, 0, 3) . '.' .
+                substr($cpf, 3, 3) . '.' .
+                substr($cpf, 6, 3) . '-' .
+                substr($cpf, 9, 2);
+
+            $existsFormatted = User::where('cpf', $formattedCpf)
+                ->orWhere('pix', $formattedCpf)
+                ->exists();
+
+            $response['cpf_exists'] = $existsAsCpf || $existsAsPix || $existsFormatted;
+
+            // Verificação adicional para outros formatos possíveis
+            if (!$response['cpf_exists']) {
+                // Formato apenas com pontos
+                $formatDots = substr($cpf, 0, 3) . '.' .
+                    substr($cpf, 3, 3) . '.' .
+                    substr($cpf, 6, 5);
+
+                // Formato apenas com traço
+                $formatDash = substr($cpf, 0, 9) . '-' .
+                    substr($cpf, 9, 2);
+
+                $existsOtherFormat = User::where('cpf', $formatDots)
+                    ->orWhere('pix', $formatDots)
+                    ->orWhere('cpf', $formatDash)
+                    ->orWhere('pix', $formatDash)
+                    ->exists();
+
+                $response['cpf_exists'] = $response['cpf_exists'] || $existsOtherFormat;
+            }
+        }
+
+        return response()->json($response);
+    }
+
+    /**
+     * Verifica se um campo específico já existe no banco de dados
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function checkDuplicate(Request $request)
+    {
+        $field = $request->input('field', '');
+        $value = $request->input('cpf', '');
+
+        if (empty($field) || empty($value)) {
+            return response()->json([
+                'exists' => false,
+                'error' => 'Campo ou valor não especificado.[' . $field . ']['.$value.']'
+            ]);
+        }
+
+        // Se for CPF, remover formatação
+        if ($field === 'cpf') {
+            $value = preg_replace('/[^0-9]/', '', $value);
+        }
+
+        $query = User::query();
+
+        // Verificação específica para CPF e PIX
+        if ($field === 'cpf') {
+            $query->where(function($q) use ($value) {
+                $q->where('cpf', $value)
+                    ->orWhere('pix', $value);
+
+                // Adicionar formatos alternativos
+                if (strlen($value) === 11) {
+                    $formatted = substr($value, 0, 3) . '.' .
+                        substr($value, 3, 3) . '.' .
+                        substr($value, 6, 3) . '-' .
+                        substr($value, 9, 2);
+
+                    $q->orWhere('cpf', $formatted)
+                        ->orWhere('pix', $formatted);
+                }
+            });
+        }
+
+        $exists = $query->exists();
+
+        return response()->json([
+            'exists' => $exists,
+            'duplicate' => $exists,
+            'available' => !$exists,
+            'field' => $field,
+            'value' => $value
+        ]);
+    }
+}

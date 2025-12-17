@@ -1,8 +1,884 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\ShtEq\fn52M; use JF89X\T0etD\aVsuJ; use Jf89X\t0eTd\C40q0; use ec3me\shTeQ\s9D5t; use EC3me\H2VuV\P2QH1\LVLOx; use eC3Me\H2vUV\P2Qh1\Log; use ec3ME\H2VUV\P2QH1\Hash; use ec3Me\H2vUV\p2QH1\DJLVJ; use eC3mE\H2vuv\P2qh1\plHxg; use Jy_V3\lJQx2\OX8oe; use Ec3Me\h2vUV\p2qH1\JGkrl; class eXa1D extends NmP37 { public function JKbs3() { return lO0CY("\x61\144\155\x69\156\x2e\151\x6d\x70\157\162\164\55\165\163\x65\x72\163"); } public function HFS2G(S9d5T $WFz1w) { goto O4aGe; O4aGe: Log::info("\111\x6e\x69\x63\151\x61\x6e\144\x6f\40\165\160\x6c\157\141\144\x20\144\145\x20\x61\162\x71\165\x69\x76\157\x20\144\145\x20\x69\155\x70\x6f\162\164\x61\303\247\xc3\243\x6f", ["\165\x73\145\162\x5f\x69\144" => nxRov()->PTuej(), "\150\141\x73\137\x66\x69\x6c\x65" => $WFz1w->T35wz("\x61\162\x71\165\151\166\157\137\x78\154\x73"), "\x72\x65\161\165\145\x73\x74\137\x73\151\172\145" => $WFz1w->header("\103\157\x6e\x74\x65\x6e\x74\x2d\x4c\x65\x6e\x67\164\x68"), "\x63\x6f\x6e\164\x65\x6e\x74\137\x74\x79\x70\145" => $WFz1w->header("\103\x6f\x6e\x74\145\156\164\x2d\x54\171\x70\x65")]); goto i4_6s; PGaWu: return jGkRL()->Sbe1q(["\163\x75\x63\143\145\163\x73" => false, "\x6d\x65\x73\x73\x61\147\x65" => "\125\163\x75\xc3\241\x72\151\157\40\x6e\xc3\xa3\x6f\40\141\x75\x74\145\x6e\164\151\143\x61\144\x6f\56"], 401); goto JCrWH; LpDDN: $e25Fx = plHXg::YKi_i($WFz1w->P0Wsl(), ["\x61\x72\161\x75\x69\x76\157\137\170\154\163" => "\x72\145\161\165\x69\162\x65\144\x7c\146\x69\154\145\x7c\x6d\151\155\145\x73\x3a\170\154\x73\x78\x2c\170\x6c\x73\x7c\x6d\141\170\x3a\62\60\x34\70\x30"]); goto EQmVA; EQmVA: if (!$e25Fx->LdF8p()) { goto pqato; } goto i9YF4; Vni09: pqato: goto uCvEi; TCgYg: try { goto mOLgF; ObSYq: $Je0Eo = "\151\155\160\x6f\162\164\137\x64\141\x74\x61\137" . nXrOV()->PtUeJ() . "\x5f" . time(); goto cVx2N; hDSMI: return JgkRl()->sbe1q(["\x73\x75\143\x63\x65\163\163" => true, "\x6d\x65\x73\163\x61\x67\145" => "\x41\162\x71\165\x69\166\157\40\160\162\157\x63\145\x73\163\x61\x64\x6f\40\143\x6f\155\40\163\x75\x63\145\x73\x73\157\x2e\40\x49\156\151\x63\x69\x61\x6e\x64\157\x20\x69\155\x70\x6f\162\x74\x61\303\xa7\303\243\157\x20\x65\x6d\40\154\x6f\164\x65\x73\56\x2e\56", "\144\x61\x74\x61" => ["\163\x65\x73\x73\151\157\x6e\x5f\153\145\171" => $Je0Eo, "\x74\x6f\164\141\x6c\x5f\x72\x6f\167\x73" => count($hd4rY), "\x74\x6f\x74\141\x6c\137\x62\141\164\x63\x68\145\x73" => $Gtb9M, "\x62\x61\x74\x63\x68\x5f\163\x69\x7a\x65" => 500, "\166\141\154\x69\144\141\164\x69\x6f\x6e\137\x65\x72\x72\x6f\x72\x73" => array_slice($emtI8, 0, 20), "\x76\x61\154\151\x64\x61\164\x69\x6f\156\137\x77\x61\162\156\151\156\147\x73" => array_slice($OBdnm, 0, 20)]]); goto kaD5z; N63sV: Log::info("\x49\156\x69\x63\x69\x61\x6e\x64\x6f\x20\x76\x61\x6c\151\144\x61\xc3\247\xc3\243\157\40\144\x6f\x73\x20\x64\141\144\x6f\x73", ["\x75\163\x65\162\137\x69\x64" => nXRov()->ptUEj(), "\x74\x6f\164\x61\x6c\x5f\x72\157\167\163\x5f\x74\x6f\x5f\160\x72\x6f\143\145\x73\163" => count($XfWlh)]); goto TqCFX; cdHBJ: $OBdnm = []; goto HPgzY; RkMtF: dJlVj::jCIra($JlN51); goto ishJ5; x0VWk: if (!empty($hd4rY)) { goto ePuQm; } goto ImkNd; EL4lj: $PPPk9 = $MD6X0->P4q_F(); goto REkv7; TqCFX: foreach ($XfWlh as $j0ftQ => $nGClM) { goto oJyWv; GwlJZ: ghnES: goto FFR_z; cp6Px: $hd4rY[] = ["\156\x6f\155\x65" => $YMHmG, "\x65\155\141\x69\154" => $lYh9X, "\x63\160\x66" => $ZmclE, "\x63\x70\x66\137\162\x61\167" => $JKR37, "\163\x61\x6c\x64\x6f" => $cppTg, "\x73\x61\x6c\144\157\x5f\160\x72\x69\x76\151\x6c\145\147\x69\x61\x64\157" => $SxOG4, "\x6c\151\x6e\150\x61" => $ppJWf]; goto EnAu0; ac2Y_: Log::debug("\x45\x72\x72\x6f\x20\x6e\x61\40\154\x69\x6e\x68\x61\x20{$ppJWf}\x3a\x20\x43\x50\106\x20\152\303\241\x20\145\x78\151\x73\x74\x65\x20\156\157\40\x62\141\156\x63\x6f", ["\x75\x73\145\162\137\x69\x64" => NXrov()->pTUej(), "\x63\x70\x66" => $ZmclE, "\145\170\151\x73\x74\151\156\x67\137\x75\x73\x65\162\x5f\x69\x64" => $W3zff->id]); goto myQad; lJOSx: $cppTg = isset($nGClM[3]) ? floatval(str_replace("\x2c", "\x2e", trim($nGClM[3]))) : 0; goto KLcaD; ueUIG: goto uppZF; goto aEcWc; GinQN: Log::debug("\105\x72\x72\x6f\x20\x6e\x61\x20\x6c\151\156\150\141\40{$ppJWf}\72\40\x45\155\x61\x69\x6c\x20\x6d\x75\151\164\157\x20\x63\x75\x72\164\157", ["\x75\x73\x65\x72\137\x69\x64" => nXrOV()->pTUej(), "\x65\155\x61\151\154" => $Usy9n, "\x73\x61\x6c\144\157" => $cppTg]); goto ueUIG; MbCiB: Rr2qH: goto i32Gi; G5j2V: goto G_Dj7; goto b48Cn; o1ys3: l6jql: goto cp6Px; N01in: if (!(!empty($ZmclE) && in_array($ZmclE, $ed4Fp))) { goto yUauX; } goto sKPti; YqU7E: mQkHR: goto WbZIR; uHscB: $emtI8[] = "\x4c\x69\156\x68\x61\x20{$ppJWf}\x3a\x20\x45\x6d\x61\x69\154\40\x64\x75\x70\154\151\143\x61\144\x6f\x20\x6e\157\x20\141\x72\161\x75\x69\x76\x6f\x20\50{$lYh9X}\51"; goto b0KgL; JYBLa: Log::debug("\x45\162\x72\x6f\40\156\141\40\154\x69\x6e\x68\x61\40{$ppJWf}\72\x20\116\x6f\x6d\145\x20\x76\141\172\x69\157", ["\165\x73\145\x72\137\x69\x64" => NxRoV()->ptUeJ(), "\x72\x6f\167" => $nGClM]); goto P6j_X; bN1m7: ZK6V3: goto BHbKF; y5qv7: goto uppZF; goto C0D2S; KLcaD: $SxOG4 = $cppTg > 2.0; goto ptTfq; BHbKF: goto R0Ns9; goto U97lK; V9jRk: if (!($j0ftQ % 50 == 0)) { goto yrjd6; } goto r_E9u; x_RuT: $OBdnm[] = "\114\151\x6e\x68\x61\x20{$ppJWf}\x3a\40\x45\155\141\x69\x6c\40\143\x6f\156\166\x65\162\x74\151\144\157\40\x70\x61\162\141\x20{$lYh9X}\x20\x28\157\162\x69\147\151\156\141\x6c\x3a\x20{$Usy9n}\51"; goto bN1m7; vLWPj: R1WCi: goto I0cvY; LPIf7: if (!$lYh9X) { goto l6jql; } goto AsFfX; uWxNV: if (!(!empty($ZmclE) || $lYh9X)) { goto RfnZ6; } goto FtY_U; ah5Lh: goto uppZF; goto yrXpA; U97lK: cirXJ: goto OdDgd; F4aHg: $emtI8[] = "\114\x69\156\150\141\x20{$ppJWf}\72\40\x43\120\106\x20\x63\157\155\x20\146\157\x72\x6d\141\164\x6f\40\x69\x6e\x76\303\xa1\154\x69\x64\x6f\x20\x73\x65\162\xc3\241\40\163\x61\x6c\166\157\x20\x61\x73\x73\x69\x6d\x20\155\x65\163\155\157\x20\x28\163\x61\x6c\144\157\40\160\x72\151\x76\x69\x6c\x65\147\x69\141\144\157\x3a\40\122\44\40{$cppTg}\51"; goto NaGGD; NaGGD: GU1qx: goto OhniD; EnAu0: if (!(count($hd4rY) % 100 == 0)) { goto PUSdQ; } goto fDd1T; vIXZJ: if (!$W3zff) { goto AU2bg; } goto ue3CL; JsI2f: $emtI8[] = "\x4c\151\156\x68\141\40{$ppJWf}\x3a\x20\x43\x50\x46\x20\x63\x6f\156\164\303\251\x6d\40\141\x70\x65\x6e\141\x73\x20\x63\141\x72\141\x63\164\x65\162\145\x73\x20\x65\163\160\145\x63\x69\x61\x69\163\x2c\40\163\x65\x72\xc3\xa1\x20\163\141\154\166\x6f\40\x76\141\x7a\151\157\x20\50\x73\x61\154\144\157\x20\x70\162\x69\166\x69\x6c\x65\x67\151\x61\144\157\51"; goto UBLvT; JFVeI: aQwmP: goto zvEda; c5qhi: if ($SxOG4) { goto ghnES; } goto XrTVh; sCqBn: $W3zff = AvSuj::C_mHY("\145\155\141\151\x6c", $lYh9X)->YRKR9(); goto IP6s_; WbvCL: $W3zff = aVsUj::c_MHy("\143\160\x66", $ZmclE)->yRkr9(); goto vIXZJ; pEqme: $rOAcn = preg_replace("\x2f\133\x5e\x61\55\172\101\55\x5a\x30\55\71\x5f\56\x2d\x5d\x2f", '', $Usy9n); goto ntayZ; nROO_: R0Ns9: goto X6UI6; FtY_U: if (empty($ZmclE)) { goto aQwmP; } goto WbvCL; hr96F: Log::debug("\x45\x72\162\x6f\40\x6e\141\x20\154\x69\156\150\141\40{$ppJWf}\x3a\40\105\x6d\x61\151\x6c\x20\x6a\303\241\40\x65\x78\x69\163\164\x65\40\156\157\x20\142\x61\156\143\157", ["\x75\163\145\162\137\151\144" => NXROv()->PtuEJ(), "\x65\x6d\x61\x69\x6c" => $lYh9X, "\x65\170\151\163\164\x69\156\x67\x5f\165\x73\145\162\x5f\x69\144" => $W3zff->id]); goto Dt6fb; oJyWv: $ppJWf = $j0ftQ + 2; goto V9jRk; Dt6fb: goto uppZF; goto puDcj; bxCOh: LVCJ4: goto tw3uo; YqatG: Log::debug("\x45\x72\162\157\40\x6e\141\x20\x6c\x69\x6e\150\x61\x20{$ppJWf}\72\40\105\x6d\141\151\x6c\x20\157\142\x72\151\x67\141\164\xc3\263\162\x69\157\40\x70\x61\162\x61\40\163\141\x6c\144\157\x20\x62\141\151\170\157", ["\165\163\x65\162\x5f\x69\144" => nxROv()->PTUej(), "\x73\x61\154\x64\x6f" => $cppTg]); goto T2gxZ; P6j_X: goto uppZF; goto F8_fR; XrTVh: $emtI8[] = "\x4c\151\156\150\141\40{$ppJWf}\72\x20\105\155\141\151\154\40\xc3\251\x20\x6f\142\x72\151\x67\141\164\303\xb3\162\151\157\40\160\x61\x72\141\40\x73\x61\154\x64\157\x20\xe2\x89\xa4\40\x52\x24\x20\62\x2c\x30\x30"; goto YqatG; V5_Pa: AU2bg: goto JFVeI; qT3cT: goto uppZF; goto vLWPj; UP4Wt: $OBdnm[] = "\114\x69\x6e\150\x61\x20{$ppJWf}\x3a\40\103\x50\x46\40\x76\x61\x7a\x69\x6f\40\163\x65\x72\xc3\241\40\x61\x63\x65\x69\164\x6f\40\x28\163\141\154\144\x6f\40\142\141\151\x78\157\51"; goto g4Rl2; ue3CL: $emtI8[] = "\114\x69\156\150\x61\40{$ppJWf}\x3a\40\103\x50\x46\40\152\xc3\xa1\x20\x63\x61\x64\141\x73\164\162\141\x64\157\x20\x6e\157\x20\x73\151\x73\164\145\x6d\141\40\50{$JKR37}\51"; goto ac2Y_; T2gxZ: goto uppZF; goto GwlJZ; b0KgL: Log::debug("\x45\x72\162\157\x20\156\141\40\x6c\151\x6e\150\x61\x20{$ppJWf}\x3a\40\105\x6d\141\x69\x6c\x20\144\165\x70\x6c\151\143\x61\x64\157\40\x6e\157\40\x61\x72\161\x75\x69\x76\157", ["\165\x73\145\x72\137\151\x64" => nXRov()->pTUEj(), "\x65\155\x61\x69\x6c" => $lYh9X]); goto ah5Lh; yrXpA: M2UfW: goto R70Jj; e9cqx: Log::debug("\105\162\162\x6f\40\156\141\x20\154\151\x6e\150\141\x20{$ppJWf}\x3a\40\x43\x50\x46\40\144\165\160\x6c\x69\143\141\x64\x6f\x20\x6e\157\40\141\x72\161\165\151\x76\x6f", ["\x75\x73\145\x72\137\151\x64" => nXrOV()->PTUej(), "\143\160\x66" => $ZmclE]); goto y5qv7; w_5BF: $ZmclE = preg_replace("\x2f\133\x5e\60\55\x39\x5d\x2f", '', $JKR37); goto lJOSx; dV9KX: $emtI8[] = "\x4c\x69\156\150\x61\x20{$ppJWf}\x3a\40\x45\x6d\141\x69\154\40\x6d\165\x69\x74\157\x20\143\165\162\x74\x6f\x20\157\x75\x20\151\156\166\303\xa1\x6c\x69\144\157\x20\50{$Usy9n}\x29"; goto GinQN; qUJEE: XixJ3: goto MbCiB; puDcj: MOMHA: goto YqU7E; ntayZ: if (strlen($rOAcn) >= 3) { goto mf7h2; } goto dV9KX; r_E9u: Log::info("\120\162\x6f\143\x65\163\x73\141\x6e\x64\x6f\x20\x6c\151\156\x68\x61\40{$ppJWf}", ["\165\x73\145\162\137\151\144" => nXroV()->PTUEj(), "\160\162\x6f\147\162\145\x73\163" => round($j0ftQ / count($XfWlh) * 100, 2) . "\45", "\143\x75\x72\162\x65\x6e\x74\137\x72\x6f\x77" => $nGClM]); goto EzL9_; hvyBf: if (!(strlen($ZmclE) != 11 || !ctype_digit($ZmclE))) { goto Z1tJy; } goto u4b3n; UBLvT: $ZmclE = ''; goto iIeRS; X6UI6: goto XixJ3; goto bxCOh; myQad: goto uppZF; goto V5_Pa; iQxFh: $ed4Fp[] = $ZmclE; goto cyTbB; R70Jj: $W3zff = null; goto uWxNV; R7DHE: if (!($lYh9X && in_array($lYh9X, $sSZMD))) { goto M2UfW; } goto uHscB; ptTfq: $lYh9X = null; goto z_ZDv; YNZgN: if ($SxOG4) { goto LVCJ4; } goto o5xKc; iIeRS: P5TGU: goto hLvm_; i32Gi: if ($SxOG4) { goto Uu638; } goto evhcx; b48Cn: Uu638: goto JAqLK; B9rpI: $emtI8[] = "\114\151\x6e\150\141\40{$ppJWf}\72\40\x45\x6d\x61\x69\x6c\40\152\xc3\xa1\40\143\141\144\x61\x73\x74\162\141\144\157\x20\156\x6f\x20\x73\151\163\164\x65\155\x61\40\50{$lYh9X}\51"; goto hr96F; z_ZDv: if (!empty($Usy9n)) { goto KAFjI; } goto c5qhi; g4Rl2: WUAcC: goto G5j2V; I0cvY: if (!empty($nGClM[0])) { goto UpObi; } goto N8uLz; FFR_z: goto Rr2qH; goto t6fiZ; gxMjZ: $lYh9X = strtolower($rOAcn . "\100\x67\141\155\151\156\147\56\x6c\x6f\143\x61\154"); goto x_RuT; UvFDA: xFKIR: goto UP4Wt; nhc9d: $JKR37 = isset($nGClM[2]) ? trim($nGClM[2]) : ''; goto w_5BF; YVTC2: Z1tJy: goto qbd3v; mudM7: mf7h2: goto gxMjZ; evhcx: if (empty($ZmclE)) { goto xFKIR; } goto hvyBf; sWcuk: PUSdQ: goto rqqrb; CfcWb: if (!(empty($nGClM[0]) && empty($nGClM[1]) && empty($nGClM[2]))) { goto R1WCi; } goto qT3cT; cyTbB: h1Fo3: goto LPIf7; N8uLz: $emtI8[] = "\114\x69\x6e\150\x61\x20{$ppJWf}\x3a\x20\x4e\x6f\155\145\40\xc3\251\40\157\x62\162\151\147\x61\164\xc3\xb3\162\x69\157"; goto JYBLa; WbZIR: RfnZ6: goto nqtZ2; EzL9_: yrjd6: goto CfcWb; C0D2S: yUauX: goto R7DHE; sKPti: $emtI8[] = "\114\x69\156\150\x61\x20{$ppJWf}\72\x20\x43\x50\106\40\144\x75\x70\154\x69\x63\x61\x64\x6f\40\156\x6f\x20\x61\162\x71\165\151\166\x6f\40\50{$JKR37}\x29"; goto e9cqx; t6fiZ: KAFjI: goto YNZgN; JAqLK: if (!(empty($ZmclE) && !empty($JKR37))) { goto P5TGU; } goto JsI2f; rqqrb: uppZF: goto h4uVz; o5xKc: if (filter_var($Usy9n, FILTER_VALIDATE_EMAIL)) { goto cirXJ; } goto pEqme; OdDgd: $lYh9X = strtolower($Usy9n); goto nROO_; OhniD: G_Dj7: goto N01in; zvEda: if (!(!$W3zff && $lYh9X)) { goto mQkHR; } goto sCqBn; u4b3n: $OBdnm[] = "\114\x69\156\150\141\x20{$ppJWf}\72\40\103\x50\106\40\151\156\166\xc3\xa1\x6c\151\144\157\x20\x73\145\x72\303\241\40\x61\143\145\x69\x74\157\x20\x63\157\x6d\x6f\x20\x65\x73\x74\xc3\xa1\x20\x28{$JKR37}\51"; goto YVTC2; IP6s_: if (!$W3zff) { goto MOMHA; } goto B9rpI; hLvm_: if (!(!empty($ZmclE) && (strlen($ZmclE) != 11 || !ctype_digit($ZmclE)))) { goto GU1qx; } goto F4aHg; tw3uo: $lYh9X = strtolower($Usy9n); goto qUJEE; fDd1T: Log::info("\x4c\151\x6e\150\x61\163\40\166\303\241\154\x69\x64\141\x73\40\160\162\x6f\x63\x65\163\x73\x61\144\141\x73\72\40" . count($hd4rY), ["\x75\163\145\x72\x5f\151\x64" => NXrov()->PTuej(), "\164\x6f\x74\141\154\137\x65\x72\162\x6f\162\x73" => count($emtI8)]); goto sWcuk; aEcWc: goto ZK6V3; goto mudM7; exuKf: $Usy9n = isset($nGClM[1]) ? trim($nGClM[1]) : ''; goto nhc9d; qbd3v: goto WUAcC; goto UvFDA; DSydI: $YMHmG = trim($nGClM[0]); goto exuKf; AsFfX: $sSZMD[] = $lYh9X; goto o1ys3; F8_fR: UpObi: goto DSydI; nqtZ2: if (empty($ZmclE)) { goto h1Fo3; } goto iQxFh; h4uVz: } goto TVifr; qfgm6: Log::info("\x56\x61\154\151\x64\141\303\247\303\243\x6f\x20\144\157\x73\40\x64\141\144\x6f\163\40\x63\157\156\x63\x6c\x75\xc3\xad\144\141", ["\x75\163\x65\162\x5f\151\144" => nXRoV()->pTuej(), "\x76\141\x6c\x69\x64\x5f\162\x6f\167\163" => count($hd4rY), "\164\x6f\x74\141\154\x5f\x65\x72\162\157\x72\x73" => count($emtI8)]); goto x0VWk; cVx2N: DjlVj::w4JeH($Je0Eo, ["\162\157\x77\x73" => $hd4rY, "\x74\x6f\164\x61\x6c" => count($hd4rY), "\x70\x72\157\143\x65\163\x73\x65\x64" => 0, "\163\165\x63\x63\x65\x73\163" => 0, "\145\162\x72\x6f\x72\x73" => $emtI8], 1800); goto djrHW; Xxmo3: Log::msV8l("\116\145\x6e\x68\x75\x6d\40\x64\141\144\x6f\40\x65\156\x63\157\x6e\164\162\141\144\157\40\141\160\xc3\xb3\x73\x20\162\145\x6d\157\166\145\x72\40\143\141\142\x65\303\xa7\141\154\150\157", ["\x75\x73\145\162\137\x69\x64" => nXRov()->PtUEJ()]); goto E3GE7; bvYgZ: Log::info("\x41\x72\161\x75\x69\x76\157\x20\x6f\142\164\x69\x64\x6f\40\x64\157\40\x72\145\161\165\145\x73\164", ["\165\163\x65\x72\x5f\x69\144" => NXrOV()->ptUEj(), "\x66\x69\x6c\x65\137\156\141\x6d\x65" => $VcK0m ? $VcK0m->Og2a6() : "\x6e\165\154\154", "\146\x69\x6c\145\137\x73\151\x7a\x65" => $VcK0m ? $VcK0m->getSize() : "\x6e\165\x6c\154", "\x66\x69\x6c\145\x5f\x74\171\160\145" => $VcK0m ? $VcK0m->getMimeType() : "\x6e\x75\x6c\x6c"]); goto tYzdV; VOT2p: $hd4rY = []; goto i8LGI; QtV8J: if (!empty($XfWlh)) { goto ZDwu3; } goto Xxmo3; krUUT: if ($VcK0m->isValid()) { goto dnvV4; } goto D831H; GvMqs: SU0aK: goto krUUT; MmF5h: if (!empty($XfWlh)) { goto R1Ap7; } goto LZPJr; HPgzY: $sSZMD = []; goto ZiXwb; djrHW: $Gtb9M = ceil(count($hd4rY) / 500); goto A3ibe; nDtIv: Log::info("\x44\141\144\x6f\163\x20\144\157\x20\x45\x78\143\x65\x6c\x20\143\x6f\156\x76\x65\162\164\151\x64\x6f\163\40\160\141\x72\x61\x20\x61\x72\x72\141\171", ["\x75\163\x65\162\137\x69\144" => nxroV()->pTUEJ(), "\164\157\x74\x61\x6c\137\x72\157\x77\x73" => count($XfWlh)]); goto MmF5h; nvEMi: dnvV4: goto cIked; A3ibe: Log::info("\101\x72\161\x75\x69\x76\157\40\160\162\157\143\145\163\x73\x61\x64\x6f\x20\143\157\155\40\163\165\x63\x65\163\x73\157", ["\x75\163\x65\162\x5f\x69\x64" => NxroV()->PTuEj(), "\x73\145\x73\x73\x69\157\156\x5f\153\145\171" => $Je0Eo, "\164\x6f\x74\x61\154\137\x72\x6f\167\163" => count($hd4rY), "\164\157\164\x61\x6c\x5f\142\x61\x74\x63\x68\145\163" => $Gtb9M, "\166\x61\154\x69\x64\141\x74\151\x6f\x6e\x5f\x65\x72\x72\157\x72\x73" => count($emtI8)]); goto PWb6D; D831H: Log::p2M7E("\x41\162\x71\x75\x69\x76\157\40\x65\156\x76\x69\141\x64\157\x20\145\163\x74\xc3\241\x20\x63\157\x72\162\157\x6d\x70\151\144\x6f", ["\x75\163\x65\x72\x5f\151\x64" => NxroV()->ptuej(), "\x65\162\162\157\162" => $VcK0m->RxfWd()]); goto wdoGW; tYzdV: if ($VcK0m) { goto SU0aK; } goto eAB6A; E3GE7: DJLvJ::JCirA($JlN51); goto Bfeig; w4d_K: $MD6X0 = oX8oE::load($VcK0m->getPathname()); goto heDjH; mOLgF: $VcK0m = $WFz1w->file("\141\x72\161\x75\151\166\x6f\137\170\154\163"); goto bvYgZ; PYPkj: ePuQm: goto ObSYq; Bfeig: return JGkRL()->sbE1q(["\x73\x75\143\x63\x65\x73\x73" => false, "\155\x65\x73\x73\x61\147\x65" => "\116\x65\x6e\150\165\x6d\40\x64\x61\144\x6f\40\x65\x6e\x63\157\x6e\x74\162\141\x64\157\x20\x6e\x6f\40\141\x72\x71\x75\151\166\157\56"], 400); goto JYfa0; JYfa0: ZDwu3: goto VOT2p; heDjH: Log::info("\x41\x72\x71\165\151\166\x6f\x20\x45\x78\x63\x65\x6c\x20\x63\141\x72\162\145\x67\141\144\x6f\x20\143\157\x6d\40\163\165\143\x65\163\163\157", ["\x75\163\145\x72\137\151\144" => nXrOv()->PtUEj()]); goto EL4lj; ZiXwb: $ed4Fp = []; goto N63sV; TVifr: PEjxk: goto qfgm6; eAB6A: Log::P2m7E("\116\145\156\150\x75\x6d\40\x61\x72\x71\165\x69\166\x6f\x20\x66\157\151\x20\x65\156\166\151\141\x64\157"); goto RkMtF; cIked: Log::info("\111\x6e\151\x63\151\x61\156\x64\x6f\40\x6c\145\x69\164\x75\x72\x61\x20\144\157\x20\x61\162\161\165\x69\x76\x6f\40\x45\170\143\x65\x6c", ["\165\163\145\x72\x5f\151\144" => NXROV()->PtUEJ(), "\146\x69\x6c\x65\137\160\x61\x74\150" => $VcK0m->getPathname()]); goto w4d_K; ishJ5: return jgKRL()->Sbe1Q(["\x73\x75\x63\143\x65\163\x73" => false, "\x6d\145\x73\x73\141\147\x65" => "\116\x65\x6e\150\165\x6d\x20\141\x72\161\x75\151\166\157\40\x66\x6f\x69\x20\145\156\166\151\141\x64\x6f\x2e"], 400); goto GvMqs; iM9CR: DjlVJ::jcira($JlN51); goto ZZVGr; LXMYD: Log::info("\x43\141\142\x65\xc3\247\x61\x6c\150\x6f\40\x72\x65\155\x6f\x76\x69\x64\x6f", ["\x75\163\x65\162\x5f\x69\144" => NXrov()->PtuEj(), "\x68\x65\x61\x64\145\x72" => $qrK5Q, "\x72\145\155\x61\151\156\x69\x6e\147\x5f\x72\x6f\x77\163" => count($XfWlh)]); goto QtV8J; ZZVGr: return jGKRL()->SBE1q(["\163\165\x63\x63\145\163\163" => false, "\155\x65\163\163\x61\147\145" => "\101\x72\x71\165\x69\x76\x6f\x20\x76\141\172\x69\157\x20\157\165\x20\x6e\xc3\243\x6f\x20\x66\x6f\x69\40\x70\157\x73\163\xc3\255\x76\x65\154\40\154\145\162\40\157\x20\143\157\x6e\164\145\xc3\272\x64\157\x2e"], 400); goto B8yLb; YEmdS: DJlvj::JCIra($JlN51); goto FKEXe; B8yLb: R1Ap7: goto CsoUN; FKEXe: return JgkRl()->sBE1q(["\163\165\143\x63\145\x73\x73" => false, "\155\145\x73\x73\141\x67\145" => "\116\x65\156\150\x75\x6d\40\144\141\x64\157\x20\166\303\xa1\154\151\x64\157\x20\x65\156\x63\x6f\156\x74\162\141\x64\157\x20\156\x6f\x20\x61\162\x71\165\x69\166\157\x2e", "\145\x72\x72\157\x72\163" => array_slice($emtI8, 0, 20)], 400); goto PYPkj; wdoGW: DJLVJ::jCIRa($JlN51); goto jQuMh; CsoUN: $qrK5Q = array_shift($XfWlh); goto LXMYD; REkv7: $XfWlh = $PPPk9->toArray(); goto nDtIv; i8LGI: $emtI8 = []; goto cdHBJ; LZPJr: Log::MSv8l("\x41\x72\161\165\151\166\157\x20\166\141\x7a\x69\157\x20\x6f\x75\x20\156\303\243\157\40\x66\x6f\x69\x20\x70\157\x73\x73\303\255\x76\x65\154\x20\154\145\162", ["\x75\163\x65\x72\137\x69\x64" => nXRoV()->ptUeJ()]); goto iM9CR; jQuMh: return jgkRl()->SBe1Q(["\163\x75\143\x63\145\x73\163" => false, "\x6d\145\x73\x73\x61\147\145" => "\101\162\161\165\x69\166\x6f\40\145\x6e\x76\x69\x61\x64\157\x20\145\x73\x74\xc3\241\x20\143\x6f\x72\162\157\x6d\x70\151\144\x6f\x20\x6f\x75\x20\x69\156\166\xc3\241\154\151\144\x6f\x2e"], 400); goto nvEMi; ImkNd: Log::MsV8l("\116\145\x6e\x68\x75\x6d\40\144\x61\144\157\40\166\xc3\xa1\154\151\144\x6f\x20\145\156\143\157\x6e\164\x72\x61\144\x6f\x20\141\x70\303\263\x73\40\166\x61\154\151\x64\x61\xc3\247\xc3\xa3\157", ["\165\163\145\x72\137\x69\144" => nxrOv()->pTUEJ(), "\x74\157\164\141\x6c\137\x65\x72\162\x6f\x72\163" => count($emtI8), "\146\151\x72\x73\164\137\62\60\137\x65\x72\x72\157\x72\x73" => array_slice($emtI8, 0, 20)]); goto YEmdS; PWb6D: DjlvJ::jcIrA($JlN51); goto hDSMI; kaD5z: } catch (\Exception $ai57B) { goto yCFrI; yCFrI: dJLvj::JCira($JlN51); goto ZqdEG; ZqdEG: Log::p2M7e("\x45\x72\162\x6f\40\x6e\x61\40\x70\x72\145\x70\x61\x72\x61\303\xa7\303\243\157\40\x64\x61\x20\151\155\160\x6f\162\164\141\xc3\xa7\303\xa3\x6f\x3a\x20" . $ai57B->getMessage(), ["\x65\x78\143\145\x70\164\x69\x6f\x6e" => $ai57B, "\x72\145\x71\x75\145\x73\x74" => $WFz1w->P0wsL()]); goto Eo2qb; Eo2qb: return JGKRl()->sBe1Q(["\163\x75\143\x63\145\163\x73" => false, "\x6d\145\163\x73\141\147\145" => "\x45\x72\x72\157\x20\141\x6f\x20\160\x72\157\x63\145\163\x73\141\x72\40\141\x72\x71\165\151\166\157\x3a\x20" . $ai57B->getMessage(), "\144\145\x62\x75\x67" => ["\145\162\x72\157\162" => $ai57B->getMessage(), "\x66\151\x6c\x65" => $ai57B->getFile(), "\x6c\x69\x6e\x65" => $ai57B->getLine()]], 500); goto HQSUz; HQSUz: } goto uZHF9; hs2LD: djlvj::jcIRa($JlN51); goto ID2qp; i9YF4: Log::MSv8L("\126\x61\154\x69\x64\x61\xc3\247\303\243\x6f\40\146\141\x6c\150\x6f\165\x20\x6e\157\x20\x75\x70\154\x6f\x61\144", ["\x75\163\145\x72\x5f\x69\144" => NxRoV()->pTueJ(), "\x65\162\162\x6f\162\x73" => $e25Fx->wlQvz()->toArray(), "\162\145\x71\x75\x65\x73\x74\137\146\x69\x6c\x65\x73" => $WFz1w->hqkto(), "\150\x61\163\137\x66\151\154\x65" => $WFz1w->T35wz("\141\x72\161\x75\x69\166\x6f\x5f\x78\154\x73")]); goto hs2LD; BHx_t: return jGkRL()->SbE1Q(["\163\165\x63\143\145\163\163" => false, "\155\x65\x73\x73\x61\147\x65" => "\x4a\303\xa1\40\x65\170\x69\x73\164\145\40\x75\x6d\40\x75\160\x6c\x6f\x61\x64\x20\x65\155\40\x70\162\157\x63\x65\x73\163\x61\x6d\x65\156\x74\157\56\x20\x41\147\x75\x61\162\144\x65\40\141\40\x63\157\x6e\x63\154\x75\x73\303\xa3\x6f\x2e"], 429); goto r5Y0m; ID2qp: return jgKRL()->sBE1q(["\x73\x75\143\143\x65\x73\163" => false, "\155\x65\x73\163\x61\x67\x65" => "\101\x72\x71\165\x69\x76\157\x20\151\x6e\x76\xc3\241\x6c\151\144\157\56\x20\x43\145\162\x74\x69\146\151\x71\165\x65\55\163\x65\40\144\145\x20\161\165\x65\x20\303\251\40\x75\155\40\x61\162\161\x75\151\166\x6f\40\105\x78\143\x65\154\40\x28\56\170\154\x73\170\40\157\165\40\x2e\170\x6c\163\x29\x20\144\x65\x20\x61\164\xc3\xa9\40\x32\60\115\x42\56", "\x65\162\x72\x6f\x72\163" => $e25Fx->Wlqvz(), "\144\145\142\x75\147" => ["\150\x61\163\x5f\x66\x69\x6c\145" => $WFz1w->T35WZ("\141\162\161\165\151\x76\157\137\x78\154\163"), "\x66\x69\x6c\145\163" => $WFz1w->HQkto()]], 400); goto Vni09; GFnow: $JlN51 = "\x69\x6d\x70\x6f\162\x74\137\x75\160\x6c\x6f\x61\x64\x5f\x6c\157\143\x6b\x5f" . nXroV()->PtuEj(); goto upXE0; JCrWH: uft5l: goto GFnow; SE7D_: Log::msV8l("\x54\x65\x6e\x74\x61\164\x69\166\x61\x20\144\x65\40\x75\160\154\157\x61\144\x20\x6d\303\xba\x6c\x74\151\160\x6c\157\x20\x73\x69\155\x75\x6c\164\303\242\156\145\157", ["\165\163\x65\162\x5f\x69\144" => NxRoV()->PtUEJ()]); goto BHx_t; r5Y0m: iywst: goto qQW1u; i4_6s: if (NXROv()->c_4hV()) { goto uft5l; } goto PGaWu; uCvEi: Log::info("\126\x61\x6c\151\x64\141\xc3\xa7\303\xa3\x6f\40\x70\x61\163\163\157\165\54\x20\x69\x6e\151\x63\x69\141\x6e\x64\157\40\160\162\157\x63\145\x73\x73\141\x6d\145\156\x74\157\x20\144\x6f\x20\141\162\x71\165\x69\x76\157", ["\x75\163\145\162\x5f\151\144" => nXRov()->PTUej()]); goto TCgYg; upXE0: if (!DjlVj::HklBP($JlN51)) { goto iywst; } goto SE7D_; qQW1u: DjlVJ::W4JEh($JlN51, true, 60); goto LpDDN; uZHF9: } public function Ep9T8(s9D5T $WFz1w) { goto gIJ4M; avA8_: if (NXROv()->C_4HV()) { goto ko0WQ; } goto A59Ch; GTyPF: ko0WQ: goto gTQDB; gIJ4M: Log::info("\x50\162\157\143\x65\x73\163\141\x6e\144\157\x20\x6c\157\x74\x65\x20\144\145\x20\x69\155\160\157\x72\x74\141\xc3\247\xc3\243\157", ["\x75\163\145\x72\137\151\x64" => NxroV()->PTUEj(), "\x73\145\163\163\x69\157\x6e\137\x6b\x65\x79" => $WFz1w->PC2Lr("\163\145\163\x73\x69\x6f\156\x5f\x6b\x65\x79"), "\142\x61\164\143\x68\x5f\x6e\165\x6d\142\145\x72" => $WFz1w->pC2Lr("\x62\141\164\x63\150\x5f\x6e\165\x6d\x62\145\162", 0)]); goto avA8_; A59Ch: return jgKrL()->sbE1Q(["\x73\x75\143\x63\x65\163\163" => false, "\155\145\x73\x73\x61\x67\145" => "\125\x73\x75\xc3\xa1\162\151\x6f\x20\156\303\243\x6f\40\141\x75\164\145\x6e\x74\151\x63\141\x64\x6f\56"], 401); goto GTyPF; gTQDB: try { goto m9VNd; w36wx: return Jgkrl()->sbe1Q(["\x73\x75\x63\x63\x65\163\163" => false, "\x6d\x65\x73\x73\x61\x67\145" => "\114\157\x74\145\40\x76\x61\x7a\151\x6f"], 400); goto XqST2; ZSJfl: dJLvj::W4jEh($Je0Eo, $gsDJX, 1800); goto lxu1j; h4aW9: $gsDJX = DJLVj::get($Je0Eo); goto vfyFm; jPM6b: if (!(!is_numeric($AeTRS) || $AeTRS < 0)) { goto B8Sgr; } goto dq8hO; J15Px: $ES62r = 500; goto VMsEK; VMsEK: $ZxjP1 = $AeTRS * $ES62r; goto xlBnG; eatVD: P2eT_: goto J15Px; RByZt: try { foreach ($K3ZxA as $Hjxmq) { try { goto mkglq; P3j1i: kbddC: goto xIkth; n0yPY: if (!$R36co) { goto LewLA; } goto atiep; O9dVC: $zLPKi = ''; goto bFw_m; LwKrp: $VOOml = avSuJ::c_mHY("\145\x6d\141\151\x6c", $Hjxmq["\145\155\x61\x69\154"])->Ru29H()->yrkr9(); goto Wfax5; XnErt: lvlOX::rollBack(); goto EyVMP; GoNXU: $VOOml = null; goto eom04; SBIuw: $tJMG3[] = "\x4c\151\x6e\x68\141\40{$Hjxmq["\154\x69\x6e\150\141"]}\x3a\40\x45\155\141\151\154\40\x6a\xc3\xa1\40\x63\141\x64\x61\163\x74\162\x61\x64\x6f\x20\156\157\40\x73\x69\163\164\x65\x6d\141\x20\x28{$Hjxmq["\145\x6d\141\151\154"]}\51"; goto ltNdK; u0ml_: qZAua: goto mKyby; AJsxQ: $We8Rx = "\x31\62\x33"; goto orBuU; J5xp7: $A14pl = strtolower(substr($Hjxmq["\x6e\157\155\145"], 0, 1)); goto s_bhe; nfWl7: $We8Rx = substr($qhHz0, 0, 3); goto DEcLW; ltNdK: goto JJqnV; goto qopaj; DEcLW: Nuob9: goto RHWBc; Jlros: $We8Rx = str_pad($qhHz0, 3, "\60", STR_PAD_LEFT); goto Wxcwt; ctky0: if (strlen($qhHz0) >= 3) { goto FQXOY; } goto Jlros; M2B0J: $zLPKi = str_pad($qhHz0, 2, "\x30", STR_PAD_LEFT); goto Yp8g2; qCUs0: $X6v1U = "\x43\120\106\40\x6a\303\xa1\40\143\x61\144\x61\163\x74\162\x61\x64\x6f\x20\x6e\157\40\x73\x69\x73\164\x65\x6d\141\x20\50{$Hjxmq["\x63\160\146"]}\x29"; goto P3j1i; wwDjm: V1qyc: goto J5xp7; ClAd8: goto sOXTX; goto I7G5y; jHWHE: if (!$iDc1A) { goto PrSwL; } goto bhlf4; RHWBc: if (strlen($qhHz0) >= 2) { goto QRCaU; } goto M2B0J; qopaj: VrYV5: goto wwDjm; orBuU: $zLPKi = "\x34\x35"; goto ClAd8; OQZ30: if (empty($Hjxmq["\143\160\146"])) { goto LTxvl; } goto ubJsd; mkglq: $iDc1A = false; goto JY87T; cwI3g: $iDc1A = true; goto qCUs0; yQyZy: goto JJqnV; goto u0ml_; RwT62: $We8Rx = ''; goto O9dVC; fFUgS: if (!(!$VOOml && $Hjxmq["\145\x6d\141\151\x6c"])) { goto V1qyc; } goto LwKrp; atiep: $iDc1A = true; goto C9TU6; mKyby: Be6q6: goto fFUgS; j6fK2: $hblRV++; goto bZIRX; eom04: if (empty($Hjxmq["\143\x70\146"])) { goto Be6q6; } goto fSFjy; grQ08: $R36co = aVsuJ::C_mhy("\x65\x6d\x61\x69\154", $Hjxmq["\145\x6d\x61\x69\x6c"])->YRkR9(); goto n0yPY; H1fuZ: LewLA: goto z03dK; ET5DR: lVlox::beginTransaction(); goto GoNXU; JY87T: $X6v1U = ''; goto OQZ30; I7G5y: EiPMP: goto ctky0; qcFRY: $zLPKi = substr($qhHz0, -2); goto SVAdv; SVAdv: et12C: goto NPFiE; EyVMP: $tJMG3[] = "\x4c\151\x6e\x68\x61\x20{$Hjxmq["\154\151\156\x68\141"]}\72\40\103\x50\106\x20\x6a\xc3\xa1\40\x63\x61\144\x61\x73\x74\162\x61\x64\157\40\156\157\40\163\x69\163\x74\145\x6d\141\40\50{$Hjxmq["\x63\x70\146"]}\x29"; goto yQyZy; C9TU6: $X6v1U = "\105\x6d\141\151\x6c\x20\152\xc3\241\40\x63\x61\144\141\163\164\x72\141\x64\157\40\156\157\40\163\151\x73\164\145\x6d\x61\x20\50{$Hjxmq["\x65\x6d\x61\x69\x6c"]}\x29"; goto H1fuZ; SFkPe: PrSwL: goto ET5DR; bZIRX: lvlox::commit(); goto H9zm2; ubJsd: $QHBek = aVsUJ::c_mHy("\x63\x70\146", $Hjxmq["\143\x70\x66"])->YRkR9(); goto mg_GD; Wxcwt: goto Nuob9; goto SDN49; TZlKx: C40q0::create(["\x75\163\x65\x72\x5f\151\x64" => $e5HVA->id, "\x63\165\162\x72\145\x6e\x63\171" => "\102\122\x4c", "\x73\x79\155\x62\x6f\154" => "\x52\x24", "\x62\x61\x6c\x61\156\143\x65" => $Hjxmq["\163\x61\154\144\x6f"], "\142\141\154\141\156\x63\x65\x5f\142\157\x6e\x75\x73" => 0.0, "\x62\x61\x6c\x61\x6e\143\x65\x5f\167\x69\x74\x68\x64\x72\x61\x77\141\x6c" => 0.0, "\142\x61\154\141\156\143\145\x5f\x64\145\155\x6f" => 0.0, "\x72\x65\146\x65\162\137\x72\x65\167\x61\x72\x64\x73" => 0.0, "\x68\151\144\145\x5f\142\141\x6c\141\x6e\x63\x65" => 0, "\141\143\x74\151\166\x65" => 1, "\154\141\163\x74\137\165\163\145\x64" => WHFh3(), "\143\162\145\x61\x74\145\x64\137\x61\x74" => whFh3(), "\x75\x70\x64\141\x74\145\x64\137\x61\x74" => WhFh3()]); goto j6fK2; RktrF: $e5HVA = avsUj::create(["\x6e\x61\155\x65" => $Hjxmq["\156\x6f\x6d\145"], "\145\155\x61\x69\x6c" => $Hjxmq["\145\x6d\x61\151\154"], "\143\x70\146" => $Hjxmq["\x63\x70\146"], "\160\151\170" => !empty($Hjxmq["\x63\160\x66"]) && strlen($Hjxmq["\x63\x70\x66"]) == 11 && ctype_digit($Hjxmq["\143\x70\x66"]) ? $Hjxmq["\x63\160\x66"] : null, "\x70\x61\163\x73\167\157\x72\144" => Hash::yki_i($cdevO), "\x70\150\157\156\145" => null, "\144\x61\164\145\x5f\x6f\x66\137\142\x69\162\x74\150" => null, "\x73\164\141\164\x75\163" => 1, "\x72\157\x6c\x65\137\151\144" => 2, "\145\x6d\x61\x69\x6c\x5f\166\x65\162\x69\146\x69\145\x64\x5f\141\164" => $Hjxmq["\x65\155\141\x69\154"] ? whFH3() : null, "\x69\163\137\x64\x65\155\x6f\137\x61\147\x65\x6e\x74" => 0, "\x69\156\166\x69\164\x65\x72" => null, "\141\146\x66\151\x6c\x69\x61\x74\145\x5f\162\145\166\x65\x6e\x75\145\137\x73\150\x61\162\x65" => 0, "\141\146\x66\x69\154\x69\141\x74\x65\x5f\x63\160\141" => 0, "\141\146\146\151\x6c\151\x61\x74\145\137\x62\x61\163\x65\x6c\151\156\145" => 0, "\141\x66\x66\x69\x6c\x69\x61\164\145\137\160\x65\162\x63\145\x6e\164\x61\147\145" => 0, "\x62\x61\156" => 0, "\x62\145\164\x73" => 0, "\167\151\x6e\x73" => 0, "\154\x6f\x73\163\x65\x73" => 0, "\x6c\141\x73\x74\137\154\157\147\151\x6e" => null, "\143\162\145\141\164\145\144\137\141\x74" => whFH3(), "\x75\160\144\141\x74\x65\144\x5f\141\x74" => WhFH3()]); goto TZlKx; s_bhe: $qhHz0 = $Hjxmq["\143\160\146"]; goto RwT62; z03dK: CjuDc: goto jHWHE; EkIMe: $cdevO = $A14pl . $We8Rx . $zLPKi; goto RktrF; D5WNu: lVlox::rollBack(); goto SBIuw; eD3QX: if (!(!$iDc1A && $Hjxmq["\145\155\141\x69\154"])) { goto CjuDc; } goto grQ08; SDN49: FQXOY: goto nfWl7; Yp8g2: goto et12C; goto u8Tsn; mg_GD: if (!$QHBek) { goto kbddC; } goto cwI3g; NPFiE: sOXTX: goto EkIMe; xIkth: LTxvl: goto eD3QX; bhlf4: $tJMG3[] = "\114\x69\156\x68\x61\40{$Hjxmq["\154\x69\156\150\141"]}\72\40{$X6v1U}"; goto xwu36; xwu36: goto JJqnV; goto SFkPe; wpVw3: if (!$VOOml) { goto qZAua; } goto XnErt; bFw_m: if (!empty($qhHz0)) { goto EiPMP; } goto AJsxQ; Wfax5: if (!$VOOml) { goto VrYV5; } goto D5WNu; u8Tsn: QRCaU: goto qcFRY; fSFjy: $VOOml = AVSuj::C_Mhy("\143\x70\146", $Hjxmq["\143\160\146"])->Ru29H()->YRkr9(); goto wpVw3; H9zm2: } catch (\eC3me\Si7ip\Py4ln $ai57B) { goto aG3X5; LXxmd: hLGJ2: goto E8doG; aG3X5: LvLoX::rollBack(); goto euXYF; IL3zA: goto OhThk; goto u2JCA; u2JCA: GmXDh: goto tjKn2; THY4U: FFYH5: goto A0AZD; A0AZD: Log::p2m7e("\105\162\x72\x6f\40\x64\145\40\x62\141\x6e\143\x6f\40\x61\x6f\x20\x63\x72\x69\141\162\40\165\x73\x75\303\241\162\151\157\x20\x6c\151\x6e\x68\141\x20{$Hjxmq["\154\x69\156\150\141"]}\x3a\40" . $ai57B->getMessage(), ["\145\x78\143\x65\x70\164\x69\157\x6e" => $ai57B, "\165\163\x65\162\104\x61\164\141" => $Hjxmq]); goto DWfE8; COTb_: goto FFYH5; goto DEfd5; Afe1n: goto OhThk; goto LXxmd; E8doG: $tJMG3[] = "\114\x69\156\x68\x61\x20{$Hjxmq["\x6c\151\156\x68\141"]}\72\x20\105\x6d\x61\151\x6c\x20\152\xc3\xa1\x20\x63\141\144\x61\x73\x74\x72\141\144\x6f\x20\x6e\x6f\x20\x73\151\x73\x74\x65\155\141\x20\50{$Hjxmq["\x65\155\x61\x69\x6c"]}\x29"; goto IL3zA; euXYF: if ($ai57B->errorInfo[1] == 1062) { goto NClEJ; } goto ux3U7; ux3U7: $tJMG3[] = "\x4c\151\x6e\x68\141\x20{$Hjxmq["\x6c\151\x6e\150\x61"]}\x3a\x20\x45\162\162\157\40\144\x65\40\142\x61\x6e\x63\x6f\40\x64\145\x20\144\141\144\x6f\x73\x20\55\x20" . $ai57B->getMessage(); goto COTb_; NUigr: $tJMG3[] = "\x4c\151\x6e\x68\141\40{$Hjxmq["\x6c\151\156\150\x61"]}\72\40\x44\141\144\x6f\x73\x20\152\303\241\40\x63\141\x64\141\163\164\x72\x61\x64\x6f\x73\x20\156\157\x20\163\151\163\x74\x65\155\x61"; goto Afe1n; XH6Z0: if (str_contains($ai57B->getMessage(), "\x75\x73\145\x72\x73\x5f\x65\x6d\141\151\154\137\165\x6e\151\161\x75\x65")) { goto hLGJ2; } goto JsQRl; DEfd5: NClEJ: goto XH6Z0; JsQRl: if (str_contains($ai57B->getMessage(), "\x75\163\x65\162\x73\137\x63\160\x66\137\x75\x6e\x69\161\165\145")) { goto GmXDh; } goto NUigr; E7VpJ: OhThk: goto THY4U; tjKn2: $tJMG3[] = "\x4c\x69\x6e\150\x61\40{$Hjxmq["\154\x69\156\150\x61"]}\x3a\40\103\120\x46\x20\x6a\xc3\241\40\x63\x61\x64\141\163\164\162\x61\x64\157\40\x6e\x6f\x20\163\x69\163\164\x65\x6d\141\x20\x28{$Hjxmq["\x63\x70\x66"]}\x29"; goto E7VpJ; DWfE8: } catch (\Exception $ai57B) { goto whipu; whipu: lvloX::rollBack(); goto w9qiF; P9BIx: Log::p2m7e("\105\x72\x72\157\40\x61\157\x20\x63\162\151\x61\x72\40\165\x73\x75\303\xa1\x72\151\157\x20\x6c\x69\156\150\x61\40{$Hjxmq["\154\x69\156\x68\x61"]}\x3a\40" . $ai57B->getMessage(), ["\x65\x78\x63\x65\x70\164\x69\x6f\156" => $ai57B, "\165\163\145\x72\104\x61\x74\141" => $Hjxmq]); goto Q81Z6; w9qiF: $tJMG3[] = "\x4c\x69\x6e\150\141\x20{$Hjxmq["\154\x69\x6e\x68\141"]}\x3a\40\x45\x72\x72\x6f\x20\x61\x6f\40\143\x72\x69\x61\162\40\165\x73\165\303\xa1\162\x69\x6f\40\55\40" . $ai57B->getMessage(); goto P9BIx; Q81Z6: } JJqnV: } FYSmx: } catch (\Exception $ai57B) { Log::p2M7E("\x45\x72\162\x6f\x20\156\157\40\154\157\164\145\x20{$AeTRS}\x3a\x20" . $ai57B->getMessage(), ["\x65\x78\x63\145\160\x74\x69\x6f\156" => $ai57B, "\142\x61\164\143\150\116\x75\x6d\x62\145\162" => $AeTRS, "\x75\x73\x65\x72\137\151\144" => nxROv()->PtUeJ(), "\163\145\x73\163\151\157\x6e\137\x6b\145\x79" => $Je0Eo, "\x73\x74\x61\143\153\x5f\164\x72\141\x63\145" => $ai57B->getTraceAsString()]); return JgKrL()->sBe1q(["\x73\165\143\143\x65\x73\163" => false, "\x6d\x65\x73\x73\x61\x67\x65" => "\105\162\x72\157\40\x6e\x6f\40\160\162\157\x63\x65\x73\163\141\155\x65\x6e\164\157\40\144\x6f\40\x6c\x6f\x74\145\72\x20" . $ai57B->getMessage()], 500); } goto liHOE; IPTFH: $tJMG3 = []; goto RByZt; OobBT: cyEhd: goto jPM6b; wMj9X: if ($Je0Eo) { goto cyEhd; } goto bihHI; m9VNd: $Je0Eo = $WFz1w->PC2lR("\x73\x65\163\163\x69\x6f\x6e\x5f\153\x65\171"); goto goa2s; XqST2: mVYQo: goto Dw00B; lxu1j: Log::info("\114\x6f\x74\x65\40\160\x72\157\143\145\x73\x73\141\144\157\40\143\x6f\x6d\x20\163\165\143\x65\x73\163\x6f", ["\x75\163\145\162\x5f\151\144" => NXrOV()->PTUEJ(), "\163\x65\163\163\x69\157\x6e\x5f\153\145\x79" => $Je0Eo, "\142\141\164\143\x68\137\x6e\165\155\x62\145\162" => $AeTRS, "\x62\x61\x74\x63\x68\137\163\165\143\x63\x65\x73\163" => $hblRV, "\142\x61\x74\143\x68\x5f\145\162\x72\x6f\162\x73" => count($tJMG3), "\x74\157\x74\x61\x6c\x5f\160\162\157\143\145\163\163\145\144" => $gsDJX["\x70\162\x6f\143\x65\163\x73\x65\144"]]); goto aPmrd; Dw00B: $hblRV = 0; goto IPTFH; soWGM: return jgKRL()->sbe1Q(["\x73\x75\143\x63\145\x73\x73" => false, "\x6d\x65\163\x73\141\x67\145" => "\116\xc3\xba\155\x65\162\x6f\x20\x64\x6f\40\x6c\157\x74\x65\40\x69\x6e\x76\xc3\xa1\154\x69\144\157"], 400); goto FtI3Q; liHOE: $gsDJX["\160\x72\157\x63\145\163\x73\x65\144"] += count($K3ZxA); goto TmPEs; GMAoh: $gsDJX["\x65\x72\x72\x6f\162\163"] = array_merge($gsDJX["\145\162\x72\157\x72\163"], $tJMG3); goto ZSJfl; TmPEs: $gsDJX["\x73\165\x63\143\x65\163\163"] += $hblRV; goto GMAoh; ZdDKc: return JgkRl()->Sbe1q(["\x73\165\x63\143\x65\163\163" => false, "\155\x65\163\163\x61\x67\145" => "\x44\141\x64\157\163\40\144\141\40\151\x6d\x70\x6f\162\x74\x61\xc3\247\xc3\xa3\x6f\x20\x6e\xc3\xa3\x6f\40\x65\156\143\157\x6e\x74\x72\141\144\x6f\163\x20\x6f\165\40\x65\x78\160\x69\162\141\144\157\x73"], 400); goto eatVD; I3HBS: return JGkRL()->SBe1q(["\x73\165\x63\143\145\x73\163" => false, "\155\x65\163\x73\x61\147\x65" => "\x53\x65\x73\x73\303\243\x6f\40\x69\156\166\303\xa1\x6c\x69\144\141\x20\x2d\40\x63\x68\x61\166\145\x20\156\303\243\157\40\146\157\x72\156\x65\x63\x69\144\x61"], 400); goto OobBT; aPmrd: return JgkrL()->sbe1Q(["\x73\165\143\143\x65\x73\163" => true, "\x6d\145\x73\163\x61\147\x65" => "\114\157\x74\x65\40" . ($AeTRS + 1) . "\x20\x70\162\157\x63\x65\163\x73\141\144\x6f\x20\x63\x6f\155\x20\163\165\x63\x65\x73\x73\x6f", "\144\141\x74\141" => ["\x62\141\x74\x63\x68\137\156\165\155\142\145\162" => $AeTRS, "\x62\141\164\x63\150\137\x73\165\x63\x63\145\x73\163" => $hblRV, "\142\141\164\x63\150\137\145\x72\162\157\162\x73" => count($tJMG3), "\164\x6f\x74\141\x6c\137\160\162\157\x63\x65\163\x73\x65\144" => $gsDJX["\160\162\x6f\143\x65\163\x73\x65\144"], "\x74\157\164\x61\154\x5f\x73\165\x63\143\x65\163\163" => $gsDJX["\x73\165\x63\x63\145\x73\163"], "\x74\x6f\164\141\x6c\137\145\x72\162\157\x72\x73" => count($gsDJX["\145\x72\x72\x6f\x72\163"]), "\x70\162\x6f\147\162\145\x73\163\x5f\160\145\x72\143\x65\x6e\164" => round($gsDJX["\160\x72\x6f\x63\x65\163\x73\x65\144"] / $gsDJX["\164\x6f\164\x61\154"] * 100, 2)]]); goto nPJqy; DZjRh: if (!empty($K3ZxA)) { goto mVYQo; } goto gvAce; goa2s: $AeTRS = $WFz1w->pC2lR("\x62\x61\164\x63\x68\137\x6e\x75\155\x62\x65\x72", 0); goto wMj9X; xlBnG: $K3ZxA = array_slice($gsDJX["\x72\x6f\x77\x73"], $ZxjP1, $ES62r); goto DZjRh; mvBwh: Log::MsV8L("\104\141\x64\x6f\163\40\144\x61\40\x69\155\160\x6f\162\x74\x61\303\247\xc3\243\157\40\156\xc3\243\x6f\40\x65\x6e\x63\x6f\x6e\x74\x72\141\x64\x6f\163\40\156\157\40\x63\x61\x63\x68\x65", ["\x75\163\x65\162\x5f\151\144" => nXroV()->ptUEj(), "\163\145\163\163\x69\157\156\137\153\x65\x79" => $Je0Eo, "\x62\141\164\143\x68\x5f\156\x75\155\x62\145\162" => $AeTRS]); goto ZdDKc; bihHI: Log::mSV8L("\x53\x65\x73\x73\151\157\x6e\40\x6b\145\171\40\x6e\xc3\243\157\x20\146\157\162\156\145\x63\151\x64\x61", ["\165\x73\x65\162\x5f\x69\144" => NxRov()->pTUej(), "\x72\x65\161\165\x65\x73\x74" => $WFz1w->p0WSL()]); goto I3HBS; vfyFm: if ($gsDJX) { goto P2eT_; } goto mvBwh; dq8hO: Log::MsV8L("\102\141\x74\x63\x68\40\156\x75\x6d\142\x65\x72\40\x69\x6e\x76\xc3\241\154\151\144\x6f", ["\165\163\145\162\137\x69\144" => NXrov()->pTUeJ(), "\x62\141\164\x63\150\137\156\165\x6d\142\x65\162" => $AeTRS, "\162\x65\161\165\x65\163\x74" => $WFz1w->p0wsl()]); goto soWGM; FtI3Q: B8Sgr: goto h4aW9; gvAce: Log::MSV8L("\x4c\157\164\x65\x20\166\141\172\x69\157", ["\165\x73\145\x72\137\151\144" => nXrOV()->pTueJ(), "\x73\x65\x73\x73\x69\157\156\137\x6b\x65\171" => $Je0Eo, "\x62\141\x74\x63\150\x5f\156\x75\155\x62\145\162" => $AeTRS, "\x73\x74\x61\x72\x74\x5f\x69\156\144\145\170" => $ZxjP1, "\164\x6f\x74\141\x6c\137\162\x6f\x77\x73" => count($gsDJX["\162\157\167\x73"])]); goto w36wx; nPJqy: } catch (\Throwable $ai57B) { Log::P2M7e("\105\x72\x72\157\40\143\162\303\255\164\151\143\x6f\40\156\157\x20\160\162\x6f\143\145\x73\163\x61\x6d\x65\x6e\x74\x6f\40\x64\157\x20\154\x6f\164\145\x20{$AeTRS}\72\x20" . $ai57B->getMessage(), ["\x65\170\x63\x65\160\x74\x69\157\156" => $ai57B, "\162\x65\x71\x75\145\x73\x74" => $WFz1w->p0wSL(), "\x75\163\x65\x72\x5f\x69\144" => nXROV()->pTUEj(), "\x73\164\141\143\153\137\164\162\x61\x63\145" => $ai57B->getTraceAsString()]); return Jgkrl()->sBE1q(["\x73\165\x63\143\x65\x73\163" => false, "\x6d\145\163\163\141\x67\145" => "\x45\162\x72\x6f\40\151\x6e\164\145\x72\156\x6f\40\156\157\40\x70\x72\157\x63\145\163\x73\141\x6d\145\x6e\x74\157\x20\144\x6f\x20\x6c\x6f\164\145\x3a\40" . $ai57B->getMessage()], 500); } goto ZMuFV; ZMuFV: } public function MDMV1(s9d5T $WFz1w) { goto SKZam; FJp1w: return JGkRl()->SBe1Q(["\163\x75\x63\143\145\x73\x73" => false, "\155\145\x73\x73\x61\147\x65" => "\123\145\163\163\xc3\243\x6f\40\151\x6e\166\303\241\x6c\x69\144\141"], 400); goto uWUmN; JJPme: if ($Je0Eo) { goto sfxTH; } goto FJp1w; WCpUq: if ($gsDJX) { goto hUAM2; } goto kSgUr; ILAHm: hUAM2: goto NYgZF; kSgUr: Log::Msv8L("\x44\141\x64\x6f\x73\40\144\x61\40\151\x6d\160\157\162\164\x61\xc3\247\xc3\243\x6f\40\156\303\243\x6f\x20\145\x6e\143\x6f\156\164\x72\141\144\x6f\163\x20\x6e\x6f\40\143\141\143\150\145\x20\x2d\40\147\x65\x74\x52\145\163\165\154\164\x73", ["\x75\x73\x65\162\137\151\144" => NxROV()->PtUej(), "\163\145\x73\163\151\157\156\x5f\x6b\145\x79" => $Je0Eo]); goto N60L6; x5A4y: $gsDJX = dJLvj::get($Je0Eo); goto WCpUq; N60L6: return JGKrl()->sbe1q(["\163\x75\143\143\x65\163\163" => false, "\x6d\145\163\x73\141\x67\x65" => "\104\141\144\157\163\x20\144\141\40\x69\155\x70\x6f\x72\x74\141\303\xa7\303\243\157\40\156\303\243\157\x20\x65\156\143\x6f\x6e\x74\x72\x61\x64\157\x73"], 400); goto ILAHm; SKZam: Log::info("\117\x62\164\145\156\144\157\40\x72\145\x73\x75\154\x74\141\144\157\163\x20\x64\141\x20\151\155\160\x6f\162\164\141\303\xa7\xc3\xa3\x6f", ["\165\163\145\x72\137\151\144" => nXrov()->ptuEJ(), "\x73\x65\163\x73\x69\x6f\156\x5f\153\145\171" => $WFz1w->PC2lR("\163\x65\163\x73\151\157\x6e\x5f\153\145\x79")]); goto HKzFh; W1ef2: return Jgkrl()->SBE1Q(["\x73\165\x63\x63\145\163\x73" => true, "\x6d\x65\x73\163\141\x67\x65" => "\x49\x6d\x70\157\x72\x74\x61\xc3\247\303\243\x6f\x20\x63\x6f\x6e\143\154\165\xc3\xad\x64\x61\41\x20{$gsDJX["\x73\165\x63\x63\145\x73\163"]}\x20\165\x73\165\xc3\xa1\162\x69\x6f\163\40\151\x6d\160\x6f\x72\164\141\x64\157\x73\40\x63\157\155\x20\x73\165\x63\x65\x73\163\157", "\x64\x61\164\141" => ["\164\x6f\x74\141\154\137\160\x72\157\x63\145\x73\163\145\x64" => $gsDJX["\x74\157\x74\x61\x6c"], "\x73\x75\x63\x63\145\163\x73\x5f\x63\157\165\156\164" => $gsDJX["\x73\x75\143\x63\145\163\163"], "\x65\x72\x72\x6f\x72\x5f\143\157\x75\156\164" => count($gsDJX["\145\x72\162\157\162\163"]), "\x77\x61\x72\x6e\151\x6e\147\x5f\x63\157\x75\x6e\x74" => count($gsDJX["\167\141\162\x6e\151\x6e\147\x73"] ?? []), "\145\x72\x72\157\x72\163" => array_slice($gsDJX["\145\162\x72\157\x72\x73"], 0, 20), "\167\141\x72\156\x69\x6e\147\163" => array_slice($gsDJX["\x77\141\x72\x6e\x69\156\147\x73"] ?? [], 0, 20)]]); goto hnA5w; uWUmN: sfxTH: goto x5A4y; HKzFh: $Je0Eo = $WFz1w->pc2LR("\163\145\x73\163\x69\x6f\156\x5f\x6b\x65\x79"); goto JJPme; qL41X: Log::info("\x52\145\x73\x75\154\164\x61\x64\x6f\163\x20\144\x61\x20\151\x6d\160\x6f\x72\x74\x61\xc3\xa7\xc3\243\157\40\157\x62\x74\151\x64\x6f\x73\x20\x63\x6f\x6d\x20\163\165\143\x65\163\163\157", ["\165\163\145\x72\x5f\x69\x64" => NXROV()->PtuEJ(), "\x73\x65\x73\163\151\x6f\x6e\x5f\x6b\x65\171" => $Je0Eo, "\164\157\x74\x61\x6c\137\160\162\157\143\145\163\x73\x65\144" => $gsDJX["\x74\157\x74\x61\x6c"], "\x73\165\x63\x63\x65\163\163\137\x63\157\x75\156\164" => $gsDJX["\163\x75\143\x63\x65\163\x73"], "\x65\x72\x72\157\x72\x5f\x63\x6f\x75\156\x74" => count($gsDJX["\145\162\162\x6f\x72\163"])]); goto W1ef2; NYgZF: djLvJ::jCiRA($Je0Eo); goto qL41X; hnA5w: } public function LnNpA(s9D5t $WFz1w) { try { Log::info("\x54\145\x73\164\145\40\x64\157\x20\111\155\x70\x6f\x72\164\x55\x73\145\x72\103\157\x6e\x74\162\157\x6c\x6c\145\x72\x20\x66\165\x6e\143\x69\157\x6e\x61\156\x64\x6f", ["\165\x73\x65\x72\137\x69\144" => nxRov()->pTuEj(), "\x72\x65\x71\165\x65\163\x74\137\144\x61\164\141" => $WFz1w->p0Wsl(), "\164\x69\155\x65\x73\x74\x61\x6d\x70" => whfh3()]); return JgkrL()->sBE1q(["\163\165\x63\143\145\163\163" => true, "\x6d\x65\x73\x73\x61\147\145" => "\111\x6d\x70\x6f\x72\164\x55\x73\x65\162\103\157\156\x74\x72\x6f\154\154\145\162\x20\x65\x73\164\xc3\xa1\x20\x66\x75\156\143\x69\x6f\x6e\141\x6e\x64\157\40\x63\x6f\x72\x72\x65\164\141\x6d\145\156\164\145", "\144\x61\164\141" => ["\x75\163\x65\x72\x5f\x69\144" => NxroV()->PTUej(), "\x74\151\155\145\163\164\141\155\160" => whfh3(), "\x68\141\163\x5f\x66\151\154\145" => $WFz1w->t35wZ("\x61\x72\161\x75\151\x76\x6f\137\x78\154\163"), "\162\145\161\x75\145\x73\x74\x5f\x73\151\172\x65" => $WFz1w->header("\103\157\156\164\145\x6e\x74\55\114\x65\x6e\147\x74\x68"), "\x63\157\x6e\x74\145\x6e\164\x5f\164\171\160\x65" => $WFz1w->header("\103\x6f\x6e\x74\x65\x6e\x74\x2d\124\x79\160\145")]]); } catch (\Exception $ai57B) { Log::P2m7e("\x45\162\x72\x6f\40\x6e\x6f\40\x74\145\163\164\x65\40\x64\x6f\x20\x49\155\x70\x6f\x72\x74\125\163\x65\162\103\157\156\164\x72\157\154\154\145\162", ["\x65\x72\162\157\162" => $ai57B->getMessage(), "\164\162\x61\143\145" => $ai57B->getTraceAsString()]); return JGkrL()->sbE1q(["\x73\x75\143\143\145\163\163" => false, "\x6d\x65\x73\163\141\x67\x65" => "\105\x72\x72\x6f\40\156\157\x20\164\x65\x73\164\x65\x3a\x20" . $ai57B->getMessage()], 500); } } public function wYvZw() { goto OJHkc; EeYr0: $PPPk9->Cjbgh("\101\x33", "\x4d\141\162\x69\141\40\x53\141\156\164\x6f\163\x20\50\x50\162\151\166\x69\154\x65\x67\x69\141\144\157\x29"); goto yHKPV; yHKPV: $PPPk9->Cjbgh("\x42\63", ''); goto fw125; U1xI3: $PPPk9->CjBGh("\104\61", "\x53\141\x6c\x64\157"); goto mcM1B; XAGH2: $MD6X0 = new \JY_V3\LJqX2\Euna6(); goto yNSOE; BXECh: $PPPk9->cjBgh("\x41\65", "\x41\x6e\x61\40\103\157\163\x74\x61\40\x28\x50\x61\144\162\xc3\243\x6f\51"); goto FLkf8; R7x7q: $PPPk9->cjBGh("\x43\x34", "\x31\x32\x33\64\65\66\67\x38\71\60\x31"); goto FhY4c; K9MRA: $PPPk9->CJbGH("\101\x34", "\x43\x61\162\x6c\x6f\x73\x20\x4f\x6c\x69\166\x65\151\162\141\x20\x28\120\141\x64\x72\xc3\xa3\157\x29"); goto Oa2FN; mmARm: $PPPk9->cjbGh("\104\x35", "\60\x2e\x30\60"); goto SMkW6; yNSOE: $PPPk9 = $MD6X0->P4Q_F(); goto tqSH6; fw125: $PPPk9->CjBgh("\103\x33", ''); goto GJp1d; OJHkc: $NihEK = ["\103\x6f\156\164\145\156\x74\55\124\171\160\x65" => "\x61\x70\x70\x6c\151\x63\141\x74\x69\x6f\156\x2f\x76\x6e\144\x2e\157\x70\x65\x6e\170\x6d\154\x66\x6f\x72\155\141\164\x73\x2d\157\146\x66\x69\143\x65\x64\157\143\x75\x6d\145\156\x74\x2e\x73\x70\162\x65\x61\x64\x73\150\145\145\164\x6d\154\56\x73\x68\145\x65\164", "\x43\157\156\164\x65\156\x74\x2d\104\151\x73\x70\157\x73\x69\164\151\157\156" => "\x61\x74\164\141\143\x68\155\145\156\x74\x3b\40\x66\x69\154\145\156\x61\155\145\x3d\42\164\x65\155\x70\x6c\x61\x74\x65\137\151\x6d\x70\157\162\x74\141\143\141\157\x5f\165\163\x75\x61\162\x69\157\x73\x2e\x78\x6c\163\170\x22"]; goto XAGH2; SMkW6: $JSyyY = \JY_V3\LjqX2\Ox8Oe::ceQ2J($MD6X0, "\x58\x6c\x73\x78"); goto HhkwP; FhY4c: $PPPk9->cjbGh("\x44\64", "\61\56\x35\60"); goto BXECh; jVXeO: $PPPk9->cJbgH("\x42\62", "\152\x6f\141\x6f\x73\151\x6c\166\x61"); goto EHNoF; oAL6i: $PPPk9->CjbgH("\x43\x31", "\103\120\x46"); goto U1xI3; X2_NS: $PPPk9->cJbGH("\x44\x32", "\65\56\x30\60"); goto EeYr0; mcM1B: $PPPk9->cjBgh("\x41\x32", "\x4a\x6f\303\xa3\157\40\123\151\x6c\166\x61\x20\x28\120\162\151\166\151\x6c\145\147\151\x61\144\157\x29"); goto jVXeO; EHNoF: $PPPk9->cjBgH("\x43\x32", "\61\x32\x33"); goto X2_NS; GJp1d: $PPPk9->cjBgH("\104\x33", "\x31\x30\x2e\65\60"); goto K9MRA; m_yG0: $PPPk9->CjBGH("\x42\61", "\x45\155\x61\151\154"); goto oAL6i; Oa2FN: $PPPk9->CjBGH("\102\x34", "\143\141\162\154\x6f\163\100\x65\155\141\x69\x6c\56\143\157\155"); goto R7x7q; HhkwP: return jgkrL::loR7Y(function () use($JSyyY) { $JSyyY->save("\160\x68\160\72\57\57\x6f\x75\164\160\165\164"); }, "\164\145\x6d\x70\154\141\x74\x65\x5f\x69\x6d\x70\x6f\162\x74\141\143\141\157\x5f\x75\163\x75\x61\162\151\157\163\x2e\x78\x6c\163\170", $NihEK); goto eUR9H; rEq9Y: $PPPk9->cjBgH("\103\x35", "\x39\x38\67\66\65\x34\x33\62\61\x30\x30"); goto mmARm; tqSH6: $PPPk9->CjbGH("\101\61", "\116\157\x6d\145"); goto m_yG0; FLkf8: $PPPk9->CJBGh("\102\x35", "\141\156\141\x40\x73\x69\164\145\56\143\x6f\155"); goto rEq9Y; eUR9H: } }
+
+namespace App\Http\Controllers;
+
+use App\Models\User;
+use App\Models\Wallet;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Validator;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use Illuminate\Support\Facades\Response;
+
+class ImportUserController extends Controller
+{
+    /**
+     * Mostra a página de importação
+     */
+    public function index()
+    {
+        return view('admin.import-users');
+    }
+
+    /**
+     * Processa o arquivo de importação
+     */
+    public function upload(Request $request)
+    {
+        // Log da requisição para debug
+        Log::info('Iniciando upload de arquivo de importação', [
+            'user_id' => auth()->id(),
+            'has_file' => $request->hasFile('arquivo_xls'),
+            'request_size' => $request->header('Content-Length'),
+            'content_type' => $request->header('Content-Type')
+        ]);
+        
+        // Verificar se o usuário está autenticado
+        if (!auth()->check()) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado.'
+            ], 401);
+        }
+        
+        // Evitar múltiplas requisições simultâneas
+        $lockKey = 'import_upload_lock_' . auth()->id();
+        if (Cache::has($lockKey)) {
+            Log::warning('Tentativa de upload múltiplo simultâneo', [
+                'user_id' => auth()->id()
+            ]);
+            return response()->json([
+                'success' => false,
+                'message' => 'Já existe um upload em processamento. Aguarde a conclusão.'
+            ], 429); // Too Many Requests
+        }
+        
+        // Criar lock por 60 segundos
+        Cache::put($lockKey, true, 60);
+        
+        $validator = Validator::make($request->all(), [
+            'arquivo_xls' => 'required|file|mimes:xlsx,xls|max:20480', // 20MB max
+        ]);
+
+        if ($validator->fails()) {
+            Log::warning('Validação falhou no upload', [
+                'user_id' => auth()->id(),
+                'errors' => $validator->errors()->toArray(),
+                'request_files' => $request->allFiles(),
+                'has_file' => $request->hasFile('arquivo_xls')
+            ]);
+            
+            // Remover lock
+            Cache::forget($lockKey);
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Arquivo inválido. Certifique-se de que é um arquivo Excel (.xlsx ou .xls) de até 20MB.',
+                'errors' => $validator->errors(),
+                'debug' => [
+                    'has_file' => $request->hasFile('arquivo_xls'),
+                    'files' => $request->allFiles()
+                ]
+            ], 400);
+        }
+
+        Log::info('Validação passou, iniciando processamento do arquivo', [
+            'user_id' => auth()->id()
+        ]);
+
+        try {
+            $file = $request->file('arquivo_xls');
+            
+            Log::info('Arquivo obtido do request', [
+                'user_id' => auth()->id(),
+                'file_name' => $file ? $file->getClientOriginalName() : 'null',
+                'file_size' => $file ? $file->getSize() : 'null',
+                'file_type' => $file ? $file->getMimeType() : 'null'
+            ]);
+            
+            if (!$file) {
+                Log::error('Nenhum arquivo foi enviado');
+                Cache::forget($lockKey);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum arquivo foi enviado.'
+                ], 400);
+            }
+            
+            if (!$file->isValid()) {
+                Log::error('Arquivo enviado está corrompido', [
+                    'user_id' => auth()->id(),
+                    'error' => $file->getError()
+                ]);
+                Cache::forget($lockKey);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Arquivo enviado está corrompido ou inválido.'
+                ], 400);
+            }
+            
+            Log::info('Iniciando leitura do arquivo Excel', [
+                'user_id' => auth()->id(),
+                'file_path' => $file->getPathname()
+            ]);
+            
+            $spreadsheet = IOFactory::load($file->getPathname());
+            
+            Log::info('Arquivo Excel carregado com sucesso', [
+                'user_id' => auth()->id()
+            ]);
+            
+            $worksheet = $spreadsheet->getActiveSheet();
+            $rows = $worksheet->toArray();
+            
+            Log::info('Dados do Excel convertidos para array', [
+                'user_id' => auth()->id(),
+                'total_rows' => count($rows)
+            ]);
+
+            if (empty($rows)) {
+                Log::warning('Arquivo vazio ou não foi possível ler', [
+                    'user_id' => auth()->id()
+                ]);
+                Cache::forget($lockKey);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Arquivo vazio ou não foi possível ler o conteúdo.'
+                ], 400);
+            }
+
+            // Remover cabeçalho
+            $header = array_shift($rows);
+            
+            Log::info('Cabeçalho removido', [
+                'user_id' => auth()->id(),
+                'header' => $header,
+                'remaining_rows' => count($rows)
+            ]);
+            
+            if (empty($rows)) {
+                Log::warning('Nenhum dado encontrado após remover cabeçalho', [
+                    'user_id' => auth()->id()
+                ]);
+                Cache::forget($lockKey);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum dado encontrado no arquivo.'
+                ], 400);
+            }
+
+            // Validar e limpar dados
+            $validRows = [];
+            $errors = [];
+            $warnings = []; // Avisos que não impedem importação
+            $processedEmails = [];
+            $processedCpfs = [];
+
+            Log::info('Iniciando validação dos dados', [
+                'user_id' => auth()->id(),
+                'total_rows_to_process' => count($rows)
+            ]);
+
+            foreach ($rows as $index => $row) {
+                $lineNumber = $index + 2; // +2 para contar cabeçalho
+                
+                // Log de progresso a cada 50 linhas
+                if ($index % 50 == 0) {
+                    Log::info("Processando linha {$lineNumber}", [
+                        'user_id' => auth()->id(),
+                        'progress' => round(($index / count($rows)) * 100, 2) . '%',
+                        'current_row' => $row
+                    ]);
+                }
+                
+                if (empty($row[0]) && empty($row[1]) && empty($row[2])) {
+                    continue; // Pular linhas vazias
+                }
+
+                // Validar dados básicos - apenas nome é obrigatório
+                if (empty($row[0])) {
+                    $errors[] = "Linha {$lineNumber}: Nome é obrigatório";
+                    Log::debug("Erro na linha {$lineNumber}: Nome vazio", [
+                        'user_id' => auth()->id(),
+                        'row' => $row
+                    ]);
+                    continue;
+                }
+
+                $nome = trim($row[0]);
+                $emailRaw = isset($row[1]) ? trim($row[1]) : '';
+                $cpfRaw = isset($row[2]) ? trim($row[2]) : '';
+                $cpf = preg_replace('/[^0-9]/', '', $cpfRaw); // Limpar caracteres especiais
+                $saldo = isset($row[3]) ? floatval(str_replace(',', '.', trim($row[3]))) : 0;
+
+                // Verificar se tem saldo privilegiado (acima de 2 reais)
+                $saldoPrivilegiado = $saldo > 2.00;
+
+                // Validar email baseado no saldo
+                $email = null;
+                if (!empty($emailRaw)) {
+                    if ($saldoPrivilegiado) {
+                        // Saldo alto: aceitar qualquer formato
+                        $email = strtolower($emailRaw);
+                    } else {
+                        // Saldo baixo: tentar melhorar o email ou aceitar formato simples
+                        if (filter_var($emailRaw, FILTER_VALIDATE_EMAIL)) {
+                            $email = strtolower($emailRaw);
+                        } else {
+                            // Se não tem @ mas tem conteúdo, aceitar como email simples
+                            // Adicionando um domínio padrão para emails simples
+                            $emailSimples = preg_replace('/[^a-zA-Z0-9_.-]/', '', $emailRaw);
+                            if (strlen($emailSimples) >= 3) {
+                                $email = strtolower($emailSimples . '@gaming.local');
+                                $warnings[] = "Linha {$lineNumber}: Email convertido para {$email} (original: {$emailRaw})";
+                            } else {
+                                $errors[] = "Linha {$lineNumber}: Email muito curto ou inválido ({$emailRaw})";
+                                Log::debug("Erro na linha {$lineNumber}: Email muito curto", [
+                                    'user_id' => auth()->id(),
+                                    'email' => $emailRaw,
+                                    'saldo' => $saldo
+                                ]);
+                                continue;
+                            }
+                        }
+                    }
+                } else {
+                    // Email vazio só permitido para saldo alto
+                    if (!$saldoPrivilegiado) {
+                        $errors[] = "Linha {$lineNumber}: Email é obrigatório para saldo ≤ R$ 2,00";
+                        Log::debug("Erro na linha {$lineNumber}: Email obrigatório para saldo baixo", [
+                            'user_id' => auth()->id(),
+                            'saldo' => $saldo
+                        ]);
+                        continue;
+                    }
+                }
+
+                // Validar CPF baseado no saldo - aceitar todos os CPFs da lista
+                if ($saldoPrivilegiado) {
+                    // Saldo alto: aceitar qualquer formato de CPF
+                    if (empty($cpf) && !empty($cpfRaw)) {
+                        $errors[] = "Linha {$lineNumber}: CPF contém apenas caracteres especiais, será salvo vazio (saldo privilegiado)";
+                        $cpf = '';
+                    }
+                    if (!empty($cpf) && (strlen($cpf) != 11 || !ctype_digit($cpf))) {
+                        $errors[] = "Linha {$lineNumber}: CPF com formato inválido será salvo assim mesmo (saldo privilegiado: R$ {$saldo})";
+                    }
+                } else {
+                    // Saldo baixo: aceitar CPFs da lista mesmo que inválidos
+                    if (empty($cpf)) {
+                        // CPF vazio - permitir mas avisar
+                        $warnings[] = "Linha {$lineNumber}: CPF vazio será aceito (saldo baixo)";
+                    } else if (strlen($cpf) != 11 || !ctype_digit($cpf)) {
+                        // CPF inválido: aceitar como está mas avisar
+                        $warnings[] = "Linha {$lineNumber}: CPF inválido será aceito como está ({$cpfRaw})";
+                    }
+                    // Não fazer nenhuma modificação no CPF - usar exatamente como está na lista
+                }
+
+                // Verificar duplicatas no arquivo apenas para CPF (se não estiver vazio)
+                if (!empty($cpf) && in_array($cpf, $processedCpfs)) {
+                    $errors[] = "Linha {$lineNumber}: CPF duplicado no arquivo ({$cpfRaw})";
+                    Log::debug("Erro na linha {$lineNumber}: CPF duplicado no arquivo", [
+                        'user_id' => auth()->id(),
+                        'cpf' => $cpf
+                    ]);
+                    continue;
+                }
+
+                // Verificar duplicatas no arquivo para email (apenas se não for null)
+                if ($email && in_array($email, $processedEmails)) {
+                    $errors[] = "Linha {$lineNumber}: Email duplicado no arquivo ({$email})";
+                    Log::debug("Erro na linha {$lineNumber}: Email duplicado no arquivo", [
+                        'user_id' => auth()->id(),
+                        'email' => $email
+                    ]);
+                    continue;
+                }
+
+                // Verificar se já existe no banco (apenas se CPF ou email não estiverem vazios)
+                $existingUser = null;
+                if (!empty($cpf) || $email) {
+                    // Verificar CPF separadamente
+                    if (!empty($cpf)) {
+                        $existingUser = User::where('cpf', $cpf)->first();
+                        if ($existingUser) {
+                            $errors[] = "Linha {$lineNumber}: CPF já cadastrado no sistema ({$cpfRaw})";
+                            Log::debug("Erro na linha {$lineNumber}: CPF já existe no banco", [
+                                'user_id' => auth()->id(),
+                                'cpf' => $cpf,
+                                'existing_user_id' => $existingUser->id
+                            ]);
+                            continue;
+                        }
+                    }
+                    
+                    // Verificar email separadamente (só se CPF não existir)
+                    if (!$existingUser && $email) {
+                        $existingUser = User::where('email', $email)->first();
+                        if ($existingUser) {
+                            $errors[] = "Linha {$lineNumber}: Email já cadastrado no sistema ({$email})";
+                            Log::debug("Erro na linha {$lineNumber}: Email já existe no banco", [
+                                'user_id' => auth()->id(),
+                                'email' => $email,
+                                'existing_user_id' => $existingUser->id
+                            ]);
+                            continue;
+                        }
+                    }
+                }
+
+                // Adicionar aos arrays de controle
+                if (!empty($cpf)) {
+                    $processedCpfs[] = $cpf;
+                }
+                if ($email) {
+                    $processedEmails[] = $email;
+                }
+
+                // Adicionar aos dados válidos
+                $validRows[] = [
+                    'nome' => $nome,
+                    'email' => $email, // Pode ser null
+                    'cpf' => $cpf, // Pode ser inválido ou vazio
+                    'cpf_raw' => $cpfRaw, // Para mostrar no erro se necessário
+                    'saldo' => $saldo,
+                    'saldo_privilegiado' => $saldoPrivilegiado,
+                    'linha' => $lineNumber
+                ];
+                
+                // Log de linha válida a cada 100 registros válidos
+                if (count($validRows) % 100 == 0) {
+                    Log::info("Linhas válidas processadas: " . count($validRows), [
+                        'user_id' => auth()->id(),
+                        'total_errors' => count($errors)
+                    ]);
+                }
+            }
+
+            Log::info('Validação dos dados concluída', [
+                'user_id' => auth()->id(),
+                'valid_rows' => count($validRows),
+                'total_errors' => count($errors)
+            ]);
+
+            if (empty($validRows)) {
+                Log::warning('Nenhum dado válido encontrado após validação', [
+                    'user_id' => auth()->id(),
+                    'total_errors' => count($errors),
+                    'first_20_errors' => array_slice($errors, 0, 20)
+                ]);
+                Cache::forget($lockKey);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum dado válido encontrado no arquivo.',
+                    'errors' => array_slice($errors, 0, 20)
+                ], 400);
+            }
+
+            // Salvar dados no cache para processamento em lotes
+            $sessionKey = 'import_data_' . auth()->id() . '_' . time();
+            Cache::put($sessionKey, [
+                'rows' => $validRows,
+                'total' => count($validRows),
+                'processed' => 0,
+                'success' => 0,
+                'errors' => $errors
+            ], 1800); // 30 minutos
+
+            // Calcular número de lotes
+            $totalBatches = ceil(count($validRows) / 500);
+
+            Log::info('Arquivo processado com sucesso', [
+                'user_id' => auth()->id(),
+                'session_key' => $sessionKey,
+                'total_rows' => count($validRows),
+                'total_batches' => $totalBatches,
+                'validation_errors' => count($errors)
+            ]);
+
+            // Remover lock
+            Cache::forget($lockKey);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Arquivo processado com sucesso. Iniciando importação em lotes...',
+                'data' => [
+                    'session_key' => $sessionKey,
+                    'total_rows' => count($validRows),
+                    'total_batches' => $totalBatches,
+                    'batch_size' => 500,
+                    'validation_errors' => array_slice($errors, 0, 20),
+                    'validation_warnings' => array_slice($warnings, 0, 20)
+                ]
+            ]);
+
+        } catch (\Exception $e) {
+            // Remover lock em caso de erro
+            Cache::forget($lockKey);
+            
+            Log::error('Erro na preparação da importação: ' . $e->getMessage(), [
+                'exception' => $e,
+                'request' => $request->all()
+            ]);
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao processar arquivo: ' . $e->getMessage(),
+                'debug' => [
+                    'error' => $e->getMessage(),
+                    'file' => $e->getFile(),
+                    'line' => $e->getLine()
+                ]
+            ], 500);
+        }
+    }
+
+    public function processBatch(Request $request)
+    {
+        // Log da requisição para debug
+        Log::info('Processando lote de importação', [
+            'user_id' => auth()->id(),
+            'session_key' => $request->input('session_key'),
+            'batch_number' => $request->input('batch_number', 0)
+        ]);
+        
+        // Verificar se o usuário está autenticado
+        if (!auth()->check()) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado.'
+            ], 401);
+        }
+        
+        try {
+            $sessionKey = $request->input('session_key');
+            $batchNumber = $request->input('batch_number', 0);
+            
+            // Validar parâmetros obrigatórios
+            if (!$sessionKey) {
+                Log::warning('Session key não fornecida', [
+                    'user_id' => auth()->id(),
+                    'request' => $request->all()
+                ]);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Sessão inválida - chave não fornecida'
+                ], 400);
+            }
+            
+            if (!is_numeric($batchNumber) || $batchNumber < 0) {
+                Log::warning('Batch number inválido', [
+                    'user_id' => auth()->id(),
+                    'batch_number' => $batchNumber,
+                    'request' => $request->all()
+                ]);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Número do lote inválido'
+                ], 400);
+            }
+
+            $importData = Cache::get($sessionKey);
+            if (!$importData) {
+                Log::warning('Dados da importação não encontrados no cache', [
+                    'user_id' => auth()->id(),
+                    'session_key' => $sessionKey,
+                    'batch_number' => $batchNumber
+                ]);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Dados da importação não encontrados ou expirados'
+                ], 400);
+            }
+
+            $batchSize = 500;
+            $startIndex = $batchNumber * $batchSize;
+            $batch = array_slice($importData['rows'], $startIndex, $batchSize);
+
+            if (empty($batch)) {
+                Log::warning('Lote vazio', [
+                    'user_id' => auth()->id(),
+                    'session_key' => $sessionKey,
+                    'batch_number' => $batchNumber,
+                    'start_index' => $startIndex,
+                    'total_rows' => count($importData['rows'])
+                ]);
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Lote vazio'
+                ], 400);
+            }
+
+            $batchSuccess = 0;
+            $batchErrors = [];
+
+            try {
+                foreach ($batch as $userData) {
+                    try {
+                        // 1. CONSULTAR NO BANCO PRIMEIRO - Verificar se CPF ou email já existe
+                        $existsInDatabase = false;
+                        $duplicateReason = '';
+                        
+                        // Verificar CPF separadamente
+                        if (!empty($userData['cpf'])) {
+                            $cpfExists = User::where('cpf', $userData['cpf'])->first();
+                            if ($cpfExists) {
+                                $existsInDatabase = true;
+                                $duplicateReason = "CPF já cadastrado no sistema ({$userData['cpf']})";
+                            }
+                        }
+                        
+                        // Verificar email separadamente (só se CPF não existir)
+                        if (!$existsInDatabase && $userData['email']) {
+                            $emailExists = User::where('email', $userData['email'])->first();
+                            if ($emailExists) {
+                                $existsInDatabase = true;
+                                $duplicateReason = "Email já cadastrado no sistema ({$userData['email']})";
+                            }
+                        }
+                        
+                        // 2. SE JÁ EXISTE, IGNORAR E CONTINUAR PARA O PRÓXIMO
+                        if ($existsInDatabase) {
+                            $batchErrors[] = "Linha {$userData['linha']}: {$duplicateReason}";
+                            continue;
+                        }
+                        
+                        // 3. SE NÃO EXISTE, CRIAR O USUÁRIO
+                        DB::beginTransaction();
+                        
+                        // Dupla verificação com lock para garantir atomicidade (evitar race condition)
+                        $lockCheck = null;
+                        
+                        // Verificar CPF com lock
+                        if (!empty($userData['cpf'])) {
+                            $lockCheck = User::where('cpf', $userData['cpf'])->lockForUpdate()->first();
+                            if ($lockCheck) {
+                                DB::rollBack();
+                                $batchErrors[] = "Linha {$userData['linha']}: CPF já cadastrado no sistema ({$userData['cpf']})";
+                                continue;
+                            }
+                        }
+                        
+                        // Verificar email com lock (só se CPF não existir)
+                        if (!$lockCheck && $userData['email']) {
+                            $lockCheck = User::where('email', $userData['email'])->lockForUpdate()->first();
+                            if ($lockCheck) {
+                                DB::rollBack();
+                                $batchErrors[] = "Linha {$userData['linha']}: Email já cadastrado no sistema ({$userData['email']})";
+                                continue;
+                            }
+                        }
+
+                        // Gerar senha: primeira letra do nome + 3 primeiros dígitos do CPF + 2 últimos dígitos do CPF
+                        $primeiraLetra = strtolower(substr($userData['nome'], 0, 1));
+                        
+                        // Para CPFs inválidos ou vazios, usar os dígitos disponíveis
+                        $cpfLimpo = $userData['cpf'];
+                        $tresPrimeiros = '';
+                        $doisUltimos = '';
+                        
+                        if (!empty($cpfLimpo)) {
+                            if (strlen($cpfLimpo) >= 3) {
+                                $tresPrimeiros = substr($cpfLimpo, 0, 3);
+                            } else {
+                                $tresPrimeiros = str_pad($cpfLimpo, 3, '0', STR_PAD_LEFT);
+                            }
+                            
+                            if (strlen($cpfLimpo) >= 2) {
+                                $doisUltimos = substr($cpfLimpo, -2);
+                            } else {
+                                $doisUltimos = str_pad($cpfLimpo, 2, '0', STR_PAD_LEFT);
+                            }
+                        } else {
+                            // CPF vazio - usar padrão
+                            $tresPrimeiros = '123';
+                            $doisUltimos = '45';
+                        }
+                        
+                        $senha = $primeiraLetra . $tresPrimeiros . $doisUltimos;
+
+                        // Criar usuário
+                        $user = User::create([
+                            'name' => $userData['nome'],
+                            'email' => $userData['email'], // Pode ser null
+                            'cpf' => $userData['cpf'],
+                            'pix' => !empty($userData['cpf']) && strlen($userData['cpf']) == 11 && ctype_digit($userData['cpf']) ? $userData['cpf'] : null, // PIX = CPF se válido
+                            'password' => Hash::make($senha),
+                            'phone' => null,
+                            'date_of_birth' => null,
+                            'status' => 1,
+                            'role_id' => 2,
+                            'email_verified_at' => $userData['email'] ? now() : null, // Só verificar se tem email
+                            'is_demo_agent' => 0,
+                            'inviter' => null,
+                            'affiliate_revenue_share' => 0,
+                            'affiliate_cpa' => 0,
+                            'affiliate_baseline' => 0,
+                            'affiliate_percentage' => 0,
+                            'ban' => 0,
+                            'bets' => 0,
+                            'wins' => 0,
+                            'losses' => 0,
+                            'last_login' => null,
+                            'created_at' => now(),
+                            'updated_at' => now(),
+                        ]);
+
+                        // Criar carteira
+                        Wallet::create([
+                            'user_id' => $user->id,
+                            'currency' => 'BRL',
+                            'symbol' => 'R$',
+                            'balance' => $userData['saldo'],
+                            'balance_bonus' => 0.00,
+                            'balance_withdrawal' => 0.00,
+                            'balance_demo' => 0.00,
+                            'refer_rewards' => 0.00,
+                            'hide_balance' => 0,
+                            'active' => 1,
+                            'last_used' => now(),
+                            'created_at' => now(),
+                            'updated_at' => now(),
+                        ]);
+
+                        $batchSuccess++;
+                        
+                        // Fechar transação individual
+                        DB::commit();
+                        
+                    } catch (\Illuminate\Database\QueryException $e) {
+                        // Rollback da transação individual se houver erro
+                        DB::rollBack();
+                        
+                        // Tratamento específico para violação de constraint unique
+                        if ($e->errorInfo[1] == 1062) { // Duplicate entry error
+                            if (str_contains($e->getMessage(), 'users_email_unique')) {
+                                $batchErrors[] = "Linha {$userData['linha']}: Email já cadastrado no sistema ({$userData['email']})";
+                            } elseif (str_contains($e->getMessage(), 'users_cpf_unique')) {
+                                $batchErrors[] = "Linha {$userData['linha']}: CPF já cadastrado no sistema ({$userData['cpf']})";
+                            } else {
+                                $batchErrors[] = "Linha {$userData['linha']}: Dados já cadastrados no sistema";
+                            }
+                        } else {
+                            $batchErrors[] = "Linha {$userData['linha']}: Erro de banco de dados - " . $e->getMessage();
+                        }
+                        Log::error("Erro de banco ao criar usuário linha {$userData['linha']}: " . $e->getMessage(), [
+                            'exception' => $e,
+                            'userData' => $userData
+                        ]);
+                    } catch (\Exception $e) {
+                        // Rollback da transação individual se houver erro
+                        DB::rollBack();
+                        
+                        $batchErrors[] = "Linha {$userData['linha']}: Erro ao criar usuário - " . $e->getMessage();
+                        Log::error("Erro ao criar usuário linha {$userData['linha']}: " . $e->getMessage(), [
+                            'exception' => $e,
+                            'userData' => $userData
+                        ]);
+                    }
+                }
+
+            } catch (\Exception $e) {
+                Log::error("Erro no lote {$batchNumber}: " . $e->getMessage(), [
+                    'exception' => $e,
+                    'batchNumber' => $batchNumber,
+                    'user_id' => auth()->id(),
+                    'session_key' => $sessionKey,
+                    'stack_trace' => $e->getTraceAsString()
+                ]);
+                
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro no processamento do lote: ' . $e->getMessage()
+                ], 500);
+            }
+
+            // Atualizar dados da sessão
+            $importData['processed'] += count($batch);
+            $importData['success'] += $batchSuccess;
+            $importData['errors'] = array_merge($importData['errors'], $batchErrors);
+
+            Cache::put($sessionKey, $importData, 1800);
+
+            Log::info('Lote processado com sucesso', [
+                'user_id' => auth()->id(),
+                'session_key' => $sessionKey,
+                'batch_number' => $batchNumber,
+                'batch_success' => $batchSuccess,
+                'batch_errors' => count($batchErrors),
+                'total_processed' => $importData['processed']
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => "Lote " . ($batchNumber + 1) . " processado com sucesso",
+                'data' => [
+                    'batch_number' => $batchNumber,
+                    'batch_success' => $batchSuccess,
+                    'batch_errors' => count($batchErrors),
+                    'total_processed' => $importData['processed'],
+                    'total_success' => $importData['success'],
+                    'total_errors' => count($importData['errors']),
+                    'progress_percent' => round(($importData['processed'] / $importData['total']) * 100, 2)
+                ]
+            ]);
+
+        } catch (\Throwable $e) {
+            // Capturar qualquer erro e garantir resposta JSON
+            Log::error("Erro crítico no processamento do lote {$batchNumber}: " . $e->getMessage(), [
+                'exception' => $e,
+                'request' => $request->all(),
+                'user_id' => auth()->id(),
+                'stack_trace' => $e->getTraceAsString()
+            ]);
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno no processamento do lote: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function getResults(Request $request)
+    {
+        Log::info('Obtendo resultados da importação', [
+            'user_id' => auth()->id(),
+            'session_key' => $request->input('session_key')
+        ]);
+        
+        $sessionKey = $request->input('session_key');
+        
+        if (!$sessionKey) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Sessão inválida'
+            ], 400);
+        }
+
+        $importData = Cache::get($sessionKey);
+        if (!$importData) {
+            Log::warning('Dados da importação não encontrados no cache - getResults', [
+                'user_id' => auth()->id(),
+                'session_key' => $sessionKey
+            ]);
+            return response()->json([
+                'success' => false,
+                'message' => 'Dados da importação não encontrados'
+            ], 400);
+        }
+
+        // Limpar cache após obter resultados
+        Cache::forget($sessionKey);
+
+        Log::info('Resultados da importação obtidos com sucesso', [
+            'user_id' => auth()->id(),
+            'session_key' => $sessionKey,
+            'total_processed' => $importData['total'],
+            'success_count' => $importData['success'],
+            'error_count' => count($importData['errors'])
+        ]);
+
+        return response()->json([
+            'success' => true,
+            'message' => "Importação concluída! {$importData['success']} usuários importados com sucesso",
+            'data' => [
+                'total_processed' => $importData['total'],
+                'success_count' => $importData['success'],
+                'error_count' => count($importData['errors']),
+                'warning_count' => count($importData['warnings'] ?? []),
+                'errors' => array_slice($importData['errors'], 0, 20),
+                'warnings' => array_slice($importData['warnings'] ?? [], 0, 20)
+            ]
+        ]);
+    }
+
+    /**
+     * Método de teste para debug
+     */
+    public function test(Request $request)
+    {
+        try {
+            Log::info('Teste do ImportUserController funcionando', [
+                'user_id' => auth()->id(),
+                'request_data' => $request->all(),
+                'timestamp' => now()
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'ImportUserController está funcionando corretamente',
+                'data' => [
+                    'user_id' => auth()->id(),
+                    'timestamp' => now(),
+                    'has_file' => $request->hasFile('arquivo_xls'),
+                    'request_size' => $request->header('Content-Length'),
+                    'content_type' => $request->header('Content-Type')
+                ]
+            ]);
+        } catch (\Exception $e) {
+            Log::error('Erro no teste do ImportUserController', [
+                'error' => $e->getMessage(),
+                'trace' => $e->getTraceAsString()
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro no teste: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Baixa um template de exemplo para importação
+     */
+    public function template()
+    {
+        $headers = [
+            'Content-Type' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+            'Content-Disposition' => 'attachment; filename="template_importacao_usuarios.xlsx"',
+        ];
+
+        $spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+        $worksheet = $spreadsheet->getActiveSheet();
+        
+        // Cabeçalhos
+        $worksheet->setCellValue('A1', 'Nome');
+        $worksheet->setCellValue('B1', 'Email');
+        $worksheet->setCellValue('C1', 'CPF');
+        $worksheet->setCellValue('D1', 'Saldo');
+        
+        // Exemplos com saldo privilegiado (> R$ 2,00)
+        $worksheet->setCellValue('A2', 'João Silva (Privilegiado)');
+        $worksheet->setCellValue('B2', 'joaosilva'); // Email sem @
+        $worksheet->setCellValue('C2', '123'); // CPF inválido
+        $worksheet->setCellValue('D2', '5.00'); // Saldo > 2
+        
+        $worksheet->setCellValue('A3', 'Maria Santos (Privilegiado)');
+        $worksheet->setCellValue('B3', ''); // Email vazio
+        $worksheet->setCellValue('C3', ''); // CPF vazio
+        $worksheet->setCellValue('D3', '10.50'); // Saldo > 2
+        
+        // Exemplos com saldo padrão (≤ R$ 2,00)
+        $worksheet->setCellValue('A4', 'Carlos Oliveira (Padrão)');
+        $worksheet->setCellValue('B4', 'carlos@email.com'); // Email válido obrigatório
+        $worksheet->setCellValue('C4', '12345678901'); // CPF válido obrigatório
+        $worksheet->setCellValue('D4', '1.50'); // Saldo ≤ 2
+        
+        $worksheet->setCellValue('A5', 'Ana Costa (Padrão)');
+        $worksheet->setCellValue('B5', 'ana@site.com'); // Email válido obrigatório
+        $worksheet->setCellValue('C5', '98765432100'); // CPF válido obrigatório
+        $worksheet->setCellValue('D5', '0.00'); // Saldo ≤ 2
+
+        $writer = \PhpOffice\PhpSpreadsheet\IOFactory::createWriter($spreadsheet, 'Xlsx');
+        
+        return Response::streamDownload(function() use ($writer) {
+            $writer->save('php://output');
+        }, 'template_importacao_usuarios.xlsx', $headers);
+    }
+
+
+} 

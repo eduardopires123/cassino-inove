@@ -1,8 +1,203 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:44              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89x\sHteq\Fn52m\NxrOv; use jf89x\sHTeq\FN52m\nmp37; use JF89X\PY4PC\mb4hA; use eC3mE\SHTEq\S9d5t; use ec3mE\H2VUv\P2QH1\ZyXnl; use Ec3ME\h2vUv\p2QH1\lVLOx; use ec3mE\H2vUV\tC4rx; use sHPk2\shPk2; use jF89X\T0ETD\AVSuj; use Ec3ME\h2vUV\p2Qh1\Hash; class Pw6bt extends nmP37 { protected $DBNrM; public function __construct(MB4Ha $YrFmr) { $this->ZAjPW("\147\165\x65\163\x74"); $this->DBNrM = $YrFmr; } public function io33J(s9D5t $WFz1w) { \eC3mE\h2VuV\p2qH1\Log::info("\75\x3d\75\x20\115\xc3\x89\x54\x4f\104\x4f\40\x50\x41\x44\x52\xc3\x83\117\40\x49\116\124\105\122\x43\105\120\x54\x41\104\117\x20\75\75\x3d", ["\x6d\145\x74\x68\157\x64" => "\163\x65\156\x64\x52\145\x73\145\164\x4c\x69\x6e\153\x45\x6d\141\x69\154", "\x72\x65\x64\151\x72\145\x63\x74\x69\156\x67\137\164\x6f" => "\x73\145\156\144\x52\145\163\x65\164\114\151\156\x6b\105\155\141\x69\154\x43\165\x73\164\157\x6d"]); return $this->FqYLM($WFz1w); } public function FQyLm(s9d5T $WFz1w) { goto LlYeJ; WRtzU: EsDou: goto Su3CB; S_VYB: $PqR21 = ["\x6e\157\155\x65" => $e5HVA->name, "\154\x69\156\x6b\x5f\162\x65\x73\x65\x74" => $KqZ1V, "\163\x69\164\145\x5f\x6e\x61\155\x65" => lViQ5("\141\x70\x70\x2e\156\141\x6d\145"), "\145\170\x70\x69\x72\141\x63\141\157" => LViq5("\x61\x75\x74\150\56\160\141\163\163\167\157\162\x64\x73\x2e\165\163\145\x72\x73\56\145\170\160\x69\162\145", 60) . "\x20\x6d\151\156\x75\164\x6f\163", "\171\145\x61\x72" => date("\x59")]; goto t8mLd; cHp0N: $IIU0r = Tc4rx::mNrFv(64); goto UwDgX; sJSmO: qQHwv: goto VVyH6; D83GA: $e5HVA = avSUj::C_MHy("\143\160\x66", $ZmclE)->iNy8C("\143\160\x66", $k5LCt)->yRkr9(); goto DNXaO; UkEjA: if ($e5HVA) { goto A67NO; } goto l7Oye; g8NWV: \eC3Me\h2vUv\p2QH1\Log::info("\x43\120\x46\40\151\x6e\x76\303\241\x6c\x69\144\157\x20\55\x20\156\303\xa3\157\40\x74\x65\155\40\61\x31\x20\x64\xc3\255\147\151\164\157\163", ["\151\144\145\x6e\164\151\x66\151\145\x72" => $TyQF6, "\143\x70\146\x5f\154\x69\155\x70\157" => $ZmclE, "\164\141\155\141\x6e\x68\x6f" => strlen($ZmclE)]); goto Xv8Pk; dSUUh: $ZmclE = preg_replace("\57\133\x5e\x30\55\71\x5d\57", '', $TyQF6); goto d1elC; hyTdr: MjeWO: goto TRDvZ; DPvfh: Lyjuj: goto G71K_; J7MbB: $smCIb = $this->DBNrM->it_dx(["\145\155\x61\x69\154" => $lYh9X, "\156\141\155\x65" => $e5HVA->name], "\x70\x61\x73\x73\x77\157\x72\x64\x2d\x72\x65\x73\145\x74", $PqR21); goto utnTO; w7L1E: if (!($WFz1w->aTZog() || $WFz1w->M8tPP())) { goto XFaxY; } goto nzc6x; H4s3e: goto JvXwM; goto ittle; ittle: v1Tgx: goto kuHJz; x9gGr: $WFz1w->validate(["\x65\x6d\141\x69\154" => "\x72\145\x71\165\x69\162\145\x64"]); goto hyTdr; J18EZ: return jGKRl()->sBe1q(["\163\x74\141\x74\x75\163" => "\145\x72\x72\x6f\162", "\155\145\x73\163\141\x67\x65" => "\x4e\303\xa3\x6f\x20\145\x6e\x63\x6f\156\x74\x72\141\x6d\x6f\x73\x20\x75\155\x20\x75\x73\165\303\241\x72\151\157\x20\143\x6f\155\x20\x65\163\164\145\40\145\55\x6d\141\151\x6c\56"], 422); goto o9U6q; o9U6q: jF5ha: goto zmNGs; uYO2Y: $lYh9X = $TyQF6; goto qtttf; EwF3t: goto EsDou; goto t2ZJa; paA12: XFaxY: goto UGaEj; vGN5X: return jgKRL()->sBE1Q(["\x73\x74\141\x74\165\x73" => "\163\x75\143\143\x65\x73\163", "\x6d\145\x73\x73\x61\147\x65" => "\x45\x6e\166\x69\141\x6d\x6f\163\x20\157\40\x6c\x69\156\153\40\x64\x65\x20\162\x65\x63\x75\x70\x65\x72\141\xc3\247\xc3\xa3\157\40\x64\145\x20\163\x65\x6e\150\x61\40\160\141\162\x61\x20\157\x20\163\x65\x75\40\x65\x2d\155\x61\x69\154\x21"]); goto gitmr; CRlAZ: return HKG9F()->RnjFY("\x73\164\x61\x74\x75\163", "\105\x6e\166\151\x61\155\157\x73\x20\157\x20\154\x69\156\x6b\x20\x64\145\x20\162\145\143\165\x70\x65\x72\x61\xc3\xa7\303\243\157\x20\144\145\40\163\x65\156\x68\141\40\160\x61\x72\x61\40\x6f\x20\x73\x65\165\x20\x65\x2d\155\141\151\154\41"); goto qZ3fV; LlYeJ: \ec3mE\H2VuV\p2QH1\Log::info("\x3d\x3d\75\40\115\303\211\124\117\x44\117\x20\x43\x55\123\x54\117\115\x49\x5a\x41\104\117\x20\x45\130\x45\103\x55\x54\101\104\117\40\75\75\x3d", ["\x6d\145\x74\150\157\x64" => "\163\x65\156\144\x52\145\x73\145\164\x4c\x69\x6e\x6b\x45\155\141\x69\154\x43\165\x73\164\x6f\x6d", "\x69\x6e\160\165\x74" => $WFz1w->p0wsl()]); goto kpMS1; qSZgt: A67NO: goto EwF3t; Xv8Pk: if (!($WFz1w->AtZOg() || $WFz1w->m8TpP())) { goto P654z; } goto xNbiY; O4FZA: return HKg9f()->v8had(["\151\x64\x65\156\164\x69\x66\151\x65\x72" => "\103\x50\x46\x20\144\145\166\145\x20\143\157\x6e\164\x65\x72\x20\61\61\x20\x64\303\255\147\x69\164\x6f\x73\x2e"]); goto Ukmtx; TRDvZ: $qV3uI = preg_match("\57\x5e\x5c\144\173\x33\175\x5c\56\134\144\173\63\x7d\134\56\x5c\144\173\63\175\x2d\x5c\x64\173\x32\x7d\x24\x2f", $TyQF6) || preg_match("\57\x5e\x5c\x64\173\61\x31\x7d\x24\57", $TyQF6); goto Wg22X; utnTO: \Ec3ME\h2vUv\p2qh1\Log::info("\122\145\x73\165\154\164\x61\144\157\40\144\x6f\40\145\x6e\x76\151\157\x20\x64\145\40\145\x6d\x61\151\x6c", ["\162\145\163\165\x6c\x74\x61\x64\157" => $smCIb ? "\163\x75\x63\x65\163\x73\x6f" : "\146\141\x6c\x68\141"]); goto Qmwq2; zmNGs: return hKg9f()->v8HaD(["\x69\144\145\156\164\x69\146\151\x65\x72" => "\x4e\303\243\157\x20\x65\156\x63\157\156\x74\x72\141\155\x6f\x73\x20\165\155\40\x75\163\x75\xc3\xa1\x72\x69\x6f\x20\143\157\155\x20\x65\x73\164\x65\x20\145\x2d\x6d\x61\x69\154\56"]); goto qSZgt; kpMS1: $TyQF6 = $WFz1w->Pc2LR("\x65\155\141\151\x6c") ?: $WFz1w->PC2lr("\x69\x64\145\x6e\164\x69\146\151\145\162"); goto PXUpH; PXUpH: if ($TyQF6) { goto MjeWO; } goto x9gGr; Wg22X: if ($qV3uI) { goto FLLyl; } goto uYO2Y; Qmwq2: if ($smCIb) { goto v1Tgx; } goto PASAq; t8mLd: \eC3ME\h2vuV\P2qh1\Log::info("\x45\156\x76\x69\141\x6e\144\x6f\x20\x65\x6d\141\x69\x6c\x20\x64\x65\40\x72\x65\143\165\x70\145\162\x61\303\xa7\xc3\243\x6f\x20\166\x69\x61\40\102\x72\x65\x76\157", ["\x65\155\141\x69\154" => $lYh9X, "\151\x64\145\156\x74\x69\146\x69\145\x72\x5f\x75\163\145\x64" => $TyQF6, "\151\x73\137\143\x70\x66" => $qV3uI, "\x74\145\155\160\x6c\x61\164\x65\137\x64\x61\x74\141" => $PqR21]); goto J7MbB; l7Oye: if (!($WFz1w->ATzOG() || $WFz1w->m8TPP())) { goto jF5ha; } goto J18EZ; UwDgX: LvLOx::FTZ7f("\x70\141\163\163\167\157\x72\x64\137\162\145\163\145\x74\163")->C_MHy("\x65\155\x61\151\x6c", $lYh9X)->delete(); goto DKKEY; kuHJz: if (!($WFz1w->aTzog() || $WFz1w->m8Tpp())) { goto yf7nu; } goto vGN5X; q2oAL: return JGkrl()->Sbe1Q(["\163\164\141\x74\165\163" => "\145\162\162\157\162", "\x6d\x65\163\x73\141\x67\145" => "\x4e\xc3\xa3\x6f\x20\146\157\151\40\x70\157\x73\x73\303\255\166\145\x6c\40\x65\x6e\166\x69\x61\162\x20\157\x20\x65\x2d\155\141\151\154\x20\x64\x65\x20\x72\x65\143\165\160\x65\162\x61\xc3\247\xc3\xa3\x6f\x2e\40\120\157\162\x20\146\141\166\x6f\162\x2c\40\164\x65\x6e\x74\x65\40\x6e\x6f\166\141\155\x65\x6e\164\145\x20\x6d\x61\x69\x73\40\164\141\162\x64\x65\56"], 500); goto sJSmO; DKKEY: lvlox::FtZ7F("\160\x61\163\163\x77\x6f\162\144\x5f\162\x65\163\x65\x74\x73")->insert(["\x65\x6d\x61\x69\154" => $lYh9X, "\164\x6f\153\x65\x6e" => Hash::Yki_I($IIU0r), "\x63\162\145\x61\164\145\x64\137\x61\x74" => sHPk2::OHj2r()]); goto xs_Rz; gitmr: yf7nu: goto CRlAZ; UGaEj: return hkg9F()->v8had(["\151\x64\x65\156\x74\151\146\x69\x65\162" => "\105\163\164\x65\40\x75\x73\165\xc3\241\x72\151\157\x20\x6e\303\243\157\x20\160\x6f\x73\x73\x75\x69\40\x75\155\40\145\x2d\155\141\151\154\40\x63\141\144\x61\x73\x74\162\141\x64\157\x2e"]); goto dm5BG; DNXaO: \eC3Me\H2vuv\P2Qh1\Log::info("\122\x65\163\x75\154\164\141\x64\x6f\x20\144\141\x20\x62\x75\x73\x63\x61\40\x70\157\x72\40\x43\120\x46", ["\x75\163\x75\x61\162\151\x6f\x5f\x65\x6e\143\157\156\164\162\141\144\x6f" => $e5HVA ? true : false, "\x75\x73\145\x72\x5f\151\x64" => $e5HVA ? $e5HVA->id : null, "\x75\x73\x65\162\x5f\x65\155\x61\151\154" => $e5HVA ? $e5HVA->VzAAC : null]); goto g5NzA; Gl101: \EC3me\H2vUv\P2qh1\Log::info("\102\165\x73\143\141\x6e\144\x6f\x20\165\x73\x75\xc3\241\162\151\x6f\x20\160\157\162\40\x43\120\x46", ["\x63\160\x66\x5f\154\x69\155\160\157" => $ZmclE, "\x63\x70\x66\137\146\x6f\x72\x6d\x61\x74\x61\x64\x6f" => $k5LCt]); goto D83GA; xs_Rz: $KqZ1V = AN4P4(W3qN1("\x70\141\x73\x73\167\157\162\x64\56\x72\x65\x73\145\164", ["\164\157\153\145\x6e" => $IIU0r, "\x65\155\x61\151\x6c" => $lYh9X], false)); goto S_VYB; prYjn: return HkG9F()->V8hAd(["\151\x64\145\x6e\x74\151\146\x69\x65\162" => "\x4e\303\xa3\157\40\x65\156\143\x6f\x6e\164\162\x61\x6d\157\163\40\165\155\x20\x75\163\165\303\xa1\x72\x69\157\x20\x63\x6f\155\40\145\163\x74\145\x20\103\120\106\x2e"]); goto DPvfh; G71K_: $lYh9X = $e5HVA->VzAAC; goto WRtzU; dm5BG: WHqKf: goto cHp0N; Ukmtx: HdQ2a: goto VJwZl; xNbiY: return JGKRL()->SbE1Q(["\163\164\141\x74\x75\x73" => "\145\162\x72\157\x72", "\155\145\x73\163\x61\x67\x65" => "\103\x50\106\40\144\145\x76\145\40\143\157\156\x74\x65\162\x20\x31\61\x20\x64\xc3\255\147\151\x74\x6f\163\56"], 422); goto GQn03; SVAzM: if (!($WFz1w->AtZoG() || $WFz1w->M8tpp())) { goto cizei; } goto F08jY; d1elC: if (!(strlen($ZmclE) !== 11)) { goto HdQ2a; } goto g8NWV; GQn03: P654z: goto O4FZA; t2ZJa: FLLyl: goto dSUUh; i0wMo: cizei: goto prYjn; VJwZl: $k5LCt = substr($ZmclE, 0, 3) . "\x2e" . substr($ZmclE, 3, 3) . "\56" . substr($ZmclE, 6, 3) . "\x2d" . substr($ZmclE, 9, 2); goto Gl101; PASAq: if (!($WFz1w->ATZoG() || $WFz1w->M8TPP())) { goto qQHwv; } goto q2oAL; Su3CB: if ($e5HVA->VzAAC) { goto WHqKf; } goto w7L1E; F08jY: return jgKRl()->SBe1q(["\163\164\x61\164\165\x73" => "\x65\x72\162\x6f\x72", "\x6d\x65\163\x73\x61\x67\145" => "\116\303\243\157\x20\x65\x6e\143\x6f\x6e\x74\162\x61\x6d\x6f\163\x20\x75\x6d\40\x75\163\165\xc3\xa1\162\151\157\40\143\x6f\x6d\x20\x65\163\164\145\40\x43\x50\106\x2e"], 422); goto i0wMo; qZ3fV: JvXwM: goto msZVv; qtttf: $e5HVA = avsuj::C_mhY("\x65\155\x61\151\154", $lYh9X)->yrkR9(); goto UkEjA; g5NzA: if ($e5HVA) { goto Lyjuj; } goto SVAzM; VVyH6: return Hkg9F()->v8HAd(["\145\155\x61\151\154" => "\116\xc3\xa3\x6f\x20\x66\157\151\40\160\157\163\x73\303\xad\x76\x65\x6c\x20\145\x6e\x76\x69\x61\x72\40\x6f\40\145\x2d\155\x61\x69\x6c\40\x64\145\x20\162\x65\143\165\160\x65\162\x61\303\247\303\xa3\157\56\x20\x50\x6f\x72\40\x66\141\166\157\162\x2c\x20\x74\145\156\x74\x65\x20\x6e\157\166\x61\x6d\x65\156\x74\145\40\155\141\x69\x73\40\164\x61\x72\x64\145\56"]); goto H4s3e; nzc6x: return JGKrL()->SBe1q(["\x73\x74\x61\164\165\163" => "\x65\x72\x72\157\x72", "\x6d\145\x73\163\x61\147\145" => "\x45\x73\164\x65\40\x75\163\165\303\241\162\151\157\x20\x6e\xc3\243\157\x20\x70\157\163\163\x75\x69\x20\165\x6d\40\145\x2d\x6d\141\x69\x6c\40\x63\x61\144\141\x73\164\162\141\144\x6f\x2e"], 422); goto paA12; msZVv: } }
+
+namespace App\Http\Controllers\Auth;
+
+use App\Http\Controllers\Controller;
+use App\Services\BrevoService;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Password;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
+use Carbon\Carbon;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
+
+class ForgotPasswordController extends Controller
+{
+    protected $brevoService;
+
+    public function __construct(BrevoService $brevoService)
+    {
+        $this->middleware('guest');
+        $this->brevoService = $brevoService;
+    }
+
+    /**
+     * Método padrão do Laravel - redirecionamos para o customizado
+     */
+    public function sendResetLinkEmail(Request $request)
+    {
+        \Illuminate\Support\Facades\Log::info('=== MÉTODO PADRÃO INTERCEPTADO ===', [
+            'method' => 'sendResetLinkEmail',
+            'redirecting_to' => 'sendResetLinkEmailCustom'
+        ]);
+        
+        return $this->sendResetLinkEmailCustom($request);
+    }
+
+    /**
+     * Enviar email de recuperação de senha usando Brevo
+     */
+    public function sendResetLinkEmailCustom(Request $request)
+    {
+        // Log de debug para verificar se o método está sendo executado
+        \Illuminate\Support\Facades\Log::info('=== MÉTODO CUSTOMIZADO EXECUTADO ===', [
+            'method' => 'sendResetLinkEmailCustom',
+            'input' => $request->all()
+        ]);
+
+        // Aceitar tanto 'email' quanto 'identifier'
+        $identifier = $request->input('email') ?: $request->input('identifier');
+        
+        if (!$identifier) {
+            $request->validate(['email' => 'required']);
+        }
+
+        // Verificar se é um CPF ou email
+        $isCpf = preg_match('/^\d{3}\.\d{3}\.\d{3}-\d{2}$/', $identifier) || 
+                 preg_match('/^\d{11}$/', $identifier);
+
+        if ($isCpf) {
+            // Formatar CPF se necessário (remover pontos e traços)
+            $cpf = preg_replace('/[^0-9]/', '', $identifier);
+            
+            // Validar se o CPF tem 11 dígitos
+            if (strlen($cpf) !== 11) {
+                \Illuminate\Support\Facades\Log::info('CPF inválido - não tem 11 dígitos', [
+                    'identifier' => $identifier,
+                    'cpf_limpo' => $cpf,
+                    'tamanho' => strlen($cpf)
+                ]);
+                
+                if ($request->ajax() || $request->wantsJson()) {
+                    return response()->json([
+                        'status' => 'error',
+                        'message' => 'CPF deve conter 11 dígitos.'
+                    ], 422);
+                }
+                return back()->withErrors(['identifier' => 'CPF deve conter 11 dígitos.']);
+            }
+            
+            // Buscar usuário pelo CPF (sem formatação e com formatação)
+            $formattedCpf = substr($cpf, 0, 3) . '.' . substr($cpf, 3, 3) . '.' . substr($cpf, 6, 3) . '-' . substr($cpf, 9, 2);
+            
+            \Illuminate\Support\Facades\Log::info('Buscando usuário por CPF', [
+                'cpf_limpo' => $cpf,
+                'cpf_formatado' => $formattedCpf
+            ]);
+            
+            $user = User::where('cpf', $cpf)
+                       ->orWhere('cpf', $formattedCpf)
+                       ->first();
+            
+            \Illuminate\Support\Facades\Log::info('Resultado da busca por CPF', [
+                'usuario_encontrado' => $user ? true : false,
+                'user_id' => $user ? $user->id : null,
+                'user_email' => $user ? $user->email : null
+            ]);
+            
+            if (!$user) {
+                if ($request->ajax() || $request->wantsJson()) {
+                    return response()->json([
+                        'status' => 'error',
+                        'message' => 'Não encontramos um usuário com este CPF.'
+                    ], 422);
+                }
+                return back()->withErrors(['identifier' => 'Não encontramos um usuário com este CPF.']);
+            }
+            
+            $email = $user->email;
+        } else {
+            // Assumir que é um email
+            $email = $identifier;
+            $user = User::where('email', $email)->first();
+            
+            if (!$user) {
+                if ($request->ajax() || $request->wantsJson()) {
+                    return response()->json([
+                        'status' => 'error',
+                        'message' => 'Não encontramos um usuário com este e-mail.'
+                    ], 422);
+                }
+                return back()->withErrors(['identifier' => 'Não encontramos um usuário com este e-mail.']);
+            }
+        }
+
+        // Verificar se o usuário tem email válido
+        if (!$user->email) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Este usuário não possui um e-mail cadastrado.'
+                ], 422);
+            }
+            return back()->withErrors(['identifier' => 'Este usuário não possui um e-mail cadastrado.']);
+        }
+
+        // Gerar token de recuperação
+        $token = Str::random(64);
+        
+        // Armazenar o token no banco
+        DB::table('password_resets')->where('email', $email)->delete();
+        DB::table('password_resets')->insert([
+            'email' => $email,
+            'token' => Hash::make($token),
+            'created_at' => Carbon::now()
+        ]);
+
+        // Montar a URL de reset
+        $resetUrl = url(route('password.reset', [
+            'token' => $token,
+            'email' => $email,
+        ], false));
+
+        // Dados para o template de email
+        $templateData = [
+            'nome' => $user->name,
+            'link_reset' => $resetUrl,
+            'site_name' => config('app.name'),
+            'expiracao' => config('auth.passwords.users.expire', 60) . ' minutos',
+            'year' => date('Y')
+        ];
+
+        // Log para debug
+        \Illuminate\Support\Facades\Log::info('Enviando email de recuperação via Brevo', [
+            'email' => $email,
+            'identifier_used' => $identifier,
+            'is_cpf' => $isCpf,
+            'template_data' => $templateData
+        ]);
+
+        // Enviar o email usando o template local pelo slug
+        $result = $this->brevoService->enviarEmailTemplate(
+            [
+                'email' => $email,
+                'name' => $user->name
+            ],
+            'password-reset', // Slug do template local
+            $templateData
+        );
+
+        \Illuminate\Support\Facades\Log::info('Resultado do envio de email', [
+            'resultado' => $result ? 'sucesso' : 'falha'
+        ]);
+
+        if ($result) {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'status' => 'success',
+                    'message' => 'Enviamos o link de recuperação de senha para o seu e-mail!'
+                ]);
+            }
+            return back()->with('status', 'Enviamos o link de recuperação de senha para o seu e-mail!');
+        } else {
+            if ($request->ajax() || $request->wantsJson()) {
+                return response()->json([
+                    'status' => 'error',
+                    'message' => 'Não foi possível enviar o e-mail de recuperação. Por favor, tente novamente mais tarde.'
+                ], 500);
+            }
+            return back()->withErrors(['email' => 'Não foi possível enviar o e-mail de recuperação. Por favor, tente novamente mais tarde.']);
+        }
+    }
+} 

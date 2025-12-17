@@ -1,8 +1,130 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:48              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\SHtEq\fn52M; use eC3mE\SHtEQ\S9d5t; class j6VTw extends nmP37 { public function JKbs3() { return lO0cY("\x73\165\x70\x70\157\x72\164\x2e\151\156\144\x65\x78"); } public function QkLgF() { return lo0cy("\x73\165\x70\160\x6f\162\164\56\x6c\x69\x76\145"); } public function SZEf3() { return lo0CY("\163\165\x70\x70\157\162\x74\x2e\x63\150\x61\x74"); } public function UczwJ() { $TLwym = [["\x71\x75\x65\163\x74\151\157\156" => "\103\157\155\x6f\40\146\141\xc3\247\157\x20\160\141\x72\x61\40\x63\x72\151\141\x72\40\165\155\x61\40\x63\157\x6e\164\141\x3f", "\141\x6e\x73\x77\145\x72" => "\x50\x61\162\x61\40\x63\x72\151\x61\162\x20\165\155\x61\x20\x63\x6f\x6e\164\141\54\40\x63\154\x69\x71\x75\x65\40\x6e\x6f\x20\142\157\x74\303\xa3\157\40\x22\122\145\x67\x69\163\x74\162\x65\x2d\x73\145\x22\x20\x6e\x6f\40\x63\141\156\164\x6f\40\x73\165\160\x65\162\151\157\162\40\x64\151\x72\x65\151\164\157\x20\x64\x61\40\x74\x65\154\x61\40\x65\x20\160\x72\x65\145\x6e\143\x68\x61\x20\x6f\x20\x66\157\162\155\x75\154\303\xa1\162\x69\x6f\x20\143\157\155\x20\x73\x75\x61\163\x20\x69\x6e\x66\x6f\x72\155\x61\xc3\xa7\xc3\265\145\x73\56"], ["\161\x75\145\x73\164\151\x6f\x6e" => "\x51\165\141\151\x73\x20\x73\xc3\xa3\x6f\40\x6f\163\x20\x6d\xc3\251\164\157\x64\157\163\40\144\x65\40\160\x61\x67\141\x6d\x65\156\x74\x6f\40\x64\151\163\x70\x6f\x6e\303\xad\166\x65\151\163\x3f", "\141\x6e\x73\167\x65\x72" => "\x41\x63\x65\151\164\x61\x6d\x6f\163\x20\120\111\130\x2c\40\164\x72\x61\x6e\x73\146\145\162\xc3\252\156\x63\x69\141\40\142\141\156\143\xc3\241\162\x69\141\54\40\x63\x61\162\164\303\265\145\x73\x20\144\145\x20\x63\x72\303\251\144\x69\x74\x6f\57\144\303\xa9\x62\x69\x74\x6f\40\x65\40\x62\157\x6c\145\x74\x6f\40\142\141\156\x63\xc3\241\x72\151\x6f\56"], ["\x71\165\145\163\x74\x69\x6f\156" => "\x51\x75\141\x6e\x74\157\x20\x74\x65\x6d\x70\157\40\x6c\145\166\141\x20\x70\141\162\141\40\160\x72\x6f\143\145\x73\x73\x61\162\x20\165\155\40\x73\x61\161\x75\145\77", "\x61\156\163\x77\145\162" => "\x53\x61\x71\x75\x65\163\40\166\151\141\40\120\111\130\40\x73\xc3\243\157\x20\160\x72\157\x63\145\x73\x73\x61\x64\x6f\x73\x20\x65\155\40\x61\164\xc3\251\x20\x33\60\x20\155\x69\156\x75\x74\x6f\x73\56\x20\x4f\x75\164\x72\157\163\x20\x6d\303\xa9\164\157\144\x6f\x73\x20\160\x6f\144\145\x6d\x20\x6c\x65\166\x61\x72\40\141\x74\xc3\xa9\x20\62\x34\40\x68\x6f\162\x61\x73\x20\303\xba\x74\145\151\163\56"], ["\x71\165\145\x73\x74\151\x6f\156" => "\103\x6f\155\157\x20\x66\165\156\x63\151\157\156\x61\40\157\40\x62\xc3\264\x6e\165\163\40\144\x65\x20\142\157\x61\163\55\166\x69\x6e\144\141\x73\77", "\141\x6e\163\x77\x65\162" => "\x4f\x20\x62\303\xb4\156\x75\163\40\144\x65\40\x62\157\141\x73\55\x76\151\x6e\144\141\163\x20\157\x66\145\162\x65\143\x65\x20\61\60\x30\x25\x20\144\x6f\x20\166\x61\x6c\x6f\x72\40\144\157\40\163\145\x75\40\160\x72\151\155\145\x69\x72\157\x20\x64\145\x70\xc3\263\x73\x69\164\157\x2c\40\x61\x74\xc3\xa9\x20\x52\44\x35\60\60\x2e\40\120\141\x72\141\x20\141\x74\x69\x76\xc3\xa1\55\154\x6f\54\x20\146\141\xc3\xa7\141\40\165\x6d\x20\x64\145\x70\xc3\xb3\x73\151\x74\157\x20\155\xc3\255\156\151\155\157\40\144\x65\x20\122\44\x35\60\x2e"], ["\161\x75\x65\x73\164\151\x6f\156" => "\120\157\x73\163\x6f\x20\x6a\x6f\147\141\162\40\x70\145\154\157\40\143\x65\x6c\165\154\x61\x72\77", "\141\156\x73\167\145\162" => "\x53\x69\155\x2c\40\156\157\163\x73\157\40\x73\151\x74\145\40\303\251\x20\164\157\164\x61\154\x6d\x65\156\164\x65\40\162\x65\x73\x70\157\156\163\151\x76\157\40\x65\40\x70\157\144\145\x20\163\145\x72\40\141\143\x65\x73\163\x61\x64\157\x20\x70\x6f\x72\x20\x6e\x61\x76\145\147\x61\144\x6f\162\x65\163\40\x64\145\x20\x63\x65\154\x75\154\x61\x72\145\x73\56\x20\124\141\x6d\x62\303\251\155\x20\164\145\155\157\163\40\x75\x6d\x20\x61\x70\154\x69\x63\141\x74\x69\x76\x6f\40\x64\x69\x73\160\157\x6e\xc3\xad\x76\x65\x6c\x20\x70\141\x72\141\40\x64\157\167\x6e\x6c\157\x61\144\56"]]; return lo0cY("\x73\165\160\160\157\x72\164\x2e\146\141\161", ["\x66\141\161\163" => $TLwym]); } public function JiyoK() { goto UFStV; UFStV: $G0Mu0 = [["\151\144" => 1, "\164\x69\x74\154\145" => "\x43\157\155\x6f\40\x63\x72\x69\141\x72\x20\165\x6d\x61\x20\x63\157\156\x74\141", "\x63\141\x74\145\147\x6f\x72\171" => "\x43\157\156\x74\141", "\163\x68\157\x72\164\137\144\145\x73\143\x72\x69\160\x74\x69\157\x6e" => "\101\x70\162\x65\x6e\x64\141\x20\x61\40\x63\162\x69\x61\x72\x20\165\x6d\141\40\143\x6f\x6e\x74\141\40\x65\155\x20\x6e\157\x73\x73\141\x20\x70\154\141\164\x61\x66\x6f\x72\155\x61\40\145\x6d\40\x70\x6f\165\x63\x6f\x73\x20\160\141\163\163\157\163\56"], ["\x69\x64" => 2, "\164\x69\164\x6c\145" => "\x4d\xc3\251\x74\x6f\x64\157\x73\40\x64\x65\x20\160\x61\147\x61\155\145\x6e\164\157", "\143\x61\x74\145\x67\x6f\x72\x79" => "\x50\x61\147\141\x6d\x65\156\x74\157\163", "\163\150\157\x72\x74\x5f\x64\145\163\x63\x72\x69\160\x74\x69\157\156" => "\x43\157\156\150\145\303\xa7\141\40\164\x6f\x64\157\163\40\157\163\40\155\303\251\164\x6f\x64\157\163\x20\x64\x65\x20\160\141\x67\141\155\145\x6e\164\x6f\40\x64\151\x73\x70\157\x6e\303\255\x76\145\151\x73\x20\x65\x6d\40\x6e\x6f\x73\163\x61\40\160\154\141\164\x61\x66\x6f\x72\x6d\x61\56"], ["\x69\x64" => 3, "\164\151\x74\x6c\x65" => "\x43\157\x6d\157\x20\x66\141\172\x65\162\40\141\160\157\163\x74\141\x73\40\145\x73\160\157\162\x74\x69\166\141\x73", "\x63\141\164\x65\147\157\162\x79" => "\101\160\x6f\163\x74\x61\x73", "\163\150\x6f\162\164\x5f\x64\145\x73\x63\162\151\x70\x74\151\157\x6e" => "\x47\x75\x69\141\40\x63\157\x6d\x70\x6c\145\x74\x6f\40\160\x61\x72\141\40\x66\x61\x7a\145\162\x20\163\165\x61\163\40\141\160\157\163\164\x61\x73\40\x65\x73\x70\157\x72\x74\151\x76\x61\x73\40\x63\157\155\40\163\x75\x63\x65\x73\x73\157\x2e"]]; goto iPfJa; iPfJa: $WlVYt = ["\103\157\x6e\164\141", "\120\x61\147\141\155\145\x6e\164\157\x73", "\x41\160\157\x73\x74\141\163", "\103\x61\163\x73\151\x6e\x6f", "\102\303\xb4\156\x75\163", "\x53\145\147\x75\162\x61\156\303\xa7\x61", "\101\160\154\x69\143\x61\x74\151\166\157"]; goto txBPk; txBPk: return lO0cy("\x73\165\160\160\x6f\x72\x74\x2e\150\x65\x6c\x70\x2d\x63\x65\x6e\x74\x65\162", ["\141\162\x74\151\143\x6c\x65\163" => $G0Mu0, "\x63\x61\164\145\147\157\x72\151\145\x73" => $WlVYt]); goto fCzMt; fCzMt: } public function CvfCD(S9d5T $WFz1w) { $WFz1w->validate(["\x6e\x61\x6d\x65" => "\x72\145\161\165\151\x72\x65\144\174\163\164\162\x69\156\x67\174\155\x61\170\x3a\62\x35\x35", "\x65\x6d\141\151\x6c" => "\162\145\x71\165\x69\x72\145\144\x7c\145\x6d\x61\151\x6c\x7c\155\141\x78\72\62\65\65", "\x73\165\x62\x6a\x65\x63\x74" => "\162\145\161\x75\x69\162\145\x64\x7c\163\x74\162\x69\156\147\x7c\x6d\x61\170\72\62\65\65", "\155\145\163\163\141\x67\145" => "\162\145\161\165\151\162\145\144\174\163\x74\162\x69\156\147"]); return fh6X5()->jyyrv()->RNJFY("\x73\x75\x63\x63\x65\163\163", "\123\165\x61\40\x6d\x65\x6e\163\141\x67\145\155\40\146\157\151\x20\145\x6e\166\151\x61\x64\141\40\x63\157\x6d\x20\x73\165\143\x65\x73\163\157\x21\x20\x4e\157\163\163\x61\x20\x65\161\165\151\160\145\40\145\x6e\164\162\141\x72\xc3\xa1\x20\x65\155\x20\x63\x6f\x6e\x74\x61\164\157\x20\x65\x6d\40\x62\x72\145\166\x65\x2e"); } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class SupportController extends Controller
+{
+    /**
+     * Mostra a página principal de suporte.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function index()
+    {
+        return view('support.index');
+    }
+    
+    /**
+     * Mostra a página de suporte ao vivo.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function live()
+    {
+        return view('support.live');
+    }
+    
+    /**
+     * Mostra a página de chat com suporte.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function chat()
+    {
+        return view('support.chat');
+    }
+    
+    /**
+     * Mostra a página de perguntas frequentes (FAQ).
+     *
+     * @return \Illuminate\View\View
+     */
+    public function faq()
+    {
+        $faqs = [
+            [
+                'question' => 'Como faço para criar uma conta?',
+                'answer' => 'Para criar uma conta, clique no botão "Registre-se" no canto superior direito da tela e preencha o formulário com suas informações.'
+            ],
+            [
+                'question' => 'Quais são os métodos de pagamento disponíveis?',
+                'answer' => 'Aceitamos PIX, transferência bancária, cartões de crédito/débito e boleto bancário.'
+            ],
+            [
+                'question' => 'Quanto tempo leva para processar um saque?',
+                'answer' => 'Saques via PIX são processados em até 30 minutos. Outros métodos podem levar até 24 horas úteis.'
+            ],
+            [
+                'question' => 'Como funciona o bônus de boas-vindas?',
+                'answer' => 'O bônus de boas-vindas oferece 100% do valor do seu primeiro depósito, até R$500. Para ativá-lo, faça um depósito mínimo de R$50.'
+            ],
+            [
+                'question' => 'Posso jogar pelo celular?',
+                'answer' => 'Sim, nosso site é totalmente responsivo e pode ser acessado por navegadores de celulares. Também temos um aplicativo disponível para download.'
+            ],
+        ];
+        
+        return view('support.faq', [
+            'faqs' => $faqs
+        ]);
+    }
+    
+    /**
+     * Mostra a central de ajuda.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function helpCenter()
+    {
+        $articles = [
+            [
+                'id' => 1,
+                'title' => 'Como criar uma conta',
+                'category' => 'Conta',
+                'short_description' => 'Aprenda a criar uma conta em nossa plataforma em poucos passos.'
+            ],
+            [
+                'id' => 2,
+                'title' => 'Métodos de pagamento',
+                'category' => 'Pagamentos',
+                'short_description' => 'Conheça todos os métodos de pagamento disponíveis em nossa plataforma.'
+            ],
+            [
+                'id' => 3,
+                'title' => 'Como fazer apostas esportivas',
+                'category' => 'Apostas',
+                'short_description' => 'Guia completo para fazer suas apostas esportivas com sucesso.'
+            ],
+        ];
+        
+        $categories = ['Conta', 'Pagamentos', 'Apostas', 'Cassino', 'Bônus', 'Segurança', 'Aplicativo'];
+        
+        return view('support.help-center', [
+            'articles' => $articles,
+            'categories' => $categories
+        ]);
+    }
+    
+    /**
+     * Processa o formulário de contato.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function contact(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'subject' => 'required|string|max:255',
+            'message' => 'required|string',
+        ]);
+        
+        // Lógica para enviar o e-mail/mensagem
+        // Mail::to('suporte@betbr.com')->send(new ContactMessage($request->all()));
+        
+        return redirect()->back()->with('success', 'Sua mensagem foi enviada com sucesso! Nossa equipe entrará em contato em breve.');
+    }
+}

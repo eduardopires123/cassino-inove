@@ -1,8 +1,423 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:39              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89X\sHteQ\fn52M\jklI6; use Jf89x\CK8uv\U_w0I as WLFo8; use jF89X\ShTeq\fn52M\nmp37; use jf89x\T0etd\jBE6W; use ec3mE\SHTEQ\s9d5t; use jF89X\t0ETD\avsUj; use Jf89X\t0etD\bDqjT; use JF89x\T0eTd\uMYa4; use JF89X\T0Etd\DiEQD; use SHpK2\ShPk2; use EC3Me\H2Vuv\p2Qh1\NXRoV; use Jf89X\t0etd\ckpME; use jF89x\t0EtD\JKLI6\rPe1u; use D2G_K\eCT6G\p2QH1\Ect6G; class B5g4e extends NMp37 { public function l2ifb(S9d5t $WFz1w) { goto GiAZ9; sycnN: $EBMl3 = $jAh7g; goto FMr4Z; GiAZ9: $tqi0S = $WFz1w->Pc2lr("\x61\146\146", ''); goto WcnG1; Qyptw: $jAh7g = $WFz1w->pc2lR("\x64\x66", sHpk2::ohj2r()->format("\131\55\x6d\55\x64")); goto G7REk; FMr4Z: return LO0cY("\x61\x64\155\x69\x6e\56\x61\x66\151\x6c\151\141\143\141\x6f\56\x61\146\151\x6c\x69\141\x64\x6f\x73\x5f\141\146\x69\154\151\x61\144\157\x73", compact("\156\x6f\x6d\145\125\x73\x75\x61\x72\151\x6f", "\144\x61\x74\141\x49\x6e\151\x63\x69\x61\154", "\144\141\x74\x61\106\x69\156\141\x6c", "\x61", "\x62", "\x63")); goto XB4r5; WcnG1: $svUuc = $WFz1w->pc2LR("\144\151", shPK2::ohj2R()->jfBuc(7)->format("\131\x2d\155\55\144")); goto Qyptw; G7REk: $NP_Cu = $tqi0S; goto BQ3Ij; BQ3Ij: $UuVJh = $svUuc; goto sycnN; XB4r5: } public function RBZjj(S9D5t $WFz1w) { goto RukVx; TmxTW: return LO0cY("\141\144\155\151\x6e\56\141\146\x69\x6c\151\141\x63\141\157\x2e\147\145\x72\x65\x6e\164\145\x73\137\141\x66\151\154\x69\x61\144\157\163", compact("\x6e\x6f\155\x65\125\x73\x75\x61\x72\x69\157", "\144\141\x74\x61\x49\x6e\151\143\151\141\x6c", "\x64\141\164\x61\x46\151\x6e\x61\154", "\141", "\142", "\x63")); goto TDy3Y; Xifsi: $svUuc = $WFz1w->Pc2lR("\144\x69", ShPk2::OhJ2r()->jfbuC(7)->format("\131\x2d\x6d\55\144")); goto aOVt9; vGNpe: $EBMl3 = $jAh7g; goto TmxTW; RukVx: $tqi0S = $WFz1w->pc2LR("\141\x66\x66", ''); goto Xifsi; YOof9: $UuVJh = $svUuc; goto vGNpe; aOVt9: $jAh7g = $WFz1w->Pc2lR("\x64\x66", SHpk2::ohJ2R()->format("\x59\x2d\x6d\55\144")); goto Z9QDT; Z9QDT: $NP_Cu = $tqi0S; goto YOof9; TDy3Y: } public function piK2M() { $jBnZw = bDqJt::yrKr9(); return lO0Cy("\141\144\155\x69\x6e\56\141\146\x69\154\151\x61\x63\x61\x6f\x2e\143\157\156\x66\151\x67\x5f\x61\146\x69\x6c\151\141\144\157\163", compact("\x53\x65\x74\x74\151\156\x67\x73")); } public function U8zIe(s9d5t $WFz1w) { goto IWt8i; wIXUD: $Ez0tS->ZGHlo = $WFz1w->hKLBP("\162\145\166\x65\x6e\141\x62\x6c\145\x64") ? 1 : 0; goto UNdPx; V5EuH: $Ez0tS->S1xZd = $WFz1w->PC2lR("\x61\x66\x66\x5f\x61\155\x6f\165\156\164"); goto wIXUD; IWt8i: $Ez0tS = BDQJT::YRkr9(); goto ALS7x; VdGYZ: return JGKRL()->SBE1Q(["\163\165\x63\x63\x65\163\163" => true]); goto IBS_F; v9KL7: $Ez0tS->Z4VHq = $WFz1w->PC2lr("\x61\146\x66\x5f\155\x69\x6e\x5f\144\x65\x70"); goto V5EuH; CwSkZ: $Ez0tS->TQ1XC = $WFz1w->PC2Lr("\x6d\141\x78\137\x73\x61\161\x75\x65\137\141\x66"); goto cMIlD; cMIlD: $Ez0tS->WfcS7 = $WFz1w->Pc2lR("\155\x61\170\137\163\x61\x71\165\x65\x5f\x61\x75\x74\x5f\x61\146"); goto hLdhw; ezetj: $Ez0tS->save(); goto VdGYZ; hLdhw: $Ez0tS->ZGv0e = $WFz1w->HkLbP("\x63\x70\141\145\x6e\141\x62\x6c\x65\144") ? 1 : 0; goto v9KL7; ALS7x: $Ez0tS->zv1ul = $WFz1w->pc2LR("\155\x69\156\137\163\x61\161\165\x65\137\x61\146"); goto CwSkZ; UNdPx: $Ez0tS->zNsCJ = $WFz1w->Pc2LR("\160\x65\x72\x63\x65\156\164\x5f\141\x66\146"); goto ezetj; IBS_F: } public function ZJHdg(s9d5T $WFz1w) { goto v_Tdm; ajqli: $p20yu = (clone $Im0Rb)->UY03O("\141\x6d\157\165\x6e\x74"); goto Z6pPY; OCXkV: $p1RhP = $EBMl3 ? sHpk2::Kjt_J($EBMl3)->Hg0Qb() : null; goto YFp1V; ZBbRd: $Jw0Wv = (clone $rBsiv)->C_mhy("\x74\171\160\145", 1)->UY03O("\x61\x6d\x6f\x75\156\x74"); goto yBU1b; LgVGW: if (!empty($OQMEi)) { goto lHpWM; } goto qutql; gkgOD: vd8cx: goto Oy5vm; Jk0L6: $XLC2C = (clone $EDWNZ)->C_MHy("\141\143\x74\151\x6f\x6e", "\167\151\x6e")->UY03o("\x61\x6d\x6f\x75\x6e\164"); goto LfKkW; pi3W_: Ug6vI: goto pGtOQ; v_Tdm: $A706d = $WFz1w->Pc2LR("\141\146\146", ''); goto bXh1V; Ewybl: $EDWNZ = Umya4::UfmZI("\165\163\145\x72\x5f\151\144", $OQMEi); goto rCOuc; V_si6: $xdhPg->c_mHy("\x69\x64", 0); goto RthCm; fiJeF: $xdhPg->c_mHY("\x69\x6e\x76\151\164\x65\162", $HQYGt->id); goto pi3W_; dFbMW: goto mbGMF; goto HskYF; kfprQ: $EBMl3 = $WFz1w->pc2lr("\x64\146", ''); goto DG2Y5; Oy5vm: $Im0Rb->pAUkH("\143\162\x65\x61\x74\145\144\137\141\x74", [$nzPSB, sHPK2::oHJ2r()]); goto kutMF; FRue9: $o1ofV = (clone $rBsiv)->c_mhy("\x74\171\x70\x65", 0)->Uy03O("\x61\155\157\165\x6e\x74"); goto IUIZ1; PcgfX: $eql_u = (clone $rBsiv)->uy03O("\x61\155\157\x75\x6e\x74"); goto t6Zzs; p2nJ0: $SRJIE = ["\x77\151\x6e\101\x6d\x6f\x75\156\164" => $XLC2C, "\x77\151\x6e\103\x6f\165\156\164" => $j0bSN, "\x6c\x6f\163\163\101\x6d\157\165\x6e\x74" => $xrKsh, "\x74\157\164\141\x6c\x41\x6d\x6f\x75\156\x74" => $HOUTH, "\164\157\x74\141\x6c\103\157\165\x6e\164" => $nl7Rs, "\144\145\160\x6f\x73\151\164\101\x6d\x6f\x75\156\164" => $o1ofV, "\144\x65\x70\x6f\x73\x69\164\103\157\165\156\x74" => $LvzGh, "\x77\x69\x74\150\x64\162\141\167\101\155\157\165\x6e\x74" => $Jw0Wv, "\167\151\164\x68\144\162\141\167\x43\157\x75\156\164" => $QAhuh, "\164\x6f\164\x61\154\124\162\141\156\163\101\155\157\165\156\164" => $eql_u, "\164\157\164\x61\x6c\124\x72\141\156\x73\103\157\x75\156\164" => $IiPbK, "\143\141\163\151\156\x6f\x50\162\x6f\x66\151\164" => $vNtE0, "\164\162\x61\x6e\x73\141\143\x74\151\x6f\x6e\120\x72\x6f\146\x69\164" => $cCWqF, "\x74\x6f\x74\x61\x6c\x5f\162\x65\x76" => $p20yu, "\x63\x6f\165\x6e\x74\x5f\162\x65\166" => $At0ME, "\164\157\x74\141\154\x5f\141\x6c\154" => $Ww9vZ, "\x53\157\155\141\104\145\x70" => $o1ofV, "\103\157\165\156\164\104\145\x70" => $LvzGh, "\123\157\155\x61\x53\x61\x71" => $Jw0Wv, "\x43\157\x75\x6e\164\123\141\x71" => $QAhuh, "\x53\x6f\x6d\x61\101\x6c\154\x44\x53" => $eql_u, "\103\157\165\x6e\x74\101\x6c\x6c\x44\123" => $IiPbK, "\124\157\x74\141\154\104\x53" => $o1ofV - $Jw0Wv, "\124\157\x74\x61\x6c\114\x69\161\104\123" => $cCWqF, "\x6e\x6f\155\x65\x41\x66\151\154\x69\141\144\x6f" => $A706d, "\x64\x61\x74\x61\x49\x6e\x69\143\x69\141\154" => $UuVJh, "\144\x61\x74\141\106\x69\156\141\154" => $EBMl3, "\141\x66\146\x69\154\x69\141\164\145\x55\163\145\x72\x73" => $fMOdn]; goto IvnbJ; vU670: goto Aido1; goto voIYI; IUIZ1: $LvzGh = (clone $rBsiv)->C_MHy("\164\171\x70\145", 0)->count(); goto ZBbRd; t6Zzs: $IiPbK = (clone $rBsiv)->count(); goto FKVx2; l527D: goto mbGMF; goto S3GC2; kjuEL: if ($nzPSB && !$p1RhP) { goto Is7YV; } goto vU670; jRk1T: goto OzB1C; goto gkgOD; b9uAx: $EDWNZ->pAukh("\143\x72\145\141\x74\145\x64\137\141\164", [$nzPSB, ShpK2::ohJ2R()]); goto h7DRD; yBU1b: $QAhuh = (clone $rBsiv)->c_mhy("\x74\171\160\x65", 1)->count(); goto PcgfX; g31e5: $rBsiv->pauKh("\x63\162\145\141\x74\145\x64\x5f\x61\x74", [$nzPSB, $p1RhP]); goto KJO8E; fZZzR: $HQYGt = AvsuJ::C_mHY("\156\x61\x6d\145", "\x4c\x49\113\105", "\45" . $A706d . "\45")->YRKR9(); goto hvK6S; IvnbJ: return lO0CY("\x61\x64\x6d\151\x6e\x2e\x61\146\151\154\151\x61\143\141\x6f\56\x65\163\164\x61\164\x69\163\164\151\143\141\163\x5f\x61\146\151\154\151\141\x64\x6f\x73", $SRJIE); goto jYrGs; S3GC2: WOKLr: goto xtfS0; Z6pPY: $At0ME = (clone $Im0Rb)->count(); goto B2DtU; tF4E0: Aido1: goto FRue9; dXXDZ: $nl7Rs = (clone $EDWNZ)->count(); goto aWvpZ; rCOuc: if ($nzPSB && $p1RhP) { goto a2Nur; } goto horwm; kutMF: OzB1C: goto ajqli; h9_LI: $HOUTH = (clone $EDWNZ)->uY03O("\141\155\157\x75\x6e\164"); goto dXXDZ; KQXqt: $OQMEi = $fMOdn->rbo_m("\x69\x64")->toArray(); goto LgVGW; OpbeT: $xdhPg->C_mHy("\x69\144", $TuEvI->id); goto b8Dz4; y4u87: goto Ug6vI; goto TOtip; DG2Y5: $nzPSB = $UuVJh ? sHpk2::KJt_J($UuVJh)->VQUyU() : null; goto OCXkV; xtfS0: $Im0Rb->C_mhy("\165\163\145\x72\x5f\x69\144", $TuEvI->id); goto NC15M; pGtOQ: nFIPs: goto B4b8P; qGyLn: goto J0GaY; goto WAq_v; psDdp: if (!empty($A706d) && isset($HQYGt)) { goto roh1T; } goto Zrg6O; xQqHK: $TuEvI = aVsuJ::C_MhY("\x6e\x61\x6d\x65", "\114\x49\113\105", "\45" . $A706d . "\x25")->c_MHY("\151\x6e\x76\x69\164\145\162", "\41\x3d", 0)->yrkr9(); goto lWrhM; xXUJc: if ($nzPSB && !$p1RhP) { goto vd8cx; } goto TP_Zc; NC15M: mbGMF: goto Hybwt; RYzkv: $rBsiv->PauKh("\143\x72\145\141\x74\145\144\x5f\x61\x74", [$nzPSB, SHPk2::Ohj2r()]); goto tF4E0; bXh1V: $UuVJh = $WFz1w->pC2lR("\x64\151", ''); goto kfprQ; bvVfQ: return LO0cy("\x61\144\155\x69\x6e\56\141\146\x69\x6c\x69\141\x63\x61\x6f\x2e\145\163\164\x61\x74\x69\x73\164\151\x63\141\163\x5f\141\146\x69\154\151\x61\144\x6f\163", $SRJIE); goto EHxM0; Jq93j: if ($nzPSB && $p1RhP) { goto gRJrM; } goto kjuEL; LfKkW: $j0bSN = (clone $EDWNZ)->C_mhY("\141\143\164\x69\x6f\156", "\x77\151\156")->count(); goto bS37q; WAq_v: Bs4pP: goto b9uAx; X4TgI: $EDWNZ->Paukh("\x63\162\x65\x61\164\x65\144\x5f\x61\164", [$nzPSB, $p1RhP]); goto qGyLn; kd4Bu: $Im0Rb->c_mHY("\151\156\x76\x69\x74\x65\162", $HQYGt->id); goto l527D; H8JaK: $Im0Rb->paUkH("\x63\162\x65\141\164\145\144\x5f\141\164", [$nzPSB, $p1RhP]); goto jRk1T; voIYI: gRJrM: goto g31e5; bgnMS: if (empty($A706d)) { goto nFIPs; } goto fZZzR; b8Dz4: mRbwy: goto y4u87; x4il1: goto J0GaY; goto TQb73; TQb73: a2Nur: goto X4TgI; B4b8P: $fMOdn = $xdhPg->get(); goto KQXqt; lWrhM: if ($TuEvI) { goto k8IZH; } goto V_si6; TP_Zc: goto OzB1C; goto ZvM_Y; qutql: $SRJIE = ["\167\151\156\x41\155\x6f\165\x6e\164" => 0, "\x77\x69\x6e\103\157\x75\x6e\x74" => 0, "\x6c\157\163\x73\101\x6d\157\165\156\164" => 0, "\x74\x6f\x74\141\154\101\x6d\157\x75\156\164" => 0, "\x74\157\164\141\x6c\103\157\165\156\x74" => 0, "\x64\x65\160\x6f\163\151\164\101\x6d\157\165\x6e\x74" => 0, "\144\145\x70\157\x73\x69\x74\103\x6f\x75\156\x74" => 0, "\x77\x69\164\150\x64\x72\x61\x77\x41\x6d\157\165\x6e\x74" => 0, "\167\x69\164\150\x64\x72\141\167\x43\x6f\165\x6e\x74" => 0, "\164\x6f\x74\x61\x6c\124\162\141\156\x73\101\155\157\165\x6e\x74" => 0, "\164\x6f\164\141\154\124\x72\141\156\x73\103\x6f\165\156\164" => 0, "\x63\x61\x73\151\156\x6f\x50\x72\x6f\146\151\164" => 0, "\x74\x72\x61\x6e\x73\141\143\164\x69\x6f\156\120\x72\157\146\x69\x74" => 0, "\x74\157\164\141\x6c\137\162\x65\x76" => 0, "\143\157\165\x6e\x74\x5f\x72\145\x76" => 0, "\x74\x6f\164\141\x6c\137\141\154\154" => 0, "\x53\x6f\155\x61\104\x65\160" => 0, "\x43\157\165\156\x74\104\145\x70" => 0, "\x53\x6f\155\x61\123\x61\161" => 0, "\103\x6f\x75\156\164\x53\141\161" => 0, "\123\x6f\x6d\141\x41\154\x6c\104\123" => 0, "\x43\157\x75\156\164\101\x6c\154\x44\x53" => 0, "\124\157\164\x61\x6c\x44\123" => 0, "\x54\x6f\164\x61\154\x4c\151\161\104\123" => 0, "\156\157\155\145\101\x66\151\154\151\141\x64\157" => $A706d, "\x64\141\x74\x61\111\156\x69\143\151\x61\154" => $UuVJh, "\x64\x61\164\141\x46\151\156\141\x6c" => $EBMl3]; goto bvVfQ; B2DtU: $vNtE0 = $xrKsh - $XLC2C; goto MaB1y; bHUf_: k8IZH: goto OpbeT; RthCm: goto mRbwy; goto bHUf_; jdvLn: $Ww9vZ = $vNtE0 + $cCWqF + $p20yu; goto p2nJ0; j37GI: Is7YV: goto RYzkv; aWvpZ: $rBsiv = dieqd::uFMZi("\165\x73\145\162\x5f\x69\x64", $OQMEi)->c_mhy("\163\164\141\x74\x75\163", 1); goto Jq93j; hvK6S: if ($HQYGt) { goto I0zzQ; } goto xQqHK; MaB1y: $cCWqF = $o1ofV - $Jw0Wv; goto jdvLn; h7DRD: J0GaY: goto Jk0L6; horwm: if ($nzPSB && !$p1RhP) { goto Bs4pP; } goto x4il1; HskYF: roh1T: goto kd4Bu; Zrg6O: if (!empty($A706d) && isset($TuEvI)) { goto WOKLr; } goto dFbMW; FKVx2: $Im0Rb = jBe6W::C_MHy("\147\141\x6d\145", "\41\75", "\103\120\101"); goto psDdp; YFp1V: $xdhPg = aVSUj::c_mhy("\151\156\x76\151\164\x65\x72", "\41\x3d", 0); goto bgnMS; bS37q: $xrKsh = (clone $EDWNZ)->c_mhy("\x61\x63\x74\151\x6f\x6e", "\x62\145\x74")->Uy03O("\x61\x6d\x6f\165\156\164"); goto h9_LI; EHxM0: lHpWM: goto Ewybl; Hybwt: if ($nzPSB && $p1RhP) { goto pGAAu; } goto xXUJc; KJO8E: goto Aido1; goto j37GI; TOtip: I0zzQ: goto fiJeF; ZvM_Y: pGAAu: goto H8JaK; jYrGs: } public function i7bnU(S9d5T $WFz1w) { goto ig4kq; G19ZN: $sgmnO = 0; goto ctBaR; mz1My: $ks83B = 0; goto ghEMt; yoaNk: $gAx3h = 0; goto MYukN; ig4kq: $tqi0S = $WFz1w->Pc2LR("\x61\x66\x66", ''); goto csM1z; S4wYU: return Lo0Cy("\141\x64\x6d\151\x6e\56\x61\146\151\154\x69\x61\x63\x61\x6f\56\145\x73\164\x61\x74\x69\163\164\x69\x63\141\163\x5f\147\145\x72\x65\156\x74\x65", compact("\x61", "\142", "\x63", "\124\x6f\164\141\154\x4c\151\161\x44\123", "\124\x6f\164\x61\154\x44\x53", "\x43\157\x75\156\164\123\141\x71", "\x43\157\x75\156\x74\104\145\160", "\x54\x6f\164\x61\154\x43\141\163", "\x53\157\155\x61\104\145\160", "\x53\x6f\155\141\x53\141\x71", "\x53\x6f\155\x61\x41\x6c\154", "\123\x6f\155\x61\127\151\156", "\x43\157\x75\156\164\x57\x69\x6e", "\x43\x6f\x75\x6e\x74\101\x6c\x6c", "\124\157\x74\x61\154\114\x69\161", "\164\157\x74\141\154\137\141\x6c\154")); goto dOMY_; csM1z: $svUuc = $WFz1w->PC2lr("\x64\151", sHPK2::OHJ2r()->jFBUC(7)->format("\131\x2d\x6d\55\x64")); goto rDy6z; ctBaR: $w9oKf = 0; goto KcNvL; zYIW0: $qlO4J = 0; goto yoaNk; ghEMt: $UaTED = 0; goto G19ZN; MYukN: $AyPJ1 = 0; goto kCAPx; zOTWh: $vN_Ln = 0; goto mz1My; rDy6z: $jAh7g = $WFz1w->Pc2Lr("\144\146", shpK2::ohj2R()->format("\131\55\155\x2d\x64")); goto cCbLi; KcNvL: $CLll3 = 0; goto cpTDa; kCAPx: $Ww9vZ = 0; goto XkjBp; XkjBp: $b5aNF = 0; goto zOTWh; cpTDa: $ZzZNG = 0; goto S4wYU; cCbLi: $cI_33 = 0; goto zYIW0; dOMY_: } public function XJqVU(s9D5t $WFz1w) { goto B1Aj4; JXxJc: NTkxD: goto qRQ2F; ayZBC: $kEMjr = "\x4f\x4b"; goto BmCcX; CNVkc: goto yOoQK; goto SZWqo; u2nNU: poUdN: goto BO7JI; Vja4z: if ($KngfR) { goto Zrj6N; } goto RkOtr; i4qPK: if ($C6x7h->PSHfe == "\x50\141\x79\x32\155") { goto uEgHx; } goto EM04p; yo72y: goto u2frW; goto o5J9p; SQeVc: return JgkRL()->sBE1q(["\x73\164\141\x74\165\163" => false, "\155\145\163\163\x61\147\145" => "\x4f\x63\x6f\162\x72\x65\165\x20\165\x6d\x20\x65\162\162\157\54\x20\164\x65\x6e\x74\145\40\x6e\x6f\166\x61\155\x65\156\164\145\40\145\155\40\141\x6c\147\165\x6e\163\40\x69\x6e\x73\x74\141\156\x74\145\163\56"]); goto o1h0O; Vq7QV: return JGKrl()->sBe1q(["\163\165\x63\143\x65\163\163" => false, "\155\145\163\x73\141\x67\145" => "\x4f\143\x6f\x72\x72\x65\165\40\165\155\x20\x65\x72\162\x6f\54\40\164\145\156\164\145\40\156\157\x76\141\155\145\156\164\x65\x20\x65\155\40\141\x6c\x67\x75\x6e\x73\x20\x69\156\163\x74\141\156\164\x65\x73\x2e"]); goto Y_59_; Ijr3p: if ($KngfR) { goto j4M4T; } goto SHmn1; Y_59_: goto IKpd5; goto rfK7s; qLymx: $KngfR = WLfO8::eSwV2($Hqqsa, $LTK7D); goto Vja4z; tumAS: $Hqqsa->zeABj->save(); goto mWp__; gcAUe: if (!(!isset($KngfR["\143\157\144\x65"]) || $KngfR["\x63\157\x64\x65"] != "\x30\x30\60\x30")) { goto COFlO; } goto SQeVc; mGhj1: return jgKrL()->Sbe1Q(["\x73\x75\x63\143\145\x73\x73" => false, "\155\145\163\x73\x61\147\145" => "\x4f\143\157\x72\162\x65\x75\40\x75\155\40\x65\x72\162\157\54\x20\164\145\x6e\x74\x65\x20\x6e\x6f\166\x61\155\145\156\164\145\x20\145\155\x20\141\x6c\147\165\x6e\163\x20\x69\156\163\x74\141\156\164\x65\x73\56"]); goto yo72y; d3PSM: if ($C6x7h->PSHfe == "\x45\x64\120\141\x79") { goto HOpvH; } goto QoNpB; eXcX8: return jGKRl()->sbE1q(["\x73\165\143\143\145\163\163" => false, "\x6d\x65\x73\x73\x61\x67\145" => "\x4f\x63\x6f\162\x72\x65\x75\x20\165\x6d\40\145\162\162\x6f\x2c\40\x74\145\156\x74\145\40\156\x6f\166\141\x6d\145\156\164\x65\x20\145\x6d\x20\x61\154\x67\x75\156\163\x20\151\156\163\x74\141\x6e\164\145\163\56"]); goto u2nNU; nCYJS: $lqqcS = $KngfR["\x63\157\144\145"]; goto ayZBC; Q6fjC: IKpd5: goto mKCG5; OGv_m: Zrj6N: goto PhRx1; GyAGF: vZrmh: goto JEHQs; ZWph8: rpe1u::create(["\165\x70\x64\x61\x74\145\x64\x5f\x62\x79" => NXroV::PTuEJ(), "\165\x73\x65\x72\137\151\144" => $WFz1w->id, "\x6c\x6f\x67" => sprintf("\120\141\147\x61\x6d\x65\156\x74\157\x20\x64\145\x20\141\x66\x69\154\x69\x61\x64\157\72\40\x46\x6f\x69\x20\160\141\147\157\40\122\44\x20\45\56\62\x66\x20\141\x6f\x20\141\146\151\x6c\151\141\x64\157\40\x25\163", $LTK7D, $Hqqsa->name), "\x74\171\x70\145" => 1]); goto O6i1K; V8J7K: dNmM2: goto ykd1x; Wu_hP: return JgkRl()->SBE1q(["\163\165\143\143\145\x73\x73" => false, "\155\x65\163\163\x61\x67\145" => "\123\141\154\144\157\40\144\157\x20\x61\x66\151\154\x69\141\x64\x6f\40\xc3\251\40\x7a\145\162\157\x21"]); goto GyAGF; EM04p: if ($C6x7h->PSHfe == "\x43\x72\x65\x64\x69\124\x61\x67") { goto PKpDo; } goto d3PSM; KYJsB: goto yOoQK; goto V8J7K; Ne4f8: if ($KngfR) { goto WK3nX; } goto jYWpQ; qCj4E: $c7p1T = ["\165\163\x65\x72\137\151\x64" => $Hqqsa->id, "\x69\x73\141\x66" => 1, "\x61\155\157\165\x6e\x74" => $LTK7D, "\x74\x79\160\x65" => 1, "\x77\151\x74\150\137\x74\x79\160\x65" => "\141\146\x66\151\154\151\141\x74\x65", "\x67\x61\164\145\167\141\171" => $C6x7h->PSHfe, "\x74\157\x6b\x65\156" => $lqqcS, "\x73\x74\x61\x74\x75\163" => 1, "\143\x68\141\x76\x65\137\160\151\x78" => $Hqqsa->h8Xv0]; goto OTdFQ; O6i1K: $Hqqsa->zeABj->g0xuw = 0; goto tumAS; jdjHM: yAa2I: goto eCUbl; qRQ2F: $KngfR = Wlfo8::eGFqH($Hqqsa, $LTK7D); goto SNCBg; DcLAd: $kEMjr = "\117\x4b"; goto b_XfU; yJFwz: $kEMjr = "\x4f\x4b"; goto gPR8N; B4b4j: return JgkRL()->SBE1Q(["\163\165\143\143\x65\163\x73" => false, "\155\145\x73\x73\141\x67\x65" => "\x55\x73\165\xc3\xa1\x72\151\x6f\x20\156\303\xa3\157\x20\x65\156\x63\x6f\156\x74\x72\x61\144\157\41"]); goto jdjHM; SZWqo: uEgHx: goto qLymx; RkOtr: return jGkRl()->SbE1q(["\163\165\143\x63\145\x73\x73" => false, "\155\145\x73\x73\141\x67\x65" => "\x4f\x63\x6f\162\x72\x65\x75\x20\x75\155\40\145\162\x72\x6f\x2c\x20\164\145\x6e\x74\x65\40\x6e\157\x76\x61\x6d\x65\x6e\164\145\40\x65\155\40\141\154\x67\x75\x6e\163\x20\151\x6e\x73\x74\141\x6e\x74\x65\163\56"]); goto OGv_m; GiQ8V: if ($Hqqsa) { goto yAa2I; } goto B4b4j; IWsJP: zxRyl: goto gcAUe; mWp__: return jGkrl()->SbE1q(["\163\165\x63\143\145\163\x73" => true, "\x6d\145\x73\163\x61\147\145" => "\x50\141\x67\x61\x6d\x65\156\x74\x6f\40\147\145\162\x61\144\157\40\143\x6f\155\40\x73\x75\143\x65\x73\163\157\41"]); goto FphkQ; jYWpQ: return Jgkrl()->SBe1q(["\x73\165\143\x63\145\x73\x73" => false, "\155\145\x73\163\x61\x67\145" => "\117\143\157\162\x72\x65\165\40\x75\x6d\40\x65\162\x72\157\x2c\x20\x74\145\156\164\x65\x20\156\x6f\x76\x61\x6d\x65\x6e\164\145\x20\145\155\40\x61\154\x67\x75\156\163\x20\151\156\163\164\x61\x6e\164\x65\x73\56"]); goto yeUqc; B1Aj4: WlFO8::o1Xn1(); goto RIeQt; SHmn1: return jgKRl()->SBe1Q(["\x73\165\143\143\x65\163\x73" => false, "\155\145\x73\163\x61\x67\x65" => "\117\143\x6f\x72\162\145\x75\x20\x75\x6d\x20\x65\162\x72\x6f\x2c\x20\x74\145\156\164\x65\40\156\157\166\x61\155\145\156\x74\x65\x20\x65\155\x20\x61\x6c\147\x75\156\x73\x20\151\156\163\164\141\x6e\164\x65\163\x2e"]); goto mjkyw; o5J9p: NsqjO: goto ZWph8; R1szt: $C6x7h = CKpmE::c_MHy("\141\143\x74\x69\x76\145", 1)->Yrkr9(); goto nMVV2; ELfR7: $kEMjr = "\117\x4b"; goto m_toE; OTdFQ: if ($NhGbU = diEqD::create($c7p1T)) { goto NsqjO; } goto mGhj1; E3i31: $kEMjr = $KngfR["\162\x65\x73\x70\157\156\x73\x65"]; goto CNVkc; SNCBg: if ($KngfR) { goto zxRyl; } goto Q3aKF; RIeQt: $Hqqsa = AVsUJ::C_mHY("\x69\x64", $WFz1w->id)->yrKR9(); goto GiQ8V; BmCcX: yOoQK: goto tmugr; eCUbl: if (!($Hqqsa->zeABj->g0xuw == 0)) { goto vZrmh; } goto Wu_hP; uVOeW: $lqqcS = $KngfR["\151\144"]; goto yJFwz; JEHQs: $LTK7D = $Hqqsa->zeABj->g0xuw; goto R1szt; jNRNb: if ($KngfR) { goto poUdN; } goto eXcX8; tmugr: if ($kEMjr == "\x4f\x4b") { goto qU8Vi; } goto Vq7QV; ZPdTb: $KngfR = wLFO8::erfSh($Hqqsa, $LTK7D); goto Ijr3p; g3WW9: PKpDo: goto ZPdTb; BO7JI: $lqqcS = $KngfR["\x69\144\124\162\141\x6e\163\x61\143\x74\x69\157\x6e"]; goto E3i31; mjkyw: j4M4T: goto jBlPm; yeUqc: WK3nX: goto uVOeW; rfK7s: qU8Vi: goto qCj4E; nMVV2: if ($C6x7h->PSHfe == "\123\x75\151\x74\x50\141\171") { goto dNmM2; } goto i4qPK; gPR8N: goto yOoQK; goto JXxJc; PhRx1: $lqqcS = $KngfR["\151\x64"]; goto DcLAd; Q3aKF: return jGKRL()->SBE1q(["\x73\164\141\164\165\x73" => false, "\155\x65\163\x73\x61\147\145" => "\117\143\157\162\x72\x65\x75\40\165\x6d\x20\x65\162\x72\x6f\54\x20\164\145\156\x74\145\40\x6e\x6f\x76\141\155\145\156\164\x65\40\x65\x6d\40\141\x6c\147\165\x6e\163\x20\151\156\163\164\141\x6e\164\145\x73\x2e"]); goto IWsJP; FphkQ: u2frW: goto Q6fjC; Vf9dU: $KngfR = wLfo8::A7AmX($Hqqsa, $LTK7D); goto Ne4f8; ykd1x: $KngfR = WLfO8::mK0KG($Hqqsa, $LTK7D); goto jNRNb; QoNpB: if ($C6x7h->PSHfe == "\x54\157\x70\120\141\171") { goto NTkxD; } goto KYJsB; b_XfU: goto yOoQK; goto g3WW9; DSYxQ: HOpvH: goto Vf9dU; m_toE: goto yOoQK; goto DSYxQ; o1h0O: COFlO: goto nCYJS; jBlPm: $lqqcS = $KngfR["\164\x72\x61\x6e\163\146\x65\x72\111\x64"]; goto ELfR7; mKCG5: } public function b809P(s9d5t $WFz1w) { goto r00f5; KRBqy: $XrAG1 = aVsUJ::c_Mhy("\151\x6e\166\151\x74\x65\x72", $WAmPm->id); goto maA6Q; fLHye: goto vpMXt; goto B6mtz; gOy6M: if ($WAmPm->opaCn == 1 or $WAmPm->opaCn == 2) { goto QDhxK; } goto Y8CoW; bWxj7: lJT76: goto Oo0nx; XkaAt: $XrAG1->C_MHy("\165\x70\x64\141\x74\145\x64\137\x61\164", "\x3e\x3d", sHpk2::kjT_J($WFz1w->Pc2Lr("\x64\x61\x74\x61\111\x6e\x69\143\x69\x61\x6c"))->VQUyu()); goto qy6aL; wClDY: if ($WFz1w->pC2lr("\144\141\x74\141\111\x6e\x69\143\151\x61\154") && $WFz1w->pc2LR("\x64\141\x74\141\x46\151\x6e\141\x6c")) { goto tU4s4; } goto MJz8U; Oo0nx: return ect6G::VY87W($XrAG1)->E4RGN("\156\x6f\x6d\x65", function ($nGClM) use($WAmPm) { goto xT7hy; xcwA0: P_ODb: goto J06aK; SiN35: goto P2gfn; goto xcwA0; l1efI: P2gfn: goto Ezgf0; xT7hy: if ($WAmPm->opaCn == 1 or $WAmPm->opaCn == 2) { goto P_ODb; } goto YhREZ; J06aK: return "\x3c\x61\40\x68\162\145\x66\75\42\x6a\141\x76\x61\x73\x63\162\151\x70\164\x3a\x76\157\151\144\x28\60\x29\73\x22\40\x6f\x6e\143\154\x69\143\x6b\x3d\42\x4c\x6f\141\144\101\x67\x65\156\x74\x28\x27" . $nGClM->id . "\x27\51\73\42\40\x64\x61\x74\x61\x2d\142\x73\55\x74\157\x67\x67\154\x65\x3d\42\x6d\x6f\x64\x61\x6c\x22\x20\x64\x61\x74\x61\55\x62\x73\x2d\x74\141\x72\147\x65\x74\75\42\x23\x74\141\x62\x73\x4d\157\144\x61\x6c\x22\x20\x63\154\141\x73\163\x3d\x22\x62\163\x2d\164\x6f\157\154\164\151\160\42\x20\x74\151\x74\x6c\x65\x3d\x22\126\x69\163\165\x61\154\x69\172\x61\x72\40\141\x66\x69\154\x69\141\144\x6f\x22\40\144\141\x74\x61\x2d\x6f\162\151\147\x69\x6e\x61\154\x2d\164\x69\164\154\x65\x3d\x22\126\151\163\165\x61\154\151\x7a\x61\162\40\x55\163\165\303\241\x72\151\157\x22\76" . $nGClM->name . "\x3c\57\141\76"; goto bmztj; L2Aos: return $nGClM->name; goto l1efI; bmztj: goto P2gfn; goto lIlV7; lIlV7: JhN3m: goto L2Aos; YhREZ: if ($WAmPm->opaCn == 3) { goto JhN3m; } goto SiN35; Ezgf0: })->e4rGN("\x65\x6d\141\x69\154", function ($nGClM) { return $nGClM->VzAAC; })->e4rgN("\144\x61\x74\141", function ($nGClM) { return ShPk2::KJt_j($nGClM->CLvtD)->format("\x64\57\155\x2f\x59\x20\110\72\x69\x3a\163"); })->AqN5N(["\x6e\x6f\x6d\x65"])->yKI_I(true); goto btW82; PGUxA: goto ynuzz; goto xIBQW; maA6Q: vpMXt: goto wClDY; KY7bV: QDhxK: goto Ag15B; oTL1X: $Yv3jn = $WFz1w->PC2LR("\156\x6f\x6d\x65\x55\163\x75\x61\x72\x69\157"); goto BRRJ6; r00f5: $WAmPm = nXrOv()->yfgI_(); goto gOy6M; BRRJ6: $XrAG1->C_Mhy("\x6e\141\x6d\x65", "\154\151\153\x65", "\45" . $Yv3jn . "\x25"); goto bWxj7; qy6aL: ynuzz: goto kXKhu; kXKhu: if (!$WFz1w->pC2lR("\x6e\x6f\x6d\x65\x55\163\165\141\162\x69\x6f")) { goto lJT76; } goto oTL1X; MJz8U: if ($WFz1w->PC2LR("\x64\141\164\141\x49\x6e\x69\x63\151\x61\x6c") && !$WFz1w->Pc2lR("\x64\141\164\141\106\151\156\x61\x6c")) { goto Cg_V_; } goto PGUxA; zh2Mb: $XrAG1->pAUkH("\165\160\x64\141\x74\x65\144\x5f\141\x74", [Shpk2::KJt_j($WFz1w->pC2lr("\x64\x61\164\141\111\156\151\143\x69\141\x6c"))->VQUyu(), SHPK2::KJT_j($WFz1w->PC2lr("\x64\x61\164\141\106\151\156\x61\154"))->HG0Qb()]); goto v2pe5; xIBQW: tU4s4: goto zh2Mb; v2pe5: goto ynuzz; goto YT3L0; Y8CoW: if ($WAmPm->opaCn == 3) { goto mSZIO; } goto VLFSD; VLFSD: goto vpMXt; goto KY7bV; B6mtz: mSZIO: goto KRBqy; YT3L0: Cg_V_: goto XkaAt; Ag15B: $XrAG1 = AVsUj::UtCDY("\x61\146\x66\x69\154\151\141\164\145\163"); goto fLHye; btW82: } public function oOGsu(S9d5T $WFz1w) { goto hoOKb; EC6Ym: if ($WFz1w->pC2lR("\144\141\x74\141\111\x6e\151\143\151\141\x6c") && $WFz1w->pc2Lr("\x64\x61\164\x61\106\151\x6e\x61\154")) { goto Qffis; } goto zH5Xj; NtR1n: yH8zM: goto djzTc; TQRC2: hdqT4: goto h1dcS; OH2bM: $XrAG1->C_MHY("\x6e\x61\155\145", "\154\151\153\x65", "\x25" . $Yv3jn . "\x25"); goto TQRC2; zH5Xj: if ($WFz1w->PC2LR("\x64\141\164\141\111\156\x69\143\x69\141\154") && !$WFz1w->pC2Lr("\144\141\164\x61\x46\151\156\x61\x6c")) { goto yH8zM; } goto iWihK; TnUqd: goto odB1A; goto NtR1n; hoOKb: $XrAG1 = avSUj::rnJFy("\x77\141\154\154\145\x74")->C_mHy("\151\x73\x5f\141\146\146\151\154\151\141\164\x65", 1); goto EC6Ym; djzTc: $XrAG1->c_MHy("\x75\160\x64\141\x74\145\x64\x5f\x61\x74", "\76\75", SHpk2::kJt_j($WFz1w->pC2Lr("\144\141\x74\141\111\156\x69\x63\x69\x61\154"))->vQUYU()); goto enZ6F; iWihK: goto odB1A; goto DSJCI; KgT_Z: $Yv3jn = $WFz1w->Pc2Lr("\x6e\x6f\155\145\125\x73\x75\141\162\151\x6f"); goto OH2bM; rl4ii: $XrAG1->pAUKh("\165\160\x64\x61\x74\x65\x64\x5f\x61\164", [shPk2::KJT_j($WFz1w->pC2lr("\x64\x61\x74\141\111\x6e\x69\143\151\141\154"))->VqUYu(), sHpK2::KJt_j($WFz1w->Pc2LR("\x64\141\164\141\x46\x69\156\x61\x6c"))->hG0Qb()]); goto TnUqd; QPYyO: if (!$WFz1w->PC2LR("\156\x6f\155\x65\x55\163\165\141\162\151\157")) { goto hdqT4; } goto KgT_Z; enZ6F: odB1A: goto QPYyO; DSJCI: Qffis: goto rl4ii; h1dcS: return eCt6G::VY87W($XrAG1)->E4rgn("\x6e\x6f\x6d\145", function ($nGClM) { return "\x3c\x61\x20\150\162\x65\146\75\42\x6a\141\x76\141\163\x63\x72\x69\x70\x74\72\166\157\x69\144\50\60\51\x3b\x22\x20\x6f\156\x63\x6c\x69\143\x6b\75\42\x4c\157\x61\144\x41\x67\145\156\164\50\47" . $nGClM->id . "\47\x29\x3b\42\40\144\141\x74\141\x2d\x62\x73\x2d\164\157\x67\x67\154\x65\75\x22\155\157\x64\x61\x6c\x22\x20\x64\x61\164\x61\55\142\x73\55\164\141\162\x67\x65\164\75\x22\43\x74\141\x62\163\x4d\x6f\x64\x61\154\x22\x20\143\x6c\x61\163\x73\75\42\142\163\x2d\164\x6f\157\x6c\x74\x69\x70\42\x20\x74\x69\164\x6c\x65\75\x22\x56\x69\x73\x75\141\x6c\x69\172\x61\162\x20\x61\x66\151\x6c\x69\141\x64\157\x22\40\x64\x61\164\x61\55\x6f\x72\151\147\x69\x6e\141\154\55\164\x69\164\x6c\x65\75\x22\126\x69\x73\165\141\154\x69\172\x61\x72\40\x55\163\x75\xc3\241\x72\x69\x6f\x22\x3e" . $nGClM->name . "\74\57\x61\x3e"; })->e4RGN("\145\x6d\x61\x69\x6c", function ($nGClM) { return $nGClM->VzAAC; })->e4rGn("\141\x72\x72\x65\143\x61\144\141\x63\141\x6f", function ($nGClM) { goto jshjk; kzOG8: $dtSf_ = $nGClM->d1U9g->g0xuw; goto UIuXi; XXMAG: goto A83ZI; goto fwxAu; LGjRz: return "\x3c\x73\160\141\156\x20\x63\x6c\141\x73\x73\x3d\x22\x62\141\x64\147\145\40\142\x61\144\x67\x65\55\x6c\151\x67\150\164\55\x73\x75\143\x63\145\163\x73\x20\x6d\x62\55\62\x20\155\x65\x2d\x34\x22\76" . sprintf("\122\44\x20\x25\56\x32\x66", $dtSf_) . "\74\57\163\x70\141\x6e\x3e"; goto nC8SD; jshjk: $nlzPa = $nGClM->id; goto kzOG8; fwxAu: Ur1Do: goto LGjRz; UIuXi: if ($dtSf_ > 0) { goto Ur1Do; } goto Qbi7e; nC8SD: A83ZI: goto Lrf0N; Qbi7e: return "\x3c\163\160\x61\156\x20\x63\154\x61\163\x73\75\42\142\141\x64\x67\x65\40\142\141\x64\x67\145\55\154\x69\147\150\x74\55\144\141\x6e\147\145\162\x20\x6d\x62\55\62\40\x6d\145\55\64\42\76" . sprintf("\122\x24\x20\45\56\x32\x66", $dtSf_) . "\x3c\x2f\x73\x70\141\x6e\76"; goto XXMAG; Lrf0N: })->e4rGn("\166\x61\154\x6f\x72\137\x66\157\x72\155\x61\x74\x61\144\157", function ($nGClM) { return sprintf("\x52\44\x20\45\56\62\146", $nGClM->d1U9g->g0xuw); })->E4rGN("\141\143\x6f\145\x73", function ($nGClM) { return "\74\142\x75\164\164\x6f\156\40\x6f\x6e\143\x6c\151\x63\153\75\42\x63\x6f\x6e\146\x69\162\x6d\120\141\x79\155\145\156\x74\50\x27" . $nGClM->id . "\47\x2c\x20\47" . $nGClM->name . "\47\x2c\40\47" . sprintf("\x52\x24\40\45\x2e\x32\x66", $nGClM->d1U9g->g0xuw) . "\47\51\x3b\42\x20\143\154\x61\163\163\x3d\x22\142\164\156\40\x62\x74\156\x2d\x73\165\x63\x63\145\163\163\x22\40\164\171\160\145\x3d\x22\x62\x75\x74\164\x6f\156\x22\x3e\xa\40\40\40\40\x20\40\40\40\x20\x20\x20\40\40\x20\40\40\40\40\x20\40\x20\x20\40\x20\x20\x20\x20\40\74\163\x70\x61\156\x20\143\x6c\141\163\163\75\x22\x69\x63\157\156\40\x74\145\x78\164\55\x64\141\162\153\x6f\x72\141\x6e\x67\145\55\65\x30\x22\x3e\xa\40\40\x20\40\40\x20\x20\40\40\x20\x20\x20\x20\40\40\40\x20\x20\x20\40\x20\x20\x20\40\40\x20\40\40\x20\40\x20\x20\x3c\x69\40\x63\x6c\141\x73\x73\x3d\x22\146\x61\40\146\141\x2d\x63\150\x65\x63\x6b\x22\76\74\57\x69\x3e\xa\x20\40\40\x20\x20\x20\40\40\40\x20\x20\x20\x20\x20\40\x20\40\x20\x20\x20\40\40\x20\x20\40\x20\40\40\x3c\57\x73\160\x61\x6e\x3e\12\x20\x20\x20\40\x20\x20\x20\x20\x20\x20\x20\40\x20\x20\x20\x20\40\40\x20\40\x20\x20\x20\40\x20\40\x20\40\74\163\x70\141\x6e\x20\x63\x6c\141\163\x73\75\x22\x74\x65\170\164\42\x3e\x50\141\x67\141\x72\40\x41\x66\x69\x6c\x69\x61\x64\157\74\x2f\x73\160\x61\156\76\xa\40\40\40\40\x20\x20\x20\40\40\x20\x20\x20\40\x20\40\40\40\40\40\x20\x20\x20\40\x20\x3c\57\x62\x75\164\x74\x6f\156\x3e\12\xa\x20\40\40\x20\x20\40\x20\x20\x20\40\x20\40\40\x20\40\x20\40\x20\40\40\x20\40\x20\40\74\142\x75\164\x74\x6f\156\x20\157\x6e\x63\154\x69\143\x6b\75\42\x45\x78\x70\157\x72\x74\x61\162\101\x66\151\x6c\x69\x61\x64\157\163\50\x27" . $nGClM->id . "\x27\51\x3b\42\x20\x63\154\141\163\163\x3d\x22\142\164\x6e\x20\142\164\156\x2d\x69\156\146\x6f\42\40\x74\171\x70\145\x3d\x22\142\165\x74\164\x6f\x6e\42\x3e\12\x20\40\x20\40\40\x20\40\40\40\x20\x20\x20\40\40\40\x20\40\x20\40\40\x20\40\40\40\40\x20\x20\x20\x3c\x73\x70\x61\156\x20\143\x6c\x61\x73\x73\x3d\x22\151\143\x6f\156\x20\x74\145\x78\x74\55\x64\x61\x72\153\157\162\141\x6e\x67\x65\x2d\x35\60\42\76\xa\x20\x20\40\40\x20\x20\x20\x20\x20\x20\x20\40\40\x20\x20\40\x20\40\x20\40\x20\x20\40\40\40\40\40\x20\x20\x20\x20\40\74\x69\40\x63\x6c\x61\163\x73\75\x22\x66\x61\x20\146\141\x2d\144\x61\x74\141\x62\141\163\145\42\76\x3c\x2f\x69\x3e\xa\40\x20\x20\40\40\40\x20\40\40\40\40\x20\40\40\x20\40\x20\x20\x20\40\x20\x20\40\40\40\40\40\x20\74\x2f\163\160\141\156\x3e\xa\x20\x20\x20\40\40\40\x20\x20\40\40\x20\40\x20\x20\40\40\40\x20\x20\40\40\x20\40\40\x20\x20\x20\x20\74\163\x70\x61\x6e\40\x63\154\141\163\163\x3d\42\x74\x65\170\x74\42\76\105\170\160\157\x72\164\141\x72\x20\101\x66\151\154\151\141\x64\x6f\163\74\x2f\x73\160\141\156\76\12\40\40\x20\40\x20\x20\40\x20\40\40\40\40\40\x20\40\x20\x20\x20\40\40\x20\40\40\x20\74\x2f\142\165\164\x74\x6f\156\x3e"; })->AQn5N(["\156\x6f\x6d\145", "\x61\x72\162\145\x63\141\x64\x61\x63\141\x6f", "\x61\143\157\x65\163"])->YkI_i(true); goto E7of2; E7of2: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Helpers\Core as Helper;
+
+use App\Http\Controllers\Controller;
+use App\Models\AffiliatesHistory;
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\Setting;
+use App\Models\GameHistory;
+use App\Models\Transactions;
+use Carbon\Carbon;
+
+use Illuminate\Support\Facades\Auth;
+
+use App\Models\Gateways;
+use App\Models\Admin\Logs;
+use Yajra\DataTables\Facades\DataTables;
+
+class AfiliacaoController extends Controller
+{
+    public function afiliadosAfiliados(Request $request)
+    {
+        $a = $request->input('aff', '');
+        $b = $request->input('di', Carbon::now()->subDays(7)->format('Y-m-d'));
+        $c = $request->input('df', Carbon::now()->format('Y-m-d'));
+
+        // Renomeando variáveis para maior clareza
+        $nomeUsuario = $a;
+        $dataInicial = $b;
+        $dataFinal = $c;
+
+        return view('admin.afiliacao.afiliados_afiliados', compact('nomeUsuario', 'dataInicial', 'dataFinal', 'a', 'b', 'c'));
+    }
+
+    public function gerentesAfiliados(Request $request)
+    {
+        $a = $request->input('aff', '');
+        $b = $request->input('di', Carbon::now()->subDays(7)->format('Y-m-d'));
+        $c = $request->input('df', Carbon::now()->format('Y-m-d'));
+
+        // Renomeando variáveis para maior clareza
+        $nomeUsuario = $a;
+        $dataInicial = $b;
+        $dataFinal = $c;
+
+        return view('admin.afiliacao.gerentes_afiliados', compact('nomeUsuario', 'dataInicial', 'dataFinal', 'a', 'b', 'c'));
+    }
+
+    public function configAfiliados()
+    {
+        $Settings = Setting::first();
+        return view('admin.afiliacao.config_afiliados', compact('Settings'));
+    }
+
+    public function salvarConfigAfiliados(Request $request)
+    {
+        $settings = Setting::first();
+
+        $settings->min_saque_af = $request->input('min_saque_af');
+        $settings->max_saque_af = $request->input('max_saque_af');
+        $settings->max_saque_aut_af = $request->input('max_saque_aut_af');
+        $settings->cpaenabled = $request->has('cpaenabled') ? 1 : 0;
+        $settings->aff_min_dep = $request->input('aff_min_dep');
+        $settings->aff_amount = $request->input('aff_amount');
+        $settings->revenabled = $request->has('revenabled') ? 1 : 0;
+        $settings->percent_aff = $request->input('percent_aff');
+
+        $settings->save();
+
+        return response()->json(['success' => true]);
+    }
+
+    public function estatisticasAfiliados(Request $request)
+    {
+        $nomeAfiliado = $request->input('aff', '');
+        $dataInicial = $request->input('di', '');
+        $dataFinal = $request->input('df', '');
+
+        // Preparar datas para filtros
+        $bb = $dataInicial ? Carbon::parse($dataInicial)->startOfDay() : null;
+        $cc = $dataFinal ? Carbon::parse($dataFinal)->endOfDay() : null;
+
+        // Buscar usuários afiliados baseado no filtro
+        $affiliateUsersQuery = User::where('inviter', '!=', 0);
+
+        // Lógica corrigida para filtro por afiliado
+        if (!empty($nomeAfiliado)) {
+            // Primeiro, tentar encontrar o afiliado (quem convidou)
+            $afiliado = User::where('name', 'LIKE', '%' . $nomeAfiliado . '%')->first();
+
+            if ($afiliado) {
+                // Se encontrou o afiliado, buscar apenas os usuários convidados por ele
+                $affiliateUsersQuery->where('inviter', $afiliado->id);
+            } else {
+                // Se não encontrou como afiliado, buscar como usuário afiliado específico
+                $userAfiliado = User::where('name', 'LIKE', '%' . $nomeAfiliado . '%')
+                    ->where('inviter', '!=', 0)
+                    ->first();
+
+                if ($userAfiliado) {
+                    $affiliateUsersQuery->where('id', $userAfiliado->id);
+                } else {
+                    // Se não encontrou nenhum, retornar resultado vazio
+                    $affiliateUsersQuery->where('id', 0); // Força resultado vazio
+                }
+            }
+        }
+
+        $affiliateUsers = $affiliateUsersQuery->get();
+        $affiliateUserIds = $affiliateUsers->pluck('id')->toArray();
+
+        // Se não há usuários afiliados, retornar zeros
+        if (empty($affiliateUserIds)) {
+            $data = [
+                'winAmount' => 0, 'winCount' => 0, 'lossAmount' => 0, 'totalAmount' => 0, 'totalCount' => 0,
+                'depositAmount' => 0, 'depositCount' => 0, 'withdrawAmount' => 0, 'withdrawCount' => 0,
+                'totalTransAmount' => 0, 'totalTransCount' => 0, 'casinoProfit' => 0, 'transactionProfit' => 0,
+                'total_rev' => 0, 'count_rev' => 0, 'total_all' => 0,
+                'SomaDep' => 0, 'CountDep' => 0, 'SomaSaq' => 0, 'CountSaq' => 0,
+                'SomaAllDS' => 0, 'CountAllDS' => 0, 'TotalDS' => 0, 'TotalLiqDS' => 0,
+                'nomeAfiliado' => $nomeAfiliado, 'dataInicial' => $dataInicial, 'dataFinal' => $dataFinal
+            ];
+            return view('admin.afiliacao.estatisticas_afiliados', $data);
+        }
+
+        // Query para histórico de jogos (corrigido para usar 'bet' ao invés de 'loss')
+        $gameHistoryQuery = GameHistory::whereIn('user_id', $affiliateUserIds);
+        if ($bb && $cc) {
+            $gameHistoryQuery->whereBetween('created_at', [$bb, $cc]);
+        } elseif ($bb && !$cc) {
+            $gameHistoryQuery->whereBetween('created_at', [$bb, Carbon::now()]);
+        }
+
+        $winAmount = (clone $gameHistoryQuery)->where('action', 'win')->sum('amount');
+        $winCount = (clone $gameHistoryQuery)->where('action', 'win')->count();
+
+        // Correto: apostas são 'bet', não 'loss'
+        $betAmount = (clone $gameHistoryQuery)->where('action', 'bet')->sum('amount');
+        $totalAmount = (clone $gameHistoryQuery)->sum('amount');
+        $totalCount = (clone $gameHistoryQuery)->count();
+
+        // Query para transações
+        $transactionQuery = Transactions::whereIn('user_id', $affiliateUserIds)->where('status', 1);
+        if ($bb && $cc) {
+            $transactionQuery->whereBetween('created_at', [$bb, $cc]);
+        } elseif ($bb && !$cc) {
+            $transactionQuery->whereBetween('created_at', [$bb, Carbon::now()]);
+        }
+
+        $depositAmount = (clone $transactionQuery)->where('type', 0)->sum('amount');
+        $depositCount = (clone $transactionQuery)->where('type', 0)->count();
+        $withdrawAmount = (clone $transactionQuery)->where('type', 1)->sum('amount');
+        $withdrawCount = (clone $transactionQuery)->where('type', 1)->count();
+        $totalTransAmount = (clone $transactionQuery)->sum('amount');
+        $totalTransCount = (clone $transactionQuery)->count();
+
+        // Query para histórico de afiliados (RevShare) - corrigido o filtro
+        $revShareQuery = AffiliatesHistory::where('game', '!=', 'CPA');
+
+        // Filtrar por afiliado nas comissões se especificado
+        if (!empty($nomeAfiliado) && isset($afiliado)) {
+            $revShareQuery->where('inviter', $afiliado->id);
+        } elseif (!empty($nomeAfiliado) && isset($userAfiliado)) {
+            // Se filtrou por usuário específico, buscar comissões desse usuário
+            $revShareQuery->where('user_id', $userAfiliado->id);
+        }
+
+        if ($bb && $cc) {
+            $revShareQuery->whereBetween('created_at', [$bb, $cc]);
+        } elseif ($bb && !$cc) {
+            $revShareQuery->whereBetween('created_at', [$bb, Carbon::now()]);
+        }
+
+        $total_rev = (clone $revShareQuery)->sum('amount');
+        $count_rev = (clone $revShareQuery)->count();
+
+        // Cálculos finais
+        $casinoProfit = $betAmount - $winAmount; // Corrigido: apostas - prêmios
+        $transactionProfit = $depositAmount - $withdrawAmount;
+        $total_all = $casinoProfit + $transactionProfit + $total_rev;
+
+        // Preparar dados para a view
+        $data = [
+            'winAmount' => $winAmount,
+            'winCount' => $winCount,
+            'lossAmount' => $betAmount, // Mantendo compatibilidade com a view
+            'totalAmount' => $totalAmount,
+            'totalCount' => $totalCount,
+            'depositAmount' => $depositAmount,
+            'depositCount' => $depositCount,
+            'withdrawAmount' => $withdrawAmount,
+            'withdrawCount' => $withdrawCount,
+            'totalTransAmount' => $totalTransAmount,
+            'totalTransCount' => $totalTransCount,
+            'casinoProfit' => $casinoProfit,
+            'transactionProfit' => $transactionProfit,
+            'total_rev' => $total_rev,
+            'count_rev' => $count_rev,
+            'total_all' => $total_all,
+            'SomaDep' => $depositAmount,
+            'CountDep' => $depositCount,
+            'SomaSaq' => $withdrawAmount,
+            'CountSaq' => $withdrawCount,
+            'SomaAllDS' => $totalTransAmount,
+            'CountAllDS' => $totalTransCount,
+            'TotalDS' => $depositAmount - $withdrawAmount,
+            'TotalLiqDS' => $transactionProfit,
+            'nomeAfiliado' => $nomeAfiliado,
+            'dataInicial' => $dataInicial,
+            'dataFinal' => $dataFinal,
+            'affiliateUsers' => $affiliateUsers // Para o select de afiliados
+        ];
+
+        return view('admin.afiliacao.estatisticas_afiliados', $data);
+    }
+
+    public function estatisticasGerente(Request $request)
+    {
+        $a = $request->input('aff', '');
+        $b = $request->input('di', Carbon::now()->subDays(7)->format('Y-m-d'));
+        $c = $request->input('df', Carbon::now()->format('Y-m-d'));
+
+        // Lógica para calcular estatísticas
+        $SomaSaq = 0;
+        $SomaDep = 0;
+        $CountAll = 0;
+        $TotalLiq = 0;
+        $total_all = 0;
+        $SomaAll = 0;
+        $SomaWin = 0;
+        $CountWin = 0;
+        $TotalCas = 0;
+        $CountDep = 0;
+        $CountSaq = 0;
+        $TotalDS = 0;
+        $TotalLiqDS = 0;
+
+        return view('admin.afiliacao.estatisticas_gerente', compact('a', 'b', 'c', 'TotalLiqDS', 'TotalDS', 'CountSaq', 'CountDep', 'TotalCas', 'SomaDep', 'SomaSaq', 'SomaAll', 'SomaWin', 'CountWin', 'CountAll', 'TotalLiq', 'total_all'));
+    }
+
+    public function pagarAfiliado(Request $request)
+    {
+        Helper::CheckAdm();
+
+        $AUser = User::where('id', $request->id)->first();
+
+        if (!$AUser){
+            return response()->json(['success' => false, 'message' => 'Usuário não encontrado!']);
+        }
+
+        if ($AUser->Wallet->refer_rewards == 0) {
+            return response()->json(['success' => false, 'message' => 'Saldo do afiliado é zero!']);
+        }
+
+        $Valor = $AUser->Wallet->refer_rewards;
+
+        // EdPay Gateway
+        $Gera = Helper::GeraSaqueEdPay($AUser, $Valor);
+
+            if (!$Gera) {
+                return response()->json(["success" => false, "message" => "Ocorreu um erro, tente novamente em alguns instantes."]);
+            }
+
+        if (!isset($Gera['id']) || empty($Gera['id'])) {
+                return response()->json(["success" => false, "message" => "Ocorreu um erro, tente novamente em alguns instantes."]);
+            }
+
+            $IdTransaction = $Gera['id'];
+            $resultado = 'OK';
+
+        if ($resultado == 'OK') {
+            $params = [
+                "user_id" => $AUser->id,
+                "isaf" => 1,
+                "amount" => $Valor,
+                "type" => 1,
+                "with_type" => "affiliate",
+                "gateway" => "EdPay",
+                "token" => $IdTransaction,
+                "status" => 1,
+                "chave_pix" => $AUser->pix,
+            ];
+
+            if ($NTransaction = Transactions::create($params)) {
+                Logs::create([
+                    'updated_by' => Auth::id(),
+                    'user_id' => $request->id,
+                    'log' => sprintf("Pagamento de afiliado: Foi pago R$ %.2f ao afiliado %s", $Valor, $AUser->name),
+                    'type' => 1,
+                ]);
+
+                $AUser->Wallet->refer_rewards = 0;
+                $AUser->Wallet->save();
+
+                return response()->json(["success" => true, "message" => "Pagamento gerado com sucesso!"]);
+            } else {
+                return response()->json(["success" => false, "message" => "Ocorreu um erro, tente novamente em alguns instantes."]);
+            }
+        } else {
+            return response()->json(["success" => false, "message" => "Ocorreu um erro, tente novamente em alguns instantes."]);
+        }
+
+    }
+
+    /**
+     * Fornece dados para a tabela de afiliados
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function afiliadosData(Request $request)
+    {
+        $UserLogado = auth()->user();
+
+        if (($UserLogado->is_admin == 1) or ($UserLogado->is_admin == 2)){
+            $query = User::whereHas('affiliates');
+        }elseif ($UserLogado->is_admin == 3) {
+            $query = User::where('inviter', $UserLogado->id);
+        }
+
+        // Aplicar filtro por data inicial e final
+        if ($request->input('dataInicial') && $request->input('dataFinal')) {
+            $query->whereBetween('updated_at', [
+                Carbon::parse($request->input('dataInicial'))->startOfDay(),
+                Carbon::parse($request->input('dataFinal'))->endOfDay()
+            ]);
+        } elseif ($request->input('dataInicial') && !$request->input('dataFinal')) {
+            $query->where('updated_at', '>=', Carbon::parse($request->input('dataInicial'))->startOfDay());
+        }
+
+        // Aplicar filtro por nome
+        if ($request->input('nomeUsuario')) {
+            $searchTerm = $request->input('nomeUsuario');
+            $query->where('name', 'like', '%' . $searchTerm . '%');
+        }
+
+        return DataTables::of($query)
+            ->addColumn('nome', function ($row) use ($UserLogado) {
+                if (($UserLogado->is_admin == 1) or ($UserLogado->is_admin == 2)){
+                    return '<a href="javascript:void(0);" onclick="LoadAgent(\''.$row->id.'\');" data-bs-toggle="modal" data-bs-target="#tabsModal" class="bs-tooltip" title="Visualizar afiliado" data-original-title="Visualizar Usuário">'.$row->name.'</a>';
+                }elseif ($UserLogado->is_admin == 3) {
+                    return $row->name;
+                }
+            })
+            ->addColumn('email', function ($row) {
+                return $row->email;
+            })
+            ->addColumn('data', function ($row) {
+                return Carbon::parse($row->updated_at)->format('d/m/Y H:i:s');
+            })
+            ->rawColumns(['nome'])
+            ->make(true);
+    }
+
+    /**
+     * Fornece dados para a tabela de gerentes de afiliados
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function gerentesData(Request $request)
+    {
+        $query = User::with('wallet')
+            ->where('is_affiliate', 1);
+
+        // Aplicar filtro por data inicial e final
+        if ($request->input('dataInicial') && $request->input('dataFinal')) {
+            $query->whereBetween('updated_at', [
+                Carbon::parse($request->input('dataInicial'))->startOfDay(),
+                Carbon::parse($request->input('dataFinal'))->endOfDay()
+            ]);
+        } elseif ($request->input('dataInicial') && !$request->input('dataFinal')) {
+            $query->where('updated_at', '>=', Carbon::parse($request->input('dataInicial'))->startOfDay());
+        }
+
+        // Aplicar filtro por nome
+        if ($request->input('nomeUsuario')) {
+            $searchTerm = $request->input('nomeUsuario');
+            $query->where('name', 'like', '%' . $searchTerm . '%');
+        }
+
+        return DataTables::of($query)
+            ->addColumn('nome', function ($row) {
+                return '<a href="javascript:void(0);" onclick="LoadAgent(\''.$row->id.'\');" data-bs-toggle="modal" data-bs-target="#tabsModal" class="bs-tooltip" title="Visualizar afiliado" data-original-title="Visualizar Usuário">'.$row->name.'</a>';
+            })
+            ->addColumn('email', function ($row) {
+                return $row->email;
+            })
+            ->addColumn('arrecadacao', function ($row) {
+                $id = $row->id;
+                $Total = $row->wallet->refer_rewards;
+
+                if ($Total > 0) {
+                    return '<span class="badge badge-light-success mb-2 me-4">'.sprintf("R$ %.2f", $Total).'</span>';
+                } else {
+                    return '<span class="badge badge-light-danger mb-2 me-4">'.sprintf("R$ %.2f", $Total).'</span>';
+                }
+            })
+            ->addColumn('valor_formatado', function ($row) {
+                return sprintf("R$ %.2f", $row->wallet->refer_rewards);
+            })
+            ->addColumn('acoes', function ($row) {
+                return '<button onclick="confirmPayment(\''.$row->id.'\', \''.$row->name.'\', \''.sprintf("R$ %.2f", $row->wallet->refer_rewards).'\');" class="btn btn-success" type="button">
+                            <span class="icon text-darkorange-50">
+                                <i class="fa fa-check"></i>
+                            </span>
+                            <span class="text">Pagar Afiliado</span>
+                        </button>
+
+                        <button onclick="ExportarAfiliados(\''.$row->id.'\');" class="btn btn-info" type="button">
+                            <span class="icon text-darkorange-50">
+                                <i class="fa fa-database"></i>
+                            </span>
+                            <span class="text">Exportar Afiliados</span>
+                        </button>';
+            })
+            ->rawColumns(['nome', 'arrecadacao', 'acoes'])
+            ->make(true);
+    }
+}

@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
-use App\ViewComposers\AdminLicenseComposer;
+use App\ViewComposers\AdminNavbarComposer;
 use App\ViewComposers\AppLayoutComposer;
 
 class ViewComposerServiceProvider extends ServiceProvider
@@ -34,9 +34,9 @@ class ViewComposerServiceProvider extends ServiceProvider
             ]);
         });
 
-        // Compartilhar dados de licença com views admin
-        View::composer('admin.partials.navbar', AdminLicenseComposer::class);
-        View::composer('admin.layouts.app', AdminLicenseComposer::class);
+        // Compartilhar dados com views admin (pendências, transações, etc.)
+        View::composer('admin.partials.navbar', AdminNavbarComposer::class);
+        View::composer('admin.layouts.app', AdminNavbarComposer::class);
 
         // Compartilhar dados com o layout principal app.blade.php
         // Como o modal é incluído dentro de views que estendem layouts.app,

@@ -1,8 +1,266 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:41              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\ShTEQ\Fn52M\JKlI6; use jF89X\sHTEq\fn52m\nMP37; use ec3mE\SHTeq\s9d5T; use Jf89X\t0EtD\f521n; use JF89x\t0eTd\GRZLN; use EC3Me\H2vuv\P2qh1\Log; use eC3ME\H2vUv\P2QH1\NxROv; use eC3mE\H2vUv\Tc4rX; class N9IDR extends NmP37 { public function JKbS3() { return Lo0CY("\141\x64\155\x69\156\x2e\x70\145\x72\163\157\156\141\x6c\x69\172\x61\143\141\157\56\x6d\x65\156\x75"); } public function msOr4($nlzPa) { try { goto v2YBJ; K92tx: Log::info("\103\141\x74\x65\x67\157\x72\x69\141\40\x65\170\x69\x73\x74\145\72\x20" . ($uj18g ? "\123\x69\x6d" : "\116\xc3\xa3\x6f")); goto LDN7e; LDN7e: return LO0cy("\x61\x64\x6d\151\156\x2e\160\145\x72\163\x6f\156\x61\x6c\151\172\141\x63\141\157\56\160\x61\x72\164\x69\x61\x6c\x73\x2e\x6d\145\x6e\x75\x5f\x69\x74\145\x6d\x73", ["\103\141\x74\145\x67\x6f\162\x69\x61" => $nlzPa, "\x43\x61\164\145\147\x6f\162\x69\x61\111\x6e\146\157" => $uj18g]); goto SlI6q; B7O0D: Log::info("\x43\x61\162\162\x65\147\x61\x6e\144\x6f\x20\151\164\x65\x6e\163\x20\x70\x61\x72\141\40\x63\x61\x74\145\147\x6f\x72\x69\x61\40\111\x44\72\x20" . $nlzPa); goto K92tx; v2YBJ: $uj18g = F521n::YLB3M($nlzPa); goto B7O0D; SlI6q: } catch (\Exception $ai57B) { goto QbW9w; XCQYz: Log::p2m7E("\x53\x74\141\x63\x6b\x20\x74\x72\x61\143\145\72\x20" . $ai57B->getTraceAsString()); goto YBh8x; QbW9w: Log::p2m7E("\105\162\162\157\40\x61\x6f\40\x63\x61\162\x72\x65\147\x61\162\x20\151\x74\145\x6e\x73\x20\144\x6f\40\x6d\145\x6e\165\x3a\x20" . $ai57B->getMessage()); goto XCQYz; YBh8x: return "\74\x64\x69\166\40\x63\x6c\141\163\163\x3d\42\x61\154\145\x72\x74\40\x61\154\145\162\164\55\x64\141\156\147\145\162\42\76\105\162\x72\157\40\141\157\x20\x63\141\162\162\145\147\x61\x72\x20\x69\164\x65\x6e\x73\40\144\157\x20\155\x65\156\165\72\x20" . $ai57B->getMessage() . "\x3c\57\x64\151\x76\76"; goto ELOYc; ELOYc: } } public function epv5h(s9d5T $WFz1w) { try { goto R3u5v; vY6N_: if (!($WFz1w->tx8JD === "\x6f\x72\x64\x65\x6d")) { goto jU6C5; } goto GWO5j; R3u5v: $uj18g = f521n::UgYZw($WFz1w->id); goto G49a3; YevwK: Iib_y: goto vY6N_; U6tvg: if (!($WFz1w->tx8JD === "\156\157\155\145")) { goto q39CV; } goto OCjBB; RyZub: $uj18g->{$WFz1w->tx8JD} = $WFz1w->aZqi8; goto U6tvg; C5RR9: q39CV: goto tpARL; NAaHz: return jGkRl()->sBE1q(["\163\165\143\143\145\x73\163" => true]); goto OPK0g; G49a3: if (!(empty($uj18g->B_vcs) && NXROV::c_4Hv())) { goto Iib_y; } goto xReNY; J5JsG: UcFt5: goto GaePR; OCjBB: $uj18g->EWmd0 = tC4rX::ku3Yq($WFz1w->aZqi8); goto C5RR9; tpARL: $uj18g->save(); goto NAaHz; lv9Sx: return JgKrL()->sbe1q(["\x73\165\x63\143\x65\x73\x73" => false, "\155\x65\163\163\x61\x67\145" => "\x56\x61\x6c\x6f\162\x20\x64\x65\40\157\162\144\x65\155\x20\151\x6e\x76\xc3\xa1\154\151\x64\157"]); goto J5JsG; GWO5j: if (!(!is_numeric($WFz1w->aZqi8) || $WFz1w->aZqi8 < 0)) { goto UcFt5; } goto lv9Sx; GaePR: jU6C5: goto RyZub; xReNY: $uj18g->B_vcs = NxROv::YfGI_()->B_vcs ?? 0; goto YevwK; OPK0g: } catch (\Exception $ai57B) { Log::p2m7E("\105\x72\x72\x6f\40\141\x6f\x20\x61\164\165\x61\154\x69\x7a\141\x72\40\143\x61\164\145\x67\x6f\x72\x69\141\72\x20" . $ai57B->getMessage()); return jgkrl()->Sbe1Q(["\163\x75\143\x63\x65\x73\163" => false, "\155\x65\x73\163\x61\x67\x65" => $ai57B->getMessage()]); } } public function D8zM1(s9D5T $WFz1w) { try { goto RAXUx; K3SEw: return jgkRL()->SbE1q(["\163\x75\x63\143\145\x73\x73" => true]); goto CTBes; b4RA3: ZNdUl: goto ZZowH; lveFE: if (!(empty($WT0D7->B_vcs) && NxRov::c_4hV())) { goto Grw4v; } goto blWjx; m949n: OY0vz: goto HsTA8; qZagg: return jGKrL()->SBe1q(["\x73\165\143\x63\x65\163\x73" => false, "\x6d\x65\163\163\x61\x67\x65" => "\126\x61\154\x6f\162\40\144\x65\x20\157\x72\x64\145\155\x20\x69\156\x76\303\xa1\154\151\x64\x6f"]); goto MONez; dq1sz: if (!(!is_numeric($WFz1w->aZqi8) || $WFz1w->aZqi8 < 0)) { goto JqW6O; } goto qZagg; ZZowH: $WT0D7->{$WFz1w->tx8JD} = $WFz1w->aZqi8; goto AKeOM; RAXUx: $WT0D7 = gRzlN::UGYzw($WFz1w->id); goto lveFE; MONez: JqW6O: goto b4RA3; JknDt: $WT0D7->EWmd0 = Tc4Rx::ku3yq($WFz1w->aZqi8); goto m949n; I9w8P: if (!($WFz1w->tx8JD === "\x6f\x72\144\145\155")) { goto ZNdUl; } goto dq1sz; pqBuD: Grw4v: goto I9w8P; HsTA8: $WT0D7->save(); goto K3SEw; AKeOM: if (!($WFz1w->tx8JD === "\x6e\157\x6d\x65")) { goto OY0vz; } goto JknDt; blWjx: $WT0D7->B_vcs = nxROv::Yfgi_()->B_vcs ?? 0; goto pqBuD; CTBes: } catch (\Exception $ai57B) { Log::p2M7e("\105\162\162\x6f\40\141\x6f\40\x61\x74\x75\141\x6c\x69\x7a\x61\x72\x20\x69\x74\x65\x6d\72\x20" . $ai57B->getMessage()); return jgKRl()->sBE1q(["\163\x75\143\143\x65\x73\163" => false, "\155\145\163\163\141\x67\145" => $ai57B->getMessage()]); } } public function zm36s(s9d5t $WFz1w) { try { goto fkMnH; MAmCz: QdrTu: goto l7pFD; oXec8: $WT0D7->vu8Oz = $WFz1w->vu8Oz; goto MyBQQ; pRe5L: $WT0D7->EWmd0 = tC4Rx::kU3yq($WFz1w->PSHfe); goto yL6iO; EuGRX: $WT0D7->PSHfe = $WFz1w->PSHfe; goto pRe5L; l7pFD: $WT0D7->save(); goto jVHns; fkMnH: $WFz1w->validate(["\x6e\x6f\155\145" => "\162\x65\x71\x75\x69\x72\145\144\x7c\163\x74\x72\151\156\x67\x7c\155\x61\x78\x3a\62\x35\x35", "\151\143\x6f\156\x65" => "\x72\x65\161\x75\x69\162\145\144\174\x73\x74\x72\x69\x6e\147", "\x6c\x69\x6e\153" => "\x72\145\161\165\151\x72\x65\x64\x7c\163\164\x72\151\156\x67\174\155\141\x78\72\62\65\x35", "\x6f\162\144\145\x6d" => "\162\145\x71\165\x69\162\145\x64\174\151\x6e\164\x65\147\x65\x72\174\x6d\151\156\72\60", "\143\141\164\x65\x67\x6f\x72\x69\x61" => "\162\x65\x71\165\x69\x72\145\x64"]); goto ymt9u; pDRmC: $WT0D7->o9wPQ = $WFz1w->o9wPQ; goto Ka4yS; jVHns: return jGkRL()->SBe1q(["\163\165\143\x63\145\163\x73" => true, "\155\x65\x73\x73\x61\x67\145" => "\111\x74\x65\155\x20\141\x64\x69\143\x69\157\156\141\x64\157\x20\143\157\x6d\x20\x73\165\x63\x65\163\x73\157", "\151\164\x65\x6d" => $WT0D7]); goto b3Kh4; MyBQQ: $WT0D7->f3ZTH = 1; goto dmjXu; yL6iO: $WT0D7->cv0nV = $WFz1w->cv0nV; goto pDRmC; ymt9u: $WT0D7 = new GrZLn(); goto EuGRX; Ka4yS: $WT0D7->yxRV_ = $WFz1w->yxRV_; goto oXec8; dmjXu: if (!nXrOV::C_4hV()) { goto QdrTu; } goto p1AOD; p1AOD: $WT0D7->B_vcs = nxrov::yfGI_()->B_vcs ?? 0; goto MAmCz; b3Kh4: } catch (\EC3Me\NZjO_\iuT8t $ai57B) { Log::P2m7E("\x45\x72\x72\x6f\x20\x64\x65\x20\x76\141\154\151\144\141\xc3\xa7\xc3\xa3\x6f\40\141\x6f\x20\x61\144\x69\143\x69\x6f\156\x61\162\40\151\x74\145\155\x3a\40" . json_encode($ai57B->WLQvZ())); return jgKRL()->sbE1Q(["\163\165\x63\x63\x65\x73\x73" => false, "\x6d\145\163\x73\141\147\x65" => "\105\162\x72\157\40\x64\145\x20\166\x61\x6c\x69\144\x61\xc3\247\303\xa3\x6f\72\x20" . implode("\54\40", array_map(function ($WT0D7) { return $WT0D7[0]; }, $ai57B->wLqVz()))]); } catch (\Exception $ai57B) { Log::P2M7e("\105\x72\x72\157\x20\x61\x6f\x20\141\144\x69\x63\151\157\156\141\x72\40\151\164\x65\155\x3a\40" . $ai57B->getMessage()); return jgkrl()->sbE1Q(["\x73\165\143\143\x65\x73\163" => false, "\155\x65\163\x73\141\147\x65" => "\x45\x72\162\157\40\141\157\40\x61\x64\x69\x63\151\157\x6e\x61\162\x20\151\x74\x65\155\72\x20" . $ai57B->getMessage()]); } } public function ZbNYr(s9d5T $WFz1w) { try { goto ynOVc; DAzyP: $WT0D7->delete(); goto uzwAY; uzwAY: return JgKrL()->sBE1q(["\x73\165\143\143\x65\163\163" => true, "\x6d\x65\163\x73\141\147\145" => "\111\164\145\155\x20\x65\x78\143\x6c\165\xc3\xad\144\157\40\x63\x6f\155\x20\163\x75\143\145\x73\x73\x6f"]); goto uYCiF; ynOVc: $WT0D7 = grzlN::UGYZW($WFz1w->id); goto DAzyP; uYCiF: } catch (\Exception $ai57B) { Log::p2M7e("\105\x72\x72\157\x20\141\157\40\x65\170\143\154\x75\151\162\40\x69\164\145\x6d\x3a\x20" . $ai57B->getMessage()); return jGkrl()->Sbe1q(["\163\x75\x63\143\145\163\163" => false, "\x6d\x65\x73\163\x61\x67\x65" => "\x45\x72\162\x6f\x20\x61\157\x20\145\x78\x63\x6c\165\151\162\x20\151\x74\145\x6d\x3a\40" . $ai57B->getMessage()]); } } public function S43nt(S9d5t $WFz1w) { try { goto gnoOd; gnoOd: $WFz1w->validate(["\156\x6f\x6d\x65" => "\x72\x65\x71\x75\151\162\145\144\x7c\163\x74\x72\151\x6e\147\x7c\x6d\141\170\x3a\62\65\65", "\157\162\144\145\x6d" => "\162\145\161\x75\x69\x72\145\144\174\x69\x6e\x74\145\x67\x65\162\174\x6d\x69\x6e\x3a\60", "\164\x69\160\x6f" => "\163\157\x6d\145\164\x69\155\x65\x73\174\x73\164\162\x69\x6e\x67"]); goto lIHnc; wlLKi: $uj18g->GcZTb = $WFz1w->GcZTb ?? "\160\x72\x69\156\143\x69\160\141\154"; goto KdQlT; nDcbB: if (!NxroV::c_4hV()) { goto gcbP4; } goto BIYZI; Y_nbX: $uj18g->PSHfe = $WFz1w->PSHfe; goto Nv2j_; lIHnc: $uj18g = new F521N(); goto Y_nbX; dT8gg: $uj18g->yxRV_ = $WFz1w->yxRV_; goto wlLKi; Nv2j_: $uj18g->EWmd0 = tc4Rx::kU3yq($WFz1w->PSHfe); goto dT8gg; gpoM_: gcbP4: goto zI1JF; zI1JF: $uj18g->save(); goto ydlC_; ydlC_: return jgKRL()->Sbe1Q(["\x73\x75\143\x63\145\x73\163" => true, "\155\x65\163\x73\x61\x67\x65" => "\103\x61\164\145\147\x6f\x72\x69\141\40\x61\x64\x69\x63\151\x6f\x6e\141\144\141\x20\143\157\x6d\40\163\x75\143\x65\163\x73\x6f", "\x63\x61\164\x65\x67\157\x72\151\x61" => $uj18g]); goto jYpoV; KdQlT: $uj18g->f3ZTH = 1; goto nDcbB; BIYZI: $uj18g->B_vcs = NXROV::yFGi_()->B_vcs ?? 0; goto gpoM_; jYpoV: } catch (\ec3me\NZjo_\Iut8T $ai57B) { Log::P2m7e("\105\162\x72\157\40\x64\145\x20\x76\141\x6c\151\144\x61\303\247\xc3\243\157\x20\141\157\40\x61\x64\x69\x63\151\x6f\156\x61\x72\x20\x63\x61\x74\145\147\157\x72\x69\141\x3a\x20" . json_encode($ai57B->WLQVz())); return jgkrl()->sBe1Q(["\x73\165\x63\x63\145\x73\x73" => false, "\155\145\x73\x73\141\x67\x65" => "\x45\x72\x72\x6f\40\144\145\40\166\x61\154\x69\144\141\303\xa7\303\xa3\157\72\40" . implode("\54\40", array_map(function ($WT0D7) { return $WT0D7[0]; }, $ai57B->WlqvZ()))]); } catch (\Exception $ai57B) { Log::p2M7E("\x45\162\162\157\40\141\157\40\141\144\151\143\151\157\x6e\x61\x72\x20\143\141\x74\145\147\x6f\x72\x69\141\72\40" . $ai57B->getMessage()); return jGKrL()->sbE1q(["\163\x75\x63\143\145\x73\x73" => false, "\x6d\145\x73\163\x61\x67\x65" => "\x45\x72\162\x6f\40\x61\157\x20\x61\144\151\x63\151\x6f\x6e\141\162\x20\143\141\164\145\147\157\162\x69\x61\72\40" . $ai57B->getMessage()]); } } public function xTc9N(S9d5T $WFz1w) { try { goto bdGJ0; mcHnU: gRZlN::C_mHY("\143\x61\x74\145\x67\157\162\x69\x61", $uj18g->id)->delete(); goto Sd023; yDhfv: return jgkRL()->sBe1q(["\x73\165\x63\143\x65\x73\x73" => true, "\155\145\x73\163\x61\x67\145" => "\103\x61\164\x65\x67\157\162\151\141\40\x65\40\151\164\145\156\163\x20\x65\170\143\x6c\165\303\xad\144\157\163\40\143\x6f\155\x20\x73\x75\143\x65\163\x73\157"]); goto Ejl6b; Sd023: $uj18g->delete(); goto yDhfv; bdGJ0: $uj18g = F521N::UGyzW($WFz1w->id); goto mcHnU; Ejl6b: } catch (\Exception $ai57B) { Log::P2M7e("\105\x72\162\157\x20\141\x6f\x20\145\170\143\154\x75\x69\162\40\x63\x61\x74\x65\147\157\x72\151\141\x3a\x20" . $ai57B->getMessage()); return jGKrl()->Sbe1q(["\x73\165\x63\143\145\163\163" => false, "\x6d\145\x73\163\x61\147\145" => "\105\162\162\157\x20\141\157\x20\x65\x78\143\x6c\x75\151\162\x20\143\141\x74\x65\x67\157\162\151\141\x3a\40" . $ai57B->getMessage()]); } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\MenuCategoria;
+use App\Models\MenuItems;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
+
+class MenuController extends Controller
+{
+    /**
+     * Exibe a tela de gerenciamento de menus
+     */
+    public function index()
+    {
+        return view('admin.personalizacao.menu');
+    }
+
+    /**
+     * Carrega os itens de uma categoria específica
+     */
+    public function loadItems($id)
+    {
+        try {
+            // Verificar se a categoria existe
+            $categoria = MenuCategoria::find($id);
+            
+            // Registrar o ID da categoria e informações para debug
+            Log::info('Carregando itens para categoria ID: ' . $id);
+            Log::info('Categoria existe: ' . ($categoria ? 'Sim' : 'Não'));
+            
+            // Mesmo se a categoria não existir, exibimos a interface para possível adição de itens
+            return view('admin.personalizacao.partials.menu_items', [
+                'Categoria' => $id,
+                'CategoriaInfo' => $categoria
+            ]);
+            
+        } catch (\Exception $e) {
+            // Registrar o erro
+            Log::error('Erro ao carregar itens do menu: ' . $e->getMessage());
+            Log::error('Stack trace: ' . $e->getTraceAsString());
+            
+            // Retornar uma mensagem de erro
+            return '<div class="alert alert-danger">Erro ao carregar itens do menu: ' . $e->getMessage() . '</div>';
+        }
+    }
+
+    /**
+     * Atualiza os dados de uma categoria
+     */
+    public function updateCategory(Request $request)
+    {
+        try {
+            $categoria = MenuCategoria::findOrFail($request->id);
+            
+            // Adicionar id_cliente se o modelo requer
+            if (empty($categoria->id_cliente) && Auth::check()) {
+                $categoria->id_cliente = Auth::user()->id_cliente ?? 0;
+            }
+            
+            // Validação dos campos
+            if ($request->campo === 'ordem') {
+                if (!is_numeric($request->valor) || $request->valor < 0) {
+                    return response()->json(['success' => false, 'message' => 'Valor de ordem inválido']);
+                }
+            }
+            
+            // Atualizar o campo específico
+            $categoria->{$request->campo} = $request->valor;
+            
+            // Se o campo for nome, atualizar slug
+            if ($request->campo === 'nome') {
+                $categoria->slug = Str::slug($request->valor);
+            }
+            
+            $categoria->save();
+            
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            Log::error('Erro ao atualizar categoria: ' . $e->getMessage());
+            return response()->json(['success' => false, 'message' => $e->getMessage()]);
+        }
+    }
+
+    /**
+     * Atualiza os dados de um item de menu
+     */
+    public function updateItem(Request $request)
+    {
+        try {
+            $item = MenuItems::findOrFail($request->id);
+            
+            // Adicionar id_cliente se o modelo requer
+            if (empty($item->id_cliente) && Auth::check()) {
+                $item->id_cliente = Auth::user()->id_cliente ?? 0;
+            }
+            
+            // Validação dos campos
+            if ($request->campo === 'ordem') {
+                if (!is_numeric($request->valor) || $request->valor < 0) {
+                    return response()->json(['success' => false, 'message' => 'Valor de ordem inválido']);
+                }
+            }
+            
+            // Atualizar o campo específico
+            $item->{$request->campo} = $request->valor;
+            
+            // Se o campo for nome, atualizar slug
+            if ($request->campo === 'nome') {
+                $item->slug = Str::slug($request->valor);
+            }
+            
+            $item->save();
+            
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            Log::error('Erro ao atualizar item: ' . $e->getMessage());
+            return response()->json(['success' => false, 'message' => $e->getMessage()]);
+        }
+    }
+
+    /**
+     * Adiciona um novo item de menu
+     */
+    public function addItem(Request $request)
+    {
+        try {
+            // Validação dos dados
+            $request->validate([
+                'nome' => 'required|string|max:255',
+                'icone' => 'required|string',
+                'link' => 'required|string|max:255',
+                'ordem' => 'required|integer|min:0',
+                'categoria' => 'required'
+            ]);
+            
+            // Criar novo item
+            $item = new MenuItems();
+            $item->nome = $request->nome;
+            $item->slug = Str::slug($request->nome);
+            $item->icone = $request->icone;
+            $item->link = $request->link;
+            $item->ordem = $request->ordem;
+            $item->categoria = $request->categoria;
+            $item->active = 1; // Ativo por padrão
+            
+            // Adicionar id_cliente se o modelo requer
+            if (Auth::check()) {
+                $item->id_cliente = Auth::user()->id_cliente ?? 0;
+            }
+            
+            $item->save();
+            
+            return response()->json([
+                'success' => true, 
+                'message' => 'Item adicionado com sucesso',
+                'item' => $item
+            ]);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            Log::error('Erro de validação ao adicionar item: ' . json_encode($e->errors()));
+            return response()->json([
+                'success' => false, 
+                'message' => 'Erro de validação: ' . implode(', ', array_map(function($item) {
+                    return $item[0];
+                }, $e->errors()))
+            ]);
+        } catch (\Exception $e) {
+            Log::error('Erro ao adicionar item: ' . $e->getMessage());
+            return response()->json([
+                'success' => false, 
+                'message' => 'Erro ao adicionar item: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    /**
+     * Exclui um item de menu
+     */
+    public function deleteItem(Request $request)
+    {
+        try {
+            $item = MenuItems::findOrFail($request->id);
+            $item->delete();
+            
+            return response()->json(['success' => true, 'message' => 'Item excluído com sucesso']);
+        } catch (\Exception $e) {
+            Log::error('Erro ao excluir item: ' . $e->getMessage());
+            return response()->json(['success' => false, 'message' => 'Erro ao excluir item: ' . $e->getMessage()]);
+        }
+    }
+    
+    /**
+     * Adiciona uma nova categoria de menu
+     */
+    public function addCategory(Request $request)
+    {
+        try {
+            // Validação dos dados
+            $request->validate([
+                'nome' => 'required|string|max:255',
+                'ordem' => 'required|integer|min:0',
+                'tipo' => 'sometimes|string'
+            ]);
+            
+            // Criar nova categoria
+            $categoria = new MenuCategoria();
+            $categoria->nome = $request->nome;
+            $categoria->slug = Str::slug($request->nome);
+            $categoria->ordem = $request->ordem;
+            $categoria->tipo = $request->tipo ?? 'principal';
+            $categoria->active = 1; // Ativa por padrão
+            
+            // Adicionar id_cliente se o modelo requer
+            if (Auth::check()) {
+                $categoria->id_cliente = Auth::user()->id_cliente ?? 0;
+            }
+            
+            $categoria->save();
+            
+            return response()->json([
+                'success' => true, 
+                'message' => 'Categoria adicionada com sucesso',
+                'categoria' => $categoria
+            ]);
+        } catch (\Illuminate\Validation\ValidationException $e) {
+            Log::error('Erro de validação ao adicionar categoria: ' . json_encode($e->errors()));
+            return response()->json([
+                'success' => false, 
+                'message' => 'Erro de validação: ' . implode(', ', array_map(function($item) {
+                    return $item[0];
+                }, $e->errors()))
+            ]);
+        } catch (\Exception $e) {
+            Log::error('Erro ao adicionar categoria: ' . $e->getMessage());
+            return response()->json([
+                'success' => false, 
+                'message' => 'Erro ao adicionar categoria: ' . $e->getMessage()
+            ]);
+        }
+    }
+    
+    /**
+     * Exclui uma categoria de menu e todos os seus itens
+     */
+    public function deleteCategory(Request $request)
+    {
+        try {
+            $categoria = MenuCategoria::findOrFail($request->id);
+            
+            // Excluir todos os itens relacionados primeiro
+            MenuItems::where('categoria', $categoria->id)->delete();
+            
+            // Excluir a categoria
+            $categoria->delete();
+            
+            return response()->json(['success' => true, 'message' => 'Categoria e itens excluídos com sucesso']);
+        } catch (\Exception $e) {
+            Log::error('Erro ao excluir categoria: ' . $e->getMessage());
+            return response()->json(['success' => false, 'message' => 'Erro ao excluir categoria: ' . $e->getMessage()]);
+        }
+    }
+}

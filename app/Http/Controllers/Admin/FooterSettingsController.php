@@ -1,8 +1,141 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:40              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\sHTEQ\Fn52m\JKlI6; use jf89x\sHtEq\Fn52m\nmp37; use jF89X\t0Etd\xwTW6; use jF89x\T0ETd\dpOLq; use eC3me\sHTEQ\S9d5T; class TyqbG extends nmP37 { public function E36Z7() { goto qIEwp; W0VMb: return lo0Cy("\x61\144\x6d\151\x6e\56\x66\157\x6f\164\145\x72\55\x73\x65\164\164\x69\x6e\147\163\56\x65\144\x69\164", compact("\x66\x6f\157\x74\145\162\123\145\164\x74\x69\156\x67\x73", "\163\x6f\143\x69\x61\154\x4c\x69\x6e\x6b\x73")); goto jhcTj; EQqMa: $wAKoi = DPOLQ::yrKR9() ?: new dpolq(); goto W0VMb; qIEwp: $eCoBa = xWtW6::ol3x2(); goto EQqMa; jhcTj: } public function update(S9d5T $WFz1w) { goto A_Uo1; vMnGS: return fH6x5()->Wwy32("\141\x64\155\151\156\56\x66\x6f\157\164\x65\x72\55\x73\x65\x74\164\x69\156\x67\x73\x2e\x65\x64\151\164")->RNJFy("\x73\x75\x63\x63\145\163\163", "\x43\157\156\146\151\147\165\162\141\303\247\303\xb5\145\163\x20\x64\x6f\40\162\x6f\x64\x61\160\xc3\251\40\x61\x74\x75\x61\x6c\x69\x7a\x61\x64\141\x73\40\x63\x6f\155\40\x73\165\143\x65\163\x73\157\x21"); goto V0aWT; cIS83: $eCoBa->update(["\x66\157\x6f\164\x65\x72\x5f\x74\145\170\x74" => $WFz1w->TV4yL, "\x66\x6f\x6f\164\145\162\x5f\x73\165\142\164\145\170\x74" => $WFz1w->zuyLG, "\x63\157\156\x74\x61\x63\164\137\142\x75\164\x74\x6f\156\x5f\x75\162\x6c" => $WFz1w->z9Gek, "\163\150\x6f\167\137\141\x75\164\x6f\162\151\x7a\141\x64\157\137\x63\141\163\x73\x69\156\x6f" => $WFz1w->hKLbp("\x73\150\157\167\x5f\141\x75\164\157\x72\x69\172\x61\x64\157\137\x63\x61\x73\163\x69\156\157"), "\x73\150\x6f\167\137\x73\x6f\143\151\x61\154\137\x6c\151\156\x6b\x73" => $WFz1w->hKLbP("\163\150\157\167\137\163\x6f\143\151\141\154\x5f\x6c\151\x6e\153\x73"), "\x74\x6f\160\142\141\162\137\164\x65\170\x74" => $WFz1w->CXN0Y, "\x74\x6f\160\x62\x61\x72\137\142\165\x74\x74\157\156\x5f\164\145\x78\x74" => $WFz1w->aJxyR, "\164\157\x70\x62\141\162\137\142\x75\164\164\157\x6e\137\165\x72\x6c" => $WFz1w->huPZB, "\163\150\157\x77\137\x74\x6f\x70\142\x61\162" => $WFz1w->HKlbp("\163\x68\x6f\x77\137\164\157\x70\142\141\162")]); goto nv4du; J2Hh2: if ($wAKoi) { goto EPKjr; } goto oLKFn; nv4du: $wAKoi = dpoLQ::yrKr9(); goto J2Hh2; CTOvi: $eCoBa = XWtw6::Ol3X2(); goto cIS83; A_Uo1: $WFz1w->validate(["\146\x6f\x6f\x74\x65\x72\x5f\x74\x65\170\164" => "\162\145\161\x75\x69\162\x65\144\174\x73\164\162\151\156\x67", "\146\x6f\x6f\164\x65\162\137\x73\x75\142\x74\x65\x78\164" => "\156\x75\154\x6c\x61\142\154\x65\174\163\164\x72\x69\156\x67", "\x63\x6f\156\164\141\x63\x74\x5f\142\165\x74\x74\x6f\156\137\x75\162\154" => "\x6e\165\154\154\141\142\154\145\174\163\x74\162\151\156\147\x7c\155\x61\x78\72\62\x35\65", "\163\150\x6f\x77\x5f\x61\165\164\157\x72\151\172\141\144\x6f\137\143\x61\163\x73\151\156\x6f" => "\142\x6f\x6f\x6c\145\141\x6e", "\x73\x68\x6f\x77\x5f\x73\157\143\151\x61\x6c\x5f\154\x69\156\153\x73" => "\x62\157\157\x6c\145\x61\156", "\164\x6f\x70\142\x61\162\x5f\x74\x65\x78\164" => "\162\x65\161\x75\x69\x72\145\x64\174\163\164\162\151\156\147\174\x6d\x61\x78\72\62\65\x35", "\x74\157\160\x62\141\162\137\142\165\x74\164\x6f\156\x5f\x74\145\x78\164" => "\x72\x65\161\165\x69\x72\x65\x64\x7c\163\x74\x72\x69\156\147\174\x6d\141\x78\72\61\60\60", "\x74\x6f\160\142\141\x72\x5f\142\165\x74\x74\x6f\x6e\137\165\x72\154" => "\162\145\x71\165\151\162\x65\144\174\x73\164\162\151\156\x67\x7c\x6d\x61\x78\72\x32\x35\x35", "\x73\x68\x6f\x77\137\164\x6f\x70\x62\x61\x72" => "\x62\x6f\x6f\154\145\141\x6e", "\151\156\163\x74\x61\147\162\x61\155" => "\x6e\165\x6c\154\x61\x62\154\x65\174\163\x74\x72\x69\156\147\x7c\155\141\x78\72\x32\65\65", "\146\141\143\145\142\157\157\x6b" => "\x6e\x75\154\x6c\x61\x62\154\x65\174\163\164\162\151\156\147\174\x6d\x61\170\72\x32\65\65", "\x74\145\154\x65\147\x72\141\155" => "\x6e\x75\154\x6c\x61\142\154\x65\174\x73\x74\x72\151\156\147\x7c\x6d\x61\x78\72\x32\65\65", "\x77\x68\x61\164\x73\141\x70\160" => "\156\165\154\154\x61\142\154\145\x7c\163\164\162\151\156\x67\x7c\x6d\141\170\x3a\x32\65\65", "\163\x68\157\167\137\x69\x6e\x73\164\141\147\162\141\155" => "\142\157\157\154\145\141\x6e", "\163\150\x6f\167\x5f\x66\141\x63\145\142\x6f\x6f\x6b" => "\142\x6f\157\154\145\141\x6e", "\163\150\x6f\x77\137\x74\x65\x6c\145\147\x72\141\x6d" => "\142\x6f\157\154\x65\x61\156", "\x73\x68\157\167\137\x77\x68\x61\164\163\141\x70\x70" => "\x62\157\x6f\x6c\145\141\156"]); goto CTOvi; oLKFn: dpOLQ::create(["\x69\x6e\x73\164\x61\147\162\141\x6d" => $WFz1w->V30s9, "\x66\141\x63\145\x62\x6f\x6f\x6b" => $WFz1w->v0Qsv, "\x74\145\x6c\x65\147\162\141\155" => $WFz1w->N6w7E, "\x77\x68\x61\x74\163\141\160\x70" => $WFz1w->QNOMv, "\163\150\x6f\x77\x5f\x69\x6e\163\164\x61\x67\x72\x61\x6d" => $WFz1w->hklBP("\x73\x68\x6f\167\137\x69\156\x73\164\141\147\x72\x61\155"), "\x73\x68\157\167\x5f\x66\x61\x63\x65\142\x6f\x6f\x6b" => $WFz1w->HkLBP("\163\x68\x6f\x77\x5f\146\x61\143\x65\142\x6f\157\x6b"), "\163\150\x6f\167\x5f\164\145\154\145\147\162\141\155" => $WFz1w->HKLbp("\x73\150\157\x77\137\x74\x65\x6c\145\147\162\141\x6d"), "\163\x68\x6f\167\x5f\x77\150\141\x74\x73\141\x70\x70" => $WFz1w->HklBP("\x73\150\x6f\x77\137\167\150\141\x74\x73\141\160\x70")]); goto fdmJt; ASbaz: MtOvV: goto vMnGS; NSok3: $wAKoi->update(["\x69\156\163\x74\141\x67\x72\x61\x6d" => $WFz1w->V30s9, "\x66\x61\143\x65\x62\157\157\153" => $WFz1w->v0Qsv, "\164\x65\x6c\x65\147\x72\x61\x6d" => $WFz1w->N6w7E, "\167\x68\x61\164\x73\141\160\160" => $WFz1w->QNOMv, "\163\x68\x6f\167\137\151\x6e\x73\164\141\147\162\141\x6d" => $WFz1w->HKLBp("\x73\150\157\x77\x5f\x69\x6e\x73\x74\x61\147\162\x61\155"), "\x73\x68\x6f\167\x5f\x66\141\x63\145\x62\x6f\157\x6b" => $WFz1w->HkLBP("\x73\150\157\x77\x5f\x66\141\x63\145\142\157\x6f\153"), "\163\150\157\167\x5f\164\145\x6c\145\x67\x72\x61\155" => $WFz1w->hKLBP("\x73\150\157\x77\x5f\164\x65\154\145\x67\x72\x61\x6d"), "\163\150\157\x77\x5f\x77\150\x61\x74\x73\x61\x70\160" => $WFz1w->hklBP("\163\x68\x6f\167\137\167\150\141\164\163\x61\160\x70")]); goto ASbaz; FkW_j: EPKjr: goto NSok3; fdmJt: goto MtOvV; goto FkW_j; V0aWT: } public function B41HO(s9d5t $WFz1w) { try { goto SCs4B; K81Ud: $wor1r = filter_var($wor1r, FILTER_VALIDATE_BOOLEAN); goto u_jxx; JRjtE: $wor1r = filter_var($wor1r, FILTER_VALIDATE_BOOLEAN); goto eNexX; qx08I: $uKxBO->save(); goto R9w4J; LG7em: if (!in_array($se6F1, ["\x73\x68\x6f\x77\x5f\141\165\164\157\x72\151\x7a\x61\144\x6f\x5f\x63\141\x73\163\151\x6e\157", "\163\x68\x6f\x77\x5f\163\157\143\151\141\154\137\x6c\x69\x6e\x6b\x73", "\x73\150\x6f\x77\x5f\164\157\160\142\141\x72"])) { goto W2njV; } goto K81Ud; uY6Vd: return jgKrl()->Sbe1Q(["\163\x75\143\x63\145\163\x73" => true, "\155\x65\163\163\x61\147\145" => "\x43\x61\x6d\x70\157\x20\x61\164\165\141\x6c\151\172\x61\144\x6f\x20\143\x6f\x6d\x20\x73\165\143\145\163\x73\x6f\x21"]); goto BsyRR; SCo0p: $eCoBa = XWtW6::OL3X2(); goto bqivm; hK7ij: if (in_array($se6F1, $hsJ6w)) { goto eFtJA; } goto LG7em; IfpOV: if (!in_array($se6F1, ["\x73\150\157\x77\x5f\151\x6e\163\x74\141\x67\162\x61\x6d", "\163\150\x6f\x77\x5f\x66\141\143\145\x62\x6f\157\153", "\163\150\x6f\167\137\x74\145\x6c\x65\x67\162\x61\x6d", "\x73\150\157\167\137\167\150\141\x74\163\x61\160\160"])) { goto ZF18u; } goto JRjtE; WUQHU: $eCoBa->save(); goto Kw8X1; Nq2fg: $uKxBO = dPOLq::YrKr9() ?: new DpOlQ(); goto IfpOV; u_jxx: W2njV: goto SCo0p; bqivm: $eCoBa->{$se6F1} = $wor1r; goto WUQHU; yVdz2: $uKxBO->{$se6F1} = $wor1r; goto qx08I; eNexX: ZF18u: goto yVdz2; SCs4B: $se6F1 = $WFz1w->AHYci; goto w3unN; R9w4J: RpSZt: goto uY6Vd; BKZay: eFtJA: goto Nq2fg; w3unN: $wor1r = $WFz1w->value; goto bvat8; Kw8X1: goto RpSZt; goto BKZay; bvat8: $hsJ6w = ["\151\156\163\164\x61\x67\x72\x61\155", "\x66\x61\x63\145\142\x6f\x6f\153", "\164\x65\154\145\147\x72\141\x6d", "\x77\150\141\x74\x73\141\x70\x70", "\163\x68\157\167\x5f\151\x6e\x73\164\141\147\x72\141\155", "\x73\x68\x6f\167\137\146\x61\x63\145\x62\157\157\x6b", "\163\x68\157\x77\x5f\x74\x65\x6c\145\147\x72\x61\155", "\x73\x68\x6f\x77\137\167\x68\141\x74\163\141\x70\x70"]; goto hK7ij; BsyRR: } catch (\Exception $ai57B) { return jgKrl()->SbE1q(["\x73\x75\143\x63\145\163\163" => false, "\155\x65\163\x73\x61\x67\145" => "\105\x72\162\x6f\40\141\x6f\x20\141\164\x75\x61\154\x69\x7a\x61\162\x20\157\x20\x63\x61\x6d\x70\x6f\x3a\40" . $ai57B->getMessage()], 422); } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\FooterSettings;
+use App\Models\SocialLink;
+use Illuminate\Http\Request;
+
+class FooterSettingsController extends Controller
+{
+    /**
+     * Display a form to edit footer settings.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function edit()
+    {
+        $footerSettings = FooterSettings::getSettings();
+        $socialLinks = SocialLink::first() ?: new SocialLink();
+        
+        return view('admin.footer-settings.edit', compact('footerSettings', 'socialLinks'));
+    }
+
+    /**
+     * Update the footer settings.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function update(Request $request)
+    {
+        $request->validate([
+            'footer_text' => 'required|string',
+            'footer_subtext' => 'nullable|string',
+            'contact_button_url' => 'nullable|string|max:255',
+            'show_autorizado_cassino' => 'boolean',
+            'show_social_links' => 'boolean',
+            'topbar_text' => 'required|string|max:255',
+            'topbar_button_text' => 'required|string|max:100',
+            'topbar_button_url' => 'required|string|max:255',
+            'show_topbar' => 'boolean',
+            'instagram' => 'nullable|string|max:255',
+            'facebook' => 'nullable|string|max:255',
+            'telegram' => 'nullable|string|max:255',
+            'whatsapp' => 'nullable|string|max:255',
+            'show_instagram' => 'boolean',
+            'show_facebook' => 'boolean',
+            'show_telegram' => 'boolean',
+            'show_whatsapp' => 'boolean',
+        ]);
+
+        // Update footer settings
+        $footerSettings = FooterSettings::getSettings();
+        $footerSettings->update([
+            'footer_text' => $request->footer_text,
+            'footer_subtext' => $request->footer_subtext,
+            'contact_button_url' => $request->contact_button_url,
+            'show_autorizado_cassino' => $request->has('show_autorizado_cassino'),
+            'show_social_links' => $request->has('show_social_links'),
+            'topbar_text' => $request->topbar_text,
+            'topbar_button_text' => $request->topbar_button_text,
+            'topbar_button_url' => $request->topbar_button_url,
+            'show_topbar' => $request->has('show_topbar'),
+        ]);
+
+        // Update social links
+        $socialLinks = SocialLink::first();
+        if ($socialLinks) {
+            $socialLinks->update([
+                'instagram' => $request->instagram,
+                'facebook' => $request->facebook,
+                'telegram' => $request->telegram,
+                'whatsapp' => $request->whatsapp,
+                'show_instagram' => $request->has('show_instagram'),
+                'show_facebook' => $request->has('show_facebook'),
+                'show_telegram' => $request->has('show_telegram'),
+                'show_whatsapp' => $request->has('show_whatsapp'),
+            ]);
+        } else {
+            SocialLink::create([
+                'instagram' => $request->instagram,
+                'facebook' => $request->facebook,
+                'telegram' => $request->telegram,
+                'whatsapp' => $request->whatsapp,
+                'show_instagram' => $request->has('show_instagram'),
+                'show_facebook' => $request->has('show_facebook'),
+                'show_telegram' => $request->has('show_telegram'),
+                'show_whatsapp' => $request->has('show_whatsapp'),
+            ]);
+        }
+
+        return redirect()->route('admin.footer-settings.edit')
+            ->with('success', 'Configurações do rodapé atualizadas com sucesso!');
+    }
+    
+    /**
+     * Update individual footer setting field via AJAX.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateField(Request $request)
+    {
+        try {
+            $field = $request->field;
+            $value = $request->value;
+            
+            // Determine if the field belongs to footer settings or social links
+            $socialLinkFields = ['instagram', 'facebook', 'telegram', 'whatsapp', 
+                                'show_instagram', 'show_facebook', 'show_telegram', 'show_whatsapp'];
+            
+            if (in_array($field, $socialLinkFields)) {
+                // Update social link field
+                $socialLink = SocialLink::first() ?: new SocialLink();
+                
+                // For checkboxes with boolean values
+                if (in_array($field, ['show_instagram', 'show_facebook', 'show_telegram', 'show_whatsapp'])) {
+                    $value = filter_var($value, FILTER_VALIDATE_BOOLEAN);
+                }
+                
+                $socialLink->$field = $value;
+                $socialLink->save();
+            } else {
+                // For checkboxes with boolean values
+                if (in_array($field, ['show_autorizado_cassino', 'show_social_links', 'show_topbar'])) {
+                    $value = filter_var($value, FILTER_VALIDATE_BOOLEAN);
+                }
+                
+                // Update footer settings field
+                $footerSettings = FooterSettings::getSettings();
+                $footerSettings->$field = $value;
+                $footerSettings->save();
+            }
+            
+            return response()->json(['success' => true, 'message' => 'Campo atualizado com sucesso!']);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => 'Erro ao atualizar o campo: ' . $e->getMessage()], 422);
+        }
+    }
+} 

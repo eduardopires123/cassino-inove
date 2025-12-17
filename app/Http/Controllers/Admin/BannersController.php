@@ -1,8 +1,581 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:39              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\shTEq\fn52m\jkli6; use Jf89X\sHTEq\FN52m\nMP37; use jf89X\t0eTd\JKLi6\r2_K7; use jf89x\PY4Pc\vxB31; use EC3Me\sHtEQ\s9D5T; use EC3Me\h2VuV\P2qH1\SHteq; use ec3Me\h2VuV\P2qH1\X4hDI; use Wf8Lg\n_H5R\P2QH1\n_H5r; use eC3ME\h2Vuv\P2Qh1\dwMsC; use ec3Me\H2Vuv\p2Qh1\dJLvj; class VoPSo extends Nmp37 { private $stPVX = array("\151\x6d\x61\147\145\57\x6a\160\x65\147", "\151\x6d\141\x67\145\57\160\156\x67", "\x69\x6d\141\147\145\57\147\151\x66", "\x69\x6d\141\x67\x65\57\x77\x65\x62\160", "\151\155\x61\x67\145\57\163\166\147\x2b\x78\x6d\154"); protected $EOwXJ; public function __construct(vxB31 $bleyW) { $this->EOwXJ = $bleyW; } public function jkBS3() { return Lo0cY("\x61\144\x6d\x69\156\56\x70\x65\162\163\157\156\x61\x6c\151\x7a\141\x63\141\x6f\x2e\x62\141\x6e\x6e\x65\x72\163"); } public function aohqw(s9d5T $WFz1w) { try { goto hMfNc; ki4km: $FxIRP = $ejwrw->sbe1Q(); goto AYGcA; UdCtZ: $VcK0m = $WFz1w->file("\151\x6d\141\147\x65"); goto LL5Zc; L29n_: Lh6D5: goto npnph; LL5Zc: $l1BFZ = LViQ5("\163\145\x72\166\x69\x63\145\163\x2e\x63\154\157\x75\144\146\154\141\162\145\56\x61\160\x69\x5f\164\157\153\x65\x6e"); goto B6jwx; HZitc: $lC9vt->o9wPQ = $WFz1w->pc2LR("\x6c\x69\156\153", ''); goto vA69t; k5roL: return jgkRL()->sbe1q(["\163\165\143\143\x65\163\163" => true, "\x6d\x65\163\163\141\147\145" => "\x42\141\x6e\x6e\x65\x72\x20\x61\x64\x69\143\x69\x6f\x6e\x61\x64\157\x20\143\x6f\x6d\40\163\x75\143\x65\163\x73\x6f", "\x62\141\156\156\x65\x72" => $lC9vt]); goto L29n_; HnMyR: $lC9vt = new r2_k7(); goto qLpq1; pqM6H: $ejwrw = SHteQ::syKxg($l1BFZ)->attach("\146\x69\154\145", file_get_contents($VcK0m), $VcK0m->og2A6())->J3gWP("\150\x74\164\x70\163\72\x2f\57\141\160\x69\56\x63\154\157\165\x64\146\x6c\x61\x72\x65\56\x63\157\155\x2f\143\154\x69\145\156\x74\57\166\x34\x2f\141\143\143\x6f\165\156\164\x73\57{$Xurcg}\x2f\151\x6d\x61\x67\x65\163\57\166\61", ["\162\x65\x71\x75\x69\x72\145\x53\x69\147\156\x65\144\x55\x52\x4c\x73" => false]); goto l3kSo; qLpq1: $lC9vt->seS4J = $smCIb["\162\x65\163\165\154\x74"]["\166\x61\x72\151\x61\x6e\164\163"][0]; goto HZitc; AY91n: return jGkrL()->SBe1Q(["\x73\x75\x63\143\145\x73\163" => false, "\x6d\145\163\x73\141\x67\145" => "\x45\162\x72\157\x20\141\x6f\x20\x61\144\x69\x63\x69\157\x6e\141\162\x20\142\x61\x6e\x6e\145\x72\72\x20" . $l9SWg], 500); goto OOMA6; OA9ss: GeXTS: goto luRt1; R6OdD: $lC9vt->save(); goto k5roL; bEaMB: $this->DXuqV($WFz1w); goto AO36O; B6jwx: $Xurcg = Lviq5("\163\x65\162\166\x69\x63\145\x73\x2e\x63\x6c\157\x75\144\146\x6c\141\162\145\56\141\x63\143\x6f\165\x6e\x74\x5f\x69\x64"); goto yK1Ur; fuOMI: return jgkRl()->SBe1Q(["\163\x75\143\x63\x65\x73\163" => false, "\x6d\x65\x73\163\x61\147\145" => "\103\157\x6e\x66\151\147\x75\162\141\303\247\303\xa3\x6f\40\144\x6f\40\103\154\157\x75\x64\146\x6c\x61\x72\145\x20\156\303\xa3\157\x20\145\x6e\143\157\x6e\x74\162\141\x64\141\x2e"], 500); goto lcY9w; hMfNc: if (!$WFz1w->T35wZ("\151\x6d\x61\147\145")) { goto oBdrs; } goto bEaMB; AO36O: oBdrs: goto UdCtZ; yK5IL: $lC9vt->f3ZTH = $WFz1w->pc2lR("\141\143\164\x69\x76\145", true); goto ojzEW; lcY9w: uULLA: goto pqM6H; vA69t: $lC9vt->GcZTb = $WFz1w->PC2Lr("\x74\x69\160\157", "\163\x6c\x69\144\145"); goto TqA1X; AYGcA: $l9SWg = isset($FxIRP["\145\x72\162\157\162\x73"][0]["\155\145\163\163\141\x67\145"]) ? $FxIRP["\145\162\x72\x6f\x72\x73"][0]["\155\x65\x73\x73\x61\x67\145"] : $ejwrw->SVsMR(); goto AY91n; l3kSo: if ($ejwrw->erxv2()) { goto GeXTS; } goto ki4km; luRt1: $smCIb = $ejwrw->sBe1q(); goto HnMyR; yK1Ur: if (!(!$l1BFZ || !$Xurcg)) { goto uULLA; } goto fuOMI; OOMA6: goto Lh6D5; goto OA9ss; TqA1X: $lC9vt->yxRV_ = $WFz1w->pC2Lr("\x6f\x72\144\x65\155", 1); goto yK5IL; ojzEW: $lC9vt->MZe8U = $WFz1w->pC2lR("\155\x6f\142\151\x6c\145", "\x6e\303\xa3\157"); goto R6OdD; npnph: } catch (\Exception $ai57B) { return jgkrl()->sbE1q(["\x73\x75\143\143\145\x73\x73" => false, "\155\145\163\163\141\x67\145" => "\105\162\162\x6f\x20\151\156\x74\x65\x72\x6e\x6f\40\144\x6f\40\x73\145\162\x76\x69\144\157\x72\72\40" . $ai57B->getMessage()], 500); } } public function update(s9d5t $WFz1w, $nlzPa) { goto PNqMT; PLCTJ: if (!$WFz1w->hKlBp("\155\157\x62\151\154\145")) { goto EhLfN; } goto XJ0k7; PNqMT: $lC9vt = r2_k7::uGYZw($nlzPa); goto oeRcb; KgIYU: sp2ep: goto pti05; fF5Cr: $lC9vt->save(); goto dmAcC; L3jiC: $l9SWg = isset($FxIRP["\x65\x72\x72\157\x72\x73"][0]["\x6d\145\163\163\x61\147\x65"]) ? $FxIRP["\x65\x72\162\157\x72\x73"][0]["\x6d\145\163\163\x61\x67\x65"] : $ejwrw->sVSmR(); goto uSR_j; lS9gD: qdSU8: goto PLCTJ; XJ0k7: $lC9vt->MZe8U = $WFz1w->MZe8U; goto Kq2x4; o2Sul: $Xurcg = lVIq5("\x73\145\x72\166\x69\143\x65\x73\x2e\x63\x6c\157\x75\x64\x66\x6c\x61\162\145\56\141\143\x63\157\165\156\x74\x5f\151\x64"); goto i5WoU; Dn5KK: $this->DXuQv($WFz1w); goto wCSbp; Cwdod: $lC9vt->seS4J = $smCIb["\162\x65\x73\165\154\164"]["\166\141\x72\151\141\x6e\x74\163"][0]; goto ux1Z7; WPTkO: $lC9vt->o9wPQ = $WFz1w->o9wPQ; goto Nv8x1; ZQB9_: $l1BFZ = LVIQ5("\163\145\x72\x76\151\x63\145\163\x2e\x63\x6c\157\165\144\x66\x6c\141\162\x65\56\141\x70\151\x5f\164\x6f\153\145\x6e"); goto o2Sul; Xq4A7: \Log::p2M7e("\103\x6c\157\x75\144\x66\x6c\x61\x72\x65\x20\101\120\111\40\124\x6f\153\145\156\40\157\x75\40\x41\143\143\x6f\165\x6e\x74\x20\111\104\40\156\xc3\xa3\x6f\40\x63\157\x6e\x66\151\147\165\x72\141\x64\x6f\x73"); goto ySr_S; ySr_S: return jGKRL()->sbE1Q(["\163\x75\x63\143\x65\163\x73" => false, "\155\x65\x73\x73\141\x67\x65" => "\103\157\156\146\x69\x67\165\162\x61\303\247\303\xa3\157\x20\144\x6f\40\103\154\157\x75\144\x66\x6c\141\162\145\x20\156\303\243\157\40\145\x6e\x63\157\156\x74\x72\x61\144\x61\x2e\x20\126\x65\x72\151\146\151\161\165\145\40\x61\163\x20\x76\x61\162\x69\xc3\xa1\x76\145\x69\163\x20\144\145\x20\x61\155\142\151\x65\156\x74\145\40\x43\114\117\x55\104\x46\x4c\101\x52\105\137\x41\120\x49\137\x54\x4f\x4b\105\116\x20\x65\40\x43\114\117\125\x44\x46\x4c\101\122\105\x5f\x41\x43\103\x4f\125\116\124\137\x49\x44\56"], 500); goto hzwHQ; SsAFE: $ejwrw = SHTeq::syKXG($l1BFZ)->attach("\146\x69\154\145", file_get_contents($VcK0m), $VcK0m->Og2A6())->j3gwp("\x68\164\164\160\x73\x3a\57\x2f\141\160\x69\x2e\x63\x6c\157\165\x64\x66\154\141\162\x65\x2e\x63\157\x6d\57\x63\x6c\x69\145\156\164\x2f\166\x34\x2f\x61\x63\x63\x6f\165\x6e\164\163\x2f{$Xurcg}\x2f\151\155\141\147\x65\x73\57\x76\61", ["\162\x65\x71\165\151\x72\x65\123\151\x67\156\x65\x64\x55\x52\x4c\163" => false]); goto H8GpF; hzwHQ: Gv_X1: goto SsAFE; pti05: $smCIb = $ejwrw->sBE1q(); goto Cwdod; oeRcb: if (!$WFz1w->T35Wz("\x69\x6d\141\x67\145")) { goto LnViC; } goto Dn5KK; FeWSm: goto XbJvT; goto KgIYU; IsBTH: return jGKRl()->sBe1q(["\x73\165\143\x63\x65\x73\163" => true, "\x6d\145\163\x73\x61\147\x65" => "\x42\141\x6e\156\x65\x72\40\141\164\165\x61\x6c\x69\172\141\144\x6f\x20\143\157\x6d\x20\163\x75\x63\145\163\163\157", "\x62\x61\156\156\145\x72" => $lC9vt]); goto Pzs3W; dmAcC: $this->GsRNB(); goto IsBTH; v4gLg: $FxIRP = $ejwrw->SbE1Q(); goto L3jiC; f2MC6: if (!$WFz1w->HKLbp("\x6c\x69\156\153")) { goto AYMGg; } goto WPTkO; qR0uP: $lC9vt->f3ZTH = $WFz1w->f3ZTH; goto lS9gD; wCSbp: $VcK0m = $WFz1w->file("\151\155\141\147\145"); goto ZQB9_; u7JzF: BIDfu: goto NL0WA; Nv8x1: AYMGg: goto zLV7j; zLV7j: if (!$WFz1w->HklBp("\x6f\162\x64\x65\155")) { goto BIDfu; } goto CSbOu; ux1Z7: XbJvT: goto sLUq7; i5WoU: if (!(!$l1BFZ || !$Xurcg)) { goto Gv_X1; } goto Xq4A7; NL0WA: if (!$WFz1w->hklbp("\141\143\164\x69\x76\145")) { goto qdSU8; } goto qR0uP; H8GpF: if ($ejwrw->ERXV2()) { goto sp2ep; } goto v4gLg; uSR_j: return jGKRL()->sbE1Q(["\163\x75\x63\x63\x65\163\x73" => false, "\155\x65\x73\163\x61\x67\145" => "\x45\162\x72\x6f\40\x61\157\40\x61\x74\x75\141\x6c\151\x7a\x61\162\x20\x62\x61\x6e\156\x65\x72\x3a\x20" . $l9SWg], 500); goto FeWSm; CSbOu: $lC9vt->yxRV_ = $WFz1w->yxRV_; goto u7JzF; Kq2x4: EhLfN: goto fF5Cr; sLUq7: LnViC: goto f2MC6; Pzs3W: } public function destroy(s9D5t $WFz1w) { goto QIf80; FPA9F: if ($lC9vt) { goto tU4S_; } goto oIoNe; oIoNe: return JgKRl()->sBe1q(["\x73\x75\143\143\145\163\163" => false, "\155\x65\x73\163\141\147\145" => "\102\141\156\156\145\162\x20\156\303\xa3\x6f\x20\145\156\143\x6f\156\164\162\x61\x64\157"], 404); goto D8Eyf; QIf80: $nlzPa = $WFz1w->id; goto SM39m; Yrinn: $lC9vt->delete(); goto YOWDX; D8Eyf: tU4S_: goto Yrinn; oq4t0: zUxiV: goto wK6QM; wK6QM: $lC9vt = R2_K7::Ylb3m($nlzPa); goto FPA9F; Bv_Gx: return JgkrL()->sbE1q(["\x73\165\143\x63\145\163\x73" => false, "\x6d\145\163\163\141\147\145" => "\111\104\40\x64\x6f\x20\142\141\156\156\145\162\x20\x6e\xc3\243\x6f\40\x66\x6f\x72\x6e\x65\x63\151\144\x6f"], 400); goto oq4t0; YOWDX: $this->gsrnb(); goto K0xNH; SM39m: if ($nlzPa) { goto zUxiV; } goto Bv_Gx; K0xNH: return JGKrL()->sbE1q(["\163\x75\143\x63\x65\x73\x73" => true, "\x6d\145\163\163\x61\147\x65" => "\102\141\156\156\145\162\40\162\x65\155\x6f\166\x69\x64\157\x20\x63\x6f\155\x20\163\x75\x63\145\x73\163\x6f"]); goto kYPFb; kYPFb: } public function g9SaX(s9d5t $WFz1w) { try { goto X8fEn; nbc0C: foreach ($k71PN as $nlzPa => $av1tV) { r2_K7::c_mhY("\151\144", $nlzPa)->update(["\157\x72\144\x65\155" => $av1tV]); kIBom: } goto W8EAP; DCApR: return JGkrl()->SbE1q(["\163\165\143\143\145\163\163" => true, "\x6d\x65\x73\x73\x61\x67\145" => "\117\162\144\x65\155\40\x61\x74\x75\141\x6c\151\x7a\141\144\141\x20\x63\x6f\155\x20\163\x75\143\x65\x73\x73\157"]); goto cZtkB; W8EAP: lTjcf: goto DCApR; X8fEn: $k71PN = $WFz1w->get("\157\162\x64\x65\162\163"); goto nbc0C; cZtkB: } catch (\Exception $ai57B) { return jgKRl()->SBE1Q(["\x73\x75\x63\143\x65\163\163" => false, "\x6d\x65\163\x73\141\147\145" => "\x45\x72\162\157\x20\141\x6f\40\x61\164\165\x61\154\151\x7a\x61\162\x20\157\x72\x64\x65\x6d\x3a\40" . $ai57B->getMessage()], 500); } } public function b4G3R(s9d5t $WFz1w) { try { goto bFNya; PVyhY: j4zIy: goto GKrI1; r1iNN: $lC9vt->f3ZTH = !$lC9vt->f3ZTH; goto p2SSe; pe7ZG: $lC9vt = R2_K7::UgyZW($nlzPa); goto Y27MZ; GTsVt: $this->GSRnB(); goto hdVas; Y27MZ: if ($WFz1w->HklBp("\x61\x63\164\x69\x76\x65")) { goto uqmMM; } goto r1iNN; laVF2: $lC9vt->f3ZTH = $WFz1w->f3ZTH; goto PVyhY; bFNya: $nlzPa = $WFz1w->id; goto pe7ZG; hdVas: return jGKRl()->SBe1Q(["\163\x75\x63\x63\145\x73\163" => true, "\x6d\x65\x73\x73\x61\147\x65" => "\x53\x74\141\164\165\163\x20\x64\x6f\x20\x62\141\156\x6e\x65\162\x20\141\164\x75\x61\154\151\x7a\x61\144\157\40\143\157\x6d\x20\163\x75\x63\145\163\x73\x6f", "\141\143\x74\x69\166\x65" => $lC9vt->f3ZTH]); goto Jdnwq; DfxPD: uqmMM: goto laVF2; p2SSe: goto j4zIy; goto DfxPD; GKrI1: $lC9vt->save(); goto GTsVt; Jdnwq: } catch (\Exception $ai57B) { return JgKrL()->Sbe1Q(["\163\165\143\143\x65\163\163" => false, "\x6d\x65\x73\x73\141\147\x65" => "\x45\162\x72\x6f\40\x61\x6f\40\x61\x74\165\x61\x6c\151\x7a\141\162\x20\x73\164\x61\x74\x75\x73\40\144\x6f\x20\142\x61\x6e\x6e\145\162\x3a\x20" . $ai57B->getMessage()], 500); } } public function r82F3(s9d5T $WFz1w) { try { goto k873z; I38RY: rs29f: goto QaWwt; p945U: return jgkrL()->SbE1Q(["\x73\165\x63\143\x65\x73\x73" => true, "\x6d\145\163\x73\x61\x67\x65" => "\124\151\160\x6f\40\144\145\40\x64\x69\163\160\157\163\151\x74\151\166\157\x20\141\164\165\141\x6c\x69\x7a\x61\x64\157\40\x63\157\x6d\40\x73\165\x63\x65\163\x73\x6f", "\x6d\x6f\x62\x69\x6c\145" => $lC9vt->MZe8U]); goto I38RY; RvhTZ: $lC9vt->save(); goto p945U; GscH2: $lC9vt->MZe8U = $WFz1w->MZe8U; goto RvhTZ; k873z: $nlzPa = $WFz1w->id; goto HKR4o; HKR4o: $lC9vt = R2_k7::uGyZw($nlzPa); goto Pdn2Z; QaWwt: return JgKrl()->sBE1q(["\163\165\x63\x63\145\x73\x73" => false, "\155\x65\163\163\141\147\145" => "\120\x61\x72\xc3\xa2\x6d\x65\164\162\x6f\40\x6d\x6f\x62\151\x6c\145\40\x6e\303\243\x6f\x20\x69\x6e\146\x6f\x72\155\x61\x64\x6f"], 400); goto H_Q86; Pdn2Z: if (!$WFz1w->hKLBp("\x6d\157\142\x69\x6c\x65")) { goto rs29f; } goto GscH2; H_Q86: } catch (\Exception $ai57B) { return JgkRl()->SBE1q(["\163\x75\x63\143\x65\163\163" => false, "\x6d\145\163\163\141\x67\x65" => "\105\162\162\x6f\x20\141\157\40\x61\x74\165\x61\154\x69\172\141\x72\40\164\x69\x70\157\x20\144\x65\x20\144\151\163\x70\x6f\163\x69\x74\x69\166\157\72\x20" . $ai57B->getMessage()], 500); } } public function tCPts(S9D5t $WFz1w) { try { goto GiGfJ; O4JUa: goto kKneI; goto DzRVt; oQy1M: w6wOl: goto KCztu; DzRVt: wiYpg: goto cxup2; KCztu: $ejwrw = shTeQ::syKXG($l1BFZ)->attach("\x66\151\154\145", file_get_contents($VcK0m), $VcK0m->OG2A6())->J3GwP("\150\164\x74\160\163\72\57\x2f\141\x70\151\x2e\x63\x6c\x6f\x75\x64\146\154\141\162\145\56\143\x6f\x6d\57\143\x6c\151\x65\x6e\x74\x2f\166\64\57\x61\x63\143\x6f\x75\x6e\x74\163\x2f{$Xurcg}\x2f\151\155\141\x67\145\x73\57\166\61", ["\162\x65\x71\165\x69\162\145\x53\151\x67\x6e\x65\144\x55\122\114\x73" => false]); goto Bm1pe; vu0Ik: return jgkrl()->SbE1q(["\163\165\143\x63\x65\163\x73" => false, "\155\145\163\163\x61\x67\145" => "\x4e\145\x6e\150\165\x6d\141\40\151\155\141\x67\145\155\x20\x66\x6f\162\156\145\x63\x69\144\x61"], 400); goto O4JUa; vXPhz: if (!(!$l1BFZ || !$Xurcg)) { goto w6wOl; } goto q48wx; d12_l: $lC9vt->save(); goto l3kX8; IY9Qy: $lC9vt->seS4J = $smCIb["\162\145\163\x75\154\164"]["\166\141\x72\151\x61\156\x74\163"][0]; goto d12_l; y5XMa: goto CAZtU; goto JE6Mo; UZmBL: $Xurcg = lViQ5("\163\145\162\x76\x69\x63\x65\x73\x2e\x63\x6c\157\x75\x64\x66\154\x61\x72\x65\x2e\141\143\x63\157\165\156\x74\137\x69\x64"); goto vXPhz; v00co: $smCIb = $ejwrw->sbe1q(); goto IY9Qy; sUqLA: return JGkrl()->sbE1q(["\163\x75\143\x63\145\163\x73" => false, "\x6d\x65\x73\163\141\147\145" => "\105\x72\x72\x6f\40\x61\157\x20\x61\x74\165\141\154\x69\x7a\x61\162\x20\151\x6d\x61\x67\x65\x6d\x20\144\157\40\142\141\156\156\145\x72\72\x20" . $l9SWg], 500); goto y5XMa; yAApj: CAZtU: goto Ghnu5; MpTXI: $VcK0m = $WFz1w->file("\x69\x6d\141\147\x65"); goto QWsUr; q48wx: return JgkrL()->SBE1q(["\163\x75\x63\x63\145\163\163" => false, "\x6d\x65\163\x73\141\x67\x65" => "\x43\x6f\156\146\x69\147\x75\x72\141\303\247\xc3\xa3\157\x20\x64\x6f\x20\x43\x6c\157\x75\144\146\x6c\x61\x72\x65\40\156\303\xa3\x6f\x20\145\x6e\x63\157\x6e\164\162\141\x64\141\56"], 500); goto oQy1M; GiGfJ: if ($WFz1w->T35wZ("\x69\155\x61\x67\145")) { goto wiYpg; } goto vu0Ik; l3kX8: $this->gSRNB(); goto XKs_a; tCc5N: $nlzPa = $WFz1w->id; goto WQsT5; QWsUr: $l1BFZ = LVIq5("\163\145\162\x76\x69\143\x65\163\56\x63\154\x6f\x75\144\146\x6c\x61\x72\145\56\141\x70\x69\137\x74\x6f\x6b\145\156"); goto UZmBL; dLPLd: $l9SWg = isset($FxIRP["\145\162\x72\x6f\162\x73"][0]["\155\x65\163\163\141\147\x65"]) ? $FxIRP["\145\x72\x72\157\162\163"][0]["\155\145\x73\x73\141\x67\145"] : $ejwrw->SVsMr(); goto sUqLA; bWtO9: kKneI: goto tCc5N; JE6Mo: gd35K: goto v00co; xolUG: $FxIRP = $ejwrw->SBe1Q(); goto dLPLd; WQsT5: $lC9vt = r2_k7::ugyzW($nlzPa); goto MpTXI; XKs_a: return jGKRl()->Sbe1Q(["\x73\x75\143\143\145\x73\x73" => true, "\x6d\x65\x73\x73\x61\x67\145" => "\111\x6d\x61\x67\145\155\40\144\x6f\40\x62\141\156\156\145\162\40\x61\x74\165\x61\154\151\x7a\141\144\141\x20\143\157\x6d\x20\x73\165\x63\145\x73\163\x6f", "\142\141\x6e\x6e\145\162" => $lC9vt]); goto yAApj; Bm1pe: if ($ejwrw->ERxV2()) { goto gd35K; } goto xolUG; cxup2: $this->dxuQV($WFz1w); goto bWtO9; Ghnu5: } catch (\Exception $ai57B) { return jGKRl()->Sbe1Q(["\163\165\143\x63\x65\163\x73" => false, "\155\145\x73\163\x61\147\x65" => "\105\x72\x72\x6f\x20\151\156\164\x65\162\x6e\157\x20\144\157\x20\x73\145\x72\166\x69\x64\x6f\x72\72\40" . $ai57B->getMessage()], 500); } } private function dXuqV(S9D5T $WFz1w) { goto wKZ0c; wQhDo: if (!($DpqiO === "\151\155\x61\x67\145\57\x61\166\151\x66")) { goto ZLubG; } goto uRJUI; uRJUI: throw new \Exception("\117\x20\146\157\162\155\x61\164\x6f\40\101\126\x49\x46\40\x6e\xc3\243\x6f\x20\xc3\xa9\40\163\x75\160\x6f\x72\164\x61\x64\157\40\x70\x65\x6c\157\40\103\x6c\157\165\x64\146\154\141\162\145\x20\111\x6d\141\147\145\163\x2e\x20\x55\x73\145\40\112\x50\107\x2c\40\x50\116\x47\54\x20\x47\111\x46\54\x20\127\105\x42\120\40\x6f\165\40\x53\x56\x47\x2e"); goto nDhKX; C0Hsu: $C4A5E = implode("\54\40", array_map(function ($zgMy7) { return strtoupper(str_replace("\x69\x6d\x61\x67\145\x2f", '', $zgMy7)); }, $this->stPVX)); goto o9ZEC; eWaXk: if (in_array($DpqiO, $this->stPVX)) { goto HMWDN; } goto wQhDo; wKZ0c: $xESqV = $WFz1w->file("\151\155\141\147\x65"); goto MW6_m; G3kCH: $SLpvu = 10 * 1024 * 1024; goto a0fwW; nDhKX: ZLubG: goto C0Hsu; o9ZEC: throw new \Exception("\124\151\160\157\x20\x64\x65\x20\x61\x72\161\165\x69\166\157\40\x6e\303\243\x6f\x20\163\x75\x70\x6f\x72\164\x61\144\157\56\x20\106\x6f\162\155\x61\164\157\x73\40\160\x65\162\x6d\151\x74\151\144\157\163\72\40{$C4A5E}"); goto g0e4Y; um0ri: OB67j: goto lyA2v; MW6_m: $DpqiO = $xESqV->getMimeType(); goto eWaXk; S4RX5: throw new \Exception("\x4f\x20\141\x72\x71\165\x69\x76\x6f\x20\145\x78\x63\145\144\145\40\x6f\x20\164\141\155\141\156\150\157\x20\x6d\303\241\x78\151\x6d\x6f\40\x70\145\162\155\x69\164\151\x64\157\40\144\x65\x20\x31\60\115\x42"); goto um0ri; a0fwW: if (!($xESqV->getSize() > $SLpvu)) { goto OB67j; } goto S4RX5; g0e4Y: HMWDN: goto G3kCH; lyA2v: } public function gSRNb() { try { goto LiKST; QDYsQ: gc_collect_cycles(); goto kpRUe; tI5qV: $this->ccbbz(); goto GVf2N; GVf2N: $this->v9dJx(); goto t7fNc; phxXY: if (!function_exists("\x7a\155\103\x53\112")) { goto F2G6e; } goto enX2b; gMFkH: if (!function_exists("\x67\143\x5f\143\x6f\154\154\x65\x63\164\x5f\x63\171\x63\x6c\x65\x73")) { goto guBvp; } goto QDYsQ; lDmui: $RFwWz = ["\143\141\x63\x68\x65\x3a\143\x6c\145\141\162" => "\x4c\151\155\x70\145\172\x61\x20\144\x6f\40\143\141\x63\x68\x65\x20\x64\x61\x20\x61\160\x6c\x69\x63\x61\303\247\303\243\x6f", "\166\151\x65\167\x3a\143\x6c\x65\x61\x72" => "\x4c\x69\155\160\145\x7a\x61\x20\x64\x6f\x20\143\x61\143\150\145\x20\x64\145\40\x76\x69\145\x77\163", "\143\x6f\x6e\146\151\x67\72\x63\x6c\x65\x61\x72" => "\114\x69\155\x70\145\x7a\141\40\x64\x6f\x20\143\141\x63\150\145\x20\144\145\40\143\x6f\x6e\x66\x69\147\165\162\x61\xc3\xa7\xc3\243\157", "\x72\x6f\165\164\145\72\143\154\145\x61\x72" => "\x4c\x69\x6d\x70\x65\x7a\141\x20\x64\157\x20\x63\141\143\x68\x65\40\x64\145\40\162\157\164\141\163", "\x65\x76\145\x6e\164\x3a\143\154\145\141\x72" => "\x4c\151\155\x70\x65\x7a\141\x20\x64\157\40\x63\x61\143\x68\x65\40\144\145\40\145\x76\145\156\164\157\x73", "\x6f\x70\x74\151\155\x69\172\x65\72\143\x6c\x65\x61\x72" => "\x4c\151\x6d\x70\145\x7a\x61\x20\144\145\40\x6f\x74\x69\x6d\x69\x7a\141\303\xa7\303\265\145\163"]; goto Z8qQr; FwKrz: F2G6e: goto U3XRD; t7fNc: try { $BpM11 = new \JF89x\sHtEQ\Fn52M\ZRA2T(); $BpM11->XbWIK(); } catch (\Exception $ai57B) { } goto I3Djy; kpRUe: guBvp: goto Jt8re; pqRrQ: erZMp: goto phxXY; edkJ4: IHLWS: goto tI5qV; xSfPb: try { H4F03(); } catch (\Exception $ai57B) { } goto edkJ4; enX2b: try { ZMCSj(); } catch (\Exception $ai57B) { } goto FwKrz; i2oLw: foreach ($S670h as $iEvAd => $sosnt) { try { dwMsc::call($iEvAd); } catch (\Exception $ai57B) { } ZCBTX: } goto pqRrQ; Z8qQr: foreach ($RFwWz as $iEvAd => $sosnt) { try { dWmsc::call($iEvAd); } catch (\Exception $ai57B) { } WVh0T: } goto SD_id; SD_id: CZ_kv: goto Oa721; LiKST: dJLvj::flush(); goto lDmui; Jt8re: return JGKRl()->sbE1Q(["\x73\x75\x63\143\145\x73\163" => true, "\155\145\x73\x73\x61\x67\145" => "\103\x61\x63\150\145\x20\x6c\151\x6d\160\157\40\143\157\x6d\x70\154\x65\164\141\155\x65\156\164\145\40\x63\157\x6d\40\x73\165\143\x65\163\x73\x6f\41\40\124\157\144\157\163\x20\157\x73\40\143\141\143\150\145\163\40\146\157\x72\x61\155\x20\x72\145\155\x6f\x76\x69\x64\x6f\x73\56"])->header("\103\x6f\156\x74\145\x6e\x74\x2d\124\x79\x70\145", "\141\160\160\154\x69\x63\x61\164\151\x6f\156\57\x6a\163\157\156"); goto mTMYs; Oa721: $S670h = ["\161\165\145\165\x65\72\143\154\145\141\x72" => "\114\151\x6d\x70\x65\172\141\x20\x64\x61\x20\146\151\154\141", "\163\143\150\x65\x64\165\x6c\x65\x3a\143\154\x65\x61\162\55\143\x61\143\x68\x65" => "\x4c\x69\155\x70\145\x7a\141\x20\144\157\x20\x63\141\x63\150\145\40\144\145\x20\x73\x63\x68\145\144\165\154\145", "\x61\165\x74\150\x3a\143\154\145\141\162\x2d\x72\x65\163\x65\x74\x73" => "\114\x69\155\160\x65\172\141\x20\x64\x65\x20\164\x6f\x6b\x65\156\163\x20\144\145\x20\162\145\163\145\x74", "\164\x65\x6c\x65\163\143\157\160\145\x3a\x63\154\145\141\162" => "\x4c\151\155\160\145\x7a\141\40\x64\157\x20\x54\145\x6c\x65\x73\143\157\160\145", "\150\157\162\151\x7a\x6f\x6e\72\x63\x6c\x65\x61\x72" => "\114\151\x6d\x70\145\x7a\x61\x20\144\x6f\40\110\x6f\162\x69\x7a\157\x6e", "\x64\x65\x62\165\x67\142\141\x72\x3a\143\154\145\141\x72" => "\x4c\x69\155\x70\145\172\141\x20\144\157\40\104\x65\x62\x75\x67\x20\102\x61\x72"]; goto i2oLw; I3Djy: $this->ZC9TF(); goto gMFkH; U3XRD: if (!function_exists("\110\64\106\60\x33")) { goto IHLWS; } goto xSfPb; mTMYs: } catch (\Exception $ai57B) { \Log::p2M7E("\105\162\162\x6f\x20\141\x6f\40\x6c\x69\155\x70\x61\162\40\143\x61\143\150\x65\x3a\x20" . $ai57B->getMessage()); return JGKrL()->sbE1Q(["\163\165\x63\x63\x65\x73\x73" => false, "\155\145\x73\163\x61\147\x65" => "\x45\162\x72\157\x20\141\x6f\x20\x6c\151\x6d\160\141\162\x20\143\x61\x63\x68\145\72\x20" . $ai57B->getMessage()], 500)->header("\x43\x6f\156\164\145\x6e\164\x2d\x54\171\160\145", "\141\160\x70\x6c\151\143\x61\x74\151\157\156\x2f\152\x73\x6f\x6e"); } } private function cCBBZ() { goto PrVnM; w9vNc: foreach ($d4s3r as $mt0Hf => $sosnt) { try { goto SPUht; SPUht: if (!is_dir($mt0Hf)) { goto AG3us; } goto bmPET; rXkbM: $MrMWp = 0; goto WySHM; bmPET: $WWzlc = glob($mt0Hf . "\57\52"); goto rXkbM; WySHM: foreach ($WWzlc as $VcK0m) { goto T09nb; l0mav: goto vNXbp; goto SSgGA; SSgGA: DZ7vn: goto tORZS; CIPh0: if (!unlink($VcK0m)) { goto wl8eq; } goto HE2u7; KvlyP: wl8eq: goto l0mav; HE2u7: $MrMWp++; goto KvlyP; tORZS: $this->bgV0J($VcK0m); goto CH9sB; T09nb: if (is_file($VcK0m) && basename($VcK0m) !== "\56\147\151\164\151\147\x6e\157\162\x65") { goto FZDOk; } goto Uf3z9; Br22Y: goto vNXbp; goto nixOT; Uf3z9: if (is_dir($VcK0m) && basename($VcK0m) !== "\x2e" && basename($VcK0m) !== "\56\x2e") { goto DZ7vn; } goto Br22Y; nixOT: FZDOk: goto CIPh0; CH9sB: vNXbp: goto s2SuP; s2SuP: Tdl_g: goto d4EYV; d4EYV: } goto CYGKF; chFpM: AG3us: goto ZMpxJ; CYGKF: Gwxtk: goto chFpM; ZMpxJ: } catch (\Exception $ai57B) { } WKbko: } goto ynx5s; ynx5s: enDf2: goto vSqM_; PrVnM: $d4s3r = [SVYrZ("\146\x72\141\155\x65\167\157\162\153\x2f\x63\x61\143\x68\145\x2f\144\141\x74\141") => "\103\141\143\150\145\40\x64\x65\40\144\x61\x64\157\x73", svyrZ("\x66\x72\x61\x6d\x65\x77\157\162\153\57\x76\x69\145\x77\163") => "\126\x69\145\167\163\40\x63\157\x6d\x70\x69\154\141\x64\x61\x73", SvyRZ("\146\162\141\x6d\x65\x77\x6f\162\x6b\57\163\145\163\163\151\157\156\163") => "\123\145\163\x73\303\xb5\x65\x73\x20\145\155\x20\x61\162\x71\x75\x69\166\157", SvYRZ("\141\160\160\x2f\x63\x61\x63\x68\x65") => "\103\141\143\150\x65\x20\144\141\40\141\160\x6c\x69\143\141\xc3\247\xc3\xa3\157", sVYrz("\x63\141\x63\x68\145") => "\103\x61\143\150\x65\40\147\x65\x72\141\154", g1the("\142\x6f\157\164\163\x74\x72\141\x70\x2f\143\141\143\x68\x65") => "\x42\157\x6f\164\163\x74\162\x61\x70\40\x63\x61\x63\x68\x65", SVYrz("\x64\x65\x62\x75\x67\142\x61\162") => "\104\x65\142\x75\x67\40\142\x61\162\x20\143\x61\x63\x68\x65"]; goto w9vNc; vSqM_: } private function bgV0j($h7i2H) { goto ml9fR; Bc6Kg: rfKZQ: goto tI5kl; ml9fR: if (is_dir($h7i2H)) { goto Auppi; } goto t938T; t938T: return; goto iH91O; iH91O: Auppi: goto nkeCP; nAwCF: foreach ($WWzlc as $VcK0m) { goto vBA72; U_umh: $this->bGV0j($Ji8v2); goto ZW5QP; gYDgT: G2kWF: goto HD27T; cUG29: if (is_dir($Ji8v2)) { goto LW5xk; } goto BByNF; BByNF: @unlink($Ji8v2); goto M7yxb; M7yxb: goto z8boV; goto rQ7WQ; vBA72: $Ji8v2 = $h7i2H . DIRECTORY_SEPARATOR . $VcK0m; goto cUG29; SDzkf: z8boV: goto gYDgT; ZW5QP: @rmdir($Ji8v2); goto SDzkf; rQ7WQ: LW5xk: goto U_umh; HD27T: } goto Bc6Kg; nkeCP: $WWzlc = array_diff(scandir($h7i2H), ["\56", "\56\x2e", "\56\x67\x69\164\151\147\156\x6f\x72\145"]); goto nAwCF; tI5kl: } private function V9DJx() { try { goto uhYBU; FML7o: FltEl: goto oS3d4; LNkt8: $WWzlc = glob($zIW_7 . "\x2f\x2a"); goto moaZg; eNHQz: if (!is_dir($zIW_7)) { goto wn9Fv; } goto LNkt8; zR2oV: foreach ($WWzlc as $VcK0m) { goto bS2Jw; x2Gib: VPGFH: goto EFCIL; Z7Ddl: if (!unlink($VcK0m)) { goto gYlcx; } goto vr6Fc; EFCIL: Ieydm: goto eAFOh; vr6Fc: $MrMWp++; goto k0Oez; eAFOh: DNcd9: goto anBDl; k0Oez: gYlcx: goto x2Gib; PzCOc: if (!(filemtime($VcK0m) < time() - 86400)) { goto VPGFH; } goto Z7Ddl; bS2Jw: if (!(is_file($VcK0m) && basename($VcK0m) !== "\x2e\x67\151\x74\151\x67\x6e\x6f\162\145")) { goto Ieydm; } goto PzCOc; anBDl: } goto FML7o; moaZg: $MrMWp = 0; goto zR2oV; oS3d4: wn9Fv: goto Uman8; uhYBU: $zIW_7 = SVyRZ("\146\162\141\x6d\145\x77\x6f\x72\x6b\x2f\x73\x65\163\x73\x69\x6f\156\x73"); goto eNHQz; Uman8: } catch (\Exception $ai57B) { } } private function zC9Tf() { try { goto curHx; pMS7m: ylZjI: goto dhzB4; p6GZs: foreach ($WWzlc as $VcK0m) { goto pUwMV; aKZSn: VtbEB: goto aUUY6; aUUY6: HXr0N: goto rKTAl; Ht3Xu: if (!unlink($VcK0m)) { goto VtbEB; } goto rMoRf; pUwMV: if (!(filemtime($VcK0m) < time() - 7 * 86400)) { goto HXr0N; } goto Ht3Xu; rKTAl: YuMAn: goto cawSi; rMoRf: $MrMWp++; goto aKZSn; cawSi: } goto dFuWh; s40py: $WWzlc = glob($vbR8m . "\57\52\x2e\154\x6f\147"); goto WssV0; dFuWh: lYpoO: goto pMS7m; WssV0: $MrMWp = 0; goto p6GZs; SWIRW: if (!is_dir($vbR8m)) { goto ylZjI; } goto s40py; curHx: $vbR8m = sVyrZ("\x6c\x6f\147\163"); goto SWIRW; dhzB4: } catch (\Exception $ai57B) { } } public function L7uXC() { try { goto EuY4_; EuY4_: $q6kbK = R2_k7::QQEok("\x69\144", "\x6f\162\144\145\155", "\164\x69\x70\x6f", "\x6d\157\142\x69\x6c\145")->A9JMH("\x74\151\x70\157")->A9jmh("\155\157\142\151\x6c\x65")->a9jMh("\x6f\162\x64\145\155")->get(); goto PX0WS; PX0WS: $k71PN = []; goto O0NZP; O0NZP: foreach ($q6kbK as $lC9vt) { $k71PN[$lC9vt->id] = $lC9vt->yxRV_; AKdSG: } goto AcRc0; Nlv9f: return JGKrL()->sbe1Q(["\x73\165\143\x63\145\163\163" => true, "\x6f\162\144\145\x72\163" => $k71PN, "\x6d\145\x73\163\x61\x67\x65" => "\x4f\162\x64\x65\x6e\163\x20\162\145\x63\165\x70\145\162\141\x64\141\163\40\x63\157\155\40\163\165\143\145\x73\x73\x6f"]); goto dVo8t; AcRc0: t3d27: goto Nlv9f; dVo8t: } catch (\Exception $ai57B) { return JGkRL()->SBe1Q(["\x73\165\143\x63\x65\163\163" => false, "\x6d\145\163\x73\x61\x67\145" => "\x45\162\x72\x6f\40\x61\157\40\x62\x75\163\143\141\162\40\157\162\144\145\x6e\163\40\x64\x6f\163\x20\142\x61\x6e\156\145\x72\163\72\x20" . $ai57B->getMessage()], 500); } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Admin\Banners;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Cache;
+
+class BannersController extends Controller
+{
+    // Tipos MIME de imagens permitidos
+    private $allowedMimes = [
+        'image/jpeg',
+        'image/png',
+        'image/gif',
+        'image/webp',
+        'image/svg+xml',
+        'image/avif'
+    ];
+
+    public function index()
+    {
+        return view('admin.personalizacao.banners');
+    }
+
+    public function store(Request $request)
+    {
+        try {
+            if (!$request->hasFile('image')) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhuma imagem fornecida'
+                ], 400);
+            }
+
+                $this->validateImage($request);
+
+            $file = $request->file('image');
+            $fileName = time() . '_banner_' . rand(1, 1000) . '.' . $file->getClientOriginalExtension();
+            
+            // Define o diretório
+            $path = 'img/banners/';
+            $fullPath = public_path($path);
+
+            // Cria o diretório se não existir
+            if (!file_exists($fullPath)) {
+                mkdir($fullPath, 0777, true);
+            }
+
+            // Move o arquivo para o diretório
+            $file->move($fullPath, $fileName);
+
+                $banner = new Banners();
+            $banner->imagem = $path . $fileName;
+                $banner->link = $request->input('link', '');
+                $banner->tipo = $request->input('tipo', 'slide');
+                $banner->ordem = $request->input('ordem', 1);
+                $banner->active = $request->input('active', true);
+                $banner->mobile = $request->input('mobile', 'não');
+                $banner->save();
+
+            $this->clearCache();
+
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Banner adicionado com sucesso',
+                    'banner' => $banner
+                ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function update(Request $request, $id)
+    {
+        try {
+        $banner = Banners::findOrFail($id);
+
+        if ($request->hasFile('image')) {
+            // Valida a imagem
+            $this->validateImage($request);
+
+                // Remove imagem antiga se existir e for local
+                if (!empty($banner->imagem) && !str_starts_with($banner->imagem, 'http') && file_exists(public_path($banner->imagem))) {
+                    @unlink(public_path($banner->imagem));
+            }
+            
+                $file = $request->file('image');
+                $fileName = time() . '_banner_' . rand(1, 1000) . '.' . $file->getClientOriginalExtension();
+                
+                // Define o diretório
+                $path = 'img/banners/';
+                $fullPath = public_path($path);
+
+                // Cria o diretório se não existir
+                if (!file_exists($fullPath)) {
+                    mkdir($fullPath, 0777, true);
+                }
+
+                // Move o arquivo para o diretório
+                $file->move($fullPath, $fileName);
+
+                $banner->imagem = $path . $fileName;
+        }
+
+        // Atualiza outros campos se fornecidos
+        if ($request->has('link')) $banner->link = $request->link;
+        if ($request->has('ordem')) $banner->ordem = $request->ordem;
+        if ($request->has('active')) $banner->active = $request->active;
+        if ($request->has('mobile')) $banner->mobile = $request->mobile;
+
+        $banner->save();
+        $this->clearCache();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Banner atualizado com sucesso',
+            'banner' => $banner
+        ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar banner: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function destroy(Request $request)
+    {
+        $id = $request->id;
+
+        if (!$id) {
+            return response()->json([
+                'success' => false,
+                'message' => 'ID do banner não fornecido'
+            ], 400);
+        }
+
+        $banner = Banners::find($id);
+
+        if (!$banner) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Banner não encontrado'
+            ], 404);
+        }
+
+        // Remove a imagem local se existir
+        if (!empty($banner->imagem) && !str_starts_with($banner->imagem, 'http') && file_exists(public_path($banner->imagem))) {
+            @unlink(public_path($banner->imagem));
+        }
+
+        $banner->delete();
+        $this->clearCache();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Banner removido com sucesso'
+        ]);
+    }
+
+    public function updateOrder(Request $request)
+    {
+        try {
+            $orders = $request->get('orders');
+
+            foreach ($orders as $id => $ordem) {
+                Banners::where('id', $id)->update(['ordem' => $ordem]);
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Ordem atualizada com sucesso'
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar ordem: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function toggleActive(Request $request)
+    {
+        try {
+            $id = $request->id;
+            $banner = Banners::findOrFail($id);
+
+            // Se a requisição fornecer um estado específico, use-o; caso contrário, alterne
+            if ($request->has('active')) {
+                $banner->active = $request->active;
+            } else {
+                $banner->active = !$banner->active;
+            }
+
+            $banner->save();
+
+            // Limpar o cache do site após alterar o status do banner
+            $this->clearCache();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Status do banner atualizado com sucesso',
+                'active' => $banner->active
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar status do banner: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function updateMobile(Request $request)
+    {
+        try {
+            $id = $request->id;
+            $banner = Banners::findOrFail($id);
+
+            // Atualiza o campo mobile
+            if ($request->has('mobile')) {
+                $banner->mobile = $request->mobile;
+                $banner->save();
+
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Tipo de dispositivo atualizado com sucesso',
+                    'mobile' => $banner->mobile
+                ]);
+            }
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Parâmetro mobile não informado'
+            ], 400);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar tipo de dispositivo: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    public function updateImage(Request $request)
+    {
+        try {
+            if (!$request->hasFile('image')) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhuma imagem fornecida'
+                ], 400);
+            }
+
+            $this->validateImage($request);
+
+            $id = $request->id;
+            $banner = Banners::findOrFail($id);
+
+            // Remove imagem antiga se existir e for local
+            if (!empty($banner->imagem) && !str_starts_with($banner->imagem, 'http') && file_exists(public_path($banner->imagem))) {
+                @unlink(public_path($banner->imagem));
+            }
+
+            $file = $request->file('image');
+            $fileName = time() . '_banner_' . rand(1, 1000) . '.' . $file->getClientOriginalExtension();
+            
+            // Define o diretório
+            $path = 'img/banners/';
+            $fullPath = public_path($path);
+
+            // Cria o diretório se não existir
+            if (!file_exists($fullPath)) {
+                mkdir($fullPath, 0777, true);
+            }
+
+            // Move o arquivo para o diretório
+            $file->move($fullPath, $fileName);
+
+            $banner->imagem = $path . $fileName;
+                $banner->save();
+
+                $this->clearCache();
+
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Imagem do banner atualizada com sucesso',
+                    'banner' => $banner
+                ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Valida o arquivo de imagem
+     *
+     * @param Request $request
+     * @throws \Exception
+     */
+    private function validateImage(Request $request)
+    {
+        $image = $request->file('image');
+        $mimeType = $image->getMimeType();
+
+        if (!in_array($mimeType, $this->allowedMimes)) {
+            $allowedTypesStr = implode(', ', array_map(function($mime) {
+                return strtoupper(str_replace('image/', '', $mime));
+            }, $this->allowedMimes));
+            
+            throw new \Exception("Tipo de arquivo não suportado. Formatos permitidos: {$allowedTypesStr}");
+        }
+
+        // Validar tamanho máximo
+        $maxSize = 10 * 1024 * 1024; // 10MB
+        if ($image->getSize() > $maxSize) {
+            throw new \Exception('O arquivo excede o tamanho máximo permitido de 10MB');
+        }
+    }
+
+    /**
+     * Clear the application cache
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function clearCache()
+    {
+        try {
+            // 1. Limpar cache básico do Laravel
+            Cache::flush();
+
+            // 2. Comandos essenciais do Artisan
+            $essentialCommands = [
+                'cache:clear' => 'Limpeza do cache da aplicação',
+                'view:clear' => 'Limpeza do cache de views',
+                'config:clear' => 'Limpeza do cache de configuração',
+                'route:clear' => 'Limpeza do cache de rotas',
+                'event:clear' => 'Limpeza do cache de eventos',
+                'optimize:clear' => 'Limpeza de otimizações',
+            ];
+
+            foreach ($essentialCommands as $command => $description) {
+                try {
+                    Artisan::call($command);
+                } catch (\Exception $e) {
+                    // Silenciosamente ignora erros de comandos opcionais
+                }
+            }
+
+            // 3. Comandos adicionais (se disponíveis)
+            $additionalCommands = [
+                'queue:clear' => 'Limpeza da fila',
+                'schedule:clear-cache' => 'Limpeza do cache de schedule',
+                'auth:clear-resets' => 'Limpeza de tokens de reset',
+                'telescope:clear' => 'Limpeza do Telescope',
+                'horizon:clear' => 'Limpeza do Horizon',
+                'debugbar:clear' => 'Limpeza do Debug Bar',
+            ];
+
+            foreach ($additionalCommands as $command => $description) {
+                try {
+                    Artisan::call($command);
+                } catch (\Exception $e) {
+                    // Silenciosamente ignora erros de comandos opcionais
+                }
+            }
+
+            // 4. Limpar OPcache (se disponível)
+            if (function_exists('opcache_reset')) {
+                try {
+                    opcache_reset();
+                } catch (\Exception $e) {
+                    // Silenciosamente ignora erros
+                }
+            }
+
+            // 5. Limpar APCu cache (se disponível)
+            if (function_exists('apcu_clear_cache')) {
+                try {
+                    apcu_clear_cache();
+                } catch (\Exception $e) {
+                    // Silenciosamente ignora erros
+                }
+            }
+
+            // 6. Limpar arquivos de cache manualmente
+            $this->clearCacheFiles();
+
+            // 7. Limpar cache de sessões se usando file driver
+            $this->clearSessionFiles();
+
+            // 8. Limpar cache específico da home
+            try {
+                $homeController = new \App\Http\Controllers\HomeController();
+                $homeController->clearHomeCache();
+            } catch (\Exception $e) {
+                // Silenciosamente ignora erros
+            }
+
+            // 9. Limpar logs antigos (opcional)
+            $this->clearOldLogs();
+
+            // 10. Forçar coleta de lixo do PHP
+            if (function_exists('gc_collect_cycles')) {
+                gc_collect_cycles();
+            }
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Cache limpo completamente com sucesso! Todos os caches foram removidos.'
+            ])->header('Content-Type', 'application/json');
+
+        } catch (\Exception $e) {
+            \Log::error('Erro ao limpar cache: ' . $e->getMessage());
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao limpar cache: ' . $e->getMessage()
+            ], 500)->header('Content-Type', 'application/json');
+        }
+    }
+
+    /**
+     * Limpar arquivos de cache manualmente
+     */
+    private function clearCacheFiles()
+    {
+        $cachePaths = [
+            storage_path('framework/cache/data') => 'Cache de dados',
+            storage_path('framework/views') => 'Views compiladas',
+            storage_path('framework/sessions') => 'Sessões em arquivo',
+            storage_path('app/cache') => 'Cache da aplicação',
+            storage_path('cache') => 'Cache geral',
+            base_path('bootstrap/cache') => 'Bootstrap cache',
+            storage_path('debugbar') => 'Debug bar cache',
+        ];
+
+        foreach ($cachePaths as $path => $description) {
+            try {
+                if (is_dir($path)) {
+                    $files = glob($path . '/*');
+                    $cleared = 0;
+
+                    foreach ($files as $file) {
+                        if (is_file($file) && basename($file) !== '.gitignore') {
+                            if (unlink($file)) {
+                                $cleared++;
+                            }
+                        } elseif (is_dir($file) && basename($file) !== '.' && basename($file) !== '..') {
+                            // Limpar subdiretórios recursivamente
+                            $this->clearDirectory($file);
+                        }
+                    }
+
+                }
+            } catch (\Exception $e) {
+                // Silenciosamente ignora erros
+            }
+        }
+    }
+
+    /**
+     * Limpar diretório recursivamente
+     */
+    private function clearDirectory($dir)
+    {
+        if (!is_dir($dir)) {
+            return;
+        }
+
+        $files = array_diff(scandir($dir), ['.', '..', '.gitignore']);
+
+        foreach ($files as $file) {
+            $filePath = $dir . DIRECTORY_SEPARATOR . $file;
+
+            if (is_dir($filePath)) {
+                $this->clearDirectory($filePath);
+                @rmdir($filePath);
+            } else {
+                @unlink($filePath);
+            }
+        }
+    }
+
+    /**
+     * Limpar arquivos de sessão
+     */
+    private function clearSessionFiles()
+    {
+        try {
+            $sessionPath = storage_path('framework/sessions');
+            if (is_dir($sessionPath)) {
+                $files = glob($sessionPath . '/*');
+                $cleared = 0;
+
+                foreach ($files as $file) {
+                    if (is_file($file) && basename($file) !== '.gitignore') {
+                        // Limpar sessões mais antigas que 24 horas
+                        if (filemtime($file) < (time() - 86400)) {
+                            if (unlink($file)) {
+                                $cleared++;
+                            }
+                        }
+                    }
+                }
+
+            }
+        } catch (\Exception $e) {
+            // Silenciosamente ignora erros
+        }
+    }
+
+    /**
+     * Limpar logs antigos (opcional)
+     */
+    private function clearOldLogs()
+    {
+        try {
+            $logPath = storage_path('logs');
+            if (is_dir($logPath)) {
+                $files = glob($logPath . '/*.log');
+                $cleared = 0;
+
+                foreach ($files as $file) {
+                    // Manter apenas logs dos últimos 7 dias
+                    if (filemtime($file) < (time() - (7 * 86400))) {
+                        if (unlink($file)) {
+                            $cleared++;
+                        }
+                    }
+                }
+
+            }
+        } catch (\Exception $e) {
+            // Silenciosamente ignora erros
+        }
+    }
+
+    /**
+     * Obter ordens atuais dos banners do banco de dados
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getOrders()
+    {
+        try {
+            $banners = Banners::select('id', 'ordem', 'tipo', 'mobile')
+                ->orderBy('tipo')
+                ->orderBy('mobile')
+                ->orderBy('ordem')
+                ->get();
+
+            $orders = [];
+            foreach ($banners as $banner) {
+                $orders[$banner->id] = $banner->ordem;
+            }
+
+            return response()->json([
+                'success' => true,
+                'orders' => $orders,
+                'message' => 'Ordens recuperadas com sucesso'
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao buscar ordens dos banners: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+}

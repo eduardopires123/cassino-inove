@@ -1,8 +1,479 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:47              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89X\ShtEQ\FN52M; use Ec3me\shTeq\S9d5t; use eC3Me\h2vuv\P2qh1\nxRov; use Ec3ME\H2VUV\P2qH1\Log; use Jf89X\t0EtD\AVSUj; use JF89x\t0ETd\C40Q0; use jF89x\T0EtD\FrJAe; use Jf89X\T0ETd\gFrr9; class xdNrU extends nmp37 { public function Ekomm(s9D5t $WFz1w) { try { goto DIjnS; nqijf: s0ipk: goto PqJYc; yG2zi: return jGKrl()->SBe1q(["\x73\165\x63\x63\145\163\x73" => true, "\163\x65\154\x65\x63\x74\145\x64\x49\x74\x65\x6d" => $bSWB8, "\x73\x65\x6c\145\143\164\x65\144\x5f\151\x74\x65\155" => $bSWB8, "\x70\162\x69\172\145\x5f\x72\145\163\x75\x6c\x74" => $Nv8ba, "\x69\x73\x5f\x66\x72\x65\x65\137\163\160\151\156" => $kDiq4, "\x6d\x65\x73\x73\x61\x67\145" => "\107\x69\162\x6f\40\x72\145\x61\154\151\172\x61\x64\157\x20\x63\x6f\155\40\163\165\x63\145\163\163\x6f\41"]); goto nXX_c; WBQww: return jGkRl()->SbE1Q(["\163\x75\x63\143\x65\x73\163" => false, "\x6d\x65\163\x73\141\x67\145" => "\x45\162\162\157\40\141\157\40\163\x65\154\x65\143\x69\x6f\x6e\141\162\40\151\164\145\x6d"], 500); goto N2G95; jsaMj: $this->bd9bK($e5HVA, $bSWB8, $Nv8ba, $kDiq4); goto yG2zi; fP9BH: return JGkrl()->sbE1q(["\163\x75\143\x63\x65\x73\163" => false, "\x6d\145\x73\163\141\x67\x65" => "\126\157\143\xc3\xaa\x20\x6a\xc3\241\x20\141\x74\151\x6e\x67\x69\165\40\x6f\40\x6c\151\155\151\164\x65\40\144\x65\40\x67\x69\162\157\163\x20\160\x6f\162\40\144\x69\141\x2e\x20\x44\x65\x70\157\163\x69\x74\145\x20\x70\141\162\x61\x20\162\145\x73\x67\x61\x74\x61\162\x20\155\141\x69\x73\x20\x70\x72\xc3\xaa\155\151\157\x73\x21"], 400); goto nqijf; mASE0: $Nv8ba = $this->VNMFZ($e5HVA, $bSWB8, $kDiq4); goto jsaMj; pLBN0: q1iFk: goto E8zzG; i_jnw: return jGkrl()->sbE1q(["\163\165\x63\143\145\163\163" => false, "\x6d\145\163\x73\x61\x67\x65" => "\x4e\x65\156\150\165\155\40\x69\164\x65\x6d\40\144\x65\x20\162\x6f\154\145\x74\141\40\145\x6e\143\x6f\x6e\164\x72\141\x64\x6f"], 404); goto pLBN0; E8zzG: $bSWB8 = $this->xKcYw($h6YeW); goto xP2P7; N2G95: goHl6: goto mASE0; b5jWB: if (!(!$kDiq4 && !$this->VvcNq($e5HVA))) { goto s0ipk; } goto fP9BH; aWoHm: $qYuya = !$e5HVA; goto BIG8X; qlv47: return $this->jJz6Q($WFz1w); goto aZRza; Ru1gu: $h6YeW = $this->faQwl(); goto gIAze; xP2P7: if ($bSWB8) { goto goHl6; } goto WBQww; hqhaa: Log::info("\125\x73\x75\xc3\241\162\x69\x6f\x20\x63\157\156\166\x69\144\141\x64\x6f\x20\x67\x69\x72\x61\156\x64\x6f\40\141\40\162\157\154\145\164\141", ["\x73\x65\163\163\151\157\x6e\137\151\x64" => va9Mt()->getId(), "\x69\160" => $WFz1w->qW_yb()]); goto qlv47; gIAze: if (!$h6YeW->isEmpty()) { goto q1iFk; } goto i_jnw; DIjnS: $e5HVA = nxRov::YFGI_(); goto aWoHm; PqJYc: Log::info("\x55\x73\x75\303\241\x72\x69\157\x20\147\151\x72\x61\156\x64\x6f\40\141\40\x72\157\154\145\x74\x61", ["\165\x73\x65\162\x5f\151\x64" => $e5HVA->id, "\164\171\160\145" => $WFz1w->Pc2lr("\x74\171\x70\x65", "\144\145\146\141\x75\x6c\x74")]); goto Ru1gu; BIG8X: if (!$qYuya) { goto P3XwE; } goto hqhaa; zQTM_: $kDiq4 = $this->ALjow($e5HVA); goto b5jWB; aZRza: P3XwE: goto zQTM_; nXX_c: } catch (\Exception $ai57B) { Log::P2m7e("\105\x72\x72\x6f\x20\156\x6f\40\147\151\x72\x6f\x20\144\141\40\x72\157\154\x65\164\141", ["\x65\x72\162\157\162" => $ai57B->getMessage(), "\x75\x73\145\x72\x5f\151\144" => nXrOV::pTUeJ()]); return JgKRL()->SbE1q(["\163\x75\x63\143\145\x73\163" => false, "\x6d\x65\163\163\x61\x67\145" => "\105\162\162\157\40\x69\x6e\164\145\x72\x6e\x6f\40\x64\x6f\40\163\145\x72\166\151\144\157\x72"], 500); } } private function Vvcnq($e5HVA) { $j6yTC = GFrr9::VO3QE($e5HVA->id); return $j6yTC < 5; } private function AljOW($e5HVA) { $SS5eU = GfrR9::C_MhY("\x75\163\145\162\137\x69\144", $e5HVA->id)->TH7aW("\x63\162\x65\x61\164\145\144\x5f\x61\x74", DxQ2E())->c_MhY("\x69\163\137\146\162\x65\x65\x5f\x73\x70\x69\156", true)->count(); return $SS5eU < 1; } private function cx_jY($WFz1w) { goto Irfah; SM3RY: return $Cq0m5 == 0 && !$OFlQP; goto rZu5p; N21Ur: $Je0Eo = "\147\165\145\x73\164\137\162\x6f\x75\154\x65\164\164\145\x5f\163\x70\151\156\137" . date("\131\55\155\55\x64"); goto nWKAW; Irfah: $gHS4b = $WFz1w->QW_Yb(); goto sTnlL; sTnlL: $Ou3YK = VA9mT()->getId(); goto CEqcF; CEqcF: $Cq0m5 = gfrR9::c_mhY("\x69\160\x5f\141\x64\144\162\x65\163\x73", $gHS4b)->VawGr("\x75\x73\x65\x72\x5f\x69\x64")->th7aw("\x63\x72\x65\141\x74\145\144\x5f\141\164", dxq2E())->count(); goto N21Ur; nWKAW: $OFlQP = VA9MT($Je0Eo, false); goto SM3RY; rZu5p: } private function aFyyh($WFz1w, $bSWB8) { goto zzDvS; zzDvS: $gHS4b = $WFz1w->Qw_yb(); goto k6mK1; Uuh9q: VA9MT([$Je0Eo => true]); goto Oau2R; Oau2R: Log::info("\107\151\162\157\x20\x64\x65\x20\x63\x6f\x6e\x76\x69\x64\141\x64\157\x20\x72\x65\x67\x69\163\x74\x72\141\144\157", ["\x69\160" => $gHS4b, "\x69\x74\x65\155\x5f\151\x64" => $bSWB8->id, "\x69\x74\145\x6d\137\x6e\141\x6d\145" => $bSWB8->name]); goto zeb62; fvg2o: $Je0Eo = "\147\x75\145\163\164\137\x72\x6f\165\154\145\x74\x74\x65\137\x73\160\x69\x6e\x5f" . date("\x59\55\155\55\144"); goto Uuh9q; k6mK1: GFrR9::create(["\x75\x73\x65\x72\x5f\x69\144" => null, "\x69\x74\x65\155\x5f\151\x64" => $bSWB8->id, "\151\x74\x65\155\137\156\141\x6d\x65" => $bSWB8->name, "\143\157\165\160\x6f\x6e\x5f\143\157\144\145" => $bSWB8->o1RBP, "\x70\162\151\172\145\x5f\164\171\160\x65" => $bSWB8->ZRtCV() ? "\146\162\145\x65\x5f\x73\160\151\156\163" : "\143\157\165\x70\x6f\156", "\160\162\x69\x7a\x65\x5f\141\167\141\162\x64\145\x64" => 0, "\151\x73\137\146\162\x65\145\137\163\160\x69\156" => false, "\151\160\x5f\141\144\x64\162\x65\x73\x73" => $gHS4b]); goto fvg2o; zeb62: } private function Jjz6Q($WFz1w) { try { goto YN6xV; ndJ8a: CAA9y: goto GleEX; jrpxd: return JGKRL()->SbE1q(["\x73\165\x63\x63\x65\163\x73" => true, "\x73\x65\154\145\143\x74\x65\144\111\x74\x65\155" => $bSWB8, "\x73\145\x6c\x65\143\x74\145\144\137\x69\164\145\x6d" => $bSWB8, "\x70\x72\x69\x7a\145\137\x72\x65\163\x75\x6c\x74" => $Nv8ba, "\151\x73\x5f\147\x75\145\x73\164" => true, "\147\165\x65\x73\x74\137\x64\x61\151\x6c\x79\x5f\163\160\151\x6e\x5f\165\x73\x65\144" => true, "\x6d\145\163\x73\x61\147\x65" => "\x47\x69\x72\x6f\x20\x72\x65\x61\154\151\172\141\x64\157\x20\x63\157\155\x20\x73\165\143\145\x73\163\x6f\x21\x20\103\141\x64\141\x73\x74\x72\x65\55\x73\x65\40\160\141\162\141\40\162\x65\x73\x67\141\164\141\162\x21"]); goto OkcVH; JWAn8: iEhP0: goto unGjJ; OviqC: return jgkrl()->sBE1Q(["\x73\165\143\x63\145\x73\163" => false, "\x6d\145\x73\163\141\x67\x65" => "\x56\157\143\xc3\252\40\x6a\xc3\xa1\x20\147\x69\x72\x6f\165\x20\150\x6f\152\x65\41\x20\126\157\154\x74\145\40\x61\x6d\141\x6e\x68\xc3\xa3\40\x6f\x75\x20\143\141\144\141\x73\164\x72\145\x2d\x73\145\x20\x70\141\x72\x61\x20\155\x61\151\163\x20\x67\151\162\x6f\163\x2e", "\x67\165\145\x73\164\x5f\x6c\151\155\x69\x74\x5f\x72\145\x61\x63\150\x65\x64" => true], 429); goto ndJ8a; GleEX: $h6YeW = $this->FAqwL(); goto ZoLSF; wya1R: return JGKrl()->SBe1Q(["\163\x75\x63\143\x65\x73\163" => false, "\155\x65\163\x73\141\x67\x65" => "\116\145\x6e\150\x75\155\x20\151\164\145\x6d\40\x64\145\40\x72\x6f\154\x65\164\x61\40\145\156\x63\x6f\156\x74\x72\x61\x64\157"], 404); goto JWAn8; YN6xV: if ($this->Cx_jY($WFz1w)) { goto CAA9y; } goto OviqC; unGjJ: $bSWB8 = $this->XKcYw($h6YeW); goto AtEYJ; z2sSO: $Nv8ba = ["\146\162\x65\x65\x5f\163\160\x69\x6e\163\x5f\141\x77\141\x72\144\145\144" => 0, "\x63\x6f\165\x70\157\x6e\x5f\x63\x6f\x64\145" => $bSWB8->o1RBP, "\x6d\145\163\x73\141\147\x65" => "\103\141\x64\141\x73\x74\162\145\55\163\145\x20\x65\40\144\145\x70\x6f\x73\151\164\x65\x20\x70\x61\162\141\x20\162\145\163\x67\x61\x74\x61\162\40\163\145\165\x20\160\162\303\252\x6d\x69\157\41", "\162\145\161\165\151\162\x65\163\x5f\144\x65\160\157\163\x69\164" => true, "\144\145\160\x6f\x73\x69\x74\137\166\141\x6c\x75\x65" => $bSWB8->cZpky]; goto jrpxd; ZoLSF: if (!$h6YeW->isEmpty()) { goto iEhP0; } goto wya1R; AtEYJ: $this->aFyyH($WFz1w, $bSWB8); goto z2sSO; OkcVH: } catch (\Exception $ai57B) { Log::p2m7e("\105\162\x72\x6f\x20\x6e\157\x20\x67\151\162\157\x20\160\x61\162\x61\40\143\157\156\166\x69\x64\141\144\157", ["\x65\x72\162\x6f\x72" => $ai57B->getMessage()]); return jgKRl()->sBE1q(["\163\165\x63\143\145\x73\x73" => false, "\155\145\163\163\x61\147\x65" => "\105\162\162\x6f\x20\x69\156\164\x65\x72\x6e\x6f\x20\x64\157\x20\163\145\162\x76\151\x64\157\162"], 500); } } private function vNmfZ($e5HVA, $bSWB8, $bfYId = false) { goto MVN9P; zb06v: try { goto bI4gq; Be7ku: $Nv8ba["\x72\145\x71\165\151\x72\145\x73\x5f\144\x65\x70\157\163\151\x74"] = true; goto kLiqn; Ro7Xz: $hTAAI = $e5HVA->d1U9g ?? $e5HVA->RFKu1()->create(["\x75\163\x65\x72\x5f\151\144" => $e5HVA->id, "\x62\141\x6c\141\x6e\143\x65" => 0, "\142\141\x6c\x61\x6e\143\x65\137\x62\x6f\156\165\x73" => 0, "\146\162\x65\145\137\x73\160\151\156\x73" => 0]); goto X6tEp; l1ZJP: Log::info("\107\151\x72\157\x73\40\x67\162\303\xa1\164\151\x73\40\141\x64\151\143\151\157\x6e\141\144\x6f\x73\x20\x28\x67\151\x72\x6f\x20\144\x69\303\xa1\x72\151\x6f\x29", ["\165\x73\x65\162\137\151\144" => $e5HVA->id, "\146\x72\x65\x65\137\x73\160\x69\156\x73" => $bSWB8->vqBxI, "\x67\x61\x6d\145\137\x6e\141\155\x65" => $bSWB8->T9pPG]); goto nJbBO; L46IV: $Nv8ba["\162\x65\x71\165\x69\162\145\163\x5f\x64\x65\160\x6f\163\x69\x74"] = true; goto SD0MY; C6he9: MFBIf: goto Tku4M; bI4gq: if ($bfYId && $bSWB8->ZRTcV()) { goto DEsWO; } goto YKbP9; X6tEp: $hTAAI->ZgsOq("\x66\162\145\x65\x5f\163\x70\x69\156\x73", $bSWB8->vqBxI); goto EtsAl; EtsAl: $Nv8ba["\x66\x72\x65\x65\x5f\x73\x70\x69\156\x73\x5f\x61\x77\141\162\x64\145\144"] = $bSWB8->vqBxI; goto emFE7; Tku4M: $Nv8ba["\143\157\x75\x70\157\156\x5f\143\157\144\145"] = $bSWB8->o1RBP; goto Be7ku; nJbBO: goto tx4xW; goto C6he9; kLiqn: $Nv8ba["\x64\145\x70\x6f\x73\151\164\137\x76\141\154\x75\145"] = $bSWB8->cZpky; goto bthH5; a8rOQ: tx4xW: goto DIzxQ; Sb8YN: $Nv8ba["\143\157\165\160\x6f\x6e\137\143\x6f\144\145"] = $bSWB8->o1RBP; goto L46IV; Qe0C2: $Nv8ba["\x6d\145\x73\163\141\147\x65"] = "\x44\145\160\x6f\x73\x69\164\x65\x20\x65\40\165\163\x65\40\x6f\40\143\165\x70\157\155\x3a\x20{$bSWB8->o1RBP}"; goto GKmrV; xcQ52: DEsWO: goto Ro7Xz; YKbP9: if ($bSWB8->ZrTcV()) { goto MFBIf; } goto Sbbc6; UjKXO: UukEl: goto POaQ_; DIzxQ: if (!($bSWB8->YpPnH() && !$Nv8ba["\143\157\165\x70\157\x6e\137\x63\x6f\144\145"])) { goto dqVCK; } goto Sb8YN; GKmrV: dqVCK: goto dKVxN; bthH5: $Nv8ba["\155\145\163\x73\141\147\x65"] = "\x44\145\x70\x6f\x73\x69\x74\x65\x20\145\x20\x75\163\x65\x20\157\x20\x63\x75\x70\157\155\x20\160\x61\162\x61\40\x72\x65\163\x67\x61\x74\x61\x72\40\163\145\165\x73\40{$bSWB8->vqBxI}\40\x67\151\162\157\x73\40\147\162\303\241\x74\151\163\41"; goto a8rOQ; emFE7: $Nv8ba["\x6d\x65\163\x73\141\x67\x65"] = "\120\x61\162\x61\x62\xc3\251\156\x73\41\x20\126\157\x63\303\252\x20\147\141\156\150\157\165\x20{$bSWB8->vqBxI}\x20\x67\151\x72\157\163\40\147\x72\xc3\241\164\x69\163\x20\x6e\x6f\40\x73\145\165\40\x67\151\x72\x6f\40\x64\151\xc3\xa1\x72\151\x6f\41"; goto l1ZJP; dKVxN: if (!(!$bSWB8->ZrTCV() && !$bSWB8->ypPNh())) { goto UukEl; } goto ZiqHN; Sbbc6: goto tx4xW; goto xcQ52; ZiqHN: $Nv8ba["\x6d\145\163\163\141\147\145"] = $bSWB8->name; goto UjKXO; SD0MY: $Nv8ba["\x64\145\x70\x6f\163\151\164\137\x76\141\x6c\x75\x65"] = $bSWB8->cZpky; goto Qe0C2; POaQ_: } catch (\Exception $ai57B) { Log::p2m7E("\105\162\x72\157\40\141\157\x20\x70\162\157\x63\145\x73\163\x61\162\40\x70\162\xc3\xaa\155\151\157\x3a", ["\145\x72\x72\157\162" => $ai57B->getMessage(), "\165\x73\145\x72\x5f\151\x64" => $e5HVA->id, "\151\x74\x65\x6d\x5f\x69\x64" => $bSWB8->id]); } goto hR7ca; hR7ca: return $Nv8ba; goto UlS1w; MVN9P: $Nv8ba = ["\146\162\145\145\x5f\x73\x70\x69\x6e\163\137\x61\x77\x61\x72\x64\145\x64" => 0, "\143\157\165\x70\x6f\x6e\137\143\157\144\x65" => null, "\155\145\x73\163\x61\x67\145" => "\x50\162\303\252\155\x69\x6f\x20\160\x72\157\x63\145\163\x73\141\x64\x6f", "\x72\x65\161\165\x69\162\145\163\137\x64\145\x70\157\163\151\164" => false, "\x64\145\x70\157\x73\151\164\137\x76\x61\x6c\x75\x65" => 0]; goto zb06v; UlS1w: } private function Bd9bK($e5HVA, $bSWB8, $Nv8ba, $bfYId = false) { try { GFRr9::create(["\x75\x73\x65\x72\x5f\151\144" => $e5HVA->id, "\151\x74\145\x6d\x5f\x69\144" => $bSWB8->id, "\x69\x74\145\155\x5f\x6e\141\x6d\x65" => $bSWB8->name, "\143\x6f\165\160\157\x6e\x5f\143\x6f\144\x65" => $Nv8ba["\x63\x6f\165\160\x6f\x6e\x5f\x63\x6f\144\145"] ?? null, "\160\x72\x69\172\x65\x5f\164\171\160\145" => $bSWB8->zRtcV() ? "\x66\162\x65\145\137\x73\160\x69\156\163" : ($bSWB8->yPPnh() ? "\x63\157\165\160\x6f\x6e" : "\156\x6f\156\145"), "\x70\162\151\x7a\x65\x5f\141\x77\141\162\x64\x65\x64" => $Nv8ba["\x66\x72\x65\145\137\163\160\x69\x6e\163\137\x61\167\x61\162\x64\145\x64"] ?? 0, "\151\x73\137\146\162\x65\145\x5f\x73\160\151\x6e" => $bfYId, "\x69\160\137\x61\x64\x64\x72\x65\x73\x73" => s9D5T()->qW_yB()]); } catch (\Exception $ai57B) { Log::p2m7e("\105\x72\x72\157\40\141\157\x20\x72\x65\147\x69\163\x74\x72\141\x72\x20\147\x69\162\157\72", ["\x65\162\x72\x6f\x72" => $ai57B->getMessage(), "\x75\x73\145\162\137\x69\144" => $e5HVA->id, "\151\164\x65\155\137\x69\144" => $bSWB8->id]); } } private function fAQWl() { try { return FrjaE::hYtpn()->get(); } catch (\Exception $ai57B) { Log::p2M7e("\105\162\x72\157\x20\141\157\40\x62\165\x73\x63\x61\162\x20\x69\x74\x65\156\x73\x20\144\x61\40\x72\x6f\x6c\x65\x74\141\x3a", ["\x65\x72\162\x6f\x72" => $ai57B->getMessage()]); return yHA8R([]); } } private function XkCYW($VzJp0) { try { goto RG0YX; fMIAe: $CETWQ = $VzJp0->UY03O("\160\x72\x6f\142\141\142\x69\154\151\164\x79"); goto kQvHm; YHVOm: $laX84 = 0; goto RDzId; tX_Tv: return $VzJp0->yrkr9(); goto vAaL0; kQvHm: $PXSPt = mt_rand() / mt_getrandmax() * $CETWQ; goto YHVOm; fdApT: gpKtl: goto fMIAe; RDzId: foreach ($VzJp0 as $WT0D7) { goto LOdfe; C8q10: Qo43I: goto iwoTg; d_vxE: return $WT0D7; goto gXWCj; LOdfe: $laX84 += $WT0D7->j_q3K; goto Oov0U; Oov0U: if (!($PXSPt <= $laX84)) { goto XvNU_; } goto d_vxE; gXWCj: XvNU_: goto C8q10; iwoTg: } goto tpfcy; zwPGy: return null; goto fdApT; RG0YX: if (!$VzJp0->isEmpty()) { goto gpKtl; } goto zwPGy; tpfcy: W0U84: goto tX_Tv; vAaL0: } catch (\Exception $ai57B) { Log::P2m7e("\105\x72\162\x6f\40\x61\x6f\x20\163\145\154\145\143\151\157\156\x61\x72\40\x69\x74\x65\155\40\141\x6c\x65\141\164\xc3\xb3\x72\151\x6f\x3a", ["\x65\x72\162\x6f\162" => $ai57B->getMessage()]); return $VzJp0->YRKR9(); } } public function m0SuG(S9d5T $WFz1w) { try { goto F702U; YfLh4: $kDiq4 = false; goto OlTjT; Datix: $j6yTC = GFrr9::Vo3QE($e5HVA->id); goto qdV7G; QJA8X: $lfoV9 = false; goto ypqVn; ypqVn: if ($e5HVA) { goto Tk7No; } goto Nr2zu; VMjX3: goto jbN5g; goto ok0Yc; XZBLl: return JGkRL()->SBe1q(["\x73\165\x63\143\145\163\163" => true, "\x69\x74\x65\x6d\x73" => $h6YeW, "\x73\x65\x67\155\145\156\164\163" => $aooQU, "\x73\x70\151\x6e\x73\137\x74\157\x64\x61\171" => $j6yTC, "\155\141\170\x5f\x73\160\151\156\163" => 5, "\x69\163\x5f\147\x75\145\x73\164" => !$e5HVA, "\143\x61\156\x5f\163\x70\151\156\137\x66\162\145\x65" => $kDiq4, "\146\x72\145\x65\x5f\163\160\x69\x6e\x73\137\x75\163\145\144" => $m3sFR, "\147\165\145\163\x74\137\x63\141\156\137\163\160\x69\156" => $R_Lrz, "\147\x75\x65\163\164\137\x73\160\151\156\137\165\x73\145\x64" => $lfoV9]); goto r0khg; wqJIX: $m3sFR = 0; goto YfLh4; Nr2zu: $R_Lrz = $this->cx_jY($WFz1w); goto A1iul; F702U: $e5HVA = nxRoV::YFGI_(); goto j1852; YucqM: $kDiq4 = $m3sFR < 1; goto Q184D; j1852: $h6YeW = FrJAE::HyTPn()->a9jmH("\151\144")->get(); goto UWHnW; A1iul: $lfoV9 = !$R_Lrz; goto VMjX3; UWHnW: $j6yTC = 0; goto wqJIX; C3xkJ: $aooQU = $h6YeW->vnt3X(function ($WT0D7) { return ["\x69\x64" => $WT0D7->id, "\156\141\x6d\145" => $WT0D7->name, "\x63\x6f\x6c\x6f\162" => $WT0D7->rJNHN, "\160\162\x6f\x62\x61\142\151\x6c\x69\x74\171" => $WT0D7->j_q3K, "\146\x72\x65\145\x5f\163\160\x69\156\x73" => $WT0D7->vqBxI, "\x63\157\165\160\157\x6e\137\x63\x6f\144\145" => $WT0D7->o1RBP, "\x64\x65\x70\x6f\163\151\164\x5f\x76\141\154\x75\145" => $WT0D7->cZpky]; }); goto XZBLl; qdV7G: $m3sFR = GfrR9::C_MhY("\165\x73\145\162\x5f\151\144", $e5HVA->id)->tH7aW("\x63\x72\145\x61\164\145\x64\137\141\164", dxq2e())->C_mHy("\x69\163\137\146\x72\145\x65\x5f\x73\160\151\x6e", true)->count(); goto YucqM; Q184D: jbN5g: goto C3xkJ; ok0Yc: Tk7No: goto Datix; OlTjT: $R_Lrz = false; goto QJA8X; r0khg: } catch (\Exception $ai57B) { Log::P2m7e("\105\162\x72\x6f\x20\141\157\40\157\142\164\145\162\x20\x64\141\x64\x6f\x73\40\x64\x61\40\x72\x6f\154\145\164\x61", ["\145\162\162\x6f\162" => $ai57B->getMessage()]); return jgkRl()->Sbe1q(["\x73\x75\x63\143\x65\163\x73" => false, "\155\145\163\x73\141\147\145" => "\105\x72\x72\157\40\x61\x6f\x20\x63\141\x72\162\x65\147\x61\162\40\144\x61\x64\x6f\163\40\144\141\40\x72\157\x6c\x65\164\x61"], 500); } } public function Ajiss(S9d5t $WFz1w) { try { goto JMMaI; l73Am: return jGKrl()->sbe1q(["\x73\165\x63\x63\x65\x73\x73" => true, "\163\160\x69\x6e\163" => $QCw_T->vnt3X(function ($rkMM1) { return ["\151\144" => $rkMM1->id, "\x69\x74\145\155\x5f\x6e\141\155\145" => $rkMM1->nJCc_, "\143\x6f\x75\x70\157\x6e\x5f\x63\x6f\144\x65" => $rkMM1->o1RBP, "\x70\x72\151\172\x65\x5f\164\171\160\145" => $rkMM1->N8Wwc, "\x70\162\151\172\x65\x5f\x61\x77\141\162\x64\x65\144" => $rkMM1->cerzJ, "\x63\x72\x65\x61\x74\x65\144\x5f\141\164" => $rkMM1->RvvCO->format("\144\57\155\x2f\x59\40\110\72\151\x3a\x73"), "\162\x6f\165\x6c\145\164\164\x65\x5f\x69\164\145\x6d" => $rkMM1->DHZiR ? ["\156\141\x6d\x65" => $rkMM1->DHZiR->name, "\x63\157\x6c\157\162\x5f\143\x6f\x64\x65" => $rkMM1->DHZiR->rJNHN] : null]; })]); goto i6R17; JMMaI: if (NXroV::C_4Hv()) { goto Eq0xc; } goto c46Fm; nE5Bn: $e5HVA = NXrOV::YFgi_(); goto bleKW; bleKW: $QCw_T = gFrR9::MwNDt($e5HVA->id, 50); goto l73Am; c46Fm: return jGkRl()->SbE1q(["\163\x75\143\143\145\163\x73" => false, "\x6d\x65\163\x73\x61\147\145" => "\125\163\x75\xc3\241\162\151\157\40\x6e\303\243\157\x20\x61\x75\x74\x65\x6e\164\x69\143\141\144\157"], 401); goto gqymt; gqymt: Eq0xc: goto nE5Bn; i6R17: } catch (\Exception $ai57B) { Log::P2M7e("\105\162\162\157\x20\x61\157\x20\157\142\x74\x65\162\40\150\151\x73\x74\303\xb3\x72\151\x63\x6f\40\x64\145\x20\147\x69\162\157\163", ["\x65\162\x72\x6f\x72" => $ai57B->getMessage(), "\x75\163\x65\162\137\151\144" => NxRoV::PtueJ()]); return jgKRl()->sbe1Q(["\163\x75\143\x63\145\x73\163" => false, "\x6d\x65\163\x73\141\x67\145" => "\105\x72\x72\x6f\40\x61\157\40\x63\x61\x72\162\x65\x67\141\x72\x20\150\151\x73\x74\303\263\x72\x69\x63\157"], 500); } } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
+use App\Models\User;
+use App\Models\Wallet;
+use App\Models\RouletteItem;
+use App\Models\RouletteSpin;
+
+class RouletteController extends Controller
+{
+    /**
+     * Processar o giro da roleta
+     */
+    public function spin(Request $request)
+    {
+        try {
+            $user = Auth::user();
+            $isGuest = !$user;
+            
+            // Para usuários deslogados, permitir giro gratuito sempre
+            if ($isGuest) {
+                Log::info('Usuário convidado girando a roleta', [
+                    'session_id' => session()->getId(),
+                    'ip' => $request->ip()
+                ]);
+                
+                return $this->handleGuestSpin($request);
+            }
+
+            // Verificar se o usuário pode girar hoje (logado)
+            $canSpinFree = $this->canUserSpinFree($user);
+            
+            if (!$canSpinFree && !$this->canUserSpin($user)) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Você já atingiu o limite de giros por dia. Deposite para resgatar mais prêmios!'
+                ], 400);
+            }
+
+            Log::info('Usuário girando a roleta', [
+                'user_id' => $user->id,
+                'type' => $request->input('type', 'default')
+            ]);
+
+            // Obter itens da roleta do banco de dados
+            $rouletteItems = $this->getRouletteItemsFromDatabase();
+            
+            if ($rouletteItems->isEmpty()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum item de roleta encontrado'
+                ], 404);
+            }
+
+            // Selecionar item aleatório baseado na probabilidade
+            $selectedItem = $this->selectRandomItem($rouletteItems);
+            
+            if (!$selectedItem) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro ao selecionar item'
+                ], 500);
+            }
+
+            // Processar prêmio
+            $prizeResult = $this->processPrize($user, $selectedItem, $canSpinFree);
+            
+            // Registrar o giro
+            $this->recordSpin($user, $selectedItem, $prizeResult, $canSpinFree);
+
+            return response()->json([
+                'success' => true,
+                'selectedItem' => $selectedItem,  // Mudança: selectedItem em camelCase
+                'selected_item' => $selectedItem, // Mantém compatibilidade
+                'prize_result' => $prizeResult,
+                'is_free_spin' => $canSpinFree,
+                'message' => 'Giro realizado com sucesso!'
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro no giro da roleta', [
+                'error' => $e->getMessage(),
+                'user_id' => Auth::id()
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor'
+            ], 500);
+        }
+    }
+
+    /**
+     * Verificar se o usuário pode girar hoje
+     */
+    private function canUserSpin($user)
+    {
+        $spinsToday = RouletteSpin::countUserSpinsToday($user->id);
+        return $spinsToday < 5;
+    }
+
+    /**
+     * Verificar se o usuário pode girar gratuitamente hoje (1 giro grátis por dia)
+     */
+    private function canUserSpinFree($user)
+    {
+        $freeSpinsToday = RouletteSpin::where('user_id', $user->id)
+            ->whereDate('created_at', today())
+            ->where('is_free_spin', true)
+            ->count();
+        
+        return $freeSpinsToday < 1;
+    }
+
+    /**
+     * Verificar se o convidado pode girar hoje (1 giro por dia por IP/session)
+     */
+    private function canGuestSpin($request)
+    {
+        $ipAddress = $request->ip();
+        $sessionId = session()->getId();
+        
+        // Verificar por IP (principal)
+        $ipSpinsToday = RouletteSpin::where('ip_address', $ipAddress)
+            ->whereNull('user_id')
+            ->whereDate('created_at', today())
+            ->count();
+        
+        // Verificar por session (backup)
+        $sessionKey = 'guest_roulette_spin_' . date('Y-m-d');
+        $sessionSpinUsed = session($sessionKey, false);
+        
+        return $ipSpinsToday == 0 && !$sessionSpinUsed;
+    }
+
+    /**
+     * Registrar giro do convidado
+     */
+    private function recordGuestSpin($request, $selectedItem)
+    {
+        $ipAddress = $request->ip();
+        
+        // Registrar no banco
+        RouletteSpin::create([
+            'user_id' => null,
+            'item_id' => $selectedItem->id,
+            'item_name' => $selectedItem->name,
+            'coupon_code' => $selectedItem->coupon_code,
+            'prize_type' => $selectedItem->hasFreeSpins() ? 'free_spins' : 'coupon',
+            'prize_awarded' => 0, // Convidados não recebem prêmio direto
+            'is_free_spin' => false,
+            'ip_address' => $ipAddress
+        ]);
+        
+        // Marcar na sessão como backup
+        $sessionKey = 'guest_roulette_spin_' . date('Y-m-d');
+        session([$sessionKey => true]);
+        
+        Log::info('Giro de convidado registrado', [
+            'ip' => $ipAddress,
+            'item_id' => $selectedItem->id,
+            'item_name' => $selectedItem->name
+        ]);
+    }
+
+    /**
+     * Processar giro para usuários convidados (deslogados)
+     */
+    private function handleGuestSpin($request)
+    {
+        try {
+            // Verificar se o convidado já girou hoje
+            if (!$this->canGuestSpin($request)) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Você já girou hoje! Volte amanhã ou cadastre-se para mais giros.',
+                    'guest_limit_reached' => true
+                ], 429);
+            }
+
+            // Obter itens da roleta
+            $rouletteItems = $this->getRouletteItemsFromDatabase();
+            
+            if ($rouletteItems->isEmpty()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Nenhum item de roleta encontrado'
+                ], 404);
+            }
+
+            // Selecionar item aleatório
+            $selectedItem = $this->selectRandomItem($rouletteItems);
+            
+            // Registrar o giro do convidado
+            $this->recordGuestSpin($request, $selectedItem);
+            
+            // Para convidados, sempre retornar com cupom para resgatar
+            $prizeResult = [
+                'free_spins_awarded' => 0,
+                'coupon_code' => $selectedItem->coupon_code,
+                'message' => 'Cadastre-se e deposite para resgatar seu prêmio!',
+                'requires_deposit' => true,
+                'deposit_value' => $selectedItem->deposit_value
+            ];
+
+            return response()->json([
+                'success' => true,
+                'selectedItem' => $selectedItem,
+                'selected_item' => $selectedItem,
+                'prize_result' => $prizeResult,
+                'is_guest' => true,
+                'guest_daily_spin_used' => true,
+                'message' => 'Giro realizado com sucesso! Cadastre-se para resgatar!'
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro no giro para convidado', [
+                'error' => $e->getMessage()
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor'
+            ], 500);
+        }
+    }
+
+    /**
+     * Processar prêmio do usuário
+     */
+    private function processPrize($user, $selectedItem, $isFreeSpinDay = false)
+    {
+        $prizeResult = [
+            'free_spins_awarded' => 0,
+            'coupon_code' => null,
+            'message' => 'Prêmio processado',
+            'requires_deposit' => false,
+            'deposit_value' => 0
+        ];
+
+        try {
+            // Se for o giro grátis do dia, dar o prêmio direto
+            if ($isFreeSpinDay && $selectedItem->hasFreeSpins()) {
+                $wallet = $user->wallet ?? $user->wallet()->create([
+                    'user_id' => $user->id,
+                    'balance' => 0,
+                    'balance_bonus' => 0,
+                    'free_spins' => 0
+                ]);
+                
+                // Adicionar giros grátis diretamente
+                $wallet->increment('free_spins', $selectedItem->free_spins);
+                
+                $prizeResult['free_spins_awarded'] = $selectedItem->free_spins;
+                $prizeResult['message'] = "Parabéns! Você ganhou {$selectedItem->free_spins} giros grátis no seu giro diário!";
+                
+                Log::info('Giros grátis adicionados (giro diário)', [
+                    'user_id' => $user->id,
+                    'free_spins' => $selectedItem->free_spins,
+                    'game_name' => $selectedItem->game_name
+                ]);
+            } elseif ($selectedItem->hasFreeSpins()) {
+                // Para giros pagos, mostrar cupom para resgatar
+                $prizeResult['coupon_code'] = $selectedItem->coupon_code;
+                $prizeResult['requires_deposit'] = true;
+                $prizeResult['deposit_value'] = $selectedItem->deposit_value;
+                $prizeResult['message'] = "Deposite e use o cupom para resgatar seus {$selectedItem->free_spins} giros grátis!";
+            }
+
+            // Se o item tem cupom e não foi processado ainda
+            if ($selectedItem->hasCoupon() && !$prizeResult['coupon_code']) {
+                $prizeResult['coupon_code'] = $selectedItem->coupon_code;
+                $prizeResult['requires_deposit'] = true;
+                $prizeResult['deposit_value'] = $selectedItem->deposit_value;
+                $prizeResult['message'] = "Deposite e use o cupom: {$selectedItem->coupon_code}";
+            }
+
+            // Se não tem nenhum prêmio específico
+            if (!$selectedItem->hasFreeSpins() && !$selectedItem->hasCoupon()) {
+                $prizeResult['message'] = $selectedItem->name;
+            }
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao processar prêmio:', [
+                'error' => $e->getMessage(),
+                'user_id' => $user->id,
+                'item_id' => $selectedItem->id
+            ]);
+        }
+
+        return $prizeResult;
+    }
+
+    /**
+     * Registrar giro no banco de dados
+     */
+    private function recordSpin($user, $selectedItem, $prizeResult, $isFreeSpinDay = false)
+    {
+        try {
+            RouletteSpin::create([
+                'user_id' => $user->id,
+                'item_id' => $selectedItem->id,
+                'item_name' => $selectedItem->name,
+                'coupon_code' => $prizeResult['coupon_code'] ?? null,
+                'prize_type' => $selectedItem->hasFreeSpins() ? 'free_spins' : ($selectedItem->hasCoupon() ? 'coupon' : 'none'),
+                'prize_awarded' => $prizeResult['free_spins_awarded'] ?? 0,
+                'is_free_spin' => $isFreeSpinDay,
+                'ip_address' => request()->ip()
+            ]);
+        } catch (\Exception $e) {
+            Log::error('Erro ao registrar giro:', [
+                'error' => $e->getMessage(),
+                'user_id' => $user->id,
+                'item_id' => $selectedItem->id
+            ]);
+        }
+    }
+
+    /**
+     * Obter itens da roleta do banco de dados
+     */
+    private function getRouletteItemsFromDatabase()
+    {
+        try {
+            return RouletteItem::active()->get();
+        } catch (\Exception $e) {
+            Log::error('Erro ao buscar itens da roleta:', ['error' => $e->getMessage()]);
+            return collect([]);
+        }
+    }
+
+    /**
+     * Selecionar item aleatório baseado na probabilidade
+     */
+    private function selectRandomItem($items)
+    {
+        try {
+            if ($items->isEmpty()) {
+                return null;
+            }
+
+            $totalProbability = $items->sum('probability');
+            $random = mt_rand() / mt_getrandmax() * $totalProbability;
+            
+            $currentProbability = 0;
+            foreach ($items as $item) {
+                $currentProbability += $item->probability;
+                if ($random <= $currentProbability) {
+                    return $item;
+                }
+            }
+            
+            // Fallback para o primeiro item
+            return $items->first();
+        } catch (\Exception $e) {
+            Log::error('Erro ao selecionar item aleatório:', ['error' => $e->getMessage()]);
+            return $items->first();
+        }
+    }
+
+    /**
+     * Obter dados da roleta para o frontend
+     */
+    public function getRouletteData(Request $request)
+    {
+        try {
+            $user = Auth::user();
+            $rouletteItems = RouletteItem::active()->orderBy('id')->get();
+            
+            // Contar giros de hoje usando o model
+            $spinsToday = 0;
+            $freeSpinsUsed = 0;
+            $canSpinFree = false;
+            $guestCanSpin = false;
+            $guestSpinUsed = false;
+            
+            if ($user) {
+                // Usuário logado
+                $spinsToday = RouletteSpin::countUserSpinsToday($user->id);
+                $freeSpinsUsed = RouletteSpin::where('user_id', $user->id)
+                    ->whereDate('created_at', today())
+                    ->where('is_free_spin', true)
+                    ->count();
+                $canSpinFree = $freeSpinsUsed < 1;
+            } else {
+                // Usuário convidado
+                $guestCanSpin = $this->canGuestSpin($request);
+                $guestSpinUsed = !$guestCanSpin;
+            }
+
+            // Preparar segmentos para o frontend
+            $segments = $rouletteItems->map(function ($item) {
+                return [
+                    'id' => $item->id,
+                    'name' => $item->name,
+                    'color' => $item->color_code,
+                    'probability' => $item->probability,
+                    'free_spins' => $item->free_spins,
+                    'coupon_code' => $item->coupon_code,
+                    'deposit_value' => $item->deposit_value
+                ];
+            });
+
+            return response()->json([
+                'success' => true,
+                'items' => $rouletteItems,
+                'segments' => $segments,
+                'spins_today' => $spinsToday,
+                'max_spins' => 5,
+                'is_guest' => !$user,
+                'can_spin_free' => $canSpinFree,
+                'free_spins_used' => $freeSpinsUsed,
+                'guest_can_spin' => $guestCanSpin,
+                'guest_spin_used' => $guestSpinUsed
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao obter dados da roleta', [
+                'error' => $e->getMessage()
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao carregar dados da roleta'
+            ], 500);
+        }
+    }
+
+    /**
+     * Obter histórico de giros do usuário
+     */
+    public function getSpinHistory(Request $request)
+    {
+        try {
+            if (!Auth::check()) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Usuário não autenticado'
+                ], 401);
+            }
+
+            $user = Auth::user();
+            $spins = RouletteSpin::getUserHistory($user->id, 50);
+
+            return response()->json([
+                'success' => true,
+                'spins' => $spins->map(function ($spin) {
+                    return [
+                        'id' => $spin->id,
+                        'item_name' => $spin->item_name,
+                        'coupon_code' => $spin->coupon_code,
+                        'prize_type' => $spin->prize_type,
+                        'prize_awarded' => $spin->prize_awarded,
+                        'created_at' => $spin->created_at->format('d/m/Y H:i:s'),
+                        'roulette_item' => $spin->rouletteItem ? [
+                            'name' => $spin->rouletteItem->name,
+                            'color_code' => $spin->rouletteItem->color_code
+                        ] : null
+                    ];
+                })
+            ]);
+
+        } catch (\Exception $e) {
+            Log::error('Erro ao obter histórico de giros', [
+                'error' => $e->getMessage(),
+                'user_id' => Auth::id()
+            ]);
+
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao carregar histórico'
+            ], 500);
+        }
+    }
+} 

@@ -1,8 +1,85 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:42              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\SHTEQ\FN52M\JKli6; use Jf89x\sHtEQ\fN52m\NmP37; use Ec3ME\SHTEQ\s9D5T; use jF89x\T0eTd\Ovu1I; class KBSnz extends NMP37 { public function mD4nf() { return lO0cy("\x61\144\155\x69\x6e\56\160\x65\x72\163\x6f\x6e\141\154\x69\172\141\x63\141\157\56\142\x61\156\x6e\145\x72\163"); } public function Z0RuJ() { return lO0CY("\x61\x64\155\x69\x6e\x2e\160\x65\x72\x73\157\156\x61\154\151\x7a\x61\x63\141\157\x2e\x6d\x69\x6e\151\137\142\141\156\x6e\x65\x72\x73"); } public function DCHy9() { return lo0CY("\141\144\155\151\156\x2e\160\x65\x72\163\157\x6e\141\x6c\151\172\x61\143\141\x6f\x2e\x69\x63\x6f\x6e\145\163"); } public function FcD10() { return LO0cy("\141\x64\x6d\151\x6e\56\160\x65\162\x73\x6f\156\x61\154\151\x7a\x61\143\141\157\x2e\155\145\156\165"); } public function KVFUL() { return lo0Cy("\x61\x64\x6d\x69\156\56\x70\145\162\x73\x6f\x6e\141\x6c\x69\172\141\x63\x61\x6f\x2e\143\163\x73"); } public function pPva_() { return Lo0cy("\x61\x64\155\x69\156\x2e\160\x65\x72\163\157\x6e\x61\154\x69\x7a\x61\143\141\x6f\x2e\150\x6f\155\145"); } public function sP9yB(s9d5T $WFz1w) { return fh6X5()->jYyrV()->RnJfy("\163\x75\143\x63\145\163\x73", "\x42\141\156\x6e\x65\x72\40\x73\x61\154\x76\157\40\x63\157\155\x20\163\x75\x63\x65\163\x73\x6f\41"); } public function lahHw(s9D5T $WFz1w, $nlzPa) { return Fh6X5()->jYYRv()->rnJfY("\x73\x75\143\x63\145\x73\x73", "\102\x61\x6e\x6e\x65\x72\40\145\x78\143\x6c\165\xc3\xad\144\157\40\x63\x6f\x6d\40\163\x75\x63\x65\163\163\157\x21"); } public function cukqC(s9D5T $WFz1w) { return Fh6x5()->JyyRv()->rNJFY("\x73\165\x63\143\x65\x73\163", "\103\x53\123\40\163\141\154\166\x6f\40\143\157\155\40\x73\165\x63\145\x73\163\157\41"); } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Banner;
+
+class PersonalizacaoController extends Controller
+{
+    /**
+     * Exibe a página de gerenciamento de banners
+     */
+    public function banners()
+    {
+        return view('admin.personalizacao.banners');
+    }
+    
+    /**
+     * Exibe a página de gerenciamento de mini banners
+     */
+    public function miniBanners()
+    {
+        return view('admin.personalizacao.mini_banners');
+    }
+    
+    /**
+     * Exibe a página de gerenciamento de ícones
+     */
+    public function icones()
+    {
+        return view('admin.personalizacao.icones');
+    }
+    
+    /**
+     * Exibe a página de gerenciamento de menu
+     */
+    public function menu()
+    {
+        return view('admin.personalizacao.menu');
+    }
+    
+    /**
+     * Exibe a página de gerenciamento de CSS avançado
+     */
+    public function css()
+    {
+        return view('admin.personalizacao.css');
+    }
+    
+    /**
+     * Exibe a página de configuração de seções da página inicial
+     */
+    public function home()
+    {
+        return view('admin.personalizacao.home');
+    }
+    
+    /**
+     * Salvar banner
+     */
+    public function salvarBanner(Request $request)
+    {
+        // Implementação de salvamento de banner
+        return redirect()->back()->with('success', 'Banner salvo com sucesso!');
+    }
+    
+    /**
+     * Excluir banner
+     */
+    public function excluirBanner(Request $request, $id)
+    {
+        // Implementação de exclusão de banner
+        return redirect()->back()->with('success', 'Banner excluído com sucesso!');
+    }
+    
+    /**
+     * Salvar configurações de CSS
+     */
+    public function salvarCss(Request $request)
+    {
+        // Implementação de salvamento de CSS
+        return redirect()->back()->with('success', 'CSS salvo com sucesso!');
+    }
+} 

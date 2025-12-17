@@ -1,8 +1,555 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\ShTeq\fN52M; use Jf89X\T0etd\V2NmE; use jF89X\T0Etd\rwyiM; use JF89X\t0Etd\tJCVn; use JF89X\T0EtD\lQKhl; use eC3me\ShtEq\S9d5T; use ec3mE\h2VuV\tC4rX; use EC3mE\H2Vuv\P2QH1\NXROv; use ec3Me\h2vUv\p2Qh1\x4hDi; use wF8Lg\N_H5R\p2qh1\N_H5R; class WL4lv extends nMp37 { private $stPVX = array("\151\x6d\141\x67\x65\x2f\x6a\160\145\x67", "\151\x6d\141\147\145\57\160\x6e\147", "\x69\x6d\x61\147\x65\x2f\147\x69\x66", "\x69\155\x61\x67\145\57\x77\x65\x62\160", "\x69\x6d\x61\x67\x65\x2f\163\x76\147\53\x78\x6d\154"); private $m1vh7 = 2024; private $A7iwb = 2024; private $FDqKm = 2048; public function JkBs3() { goto g5ipG; g5ipG: $jeItV = V2Nme::RNJFy(["\143\141\x74\x65\147\157\x72\x79", "\x75\163\x65\162"])->C_MHY("\x73\164\141\x74\165\x73", "\x70\165\142\x6c\151\163\x68\x65\x64")->A9Jmh("\x63\162\x65\x61\164\145\144\x5f\x61\164", "\x64\145\163\143")->xfNe7(9); goto nVpbE; VkWOL: return lO0Cy("\142\x6c\x6f\147\56\x69\156\x64\145\x78", compact("\160\157\163\164\x73", "\x66\x65\141\164\x75\162\x65\x64", "\143\141\x74\145\147\x6f\162\151\145\x73")); goto ZxbEe; jK1U0: $WlVYt = RwYim::AUEE_("\x70\157\163\164\x73")->get(); goto VkWOL; nVpbE: $CD5a1 = v2NmE::rNJFY(["\x63\x61\164\145\147\157\162\x79", "\165\163\x65\x72"])->c_mHy("\163\164\x61\164\165\163", "\160\x75\x62\x6c\x69\x73\150\x65\144")->c_mhy("\x66\x65\x61\164\x75\162\145\144", true)->a9Jmh("\x63\x72\145\141\164\x65\144\x5f\x61\164", "\144\145\x73\143")->zVY4e(3)->get(); goto jK1U0; ZxbEe: } public function fQT16($zzN_D) { goto XMgWr; XMgWr: $zzN_D = rWyiM::C_MHy("\x73\x6c\x75\147", $zzN_D)->Zu1F8(); goto uM9iG; uM9iG: $jeItV = V2NMe::rNjFY(["\x63\x61\164\145\147\157\162\x79", "\x75\163\145\x72"])->c_Mhy("\x73\164\x61\164\165\163", "\160\165\142\x6c\x69\163\x68\x65\144")->c_MHY("\143\x61\164\145\x67\157\x72\x79\x5f\151\x64", $zzN_D->id)->A9jmH("\x63\x72\x65\x61\x74\x65\x64\137\141\164", "\x64\145\163\143")->xfne7(9); goto kezw9; kezw9: return Lo0cY("\x62\154\157\147\x2e\x63\141\x74\145\147\x6f\x72\171", compact("\160\x6f\x73\164\x73", "\143\141\164\x65\147\157\162\171")); goto ma_TO; ma_TO: } public function gEZB_($AAocX) { goto rTeWO; vEtuj: $jrDxx = V2NME::RnJFY(["\143\141\164\145\147\x6f\162\x79", "\165\163\145\x72"])->C_mhy("\163\164\x61\164\x75\x73", "\x70\165\142\154\151\x73\x68\x65\x64")->C_mHy("\151\144", "\41\x3d", $D1ZoR->id)->C_Mhy("\x63\x61\x74\x65\147\157\x72\171\137\151\144", $D1ZoR->l_9xU)->a9JmH("\x63\162\x65\141\x74\x65\144\137\141\164", "\144\145\x73\x63")->zVy4e(3)->get(); goto wf9__; rTeWO: $D1ZoR = V2NMe::rNJfY(["\x63\141\x74\x65\147\x6f\x72\171", "\165\x73\x65\162", "\143\x6f\155\x6d\145\x6e\x74\x73\56\x75\163\x65\x72", "\x74\x61\x67\163"])->c_mHy("\x73\x6c\165\x67", $AAocX)->C_Mhy("\163\164\141\x74\x75\163", "\160\165\142\154\x69\x73\150\x65\x64")->Zu1F8(); goto R8kuM; R8kuM: $D1ZoR->zgsoQ("\166\151\145\167\x73"); goto vEtuj; wf9__: return Lo0Cy("\x62\x6c\x6f\147\x2e\163\150\157\x77", compact("\x70\157\x73\x74", "\162\x65\x6c\141\x74\x65\x64\120\157\163\164\163")); goto V2hSk; V2hSk: } public function bccCp($y2Qbr) { goto ixUXG; ixUXG: $y2Qbr = LqKhl::c_MhY("\163\154\165\x67", $y2Qbr)->Zu1f8(); goto NQyPf; NQyPf: $jeItV = $y2Qbr->BDamo()->rNjfY(["\x63\x61\x74\x65\147\157\162\x79", "\x75\x73\x65\162"])->c_mhY("\163\x74\141\164\x75\x73", "\160\165\142\x6c\151\163\150\145\144")->a9jmH("\x63\162\145\x61\164\145\144\x5f\x61\x74", "\144\145\163\x63")->XFNE7(9); goto rVqfT; rVqfT: return LO0Cy("\142\154\157\x67\x2e\164\141\x67", compact("\160\157\x73\x74\x73", "\x74\141\147")); goto KWNZo; KWNZo: } public function hrlbK($oTqLk) { goto qKynG; qKynG: $oTqLk = \Jf89X\T0eTD\AVsUJ::c_mHY("\165\163\x65\x72\156\141\x6d\145", $oTqLk)->ZU1f8(); goto YuoKq; UP2NE: return LO0Cy("\x62\x6c\157\147\x2e\x61\x75\x74\150\157\162", compact("\160\x6f\163\164\163", "\x61\x75\x74\150\157\162")); goto Yu0a5; YuoKq: $jeItV = V2nme::rNJfy(["\143\141\x74\x65\x67\x6f\x72\x79", "\165\x73\x65\162"])->c_MHy("\163\164\x61\x74\165\163", "\x70\x75\x62\x6c\x69\163\x68\x65\144")->c_mhy("\165\163\x65\x72\x5f\151\144", $oTqLk->id)->A9JmH("\x63\162\x65\141\164\x65\x64\x5f\x61\164", "\x64\145\163\143")->xFne7(9); goto UP2NE; Yu0a5: } public function F8Nbg(S9d5t $WFz1w) { goto gqmjA; YFgni: return Lo0CY("\142\154\157\147\56\x73\145\141\x72\143\x68", compact("\160\157\163\164\x73", "\x71\165\x65\x72\171")); goto zHqEY; niiRE: $jeItV = v2Nme::RnjfY(["\x63\x61\x74\x65\147\x6f\x72\171", "\165\163\x65\162"])->C_MHY("\163\164\x61\164\x75\x73", "\x70\165\142\154\x69\163\150\145\144")->C_mhy(function ($scVUQ) use($XrAG1) { $scVUQ->C_MhY("\x74\151\x74\x6c\x65", "\x6c\151\x6b\145", "\45{$XrAG1}\45")->Iny8C("\x63\x6f\x6e\164\x65\156\x74", "\154\151\x6b\x65", "\45{$XrAG1}\x25"); })->A9jMh("\x63\x72\x65\141\x74\x65\x64\137\x61\x74", "\x64\145\x73\x63")->XfNe7(9); goto YFgni; gqmjA: $XrAG1 = $WFz1w->pC2Lr("\x71"); goto niiRE; zHqEY: } public function EXuaO() { goto dUA6P; DxTum: $R3_8f = RwyIM::count(); goto r3BpH; bwrOU: $wgIpn = tjCVn::RnJFy(["\160\157\163\x74", "\x75\x73\x65\x72"])->A9Jmh("\143\x72\x65\141\x74\x65\x64\137\141\164", "\144\x65\x73\x63")->zvY4E(5)->get(); goto iVWJ4; sk5dc: $OCHG4 = V2NmE::RNJfY("\143\x61\164\145\147\x6f\x72\171")->a9jMh("\x63\x72\x65\141\x74\x65\x64\x5f\x61\164", "\144\x65\163\x63")->zvy4E(5)->get(); goto bwrOU; dUA6P: $iuqWw = V2nmE::count(); goto yWNIm; jcD8A: $fjiIX = v2NmE::c_mHY("\163\x74\x61\164\165\163", "\x64\x72\141\x66\164")->count(); goto DxTum; r3BpH: $MFzei = tJcVN::count(); goto sk5dc; iVWJ4: return LO0cY("\141\x64\155\151\x6e\56\x62\x6c\157\147\x2e\151\156\x64\145\x78", compact("\x74\157\x74\141\154\120\157\x73\x74\x73", "\x70\x75\142\x6c\151\x73\x68\145\144\x50\157\x73\x74\163", "\x64\x72\x61\x66\164\120\157\163\x74\x73", "\x74\x6f\x74\141\x6c\x43\x61\x74\x65\147\x6f\162\x69\x65\163", "\x74\157\x74\x61\154\x43\x6f\155\155\145\156\x74\x73", "\x72\x65\143\x65\156\x74\x50\x6f\163\x74\163", "\x72\145\143\x65\x6e\164\103\x6f\x6d\x6d\145\156\164\163")); goto K3JIB; yWNIm: $QAPPn = V2NMe::C_mHY("\x73\x74\141\164\x75\x73", "\160\165\142\154\151\x73\x68\x65\144")->count(); goto jcD8A; K3JIB: } public function W9YAA() { $jeItV = v2nmE::RNJfy(["\143\141\x74\145\x67\157\162\171", "\x75\x73\145\162"])->a9Jmh("\x63\x72\x65\x61\x74\x65\144\137\x61\164", "\144\x65\x73\143")->xfNe7(10); return Lo0cY("\x61\x64\155\x69\x6e\x2e\x62\x6c\x6f\147\56\160\x6f\x73\164\163", compact("\160\157\x73\164\163")); } public function create() { goto o9JK2; o9JK2: $WlVYt = rwYIM::p0WsL(); goto Rs0Ig; Rs0Ig: $JNXRD = lQKHl::p0WSl(); goto i08WC; i08WC: return lO0cy("\x61\x64\x6d\x69\x6e\56\142\x6c\x6f\147\x2e\143\162\145\141\x74\x65", compact("\143\141\164\x65\147\x6f\162\x69\145\x73", "\164\x61\x67\x73")); goto PU1s0; PU1s0: } public function AohqW(S9d5T $WFz1w) { goto W04o5; o0Rc3: return fh6x5()->WwY32("\141\144\x6d\x69\x6e\56\x62\154\x6f\x67\56\x70\157\x73\x74\x73")->RNjfY("\x73\x75\x63\143\145\x73\163", "\x50\157\x73\x74\40\143\x72\x69\141\x64\157\40\143\x6f\x6d\x20\163\x75\x63\145\x73\x73\x6f\x21"); goto znIbb; x9tvG: $D1ZoR = new V2Nme(); goto t3Ch_; ZQYY8: $D1ZoR->ROWMV = nXRov::PtueJ(); goto F7aQW; t3Ch_: $D1ZoR->Wpzxn = $WFz1w->Wpzxn; goto W4Oas; F7aQW: $D1ZoR->status = $WFz1w->status; goto gkAsg; gkAsg: $D1ZoR->oGw9J = $WFz1w->hKLbp("\146\x65\141\x74\x75\x72\145\x64"); goto MKVSv; JNoF6: $e9TsV = $WFz1w->file("\151\x6d\141\x67\145")->aohQW("\142\154\157\x67", "\x70\x75\x62\154\x69\x63"); goto GkAz0; B_Jt9: $this->wjEiz($e9TsV); goto T8DDU; EmvzZ: $D1ZoR->Pv1J2()->attach($WFz1w->dJd0_); goto WfpA2; w1Gw7: if (!$WFz1w->hklBP("\164\141\x67\x73")) { goto xBlEx; } goto EmvzZ; E_nP4: $D1ZoR->save(); goto w1Gw7; JpAwF: $this->DxuQV($WFz1w->file("\x69\x6d\x61\x67\145")); goto JNoF6; W4Oas: $D1ZoR->EWmd0 = Tc4rX::Ku3yQ($WFz1w->Wpzxn); goto AVga6; XbVLD: $D1ZoR->HjeG4 = tc4rx::nOr_l(strip_tags($WFz1w->UATM8), 150); goto Qd8N8; T8DDU: YE80u: goto E_nP4; Qd8N8: $D1ZoR->l_9xU = $WFz1w->l_9xU; goto ZQYY8; WfpA2: xBlEx: goto o0Rc3; MKVSv: if (!$WFz1w->T35Wz("\151\x6d\x61\147\145")) { goto YE80u; } goto JpAwF; W04o5: $WFz1w->validate(["\164\x69\164\154\145" => "\162\x65\x71\165\x69\x72\x65\x64\x7c\x6d\x61\170\x3a\62\65\65", "\143\x6f\x6e\x74\145\156\164" => "\162\x65\x71\x75\151\162\x65\144", "\x63\x61\164\145\147\157\162\x79\137\151\x64" => "\162\145\x71\x75\151\x72\145\x64\174\145\170\151\x73\164\163\72\143\x61\164\145\x67\x6f\162\151\145\163\54\151\x64", "\151\155\x61\x67\x65" => "\156\165\154\x6c\x61\x62\x6c\x65\x7c\151\155\141\x67\x65\x7c\155\141\170\72\x32\60\64\x38\174\x6d\151\155\x65\x73\72\152\x70\x65\147\x2c\160\x6e\147\54\147\151\146\54\x77\x65\x62\160\x2c\163\166\x67", "\163\x74\x61\x74\165\x73" => "\x72\145\161\165\151\162\145\144\x7c\151\x6e\x3a\160\165\x62\x6c\151\x73\150\145\144\x2c\x64\x72\x61\x66\x74", "\146\x65\x61\164\x75\162\145\144" => "\x6e\165\x6c\154\x61\142\154\x65\x7c\x62\157\157\154\145\141\x6e", "\x74\141\147\x73" => "\x6e\x75\x6c\154\x61\x62\x6c\145\174\x61\x72\162\141\171", "\x74\x61\x67\163\x2e\52" => "\145\170\x69\x73\x74\x73\x3a\164\x61\x67\163\x2c\151\x64"]); goto x9tvG; AVga6: $D1ZoR->UATM8 = $WFz1w->UATM8; goto XbVLD; GkAz0: $D1ZoR->BUVn7 = $e9TsV; goto B_Jt9; znIbb: } public function e36Z7($nlzPa) { goto x4tcO; x4tcO: $D1ZoR = V2nMe::rNjfY("\x74\141\x67\x73")->UGYzW($nlzPa); goto YeJvQ; XnvRV: $JNXRD = LQKhl::P0WsL(); goto p4ys2; p4ys2: return LO0CY("\141\x64\x6d\151\156\x2e\142\154\157\147\x2e\x65\144\x69\164", compact("\x70\x6f\x73\164", "\x63\141\x74\145\147\157\x72\x69\145\x73", "\164\141\x67\x73")); goto mezmA; YeJvQ: $WlVYt = RwYIM::P0WSL(); goto XnvRV; mezmA: } public function update(S9D5t $WFz1w, $nlzPa) { goto CTYbQ; qntfX: if ($WFz1w->hKLbp("\x74\141\x67\163")) { goto MWJVa; } goto no8XO; BuGmN: if (!$WFz1w->T35Wz("\x69\155\x61\x67\x65")) { goto fnGXn; } goto SUsQ7; KxEXT: fnGXn: goto HXTpM; ciUEn: $D1ZoR->pV1J2()->A3kc8($WFz1w->dJd0_); goto wZr5z; KVmX1: if (!$D1ZoR->BUVn7) { goto UNgA3; } goto qw_3O; WeZRF: $e9TsV = $WFz1w->file("\151\155\141\x67\x65")->AoHQW("\142\154\x6f\147", "\160\x75\142\154\x69\143"); goto tbX2f; CTYbQ: $WFz1w->validate(["\x74\x69\164\x6c\145" => "\162\x65\x71\165\151\162\x65\144\x7c\x6d\141\x78\x3a\62\65\65", "\x63\x6f\156\x74\x65\x6e\164" => "\162\x65\161\x75\151\162\x65\x64", "\x63\x61\164\145\147\157\162\171\x5f\151\x64" => "\162\x65\161\165\151\x72\x65\x64\174\x65\x78\151\163\x74\163\72\x63\x61\x74\x65\147\157\162\151\145\x73\x2c\151\x64", "\151\155\x61\x67\x65" => "\x6e\165\x6c\x6c\x61\142\154\x65\x7c\x69\155\141\x67\x65\x7c\155\141\170\x3a\62\60\x34\70\x7c\155\151\x6d\145\163\72\152\160\145\147\x2c\x70\156\x67\x2c\x67\x69\x66\x2c\x77\x65\142\x70\x2c\x73\x76\x67", "\x73\164\141\164\165\163" => "\x72\145\x71\x75\151\x72\145\144\174\151\x6e\72\160\165\142\154\x69\x73\x68\x65\144\54\144\x72\141\146\x74", "\146\x65\x61\x74\165\162\x65\x64" => "\156\165\154\x6c\x61\142\154\145\174\x62\157\x6f\x6c\145\141\x6e", "\164\x61\147\163" => "\156\165\154\154\x61\142\154\x65\x7c\141\162\162\x61\171", "\x74\x61\147\163\56\52" => "\x65\x78\151\x73\164\x73\72\x74\141\147\163\54\151\x64"]); goto O1v_d; AEXmy: $D1ZoR->oGw9J = $WFz1w->HklBP("\x66\145\141\x74\x75\x72\145\x64"); goto BuGmN; s8MlJ: UNgA3: goto WeZRF; no8XO: $D1ZoR->PV1j2()->detach(); goto YaUGc; GGvz3: $D1ZoR->Wpzxn = $WFz1w->Wpzxn; goto OxQWP; HXTpM: $D1ZoR->save(); goto qntfX; XZSFq: $D1ZoR->status = $WFz1w->status; goto AEXmy; tbX2f: $D1ZoR->BUVn7 = $e9TsV; goto WoFr5; Rqgmn: return fH6x5()->wWY32("\x61\x64\155\x69\156\x2e\142\x6c\x6f\x67\x2e\160\x6f\x73\164\163")->rNJFY("\163\x75\x63\x63\x65\163\x73", "\x50\x6f\x73\164\40\141\164\165\x61\x6c\151\x7a\141\144\x6f\x20\143\157\x6d\x20\163\x75\x63\x65\x73\163\157\41"); goto tc1pr; XqSyd: Ii5wi: goto k1fPm; SUsQ7: $this->DxUQv($WFz1w->file("\x69\155\x61\147\x65")); goto KVmX1; O1v_d: $D1ZoR = V2Nme::ugYzW($nlzPa); goto GGvz3; k1fPm: $D1ZoR->UATM8 = $WFz1w->UATM8; goto tbG32; qKowt: $D1ZoR->l_9xU = $WFz1w->l_9xU; goto XZSFq; WoFr5: $this->wJeIz($e9TsV); goto KxEXT; YaUGc: goto P2oQ7; goto RRj_L; OxQWP: if (!($D1ZoR->Wpzxn != $WFz1w->Wpzxn)) { goto Ii5wi; } goto T2Z22; RRj_L: MWJVa: goto ciUEn; wZr5z: P2oQ7: goto Rqgmn; tbG32: $D1ZoR->HjeG4 = Tc4Rx::Nor_l(strip_tags($WFz1w->UATM8), 150); goto qKowt; qw_3O: x4hdi::uiKWu("\160\165\x62\x6c\151\x63")->delete($D1ZoR->BUVn7); goto s8MlJ; T2Z22: $D1ZoR->EWmd0 = Tc4rx::KU3YQ($WFz1w->Wpzxn); goto XqSyd; tc1pr: } public function destroy($nlzPa) { goto Vy917; Vy917: $D1ZoR = V2NMe::ugYZw($nlzPa); goto FDqX5; yS2lA: $D1ZoR->PV1J2()->detach(); goto MSR1k; FDqX5: if (!$D1ZoR->BUVn7) { goto Xy6tv; } goto jhSNN; YksJC: return Fh6x5()->WWY32("\141\x64\155\x69\x6e\x2e\x62\x6c\157\147\x2e\160\x6f\x73\x74\163")->RNJFy("\x73\x75\143\x63\145\163\x73", "\120\157\163\x74\x20\x72\145\x6d\157\x76\x69\144\x6f\40\x63\x6f\x6d\40\x73\165\143\145\163\163\x6f\41"); goto KTklR; jhSNN: x4HDi::UIkwU("\x70\x75\x62\x6c\151\143")->delete($D1ZoR->BUVn7); goto IagHS; IagHS: Xy6tv: goto yS2lA; MSR1k: $D1ZoR->delete(); goto YksJC; KTklR: } public function jd1bY() { $WlVYt = rwyiM::aUee_("\160\x6f\x73\164\163")->get(); return Lo0CY("\x61\x64\x6d\151\x6e\x2e\x62\x6c\157\147\56\143\141\x74\x65\x67\x6f\x72\151\x65\x73", compact("\143\141\164\x65\147\x6f\162\151\x65\x73")); } public function hsVEo(s9d5t $WFz1w) { goto DLBTw; n1RI3: $zzN_D->EWmd0 = TC4RX::ku3YQ($WFz1w->name); goto WDJOr; UMDxN: $zzN_D->name = $WFz1w->name; goto n1RI3; mR57U: $zzN_D = new rwYim(); goto UMDxN; W48Ni: return fH6X5()->WwY32("\x61\144\x6d\x69\156\x2e\142\x6c\x6f\x67\x2e\143\141\164\145\147\157\162\151\x65\x73")->RNjfy("\x73\x75\143\143\145\163\x73", "\103\141\164\x65\x67\157\162\x69\141\40\x63\x72\151\141\144\141\40\143\157\155\40\x73\x75\143\145\163\163\157\41"); goto faRnv; WDJOr: $zzN_D->save(); goto W48Ni; DLBTw: $WFz1w->validate(["\156\141\155\x65" => "\162\145\161\x75\x69\x72\145\x64\174\155\x61\x78\72\62\65\65\x7c\x75\x6e\x69\x71\165\x65\72\x63\x61\x74\145\147\157\162\x69\145\163\54\156\x61\155\145"]); goto mR57U; faRnv: } public function EPV5h(S9D5T $WFz1w, $nlzPa) { goto KxOJ0; sfqSg: $zzN_D = rwYiM::uGYZW($nlzPa); goto x2S9E; x2S9E: $zzN_D->name = $WFz1w->name; goto LVvL8; FCkbN: $zzN_D->save(); goto PlRcW; PlRcW: return fH6x5()->wwY32("\141\x64\155\151\156\x2e\x62\x6c\x6f\147\56\143\141\164\x65\x67\157\162\151\145\163")->RnJFy("\163\165\x63\143\x65\163\x73", "\103\141\164\145\147\157\162\151\141\40\141\x74\x75\x61\154\x69\x7a\141\x64\141\40\x63\157\155\40\163\165\143\x65\163\163\x6f\41"); goto QDBXx; LVvL8: $zzN_D->EWmd0 = tc4rX::KU3YQ($WFz1w->name); goto FCkbN; KxOJ0: $WFz1w->validate(["\x6e\x61\155\145" => "\x72\145\x71\165\151\x72\145\x64\174\x6d\141\x78\x3a\x32\65\65\x7c\x75\156\x69\161\x75\145\x3a\x63\x61\x74\x65\x67\x6f\x72\151\145\163\54\156\141\155\145\x2c" . $nlzPa]); goto sfqSg; QDBXx: } public function K9i4E($nlzPa) { goto mzqO2; mzqO2: $zzN_D = RWyim::Ugyzw($nlzPa); goto T1a8r; hXpP6: $zzN_D->delete(); goto YS6by; YVR6y: swkRu: goto hXpP6; Z2TrF: return fh6x5()->WWy32("\x61\144\155\151\x6e\56\x62\154\x6f\x67\x2e\x63\x61\x74\x65\x67\157\x72\x69\145\x73")->RnJFy("\145\x72\x72\157\x72", "\x4e\303\xa3\x6f\x20\303\251\x20\x70\157\x73\x73\xc3\xad\x76\145\154\40\162\145\x6d\x6f\x76\x65\162\40\x75\x6d\x61\40\143\141\x74\x65\x67\x6f\x72\x69\141\x20\161\165\x65\40\x63\157\156\164\x65\x6e\x68\141\40\160\x6f\x73\164\163\56"); goto YVR6y; YS6by: return fH6X5()->wWY32("\141\x64\x6d\151\156\56\142\154\x6f\147\56\143\141\164\x65\x67\157\162\151\145\x73")->rNJFY("\x73\x75\x63\x63\x65\x73\163", "\103\141\164\x65\x67\x6f\x72\x69\141\40\162\x65\x6d\157\166\151\144\x61\x20\x63\x6f\x6d\40\x73\165\143\x65\163\x73\x6f\41"); goto k4VlM; T1a8r: if (!($zzN_D->bDAMO()->count() > 0)) { goto swkRu; } goto Z2TrF; k4VlM: } public function KDzsW() { $HsocA = tjCVn::Rnjfy(["\160\157\x73\164", "\165\x73\145\162"])->a9jmh("\143\x72\145\x61\x74\x65\144\137\141\x74", "\144\x65\x73\143")->XfNE7(10); return lo0CY("\141\144\x6d\151\x6e\56\142\x6c\157\x67\x2e\x63\x6f\x6d\155\x65\156\164\x73", compact("\143\157\x6d\x6d\145\x6e\x74\163")); } public function dm3u9(S9d5T $WFz1w, $nlzPa) { goto Tgciz; Tgciz: $WFz1w->validate(["\x63\157\x6e\164\x65\156\x74" => "\x72\145\161\x75\x69\162\x65\x64", "\x73\x74\x61\164\165\x73" => "\162\145\161\x75\151\x72\x65\144\x7c\151\x6e\72\x61\x70\x70\x72\x6f\166\x65\x64\x2c\160\x65\156\144\x69\156\x67\x2c\163\x70\141\155"]); goto FMx5F; E8Ej6: return fh6x5()->wwY32("\141\x64\155\x69\156\x2e\x62\154\x6f\x67\56\143\x6f\x6d\155\x65\156\164\163")->RnjFY("\163\x75\143\x63\x65\163\163", "\103\157\x6d\145\x6e\x74\xc3\xa1\x72\151\x6f\40\x61\x74\x75\x61\154\x69\172\x61\x64\157\x20\143\157\155\x20\x73\x75\x63\145\x73\x73\x6f\x21"); goto goum1; uP2XD: $iYMv4->UATM8 = $WFz1w->UATM8; goto lTanV; FMx5F: $iYMv4 = TjCvn::uGYZw($nlzPa); goto uP2XD; XmqZL: $iYMv4->save(); goto E8Ej6; lTanV: $iYMv4->status = $WFz1w->status; goto XmqZL; goum1: } public function jvX5s($nlzPa) { goto XomOs; b5scH: return fH6X5()->wWy32("\x61\x64\x6d\x69\x6e\x2e\x62\x6c\157\x67\x2e\143\157\155\x6d\x65\156\164\163")->rNjfY("\163\x75\x63\x63\x65\163\x73", "\x43\157\x6d\145\156\x74\xc3\241\x72\151\157\x20\x72\x65\155\157\x76\151\x64\x6f\x20\x63\x6f\155\40\x73\x75\x63\145\163\x73\x6f\x21"); goto d4ql4; nbo0j: $iYMv4->delete(); goto b5scH; XomOs: $iYMv4 = TjCvN::ugyzW($nlzPa); goto nbo0j; d4ql4: } public function mNNpw(s9D5T $WFz1w, $t76AC) { goto gvl6k; gNnGT: $D1ZoR = V2NMe::Ugyzw($t76AC); goto aLboW; qgDjv: $iYMv4->UATM8 = $WFz1w->UATM8; goto y2E4T; und7g: $iYMv4->status = "\x70\x65\x6e\x64\x69\x6e\x67"; goto nETiy; nETiy: $iYMv4->save(); goto ART3v; ART3v: return Fh6x5()->JyyRV()->rnJfy("\x73\x75\143\143\x65\x73\x73", "\103\157\155\x65\x6e\x74\303\xa1\x72\151\x6f\x20\145\x6e\166\151\141\x64\x6f\x20\143\157\x6d\40\x73\x75\x63\x65\x73\163\x6f\x21\40\x41\147\x75\x61\162\144\x61\x6e\x64\x6f\40\x61\x70\x72\x6f\x76\141\xc3\xa7\303\xa3\x6f\x2e"); goto DuDOu; y2E4T: $iYMv4->X2n0a = $D1ZoR->id; goto UiI6i; aLboW: $iYMv4 = new Tjcvn(); goto qgDjv; gvl6k: $WFz1w->validate(["\x63\157\156\164\145\x6e\164" => "\162\x65\161\x75\151\162\145\144"]); goto gNnGT; UiI6i: $iYMv4->ROWMV = nXRoV::PtUeJ(); goto und7g; DuDOu: } public function DW9H0($nlzPa) { goto k7CAV; fT2dB: if (!($iYMv4->ROWMV != NXrOv::PtUEJ())) { goto erS0Q; } goto qwRk0; d7A_6: return Fh6x5()->jYYRv()->rnjfy("\163\165\x63\143\145\x73\x73", "\103\157\155\x65\x6e\x74\303\241\x72\151\157\40\x72\145\x6d\157\166\151\144\x6f\x20\143\157\155\40\163\x75\143\x65\163\163\x6f\41"); goto gY55_; k7CAV: $iYMv4 = TjCvn::UgYzW($nlzPa); goto fT2dB; lv422: erS0Q: goto CtUFp; CtUFp: $iYMv4->delete(); goto d7A_6; qwRk0: return Fh6x5()->JyYrV()->rNJFy("\145\x72\x72\157\x72", "\x56\x6f\143\303\252\x20\156\xc3\xa3\x6f\x20\164\145\155\x20\160\145\x72\155\x69\163\163\xc3\243\157\40\x70\141\162\x61\40\145\x78\x63\154\x75\x69\x72\40\x65\x73\164\145\40\x63\x6f\155\x65\156\x74\xc3\241\x72\x69\157\x2e"); goto lv422; gY55_: } private function dxUqV($xESqV) { goto S4FI2; thbLg: if (!$roNYh) { goto jJ9mJ; } goto QZVUM; qMYnT: throw new \Exception("\101\x20\x69\x6d\141\x67\x65\155\40\x65\170\143\145\x64\x65\40\x6f\40\164\x61\155\141\156\x68\157\40\155\303\241\170\151\x6d\157\40\160\145\162\155\x69\164\x69\144\x6f\40\144\145\x20{$this->FDqKm}\x4b\102"); goto G0uKE; QZVUM: $dYdoL = $roNYh[0]; goto OFSEl; EhYpa: $C4A5E = implode("\x2c\40", array_map(function ($zgMy7) { return str_replace("\151\155\x61\147\x65\x2f", '', $zgMy7); }, $this->stPVX)); goto tBsDl; S4FI2: if (in_array($xESqV->getMimeType(), $this->stPVX)) { goto AsdxL; } goto EhYpa; G1c97: if (!($xESqV->getSize() > $FfWO9)) { goto UbNOr; } goto qMYnT; G0uKE: UbNOr: goto DxC_l; DxC_l: $roNYh = getimagesize($xESqV->getPathname()); goto thbLg; bqgoY: jJ9mJ: goto gdZwd; Tz1b4: throw new \Exception("\x41\40\151\155\141\x67\x65\x6d\x20\145\170\143\145\144\x65\40\x61\x73\x20\144\x69\x6d\145\156\163\xc3\265\145\163\40\155\303\241\x78\x69\155\141\x73\40\160\145\x72\155\151\x74\151\144\141\x73\40\144\x65\x20{$this->m1vh7}\x78{$this->A7iwb}\40\x70\x69\x78\x65\x6c\x73"); goto DmNKF; OFSEl: $Xtx14 = $roNYh[1]; goto y4llt; q5VgJ: $FfWO9 = $this->FDqKm * 1024; goto G1c97; y4llt: if (!($dYdoL > $this->m1vh7 || $Xtx14 > $this->A7iwb)) { goto wJ0sJ; } goto Tz1b4; DmNKF: wJ0sJ: goto bqgoY; tBsDl: throw new \Exception("\124\x69\x70\157\40\x64\x65\x20\x61\162\161\x75\x69\x76\x6f\40\x69\x6e\x76\303\xa1\154\x69\144\157\56\x20\x54\151\x70\157\x73\40\160\145\162\x6d\151\x74\151\144\x6f\x73\72\x20{$C4A5E}"); goto ysm2n; ysm2n: AsdxL: goto q5VgJ; gdZwd: } private function wJEiz($mt0Hf) { try { goto ODDgl; ODDgl: $EGxcz = x4HDi::UiKwu("\160\x75\142\154\151\143")->cgYNl($mt0Hf); goto n5nYE; vKPax: if (!($xESqV->i5R8d() > $this->m1vh7 || $xESqV->v84xv() > $this->A7iwb)) { goto J9V70; } goto o1fVf; Q0pGN: $xESqV->save($EGxcz); goto qF40k; qF40k: J9V70: goto ymB1G; o1fVf: $xESqV->wJloS($this->m1vh7, $this->A7iwb, function ($VZ9tB) { $VZ9tB->M8ZlD(); $VZ9tB->vrgEi(); }); goto Q0pGN; n5nYE: $xESqV = N_H5r::Yki_i($EGxcz); goto vKPax; ymB1G: } catch (\Exception $ai57B) { \Log::MSv8l("\116\xc3\243\x6f\40\146\157\x69\40\160\x6f\163\x73\xc3\255\x76\x65\154\40\162\x65\x64\x69\155\145\156\163\x69\157\156\141\162\x20\141\40\151\155\141\x67\x65\155\x3a\x20" . $ai57B->getMessage()); } } }
+
+namespace App\Http\Controllers;
+
+use App\Models\Post;
+use App\Models\Category;
+use App\Models\Comment;
+use App\Models\Tag;
+use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
+use Intervention\Image\Facades\Image;
+
+class BlogController extends Controller
+{
+    /**
+     * Lista de tipos MIME permitidos para imagens
+     */
+    private $allowedMimes = [
+        'image/jpeg',
+        'image/png',
+        'image/gif',
+        'image/webp',
+        'image/svg+xml'
+    ];
+
+    /**
+     * Tamanho máximo para imagens
+     */
+    private $maxWidth = 2024;
+    private $maxHeight = 2024;
+    private $maxSize = 2048; // em KB (2MB)
+
+    /**
+     * Exibe a página principal do blog com os posts mais recentes
+     */
+    public function index()
+    {
+        $posts = Post::with(['category', 'user'])
+            ->where('status', 'published')
+            ->orderBy('created_at', 'desc')
+            ->paginate(9);
+            
+        $featured = Post::with(['category', 'user'])
+            ->where('status', 'published')
+            ->where('featured', true)
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+            
+        $categories = Category::withCount('posts')->get();
+            
+        return view('blog.index', compact('posts', 'featured', 'categories'));
+    }
+    
+    /**
+     * Exibe posts de uma categoria específica
+     */
+    public function category($category)
+    {
+        $category = Category::where('slug', $category)->firstOrFail();
+        
+        $posts = Post::with(['category', 'user'])
+            ->where('status', 'published')
+            ->where('category_id', $category->id)
+            ->orderBy('created_at', 'desc')
+            ->paginate(9);
+            
+        return view('blog.category', compact('posts', 'category'));
+    }
+    
+    /**
+     * Exibe um post específico
+     */
+    public function show($slug)
+    {
+        $post = Post::with(['category', 'user', 'comments.user', 'tags'])
+            ->where('slug', $slug)
+            ->where('status', 'published')
+            ->firstOrFail();
+            
+        // Incrementa o contador de visualizações
+        $post->increment('views');
+        
+        // Posts relacionados
+        $relatedPosts = Post::with(['category', 'user'])
+            ->where('status', 'published')
+            ->where('id', '!=', $post->id)
+            ->where('category_id', $post->category_id)
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+            
+        return view('blog.show', compact('post', 'relatedPosts'));
+    }
+    
+    /**
+     * Exibe posts com uma tag específica
+     */
+    public function tag($tag)
+    {
+        $tag = Tag::where('slug', $tag)->firstOrFail();
+        
+        $posts = $tag->posts()
+            ->with(['category', 'user'])
+            ->where('status', 'published')
+            ->orderBy('created_at', 'desc')
+            ->paginate(9);
+            
+        return view('blog.tag', compact('posts', 'tag'));
+    }
+    
+    /**
+     * Exibe posts de um autor específico
+     */
+    public function author($author)
+    {
+        $author = \App\Models\User::where('username', $author)->firstOrFail();
+        
+        $posts = Post::with(['category', 'user'])
+            ->where('status', 'published')
+            ->where('user_id', $author->id)
+            ->orderBy('created_at', 'desc')
+            ->paginate(9);
+            
+        return view('blog.author', compact('posts', 'author'));
+    }
+    
+    /**
+     * Realiza uma busca nos posts
+     */
+    public function search(Request $request)
+    {
+        $query = $request->input('q');
+        
+        $posts = Post::with(['category', 'user'])
+            ->where('status', 'published')
+            ->where(function ($q) use ($query) {
+                $q->where('title', 'like', "%{$query}%")
+                  ->orWhere('content', 'like', "%{$query}%");
+            })
+            ->orderBy('created_at', 'desc')
+            ->paginate(9);
+            
+        return view('blog.search', compact('posts', 'query'));
+    }
+    
+    /**
+     * Exibe o painel de administração do blog
+     */
+    public function adminIndex()
+    {
+        $totalPosts = Post::count();
+        $publishedPosts = Post::where('status', 'published')->count();
+        $draftPosts = Post::where('status', 'draft')->count();
+        $totalCategories = Category::count();
+        $totalComments = Comment::count();
+        
+        $recentPosts = Post::with('category')
+            ->orderBy('created_at', 'desc')
+            ->take(5)
+            ->get();
+            
+        $recentComments = Comment::with(['post', 'user'])
+            ->orderBy('created_at', 'desc')
+            ->take(5)
+            ->get();
+            
+        return view('admin.blog.index', compact(
+            'totalPosts', 
+            'publishedPosts', 
+            'draftPosts', 
+            'totalCategories', 
+            'totalComments', 
+            'recentPosts', 
+            'recentComments'
+        ));
+    }
+    
+    /**
+     * Exibe a lista de posts no painel administrativo
+     */
+    public function adminPosts()
+    {
+        $posts = Post::with(['category', 'user'])
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);
+            
+        return view('admin.blog.posts', compact('posts'));
+    }
+    
+    /**
+     * Exibe o formulário para criar um novo post
+     */
+    public function create()
+    {
+        $categories = Category::all();
+        $tags = Tag::all();
+        
+        return view('admin.blog.create', compact('categories', 'tags'));
+    }
+    
+    /**
+     * Armazena um novo post no banco de dados
+     */
+    public function store(Request $request)
+    {
+        $request->validate([
+            'title' => 'required|max:255',
+            'content' => 'required',
+            'category_id' => 'required|exists:categories,id',
+            'image' => 'nullable|image|max:2048|mimes:jpeg,png,gif,webp,svg',
+            'status' => 'required|in:published,draft',
+            'featured' => 'nullable|boolean',
+            'tags' => 'nullable|array',
+            'tags.*' => 'exists:tags,id',
+        ]);
+        
+        $post = new Post();
+        $post->title = $request->title;
+        $post->slug = Str::slug($request->title);
+        $post->content = $request->content;
+        $post->excerpt = Str::limit(strip_tags($request->content), 150);
+        $post->category_id = $request->category_id;
+        $post->user_id = Auth::id();
+        $post->status = $request->status;
+        $post->featured = $request->has('featured');
+        
+        // Upload da imagem (se enviada)
+        if ($request->hasFile('image')) {
+            $this->validateImage($request->file('image'));
+            
+            $imagePath = $request->file('image')->store('blog', 'public');
+            $post->image = $imagePath;
+            
+            // Opcionalmente, redimensionar a imagem para garantir compatibilidade
+            $this->resizeImage($imagePath);
+        }
+        
+        $post->save();
+        
+        // Associar tags
+        if ($request->has('tags')) {
+            $post->tags()->attach($request->tags);
+        }
+        
+        return redirect()->route('admin.blog.posts')
+            ->with('success', 'Post criado com sucesso!');
+    }
+    
+    /**
+     * Exibe o formulário para editar um post
+     */
+    public function edit($id)
+    {
+        $post = Post::with('tags')->findOrFail($id);
+        $categories = Category::all();
+        $tags = Tag::all();
+        
+        return view('admin.blog.edit', compact('post', 'categories', 'tags'));
+    }
+    
+    /**
+     * Atualiza um post no banco de dados
+     */
+    public function update(Request $request, $id)
+    {
+        $request->validate([
+            'title' => 'required|max:255',
+            'content' => 'required',
+            'category_id' => 'required|exists:categories,id',
+            'image' => 'nullable|image|max:2048|mimes:jpeg,png,gif,webp,svg',
+            'status' => 'required|in:published,draft',
+            'featured' => 'nullable|boolean',
+            'tags' => 'nullable|array',
+            'tags.*' => 'exists:tags,id',
+        ]);
+        
+        $post = Post::findOrFail($id);
+        $post->title = $request->title;
+        
+        // Atualiza o slug apenas se o título mudar
+        if ($post->title != $request->title) {
+            $post->slug = Str::slug($request->title);
+        }
+        
+        $post->content = $request->content;
+        $post->excerpt = Str::limit(strip_tags($request->content), 150);
+        $post->category_id = $request->category_id;
+        $post->status = $request->status;
+        $post->featured = $request->has('featured');
+        
+        // Upload da imagem (se enviada)
+        if ($request->hasFile('image')) {
+            $this->validateImage($request->file('image'));
+            
+            // Remove a imagem antiga (se existir)
+            if ($post->image) {
+                Storage::disk('public')->delete($post->image);
+            }
+            
+            $imagePath = $request->file('image')->store('blog', 'public');
+            $post->image = $imagePath;
+            
+            // Opcionalmente, redimensionar a imagem para garantir compatibilidade
+            $this->resizeImage($imagePath);
+        }
+        
+        $post->save();
+        
+        // Atualizar tags
+        if ($request->has('tags')) {
+            $post->tags()->sync($request->tags);
+        } else {
+            $post->tags()->detach();
+        }
+        
+        return redirect()->route('admin.blog.posts')
+            ->with('success', 'Post atualizado com sucesso!');
+    }
+    
+    /**
+     * Remove um post do banco de dados
+     */
+    public function destroy($id)
+    {
+        $post = Post::findOrFail($id);
+        
+        // Remove a imagem (se existir)
+        if ($post->image) {
+            Storage::disk('public')->delete($post->image);
+        }
+        
+        // Remove as associações com tags
+        $post->tags()->detach();
+        
+        // Remove o post
+        $post->delete();
+        
+        return redirect()->route('admin.blog.posts')
+            ->with('success', 'Post removido com sucesso!');
+    }
+    
+    /**
+     * Exibe a lista de categorias no painel administrativo
+     */
+    public function adminCategories()
+    {
+        $categories = Category::withCount('posts')->get();
+        
+        return view('admin.blog.categories', compact('categories'));
+    }
+    
+    /**
+     * Armazena uma nova categoria no banco de dados
+     */
+    public function storeCategory(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|max:255|unique:categories,name',
+        ]);
+        
+        $category = new Category();
+        $category->name = $request->name;
+        $category->slug = Str::slug($request->name);
+        $category->save();
+        
+        return redirect()->route('admin.blog.categories')
+            ->with('success', 'Categoria criada com sucesso!');
+    }
+    
+    /**
+     * Atualiza uma categoria no banco de dados
+     */
+    public function updateCategory(Request $request, $id)
+    {
+        $request->validate([
+            'name' => 'required|max:255|unique:categories,name,' . $id,
+        ]);
+        
+        $category = Category::findOrFail($id);
+        $category->name = $request->name;
+        $category->slug = Str::slug($request->name);
+        $category->save();
+        
+        return redirect()->route('admin.blog.categories')
+            ->with('success', 'Categoria atualizada com sucesso!');
+    }
+    
+    /**
+     * Remove uma categoria do banco de dados
+     */
+    public function destroyCategory($id)
+    {
+        $category = Category::findOrFail($id);
+        
+        // Verifica se existem posts nesta categoria
+        if ($category->posts()->count() > 0) {
+            return redirect()->route('admin.blog.categories')
+                ->with('error', 'Não é possível remover uma categoria que contenha posts.');
+        }
+        
+        $category->delete();
+        
+        return redirect()->route('admin.blog.categories')
+            ->with('success', 'Categoria removida com sucesso!');
+    }
+    
+    /**
+     * Exibe a lista de comentários no painel administrativo
+     */
+    public function adminComments()
+    {
+        $comments = Comment::with(['post', 'user'])
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);
+            
+        return view('admin.blog.comments', compact('comments'));
+    }
+    
+    /**
+     * Atualiza um comentário no banco de dados
+     */
+    public function updateComment(Request $request, $id)
+    {
+        $request->validate([
+            'content' => 'required',
+            'status' => 'required|in:approved,pending,spam'
+        ]);
+        
+        $comment = Comment::findOrFail($id);
+        $comment->content = $request->content;
+        $comment->status = $request->status;
+        $comment->save();
+        
+        return redirect()->route('admin.blog.comments')
+            ->with('success', 'Comentário atualizado com sucesso!');
+    }
+    
+    /**
+     * Remove um comentário do banco de dados
+     */
+    public function destroyComment($id)
+    {
+        $comment = Comment::findOrFail($id);
+        $comment->delete();
+        
+        return redirect()->route('admin.blog.comments')
+            ->with('success', 'Comentário removido com sucesso!');
+    }
+    
+    /**
+     * Armazena um novo comentário para um post
+     */
+    public function storeComment(Request $request, $postId)
+    {
+        $request->validate([
+            'content' => 'required',
+        ]);
+        
+        $post = Post::findOrFail($postId);
+        
+        $comment = new Comment();
+        $comment->content = $request->content;
+        $comment->post_id = $post->id;
+        $comment->user_id = Auth::id();
+        $comment->status = 'pending'; // Pode ser alterado para 'approved' se não quiser moderação
+        $comment->save();
+        
+        return redirect()->back()
+            ->with('success', 'Comentário enviado com sucesso! Aguardando aprovação.');
+    }
+    
+    /**
+     * Remove um comentário do usuário
+     */
+    public function deleteComment($id)
+    {
+        $comment = Comment::findOrFail($id);
+        
+        // Verifica se o usuário é o autor do comentário
+        if ($comment->user_id != Auth::id()) {
+            return redirect()->back()
+                ->with('error', 'Você não tem permissão para excluir este comentário.');
+        }
+        
+        $comment->delete();
+        
+        return redirect()->back()
+            ->with('success', 'Comentário removido com sucesso!');
+    }
+    
+    /**
+     * Valida a imagem enviada
+     * 
+     * @param \Illuminate\Http\UploadedFile $image
+     * @throws \Exception
+     */
+    private function validateImage($image)
+    {
+        // Verifica o tipo MIME
+        if (!in_array($image->getMimeType(), $this->allowedMimes)) {
+            $allowedTypesStr = implode(', ', array_map(function($mime) {
+                return str_replace('image/', '', $mime);
+            }, $this->allowedMimes));
+            
+            throw new \Exception("Tipo de arquivo inválido. Tipos permitidos: {$allowedTypesStr}");
+        }
+        
+        // Verifica o tamanho (já validado pelo Laravel, mas podemos fazer uma verificação adicional)
+        $maxSizeBytes = $this->maxSize * 1024; // Converter KB para bytes
+        if ($image->getSize() > $maxSizeBytes) {
+            throw new \Exception("A imagem excede o tamanho máximo permitido de {$this->maxSize}KB");
+        }
+        
+        // Verifica as dimensões
+        $imageInfo = getimagesize($image->getPathname());
+        if ($imageInfo) {
+            $width = $imageInfo[0];
+            $height = $imageInfo[1];
+            
+            if ($width > $this->maxWidth || $height > $this->maxHeight) {
+                throw new \Exception("A imagem excede as dimensões máximas permitidas de {$this->maxWidth}x{$this->maxHeight} pixels");
+            }
+        }
+    }
+    
+    /**
+     * Redimensiona a imagem se necessário
+     * 
+     * @param string $path
+     * @return void
+     */
+    private function resizeImage($path)
+    {
+        try {
+            $fullPath = Storage::disk('public')->path($path);
+            $image = Image::make($fullPath);
+            
+            // Redimensiona apenas se a imagem for maior que as dimensões máximas
+            if ($image->width() > $this->maxWidth || $image->height() > $this->maxHeight) {
+                $image->resize($this->maxWidth, $this->maxHeight, function ($constraint) {
+                    $constraint->aspectRatio();
+                    $constraint->upsize();
+                });
+                
+                $image->save($fullPath);
+            }
+        } catch (\Exception $e) {
+            \Log::warning("Não foi possível redimensionar a imagem: " . $e->getMessage());
+            // Continua mesmo se não conseguir redimensionar
+        }
+    }
+}

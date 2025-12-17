@@ -1,8 +1,246 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:42              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89X\shtEq\fn52m\JkLi6; use jf89x\Shteq\fn52m\NMP37; use jF89x\t0eTD\EgiOX; use jf89X\t0Etd\ggf6E; use EC3Me\SHteq\s9D5t; use Ec3me\H2Vuv\P2qH1\plHxg; class cJS1S extends NmP37 { public function JKbs3(EgiOX $pYcOI) { $VzJp0 = $pYcOI->MonNz()->a9jmh("\x70\x6f\163\x69\164\x69\157\x6e", "\x61\163\143")->xFNE7(15); return Lo0CY("\x61\x64\x6d\x69\156\56\162\141\x73\160\x61\144\151\x6e\x68\141\55\x69\x74\145\x6d\56\x69\156\x64\145\170", compact("\162\x61\x73\x70\x61\x64\151\156\x68\141", "\x69\164\145\x6d\x73")); } public function create(EgIOx $pYcOI) { return LO0CY("\141\x64\x6d\151\x6e\56\x72\x61\x73\x70\x61\x64\151\x6e\x68\141\x2d\151\164\145\155\x2e\x63\162\145\x61\164\x65", compact("\x72\141\x73\160\x61\x64\151\x6e\150\x61")); } public function AohQw(s9d5t $WFz1w, EgioX $pYcOI) { goto Djsc6; EFhDz: $SRJIE["\x72\141\163\160\141\144\151\x6e\x68\141\x5f\x69\x64"] = $pYcOI->id; goto T1_0K; WCckm: if ($WFz1w->hsDGx === "\x70\162\x6f\144\165\164\157") { goto ZCYZB; } goto YMeQ6; xU2Bm: return fH6x5()->WWY32("\x61\144\x6d\x69\156\56\x72\x61\163\x70\141\x64\x69\x6e\x68\141\x2d\x69\164\145\x6d\x2e\151\156\x64\145\170", $pYcOI)->rnjFy("\x73\x75\x63\x63\x65\163\163", "\x49\x74\145\155\40\x63\162\x69\141\x64\157\x20\x63\x6f\155\40\x73\x75\143\145\x73\x73\x6f\41"); goto cU5H4; x5QWZ: smSXT: goto kLeoS; lbW5w: $C5HGs = $pYcOI->MoNnZ()->max("\x70\157\x73\151\164\x69\157\156") ?? 0; goto MEG_L; D1jf1: pRY96: goto KSR8x; e6iDS: if (!($awiy_ + $WFz1w->j_q3K > 100)) { goto Baojk; } goto TrwaV; Chyry: TEm3F: goto rPJyf; YMeQ6: $VTYxy["\x76\x61\x6c\165\x65"] = "\162\x65\x71\x75\x69\x72\x65\144\174\x6e\165\155\x65\x72\151\143\x7c\155\x69\x6e\72\60"; goto qvH8B; sdZm_: $dUlo4["\160\162\x6f\x64\165\x63\x74\137\x64\145\163\x63\x72\151\x70\164\x69\157\156\56\x72\x65\x71\165\x69\x72\x65\144"] = "\x41\x20\144\x65\x73\143\162\x69\303\xa7\303\xa3\x6f\x20\x64\157\40\160\x72\x6f\x64\x75\164\157\40\xc3\251\40\157\142\x72\151\x67\141\x74\xc3\xb3\162\151\x61"; goto Sh2u0; dfK2P: $VTYxy["\x70\x72\x6f\x64\165\143\164\x5f\144\145\163\x63\x72\151\160\164\x69\x6f\x6e"] = "\162\x65\161\x75\151\x72\145\x64\174\163\164\x72\151\x6e\x67\174\155\141\170\72\x31\60\60\x30"; goto sdZm_; jARZ1: JI9fJ: goto lbW5w; be3Yd: if (!$e25Fx->LdF8p()) { goto yeh1u; } goto ORQq5; ORQq5: return hKG9f()->V8hAD($e25Fx)->RTAua(); goto j7uAV; W5082: goto smSXT; goto h8iuP; kLeoS: $e25Fx = plhXg::yki_i($WFz1w->p0WsL(), $VTYxy, $dUlo4); goto be3Yd; T1_0K: if (!($WFz1w->hsDGx === "\x70\x72\157\144\165\164\157")) { goto JI9fJ; } goto HJCPk; PxpSa: $P7xbj = dEutm("\162\x61\x73\160\141\144\151\156\150\x61"); goto t_OM7; udbQC: $AkPYk = time() . "\x5f" . uniqid() . "\56" . $xESqV->YIEKv(); goto PxpSa; AK_JA: if (!$WFz1w->t35wz("\x69\x6d\x61\x67\145")) { goto pRY96; } goto ABBlo; YACVr: $awiy_ = $pYcOI->monnZ()->uy03o("\x70\162\157\142\141\x62\x69\x6c\151\x74\x79"); goto e6iDS; NR0el: $SRJIE["\x69\155\x61\x67\145"] = $AkPYk; goto D1jf1; Sh2u0: $dUlo4["\160\162\157\x64\x75\x63\x74\x5f\x64\x65\163\143\x72\x69\160\164\151\x6f\156\56\155\x61\170"] = "\101\x20\144\145\163\x63\x72\151\xc3\xa7\303\xa3\157\x20\144\x6f\x20\160\x72\x6f\144\x75\x74\x6f\x20\156\xc3\xa3\157\40\x70\157\x64\x65\40\x74\x65\162\40\155\x61\x69\x73\40\x64\145\x20\x31\x30\x30\60\x20\143\x61\162\141\143\164\145\x72\145\x73"; goto x5QWZ; HJCPk: $SRJIE["\x76\x61\x6c\x75\x65"] = 0; goto jARZ1; vNkWa: $dUlo4 = ["\x6e\x61\155\x65\x2e\x72\x65\161\x75\151\162\145\x64" => "\117\40\x6e\157\155\x65\x20\xc3\xa9\x20\x6f\142\162\x69\147\141\x74\xc3\xb3\x72\151\x6f", "\160\162\x65\155\x69\x6f\137\164\x79\x70\145\x2e\x72\145\161\x75\x69\x72\x65\x64" => "\117\40\x74\x69\x70\x6f\x20\144\x65\40\x70\x72\xc3\252\155\151\157\40\xc3\251\40\x6f\142\162\x69\x67\141\x74\303\263\x72\x69\157", "\160\162\x65\x6d\151\157\x5f\164\171\160\x65\56\151\156" => "\124\x69\160\x6f\40\x64\145\x20\x70\x72\303\252\155\151\x6f\40\x69\x6e\x76\xc3\241\154\x69\144\157", "\x70\162\157\x62\141\x62\151\154\151\164\x79\56\162\x65\161\165\151\x72\x65\x64" => "\x41\40\160\162\157\x62\141\142\x69\x6c\151\144\141\x64\145\40\303\xa9\40\157\142\162\151\x67\141\x74\303\263\162\x69\x61", "\160\162\157\142\141\x62\x69\154\151\164\171\56\155\x69\x6e" => "\101\40\x70\x72\x6f\142\x61\142\151\x6c\151\x64\x61\x64\145\40\x64\x65\x76\145\40\x73\x65\x72\40\155\141\151\157\162\x20\x71\165\x65\40\172\145\162\x6f", "\160\x72\x6f\x62\141\x62\151\154\151\x74\171\56\155\141\x78" => "\x41\40\x70\x72\157\x62\141\142\151\x6c\x69\x64\x61\x64\x65\x20\156\xc3\xa3\x6f\40\x70\157\144\145\x20\x73\x65\162\40\155\x61\x69\157\x72\x20\x71\x75\x65\x20\x31\x30\60\x25", "\151\x6d\141\x67\x65\x2e\151\155\141\147\x65" => "\x4f\40\x61\162\x71\x75\x69\x76\157\40\144\145\x76\145\x20\x73\x65\x72\x20\x75\155\x61\x20\x69\155\141\x67\145\155", "\x69\155\141\x67\145\x2e\x6d\141\170" => "\x41\x20\151\x6d\141\x67\145\155\x20\156\303\243\x6f\x20\160\x6f\144\145\40\163\145\162\x20\155\x61\151\157\162\x20\161\x75\x65\40\x32\115\102"]; goto WCckm; h8iuP: ZCYZB: goto dfK2P; JZBH4: $dUlo4["\x76\141\x6c\165\x65\x2e\x6d\x69\156"] = "\117\x20\166\x61\154\157\162\x20\x64\x65\x76\145\40\163\x65\162\x20\x6d\x61\151\x6f\162\x20\x6f\x75\x20\x69\x67\x75\141\154\x20\x61\40\x7a\x65\162\x6f"; goto W5082; FrTdc: $SRJIE = $WFz1w->p0wSL(); goto EFhDz; MEG_L: $SRJIE["\160\157\163\x69\164\x69\x6f\x6e"] = $C5HGs + 1; goto AK_JA; avifN: mkdir($P7xbj, 0755, true); goto Chyry; KSR8x: GGF6E::create($SRJIE); goto xU2Bm; TrwaV: return hkg9f()->v8had(["\x70\x72\x6f\142\x61\x62\x69\154\151\164\171" => "\101\x20\x73\157\155\x61\40\x64\141\x73\x20\x70\x72\157\x62\141\142\151\x6c\151\144\141\x64\145\163\40\x6e\xc3\243\x6f\40\160\x6f\144\145\40\x65\170\143\145\144\x65\162\40\x31\60\x30\x25\56\x20\x44\x69\x73\160\x6f\x6e\xc3\xad\x76\x65\154\72\40" . (100 - $awiy_) . "\45"]); goto NZ_Ee; ABBlo: $xESqV = $WFz1w->file("\x69\x6d\x61\x67\x65"); goto udbQC; j7uAV: yeh1u: goto YACVr; rPJyf: $xESqV->SDJ3_($P7xbj, $AkPYk); goto NR0el; NZ_Ee: Baojk: goto FrTdc; t_OM7: if (file_exists($P7xbj)) { goto TEm3F; } goto avifN; Djsc6: $VTYxy = ["\x6e\x61\155\145" => "\162\145\x71\165\151\x72\145\x64\174\x73\x74\162\151\x6e\147\174\x6d\141\170\x3a\x32\x35\x35", "\160\162\145\155\151\x6f\x5f\x74\171\160\145" => "\x72\x65\161\165\x69\162\145\x64\x7c\x69\156\x3a\x73\x61\154\x64\x6f\137\162\145\x61\154\x2c\x73\141\x6c\144\x6f\x5f\142\157\156\165\163\x2c\x72\157\x64\x61\144\x61\x73\x5f\147\162\141\x74\x69\x73\54\160\162\157\x64\x75\164\x6f", "\x70\162\x6f\x62\x61\x62\151\154\151\x74\x79" => "\162\x65\x71\165\x69\162\145\x64\x7c\x6e\165\x6d\x65\x72\x69\143\x7c\x6d\x69\x6e\72\x30\x2e\x30\x31\174\x6d\141\170\72\61\x30\60", "\151\155\141\147\x65" => "\156\165\x6c\x6c\x61\142\x6c\x65\174\151\x6d\x61\147\145\174\x6d\x69\155\x65\163\x3a\152\160\145\147\54\160\156\147\54\152\160\147\x2c\x67\151\146\x2c\x77\x65\142\160\x2c\x61\166\151\146\174\155\x61\170\72\x32\60\64\70"]; goto vNkWa; qvH8B: $dUlo4["\166\141\x6c\165\145\56\x72\145\x71\165\151\x72\145\144"] = "\117\40\x76\x61\x6c\x6f\x72\x20\303\251\40\x6f\x62\162\151\x67\141\x74\303\263\162\x69\x6f"; goto JZBH4; cU5H4: } public function E36Z7(EGIOX $pYcOI, ggf6e $WT0D7) { return Lo0cy("\x61\x64\155\x69\156\56\162\x61\x73\x70\x61\x64\x69\156\150\141\x2d\x69\164\145\155\x2e\145\x64\x69\164", compact("\x72\x61\163\160\141\x64\151\x6e\x68\x61", "\151\x74\145\x6d")); } public function update(S9D5T $WFz1w, eGioX $pYcOI, Ggf6e $WT0D7) { goto yseV7; t2w_F: if (!$e25Fx->lDF8P()) { goto hI4Mt; } goto d5y8q; kjA77: mkdir($P7xbj, 0755, true); goto W3ekj; d5y8q: return hKG9F()->v8Had($e25Fx)->RTaua(); goto PWIvl; rOhYv: $P7xbj = DEUtM("\x72\141\163\x70\x61\144\151\x6e\150\x61"); goto urQmD; WnZCL: $dUlo4["\x76\141\154\165\x65\x2e\162\145\161\165\x69\162\145\x64"] = "\x4f\40\166\x61\x6c\157\162\x20\303\251\x20\x6f\142\162\x69\147\141\x74\xc3\xb3\162\x69\x6f"; goto QZGYV; meseV: $dUlo4["\160\x72\x6f\x64\165\143\x74\137\x64\x65\x73\143\162\151\x70\164\x69\x6f\x6e\56\x72\x65\x71\x75\x69\162\145\144"] = "\x41\40\x64\x65\x73\143\x72\151\303\xa7\303\xa3\x6f\x20\144\157\40\160\162\157\144\165\x74\x6f\x20\xc3\xa9\x20\157\x62\x72\x69\147\x61\x74\303\263\x72\x69\141"; goto i4WoD; tEmPl: if (!($WFz1w->hsDGx === "\x70\x72\157\144\x75\x74\157")) { goto IEfjV; } goto os9My; QZGYV: $dUlo4["\x76\141\154\x75\x65\56\x6d\x69\156"] = "\x4f\x20\x76\x61\154\x6f\x72\40\144\145\x76\x65\40\163\x65\162\40\155\x61\x69\x6f\162\40\157\x75\40\151\147\x75\x61\x6c\x20\141\x20\172\145\162\157"; goto mfMjv; ZKJgM: dzSpk: goto I5aNt; os9My: $SRJIE["\x76\x61\x6c\x75\x65"] = 0; goto Ueiqh; mfMjv: goto viixk; goto o9ZiJ; W3ekj: G5DXa: goto sAtEr; cDiHc: $VTYxy["\x76\x61\x6c\165\x65"] = "\162\x65\x71\x75\151\162\x65\x64\174\x6e\165\155\x65\162\151\x63\174\x6d\x69\x6e\x3a\x30"; goto WnZCL; m6afe: AOt5k: goto rqQLg; QyJtv: if (!($WT0D7->BUVn7 && file_exists(dEuTm("\162\141\163\x70\x61\144\x69\156\150\141\x2f" . $WT0D7->BUVn7)))) { goto dzSpk; } goto tGxrJ; OECzk: $SRJIE["\x69\x6d\141\147\145"] = $AkPYk; goto m6afe; cOJna: $dUlo4 = ["\x6e\x61\155\x65\56\162\x65\161\x75\151\x72\145\144" => "\x4f\40\156\157\x6d\145\x20\xc3\251\x20\157\142\162\151\147\x61\x74\xc3\xb3\162\x69\157", "\x70\x72\145\155\151\x6f\x5f\x74\x79\160\x65\56\162\x65\x71\x75\x69\162\x65\144" => "\117\x20\164\x69\160\157\x20\x64\x65\x20\x70\162\303\252\155\x69\157\x20\xc3\xa9\40\157\142\162\x69\x67\141\x74\xc3\xb3\x72\x69\157", "\x70\x72\x65\x6d\151\157\137\164\x79\160\145\x2e\x69\156" => "\124\151\160\x6f\x20\x64\145\x20\160\x72\303\252\155\151\157\40\x69\x6e\166\303\241\154\x69\144\157", "\160\x72\157\142\141\142\151\154\151\x74\x79\x2e\x72\x65\161\x75\x69\162\x65\x64" => "\x41\40\160\x72\157\142\x61\142\x69\154\151\144\x61\x64\x65\40\303\251\x20\x6f\x62\x72\x69\147\x61\x74\303\xb3\162\x69\x61", "\160\x72\157\x62\141\142\151\154\151\164\x79\x2e\x6d\x69\156" => "\101\40\160\162\x6f\x62\x61\x62\151\154\x69\144\x61\144\x65\40\144\x65\x76\145\x20\x73\145\x72\x20\155\141\151\157\x72\40\161\165\x65\40\172\145\162\157", "\160\x72\157\x62\x61\142\151\154\151\164\171\x2e\155\x61\170" => "\101\x20\x70\x72\157\x62\x61\x62\x69\x6c\x69\x64\x61\x64\x65\x20\x6e\xc3\xa3\157\40\160\x6f\x64\145\40\163\x65\x72\40\155\x61\151\x6f\162\40\161\x75\x65\40\61\x30\60\45", "\151\155\x61\147\x65\x2e\x69\x6d\x61\x67\145" => "\x4f\40\x61\x72\x71\x75\151\166\157\40\144\x65\166\x65\40\163\145\162\40\165\155\x61\40\151\x6d\x61\x67\x65\155", "\x69\x6d\141\x67\145\56\155\141\x78" => "\x41\x20\x69\x6d\141\x67\145\155\x20\x6e\303\xa3\157\x20\160\x6f\144\x65\x20\163\145\162\x20\155\141\x69\157\x72\40\161\165\x65\40\62\115\102"]; goto GjBxU; GjBxU: if ($WFz1w->hsDGx === "\x70\162\157\144\x75\164\157") { goto PfK0s; } goto cDiHc; i4WoD: $dUlo4["\x70\x72\157\144\x75\143\x74\137\x64\x65\x73\143\x72\x69\x70\164\151\157\156\x2e\155\x61\x78"] = "\x41\x20\x64\x65\x73\143\162\x69\xc3\247\xc3\xa3\x6f\x20\x64\x6f\x20\x70\x72\157\144\165\x74\x6f\40\156\xc3\243\x6f\x20\160\157\144\x65\40\x74\x65\x72\40\155\141\x69\163\40\144\x65\x20\x31\60\x30\x30\x20\143\x61\x72\141\143\164\x65\x72\x65\x73"; goto nuTdO; urQmD: if (file_exists($P7xbj)) { goto G5DXa; } goto kjA77; Ueiqh: IEfjV: goto SCHBw; i6HKm: return Fh6X5()->WwY32("\141\144\155\151\156\56\162\141\163\x70\141\x64\x69\156\150\141\55\x69\164\145\x6d\x2e\151\156\144\145\x78", $pYcOI)->rnJFy("\x73\x75\143\x63\145\x73\163", "\111\x74\145\x6d\x20\141\x74\165\x61\x6c\x69\x7a\141\144\x6f\40\x63\x6f\x6d\x20\163\165\x63\x65\x73\x73\x6f\41"); goto gxIsI; g1lML: $awiy_ = $pYcOI->mOnNZ()->C_mHY("\151\144", "\x21\x3d", $WT0D7->id)->Uy03O("\160\x72\x6f\142\x61\142\x69\x6c\x69\164\x79"); goto BGCvx; SCHBw: if (!$WFz1w->t35wz("\151\x6d\x61\147\x65")) { goto AOt5k; } goto QyJtv; vV9JC: $SRJIE = $WFz1w->P0wSl(); goto tEmPl; yseV7: $VTYxy = ["\x6e\x61\x6d\x65" => "\x72\x65\161\165\x69\162\x65\x64\x7c\163\x74\x72\151\156\147\174\x6d\x61\170\72\x32\x35\65", "\x70\x72\145\155\151\157\137\x74\x79\x70\145" => "\162\145\x71\165\151\162\145\144\174\151\x6e\72\x73\x61\x6c\144\x6f\137\x72\x65\x61\x6c\x2c\x73\x61\154\x64\157\x5f\142\x6f\x6e\165\163\54\162\157\144\x61\144\141\163\x5f\147\162\141\x74\151\x73\54\x70\162\157\144\x75\164\x6f", "\x70\162\157\x62\141\142\x69\154\x69\x74\171" => "\162\145\161\165\151\x72\x65\x64\174\x6e\x75\155\145\x72\151\x63\x7c\x6d\x69\x6e\x3a\60\x2e\60\x31\174\x6d\x61\170\x3a\61\60\60", "\x69\x6d\141\147\145" => "\156\165\x6c\154\x61\142\x6c\x65\174\151\x6d\x61\x67\145\174\x6d\x69\x6d\145\163\x3a\x6a\x70\x65\x67\x2c\160\156\147\54\152\x70\x67\x2c\x67\x69\146\x2c\167\145\142\x70\x2c\x61\x76\x69\x66\174\x6d\141\x78\72\62\x30\x34\70"]; goto cOJna; ARlk6: $e25Fx = pLHXG::yKI_I($WFz1w->p0WsL(), $VTYxy, $dUlo4); goto t2w_F; WRfIj: return HKG9F()->V8hAd(["\160\x72\157\x62\141\x62\151\154\151\x74\171" => "\x41\40\x73\x6f\155\x61\x20\x64\141\x73\x20\x70\162\x6f\142\x61\x62\151\x6c\x69\x64\141\144\145\163\40\x6e\303\243\x6f\40\x70\157\144\x65\x20\x65\x78\143\x65\x64\145\x72\x20\x31\x30\60\45\x2e\40\104\151\x73\x70\157\156\xc3\xad\x76\x65\x6c\x3a\x20" . (100 - $awiy_) . "\45"]); goto ogthU; nuTdO: viixk: goto ARlk6; wBdJL: $AkPYk = time() . "\x5f" . uniqid() . "\x2e" . $xESqV->yIekv(); goto rOhYv; D_f3O: $VTYxy["\x70\162\x6f\x64\165\x63\x74\137\144\x65\163\143\162\x69\160\164\x69\157\x6e"] = "\162\145\x71\165\151\162\145\144\x7c\x73\x74\162\151\x6e\147\x7c\x6d\141\170\x3a\x31\x30\x30\x30"; goto meseV; ogthU: O8sJZ: goto vV9JC; rqQLg: $WT0D7->update($SRJIE); goto i6HKm; o9ZiJ: PfK0s: goto D_f3O; I5aNt: $xESqV = $WFz1w->file("\151\x6d\x61\x67\145"); goto wBdJL; tGxrJ: unlink(deuTM("\162\x61\163\160\x61\144\x69\x6e\150\x61\x2f" . $WT0D7->BUVn7)); goto ZKJgM; sAtEr: $xESqV->sDJ3_($P7xbj, $AkPYk); goto OECzk; BGCvx: if (!($awiy_ + $WFz1w->j_q3K > 100)) { goto O8sJZ; } goto WRfIj; PWIvl: hI4Mt: goto g1lML; gxIsI: } public function destroy(eGioX $pYcOI, Ggf6E $WT0D7) { goto IFmfp; wYEZZ: return FH6x5()->wWy32("\141\x64\x6d\151\x6e\x2e\x72\x61\x73\160\141\144\151\x6e\x68\x61\55\x69\164\x65\x6d\56\x69\x6e\x64\x65\x78", $pYcOI)->rNJfY("\x73\x75\x63\x63\x65\163\x73", "\x49\164\x65\x6d\x20\144\145\154\145\164\141\x64\x6f\40\x63\157\x6d\40\163\165\x63\x65\x73\x73\157\41"); goto k2TI0; aNxT3: unlink(DEUtm("\162\141\x73\x70\141\144\151\x6e\150\141\x2f" . $WT0D7->BUVn7)); goto fblvH; bKer6: AbBFg: goto a32gG; MFv7z: $WT0D7->delete(); goto wYEZZ; Q7eMh: return HKg9f()->Rnjfy("\145\162\x72\x6f\162", "\x4e\303\xa3\157\40\303\xa9\40\x70\157\163\163\303\xad\x76\145\154\40\x64\x65\154\145\x74\141\x72\x20\x75\155\40\x69\x74\145\x6d\x20\161\x75\145\40\x6a\303\xa1\x20\x66\157\x69\40\x70\162\145\x6d\151\141\x64\157\56"); goto bKer6; fblvH: RDWYo: goto MFv7z; a32gG: if (!($WT0D7->BUVn7 && file_exists(deutm("\162\141\x73\160\x61\x64\x69\156\x68\x61\x2f" . $WT0D7->BUVn7)))) { goto RDWYo; } goto aNxT3; IFmfp: if (!$WT0D7->LRGMB()->IIbEq()) { goto AbBFg; } goto Q7eMh; k2TI0: } public function IUBG9(EgIox $pYcOI, GGF6e $WT0D7) { goto s_Tin; s_Tin: $WT0D7->update(["\151\163\x5f\141\x63\x74\151\x76\145" => !$WT0D7->bHRmm]); goto SNQ43; SNQ43: $P0JC8 = $WT0D7->bHRmm ? "\141\x74\x69\166\x61\144\x6f" : "\144\x65\163\x61\x74\151\x76\141\144\x6f"; goto F9X28; F9X28: return hKg9F()->RNjFY("\x73\x75\143\143\145\163\163", "\111\164\x65\155\x20{$P0JC8}\40\143\x6f\x6d\40\x73\165\x63\x65\163\x73\157\41"); goto HIulU; HIulU: } public function JREQX(eGIOx $pYcOI) { $CETWQ = $pYcOI->mONNz()->UY03o("\160\162\157\x62\141\x62\151\154\151\164\x79"); return JGkrL()->SBE1Q(["\164\157\x74\141\154" => $CETWQ, "\x72\x65\x6d\x61\151\156\x69\156\147" => 100 - $CETWQ, "\166\x61\x6c\x69\x64" => $CETWQ <= 100]); } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Raspadinha;
+use App\Models\RaspadinhaItem;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+
+class RaspadinhaItemController extends Controller
+{
+    /**
+     * Listar itens de uma raspadinha
+     */
+    public function index(Raspadinha $raspadinha)
+    {
+        $items = $raspadinha->items()->orderBy('position', 'asc')->paginate(15);
+        return view('admin.raspadinha-item.index', compact('raspadinha', 'items'));
+    }
+
+    /**
+     * Mostrar formulário de criação
+     */
+    public function create(Raspadinha $raspadinha)
+    {
+        return view('admin.raspadinha-item.create', compact('raspadinha'));
+    }
+
+    /**
+     * Salvar novo item
+     */
+    public function store(Request $request, Raspadinha $raspadinha)
+    {
+        // Validações básicas
+        $rules = [
+            'name' => 'required|string|max:255',
+            'premio_type' => 'required|in:saldo_real,saldo_bonus,rodadas_gratis,produto',
+            'probability' => 'required|numeric|min:0.01|max:100',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,avif|max:2048',
+        ];
+
+        $messages = [
+            'name.required' => 'O nome é obrigatório',
+            'premio_type.required' => 'O tipo de prêmio é obrigatório',
+            'premio_type.in' => 'Tipo de prêmio inválido',
+            'probability.required' => 'A probabilidade é obrigatória',
+            'probability.min' => 'A probabilidade deve ser maior que zero',
+            'probability.max' => 'A probabilidade não pode ser maior que 100%',
+            'image.image' => 'O arquivo deve ser uma imagem',
+            'image.max' => 'A imagem não pode ser maior que 2MB',
+        ];
+
+        // Validações condicionais baseadas no tipo de prêmio
+        if ($request->premio_type === 'produto') {
+            $rules['product_description'] = 'required|string|max:1000';
+            $messages['product_description.required'] = 'A descrição do produto é obrigatória';
+            $messages['product_description.max'] = 'A descrição do produto não pode ter mais de 1000 caracteres';
+        } else {
+            $rules['value'] = 'required|numeric|min:0';
+            $messages['value.required'] = 'O valor é obrigatório';
+            $messages['value.min'] = 'O valor deve ser maior ou igual a zero';
+        }
+
+        $validator = Validator::make($request->all(), $rules, $messages);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+
+        // Verificar se a soma das probabilidades não excede 100%
+        $currentSum = $raspadinha->items()->sum('probability');
+        if ($currentSum + $request->probability > 100) {
+            return back()->withErrors(['probability' => 'A soma das probabilidades não pode exceder 100%. Disponível: ' . (100 - $currentSum) . '%']);
+        }
+
+        $data = $request->all();
+        $data['raspadinha_id'] = $raspadinha->id;
+        
+        // Para produtos, definir valor como 0
+        if ($request->premio_type === 'produto') {
+            $data['value'] = 0;
+        }
+        
+        // Definir posição automaticamente como a próxima disponível
+        $maxPosition = $raspadinha->items()->max('position') ?? 0;
+        $data['position'] = $maxPosition + 1;
+
+        // Upload da imagem
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imageName = time() . '_' . uniqid() . '.' . $image->getClientOriginalExtension();
+            
+            // Criar diretório se não existir
+            $uploadPath = public_path('raspadinha');
+            if (!file_exists($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
+            
+            // Mover arquivo para public/raspadinha
+            $image->move($uploadPath, $imageName);
+            $data['image'] = $imageName;
+        }
+
+        RaspadinhaItem::create($data);
+
+        return redirect()->route('admin.raspadinha-item.index', $raspadinha)
+            ->with('success', 'Item criado com sucesso!');
+    }
+
+    /**
+     * Mostrar formulário de edição
+     */
+    public function edit(Raspadinha $raspadinha, RaspadinhaItem $item)
+    {
+        return view('admin.raspadinha-item.edit', compact('raspadinha', 'item'));
+    }
+
+    /**
+     * Atualizar item
+     */
+    public function update(Request $request, Raspadinha $raspadinha, RaspadinhaItem $item)
+    {
+        // Validações básicas
+        $rules = [
+            'name' => 'required|string|max:255',
+            'premio_type' => 'required|in:saldo_real,saldo_bonus,rodadas_gratis,produto',
+            'probability' => 'required|numeric|min:0.01|max:100',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,avif|max:2048',
+        ];
+
+        $messages = [
+            'name.required' => 'O nome é obrigatório',
+            'premio_type.required' => 'O tipo de prêmio é obrigatório',
+            'premio_type.in' => 'Tipo de prêmio inválido',
+            'probability.required' => 'A probabilidade é obrigatória',
+            'probability.min' => 'A probabilidade deve ser maior que zero',
+            'probability.max' => 'A probabilidade não pode ser maior que 100%',
+            'image.image' => 'O arquivo deve ser uma imagem',
+            'image.max' => 'A imagem não pode ser maior que 2MB',
+        ];
+
+        // Validações condicionais baseadas no tipo de prêmio
+        if ($request->premio_type === 'produto') {
+            $rules['product_description'] = 'required|string|max:1000';
+            $messages['product_description.required'] = 'A descrição do produto é obrigatória';
+            $messages['product_description.max'] = 'A descrição do produto não pode ter mais de 1000 caracteres';
+        } else {
+            $rules['value'] = 'required|numeric|min:0';
+            $messages['value.required'] = 'O valor é obrigatório';
+            $messages['value.min'] = 'O valor deve ser maior ou igual a zero';
+        }
+
+        $validator = Validator::make($request->all(), $rules, $messages);
+
+        if ($validator->fails()) {
+            return back()->withErrors($validator)->withInput();
+        }
+
+        // Verificar se a soma das probabilidades não excede 100% (excluindo o item atual)
+        $currentSum = $raspadinha->items()->where('id', '!=', $item->id)->sum('probability');
+        if ($currentSum + $request->probability > 100) {
+            return back()->withErrors(['probability' => 'A soma das probabilidades não pode exceder 100%. Disponível: ' . (100 - $currentSum) . '%']);
+        }
+
+        $data = $request->all();
+
+        // Para produtos, definir valor como 0
+        if ($request->premio_type === 'produto') {
+            $data['value'] = 0;
+        }
+
+        // Upload da nova imagem
+        if ($request->hasFile('image')) {
+            // Deletar imagem antiga
+            if ($item->image && file_exists(public_path('raspadinha/' . $item->image))) {
+                unlink(public_path('raspadinha/' . $item->image));
+            }
+
+            $image = $request->file('image');
+            $imageName = time() . '_' . uniqid() . '.' . $image->getClientOriginalExtension();
+            
+            // Criar diretório se não existir
+            $uploadPath = public_path('raspadinha');
+            if (!file_exists($uploadPath)) {
+                mkdir($uploadPath, 0755, true);
+            }
+            
+            // Mover arquivo para public/raspadinha
+            $image->move($uploadPath, $imageName);
+            $data['image'] = $imageName;
+        }
+
+        $item->update($data);
+
+        return redirect()->route('admin.raspadinha-item.index', $raspadinha)
+            ->with('success', 'Item atualizado com sucesso!');
+    }
+
+    /**
+     * Deletar item
+     */
+    public function destroy(Raspadinha $raspadinha, RaspadinhaItem $item)
+    {
+        // Verificar se há histórico de jogadas com este item
+        if ($item->history()->exists()) {
+            return back()->with('error', 'Não é possível deletar um item que já foi premiado.');
+        }
+
+        // Deletar imagem se existir
+        if ($item->image && file_exists(public_path('raspadinha/' . $item->image))) {
+            unlink(public_path('raspadinha/' . $item->image));
+        }
+
+        $item->delete();
+
+        return redirect()->route('admin.raspadinha-item.index', $raspadinha)
+            ->with('success', 'Item deletado com sucesso!');
+    }
+
+    /**
+     * Alterar status ativo/inativo
+     */
+    public function toggleStatus(Raspadinha $raspadinha, RaspadinhaItem $item)
+    {
+        $item->update(['is_active' => !$item->is_active]);
+
+        $status = $item->is_active ? 'ativado' : 'desativado';
+        
+        return back()->with('success', "Item {$status} com sucesso!");
+    }
+
+    /**
+     * Verificar soma das probabilidades
+     */
+    public function checkProbabilities(Raspadinha $raspadinha)
+    {
+        $totalProbability = $raspadinha->items()->sum('probability');
+        
+        return response()->json([
+            'total' => $totalProbability,
+            'remaining' => 100 - $totalProbability,
+            'valid' => $totalProbability <= 100
+        ]);
+    }
+} 

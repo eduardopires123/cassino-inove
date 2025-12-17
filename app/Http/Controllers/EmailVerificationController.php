@@ -1,8 +1,115 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\shtEq\fn52M; use EC3ME\shtEQ\S9D5t; use JF89x\t0ETd\AVsUj; use jf89X\t0Etd\aWPIy; use Ec3ME\h2vUv\p2qH1\Log; use jF89X\py4pC\Mb4ha; class UX471 extends nMP37 { public function jrhSw($k26uY, $IIU0r) { goto QF4zk; wZFN8: w1LpN: goto W5TWL; aDjVu: s9d5T()->pkFL2()->kK_F3(); goto Sdztp; Xn0Yf: return fh6x5()->wwy32("\150\x6f\x6d\x65")->RNJFY("\x65\x6d\141\151\x6c\x5f\166\145\162\151\146\151\x65\x64", true); goto yoQ4q; v7ebd: $e5HVA->save(); goto pRYSz; PjTfZ: if ($e5HVA->DO3NI) { goto YHgjR; } goto vkNFO; mVQt2: if (!($KJiWW && $KJiWW->id != $k26uY)) { goto bLBGO; } goto fFPZH; xx690: NXRoV()->mSttA($e5HVA); goto wZFN8; C1rQ1: $bLhfQ = awpIY::kRJKT($k26uY, $IIU0r, "\145\x6d\141\151\154"); goto XyA4d; UgNjO: jNQ0z: goto EdggC; W5TWL: $bLhfQ->h1O6N(); goto PjTfZ; vkNFO: $e5HVA->DO3NI = whFh3(); goto v7ebd; pRYSz: YHgjR: goto Xn0Yf; ihjsp: return fH6X5()->WwY32("\150\x6f\155\145")->RnJfy("\x65\162\x72\157\162", "\114\x69\156\x6b\40\x64\x65\x20\x76\145\x72\151\146\x69\x63\x61\xc3\xa7\303\xa3\x6f\40\x69\156\166\303\241\154\x69\x64\157\x20\157\165\x20\x65\x78\x70\x69\162\141\x64\x6f\x2e"); goto UgNjO; v8kqv: bLBGO: goto zZ1Mq; XyA4d: if ($bLhfQ) { goto jNQ0z; } goto ihjsp; zZ1Mq: if (!(!$KJiWW || $KJiWW->id != $k26uY)) { goto w1LpN; } goto xx690; Sdztp: S9d5T()->pKFL2()->aPoFJ(); goto v8kqv; QF4zk: $e5HVA = avsUj::ugyzW($k26uY); goto C1rQ1; EdggC: $KJiWW = NXRov()->YfGI_(); goto mVQt2; fFPZH: nXROv()->KGKpb(); goto aDjVu; yoQ4q: } public function gOGF5(s9d5T $WFz1w) { goto rv9bj; nK8tc: SBXHe: goto DYKfP; AWeYg: return FH6X5()->wWY32("\x6c\157\x67\151\x6e")->RnJFY("\145\162\162\157\x72", "\x56\x6f\x63\303\xaa\40\x70\162\x65\143\x69\x73\x61\x20\x65\163\164\x61\x72\x20\x6c\x6f\147\x61\x64\x6f\x20\x70\x61\x72\141\x20\162\145\x65\x6e\166\x69\141\162\40\x6f\x20\x6c\x69\156\153\x20\x64\145\x20\x76\x65\x72\151\146\x69\143\x61\303\247\xc3\xa3\157\56"); goto nK8tc; CyTfE: PkrHT: goto cic9F; rv9bj: $e5HVA = nXRoV()->YfGi_(); goto QaMjh; DYKfP: if (!$e5HVA->DO3NI) { goto PkrHT; } goto xpyL7; cic9F: try { goto CH2k_; giARM: return FH6x5()->Jyyrv()->Rnjfy("\163\x75\143\x63\145\163\x73", "\114\151\156\153\40\x64\145\40\x76\145\162\151\146\151\143\x61\303\xa7\xc3\243\x6f\x20\x65\x6e\x76\151\x61\144\157\x20\x63\157\155\x20\x73\165\143\x65\x73\163\157\x20\x70\x61\x72\x61\40\x73\x65\x75\x20\x65\155\x61\x69\x6c\56"); goto bAf41; CH2k_: $IIU0r = aWPIY::tOMRy($e5HVA, "\145\x6d\141\151\x6c", 24); goto RZTpm; vMjA5: $smCIb = $YrFmr->iT_DX($e5HVA->VzAAC, "\x77\x65\x6c\x63\x6f\155\145", ["\165\x73\x65\162" => $e5HVA, "\166\145\x72\151\x66\x69\x63\x61\164\x69\157\x6e\124\157\153\x65\x6e" => $IIU0r->VKzZM]); goto mdL1H; bAf41: Fm00a: goto wLuJB; mdL1H: if ($smCIb) { goto EZqud; } goto CRYrX; RZTpm: $YrFmr = jF89x(MB4hA::class); goto vMjA5; nWbPW: goto Fm00a; goto ldXnD; UQSfS: return fh6x5()->JYYrV()->RNjFY("\x65\x72\x72\x6f\x72", "\x4e\xc3\243\x6f\x20\146\157\151\x20\x70\157\x73\x73\303\xad\x76\145\x6c\x20\145\156\166\x69\141\162\40\x6f\x20\x65\x6d\x61\x69\154\40\x64\145\40\166\145\162\151\x66\x69\x63\x61\303\xa7\xc3\243\157\x2e\40\x50\x6f\x72\40\146\141\x76\x6f\162\x2c\40\164\x65\x6e\x74\x65\40\156\x6f\166\141\x6d\x65\x6e\x74\145\40\155\141\151\163\x20\x74\141\162\x64\145\56"); goto nWbPW; CRYrX: Log::P2M7E("\106\x61\x6c\x68\x61\x20\141\157\x20\145\156\166\x69\x61\162\x20\145\x6d\141\151\154\40\x64\x65\x20\x76\x65\162\x69\146\x69\143\141\xc3\247\xc3\243\157", ["\x75\x73\x65\162\137\x69\144" => $e5HVA->id]); goto UQSfS; ldXnD: EZqud: goto giARM; wLuJB: } catch (\Exception $ai57B) { Log::p2M7e("\x45\162\x72\157\x20\141\157\40\x72\145\145\x6e\166\x69\141\x72\40\x76\x65\162\x69\x66\151\x63\x61\xc3\xa7\xc3\243\157\x20\x64\x65\40\145\x6d\141\151\x6c", ["\165\163\145\x72\x5f\151\x64" => $e5HVA->id, "\145\x72\162\157\x72" => $ai57B->getMessage()]); return fH6x5()->JYyRV()->RNJFy("\145\162\162\x6f\162", "\x4f\143\157\x72\x72\145\x75\x20\x75\155\40\145\162\162\x6f\40\141\157\x20\x70\x72\157\x63\x65\163\163\x61\162\x20\x73\165\x61\40\x73\157\154\x69\x63\151\x74\x61\303\xa7\303\243\x6f\56\40\x50\157\162\x20\146\141\166\157\162\54\x20\x74\145\x6e\164\x65\40\156\157\166\141\155\x65\156\x74\x65\x20\155\x61\151\163\x20\x74\x61\162\144\x65\x2e"); } goto Xq3Se; xpyL7: return fh6x5()->wwY32("\150\157\155\x65")->rNjFy("\x69\156\146\157", "\123\x65\x75\x20\x65\155\x61\151\x6c\x20\152\xc3\xa1\x20\x66\157\151\x20\x76\x65\x72\151\x66\x69\143\141\x64\x6f\56"); goto CyTfE; QaMjh: if ($e5HVA) { goto SBXHe; } goto AWeYg; Xq3Se: } public function iu_nw() { return LO0cY("\141\165\x74\x68\x2e\166\x65\x72\151\146\x79\x2d\x65\155\141\151\x6c"); } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\VerificationToken;
+use Illuminate\Support\Facades\Log;
+use App\Services\BrevoService;
+
+class EmailVerificationController extends Controller
+{
+    /**
+     * Verifica o email do usuário com o token fornecido
+     *
+     * @param int $userId
+     * @param string $token
+     * @return \Illuminate\Http\Response
+     */
+    public function verify($userId, $token)
+    {
+        $user = User::findOrFail($userId);
+        $verificationToken = VerificationToken::findValidToken($userId, $token, 'email');
+
+        if (!$verificationToken) {
+            return redirect()->route('home')->with('error', 'Link de verificação inválido ou expirado.');
+        }
+
+        // Verificar se há um usuário logado
+        $currentUser = auth()->user();
+        
+        // Se há um usuário logado e não é o dono da conta, deslogar
+        if ($currentUser && $currentUser->id != $userId) {
+            auth()->logout();
+            request()->session()->invalidate();
+            request()->session()->regenerateToken();
+        }
+        
+        // Se não há usuário logado ou é um usuário diferente, fazer login automático
+        if (!$currentUser || $currentUser->id != $userId) {
+            auth()->login($user);
+        }
+
+        // Marcar o token como verificado
+        $verificationToken->markAsVerified();
+        
+        // Atualizar o usuário para marcá-lo como verificado
+        if (!$user->email_verified_at) {
+            $user->email_verified_at = now();
+            $user->save();
+        }
+
+        // Redirecionar para a página inicial com mensagem de sucesso
+        return redirect()->route('home')->with('email_verified', true);
+    }
+
+    /**
+     * Reenviar o link de verificação para o usuário
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\Response
+     */
+    public function resend(Request $request)
+    {
+        $user = auth()->user();
+        
+        if (!$user) {
+            return redirect()->route('login')->with('error', 'Você precisa estar logado para reenviar o link de verificação.');
+        }
+        
+        if ($user->email_verified_at) {
+            return redirect()->route('home')->with('info', 'Seu email já foi verificado.');
+        }
+
+        try {
+            // Criar um novo token
+            $token = VerificationToken::createToken($user, 'email', 24);
+            
+            // Enviar o email de verificação
+            $brevoService = app(BrevoService::class);
+            $result = $brevoService->enviarEmailTemplate(
+                $user->email,
+                'welcome',
+                [
+                    'user' => $user,
+                    'verificationToken' => $token->token
+                ]
+            );
+
+            if ($result) {
+                return redirect()->back()->with('success', 'Link de verificação enviado com sucesso para seu email.');
+            } else {
+                Log::error('Falha ao enviar email de verificação', ['user_id' => $user->id]);
+                return redirect()->back()->with('error', 'Não foi possível enviar o email de verificação. Por favor, tente novamente mais tarde.');
+            }
+        } catch (\Exception $e) {
+            Log::error('Erro ao reenviar verificação de email', [
+                'user_id' => $user->id,
+                'error' => $e->getMessage()
+            ]);
+            
+            return redirect()->back()->with('error', 'Ocorreu um erro ao processar sua solicitação. Por favor, tente novamente mais tarde.');
+        }
+    }
+    
+    /**
+     * Exibe uma página informando que o email precisa ser verificado
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function notice()
+    {
+        return view('auth.verify-email');
+    }
+}

@@ -1,8 +1,178 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89X\ShtEq\fN52m; use jF89X\Ck8UV\U_w0i as wLFo8; use jF89X\t0Etd\JKLi6\ueNYs; use Jf89x\t0ETD\JiKJN; use ec3mE\ShtEq\S9d5T; use eC3me\H2vuv\P2qh1\NXrOv; use ec3ME\H2vuV\P2qH1\lviq5; use MSNxp\JE6VL\JE6VL; use mSNXp\je6vl\Key; class P26XU extends NMP37 { public function JKbS3(S9D5t $WFz1w) { goto ikXwy; ikXwy: if (JiKJN::FDnlc()) { goto WfYba; } goto hNwVT; D2Jti: $sScC4 = ["\142\x72\x61\156\x64\137\x69\x64" => LvIQ5("\x62\145\164\142\171\56\x62\x72\x61\156\x64\x5f\x69\x64"), "\x6f\160\x65\x72\x61\164\157\162\137\151\144" => lViQ5("\142\145\164\x62\171\56\x6f\x70\145\x72\141\x74\x6f\162\x5f\x69\144"), "\x61\160\x69\x5f\165\x72\154" => lViq5("\x62\145\x74\x62\171\x2e\x69\x73\137\x70\162\x6f\x64\165\x63\164\x69\157\x6e") ? LviQ5("\142\x65\164\x62\x79\x2e\x70\x72\x6f\144\x75\143\164\151\157\156\137\141\160\151\137\x75\x72\154") : LVIQ5("\142\145\x74\x62\x79\x2e\x61\x70\x69\x5f\165\x72\x6c"), "\142\x74\137\154\151\142\x72\141\162\x79\x5f\165\x72\x6c" => lviq5("\142\145\164\x62\171\56\142\164\x5f\x6c\151\142\162\x61\x72\x79\137\165\x72\x6c"), "\x65\x78\x74\145\162\x6e\141\x6c\137\x61\160\x69\x5f\165\162\x6c" => Lviq5("\142\145\164\142\x79\56\145\x78\x74\x65\162\x6e\141\x6c\x5f\141\x70\151\137\165\x72\154"), "\x74\x68\x65\x6d\x65\137\x6e\x61\x6d\x65" => LVIq5("\142\145\x74\142\171\56\164\x68\145\155\x65\x5f\x6e\x61\155\x65"), "\143\x75\x72\x72\145\x6e\x63\x79" => LviQ5("\142\145\164\x62\171\x2e\143\x75\162\x72\x65\x6e\x63\171"), "\x6c\x61\156\x67\x75\x61\147\x65" => Jf89x()->d8G_Y() ?? "\160\164\x5f\102\x52"]; goto Ry_4V; YcajH: $U4RvD = $this->VrQwd($e5HVA); goto rff5T; XieAc: return lo0cY("\x65\x73\x70\157\x72\x74\x65\163\56\x62\x65\164\142\171", ["\142\145\164\142\x79\x43\157\156\146\151\147" => $sScC4, "\152\x77\164\124\x6f\153\145\156" => $U4RvD, "\x75\x73\x65\162" => $e5HVA, "\141\x63\164\151\x76\x65\x54\x68\145\155\x65" => $cnlrV, "\x62\x74\120\x61\164\x68" => $pGHCa, "\142\x74\x42\157\157\x6b\151\156\x67\103\x6f\144\145" => $kysRv]); goto JnZRv; hNwVT: return fH6x5()->WWY32("\x68\157\155\145")->Rnjfy("\145\x72\x72\x6f\162", "\x53\145\162\x76\x69\xc3\247\157\x20\144\145\40\145\x73\x70\x6f\162\x74\x65\x73\x20\156\xc3\243\x6f\x20\144\x69\x73\x70\x6f\x6e\303\xad\166\145\x6c\40\x6e\157\40\155\x6f\x6d\x65\x6e\164\x6f\56"); goto Wor8C; gCtVe: $RguQd = uEnYS::yrKr9(); goto bUw_1; Wor8C: WfYba: goto RfBfN; Ry_4V: $U4RvD = null; goto Oa_Fr; keSld: $kysRv = $WFz1w->get("\142\164\x42\x6f\157\x6b\x69\x6e\x67\103\157\144\x65"); goto XieAc; rff5T: Mj9xa: goto gCtVe; Oa_Fr: if (!$e5HVA) { goto Mj9xa; } goto YcajH; sYv5B: $pGHCa = $WFz1w->get("\142\164\x2d\x70\141\164\150"); goto keSld; bUw_1: $cnlrV = $RguQd ? $RguQd->O2xya : 1; goto sYv5B; RfBfN: $e5HVA = nxrov::yfGi_(); goto D2Jti; JnZRv: } public function Ej9jq(S9d5T $WFz1w, $i5g8p) { goto Ni5IQ; Mulen: $RguQd = UEnyS::YrKR9(); goto I471a; fiE9F: $U4RvD = $this->VrqWD($e5HVA); goto TgSKz; d_hae: return lO0CY("\x62\145\164\142\171\x2e\x73\160\x6f\162\164\163\x2e\167\151\144\147\145\x74", ["\x62\145\x74\142\x79\x43\157\156\x66\151\x67" => $sScC4, "\152\x77\x74\x54\157\153\x65\x6e" => $U4RvD, "\x75\x73\145\x72" => $e5HVA, "\x77\151\144\x67\x65\x74\124\x79\160\x65" => $i5g8p, "\141\143\x74\151\166\145\124\150\145\155\145" => $cnlrV]); goto Lzvkz; cra2c: if (!$e5HVA) { goto R0GMv; } goto fiE9F; NsUdW: $U4RvD = null; goto cra2c; JBeYc: $sScC4 = ["\142\162\141\156\x64\137\151\x64" => lvIQ5("\x62\145\164\142\171\56\x62\x72\x61\x6e\144\x5f\x69\144"), "\157\x70\x65\x72\x61\x74\x6f\x72\137\x69\x64" => LViQ5("\142\145\164\x62\x79\56\157\x70\145\162\x61\164\157\x72\137\151\x64"), "\141\160\151\x5f\165\162\154" => LVIq5("\x62\145\164\x62\171\56\x69\x73\137\x70\x72\157\144\x75\x63\164\151\157\x6e") ? LvIQ5("\x62\145\x74\142\171\x2e\160\x72\x6f\144\165\x63\x74\x69\x6f\x6e\x5f\x61\160\151\137\x75\162\154") : LVIq5("\x62\145\164\142\171\x2e\x61\160\x69\x5f\x75\162\x6c"), "\x62\164\x5f\154\151\x62\x72\141\x72\x79\137\165\x72\154" => LViQ5("\142\x65\x74\142\x79\x2e\x62\x74\137\x6c\x69\142\162\141\x72\x79\x5f\x75\162\x6c"), "\145\170\x74\x65\x72\156\x61\x6c\137\x61\x70\151\x5f\x75\x72\154" => LViq5("\x62\145\164\142\x79\x2e\145\x78\164\x65\162\x6e\141\154\x5f\x61\x70\151\137\165\x72\x6c"), "\164\x68\x65\x6d\x65\137\x6e\141\x6d\145" => LViq5("\x62\145\164\x62\171\x2e\x74\x68\145\x6d\145\x5f\x6e\141\x6d\x65"), "\x63\165\162\162\145\156\143\171" => lViQ5("\x62\x65\x74\142\171\x2e\143\x75\x72\x72\x65\156\143\x79"), "\154\x61\x6e\147\x75\141\x67\x65" => jF89x()->d8g_Y() ?? "\160\x74\137\x42\122"]; goto NsUdW; TgSKz: R0GMv: goto Mulen; Ni5IQ: $e5HVA = NxRov::yfGI_(); goto JBeYc; I471a: $cnlrV = $RguQd ? $RguQd->O2xya : 1; goto d_hae; Lzvkz: } public function g9DlC(s9D5t $WFz1w) { goto y_g3B; yXCAv: if ($e5HVA) { goto y8Kpb; } goto HMoCi; FxkM0: return jgkRl()->sBE1Q(["\x74\157\x6b\145\x6e" => $x29PK, "\x65\x78\x70\x69\162\145\x73\137\x61\164" => WhfH3()->E1mFY(24)->Ojtl2]); goto dOZo_; HMoCi: return JGKrl()->Sbe1Q(["\145\162\162\x6f\162" => "\125\163\165\303\xa1\x72\151\x6f\40\x6e\303\xa3\157\40\141\x75\x74\145\156\x74\151\143\141\x64\157"], 401); goto xblgP; S0Q5k: $x29PK = $this->VRQwD($e5HVA); goto FxkM0; xblgP: y8Kpb: goto S0Q5k; y_g3B: $e5HVA = NxRoV::yfGi_(); goto yXCAv; dOZo_: } private function VrqWD($e5HVA) { goto g4dyc; QGiiv: $H7BG0 = ["\151\x61\164" => $pidlM, "\x65\x78\160" => $pidlM + Lviq5("\x62\145\164\x62\171\56\x74\157\x6b\x65\x6e\x5f\x65\170\160\x69\x72\171\137\x68\x6f\x75\x72\163", 24) * 60 * 60, "\x6a\x74\151" => uniqid(), "\x69\x73\163" => Lviq5("\x62\x65\x74\142\171\x2e\142\x72\141\156\x64\137\151\x64"), "\x61\x75\144" => lVIq5("\x62\145\164\142\171\x2e\142\162\141\x6e\x64\x5f\x69\144"), "\163\165\x62" => $jBnZw->AGSTP . "\x2d" . $e5HVA->id, "\156\x61\155\145" => $e5HVA->name, "\154\x61\x6e\x67" => $mofLJ, "\143\165\162\162\145\156\x63\171" => lVIQ5("\142\145\164\142\x79\56\143\x75\x72\162\145\156\143\171"), "\157\144\x64\163\137\146\x6f\162\155\x61\164" => LvIQ5("\x62\145\x74\142\171\x2e\x6f\x64\144\163\137\x66\x6f\162\155\141\x74"), "\x66\x66" => LvIQ5("\142\x65\164\x62\171\56\x66\145\141\164\165\x72\145\x5f\x66\154\141\x67\x73"), "\x6e\142\146" => $pidlM]; goto q0G2F; rUmsn: $mofLJ = $e5HVA->Q2YCO; goto raGjQ; g4dyc: $pidlM = time(); goto Bmqnp; H0X5v: $nQk8V = file_get_contents($ojoQO); goto Nvc9H; H4YJK: m0asx: goto hL0yM; hL0yM: $mofLJ = "\160\164\55\x62\162"; goto X9t6y; Bmqnp: if ($e5HVA->Q2YCO == "\x70\x74\137\102\x52") { goto m0asx; } goto rUmsn; Nvc9H: $ogX_4 = lVIQ5("\x62\x65\164\142\171\x2e\x6a\x77\164\x5f\141\154\147\x6f\162\151\164\150\155", "\105\x53\x32\65\66"); goto SXVcD; X9t6y: yEoQM: goto q6JNK; q6JNK: $jBnZw = Wlfo8::W5n1F(); goto QGiiv; q0G2F: $ojoQO = lViq5("\x62\145\x74\x62\x79\x2e\160\x72\x69\x76\141\164\145\137\x6b\x65\x79"); goto H0X5v; raGjQ: goto yEoQM; goto H4YJK; SXVcD: try { return Je6vL::OhjTO($H7BG0, $nQk8V, $ogX_4); } catch (\Exception $ai57B) { \Log::p2m7e("\x45\162\162\157\40\141\157\x20\147\x65\x72\x61\x72\40\x74\x6f\x6b\x65\x6e\x20\x4a\x57\x54\40\160\141\x72\x61\40\x42\x65\164\x62\x79\x3a\40" . $ai57B->getMessage()); return null; } goto zviNd; zviNd: } private function kH1n7($wJwb1) { $YO4TA = LviQ5("\x62\145\x74\x62\171\x2e\154\x61\x6e\147\165\141\x67\145\x73"); return $YO4TA[$wJwb1] ?? "\x65\x6e"; } }
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Core as Helper;
+use App\Models\Admin\CustomCSS;
+use App\Models\Settings;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Config;
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
+
+class BetbySportsController extends Controller
+{
+    /**
+     * Página principal do Betby Sportsbook
+     */
+    public function index(Request $request)
+    {
+        // Verificar se Betby está ativo
+        if (!Settings::isBetbyActive()) {
+            // Se Betby não estiver ativo, redirecionar para home
+            return redirect()->route('home')->with('error', 'Serviço de esportes não disponível no momento.');
+        }
+        
+        $user = Auth::user();
+
+        // Configurações do Betby vindas do arquivo de config
+        $betbyConfig = [
+            'brand_id' => config('betby.brand_id'),
+            'operator_id' => config('betby.operator_id'),
+            'api_url' => config('betby.is_production')
+                ? config('betby.production_api_url')
+                : config('betby.api_url'),
+            'bt_library_url' => config('betby.bt_library_url'),
+            'external_api_url' => config('betby.external_api_url'),
+            'theme_name' => config('betby.theme_name'),
+            'currency' => config('betby.currency'),
+            'language' => app()->getLocale() ?? 'pt_BR',
+        ];
+
+        // Gerar token JWT se o usuário estiver autenticado
+        $jwtToken = null;
+        if ($user) {
+            $jwtToken = $this->generateJWTToken($user);
+        }
+
+        // Obter tema ativo do CSS customizado
+        $customCss = CustomCSS::first();
+        $activeTheme = $customCss ? $customCss->active_theme : 1; // Default para tema 1
+
+        // Capturar parâmetros especiais da URL
+        $btPath = $request->get('bt-path');
+        $btBookingCode = $request->get('btBookingCode');
+        
+        return view('esportes.betby', [
+            'betbyConfig' => $betbyConfig,
+            'jwtToken' => $jwtToken,
+            'user' => $user,
+            'activeTheme' => $activeTheme,
+            'btPath' => $btPath,
+            'btBookingCode' => $btBookingCode
+        ]);
+    }
+
+    /**
+     * Página de widget específico do Betby
+     */
+    public function widget(Request $request, $type)
+    {
+        $user = Auth::user();
+
+        $betbyConfig = [
+            'brand_id' => config('betby.brand_id'),
+            'operator_id' => config('betby.operator_id'),
+            'api_url' => config('betby.is_production')
+                ? config('betby.production_api_url')
+                : config('betby.api_url'),
+            'bt_library_url' => config('betby.bt_library_url'),
+            'external_api_url' => config('betby.external_api_url'),
+            'theme_name' => config('betby.theme_name'),
+            'currency' => config('betby.currency'),
+            'language' => app()->getLocale() ?? 'pt_BR',
+        ];
+
+        $jwtToken = null;
+        if ($user) {
+            $jwtToken = $this->generateJWTToken($user);
+        }
+
+        // Obter tema ativo do CSS customizado
+        $customCss = CustomCSS::first();
+        $activeTheme = $customCss ? $customCss->active_theme : 1; // Default para tema 1
+
+        return view('betby.sports.widget', [
+            'betbyConfig' => $betbyConfig,
+            'jwtToken' => $jwtToken,
+            'user' => $user,
+            'widgetType' => $type,
+            'activeTheme' => $activeTheme
+        ]);
+    }
+
+    /**
+     * Atualizar token JWT
+     */
+    public function refreshToken(Request $request)
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json([
+                'error' => 'Usuário não autenticado'
+            ], 401);
+        }
+
+        $newToken = $this->generateJWTToken($user);
+
+        return response()->json([
+            'token' => $newToken,
+            'expires_at' => now()->addHours(24)->timestamp
+        ]);
+    }
+
+    /**
+     * Gerar token JWT para o usuário
+     */
+    private function generateJWTToken($user)
+    {
+        $now = time();
+
+        if ($user->language == "pt_BR") {
+            $idioma = "pt-br";
+        }else{
+            $idioma = $user->language;
+        }
+
+        $Settings = Helper::getSetting();
+
+        $payload = [
+            'iat' => $now,
+            'exp' => $now + (config('betby.token_expiry_hours', 24) * 60 * 60),
+            'jti' => uniqid(),
+            'iss' => config('betby.brand_id'),
+            'aud' => config('betby.brand_id'),
+            'sub' => $Settings->sportpartnername . '-' . $user->id,
+            'name' => $user->name,
+            'lang' => $idioma,
+            'currency' => config('betby.currency'),
+            'odds_format' => config('betby.odds_format'),
+            'ff' => config('betby.feature_flags'),
+            'nbf' => $now // Not before
+        ];
+
+        $privateKeyPath  = config('betby.private_key');
+        $privateKey = file_get_contents($privateKeyPath );
+
+        $algorithm = config('betby.jwt_algorithm', 'ES256');
+
+        try {
+            return JWT::encode($payload, $privateKey, $algorithm);
+        } catch (\Exception $e) {
+            \Log::error('Erro ao gerar token JWT para Betby: ' . $e->getMessage());
+            return null;
+        }
+    }
+
+    /**
+     * Mapear idioma do Laravel para o formato do Betby
+     */
+    private function mapLanguage($locale)
+    {
+        $languageMap = config('betby.languages');
+
+        return $languageMap[$locale] ?? 'en';
+    }
+}

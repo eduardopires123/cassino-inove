@@ -1,8 +1,224 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89x\sHteQ\FN52m; use jf89x\cK8Uv\u_W0i as wLFo8; use jF89X\T0EtD\avsuJ; use JF89x\t0Etd\TXZzj; use JF89X\T0eTD\L0Mmh; use Jf89X\t0ETd\L71Oa; use EC3ME\shTeQ\S9D5T; use ec3ME\h2VUv\P2qH1\NXROV; use ec3me\h2Vuv\P2qh1\LVLOX; use eC3Me\H2vUv\P2Qh1\shTeQ; use EC3ME\H2vUV\p2qH1\PLhXG; use eC3ME\H2vuv\P2Qh1\wg7WV; use EC3me\H2VuV\p2QH1\Hash; class VeJ8t extends nmp37 { private $TIwqQ = ''; public function __construct() { } public function tP11R(S9D5T $WFz1w) { goto PgDTT; VB7re: n2CoE: goto Uav6m; hRhkE: Avsuj::c_mhY("\151\144", NXroV::ptuEj())->update(["\x70\154\x61\171\151\x6e\147" => 0]); goto VB7re; PgDTT: if (!nxrOv::c_4hV()) { goto n2CoE; } goto hRhkE; Uav6m: } public function ieoau($nlzPa) { try { goto sxiNV; utBUk: if (!(!$cAEfu || !$cAEfu->mPft9)) { goto dpEtZ; } goto QQvxn; QQvxn: return JgkRl()->SBe1Q(["\x73\165\143\143\145\163\x73" => false, "\x6d\145\x73\163\x61\147\x65" => "\112\x6f\147\157\x20\x6e\xc3\243\x6f\40\x65\x6e\143\x6f\156\x74\x72\141\144\157"], 404); goto PnIcM; DPVDS: return jGKrL()->sbe1q(["\163\165\x63\143\145\163\163" => true, "\151\144" => $cAEfu->id, "\x6e\x61\x6d\145" => $cAEfu->name, "\x70\162\157\166\151\144\145\162\x5f\x6e\141\x6d\x65" => $PHZKs]); goto vuJJ9; PnIcM: dpEtZ: goto nrosW; sxiNV: $cAEfu = l0MMH::RNjfy("\160\x72\x6f\166\x69\144\x65\162")->yLB3M($nlzPa); goto utBUk; nrosW: $PHZKs = $this->hkvwV($cAEfu->mPft9->FAVJd ?: $cAEfu->mPft9->name); goto DPVDS; vuJJ9: } catch (\Exception $ai57B) { return jGKRl()->sbE1Q(["\x73\165\x63\x63\145\163\x73" => false, "\155\145\163\x73\141\147\145" => "\105\x72\162\157\x20\141\157\40\x62\165\163\143\x61\162\x20\144\141\x64\x6f\x73\x20\x64\x6f\x20\152\157\x67\x6f"], 500); } } private function hKVWv($ma2bp) { goto VqrW9; veoBC: return $p7b6O; goto sdNAr; VqrW9: if ($ma2bp) { goto iIEkJ; } goto ZeL73; ZeL73: return ''; goto AUud7; AUud7: iIEkJ: goto y2mxW; y2mxW: $p7b6O = preg_replace("\57\134\x62\x28\117\122\111\x47\111\116\101\114\x7c\x4f\106\111\103\x49\101\x4c\51\134\142\x5c\163\52\55\x3f\x5c\163\x2a\57\x69", '', $ma2bp); goto U0qq9; B0yYo: $p7b6O = trim($p7b6O, "\x2d\x20"); goto veoBC; U0qq9: $p7b6O = trim($p7b6O); goto RPsOP; RPsOP: $p7b6O = preg_replace("\57\x5c\163\53\x2f", "\40", $p7b6O); goto B0yYo; sdNAr: } public function wVAv1(s9d5t $WFz1w) { goto thbMm; CwngQ: try { goto mhxqa; Turde: lcQIy: goto eAFx0; nI_Db: $lYO4_->update(["\160\154\x61\x79\151\156\147" => 1]); goto BxhGO; eAFx0: return lo0cy("\x63\x61\x73\x73\151\156\x6f\56\x70\154\141\x79", ["\147\x61\155\x65\125\122\114" => $dzgey, "\x6e\x61\x6d\145" => $cAEfu->name, "\x70\162\157\166\151\144\x65\x72" => $cAEfu->mPft9->FAVJd, "\x76\x69\x65\167\163" => $cAEfu->FCFjn, "\155\x6f\163\164\126\x69\145\167\x65\x64\107\141\155\x65\x73" => $BK8Sh, "\123\x65\x74\x74\x69\156\147\x73" => null]); goto upcdT; J00EC: if ($cAEfu->FCRCV == "\111\x6e\157\166\x65") { goto AMFpG; } goto dnf89; upcdT: JjZR5: goto v7NZX; UOlTd: goto JjZR5; goto Turde; dnf89: if ($cAEfu->FCRCV == "\x50\x6c\141\x79\106\x69\x76\145\162") { goto r0pEG; } goto n5Sey; BxhGO: $lYO4_->ZGSOq("\x70\x6c\x61\171\x65\144"); goto M0PBQ; WJyvh: $lgvHq = $WFz1w->Pc2LR("\151\144") ?? $WFz1w->pC2LR("\x73\x6c\x75\147"); goto jGRae; STzN_: $cAEfu->zgSOq("\166\x69\x65\167\x73"); goto qnkNo; mhxqa: $IIU0r = hash("\x73\150\x61\62\65\66", "\164\x6f\153\145\x6e\x2d" . md5(nxROV()->yfGI_()->VzAAC . "\x2d" . time())); goto wYLC1; uGRB7: return lO0CY("\143\141\163\163\151\x6e\157\56\160\x6c\x61\x79\x5f\x6d\157\142\x69\x6c\x65", ["\x67\x61\155\x65\x55\122\x4c" => $dzgey, "\156\x61\155\x65" => $cAEfu->name, "\160\x72\x6f\166\151\144\x65\162" => $cAEfu->mPft9->FAVJd, "\x76\151\x65\x77\x73" => $cAEfu->FCFjn, "\155\157\x73\164\x56\x69\145\x77\145\x64\107\x61\x6d\x65\163" => $BK8Sh, "\x53\145\164\164\151\x6e\x67\x73" => null]); goto UOlTd; lGGmH: if (!$ZHHum) { goto lcQIy; } goto uGRB7; R475s: $cAEfu = l0mmh::rNJFy("\x70\x72\157\x76\x69\144\x65\x72")->c_MhY("\x69\144", $lgvHq)->C_MHY("\x73\164\x61\x74\x75\x73", 1)->yRkR9(); goto YbsmS; aNizJ: $vRFQa = (bool) $cAEfu->SanuZ; goto REqb7; hfbyC: goto C2flu; goto WoO2V; Yn6Rt: $dzgey = $this->snd9h($cAEfu->EWmd0, $fjw3T); goto iGzcb; myqqq: if (is_numeric($lgvHq)) { goto fFFbT; } goto i0E5z; jGRae: if ($lgvHq) { goto iksC1; } goto ZuTiO; i0E5z: $cAEfu = L0mmh::RnjFY("\x70\162\157\166\151\144\x65\x72")->c_mHy("\x73\x6c\x75\147", $lgvHq)->C_Mhy("\163\164\x61\164\165\163", 1)->YrKR9(); goto hfbyC; h20vC: ICQDc: goto STzN_; oeNIN: iksC1: goto myqqq; qnkNo: $dzgey = ''; goto J00EC; dAFNO: $ZHHum = preg_match("\57\x28\x61\156\x64\162\x6f\151\x64\174\141\x76\x61\156\164\x67\x6f\174\x62\154\141\143\x6b\142\145\x72\162\x79\174\x62\x6f\154\164\x7c\142\x6f\157\x73\x74\x7c\143\x72\x69\x63\153\x65\x74\174\144\157\x63\x6f\x6d\157\x7c\146\157\156\145\174\150\151\x70\164\157\160\x7c\x6d\151\156\151\174\x6d\x6f\x62\151\x7c\x70\141\154\155\x7c\x70\150\157\156\145\174\160\151\x65\174\x74\141\x62\154\145\164\174\165\x70\134\56\142\x72\x6f\x77\163\145\162\x7c\x75\160\x5c\x2e\x6c\x69\156\153\x7c\x77\145\x62\x6f\x73\174\x77\x6f\x73\51\x2f\151", $_SERVER["\110\124\124\120\x5f\125\x53\x45\122\137\101\107\105\116\x54"]); goto tlrsz; ZuTiO: return JGkRl()->sBe1Q(["\145\162\162\x6f\x72" => "\107\141\x6d\x65\x20\111\104\x20\x6e\x6f\x74\x20\160\x72\x6f\166\151\144\145\x64", "\155\x65\163\163\x61\x67\x65" => "\x49\x44\40\144\157\x20\152\157\147\x6f\40\x6e\xc3\xa3\157\40\x66\157\162\x6e\145\143\x69\x64\x6f\41"], 200); goto oeNIN; Gf0Bk: r0pEG: goto aNizJ; YbsmS: C2flu: goto z02_E; yEV9C: goto KqbNN; goto ItKV4; M0PBQ: lFik0: goto b4Znw; tlrsz: if (!$lYO4_) { goto lFik0; } goto nI_Db; b4PYq: KqbNN: goto dAFNO; WoO2V: fFFbT: goto R475s; REqb7: $dzgey = $this->NuYnK($cAEfu->EWmd0, $vRFQa); goto b4PYq; wYLC1: $lYO4_->update(["\164\x6f\153\x65\156\137\x74\x69\155\145" => time(), "\164\x6f\153\x65\156" => $IIU0r, "\x6c\x6f\x67\147\145\144\x5f\151\156" => 1]); goto WJyvh; H9oM7: return JGkrl()->sbe1Q(["\145\x72\x72\x6f\x72" => "\x43\157\x75\x6c\144\40\x6e\157\164\x20\143\162\x65\141\x74\x65\40\164\157\153\x65\156\54\x20\107\x61\x6d\145\40\x6e\157\x74\40\x66\157\165\156\x64", "\x6d\x65\x73\163\x61\147\x65" => "\112\157\x67\x6f\40\x6e\xc3\243\157\40\x65\156\143\x6f\x6e\164\162\x61\x64\157\x21"], 200); goto h20vC; b4Znw: $BK8Sh = L0mmh::RnjfY("\160\x72\x6f\x76\151\144\x65\162")->c_MhY("\163\x74\x61\x74\165\x73", 1)->rKtIr("\163\154\x75\147")->rKtir("\160\x72\x6f\166\x69\144\145\x72\x5f\151\x64")->A9jmh("\166\151\145\167\x73", "\144\x65\x73\143")->noR_L(30)->get()->VNt3x(function ($cAEfu) { $cAEfu->FAVJd = $cAEfu->mPft9->name ?? ''; return BBa10($cAEfu); }); goto lGGmH; ItKV4: AMFpG: goto TL6Y2; TL6Y2: $fjw3T = $cAEfu->mPft9->FAVJd; goto Yn6Rt; z02_E: if (!(!$cAEfu || !$cAEfu->mPft9)) { goto ICQDc; } goto H9oM7; iGzcb: goto KqbNN; goto Gf0Bk; n5Sey: $dzgey = $this->vedPp($cAEfu->EWmd0); goto yEV9C; v7NZX: } catch (\Exception $ai57B) { return JgKRL()->SBE1Q(["\x65\162\162\x6f\x72" => $ai57B->getMessage(), "\155\x65\163\x73\141\x67\x65" => "\112\157\147\157\40\x65\155\40\155\141\x6e\x75\164\145\156\303\247\xc3\243\157\x21" . $ai57B->getMessage()], 200); } goto DQsm6; RA4TB: heXHg: goto JIENO; Z1qYS: return jgkrl()->SBe1Q(["\x65\x72\x72\x6f\x72" => "\125\163\145\162\40\x6e\157\164\x20\141\x75\164\x68\145\156\164\x69\143\141\164\x65\144"], 401); goto RA4TB; JIENO: $lYO4_ = AVsuj::c_mHy("\151\x64", $e5HVA->id)->RU29h()->yRKR9(); goto CwngQ; QBTEj: if ($e5HVA) { goto heXHg; } goto Z1qYS; thbMm: $e5HVA = nXRoV::YFgI_(); goto QBTEj; DQsm6: } private function vEdpP($oga4P) { goto UlWY3; UlWY3: $jBnZw = WLFo8::w5n1f(); goto oiRvd; VK190: curl_setopt($sDdVl, CURLOPT_RETURNTRANSFER, true); goto Y2mgF; C2PzW: TPxDJ: goto FGGqE; pDSHq: $KN3_1 = ["\103\157\x6e\x74\145\156\x74\55\x54\171\160\145\72\x20\x61\x70\x70\154\151\143\x61\164\151\157\x6e\57\x6a\163\157\x6e"]; goto sdUBd; W9x97: curl_setopt($sDdVl, CURLOPT_POST, 1); goto CKBtf; UtOF_: $vEa97 = curl_exec($sDdVl); goto CGb5E; CKBtf: curl_setopt($sDdVl, CURLOPT_POSTFIELDS, $JAh7Y); goto bQABV; SNltc: throw new \Exception($l9SWg); goto pa0Xl; SsqfO: $l9SWg = isset($SRJIE->error) ? $SRJIE->error : "\105\162\162\157\x20\x64\x65\x73\143\x6f\156\x68\145\143\151\x64\x6f\x20\x61\157\x20\x6c\x61\156\xc3\247\x61\162\x20\157\x20\x6a\157\147\157\x2e"; goto SNltc; bQABV: curl_setopt($sDdVl, CURLOPT_HTTPHEADER, $KN3_1); goto VK190; kOrzb: return $SRJIE->UATM8->fTiEU->gSek0; goto jEtQn; Bt2yh: if ($oga4P == 3000 or $oga4P == 3001 or $oga4P == 3002 or $oga4P == 8357) { goto mVAA7; } goto uup19; Y2mgF: curl_setopt($sDdVl, CURLOPT_CONNECTTIMEOUT, 5); goto hYDL_; pa0Xl: RYziU: goto kOrzb; bbP73: $mofLJ = "\142\162"; goto C2PzW; hYDL_: curl_setopt($sDdVl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4); goto UtOF_; sdUBd: $sDdVl = curl_init(); goto NSkwy; two_L: if (!isset($SRJIE->error)) { goto EeZ0B; } goto gLg4s; oiRvd: $e5HVA = nxrOV()->Yfgi_(); goto Bt2yh; LDlYl: goto TPxDJ; goto uQxTC; CGb5E: curl_close($sDdVl); goto va5IN; uup19: $mofLJ = "\160\164"; goto LDlYl; NSkwy: curl_setopt($sDdVl, CURLOPT_URL, "\150\x74\164\160\x73\x3a\57\x2f\x74\142\163\62\x61\160\151\56\x61\x73\x6c\157\x74\x2e\x6e\x65\164\57\x41\120\111\57\x6f\x70\x65\156\107\141\155\145\x2f"); goto W9x97; gLg4s: $this->TIwqQ = $SRJIE->error; goto e7ZoZ; sOvgI: if (isset($SRJIE->UATM8->fTiEU->gSek0)) { goto RYziU; } goto SsqfO; uQxTC: mVAA7: goto bbP73; va5IN: $SRJIE = json_decode($vEa97); goto two_L; NOqQ0: $JAh7Y = json_encode($QDk3q); goto pDSHq; e7ZoZ: EeZ0B: goto sOvgI; FGGqE: $QDk3q = ["\x63\155\144" => "\157\x70\x65\x6e\107\141\x6d\x65", "\150\141\x6c\x6c" => $jBnZw->ydBAl, "\144\x6f\155\141\151\x6e" => "\x68\164\x74\x70\x73\x3a\x2f\x2f" . $_SERVER["\x53\105\122\126\x45\122\x5f\x4e\101\x4d\x45"], "\145\x78\151\x74\125\162\x6c" => "\150\x74\x74\x70\163\x3a\x2f\x2f" . $_SERVER["\123\x45\x52\x56\x45\x52\137\x4e\x41\x4d\105"], "\154\x61\156\x67\x75\x61\x67\145" => $mofLJ, "\x6b\145\171" => $jBnZw->yKViZ, "\x6c\x6f\147\x69\x6e" => "\x75\163\x65\162\x69\x64\137" . $e5HVA->id, "\x67\141\x6d\x65\111\x64" => $oga4P, "\x64\x65\x6d\x6f" => 0]; goto NOqQ0; jEtQn: } private function nuynk($oga4P, $kyxmL) { goto r0B9y; dLA3v: curl_setopt($sDdVl, CURLOPT_HTTPHEADER, $KN3_1); goto NlsEy; knY0n: if (!(isset($SRJIE->status) && $SRJIE->status === false)) { goto BCo9Q; } goto I1r_I; TmSTM: if (!isset($SRJIE->mmyIB)) { goto vc0xU; } goto Kyu7d; Kyu7d: vc0xU: goto cH_uE; RWO63: curl_setopt($sDdVl, CURLOPT_POSTFIELDS, $JAh7Y); goto dLA3v; BETMy: curl_setopt($sDdVl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4); goto fcQLu; EGFsH: throw new \Exception($l9SWg); goto sPaKK; lPfA4: $KN3_1 = ["\103\x6f\156\x74\145\x6e\164\x2d\124\x79\x70\145\72\x20\141\160\x70\x6c\151\143\141\x74\151\157\156\x2f\x6a\x73\157\156"]; goto nAold; TA3It: curl_setopt($sDdVl, CURLOPT_RETURNTRANSFER, true); goto P_QPq; r0B9y: $jBnZw = WlFO8::w5n1F(); goto u6jOW; apW_J: curl_setopt($sDdVl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4); goto DD3Kc; S0Um0: curl_setopt($sDdVl, CURLOPT_POST, 1); goto RWO63; a80RL: curl_setopt($sDdVl, CURLOPT_URL, "\150\x74\x74\160\163\x3a\x2f\57\x61\160\x69\56\x70\x6c\x61\171\146\x69\166\145\162\163\56\143\157\155\x2f\x61\160\x69\57\x76\x32\x2f\146\x72\145\145\x5f\142\157\156\165\x73"); goto S0Um0; UK2fB: curl_setopt($sDdVl, CURLOPT_CONNECTTIMEOUT, 5); goto BETMy; sPaKK: aCbcZ: goto TmSTM; GwBXe: curl_close($sDdVl); goto cxMHn; DD3Kc: $vEa97 = curl_exec($sDdVl); goto v_NiO; lNtZB: curl_setopt($sDdVl, CURLOPT_POSTFIELDS, $JAh7Y); goto ecOO7; P_QPq: curl_setopt($sDdVl, CURLOPT_CONNECTTIMEOUT, 5); goto apW_J; cxMHn: xgNO6: goto AegAD; NlsEy: curl_setopt($sDdVl, CURLOPT_RETURNTRANSFER, true); goto UK2fB; AegAD: $QDk3q = ["\x61\x67\x65\156\164\124\x6f\153\145\x6e" => $jBnZw->sLMXA, "\x73\x65\143\x72\x65\164\113\x65\x79" => $jBnZw->Tg5hE, "\x75\x73\145\162\137\x63\157\144\145" => "\x75\x73\145\x72\x69\144\x5f" . $e5HVA->id, "\x67\141\x6d\x65\x5f\143\157\x64\x65" => $oga4P, "\x67\x61\x6d\145\x5f\x6f\162\x69\147\x69\156\141\154" => $kyxmL, "\x75\x73\145\x72\x5f\x62\141\154\141\156\x63\x65" => (float) ($e5HVA->d1U9g->AqmcG + ($jBnZw->mrHbP ? $e5HVA->d1U9g->tiNLb : 0)), "\154\x61\156\147" => "\160\164"]; goto PvM8c; NyN9_: $SRJIE = json_decode($vEa97); goto knY0n; KvbFI: throw new \Exception($l9SWg); goto cdFFr; nAold: $sDdVl = curl_init(); goto uQEA3; v_NiO: curl_close($sDdVl); goto NyN9_; rck2p: $QDk3q = ["\141\x67\x65\x6e\164\x5f\x74\157\153\x65\x6e" => $jBnZw->sLMXA, "\x73\x65\143\162\x65\x74\137\x6b\145\171" => $jBnZw->Tg5hE, "\165\x73\x65\162\137\x63\x6f\144\x65" => "\165\163\145\162\151\x64\x5f" . $e5HVA->id, "\147\141\x6d\x65\137\x63\157\x64\x65" => $oga4P, "\162\157\x75\156\144\x73" => $e5HVA->d1U9g->vqBxI]; goto b_djB; GPmwi: if (!($e5HVA->d1U9g->vqBxI > 0)) { goto xgNO6; } goto rck2p; cH_uE: return $SRJIE->yWhpi; goto PkA1q; WVzmA: $JAh7Y = json_encode($QDk3q); goto OGRLb; cT8xc: $l9SWg = isset($SRJIE->i1bkb) ? $SRJIE->i1bkb : "\x55\x52\x4c\40\x64\145\40\x6c\141\x6e\303\247\x61\155\145\x6e\164\157\x20\156\303\xa3\x6f\x20\145\x6e\x63\x6f\156\x74\162\x61\144\141\40\156\x61\40\x72\x65\163\x70\x6f\x73\164\141\x20\144\x61\40\101\x50\111"; goto EGFsH; cdFFr: BCo9Q: goto oLJ7E; b_djB: $e5HVA->d1U9g->vqBxI = 0; goto Bquk6; PvM8c: $JAh7Y = json_encode($QDk3q); goto lPfA4; Bquk6: $e5HVA->d1U9g->save(); goto WVzmA; OGRLb: $KN3_1 = ["\x43\157\x6e\164\145\156\x74\55\x54\171\160\145\x3a\x20\x61\x70\160\x6c\151\x63\141\164\x69\x6f\156\57\x6a\163\157\156"]; goto Hev24; wUPIK: curl_setopt($sDdVl, CURLOPT_POST, 1); goto lNtZB; oLJ7E: if (isset($SRJIE->yWhpi)) { goto aCbcZ; } goto cT8xc; I1r_I: $l9SWg = isset($SRJIE->i1bkb) ? $SRJIE->i1bkb : "\105\x72\x72\157\40\x6e\x61\40\x41\120\111\40\120\x6c\x61\x79\106\151\166\x65\x72"; goto KvbFI; ecOO7: curl_setopt($sDdVl, CURLOPT_HTTPHEADER, $KN3_1); goto TA3It; uQEA3: curl_setopt($sDdVl, CURLOPT_URL, "\x68\164\x74\160\163\x3a\57\x2f\141\x70\x69\56\x70\154\141\171\146\151\166\145\x72\x73\x2e\x63\x6f\x6d\x2f\x61\160\x69\57\166\62\57\147\141\155\x65\137\154\141\165\x6e\143\150"); goto wUPIK; Hev24: $sDdVl = curl_init(); goto a80RL; u6jOW: $e5HVA = NXrOV()->YFGI_(); goto GPmwi; fcQLu: $vEa97 = curl_exec($sDdVl); goto Cb8SV; Cb8SV: L71oA::Create(["\x74\x65\170\x74" => "\x52\157\144\x61\144\x61\163\x20\x47\x72\303\xa1\x74\x69\163\x3a\x20" . json_encode($vEa97)]); goto GwBXe; PkA1q: } private function snD9h($oga4P, $ejv9L) { goto cNC0s; j6G1C: $ejwrw = Shteq::J3gWP("\x68\164\164\x70\x73\x3a\57\x2f\x61\x70\151\56\151\156\x6f\x76\x65\x69\x67\x61\x6d\151\156\x67\56\143\x6f\x6d\x2f\x67\x61\155\x65\163\57\x6c\x61\x75\156\x63\150", $ZOl9Z); goto G8vys; K96hz: throw new \Exception("\x46\141\154\150\141\40\156\x61\x20\x63\157\x6d\165\156\151\x63\x61\xc3\247\303\xa3\157\40\143\x6f\x6d\40\x41\x50\x49\x20\x49\x6e\157\166\145\x3a\40" . $l9SWg); goto rNhQu; cNC0s: $jBnZw = WLFo8::W5N1f(); goto xnkC3; xnkC3: $e5HVA = Nxrov()->YfGi_(); goto aB9SE; rNhQu: goto dVIws; goto pakOW; YnRNH: if (!(isset($SRJIE["\x73\164\x61\164\x75\163"]) && $SRJIE["\163\x74\x61\x74\165\163"] == 0)) { goto ut1FX; } goto KdFhp; pakOW: m1Voe: goto QOMsd; G8vys: if ($ejwrw->ERxV2()) { goto m1Voe; } goto x59Dh; ySeBs: if (isset($SRJIE["\x75\x72\x6c"])) { goto Gc6uE; } goto NipYK; aB9SE: $ZOl9Z = ["\164\x6f\153\145\x6e" => $jBnZw->AGSTP, "\x75\x73\x65\162\137\x63\x6f\x64\145" => $e5HVA->id, "\160\162\x6f\x76\x69\144\x65\162\137\x63\x6f\x64\x65" => $ejv9L, "\x67\141\155\x65\137\x63\157\144\145" => $oga4P, "\x6c\141\156\147" => "\160\164", "\155\157\x64\x65" => $e5HVA->rPif9]; goto j6G1C; ow7rq: return $SRJIE["\x75\x72\x6c"]; goto AjI0I; s03xt: $l9SWg = "\x48\x54\x54\x50\40" . $ejwrw->GF5jU() . "\72\x20" . $FfnEv; goto K96hz; KdFhp: $l9SWg = isset($SRJIE["\x6d\163\x67"]) ? $SRJIE["\155\x73\x67"] : "\x45\x72\162\157\40\x64\141\40\101\x50\111\40\x49\156\157\166\145"; goto bhVQy; x8wV8: ut1FX: goto ySeBs; Vicz7: Gc6uE: goto ow7rq; NipYK: throw new \Exception("\x55\x52\x4c\40\x6e\xc3\243\157\40\x65\156\143\x6f\x6e\164\162\141\144\141\40\156\x61\40\x72\145\163\x70\x6f\163\x74\141\40\144\x61\40\101\120\x49\40\111\x6e\x6f\x76\145"); goto Vicz7; AjI0I: dVIws: goto boBMB; bhVQy: throw new \Exception("\x49\x6e\157\166\145\40\x41\120\111\40\x45\x72\x72\157\162\x3a\x20" . $l9SWg); goto x8wV8; QOMsd: $SRJIE = $ejwrw->sbE1q(); goto YnRNH; x59Dh: $FfnEv = $ejwrw->SvSMR(); goto s03xt; boBMB: } }
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Core as Helper;
+
+use App\Models\User;
+use App\Models\Game;
+use App\Models\GamesApi;
+use App\Models\DebugLogs;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Hash;
+
+class GamesController extends Controller
+{
+    private $erro = "";
+
+    public function __construct()
+    {
+    }
+
+    public function outgame(Request $request)
+    {
+        if (Auth::check()) {
+            User::where('id', Auth::id())->update(['playing' => 0]);
+        }
+    }
+
+    /**
+     * Retorna dados do jogo para uso via API (usado para URLs amigáveis)
+     *
+     * @param int $id ID do jogo
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getGameData($id)
+    {
+        try {
+            // Buscar informações do jogo diretamente na games_api
+            $game = GamesApi::with('provider')->find($id);
+
+            if (!$game || !$game->provider) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Jogo não encontrado'
+                ], 404);
+            }
+
+            // Limpar o nome do provedor removendo "ORIGINAL" e "OFICIAL"
+            $cleanProviderName = $this->cleanProviderName($game->provider->provider_name ?: $game->provider->name);
+
+            return response()->json([
+                'success' => true,
+                'id' => $game->id,
+                'name' => $game->name,
+                'provider_name' => $cleanProviderName
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao buscar dados do jogo'
+            ], 500);
+        }
+    }
+
+    /**
+     * Limpa o nome do provedor removendo palavras como ORIGINAL e OFICIAL
+     *
+     * @param string $providerName
+     * @return string
+     */
+    private function cleanProviderName($providerName)
+    {
+        if (!$providerName) {
+            return '';
+        }
+
+        // Remover palavras indesejadas e limpar
+        $cleanName = preg_replace('/\b(ORIGINAL|OFICIAL)\b\s*-?\s*/i', '', $providerName);
+        $cleanName = trim($cleanName);
+        $cleanName = preg_replace('/\s+/', ' ', $cleanName); // Remover espaços duplos
+        $cleanName = trim($cleanName, '- '); // Remover hífens e espaços nas extremidades
+
+        return $cleanName;
+    }
+
+    public function startGame(Request $request)
+    {
+        // apenas para up
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json(['error' => 'User not authenticated'], 401);
+        }
+
+        $userToUpdate = User::where('id', $user->id)->lockForUpdate()->first();
+
+        try {
+            $token = hash('sha256', 'token-' . md5(auth()->user()->email . '-' . time()));
+            $userToUpdate->update(['token_time' => time(), 'token' => $token, 'logged_in' => 1]);
+
+            // Buscar jogo diretamente na games_api pelo ID
+            // Aceitar tanto 'id' quanto 'slug' para compatibilidade durante transição
+            $gameId = $request->input('id') ?? $request->input('slug');
+
+            if (!$gameId) {
+                return response()->json(['error' => 'Game ID not provided', 'message' => 'ID do jogo não fornecido!'], 200);
+            }
+
+            // Se for numérico, buscar por ID, senão tentar buscar por slug (compatibilidade)
+            if (is_numeric($gameId)) {
+                $game = GamesApi::with('provider')
+                    ->where('id', $gameId)
+                    ->where('status', 1)
+                    ->first();
+            } else {
+                // Fallback para slug durante transição
+                $game = GamesApi::with('provider')
+                    ->where('slug', $gameId)
+                    ->where('status', 1)
+                    ->first();
+            }
+
+            if (!$game || !$game->provider) {
+                return response()->json(['error' => 'Could not create token, Game not found', 'message' => 'Jogo não encontrado!'], 200);
+            }
+
+            // Atualizar views
+            $game->increment('views');
+
+            // Determinar qual método de lançamento usar baseado na distribuição
+            $gameUrl = '';
+
+            // Usar sempre Inove para lançamento de jogos
+                $providerForInove = $game->provider->provider_name;
+                $gameUrl = $this->launchGameInove($game->slug, $providerForInove);
+
+            $isMobile = preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+
+            if ($userToUpdate) {
+                $userToUpdate->update(['playing' => 1]);
+                $userToUpdate->increment('played');
+            }
+
+            // Buscar jogos mais visualizados para mostrar na view
+            $mostViewedGames = GamesApi::with('provider')
+                ->where('status', 1)
+                ->whereNotNull('slug')
+                ->whereNotNull('provider_id')
+                ->orderBy('views', 'desc')
+                ->limit(30)
+                ->get()
+                ->map(function($game) {
+                    $game->provider_name = $game->provider->name ?? '';
+                    return completeGameImageUrl($game);
+                });
+
+            if (!$isMobile) {
+                return view('cassino.play', [
+                    'gameURL' => $gameUrl,
+                    'name' => $game->name,
+                    'provider' => $game->provider->provider_name,
+                    'views' => $game->views,
+                    'mostViewedGames' => $mostViewedGames,
+                    'Settings' => null
+                ]);
+            } else {
+                return view('cassino.play_mobile', [
+                    'gameURL' => $gameUrl,
+                    'name' => $game->name,
+                    'provider' => $game->provider->provider_name,
+                    'views' => $game->views,
+                    'mostViewedGames' => $mostViewedGames,
+                    'Settings' => null
+                ]);
+            }
+        } catch (\Exception $e) {
+            return response()->json(['error' => $e->getMessage(), 'message' => 'Jogo em manutenção!' . $e->getMessage()], 200);
+        }
+    }
+
+    /* Inove (FiverScan) */
+    private function launchGameInove($game_code, $provider)
+    {
+        $Settings   = Helper::getSetting();
+        $user       = auth()->user();
+
+        $dados = [
+            "token" => $Settings->sportpartnername,
+            "user_code" => $user->id,
+            "provider_code" => $provider,
+            "game_code" => $game_code,
+            "lang" => "pt",
+            "mode" => $user->is_demo_agent
+        ];
+
+        $response = Http::post("https://api.inoveigaming.com/games/launch", $dados);
+
+        if ($response->successful()){
+            $data = $response->json();
+
+            if (isset($data['status']) && $data['status'] == 0) {
+                $errorMessage = isset($data['msg']) ? $data['msg'] : 'Erro da API Inove';
+                throw new \Exception("Inove API Error: " . $errorMessage);
+            }
+
+            if (!isset($data['url'])) {
+                throw new \Exception("URL não encontrada na resposta da API Inove");
+            }
+
+            return $data['url'];
+        } else {
+            $errorBody = $response->body();
+            $errorMessage = "HTTP " . $response->status() . ": " . $errorBody;
+            throw new \Exception("Falha na comunicação com API Inove: " . $errorMessage);
+        }
+    }
+}

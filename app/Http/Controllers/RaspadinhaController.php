@@ -1,8 +1,1047 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:47              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89X\sHteq\FN52M; use jF89X\t0eTD\EgiOX; use JF89x\T0etd\FImsw; use jf89x\T0eTd\JKLi6\rPE1U; use EC3ME\shtEQ\S9D5t; use ec3Me\H2vUv\P2QH1\nxRov; use EC3Me\H2Vuv\P2qh1\LvLox; use Ec3me\h2VuV\p2Qh1\PLHXg; class H1syC extends nMP37 { public function JKBS3() { goto h4us7; WsxQ_: stvdg: goto GvpMN; qgUjU: if (!(S9d5T()->gqK8u("\x70\162\x69\x63\x65") && S9d5T("\160\x72\151\143\145") !== "\141\154\154")) { goto AF8jM; } goto bX7TK; h4us7: $fsQrw = 12; goto gmH2x; DH8Eg: goto Uh1TJ; goto ldrnk; C7p3X: if (S9d5T("\x73\x74\141\164\x75\163") === "\151\x6e\x61\143\x74\x69\x76\145") { goto stvdg; } goto DH8Eg; bX7TK: switch (S9d5T("\160\x72\x69\x63\x65")) { case "\154\x6f\167": $XrAG1->C_MHY("\x70\162\151\143\145", "\x3c\x3d", 5.0); goto OZSId; case "\x6d\x65\144\151\165\155": $XrAG1->paukh("\x70\162\x69\143\x65", [5.01, 20.0]); goto OZSId; case "\x68\x69\x67\150": $XrAG1->C_Mhy("\x70\x72\x69\143\x65", "\x3e", 20.0); goto OZSId; } goto M_bd0; DZNJH: $VPO3Y = fimSW::Rnjfy(["\165\x73\x65\x72", "\162\x61\x73\160\141\x64\x69\156\150\x61"])->C_MHY("\141\155\x6f\165\156\164\x5f\167\x6f\156", "\x3e", 0)->A9Jmh("\143\x72\145\141\164\x65\x64\137\141\x74", "\x64\x65\163\x63")->nOR_L(10)->get(); goto Hv1fz; HN2VI: if (!(s9D5t()->Gqk8u("\163\x74\x61\x74\165\163") && s9d5T("\163\164\x61\x74\165\x73") !== "\x61\x6c\154")) { goto Z4_Lc; } goto gdRJR; abIYL: Uh1TJ: goto LgJKs; gdRJR: if (S9D5t("\163\164\x61\x74\165\163") === "\x61\143\164\151\x76\x65") { goto Pl9uz; } goto C7p3X; ldrnk: Pl9uz: goto whG5Y; fm5Fq: $jpot_ = min($fsQrw, $dRhzE); goto DZNJH; LgJKs: Z4_Lc: goto qgUjU; v0TBU: $XrAG1->C_mHY(function ($scVUQ) use($Yv3jn) { $scVUQ->C_Mhy("\x6e\x61\155\145", "\x6c\151\x6b\x65", "\x25{$Yv3jn}\x25")->Iny8c("\x64\x65\163\x63\162\x69\160\x74\151\x6f\156", "\x6c\151\153\x65", "\45{$Yv3jn}\x25"); }); goto OjXtR; Hv1fz: return lo0cy("\x72\x61\x73\x70\x61\144\151\x6e\x68\141\x2e\x69\x6e\144\x65\170", compact("\x72\x61\x73\160\x61\144\x69\x6e\x68\x61\x73", "\162\x65\x63\x65\x6e\x74\x57\151\x6e\x6e\145\162\x73", "\x63\x75\x72\162\x65\x6e\x74", "\x74\157\164\x61\154")); goto HznEz; CTLcK: $Ao0oh = $XrAG1->Zvy4e($fsQrw)->get(); goto fm5Fq; KHPRy: AF8jM: goto RJ85m; XKuUo: $Yv3jn = S9D5T("\x73\x65\x61\x72\143\x68"); goto v0TBU; M_bd0: sUSBc: goto I4YhD; gDJWe: goto Uh1TJ; goto WsxQ_; whG5Y: $XrAG1->C_MHy("\151\163\137\x61\x63\164\x69\166\x65", true); goto gDJWe; GvpMN: $XrAG1->C_mHY("\151\163\x5f\141\x63\x74\151\x76\145", false); goto abIYL; OjXtR: oMWzP: goto YLXyt; I4YhD: OZSId: goto KHPRy; gmH2x: $XrAG1 = EGiOX::hYTPN()->rnjFY("\x69\x74\x65\155\163"); goto HN2VI; YLXyt: $dRhzE = $XrAG1->count(); goto CTLcK; RJ85m: if (!S9D5t()->gqK8u("\163\x65\x61\x72\143\x68")) { goto oMWzP; } goto XKuUo; HznEz: } public function nO3dr(s9D5t $WFz1w) { goto ClIk7; sYqzh: $BDE8O = ($fSowt - 1) * $fsQrw; goto Y0t6X; XSzS4: if (!(is_array($WQwnI) && count($WQwnI) > 0)) { goto vDTve; } goto w7HXM; Dmyyd: $XrAG1->c_mHY(function ($scVUQ) use($Yv3jn) { $scVUQ->c_Mhy("\x6e\x61\155\x65", "\x6c\x69\153\x65", "\x25{$Yv3jn}\45")->inY8C("\x64\145\163\143\162\151\160\x74\x69\157\x6e", "\154\x69\153\x65", "\x25{$Yv3jn}\x25"); }); goto vTnGR; Dzbvr: $XrAG1->c_MHy("\x69\x73\x5f\141\x63\x74\x69\x76\x65", false); goto jzAjp; OKLeY: Oytp1: goto smghs; hOAO0: vDTve: goto ipQK3; UWFfF: switch ($WFz1w->No_w8) { case "\x6c\157\x77": $XrAG1->c_MHy("\160\x72\x69\143\145", "\74\75", 5.0); goto Oytp1; case "\155\x65\144\x69\x75\155": $XrAG1->pAuKH("\x70\x72\x69\143\x65", [5.01, 20.0]); goto Oytp1; case "\150\x69\x67\150": $XrAG1->C_mHy("\160\162\151\x63\145", "\76", 20.0); goto Oytp1; } goto lcj2s; w7HXM: $XrAG1->C_MHY(function ($scVUQ) use($WQwnI) { foreach ($WQwnI as $apTl4) { goto BqAGQ; BqAGQ: switch ($apTl4) { case "\x6c\x6f\167": $scVUQ->iNY8c("\160\x72\151\x63\145", "\x3c\75", 5.0); goto iXi2_; case "\x6d\145\144\x69\165\155": $scVUQ->hC8GA("\160\162\x69\x63\145", [5.01, 20.0]); goto iXi2_; case "\150\x69\x67\150": $scVUQ->InY8C("\x70\162\x69\x63\145", "\x3e", 20.0); goto iXi2_; } goto j4VsV; Ug8aK: fQMU1: goto kdTkJ; IWurZ: iXi2_: goto Ug8aK; j4VsV: lZh39: goto IWurZ; kdTkJ: } tRJV7: }); goto hOAO0; ipQK3: FOX2M: goto LBWUA; lcj2s: XS3eq: goto OKLeY; SJ2xK: return JGkRl()->sbe1Q(["\163\165\143\143\x65\163\x73" => true, "\162\x61\163\x70\x61\144\x69\x6e\150\x61\x73" => $KiSKg, "\x70\141\x67\x65" => $fSowt, "\x74\x6f\164\141\x6c" => $dRhzE, "\x70\145\x72\137\x70\x61\147\x65" => $fsQrw, "\150\141\163\x5f\155\x6f\162\x65" => $BDE8O + $fsQrw < $dRhzE]); goto pMJ2_; Le193: oZSbE: goto klHab; gxKnu: if (!(is_array($xCw6z) && count($xCw6z) > 0)) { goto rYYLs; } goto lhQV_; smghs: Bk580: goto a0XsG; klHab: if (!($WFz1w->gQk8U("\160\162\151\143\x65") && $WFz1w->No_w8 !== "\141\x6c\154")) { goto Bk580; } goto UWFfF; ClIk7: $fSowt = $WFz1w->get("\160\x61\147\145", 1); goto TEb8A; Aoayu: $dRhzE = $XrAG1->count(); goto rXwXq; rXwXq: $Ao0oh = $XrAG1->pPAuA($BDE8O)->zVY4e($fsQrw)->get(); goto IVBSx; j6Pzk: $XrAG1->C_mHy("\x69\x73\x5f\141\x63\164\151\166\145", true); goto JA2vt; TEb8A: $fsQrw = $WFz1w->get("\x70\x65\162\x5f\x70\141\147\x65", 12); goto sYqzh; wEKfO: $WQwnI = json_decode($WFz1w->LkVTr, true); goto XSzS4; xyM9G: if (!($WFz1w->gQK8u("\163\x74\141\164\x75\163") && $WFz1w->status !== "\x61\x6c\154")) { goto WHZoL; } goto bhfQ5; TEsm1: if ($WFz1w->status === "\x69\156\141\143\x74\151\x76\145") { goto EQYlN; } goto RBVdQ; vTnGR: UiSM2: goto Aoayu; bhfQ5: if ($WFz1w->status === "\141\143\x74\151\166\x65") { goto rCbGh; } goto TEsm1; lhQV_: $XrAG1->c_mHY(function ($scVUQ) use($xCw6z) { foreach ($xCw6z as $P0JC8) { goto kfLDl; NVkrG: dXNTA: goto HOIWZ; RASb1: $scVUQ->INY8C("\x69\x73\x5f\x61\x63\x74\x69\x76\x65", false); goto NVkrG; qGK9V: Utmw_: goto RASb1; T5hCb: goto dXNTA; goto a5HVR; h9Qnl: $scVUQ->Iny8c("\151\x73\137\141\x63\x74\x69\x76\x65", true); goto zCt84; seQuF: if ($P0JC8 === "\x69\x6e\x61\x63\164\x69\x76\x65") { goto Utmw_; } goto T5hCb; kfLDl: if ($P0JC8 === "\141\x63\164\151\x76\x65") { goto rJG5_; } goto seQuF; HOIWZ: GbRyw: goto D8kOC; a5HVR: rJG5_: goto h9Qnl; zCt84: goto dXNTA; goto qGK9V; D8kOC: } pVmza: }); goto oIz7W; JA2vt: goto S7BwF; goto Ncf0u; SIpKo: WHZoL: goto y9IJe; haZVP: $xCw6z = json_decode($WFz1w->H5sG5, true); goto gxKnu; Do1Tp: $Yv3jn = $WFz1w->T0FAd; goto Dmyyd; LBWUA: if (!$WFz1w->GQK8u("\163\x65\141\x72\x63\150")) { goto UiSM2; } goto Do1Tp; jzAjp: S7BwF: goto SIpKo; a0XsG: if (!$WFz1w->gQK8U("\160\162\151\x63\x65\x73")) { goto FOX2M; } goto wEKfO; Ncf0u: EQYlN: goto Dzbvr; I27q9: rCbGh: goto j6Pzk; y9IJe: if (!$WFz1w->GQK8u("\163\x74\141\x74\x75\163\145\163")) { goto oZSbE; } goto haZVP; IVBSx: $KiSKg = $Ao0oh->vNT3x(function ($pYcOI) { goto pNBkf; BOXz4: $ax1ED = $pYcOI->monnz()->hYtPN()->v6azm("\104\x49\x53\124\111\116\103\x54\x20\x70\162\145\x6d\151\x6f\x5f\164\171\160\145")->RbO_m("\x70\x72\x65\x6d\x69\x6f\137\x74\x79\x70\x65")->vNt3x(function ($i5g8p) { return match ($i5g8p ?? "\x73\141\154\144\157\137\162\x65\141\154") { "\x73\x61\154\x64\157\x5f\x72\145\141\154" => "\360\x9f\222\xb0", "\163\141\154\x64\x6f\x5f\142\157\x6e\165\x73" => "\360\237\x8e\x81", "\x72\157\144\x61\x64\x61\163\x5f\x67\x72\141\164\x69\163" => "\360\237\x8e\xb0", "\160\162\x6f\144\x75\164\x6f" => "\360\237\x93\xb1", default => "\xf0\x9f\x92\xb0", }; })->join("\x20"); goto aZggL; aZggL: return ["\151\x64" => $pYcOI->id, "\156\141\155\x65" => $pYcOI->name, "\144\145\163\143\x72\x69\x70\x74\x69\157\156" => $pYcOI->B5u2d ?? "\122\x61\x73\x70\145\40\145\40\147\x61\156\x68\145\41", "\160\x72\x69\x63\x65" => $pYcOI->No_w8, "\x74\165\162\142\x6f\x5f\x70\x72\x69\x63\145" => $pYcOI->DDaQ5, "\151\x6d\x61\147\x65\x5f\165\x72\x6c" => $pYcOI->Za8W6 ?? B0qx4("\151\x6d\x67\57\162\x61\163\x70\141\144\151\x6e\150\x61\x2f\144\x65\146\141\x75\x6c\x74\x2e\x70\156\147"), "\167\151\156\x5f\143\150\x61\156\143\x65" => $l1K6i["\167\x69\156\137\143\x68\141\x6e\143\x65"] ?? 0, "\x70\162\x69\x7a\x65\137\x74\171\x70\x65\x73" => $ax1ED ?: "\xf0\237\222\260"]; goto KSxHE; pNBkf: $l1K6i = $pYcOI->T2_PR(); goto BOXz4; KSxHE: }); goto SJ2xK; RBVdQ: goto S7BwF; goto I27q9; oIz7W: rYYLs: goto Le193; Y0t6X: $XrAG1 = eGiox::hyTpn()->rnjFy("\151\164\145\x6d\163"); goto xyM9G; pMJ2_: } public function gEzb_(EGioX $pYcOI) { goto ZBw0D; kbVk_: $we9Zp = fImSW::rNJFy("\165\x73\145\x72")->C_mHy("\x72\141\163\160\141\144\151\x6e\x68\141\x5f\151\144", $pYcOI->id)->c_mHy("\x61\x6d\x6f\x75\156\164\x5f\x77\x6f\x6e", "\x3e", 0)->a9jmh("\143\162\145\141\164\x65\144\x5f\141\164", "\144\x65\163\143")->NOR_l(5)->get(); goto d28Ho; XGvZj: return FH6X5()->wWy32("\162\x61\163\x70\x61\144\x69\156\150\x61\56\x73\x68\157\x77\x2e\x6d\x6f\x62\x69\x6c\145", $pYcOI); goto CUm0G; R_nr3: $Pl9w1 = S9d5t()->header("\x55\x73\x65\x72\55\x41\x67\x65\156\x74", ''); goto szfsp; CUm0G: hXWP9: goto zKVQT; fo8nj: $exwA3 = s9D5T()->header("\130\x2d\x53\x63\162\x65\145\x6e\x2d\127\151\144\164\150"); goto teEIx; teEIx: if (!($exwA3 && $exwA3 <= 768)) { goto RIS2t; } goto h7Uqv; BBa6H: if (nxRoV::C_4Hv()) { goto DEae3; } goto QkkgZ; lJY9b: return FH6x5()->wWY32("\162\141\163\160\141\144\151\x6e\150\x61\x2e\x69\x6e\144\x65\170")->rnjFy("\x65\162\x72\x6f\162", "\105\163\x74\x61\x20\x72\x61\x73\x70\141\x64\x69\156\150\x61\40\156\xc3\xa3\157\x20\x65\x73\x74\303\241\x20\144\x69\x73\160\x6f\x6e\303\255\166\145\x6c\56"); goto s4MqH; ksuZA: DEae3: goto R_nr3; h7Uqv: $ZHHum = true; goto b52q8; pYHyB: return LO0cy("\162\x61\163\x70\141\x64\151\156\x68\x61\x2e\147\141\x6d\x65", compact("\x72\x61\x73\x70\141\x64\x69\x6e\150\141", "\162\x65\143\145\x6e\x74\x50\162\x69\172\x65\x73", "\165\163\x65\162\x53\164\141\164\x73")); goto kO9kC; b52q8: RIS2t: goto k4I_x; s4MqH: n1xkw: goto BBa6H; ZBw0D: if ($pYcOI->bHRmm) { goto n1xkw; } goto lJY9b; k4I_x: if (!$ZHHum) { goto hXWP9; } goto XGvZj; QkkgZ: return fh6X5()->Wwy32("\x68\157\x6d\x65")->rnjFy("\x65\162\x72\157\162", "\x56\x6f\143\xc3\252\40\160\162\x65\143\x69\163\x61\40\145\163\164\141\162\x20\154\157\x67\x61\144\x6f\40\x70\141\x72\141\40\141\x63\x65\163\163\x61\162\x20\x61\x20\162\141\x73\160\141\x64\x69\x6e\x68\141\56"); goto ksuZA; zKVQT: $e5HVA = NXrOv::yFGI_(); goto kbVk_; szfsp: $ZHHum = preg_match("\57\x28\x61\x6e\x64\162\x6f\x69\x64\174\x69\x70\x68\157\156\x65\x7c\151\x70\x61\x64\x7c\x69\x70\157\x64\x7c\x6d\x6f\142\x69\x6c\x65\x7c\142\x6c\x61\x63\153\x62\x65\x72\x72\171\x7c\157\x70\x65\162\x61\x20\155\151\156\151\174\x77\x69\x6e\x64\x6f\x77\163\40\160\x68\157\x6e\145\x7c\x69\x65\x6d\157\142\x69\x6c\x65\x7c\x77\x65\x62\157\163\x7c\160\x61\154\155\x7c\163\x79\x6d\x62\x69\x61\156\x29\x2f\x69", $Pl9w1); goto fo8nj; d28Ho: $E6_vX = ["\164\157\x74\141\154\137\x70\154\x61\171\163" => fiMsW::W5E38($e5HVA->id), "\164\157\x74\141\154\137\x77\x6f\156" => fiMsw::lqzEA($e5HVA->id), "\x74\157\164\141\154\137\x69\156\166\x65\x73\x74\x65\x64" => fImsW::DsDf0($e5HVA->id)]; goto pYHyB; kO9kC: } public function TBTLL(egIOx $pYcOI) { goto LJPOU; Lv3Ai: $Pl9w1 = S9D5t()->header("\x55\163\x65\162\x2d\x41\x67\x65\156\164"); goto ZPehX; Ki_PY: return FH6x5()->wWY32("\x68\157\x6d\145")->RNJfy("\x65\x72\x72\x6f\162", "\x56\157\143\303\xaa\x20\x70\162\145\x63\x69\x73\x61\x20\x65\x73\164\x61\x72\x20\154\x6f\x67\x61\144\x6f\x20\x70\141\162\141\40\141\x63\145\x73\x73\141\x72\40\141\x20\x72\x61\163\x70\x61\144\151\x6e\x68\141\x2e"); goto ktn_K; ZCk_X: $e5HVA = nxrOV::YFgi_(); goto gaJrr; ktn_K: Omtz1: goto Lv3Ai; xG92l: return Lo0CY("\x72\141\x73\x70\x61\x64\151\x6e\x68\141\x2e\x67\x61\155\x65\137\155\x6f\142\151\x6c\145", compact("\x72\x61\x73\160\x61\x64\x69\x6e\150\141", "\162\x65\143\145\156\164\x50\x72\151\x7a\145\x73", "\165\x73\145\x72\123\x74\x61\x74\163")); goto ha8xY; QjNxm: fHTza: goto MkInj; LocIo: return fh6X5()->wwy32("\162\x61\x73\160\x61\144\151\156\x68\141\56\x73\x68\x6f\167", $pYcOI); goto M2oYa; VJR8Z: return Fh6X5()->WWy32("\x72\x61\x73\160\141\144\x69\x6e\x68\x61\56\151\156\144\x65\x78")->RNjFy("\x65\x72\162\157\162", "\x45\163\x74\141\40\x72\141\163\160\141\144\151\x6e\x68\141\x20\156\303\243\x6f\x20\x65\163\x74\303\xa1\x20\x64\151\x73\x70\x6f\156\xc3\xad\x76\145\x6c\56"); goto QjNxm; VsxZq: $E6_vX = ["\164\x6f\x74\x61\x6c\x5f\x70\x6c\x61\x79\163" => fIMsw::W5e38($e5HVA->id), "\x74\157\x74\141\x6c\137\x77\157\x6e" => fimsw::lQZea($e5HVA->id), "\x74\157\164\x61\x6c\x5f\151\x6e\166\x65\163\164\x65\144" => fIMSw::dSDF0($e5HVA->id)]; goto xG92l; MkInj: if (nXroV::c_4hv()) { goto Omtz1; } goto Ki_PY; eAbrE: if ($ZHHum) { goto JZYPs; } goto LocIo; ZPehX: $ZHHum = preg_match("\x2f\50\x61\156\x64\x72\x6f\151\144\x7c\x69\160\150\157\156\145\174\151\x70\141\144\174\x6d\x6f\142\x69\x6c\145\174\x62\154\141\143\x6b\x62\x65\162\x72\x79\x7c\x6f\x70\x65\162\x61\x20\155\x69\156\x69\51\x2f\151", $Pl9w1); goto eAbrE; gaJrr: $we9Zp = FimsW::rNjFY("\165\163\x65\162")->c_mhy("\x72\x61\x73\160\141\144\151\156\150\141\137\151\x64", $pYcOI->id)->C_MHY("\x61\155\157\165\156\x74\x5f\x77\x6f\156", "\76", 0)->a9jmh("\143\x72\145\x61\x74\145\x64\137\141\x74", "\144\x65\x73\x63")->nOr_L(5)->get(); goto VsxZq; LJPOU: if ($pYcOI->bHRmm) { goto fHTza; } goto VJR8Z; M2oYa: JZYPs: goto ZCk_X; ha8xY: } public function gpFDZ(s9d5t $WFz1w, eGiOX $pYcOI) { goto AuxmJ; RWQ4D: return LvLoX::af37Z(function () use($pYcOI, $e5HVA, $hTAAI, $apTl4, $ICT_e, $WFz1w) { try { goto z8QLr; LbL_3: $LkZdR[] = $bSWB8->id; goto GqhN2; J5cnf: MIsU3: goto beK4V; beK4V: $aWREF = $VzJp0->C_MHy("\151\144", "\x21\x3d", $yxiyt); goto JwanB; X8wTU: if ($GmAkk->count() > 0) { goto NblyG; } goto kD0dM; PpMg_: U0m0N: goto BaKIf; n1x4h: $IzN49 = 0; goto P_n1U; z8QLr: $ILKcg = jf89X(\JF89X\Py4Pc\mFZqQ::class); goto Om3Pn; wQA91: NblyG: goto pm03m; O0nMc: goto Qldgf; goto J5cnf; GEkmP: goto Qquq1; goto ds4_i; o5km1: $LkZdR[] = $bSWB8->id; goto EayJb; p3L0o: $i2fdh = ["\162\145\163\165\154\x74\163" => $grCCI, "\x70\162\x69\172\145\137\x69\x6e\146\x6f" => $KYeH_, "\164\151\x6d\145\x73\164\x61\155\160" => whfH3()->Ojtl2, "\x69\x73\x5f\x74\165\x72\x62\x6f" => $ICT_e, "\x70\x72\x69\143\x65\x5f\x70\141\151\x64" => $apTl4]; goto ZqOcG; SMHvy: $yxiyt = $KYeH_["\x69\x74\x65\x6d\137\x69\144"]; goto WlGXy; ZqOcG: $r2ERN = null; goto L8mLK; wfsWg: $IzN49++; goto WwWme; L8mLK: if (!$KYeH_["\x68\x61\x73\x5f\160\162\151\x7a\x65"]) { goto U0m0N; } goto R2464; MU3oi: $KYeH_ = $pYcOI->XwDUM($grCCI); goto p3L0o; KZsWi: goto G5NA9; goto MYOWw; iuBrU: $GmAkk = $VzJp0->filter(function ($WT0D7) use($LHR_c) { return ($LHR_c[$WT0D7->id] ?? 0) < 2; }); goto X8wTU; BMEik: $bSWB8 = $zE02F->mNrFV(); goto LbL_3; EayJb: goto YeSYd; goto wQA91; e8ru_: $GmAkk = $aWREF->filter(function ($WT0D7) use($B2VUH) { $Gj5as = array_count_values($B2VUH)[$WT0D7->id] ?? 0; return $Gj5as < 2; }); goto OKwR5; nSi9n: $hTAAI->save(); goto Jg2O7; MRmEr: $IzN49 = 0; goto SkBb_; swWEr: if (!($aWREF->count() > 0)) { goto OLbF9; } goto ee3hg; Jg2O7: $grCCI = $pYcOI->iXWKX($ICT_e); goto MU3oi; YSr7b: rPe1U::create(["\146\x69\x65\x6c\144\x5f\x6e\141\155\x65" => "\x52\141\x73\x70\x61\144\x69\156\x68\x61\x20\x2d\40\x4a\x6f\147\x61\x64\x61", "\x6f\x6c\144\x5f\166\x61\x6c\165\x65" => $XP4C8, "\x6e\x65\x77\137\166\141\x6c\165\x65" => $hTAAI->AqmcG, "\165\x70\x64\x61\164\145\x64\137\x62\x79" => 1, "\165\x73\145\x72\x5f\x69\144" => $e5HVA->id, "\x74\x79\x70\145" => 1, "\154\x6f\x67" => "\x4a\x6f\147\x61\x64\141\40\145\x6d\x20\x72\x61\x73\x70\x61\x64\x69\x6e\150\x61\x3a\40\x52\x24\x20{$apTl4}\40\55\40{$pYcOI->name}" . ($ICT_e ? "\x20\50\124\x75\x72\142\157\x29" : '') . "\x20\x2d\40\x41\147\165\x61\162\x64\141\x6e\144\x6f\x20\x72\x61\x73\x70\x61\x67\145\x6d"]); goto YSp2c; OUgEm: $i2fdh["\150\151\x73\x74\157\162\171\x5f\x69\144"] = $Iknmy->id; goto BFObQ; UORx3: if (!($IzN49 < 9)) { goto C7vOJ; } goto iuBrU; pm03m: $bSWB8 = $GmAkk->mNRFv(); goto Knrv6; LpAsT: $LkZdR[] = $yxiyt; goto jwOIA; FoxfN: $IzN49++; goto GEkmP; L4UgU: $LHR_c = []; goto MRmEr; YLUGL: $ILKcg->XUoHS($z2OI2["\x73\145\x73\x73\151\157\x6e\x5f\x69\144"], "\160\x6c\141\x79\x69\x6e\x67", ["\150\x69\x73\x74\157\162\171\137\x69\144" => $Iknmy->id]); goto YSr7b; OKwR5: if ($GmAkk->count() > 0) { goto uNd4f; } goto c8r4i; R2464: $r2ERN = $pYcOI->MonNZ()->c_mHY("\151\144", $KYeH_["\151\164\145\x6d\137\151\144"])->C_mHy("\151\163\137\141\x63\164\x69\x76\145", true)->Yrkr9(); goto PpMg_; WlGXy: $IzN49 = 0; goto hAZyC; c8r4i: $zE02F = $VzJp0->c_mHy("\x76\141\154\x75\145", 0.0)->c_MHY("\151\x64", "\x21\75", $yxiyt); goto gfAYS; qxhql: shuffle($LkZdR); goto A2uFT; MYOWw: v_iFE: goto SMHvy; wXhTf: $LkZdR[] = $bSWB8->id; goto I1q9q; YSp2c: $VzJp0 = $pYcOI->mOnNz()->HYTpN()->get(); goto nGzZx; Om3Pn: $XP4C8 = $hTAAI->AqmcG; goto ZPA2M; JwanB: $B2VUH = [$yxiyt]; goto n1x4h; EZLk1: ojqfP: goto wfsWg; d7gPQ: $LkZdR[] = $bSWB8->id; goto IcJXI; IcJXI: YeSYd: goto ZS4w1; BPrMv: $bSWB8 = $GmAkk->mNrfv(); goto wXhTf; J2e8x: if (!($IzN49 < 6)) { goto jD4M1; } goto e8ru_; ZPA2M: $hTAAI->AqmcG -= $apTl4; goto nSi9n; fygi1: if (!($IzN49 < 3)) { goto MIsU3; } goto LpAsT; w6y2K: OLbF9: goto fz1sl; ffMGR: if ($KYeH_["\150\141\163\x5f\160\162\151\x7a\x65"]) { goto v_iFE; } goto L4UgU; a_YXq: uNd4f: goto BPrMv; fz1sl: goto znP3C; goto UUfiy; jwOIA: VeC0r: goto Kmxi1; ee3hg: $LkZdR[] = $aWREF->MNRfv()->id; goto w6y2K; qvnxo: goto CH01I; goto a_YXq; OlOFy: G5NA9: goto qxhql; LLat4: CH01I: goto EZLk1; Kmxi1: $IzN49++; goto O0nMc; ZS4w1: VuhaH: goto FoxfN; hAZyC: Qldgf: goto fygi1; P_n1U: FVnQH: goto J2e8x; nGzZx: $LkZdR = []; goto ffMGR; kD0dM: $bSWB8 = $VzJp0->mnRFv(); goto o5km1; rXa_Q: jD4M1: goto OlOFy; gfAYS: if ($zE02F->count() > 0) { goto R9YCa; } goto swWEr; UUfiy: R9YCa: goto BMEik; BFObQ: $z2OI2 = $ILKcg->E9DUW($e5HVA->id, $pYcOI->id, $i2fdh); goto YLUGL; A2uFT: return jgkrL()->sbe1Q(["\163\x75\x63\x63\x65\x73\x73" => true, "\162\145\163\165\x6c\x74\163" => $grCCI, "\147\x72\151\x64" => $LkZdR, "\x70\x72\151\172\145\x5f\151\156\146\157" => $KYeH_, "\160\162\x69\x7a\x65\137\x76\x61\154\165\145" => $KYeH_["\160\162\x69\172\x65\x5f\166\x61\154\165\x65"], "\141\155\157\165\x6e\x74\137\x77\x6f\x6e" => $KYeH_["\x70\x72\151\x7a\x65\x5f\x76\x61\154\165\x65"], "\146\157\x72\x6d\x61\164\164\145\144\x5f\160\x72\x69\172\x65" => $this->jTomr($KYeH_), "\x6e\145\167\137\x62\x61\x6c\141\x6e\143\x65" => $hTAAI->AqmcG, "\x66\x6f\162\x6d\141\x74\x74\145\x64\x5f\142\141\x6c\141\156\x63\145" => "\x52\x24\40" . number_format($hTAAI->AqmcG, 2, "\54", "\x2e"), "\151\163\137\167\151\x6e\x6e\x65\162" => $KYeH_["\x68\x61\163\137\x70\162\151\172\145"], "\x68\x69\x73\164\157\162\171\137\151\x64" => $Iknmy->id, "\x73\x65\163\x73\x69\157\x6e\137\164\157\153\x65\156" => $z2OI2["\x73\145\x73\x73\151\x6f\x6e\x5f\164\157\x6b\x65\156"], "\163\x65\x73\163\x69\x6f\156\x5f\x65\170\x70\151\162\x65\x73" => $z2OI2["\145\x78\x70\x69\x72\145\x73\137\x61\x74"], "\147\141\x6d\x65\x5f\143\x68\145\x63\x6b\x73\165\155" => $ILKcg->g_NQO($i2fdh, $e5HVA->id, $pYcOI->id), "\x69\164\x65\x6d\x73" => $pYcOI->MONnZ()->HyTpN()->get()->vnt3X(function ($WT0D7) { return ["\151\144" => $WT0D7->id, "\156\141\x6d\145" => $WT0D7->name, "\x69\155\x61\147\x65\137\165\x72\154" => $WT0D7->Za8W6, "\146\x6f\x72\155\141\x74\164\x65\x64\137\166\141\x6c\165\145" => $WT0D7->CdxBZ, "\x70\162\145\155\151\157\137\144\x65\x73\x63\162\151\x70\x74\151\157\156" => $WT0D7->E41J4, "\x69\x73\x5f\160\162\157\144\165\x63\x74" => $WT0D7->kKMCV()]; })]); goto btuzM; GqhN2: znP3C: goto qvnxo; ds4_i: C7vOJ: goto KZsWi; Knrv6: $LHR_c[$bSWB8->id] = ($LHR_c[$bSWB8->id] ?? 0) + 1; goto d7gPQ; I1q9q: $B2VUH[] = $bSWB8->id; goto LLat4; SkBb_: Qquq1: goto UORx3; WwWme: goto FVnQH; goto rXa_Q; BaKIf: $Iknmy = FIMsW::create(["\165\x73\x65\x72\137\x69\144" => $e5HVA->id, "\x72\141\x73\x70\x61\x64\x69\x6e\x68\x61\137\151\x64" => $pYcOI->id, "\162\141\163\x70\x61\x64\151\156\x68\141\137\x69\164\x65\x6d\x5f\151\144" => $r2ERN ? $r2ERN->id : null, "\x61\155\157\165\x6e\164\x5f\x70\x61\x69\x64" => $apTl4, "\x61\155\157\x75\x6e\164\137\x77\157\156" => $KYeH_["\160\162\x69\172\x65\x5f\x76\141\154\x75\145"], "\x69\x73\137\164\x75\162\142\x6f" => $ICT_e, "\x69\163\137\141\165\164\x6f" => false, "\x73\x74\141\164\x75\x73" => "\x70\x65\x6e\x64\151\156\x67", "\x72\145\163\x75\154\x74\x73" => $grCCI, "\160\162\151\172\145\137\x74\171\160\145" => $KYeH_["\160\x72\x69\x7a\x65\137\x74\x79\x70\145"], "\160\162\151\x7a\145\x5f\144\145\x73\x63\162\151\160\164\x69\x6f\x6e" => $KYeH_["\160\162\151\172\145\x5f\144\145\x73\143\162\151\x70\x74\151\157\156"]]); goto OUgEm; btuzM: } catch (\Exception $ai57B) { \Log::p2m7e("\x52\141\x73\160\x61\x64\151\x6e\x68\x61\x43\157\x6e\164\x72\157\x6c\x6c\145\162\x40\x70\154\141\171\x20\55\x20\105\162\162\x6f\162\40\151\x6e\40\164\162\x61\156\x73\141\x63\164\x69\x6f\156\72\40" . $ai57B->getMessage()); return jGKRl()->SBe1Q(["\163\165\x63\x63\x65\163\x73" => false, "\x6d\x65\163\163\141\147\145" => "\x45\x72\162\157\40\x69\x6e\x74\x65\162\156\157\x2e\x20\x54\145\156\x74\x65\x20\x6e\157\166\141\155\x65\x6e\x74\145\56"]); } }); goto Myifx; Rv0K4: $ICT_e = $WFz1w->NpZT3("\x69\163\x5f\x74\165\162\142\x6f"); goto EKYWn; EKYWn: $apTl4 = $ICT_e ? $pYcOI->DDaQ5 : $pYcOI->No_w8; goto dYyzl; ziWnw: olGIx: goto yehEN; rF1aY: if (!$WFz1w->HKlbp("\143\163\x72\146\137\x74\x6f\153\145\x6e")) { goto Kyrsm; } goto bFA76; Q4CcX: PV1E0: goto TcSmI; aLQn6: if ($hTAAI) { goto Xt7qe; } goto h_2Ex; bR6Hw: return jgkrl()->sBE1q(["\x73\x75\x63\143\145\x73\163" => false, "\x6d\145\163\x73\141\147\x65" => "\105\x73\x74\141\40\162\141\x73\x70\x61\144\x69\156\150\141\40\x6e\303\xa3\x6f\x20\145\x73\164\303\xa1\40\x64\x69\163\160\157\156\303\255\x76\145\154"]); goto Q4CcX; dYyzl: if (!($hTAAI->AqmcG < $apTl4)) { goto MP5Ar; } goto OEcYt; AuxmJ: $e25Fx = PLHXg::yki_i($WFz1w->p0Wsl(), ["\151\x73\137\x74\x75\162\x62\157" => "\x62\x6f\157\x6c\145\x61\x6e", "\x73\x65\x73\163\x69\157\x6e\x5f\x74\157\153\x65\156" => "\163\157\x6d\145\x74\x69\x6d\x65\x73\x7c\x73\x74\162\151\x6e\147", "\x63\x73\162\x66\x5f\164\x6f\x6b\145\x6e" => "\x73\x6f\x6d\x65\x74\151\x6d\x65\163\174\x73\164\162\151\x6e\x67"]); goto YRrcP; Eih9l: return Jgkrl()->Sbe1q(["\x73\165\x63\143\145\163\163" => false, "\155\x65\163\163\x61\147\145" => "\124\157\x6b\x65\156\40\x64\x65\x20\163\145\147\x75\x72\141\x6e\303\xa7\141\40\x69\x6e\166\xc3\xa1\x6c\151\x64\x6f"]); goto wFID5; HJtdF: return JGkrL()->SBE1Q(["\163\165\x63\143\x65\163\x73" => false, "\155\x65\x73\163\141\x67\145" => "\x44\141\144\157\163\40\151\x6e\166\xc3\241\154\151\x64\157\x73"]); goto ziWnw; TcSmI: $e5HVA = nxrOV::yFGI_(); goto IPhmq; znY2A: MP5Ar: goto RWQ4D; O1Dmm: $hTAAI = $e5HVA->d1U9g; goto aLQn6; IPhmq: $ILKcg = jf89X(\Jf89x\pY4PC\MfZqq::class); goto rF1aY; pnSbl: Xt7qe: goto Rv0K4; yehEN: if ($pYcOI->bHRmm) { goto PV1E0; } goto bR6Hw; bFA76: if ($ILKcg->g4FSH($WFz1w->a4j3Y, $e5HVA->id, "\160\x6c\141\171")) { goto YXqEQ; } goto Eih9l; EDBMC: Kyrsm: goto O1Dmm; h_2Ex: try { $hTAAI = c40Q0::create(["\x75\x73\145\x72\x5f\x69\x64" => $e5HVA->id, "\x62\x61\154\x61\x6e\x63\x65" => 0.0, "\x62\141\154\141\x6e\x63\x65\x5f\x62\157\x6e\165\163" => 0.0, "\143\x6f\x69\156" => 0, "\146\162\x65\x65\137\163\160\x69\x6e\x73" => 0]); } catch (\Exception $ai57B) { return jgkrl()->SBe1Q(["\163\165\x63\143\145\x73\x73" => false, "\155\145\163\x73\141\x67\145" => "\105\x72\162\x6f\x20\141\157\x20\141\x63\x65\163\163\141\162\x20\143\141\x72\164\x65\x69\x72\x61\56\x20\103\157\x6e\164\141\164\x65\40\157\40\163\165\x70\x6f\162\164\145\x2e"]); } goto pnSbl; YRrcP: if (!$e25Fx->ldf8P()) { goto olGIx; } goto HJtdF; wFID5: YXqEQ: goto EDBMC; OEcYt: return JgKRL()->Sbe1q(["\163\x75\x63\143\145\x73\x73" => false, "\x6d\145\163\x73\141\147\145" => "\123\141\x6c\x64\157\x20\151\x6e\x73\165\x66\x69\x63\151\145\x6e\164\145\56\40\126\157\143\303\xaa\x20\x70\162\145\143\x69\163\x61\40\x64\x65\40\122\44\x20" . number_format($apTl4, 2, "\54", "\x2e")]); goto znY2A; Myifx: } public function QayCv(s9d5T $WFz1w, EGioX $pYcOI) { goto mYiPA; Vks1s: $Iknmy = FimSW::C_mhy("\x69\x64", $QrQmc)->C_MHy("\165\163\x65\x72\x5f\x69\x64", $e5HVA->id)->c_MHy("\x73\164\141\x74\165\x73", "\x70\145\x6e\144\x69\156\x67")->yRKR9(); goto ZgcPG; ZgcPG: if ($Iknmy) { goto R2_tQ; } goto teFVr; lnHvO: return jGKRl()->sbE1q(["\163\165\143\x63\x65\x73\x73" => false, "\x6d\x65\x73\163\x61\147\x65" => "\123\145\x73\163\xc3\xa3\x6f\x20\151\x6e\166\xc3\xa1\x6c\x69\144\x61\40\x6f\165\40\145\170\160\x69\162\141\144\x61"]); goto yIUPX; n1nnQ: R2_tQ: goto ml191; ml191: return lvlOx::aF37z(function () use($Iknmy, $e5HVA, $pYcOI, $AiQBl, $GlRD2, $ILKcg) { try { goto YwuOj; Fvsms: $hTAAI->refresh(); goto VoRQl; meqRZ: $r2ERN = null; goto pvvZu; OCUfm: $E3DrZ = null; goto kxG2h; pvvZu: if (!$Iknmy->h0lF4) { goto ouX_q; } goto B5XgL; ujG8K: if (!$E3DrZ) { goto O5lkG; } goto TTIRM; VgH6s: return jgKRl()->SbE1q(["\163\165\143\x63\x65\163\163" => false, "\x6d\x65\163\163\x61\x67\145" => "\x43\141\162\x74\145\151\x72\141\x20\156\303\xa3\x6f\40\x65\156\143\x6f\x6e\x74\x72\141\x64\x61"]); goto gy8J8; r_8Tp: $Iknmy->save(); goto LXLH4; YwuOj: $hTAAI = $e5HVA->d1U9g; goto SJ5fE; IheXs: $KYeH_ = ["\150\141\x73\137\160\x72\x69\x7a\x65" => $Iknmy->XXqr6 > 0, "\x70\162\x69\172\145\x5f\166\141\154\165\x65" => $Iknmy->XXqr6, "\x70\162\x69\172\145\x5f\164\171\x70\145" => $Iknmy->N8Wwc, "\x70\x72\x69\172\x65\137\x64\145\163\143\162\151\x70\164\x69\157\x6e" => $Iknmy->GHHrG, "\151\x74\x65\x6d\137\x69\x64" => $Iknmy->h0lF4]; goto meqRZ; TTIRM: $ILKcg->xUOhs($E3DrZ["\x73\x65\163\163\151\x6f\x6e\137\151\144"], "\x63\154\141\151\155\x69\x6e\x67"); goto MKmFc; tIFj_: $ILKcg->XUOHS($E3DrZ["\x73\x65\163\163\x69\x6f\x6e\137\151\x64"], "\143\x6f\x6d\160\154\x65\x74\145\144"); goto nl29g; MKmFc: O5lkG: goto eMX5x; LXLH4: if (!$E3DrZ) { goto EvPuI; } goto tIFj_; eMX5x: Nh0tQ: goto IheXs; gy8J8: ApPYz: goto OCUfm; nl29g: EvPuI: goto Fvsms; B5XgL: $r2ERN = $pYcOI->MonNZ()->c_Mhy("\151\144", $Iknmy->h0lF4)->c_mHY("\x69\163\137\141\143\x74\151\x76\x65", true)->YRKr9(); goto bVSeP; KYHEL: $E3DrZ = $ILKcg->gbLAP($AiQBl, $e5HVA->id); goto ujG8K; VoRQl: return jGKRl()->sbE1Q(["\x73\165\x63\143\x65\163\163" => true, "\x70\162\x69\x7a\145\137\x70\x72\157\143\145\x73\x73\145\x64" => $tfJX7, "\x6e\x65\x77\137\142\141\154\x61\156\x63\145" => $hTAAI->AqmcG, "\x6e\x65\x77\x5f\x62\x6f\x6e\x75\163\x5f\142\x61\x6c\x61\156\143\x65" => $hTAAI->tiNLb, "\x6e\145\x77\x5f\x66\162\x65\145\x5f\163\160\151\156\163" => $hTAAI->vqBxI, "\x66\157\x72\x6d\141\x74\x74\145\x64\x5f\142\x61\154\x61\x6e\x63\145" => "\122\x24\40" . number_format($hTAAI->AqmcG, 2, "\54", "\x2e"), "\x66\157\162\x6d\x61\x74\x74\x65\x64\x5f\142\157\156\x75\x73\137\142\141\x6c\141\x6e\143\145" => "\x52\44\40" . number_format($hTAAI->tiNLb, 2, "\x2c", "\x2e"), "\151\x73\x5f\167\151\156\x6e\x65\162" => $KYeH_["\150\x61\x73\137\160\x72\151\x7a\145"], "\x61\x6d\x6f\165\156\x74\137\167\x6f\156" => $KYeH_["\x70\x72\151\x7a\x65\x5f\166\141\x6c\x75\x65"], "\160\162\x69\172\x65\137\x69\x6e\146\x6f" => $KYeH_]); goto dIWEB; e01U8: $Iknmy->status = "\143\157\x6d\x70\x6c\x65\164\x65\144"; goto r_8Tp; SJ5fE: if ($hTAAI) { goto ApPYz; } goto VgH6s; kxG2h: if (!$AiQBl) { goto Nh0tQ; } goto KYHEL; W8EFn: $tfJX7 = $this->VNmFZ($e5HVA, $hTAAI, $KYeH_, $r2ERN); goto e01U8; bVSeP: ouX_q: goto W8EFn; dIWEB: } catch (\Exception $ai57B) { \Log::p2M7E("\x52\x61\163\160\141\144\151\156\x68\x61\x43\x6f\x6e\164\162\x6f\x6c\154\145\162\x40\143\x6c\x61\x69\x6d\x50\x72\x69\x7a\145\x20\x2d\x20\x45\x72\x72\157\162\40\x69\156\40\x74\x72\141\x6e\163\x61\143\x74\151\x6f\156\72\x20" . $ai57B->getMessage()); return JGKRL()->SBe1Q(["\x73\165\x63\x63\x65\x73\163" => false, "\155\145\163\x73\x61\147\145" => "\105\x72\x72\x6f\40\151\156\x74\145\162\156\157\x20\141\157\x20\x70\162\x6f\143\145\x73\x73\141\162\40\x70\x72\xc3\252\155\151\x6f\56"]); } }); goto zhqk4; yIUPX: Z23nm: goto Vks1s; ZMoTE: $GlRD2 = $WFz1w->Pc2LR("\147\x61\155\x65\137\143\150\x65\x63\153\x73\165\x6d"); goto GDetB; sz7v0: if (!($AiQBl && !$ILKcg->rpnax($AiQBl, $QrQmc))) { goto Z23nm; } goto lnHvO; ut7Ym: $QrQmc = $WFz1w->Pc2lR("\x68\151\x73\164\157\162\x79\137\151\144"); goto CXIl3; teFVr: return JgkRL()->sBe1q(["\x73\165\143\x63\145\163\x73" => false, "\x6d\x65\163\163\x61\x67\145" => "\112\157\147\157\x20\156\xc3\243\x6f\40\x65\x6e\x63\x6f\156\x74\162\141\144\x6f\x20\157\165\40\x6a\xc3\xa1\40\x70\162\157\143\145\163\163\141\x64\x6f"]); goto n1nnQ; HeCOL: $e5HVA = NXrov::YfGI_(); goto ut7Ym; CXIl3: $AiQBl = $WFz1w->Pc2lR("\x73\x65\x73\x73\x69\x6f\x6e\x5f\x74\157\153\145\x6e"); goto ZMoTE; IlYfo: HDa6h: goto HeCOL; mYiPA: $e25Fx = PLHxG::YKI_I($WFz1w->P0Wsl(), ["\x68\x69\x73\x74\x6f\x72\x79\137\x69\144" => "\162\145\161\x75\x69\x72\145\x64\x7c\x69\156\164\145\x67\x65\162\174\x65\x78\x69\163\x74\x73\x3a\162\141\163\160\x61\x64\x69\x6e\150\x61\137\150\151\x73\164\x6f\x72\171\54\151\x64", "\x73\x65\163\x73\151\157\x6e\x5f\164\x6f\153\x65\156" => "\x73\x6f\x6d\x65\164\x69\155\145\163\174\163\x74\x72\x69\x6e\x67", "\147\x61\155\x65\x5f\143\150\x65\x63\x6b\x73\165\x6d" => "\163\x6f\x6d\145\164\151\155\x65\163\174\163\x74\162\151\x6e\x67"]); goto NXAlc; AVrdW: return JGKrl()->sBE1q(["\163\x75\143\143\x65\163\x73" => false, "\x6d\x65\x73\x73\141\x67\145" => "\x44\141\144\x6f\163\x20\151\156\x76\303\241\x6c\151\x64\x6f\x73"]); goto IlYfo; NXAlc: if (!$e25Fx->ldF8P()) { goto HDa6h; } goto AVrdW; GDetB: $ILKcg = Jf89x(\jF89X\pY4Pc\mfZqq::class); goto sz7v0; zhqk4: } public function fnBBf(S9d5T $WFz1w, eGiOx $pYcOI) { goto Mh_pq; BNcJn: $apTl4 = $ICT_e ? $pYcOI->DDaQ5 : $pYcOI->No_w8; goto F_CRm; gdIbk: w_wTW: goto yjaWt; zQM2T: if ($hTAAI) { goto vn2W8; } goto sSP0C; Kgxqs: if (!($hTAAI->AqmcG < $sVypC)) { goto MQUNx; } goto s9W3f; F_CRm: $sVypC = $apTl4 * $uD6RH; goto Kgxqs; Ixx87: qpof3: goto kpOq5; xiEAF: MQUNx: goto qTts0; Xq0eU: if (!$e25Fx->lDF8P()) { goto qpof3; } goto Hz9Sf; Hz9Sf: return jgKrL()->Sbe1q(["\163\x75\143\143\145\163\x73" => false, "\155\x65\x73\x73\x61\147\145" => "\104\x61\x64\x6f\x73\x20\x69\156\166\xc3\xa1\x6c\151\144\x6f\163"]); goto Ixx87; sSP0C: return jgkrL()->sbe1q(["\x73\165\x63\143\145\163\x73" => false, "\x6d\145\x73\x73\141\147\145" => "\x43\141\162\164\145\x69\x72\141\40\156\xc3\243\x6f\x20\145\156\x63\x6f\156\164\162\141\x64\141"]); goto Mixqm; qTts0: return LvLOx::af37Z(function () use($pYcOI, $e5HVA, $hTAAI, $apTl4, $uD6RH, $ICT_e, $sVypC) { try { goto cNkaw; OegVT: $jlFiu[] = "\122\x6f\144\x61\144\141\x73\x20\x47\162\xc3\241\164\151\x73\72\x20{$b7mL0}"; goto UmxQU; rjM_H: $jlFiu = []; goto Z4gje; eH9Nd: fJnvG: goto HkZJ4; WkY6V: if (!($IzN49 < $uD6RH)) { goto QD87Z; } goto D2vT2; MBj7O: RpE1u::create(["\146\x69\x65\x6c\144\x5f\156\x61\155\x65" => "\x52\x61\x73\x70\141\x64\x69\x6e\150\141\x20\x2d\40\112\157\147\141\144\141\x20\101\x75\x74\157", "\157\154\144\x5f\x76\x61\154\165\x65" => $XP4C8, "\x6e\x65\167\137\x76\141\x6c\x75\145" => $XP4C8 - $sVypC, "\x75\x70\x64\141\x74\x65\144\x5f\142\x79" => 1, "\x75\163\x65\162\137\x69\x64" => $e5HVA->id, "\164\171\x70\x65" => 1, "\154\x6f\x67" => "\x4a\157\147\141\144\141\40\141\x75\164\157\155\xc3\xa1\x74\151\143\x61\40\144\x65\x20{$uD6RH}\x20\x72\x61\x73\160\x61\x64\151\156\x68\x61\163\72\40\x52\x24\40{$sVypC}\40\55\x20{$pYcOI->name}" . ($ICT_e ? "\x20\x28\x54\x75\162\x62\157\51" : '')]); goto qD9g1; a7Iyo: EJzBU: goto CSshD; Ru7Lm: $jOuRj = true; goto w9dUB; Ruqtw: oiAf0: goto kYV21; w9dUB: xcC4S: goto KQf35; eHvJ6: $IzN49 = 0; goto dqg7T; TE5W6: $jlFiu[] = "\123\x61\x6c\144\x6f\40\x42\303\xb4\x6e\165\163\x3a\40\x52\44\40{$yVuW1}"; goto eH9Nd; krMs1: $r2ERN = $pYcOI->moNNz()->c_mhy("\x69\144", $KYeH_["\x69\x74\145\x6d\137\x69\144"])->C_mhY("\x69\163\137\141\143\x74\151\x76\x65", true)->YrKr9(); goto eKLVF; ChdsY: ZyJC9: goto b42EB; XscNF: RPe1u::create(["\146\x69\x65\154\144\137\x6e\x61\155\145" => "\122\x61\163\x70\141\144\x69\156\150\141\x20\x2d\x20\120\162\303\xaa\155\x69\x6f\x20\x41\x75\164\x6f", "\157\x6c\x64\137\x76\x61\x6c\165\x65" => $XP4C8 - $sVypC, "\x6e\x65\x77\x5f\166\141\x6c\x75\145" => $hTAAI->AqmcG, "\x75\x70\x64\141\x74\x65\144\137\142\171" => 1, "\x75\163\145\x72\x5f\x69\x64" => $e5HVA->id, "\164\x79\160\145" => 1, "\154\157\147" => "\120\162\xc3\xaa\155\x69\x6f\163\x20\x64\x65\x20{$uD6RH}\40\x72\141\x73\x70\141\x64\x69\x6e\150\x61\x73\x3a\40" . implode("\54\x20", $jlFiu) . "\40\55\40{$pYcOI->name}"]); goto Rz8_w; wWrWX: if (!($KvmO2 > 0)) { goto Qr4BB; } goto r7E1l; uSK0h: $jOuRj = true; goto oYZdy; loon1: $hTAAI->save(); goto eHvJ6; KQf35: if (!$jOuRj) { goto Kgu4z; } goto e_Par; cNkaw: $XP4C8 = $hTAAI->AqmcG; goto QT3rQ; aUyvw: $yVuW1 = 0; goto O30Rl; Fu601: $PpHOL += $KYeH_["\x70\162\x69\172\x65\x5f\x76\x61\154\165\145"]; goto ChdsY; CtM6E: if (!$KYeH_["\x68\x61\x73\x5f\160\x72\x69\172\x65"]) { goto m0IMp; } goto krMs1; HkZJ4: if (!($b7mL0 > 0)) { goto EYR_Z; } goto OegVT; WG9b3: $jlFiu[] = "\x53\141\x6c\x64\x6f\40\x52\145\141\x6c\72\40\x52\44\x20{$KvmO2}"; goto a7Iyo; oYZdy: Qr4BB: goto B0A0m; lH95e: goto DXKTu; goto QzQL3; c21un: foreach ($grCCI as $smCIb) { goto nM50d; TJHen: emZQA: goto Xy1Ky; Yj4kO: switch ($smCIb["\x70\x72\x69\172\x65\x5f\151\156\x66\157"]["\160\x72\151\x7a\145\137\164\x79\x70\145"]) { case "\163\141\154\x64\157\137\162\x65\x61\x6c": $KvmO2 += $smCIb["\160\162\151\x7a\145\137\151\x6e\x66\157"]["\160\x72\151\x7a\x65\x5f\x76\141\x6c\165\145"]; goto emZQA; case "\163\x61\x6c\144\157\137\142\x6f\x6e\x75\x73": $yVuW1 += $smCIb["\x70\x72\151\x7a\145\x5f\151\156\x66\157"]["\x70\162\151\172\145\x5f\166\141\154\165\x65"]; goto emZQA; case "\x72\x6f\144\141\144\141\163\137\147\x72\x61\x74\x69\x73": $b7mL0 += $smCIb["\x70\162\x69\x7a\x65\x5f\151\x6e\146\x6f"]["\x70\162\x69\172\145\137\x76\141\x6c\x75\145"]; goto emZQA; } goto o4d_g; LVTgF: doFZk: goto Vzkqt; nM50d: if (!$smCIb["\x70\162\151\x7a\x65\x5f\x69\x6e\x66\157"]["\150\x61\163\x5f\160\162\x69\172\145"]) { goto zNRqJ; } goto Yj4kO; Xy1Ky: zNRqJ: goto LVTgF; o4d_g: U7gY3: goto TJHen; Vzkqt: } goto oxN3t; kYV21: if (!($b7mL0 > 0)) { goto xcC4S; } goto tljYK; oxN3t: zSY42: goto J92l7; YDGAz: $KvmO2 = 0; goto aUyvw; qD9g1: return jgKrL()->sBe1q(["\x73\x75\x63\143\145\x73\x73" => true, "\162\145\163\x75\154\164\163" => $grCCI, "\164\157\x74\141\154\x5f\x63\157\x73\164" => $sVypC, "\x74\157\164\141\x6c\137\x70\162\151\x7a\145" => $PpHOL, "\x70\162\151\172\145\163" => ["\x73\x61\x6c\144\x6f\137\x72\145\141\x6c" => $KvmO2, "\x73\141\154\144\x6f\x5f\x62\157\156\x75\x73" => $yVuW1, "\162\x6f\144\x61\x64\x61\163\x5f\147\x72\x61\164\151\163" => $b7mL0, "\146\157\x72\155\141\164\x74\x65\144\x5f\x72\145\141\154" => "\122\x24\x20" . number_format($KvmO2, 2, "\x2c", "\56"), "\x66\x6f\162\x6d\141\164\164\145\144\x5f\142\x6f\x6e\165\163" => "\x52\44\40" . number_format($yVuW1, 2, "\54", "\56"), "\146\x6f\x72\x6d\141\164\164\145\x64\137\x73\x70\151\156\163" => $b7mL0 . "\40\x72\157\144\x61\x64\141\163\x20\x67\162\303\241\x74\151\163"], "\146\x6f\162\x6d\x61\x74\x74\x65\144\x5f\164\157\164\141\x6c\137\143\157\x73\164" => "\x52\x24\x20" . number_format($sVypC, 2, "\54", "\56"), "\146\157\162\155\x61\x74\x74\x65\x64\137\x74\157\x74\x61\x6c\137\x70\x72\151\172\145" => "\x52\x24\x20" . number_format($PpHOL, 2, "\x2c", "\x2e"), "\x6e\145\167\137\x62\x61\x6c\x61\x6e\143\145" => $hTAAI->AqmcG, "\156\x65\167\137\142\157\156\165\x73\137\x62\x61\x6c\x61\x6e\143\x65" => $hTAAI->tiNLb, "\156\x65\167\x5f\x66\162\x65\x65\137\163\160\x69\156\163" => $hTAAI->vqBxI, "\146\157\162\155\x61\164\x74\x65\144\137\142\141\154\141\156\x63\x65" => "\122\44\40" . number_format($hTAAI->AqmcG, 2, "\54", "\56"), "\146\157\x72\x6d\141\164\x74\x65\x64\x5f\x62\x6f\x6e\165\163\137\x62\141\x6c\141\156\143\x65" => "\122\x24\40" . number_format($hTAAI->tiNLb, 2, "\x2c", "\56"), "\161\165\141\x6e\164\x69\x74\171" => $uD6RH, "\167\151\x6e\x6e\145\x72\x73\x5f\x63\x6f\165\156\164" => count(array_filter($grCCI, function ($R4GAO) { return $R4GAO["\151\163\x5f\167\151\156\156\145\x72"]; }))]); goto KNgrh; lgk3s: $PpHOL = 0; goto DG9Wj; J92l7: $jOuRj = false; goto wWrWX; D2vT2: $JCkRA = $pYcOI->IXwkX($ICT_e); goto RID9g; DG9Wj: $hTAAI->AqmcG -= $sVypC; goto loon1; Z4gje: if (!($KvmO2 > 0)) { goto EJzBU; } goto WG9b3; QT3rQ: $grCCI = []; goto lgk3s; e_Par: $hTAAI->save(); goto rjM_H; ATtdi: $hTAAI->tiNLb += $yVuW1; goto I1Vu7; CSshD: if (!($yVuW1 > 0)) { goto fJnvG; } goto TE5W6; UmxQU: EYR_Z: goto XscNF; O30Rl: $b7mL0 = 0; goto c21un; SAsdj: $Iknmy = Fimsw::create(["\x75\x73\145\162\x5f\x69\144" => $e5HVA->id, "\x72\x61\163\x70\x61\x64\151\156\150\x61\137\151\144" => $pYcOI->id, "\162\141\163\160\141\x64\151\x6e\x68\x61\137\x69\164\145\x6d\x5f\x69\x64" => $r2ERN ? $r2ERN->id : null, "\x61\155\157\x75\x6e\x74\x5f\160\x61\x69\144" => $apTl4, "\x61\155\x6f\x75\156\x74\137\x77\x6f\x6e" => $KYeH_["\x70\162\151\172\145\137\166\x61\154\x75\x65"], "\x70\162\151\x7a\145\137\164\x79\x70\x65" => $KYeH_["\160\x72\151\x7a\145\137\164\x79\160\145"], "\x70\162\151\172\145\137\x64\145\163\x63\162\x69\x70\164\151\157\x6e" => $KYeH_["\160\x72\151\x7a\x65\x5f\144\145\x73\143\162\x69\160\x74\151\157\156"], "\151\163\x5f\164\165\162\x62\157" => $ICT_e, "\151\x73\x5f\141\165\x74\157" => true, "\141\x75\x74\157\137\x71\x75\141\x6e\164\x69\x74\x79" => $uD6RH, "\x73\164\x61\x74\x75\163" => "\143\x6f\x6d\x70\154\145\x74\x65\144", "\x72\145\x73\x75\154\164\x73" => $JCkRA]); goto tUMnT; r7E1l: $hTAAI->AqmcG += $KvmO2; goto uSK0h; eKLVF: m0IMp: goto SAsdj; c9rwJ: $r2ERN = null; goto CtM6E; B0A0m: if (!($yVuW1 > 0)) { goto oiAf0; } goto ATtdi; b42EB: $IzN49++; goto lH95e; tljYK: $hTAAI->vqBxI += $b7mL0; goto Ru7Lm; tUMnT: $grCCI[] = ["\x67\x61\x6d\x65" => $IzN49 + 1, "\x72\x65\x73\x75\x6c\x74\163" => $JCkRA, "\160\162\151\172\145\x5f\x69\156\146\157" => $KYeH_, "\x70\x72\151\172\x65\x5f\x76\x61\154\165\145" => $KYeH_["\160\x72\x69\x7a\145\x5f\166\x61\154\165\145"], "\150\x69\163\164\157\162\x79\137\x69\144" => $Iknmy->id, "\x69\x73\137\x77\x69\156\156\145\162" => $KYeH_["\150\141\x73\137\160\x72\151\x7a\x65"]]; goto Fu601; QzQL3: QD87Z: goto YDGAz; I1Vu7: $jOuRj = true; goto Ruqtw; Rz8_w: Kgu4z: goto MBj7O; dqg7T: DXKTu: goto WkY6V; RID9g: $KYeH_ = $pYcOI->xWdUm($JCkRA); goto c9rwJ; KNgrh: } catch (\Exception $ai57B) { return JgKrl()->sBE1Q(["\163\x75\143\x63\145\163\163" => false, "\155\x65\163\163\x61\147\x65" => "\105\x72\162\157\40\x69\x6e\164\x65\162\x6e\x6f\x2e\40\124\145\x6e\164\x65\40\x6e\157\x76\x61\x6d\145\156\164\x65\x2e"]); } }); goto FMwBa; Mixqm: vn2W8: goto nrz1x; QhEK2: $hTAAI = $e5HVA->d1U9g; goto zQM2T; nrz1x: $uD6RH = $WFz1w->KLKaz("\x71\165\x61\x6e\x74\x69\x74\171"); goto FyR9_; yjaWt: $e5HVA = nXROV::yfGI_(); goto QhEK2; Mh_pq: $e25Fx = pLhxG::YKi_i($WFz1w->P0wSL(), ["\x71\x75\x61\x6e\x74\x69\x74\171" => "\x72\x65\x71\165\x69\162\x65\144\x7c\x69\156\x74\145\x67\145\162\174\x6d\151\156\72\x31\174\155\141\170\x3a\61\x30\60", "\x69\163\x5f\x74\x75\162\x62\157" => "\142\x6f\157\x6c\x65\x61\x6e"]); goto Xq0eU; s9W3f: return JGkRL()->sBe1Q(["\163\x75\x63\143\145\x73\163" => false, "\155\145\163\x73\x61\147\145" => "\x53\x61\x6c\x64\x6f\x20\x69\156\x73\165\x66\151\143\x69\145\156\x74\x65\x2e\40\126\157\143\xc3\252\x20\x70\162\x65\x63\x69\x73\141\x20\144\x65\x20\122\44\x20" . number_format($sVypC, 2, "\54", "\x2e")]); goto xiEAF; Kfpm0: return JGkRL()->Sbe1q(["\163\165\x63\x63\145\163\163" => false, "\x6d\145\x73\x73\141\x67\145" => "\x45\x73\x74\141\x20\x72\141\163\160\141\x64\151\x6e\150\141\40\156\303\243\x6f\x20\x65\x73\x74\xc3\241\x20\x64\151\163\x70\x6f\x6e\303\255\166\145\x6c"]); goto gdIbk; FyR9_: $ICT_e = $WFz1w->NPzt3("\x69\163\x5f\164\165\x72\x62\157"); goto BNcJn; kpOq5: if ($pYcOI->bHRmm) { goto w_wTW; } goto Kfpm0; FMwBa: } public function lrgmb(s9D5t $WFz1w) { goto c1enS; Ifn_5: $Iknmy = fiMSw::RNjFY(["\x72\141\x73\x70\x61\x64\151\156\150\x61", "\162\x61\x73\160\141\144\151\x6e\150\x61\x49\164\145\x6d"])->c_MHY("\x75\x73\145\162\137\x69\144", $e5HVA->id)->a9jmh("\x63\162\145\x61\x74\x65\x64\137\x61\x74", "\x64\145\163\143")->xfnE7(20); goto BNFAi; BNFAi: return lO0CY("\162\x61\x73\160\141\144\151\156\150\x61\x2e\150\x69\163\164\x6f\162\171", compact("\x68\x69\x73\164\157\x72\171")); goto frvCW; c1enS: $e5HVA = nxrov::YFgi_(); goto Ifn_5; frvCW: } public function hIeSE() { goto U6pUp; U6pUp: $e5HVA = NXRov::yfGI_(); goto cOru7; xL8oQ: return JgkrL()->sbe1Q(["\x73\165\143\143\145\163\x73" => false, "\142\141\x6c\141\x6e\x63\x65" => 0, "\142\141\154\141\x6e\143\x65\137\x62\x6f\156\x75\x73" => 0, "\146\x72\x65\x65\137\x73\160\151\156\163" => 0, "\x66\x6f\162\155\x61\164\x74\x65\x64\x5f\142\141\154\141\156\x63\145" => "\122\x24\x20\60\54\x30\60", "\x66\157\162\x6d\141\164\164\x65\x64\x5f\142\x61\154\141\x6e\143\145\137\142\157\156\x75\x73" => "\122\44\40\x30\x2c\60\60", "\x6d\x65\163\163\x61\147\145" => "\x43\141\162\x74\x65\151\x72\141\x20\156\xc3\243\x6f\40\145\x6e\143\x6f\156\x74\162\141\144\141"]); goto z0C1D; z0C1D: PTnFt: goto QMo7V; WmIdQ: $hTAAI = $e5HVA->d1U9g; goto HDf19; cOru7: if ($e5HVA) { goto G5AvQ; } goto V84I5; QMo7V: return jGKRl()->SBe1Q(["\163\x75\143\x63\x65\163\x73" => true, "\x62\141\154\x61\x6e\x63\145" => $hTAAI->AqmcG, "\142\141\154\141\156\143\x65\x5f\x62\157\x6e\x75\x73" => $hTAAI->tiNLb, "\x66\x72\145\145\x5f\163\x70\151\x6e\x73" => $hTAAI->vqBxI, "\x66\157\x72\155\x61\x74\164\145\x64\137\142\x61\154\141\x6e\143\x65" => "\x52\x24\x20" . number_format($hTAAI->AqmcG, 2, "\x2c", "\56"), "\x66\157\x72\155\141\164\x74\145\x64\137\142\141\x6c\141\x6e\x63\x65\x5f\142\x6f\156\x75\163" => "\122\44\x20" . number_format($hTAAI->tiNLb, 2, "\54", "\x2e")]); goto Ha8GR; HDf19: if ($hTAAI) { goto PTnFt; } goto xL8oQ; V84I5: return JGkRl()->SBe1q(["\x73\x75\x63\143\145\x73\x73" => false, "\155\145\x73\x73\141\147\145" => "\x55\163\x75\xc3\xa1\162\x69\157\x20\x6e\303\xa3\157\40\x61\x75\164\145\156\164\x69\x63\x61\144\157"], 401); goto IHuvk; IHuvk: G5AvQ: goto WmIdQ; Ha8GR: } protected function vnmFZ($e5HVA, $hTAAI, $KYeH_, $r2ERN) { goto ilu8n; ilu8n: \Log::info("\122\x61\x73\x70\x61\x64\151\156\150\141\x43\157\156\164\162\x6f\154\x6c\145\x72\x40\x70\162\x6f\143\145\x73\163\120\x72\x69\172\x65\40\55\40\x49\156\151\143\x69\141\156\144\x6f\40\160\162\x6f\143\x65\163\163\x61\155\x65\156\164\x6f", ["\165\x73\145\x72\137\151\x64" => $e5HVA->id, "\150\x61\x73\137\160\x72\151\172\145" => $KYeH_["\150\141\163\137\x70\162\151\x7a\x65"], "\x70\x72\x69\x7a\x65\x5f\166\141\154\x75\x65" => $KYeH_["\x70\x72\x69\172\145\137\166\x61\x6c\x75\x65"], "\160\162\151\172\145\137\x74\x79\160\145" => $KYeH_["\x70\x72\x69\x7a\145\x5f\164\171\160\x65"], "\151\x74\x65\x6d\x5f\151\x64" => $KYeH_["\x69\164\145\155\137\151\144"], "\x77\x61\x6c\x6c\145\164\x5f\142\141\x6c\x61\x6e\x63\x65\137\x62\x65\x66\157\x72\x65" => $hTAAI->AqmcG]); goto kxYya; zbjCa: $v5owg = "\163\141\x6c\x64\157\x5f\162\x65\x61\x6c"; goto yVMC_; yVMC_: CGyUL: goto tF0q7; WU7h8: $tfJX7["\160\162\151\x7a\x65\x64\137\151\x74\145\155"] = ["\x69\144" => $r2ERN->id, "\x6e\x61\x6d\x65" => $r2ERN->name, "\166\141\154\x75\145" => $r2ERN->value, "\164\171\160\x65" => $r2ERN->hsDGx, "\x64\145\x73\143\x72\x69\160\x74\151\157\156" => $r2ERN->bmYeh]; goto ouVVl; RRAUP: if (!($KYeH_["\150\141\163\x5f\160\162\x69\172\x65"] && $KYeH_["\160\x72\x69\172\145\x5f\x76\141\x6c\x75\145"] > 0)) { goto wqYgM; } goto JV0r6; ouVVl: DAc4W: goto qDOdE; kxYya: $tfJX7 = ["\163\165\x63\143\x65\x73\163" => false, "\155\145\x73\x73\x61\x67\x65" => "\116\145\x6e\150\x75\x6d\x20\x70\162\xc3\252\155\x69\157", "\x74\171\x70\x65" => "\x6e\157\x6e\x65"]; goto RRAUP; JV0r6: $XP4C8 = $hTAAI->AqmcG; goto ItaCU; qDOdE: wqYgM: goto klybN; tF0q7: \Log::info("\122\141\163\x70\x61\x64\151\156\150\x61\x43\x6f\156\164\162\157\x6c\x6c\145\162\x40\160\162\x6f\143\145\163\163\x50\162\151\x7a\x65\40\55\40\x50\162\157\143\145\x73\x73\141\x6e\x64\x6f\x20\160\x72\xc3\xaa\x6d\151\x6f", ["\x70\x72\151\x7a\x65\x5f\164\171\x70\x65\137\x66\151\x6e\x61\154" => $v5owg, "\x70\x72\x69\x7a\x65\137\x76\141\154\165\145" => $KYeH_["\160\x72\x69\172\145\x5f\x76\x61\154\165\145"], "\157\154\144\x5f\142\x61\154\x61\x6e\x63\x65" => $XP4C8]); goto IfRRq; klybN: return $tfJX7; goto p4LW3; J7Jyp: cQAxh: goto DDayv; TWpss: $v5owg = $r2ERN->hsDGx ?? "\163\x61\154\144\157\137\x72\145\x61\154"; goto Lo8M0; DDayv: Op2wW: goto aUJOz; Lo8M0: gRmpY: goto MBN4d; hONrm: if (!$r2ERN) { goto DAc4W; } goto WU7h8; IfRRq: switch ($v5owg) { case "\163\x61\x6c\x64\157\137\x72\145\x61\154": goto TvthT; TvthT: $hTAAI->AqmcG += $KYeH_["\160\x72\x69\x7a\x65\137\166\141\154\165\x65"]; goto TDbQR; t1TJs: $tfJX7 = ["\x73\x75\x63\x63\x65\x73\163" => true, "\155\x65\x73\x73\x61\147\145" => "\123\141\154\x64\x6f\40\162\x65\141\154\40\x63\162\145\144\151\x74\x61\x64\157\x20\143\x6f\x6d\40\x73\x75\143\145\x73\x73\157\41", "\x74\x79\160\145" => $v5owg, "\x70\x72\x69\172\145\137\x76\x61\154\165\145" => $KYeH_["\x70\x72\x69\x7a\x65\137\x76\x61\x6c\165\145"], "\146\x6f\x72\x6d\141\x74\x74\145\144\137\x70\162\151\x7a\145" => $KYeH_["\x70\x72\151\x7a\x65\x5f\x64\x65\x73\143\162\x69\x70\x74\x69\x6f\x6e"]]; goto MtOB5; xD_h8: \Log::info("\x52\141\163\160\x61\x64\x69\x6e\x68\x61\103\157\x6e\x74\162\157\x6c\x6c\x65\162\100\160\x72\x6f\x63\x65\163\163\x50\162\x69\x7a\145\40\55\x20\123\x61\x6c\x64\x6f\x20\162\x65\141\154\40\x63\162\x65\144\x69\x74\141\144\157", ["\x61\155\x6f\165\156\164" => $KYeH_["\x70\x72\x69\x7a\x65\137\166\141\x6c\x75\145"], "\157\154\x64\137\142\141\154\141\x6e\x63\145" => $XP4C8, "\x6e\x65\x77\137\142\x61\x6c\141\x6e\143\x65" => $hTAAI->AqmcG]); goto t1TJs; MtOB5: goto Op2wW; goto LQFxv; TDbQR: $hTAAI->save(); goto xD_h8; LQFxv: case "\163\x61\154\x64\157\137\142\x6f\x6e\165\163": goto jnYPL; GNFVd: $tfJX7 = ["\163\x75\143\143\x65\x73\163" => true, "\x6d\x65\x73\x73\141\147\x65" => "\x53\141\154\144\x6f\x20\142\xc3\264\x6e\165\x73\x20\x63\x72\x65\x64\151\164\x61\144\157\40\143\157\155\40\x73\165\x63\x65\x73\163\157\41", "\164\171\160\145" => $v5owg, "\160\162\151\172\x65\137\166\141\154\x75\x65" => $KYeH_["\160\162\151\x7a\145\x5f\166\x61\154\165\x65"], "\146\157\162\x6d\x61\164\x74\145\144\137\160\162\x69\x7a\x65" => $KYeH_["\x70\162\151\x7a\x65\137\x64\x65\x73\143\162\151\x70\164\151\x6f\156"]]; goto Z2xsi; jnYPL: $hTAAI->tiNLb += $KYeH_["\x70\x72\151\x7a\x65\x5f\166\x61\x6c\x75\145"]; goto xAyjy; Z2xsi: goto Op2wW; goto L34Vl; xAyjy: $hTAAI->save(); goto LHZvV; LHZvV: \Log::info("\122\141\x73\x70\141\144\151\156\x68\141\x43\157\156\164\162\x6f\154\x6c\x65\162\x40\x70\162\x6f\x63\145\x73\x73\120\162\x69\172\145\40\x2d\x20\123\x61\154\x64\x6f\x20\142\303\xb4\156\165\x73\40\143\x72\x65\144\x69\164\x61\144\157", ["\141\x6d\x6f\165\x6e\164" => $KYeH_["\160\x72\x69\x7a\145\137\166\141\154\165\145"], "\x6f\x6c\x64\137\x62\157\x6e\x75\163\x5f\x62\141\x6c\141\156\x63\145" => $hTAAI->tiNLb - $KYeH_["\160\x72\151\x7a\145\137\x76\x61\154\x75\x65"], "\156\145\x77\137\x62\x6f\x6e\x75\163\x5f\x62\141\154\141\x6e\143\145" => $hTAAI->tiNLb]); goto GNFVd; L34Vl: case "\x72\157\x64\141\144\141\x73\137\147\162\x61\164\151\x73": goto p7Mt3; mtTx9: $tfJX7 = ["\163\165\143\143\145\163\x73" => true, "\155\x65\x73\x73\x61\x67\x65" => "\x52\157\144\141\x64\141\163\x20\147\x72\xc3\xa1\x74\151\163\40\x63\162\x65\x64\151\164\141\144\141\163\40\143\x6f\155\x20\x73\165\x63\145\x73\163\157\41", "\x74\x79\160\x65" => "\162\x6f\144\141\x64\x61\x73\x5f\147\x72\x61\x74\151\163", "\x70\x72\x69\x7a\145\137\x76\141\x6c\x75\145" => $KYeH_["\160\x72\x69\x7a\145\x5f\166\x61\154\x75\145"], "\x66\157\162\x6d\x61\164\164\x65\144\x5f\x70\x72\151\x7a\145" => $KYeH_["\x70\x72\x69\x7a\145\x5f\144\145\163\143\162\x69\x70\164\151\x6f\x6e"]]; goto N4iX4; vuNUk: $hTAAI->save(); goto BtGCJ; BtGCJ: \Log::info("\122\x61\x73\160\x61\x64\151\156\x68\x61\103\x6f\x6e\164\162\x6f\154\x6c\145\x72\100\160\x72\x6f\x63\x65\x73\x73\120\x72\x69\x7a\145\40\x2d\x20\122\x6f\144\141\144\141\x73\40\x67\x72\303\241\164\x69\163\x20\x63\162\145\x64\151\x74\141\144\x61\163", ["\x61\x6d\157\165\x6e\164" => $KYeH_["\x70\162\151\172\x65\x5f\x76\x61\154\x75\145"], "\x6f\x6c\144\x5f\x66\x72\x65\145\x5f\163\x70\151\156\x73" => $hTAAI->vqBxI - $KYeH_["\x70\162\x69\172\145\137\166\x61\x6c\165\145"], "\156\x65\167\x5f\146\x72\145\x65\x5f\163\x70\151\156\163" => $hTAAI->vqBxI]); goto mtTx9; p7Mt3: $hTAAI->vqBxI += $KYeH_["\x70\x72\x69\172\145\x5f\x76\x61\154\x75\x65"]; goto vuNUk; N4iX4: goto Op2wW; goto d6E9s; d6E9s: case "\x70\x72\157\x64\x75\x74\157": goto rcjdM; rcjdM: \Log::info("\x52\141\x73\x70\x61\x64\151\x6e\150\141\103\157\x6e\164\x72\x6f\x6c\x6c\145\x72\x40\x70\x72\157\x63\x65\x73\x73\120\x72\x69\x7a\x65\x20\55\x20\120\162\157\144\x75\164\157\40\x70\x72\x65\x6d\x69\x61\144\x6f", ["\160\x72\x6f\x64\x75\x63\164\137\156\141\x6d\x65" => $r2ERN->name ?? "\120\x72\x6f\144\x75\164\x6f\40\x64\x65\x73\x63\157\x6e\x68\145\x63\151\x64\x6f"]); goto oPJ_W; oPJ_W: $tfJX7 = ["\163\165\x63\143\145\163\x73" => true, "\x6d\145\x73\x73\141\147\x65" => "\120\162\x6f\x64\165\x74\157\40\x70\162\145\x6d\151\x61\x64\x6f\41\x20\x45\156\x74\x72\x65\40\x65\x6d\x20\x63\157\156\164\x61\x74\x6f\40\x70\141\162\x61\40\162\x65\x74\151\162\141\144\141\56", "\164\x79\x70\145" => "\160\162\157\x64\165\164\157", "\160\162\151\172\145\137\x76\141\154\165\x65" => 0, "\x66\x6f\162\x6d\x61\x74\x74\145\144\x5f\160\162\x69\x7a\145" => $KYeH_["\160\x72\151\172\145\137\x64\x65\x73\x63\x72\x69\160\x74\151\x6f\x6e"], "\x70\162\157\144\165\x63\164\137\144\x65\x73\x63\x72\x69\160\164\151\x6f\x6e" => $r2ERN->bmYeh ?? '']; goto rjjpA; rjjpA: goto Op2wW; goto mMlee; mMlee: default: goto HUG33; HUG33: \Log::msV8l("\122\141\163\160\x61\x64\151\x6e\150\x61\x43\157\x6e\164\162\157\x6c\154\145\162\x40\x70\x72\x6f\x63\x65\x73\163\120\162\151\172\x65\x20\55\40\124\151\x70\157\x20\144\x65\40\x70\x72\xc3\xaa\155\151\x6f\40\144\x65\x73\143\x6f\156\x68\x65\143\151\x64\157", ["\160\x72\x69\x7a\145\x5f\x74\171\160\x65" => $v5owg]); goto mOGlH; L2HVz: goto Op2wW; goto tpLc5; kwSvT: $hTAAI->save(); goto ucN_1; ucN_1: $tfJX7 = ["\x73\x75\143\x63\x65\x73\163" => true, "\x6d\x65\x73\x73\x61\x67\145" => "\120\162\xc3\252\x6d\151\x6f\x20\x63\162\x65\144\151\164\141\144\x6f\x20\x63\x6f\155\40\x73\165\143\145\x73\x73\157\x21", "\164\x79\x70\145" => "\x73\x61\154\144\x6f\x5f\162\x65\141\x6c", "\x70\162\x69\172\x65\137\x76\x61\154\x75\145" => $KYeH_["\160\162\x69\172\x65\x5f\166\x61\x6c\x75\x65"], "\146\157\x72\155\x61\x74\164\145\x64\137\x70\x72\x69\x7a\145" => $KYeH_["\160\x72\x69\x7a\x65\x5f\144\x65\163\143\x72\151\x70\164\151\157\156"]]; goto L2HVz; mOGlH: $hTAAI->AqmcG += $KYeH_["\x70\162\151\x7a\145\137\x76\141\154\165\145"]; goto kwSvT; tpLc5: } goto J7Jyp; S3VHq: if (!(!$v5owg && $r2ERN)) { goto gRmpY; } goto TWpss; ItaCU: $v5owg = $KYeH_["\160\x72\x69\172\145\137\x74\171\x70\x65"]; goto S3VHq; aUJOz: rpE1u::create(["\146\151\x65\x6c\144\x5f\x6e\141\x6d\x65" => "\x52\141\x73\160\141\x64\151\x6e\x68\141\x20\55\40\x50\x72\xc3\252\x6d\x69\157", "\x6f\x6c\x64\x5f\x76\141\x6c\x75\145" => $XP4C8, "\156\145\167\x5f\166\141\x6c\x75\x65" => $hTAAI->AqmcG, "\165\x70\x64\x61\164\145\144\137\142\x79" => 1, "\165\x73\x65\x72\137\x69\144" => $e5HVA->id, "\164\x79\x70\x65" => 1, "\154\x6f\147" => "\120\162\303\xaa\155\151\157\40\x64\145\40\x72\x61\x73\x70\141\x64\x69\156\150\141\x3a\x20{$KYeH_["\x70\x72\x69\x7a\145\x5f\x64\x65\x73\143\x72\151\160\164\x69\x6f\156"]}\x20\55\x20\124\151\x70\157\72\x20{$v5owg}\x20\55\x20\126\141\x6c\157\162\72\40\x52\x24\40" . number_format($KYeH_["\x70\x72\151\172\x65\137\166\x61\154\x75\x65"], 2, "\54", "\56")]); goto hONrm; MBN4d: if ($v5owg) { goto CGyUL; } goto zbjCa; p4LW3: } protected function jtOmR($KYeH_) { goto ucolc; yiY2B: SIQzy: goto THhEN; aEcTM: return "\x52\x24\40" . number_format($KYeH_["\160\162\x69\172\145\137\x76\x61\154\x75\145"], 2, "\54", "\x2e"); goto yiY2B; ucolc: if (!$KYeH_["\x68\x61\163\137\160\162\x69\172\145"]) { goto SIQzy; } goto aEcTM; THhEN: return "\122\44\40\x30\54\60\60"; goto sZ1_Y; sZ1_Y: } }
+
+namespace App\Http\Controllers;
+
+use App\Models\Raspadinha;
+use App\Models\RaspadinhaHistory;
+use App\Models\Admin\Logs;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
+
+class RaspadinhaController extends Controller
+{
+    /**
+     * Mostrar página principal das raspadinhas
+     */
+    public function index()
+    {
+        $perPage = 12; // Número de raspadinhas por página
+        
+        $query = Raspadinha::active()->with('items');
+        
+        // Aplicar filtros se existirem
+        if (request()->filled('status') && request('status') !== 'all') {
+            if (request('status') === 'active') {
+                $query->where('is_active', true);
+            } elseif (request('status') === 'inactive') {
+                $query->where('is_active', false);
+            }
+        }
+        
+        if (request()->filled('price') && request('price') !== 'all') {
+            switch (request('price')) {
+                case 'low':
+                    $query->where('price', '<=', 5.00);
+                    break;
+                case 'medium':
+                    $query->whereBetween('price', [5.01, 20.00]);
+                    break;
+                case 'high':
+                    $query->where('price', '>', 20.00);
+                    break;
+            }
+        }
+        
+        if (request()->filled('search')) {
+            $searchTerm = request('search');
+            $query->where(function($q) use ($searchTerm) {
+                $q->where('name', 'like', "%{$searchTerm}%")
+                  ->orWhere('description', 'like', "%{$searchTerm}%");
+            });
+        }
+        
+        $total = $query->count();
+        $raspadinhas = $query->take($perPage)->get();
+        $current = min($perPage, $total);
+        
+        // Buscar ganhadores recentes
+        $recentWinners = RaspadinhaHistory::with(['user', 'raspadinha'])
+            ->where('amount_won', '>', 0)
+            ->orderBy('created_at', 'desc')
+            ->limit(10)
+            ->get();
+
+        return view('raspadinha.index', compact('raspadinhas', 'recentWinners', 'current', 'total'));
+    }
+
+    /**
+     * Carregar mais raspadinhas via AJAX
+     */
+    public function carregarMais(Request $request)
+    {
+        $page = $request->get('page', 1);
+        $perPage = $request->get('per_page', 12);
+        $offset = ($page - 1) * $perPage;
+        
+        $query = Raspadinha::active()->with('items');
+        
+        // Aplicar filtros
+        if ($request->filled('status') && $request->status !== 'all') {
+            if ($request->status === 'active') {
+                $query->where('is_active', true);
+            } elseif ($request->status === 'inactive') {
+                $query->where('is_active', false);
+            }
+        }
+        
+        // Filtro de múltiplos status
+        if ($request->filled('statuses')) {
+            $statuses = json_decode($request->statuses, true);
+            if (is_array($statuses) && count($statuses) > 0) {
+                $query->where(function($q) use ($statuses) {
+                    foreach ($statuses as $status) {
+                        if ($status === 'active') {
+                            $q->orWhere('is_active', true);
+                        } elseif ($status === 'inactive') {
+                            $q->orWhere('is_active', false);
+                        }
+                    }
+                });
+            }
+        }
+        
+        if ($request->filled('price') && $request->price !== 'all') {
+            switch ($request->price) {
+                case 'low':
+                    $query->where('price', '<=', 5.00);
+                    break;
+                case 'medium':
+                    $query->whereBetween('price', [5.01, 20.00]);
+                    break;
+                case 'high':
+                    $query->where('price', '>', 20.00);
+                    break;
+            }
+        }
+        
+        // Filtro de múltiplos preços
+        if ($request->filled('prices')) {
+            $prices = json_decode($request->prices, true);
+            if (is_array($prices) && count($prices) > 0) {
+                $query->where(function($q) use ($prices) {
+                    foreach ($prices as $price) {
+                        switch ($price) {
+                            case 'low':
+                                $q->orWhere('price', '<=', 5.00);
+                                break;
+                            case 'medium':
+                                $q->orWhereBetween('price', [5.01, 20.00]);
+                                break;
+                            case 'high':
+                                $q->orWhere('price', '>', 20.00);
+                                break;
+                        }
+                    }
+                });
+            }
+        }
+        
+        if ($request->filled('search')) {
+            $searchTerm = $request->search;
+            $query->where(function($q) use ($searchTerm) {
+                $q->where('name', 'like', "%{$searchTerm}%")
+                  ->orWhere('description', 'like', "%{$searchTerm}%");
+            });
+        }
+        
+        $total = $query->count();
+        $raspadinhas = $query->skip($offset)->take($perPage)->get();
+        
+        // Preparar dados das raspadinhas para AJAX
+        $raspadinhasData = $raspadinhas->map(function($raspadinha) {
+            $stats = $raspadinha->getProbabilityStats();
+            $prizeTypes = $raspadinha->items()->active()
+                ->selectRaw('DISTINCT premio_type')
+                ->pluck('premio_type')
+                ->map(function($type) {
+                    return match($type ?? 'saldo_real') {
+                        'saldo_real' => '💰',
+                        'saldo_bonus' => '🎁',
+                        'rodadas_gratis' => '🎰',
+                        'produto' => '📱',
+                        default => '💰'
+                    };
+                })
+                ->join(' ');
+            
+            return [
+                'id' => $raspadinha->id,
+                'name' => $raspadinha->name,
+                'description' => $raspadinha->description ?? 'Raspe e ganhe!',
+                'price' => $raspadinha->price,
+                'turbo_price' => $raspadinha->turbo_price,
+                'image_url' => $raspadinha->image_url ?? asset('img/raspadinha/default.png'),
+                'win_chance' => $stats['win_chance'] ?? 0,
+                'prize_types' => $prizeTypes ?: '💰'
+            ];
+        });
+        
+        return response()->json([
+            'success' => true,
+            'raspadinhas' => $raspadinhasData,
+            'page' => $page,
+            'total' => $total,
+            'per_page' => $perPage,
+            'has_more' => ($offset + $perPage) < $total
+        ]);
+    }
+
+    /**
+     * Mostrar página de jogo de uma raspadinha específica
+     */
+    public function show(Raspadinha $raspadinha)
+    {
+        if (!$raspadinha->is_active) {
+            return redirect()->route('raspadinha.index')
+                ->with('error', 'Esta raspadinha não está disponível.');
+        }
+
+        // Verificar se o usuário está autenticado
+        if (!Auth::check()) {
+            return redirect()->route('home')
+                ->with('error', 'Você precisa estar logado para acessar a raspadinha.');
+        }
+
+        // Detectar se é mobile e redirecionar para versão mobile
+        $userAgent = request()->header('User-Agent', '');
+        $isMobile = preg_match('/(android|iphone|ipad|ipod|mobile|blackberry|opera mini|windows phone|iemobile|webos|palm|symbian)/i', $userAgent);
+        
+        // Verificar também pela largura da tela via cookie ou header
+        $screenWidth = request()->header('X-Screen-Width');
+        if ($screenWidth && $screenWidth <= 768) {
+            $isMobile = true;
+        }
+        
+        if ($isMobile) {
+            return redirect()->route('raspadinha.show.mobile', $raspadinha);
+        }
+
+        $user = Auth::user();
+        
+        // Buscar prêmios recentes desta raspadinha
+        $recentPrizes = RaspadinhaHistory::with('user')
+            ->where('raspadinha_id', $raspadinha->id)
+            ->where('amount_won', '>', 0)
+            ->orderBy('created_at', 'desc')
+            ->limit(5)
+            ->get();
+
+        // Estatísticas do usuário
+        $userStats = [
+            'total_plays' => RaspadinhaHistory::getTotalPlaysByUser($user->id),
+            'total_won' => RaspadinhaHistory::getTotalWonByUser($user->id),
+            'total_invested' => RaspadinhaHistory::getTotalInvestedByUser($user->id),
+        ];
+
+        return view('raspadinha.game', compact('raspadinha', 'recentPrizes', 'userStats'));
+    }
+
+    /**
+     * Exibir página de jogo da raspadinha para mobile
+     */
+    public function showMobile(Raspadinha $raspadinha)
+    {
+        if (!$raspadinha->is_active) {
+            return redirect()->route('raspadinha.index')
+                ->with('error', 'Esta raspadinha não está disponível.');
+        }
+
+        // Verificar se o usuário está autenticado
+        if (!Auth::check()) {
+            return redirect()->route('home')
+                ->with('error', 'Você precisa estar logado para acessar a raspadinha.');
+        }
+
+        // Detectar se é desktop e redirecionar para versão desktop
+        $userAgent = request()->header('User-Agent');
+        $isMobile = preg_match('/(android|iphone|ipad|mobile|blackberry|opera mini)/i', $userAgent);
+        
+        if (!$isMobile) {
+            return redirect()->route('raspadinha.show', $raspadinha);
+        }
+
+        $user = Auth::user();
+        
+        // Buscar prêmios recentes desta raspadinha
+        $recentPrizes = RaspadinhaHistory::with('user')
+            ->where('raspadinha_id', $raspadinha->id)
+            ->where('amount_won', '>', 0)
+            ->orderBy('created_at', 'desc')
+            ->limit(5)
+            ->get();
+
+        // Estatísticas do usuário
+        $userStats = [
+            'total_plays' => RaspadinhaHistory::getTotalPlaysByUser($user->id),
+            'total_won' => RaspadinhaHistory::getTotalWonByUser($user->id),
+            'total_invested' => RaspadinhaHistory::getTotalInvestedByUser($user->id),
+        ];
+
+        return view('raspadinha.game_mobile', compact('raspadinha', 'recentPrizes', 'userStats'));
+    }
+
+    /**
+     * Jogar raspadinha (uma única vez)
+     */
+    public function play(Request $request, Raspadinha $raspadinha)
+    {
+        $validator = Validator::make($request->all(), [
+            'is_turbo' => 'boolean',
+            'session_token' => 'sometimes|string',
+            'csrf_token' => 'sometimes|string',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['success' => false, 'message' => 'Dados inválidos']);
+        }
+
+        if (!$raspadinha->is_active) {
+            return response()->json(['success' => false, 'message' => 'Esta raspadinha não está disponível']);
+        }
+
+        $user = Auth::user();
+        $securityService = app(\App\Services\RaspadinhaSecurityService::class);
+        
+        // Validar token CSRF se fornecido
+        if ($request->has('csrf_token')) {
+            if (!$securityService->validateAntiCSRFToken($request->csrf_token, $user->id, 'play')) {
+                return response()->json(['success' => false, 'message' => 'Token de segurança inválido']);
+            }
+        }
+
+        $wallet = $user->wallet;
+        
+        if (!$wallet) {
+            // Tentar criar carteira se não existir
+            try {
+                $wallet = Wallet::create([
+                    'user_id' => $user->id,
+                    'balance' => 0.00,
+                    'balance_bonus' => 0.00,
+                    'coin' => 0,
+                    'free_spins' => 0
+                ]);
+            } catch (\Exception $e) {
+                return response()->json(['success' => false, 'message' => 'Erro ao acessar carteira. Contate o suporte.']);
+            }
+        }
+
+        $isTurbo = $request->boolean('is_turbo');
+        $price = $isTurbo ? $raspadinha->turbo_price : $raspadinha->price;
+
+        // Verificar saldo
+        if ($wallet->balance < $price) {
+            return response()->json([
+                'success' => false, 
+                'message' => 'Saldo insuficiente. Você precisa de R$ ' . number_format($price, 2, ',', '.')
+            ]);
+        }
+
+        return DB::transaction(function () use ($raspadinha, $user, $wallet, $price, $isTurbo, $request) {
+            try {
+                $securityService = app(\App\Services\RaspadinhaSecurityService::class);
+                
+                // Debitar valor da carteira IMEDIATAMENTE
+                $oldBalance = $wallet->balance;
+                $wallet->balance -= $price;
+                $wallet->save();
+
+                // Gerar resultados (aplicar boost se for turbo)
+                $results = $raspadinha->generateResults($isTurbo);
+                $prizeInfo = $raspadinha->calculatePrize($results);
+                
+                // Adicionar timestamp para validação
+                $gameData = [
+                    'results' => $results,
+                    'prize_info' => $prizeInfo,
+                    'timestamp' => now()->timestamp,
+                    'is_turbo' => $isTurbo,
+                    'price_paid' => $price
+                ];
+
+                // Encontrar o item premiado se houver
+                $prizedItem = null;
+                if ($prizeInfo['has_prize']) {
+                    $prizedItem = $raspadinha->items()
+                        ->where('id', $prizeInfo['item_id'])
+                        ->where('is_active', true)
+                        ->first();
+                }
+
+                // Criar histórico com status 'pending' (prêmio ainda não foi processado)
+                $history = RaspadinhaHistory::create([
+                    'user_id' => $user->id,
+                    'raspadinha_id' => $raspadinha->id,
+                    'raspadinha_item_id' => $prizedItem ? $prizedItem->id : null,
+                    'amount_paid' => $price,
+                    'amount_won' => $prizeInfo['prize_value'],
+                    'is_turbo' => $isTurbo,
+                    'is_auto' => false,
+                    'status' => 'pending', // Status pending até raspar
+                    'results' => $results,
+                    'prize_type' => $prizeInfo['prize_type'],
+                    'prize_description' => $prizeInfo['prize_description'],
+                ]);
+
+                // Criar sessão segura de jogo
+                $gameData['history_id'] = $history->id;
+                $sessionInfo = $securityService->createGameSession($user->id, $raspadinha->id, $gameData);
+                
+                // Atualizar sessão para estado 'playing'
+                $securityService->updateSessionState($sessionInfo['session_id'], 'playing', ['history_id' => $history->id]);
+
+                // NÃO processar prêmio ainda - será processado em claimPrize()
+
+                // Log da jogada (apenas débito)
+                Logs::create([
+                    'field_name' => 'Raspadinha - Jogada',
+                    'old_value' => $oldBalance,
+                    'new_value' => $wallet->balance,
+                    'updated_by' => 1,
+                    'user_id' => $user->id,
+                    'type' => 1,
+                    'log' => "Jogada em raspadinha: R$ {$price} - {$raspadinha->name}" . ($isTurbo ? ' (Turbo)' : '') . ' - Aguardando raspagem'
+                ]);
+
+                // Gerar grid 3x3 para exibição baseado na lógica de vitória/derrota
+                $items = $raspadinha->items()->active()->get();
+                $grid = [];
+                
+                if ($prizeInfo['has_prize']) {
+                    // VITÓRIA: Mostrar exatamente 3x o item premiado + 6 outros diferentes
+                    $winningItemId = $prizeInfo['item_id'];
+                    
+                    // Adicionar 3x o item vencedor
+                    for ($i = 0; $i < 3; $i++) {
+                        $grid[] = $winningItemId;
+                    }
+                    
+                    // Adicionar 6 itens diferentes (não repetir o item vencedor)
+                    $otherItems = $items->where('id', '!=', $winningItemId);
+                    $usedItems = [$winningItemId]; // Controlar itens já usados
+                    
+                    for ($i = 0; $i < 6; $i++) {
+                        // Buscar items que ainda não foram usados muito
+                        $availableItems = $otherItems->filter(function($item) use ($usedItems) {
+                            $itemCount = array_count_values($usedItems)[$item->id] ?? 0;
+                            return $itemCount < 2; // Máximo 2 de cada item não vencedor
+                        });
+                        
+                        if ($availableItems->count() > 0) {
+                            $selectedItem = $availableItems->random();
+                            $grid[] = $selectedItem->id;
+                            $usedItems[] = $selectedItem->id;
+                        } else {
+                            // Se não há items disponíveis, usar items com valor 0.00
+                            $zeroValueItems = $items->where('value', 0.00)->where('id', '!=', $winningItemId);
+                            if ($zeroValueItems->count() > 0) {
+                                $selectedItem = $zeroValueItems->random();
+                                $grid[] = $selectedItem->id;
+                            } else {
+                                // Fallback: usar qualquer item diferente do vencedor
+                                if ($otherItems->count() > 0) {
+                                    $grid[] = $otherItems->random()->id;
+                                }
+                            }
+                        }
+                    }
+                } else {
+                    // DERROTA: Garantir que nenhum item aparece 3 vezes
+                    $itemCounts = [];
+                    
+                    for ($i = 0; $i < 9; $i++) {
+                        // Filtrar items que ainda podem ser usados (máximo 2 vezes cada)
+                        $availableItems = $items->filter(function($item) use ($itemCounts) {
+                            return ($itemCounts[$item->id] ?? 0) < 2;
+                        });
+                        
+                        if ($availableItems->count() > 0) {
+                            $selectedItem = $availableItems->random();
+                            $itemCounts[$selectedItem->id] = ($itemCounts[$selectedItem->id] ?? 0) + 1;
+                            $grid[] = $selectedItem->id;
+                        } else {
+                            // Se não há items disponíveis, usar qualquer item
+                            $selectedItem = $items->random();
+                            $grid[] = $selectedItem->id;
+                        }
+                    }
+                }
+                
+                // Embaralhar o grid para randomizar as posições
+                shuffle($grid);
+
+                return response()->json([
+                    'success' => true,
+                    'results' => $results,
+                    'grid' => $grid, // Grid 3x3 para exibição
+                    'prize_info' => $prizeInfo,
+                    'prize_value' => $prizeInfo['prize_value'],
+                    'amount_won' => $prizeInfo['prize_value'],
+                    'formatted_prize' => $this->formatPrizeDisplay($prizeInfo),
+                    'new_balance' => $wallet->balance, // Saldo após débito, mas antes do prêmio
+                    'formatted_balance' => 'R$ ' . number_format($wallet->balance, 2, ',', '.'),
+                    'is_winner' => $prizeInfo['has_prize'],
+                    'history_id' => $history->id, // ID necessário para claimPrize
+                    'session_token' => $sessionInfo['session_token'], // Token de segurança da sessão
+                    'session_expires' => $sessionInfo['expires_at'],
+                    'game_checksum' => $securityService->generateGameDataChecksum($gameData, $user->id, $raspadinha->id),
+                    'items' => $raspadinha->items()->active()->get()->map(function($item) {
+                        return [
+                            'id' => $item->id,
+                            'name' => $item->name,
+                            'image_url' => $item->image_url,
+                            'formatted_value' => $item->formatted_value,
+                            'premio_description' => $item->premio_description,
+                            'is_product' => $item->isProduct()
+                        ];
+                    })
+                ]);
+
+            } catch (\Exception $e) {
+                \Log::error('RaspadinhaController@play - Error in transaction: ' . $e->getMessage());
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro interno. Tente novamente.'
+                ]);
+            }
+        });
+    }
+
+    /**
+     * Processar prêmio após raspagem
+     */
+    public function claimPrize(Request $request, Raspadinha $raspadinha)
+    {
+        $validator = Validator::make($request->all(), [
+            'history_id' => 'required|integer|exists:raspadinha_history,id',
+            'session_token' => 'sometimes|string', // Tornar opcional
+            'game_checksum' => 'sometimes|string',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['success' => false, 'message' => 'Dados inválidos']);
+        }
+
+        $user = Auth::user();
+        $historyId = $request->input('history_id');
+        $sessionToken = $request->input('session_token');
+        $gameChecksum = $request->input('game_checksum');
+        
+        $securityService = app(\App\Services\RaspadinhaSecurityService::class);
+        
+        // VALIDAÇÃO CRÍTICA: Verificar sessão apenas se o token foi fornecido
+        if ($sessionToken && !$securityService->validateClaimPrize($sessionToken, $historyId)) {
+            return response()->json(['success' => false, 'message' => 'Sessão inválida ou expirada']);
+        }
+
+        // Buscar o histórico
+        $history = RaspadinhaHistory::where('id', $historyId)
+            ->where('user_id', $user->id)
+            ->where('status', 'pending')
+            ->first();
+
+        if (!$history) {
+            return response()->json(['success' => false, 'message' => 'Jogo não encontrado ou já processado']);
+        }
+
+        return DB::transaction(function () use ($history, $user, $raspadinha, $sessionToken, $gameChecksum, $securityService) {
+            try {
+                $wallet = $user->wallet;
+                if (!$wallet) {
+                    return response()->json(['success' => false, 'message' => 'Carteira não encontrada']);
+                }
+                
+                // Atualizar estado da sessão para 'claiming' apenas se temos sessionToken
+                $sessionData = null;
+                if ($sessionToken) {
+                    $sessionData = $securityService->validateGameSession($sessionToken, $user->id);
+                    if ($sessionData) {
+                        $securityService->updateSessionState($sessionData['session_id'], 'claiming');
+                    }
+                }
+
+                // Reconstruir informações do prêmio
+                $prizeInfo = [
+                    'has_prize' => $history->amount_won > 0,
+                    'prize_value' => $history->amount_won,
+                    'prize_type' => $history->prize_type,
+                    'prize_description' => $history->prize_description,
+                    'item_id' => $history->raspadinha_item_id
+                ];
+
+                $prizedItem = null;
+                if ($history->raspadinha_item_id) {
+                    $prizedItem = $raspadinha->items()
+                        ->where('id', $history->raspadinha_item_id)
+                        ->where('is_active', true)
+                        ->first();
+                }
+
+                // Processar prêmio AGORA
+                $prizeProcessed = $this->processPrize($user, $wallet, $prizeInfo, $prizedItem);
+
+                // Atualizar status do histórico para 'completed'
+                $history->status = 'completed';
+                $history->save();
+
+                // Finalizar sessão de segurança apenas se temos sessionData
+                if ($sessionData) {
+                    $securityService->updateSessionState($sessionData['session_id'], 'completed');
+                }
+
+                // Recarregar carteira para obter saldo atualizado
+                $wallet->refresh();
+
+                return response()->json([
+                    'success' => true,
+                    'prize_processed' => $prizeProcessed,
+                    'new_balance' => $wallet->balance,
+                    'new_bonus_balance' => $wallet->balance_bonus,
+                    'new_free_spins' => $wallet->free_spins,
+                    'formatted_balance' => 'R$ ' . number_format($wallet->balance, 2, ',', '.'),
+                    'formatted_bonus_balance' => 'R$ ' . number_format($wallet->balance_bonus, 2, ',', '.'),
+                    'is_winner' => $prizeInfo['has_prize'],
+                    'amount_won' => $prizeInfo['prize_value'],
+                    'prize_info' => $prizeInfo
+                ]);
+
+            } catch (\Exception $e) {
+                \Log::error('RaspadinhaController@claimPrize - Error in transaction: ' . $e->getMessage());
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro interno ao processar prêmio.'
+                ]);
+            }
+        });
+    }
+
+    /**
+     * Jogar raspadinha automaticamente (múltiplas vezes)
+     */
+    public function playAuto(Request $request, Raspadinha $raspadinha)
+    {
+        $validator = Validator::make($request->all(), [
+            'quantity' => 'required|integer|min:1|max:100',
+            'is_turbo' => 'boolean',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json(['success' => false, 'message' => 'Dados inválidos']);
+        }
+
+        if (!$raspadinha->is_active) {
+            return response()->json(['success' => false, 'message' => 'Esta raspadinha não está disponível']);
+        }
+
+        $user = Auth::user();
+        $wallet = $user->wallet;
+        
+        if (!$wallet) {
+            return response()->json(['success' => false, 'message' => 'Carteira não encontrada']);
+        }
+
+        $quantity = $request->integer('quantity');
+        $isTurbo = $request->boolean('is_turbo');
+        $price = $isTurbo ? $raspadinha->turbo_price : $raspadinha->price;
+        $totalCost = $price * $quantity;
+
+        // Verificar saldo
+        if ($wallet->balance < $totalCost) {
+            return response()->json([
+                'success' => false, 
+                'message' => 'Saldo insuficiente. Você precisa de R$ ' . number_format($totalCost, 2, ',', '.')
+            ]);
+        }
+
+        return DB::transaction(function () use ($raspadinha, $user, $wallet, $price, $quantity, $isTurbo, $totalCost) {
+            try {
+                $oldBalance = $wallet->balance;
+                $results = [];
+                $totalPrize = 0;
+
+                // Debitar valor total da carteira
+                $wallet->balance -= $totalCost;
+                $wallet->save();
+
+                // Jogar múltiplas vezes
+                for ($i = 0; $i < $quantity; $i++) {
+                    $gameResults = $raspadinha->generateResults($isTurbo);
+                    $prizeInfo = $raspadinha->calculatePrize($gameResults);
+                    
+                    // Encontrar o item premiado se houver
+                    $prizedItem = null;
+                    if ($prizeInfo['has_prize']) {
+                        $prizedItem = $raspadinha->items()
+                            ->where('id', $prizeInfo['item_id'])
+                            ->where('is_active', true)
+                            ->first();
+                    }
+
+                    // Criar histórico para cada jogada
+                    $history = RaspadinhaHistory::create([
+                        'user_id' => $user->id,
+                        'raspadinha_id' => $raspadinha->id,
+                        'raspadinha_item_id' => $prizedItem ? $prizedItem->id : null,
+                        'amount_paid' => $price,
+                        'amount_won' => $prizeInfo['prize_value'],
+                        'prize_type' => $prizeInfo['prize_type'],
+                        'prize_description' => $prizeInfo['prize_description'],
+                        'is_turbo' => $isTurbo,
+                        'is_auto' => true,
+                        'auto_quantity' => $quantity,
+                        'status' => 'completed',
+                        'results' => $gameResults,
+                    ]);
+
+                    $results[] = [
+                        'game' => $i + 1,
+                        'results' => $gameResults,
+                        'prize_info' => $prizeInfo,
+                        'prize_value' => $prizeInfo['prize_value'],
+                        'history_id' => $history->id,
+                        'is_winner' => $prizeInfo['has_prize']
+                    ];
+
+                    $totalPrize += $prizeInfo['prize_value'];
+                }
+
+                // Processar prêmios por tipo
+                $realBalance = 0;
+                $bonusBalance = 0;
+                $freeSpins = 0;
+                
+                foreach ($results as $result) {
+                    if ($result['prize_info']['has_prize']) {
+                        switch ($result['prize_info']['prize_type']) {
+                            case 'saldo_real':
+                                $realBalance += $result['prize_info']['prize_value'];
+                                break;
+                            case 'saldo_bonus':
+                                $bonusBalance += $result['prize_info']['prize_value'];
+                                break;
+                            case 'rodadas_gratis':
+                                $freeSpins += $result['prize_info']['prize_value'];
+                                break;
+                            // Produtos não creditam valor monetário
+                        }
+                    }
+                }
+
+                // Creditar prêmios nas colunas apropriadas
+                $balanceUpdated = false;
+                if ($realBalance > 0) {
+                    $wallet->balance += $realBalance;
+                    $balanceUpdated = true;
+                }
+                if ($bonusBalance > 0) {
+                    $wallet->balance_bonus += $bonusBalance;
+                    $balanceUpdated = true;
+                }
+                if ($freeSpins > 0) {
+                    $wallet->free_spins += $freeSpins;
+                    $balanceUpdated = true;
+                }
+                
+                if ($balanceUpdated) {
+                    $wallet->save();
+
+                    // Log do prêmio total
+                    $logMessages = [];
+                    if ($realBalance > 0) $logMessages[] = "Saldo Real: R$ {$realBalance}";
+                    if ($bonusBalance > 0) $logMessages[] = "Saldo Bônus: R$ {$bonusBalance}";
+                    if ($freeSpins > 0) $logMessages[] = "Rodadas Grátis: {$freeSpins}";
+                    
+                    Logs::create([
+                        'field_name' => 'Raspadinha - Prêmio Auto',
+                        'old_value' => $oldBalance - $totalCost,
+                        'new_value' => $wallet->balance,
+                        'updated_by' => 1,
+                        'user_id' => $user->id,
+                        'type' => 1,
+                        'log' => "Prêmios de {$quantity} raspadinhas: " . implode(', ', $logMessages) . " - {$raspadinha->name}"
+                    ]);
+                }
+
+                // Log da jogada auto
+                Logs::create([
+                    'field_name' => 'Raspadinha - Jogada Auto',
+                    'old_value' => $oldBalance,
+                    'new_value' => $oldBalance - $totalCost,
+                    'updated_by' => 1,
+                    'user_id' => $user->id,
+                    'type' => 1,
+                    'log' => "Jogada automática de {$quantity} raspadinhas: R$ {$totalCost} - {$raspadinha->name}" . ($isTurbo ? ' (Turbo)' : '')
+                ]);
+
+                return response()->json([
+                    'success' => true,
+                    'results' => $results,
+                    'total_cost' => $totalCost,
+                    'total_prize' => $totalPrize,
+                    'prizes' => [
+                        'saldo_real' => $realBalance,
+                        'saldo_bonus' => $bonusBalance,
+                        'rodadas_gratis' => $freeSpins,
+                        'formatted_real' => 'R$ ' . number_format($realBalance, 2, ',', '.'),
+                        'formatted_bonus' => 'R$ ' . number_format($bonusBalance, 2, ',', '.'),
+                        'formatted_spins' => $freeSpins . ' rodadas grátis'
+                    ],
+                    'formatted_total_cost' => 'R$ ' . number_format($totalCost, 2, ',', '.'),
+                    'formatted_total_prize' => 'R$ ' . number_format($totalPrize, 2, ',', '.'),
+                    'new_balance' => $wallet->balance,
+                    'new_bonus_balance' => $wallet->balance_bonus,
+                    'new_free_spins' => $wallet->free_spins,
+                    'formatted_balance' => 'R$ ' . number_format($wallet->balance, 2, ',', '.'),
+                    'formatted_bonus_balance' => 'R$ ' . number_format($wallet->balance_bonus, 2, ',', '.'),
+                    'quantity' => $quantity,
+                    'winners_count' => count(array_filter($results, function($r) { return $r['is_winner']; }))
+                ]);
+
+            } catch (\Exception $e) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Erro interno. Tente novamente.'
+                ]);
+            }
+        });
+    }
+
+    /**
+     * Histórico de jogadas do usuário
+     */
+    public function history(Request $request)
+    {
+        $user = Auth::user();
+        
+        $history = RaspadinhaHistory::with(['raspadinha', 'raspadinhaItem'])
+            ->where('user_id', $user->id)
+            ->orderBy('created_at', 'desc')
+            ->paginate(20);
+
+        return view('raspadinha.history', compact('history'));
+    }
+
+    /**
+     * Obter saldo atual do usuário via AJAX
+     */
+    public function getBalance()
+    {
+        $user = Auth::user();
+        
+        if (!$user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado'
+            ], 401);
+        }
+        
+        $wallet = $user->wallet;
+        
+        if (!$wallet) {
+            return response()->json([
+                'success' => false,
+                'balance' => 0,
+                'balance_bonus' => 0,
+                'free_spins' => 0,
+                'formatted_balance' => 'R$ 0,00',
+                'formatted_balance_bonus' => 'R$ 0,00',
+                'message' => 'Carteira não encontrada'
+            ]);
+        }
+        
+        return response()->json([
+            'success' => true,
+            'balance' => $wallet->balance,
+            'balance_bonus' => $wallet->balance_bonus,
+            'free_spins' => $wallet->free_spins,
+            'formatted_balance' => 'R$ ' . number_format($wallet->balance, 2, ',', '.'),
+            'formatted_balance_bonus' => 'R$ ' . number_format($wallet->balance_bonus, 2, ',', '.'),
+        ]);
+    }
+
+
+
+         /**
+      * Processar prêmio e creditar na carteira
+      * @param $user
+      * @param $wallet
+      * @param array $prizeInfo
+      * @param $prizedItem
+      * @return array
+      */
+     protected function processPrize($user, $wallet, $prizeInfo, $prizedItem)
+     {
+         \Log::info('RaspadinhaController@processPrize - Iniciando processamento', [
+             'user_id' => $user->id,
+             'has_prize' => $prizeInfo['has_prize'],
+             'prize_value' => $prizeInfo['prize_value'],
+             'prize_type' => $prizeInfo['prize_type'],
+             'item_id' => $prizeInfo['item_id'],
+             'wallet_balance_before' => $wallet->balance
+         ]);
+         
+         $prizeProcessed = [
+             'success' => false,
+             'message' => 'Nenhum prêmio',
+             'type' => 'none'
+         ];
+
+         if ($prizeInfo['has_prize'] && $prizeInfo['prize_value'] > 0) {
+             $oldBalance = $wallet->balance;
+             
+             // Se o prize_type não estiver definido, usar o tipo do item
+             $prizeType = $prizeInfo['prize_type'];
+             if (!$prizeType && $prizedItem) {
+                 $prizeType = $prizedItem->premio_type ?? 'saldo_real';
+             }
+             
+             // Default para saldo_real se não definido
+             if (!$prizeType) {
+                 $prizeType = 'saldo_real';
+             }
+             
+             \Log::info('RaspadinhaController@processPrize - Processando prêmio', [
+                 'prize_type_final' => $prizeType,
+                 'prize_value' => $prizeInfo['prize_value'],
+                 'old_balance' => $oldBalance
+             ]);
+             
+             // Processar baseado no tipo de prêmio
+             switch ($prizeType) {
+                 case 'saldo_real':
+                     // Creditar saldo real
+                     $wallet->balance += $prizeInfo['prize_value'];
+                     $wallet->save();
+                     
+                     \Log::info('RaspadinhaController@processPrize - Saldo real creditado', [
+                         'amount' => $prizeInfo['prize_value'],
+                         'old_balance' => $oldBalance,
+                         'new_balance' => $wallet->balance
+                     ]);
+                     
+                     $prizeProcessed = [
+                         'success' => true,
+                         'message' => 'Saldo real creditado com sucesso!',
+                         'type' => $prizeType,
+                         'prize_value' => $prizeInfo['prize_value'],
+                         'formatted_prize' => $prizeInfo['prize_description']
+                     ];
+                     break;
+                     
+                 case 'saldo_bonus':
+                     // Creditar saldo bônus
+                     $wallet->balance_bonus += $prizeInfo['prize_value'];
+                     $wallet->save();
+                     
+                     \Log::info('RaspadinhaController@processPrize - Saldo bônus creditado', [
+                         'amount' => $prizeInfo['prize_value'],
+                         'old_bonus_balance' => $wallet->balance_bonus - $prizeInfo['prize_value'],
+                         'new_bonus_balance' => $wallet->balance_bonus
+                     ]);
+                     
+                     $prizeProcessed = [
+                         'success' => true,
+                         'message' => 'Saldo bônus creditado com sucesso!',
+                         'type' => $prizeType,
+                         'prize_value' => $prizeInfo['prize_value'],
+                         'formatted_prize' => $prizeInfo['prize_description']
+                     ];
+                     break;
+                     
+                 case 'rodadas_gratis':
+                     // Creditar rodadas grátis
+                     $wallet->free_spins += $prizeInfo['prize_value'];
+                     $wallet->save();
+                     
+                     \Log::info('RaspadinhaController@processPrize - Rodadas grátis creditadas', [
+                         'amount' => $prizeInfo['prize_value'],
+                         'old_free_spins' => $wallet->free_spins - $prizeInfo['prize_value'],
+                         'new_free_spins' => $wallet->free_spins
+                     ]);
+                     
+                     $prizeProcessed = [
+                         'success' => true,
+                         'message' => 'Rodadas grátis creditadas com sucesso!',
+                         'type' => 'rodadas_gratis',
+                         'prize_value' => $prizeInfo['prize_value'],
+                         'formatted_prize' => $prizeInfo['prize_description']
+                     ];
+                     break;
+                     
+                 case 'produto':
+                     // Para produtos físicos, apenas registrar (sem crédito monetário)
+                     \Log::info('RaspadinhaController@processPrize - Produto premiado', [
+                         'product_name' => $prizedItem->name ?? 'Produto desconhecido'
+                     ]);
+                     
+                     $prizeProcessed = [
+                         'success' => true,
+                         'message' => 'Produto premiado! Entre em contato para retirada.',
+                         'type' => 'produto',
+                         'prize_value' => 0, // Produtos não têm valor monetário direto
+                         'formatted_prize' => $prizeInfo['prize_description'],
+                         'product_description' => $prizedItem->product_description ?? ''
+                     ];
+                     break;
+                     
+                 default:
+                     \Log::warning('RaspadinhaController@processPrize - Tipo de prêmio desconhecido', [
+                         'prize_type' => $prizeType
+                     ]);
+                     
+                     // Fallback: tratar como saldo real
+                     $wallet->balance += $prizeInfo['prize_value'];
+                     $wallet->save();
+                     
+                     $prizeProcessed = [
+                         'success' => true,
+                         'message' => 'Prêmio creditado com sucesso!',
+                         'type' => 'saldo_real',
+                         'prize_value' => $prizeInfo['prize_value'],
+                         'formatted_prize' => $prizeInfo['prize_description']
+                     ];
+                     break;
+             }
+
+             // Log do prêmio
+             Logs::create([
+                 'field_name' => 'Raspadinha - Prêmio',
+                 'old_value' => $oldBalance,
+                 'new_value' => $wallet->balance,
+                 'updated_by' => 1,
+                 'user_id' => $user->id,
+                 'type' => 1,
+                 'log' => "Prêmio de raspadinha: {$prizeInfo['prize_description']} - Tipo: {$prizeType} - Valor: R$ " . number_format($prizeInfo['prize_value'], 2, ',', '.')
+             ]);
+
+             // Adicionar informações do item premiado
+             if ($prizedItem) {
+                 $prizeProcessed['prized_item'] = [
+                     'id' => $prizedItem->id,
+                     'name' => $prizedItem->name,
+                     'value' => $prizedItem->value,
+                     'type' => $prizedItem->premio_type,
+                     'description' => $prizedItem->product_description
+                 ];
+             }
+         }
+
+         return $prizeProcessed;
+     }
+
+    /**
+     * Formata o valor do prêmio para exibição.
+     *
+     * @param  array  $prizeInfo
+     * @return string
+     */
+    protected function formatPrizeDisplay($prizeInfo)
+    {
+        if ($prizeInfo['has_prize']) {
+            return 'R$ ' . number_format($prizeInfo['prize_value'], 2, ',', '.');
+        }
+        return 'R$ 0,00';
+    }
+} 

@@ -1,8 +1,149 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:41              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89X\ShTEQ\fn52m\Jkli6; use JF89x\sHteQ\Fn52M\NMp37; use jF89X\T0EtD\yjP77; use Ec3ME\ShtEQ\S9d5T; use eC3Me\h2vuv\p2QH1\LvloX; class iREVw extends NMp37 { public function Jkbs3() { $C1Oap = YJp77::C_MHy("\163\x65\x63\x74\x69\x6f\156\137\153\x65\x79", "\41\75", "\160\x77\x61\137\x69\156\163\164\x61\x6c\154\137\142\x75\x74\x74\157\156")->A9jMh("\x70\157\163\151\164\x69\x6f\156")->get(); return LO0CY("\141\x64\x6d\x69\x6e\x2e\x70\145\162\x73\x6f\156\141\154\151\172\141\143\x61\x6f\56\x73\x65\143\x74\x69\157\156\163\x2d\157\162\x64\145\x72", compact("\163\145\x63\164\x69\x6f\156\163")); } public function g9sAX(S9D5T $WFz1w) { try { goto LoNtX; fuhr2: LVloX::beginTransaction(); goto B2IBU; pbnH3: YJp77::gSrnB(); goto RMse5; olftc: xN7Tq: goto cE9se; zusRd: $uplzQ = array_filter($uplzQ, function ($wvD93) { return $wvD93 !== "\x70\x77\141\x5f\x69\x6e\163\x74\141\154\x6c\137\142\165\x74\164\157\156"; }); goto fuhr2; B2IBU: foreach ($uplzQ as $j0ftQ => $wvD93) { YJP77::c_mhy("\x73\145\x63\x74\151\157\156\137\153\145\x79", $wvD93)->update(["\160\157\x73\151\164\151\x6f\156" => $j0ftQ + 1]); s21Nl: } goto olftc; RMse5: return JGKRl()->sbE1Q(["\163\x75\x63\x63\145\163\163" => true, "\155\x65\x73\163\x61\147\x65" => "\x4f\162\144\x65\x6d\x20\144\141\163\40\163\x65\303\247\xc3\265\145\163\40\141\164\x75\x61\154\x69\x7a\141\144\141\40\x63\x6f\x6d\x20\x73\x75\143\145\163\163\x6f\x21"]); goto qDvYf; cE9se: lvLOx::commit(); goto pbnH3; LoNtX: $uplzQ = $WFz1w->PC2Lr("\163\x65\143\x74\151\157\x6e\163", []); goto zusRd; qDvYf: } catch (\Exception $ai57B) { LVlox::rollback(); return JgKRL()->Sbe1q(["\x73\165\x63\143\145\x73\x73" => false, "\155\x65\163\163\x61\147\x65" => "\105\162\162\157\x20\x61\x6f\40\x61\164\165\141\154\151\172\x61\x72\40\x6f\x72\144\145\155\40\x64\141\x73\x20\163\145\303\247\xc3\265\145\x73\x3a\40" . $ai57B->getMessage()], 500); } } public function BpmBz(S9D5t $WFz1w) { try { goto CYOK_; CYOK_: $wvD93 = $WFz1w->pc2lR("\x73\145\x63\x74\x69\x6f\156\x5f\x6b\145\x79"); goto hP3MV; j6s46: yJP77::GsrNB(); goto xF50e; IUf7O: yjp77::C_mhY("\163\145\x63\x74\x69\x6f\x6e\x5f\x6b\145\x79", $wvD93)->update(["\151\x73\x5f\x61\x63\164\151\166\x65" => $uESOY]); goto j6s46; hP3MV: $uESOY = $WFz1w->PC2Lr("\x69\x73\137\141\143\164\151\x76\145"); goto IUf7O; xF50e: return jGkrl()->sBe1Q(["\x73\165\x63\143\145\x73\163" => true, "\x6d\145\x73\x73\x61\147\x65" => "\123\x74\141\x74\165\x73\x20\x64\x61\40\163\145\xc3\247\xc3\xa3\x6f\x20\141\164\165\141\154\151\172\x61\144\157\x20\x63\x6f\x6d\40\x73\x75\143\145\x73\x73\157\x21"]); goto Ubesj; Ubesj: } catch (\Exception $ai57B) { return JgkRL()->sBE1Q(["\x73\x75\x63\143\145\163\x73" => false, "\x6d\x65\x73\163\141\147\x65" => "\x45\x72\x72\157\40\x61\157\x20\x61\164\165\x61\154\x69\x7a\141\x72\x20\163\x74\x61\164\165\x73\x20\144\x61\x20\x73\x65\xc3\247\xc3\243\x6f\x3a\40" . $ai57B->getMessage()], 500); } } public function YuBUb() { try { goto iqZbB; Io6K8: LVlOx::commit(); goto bbFc4; T7rkF: foreach ($oPdxQ as $wvD93 => $EhRv2) { Yjp77::C_mhY("\x73\x65\x63\x74\151\x6f\x6e\x5f\153\x65\x79", $wvD93)->update(["\x70\x6f\x73\151\x74\151\157\x6e" => $EhRv2, "\151\163\137\141\x63\164\151\x76\x65" => 1]); lfa6z: } goto O3IDB; bbFc4: YJP77::gsRNB(); goto l95HV; O3IDB: LC_pK: goto Io6K8; l95HV: return JGkRL()->SBE1Q(["\163\165\x63\143\x65\163\163" => true, "\155\x65\x73\163\141\147\145" => "\117\162\x64\x65\155\40\144\141\163\x20\163\145\303\247\303\xb5\145\x73\40\x72\x65\163\x65\x74\141\x64\141\x20\160\141\162\141\40\x6f\40\160\x61\x64\162\xc3\xa3\157\41"]); goto i2WKc; MWO0Y: $oPdxQ = ["\163\145\x61\162\x63\x68\x5f\x62\x61\x72" => 1, "\x70\x72\x6f\x6d\x6f\x5f\142\x61\x6e\x6e\145\x72\163" => 2, "\155\145\x6e\x75\x5f\151\143\157\156\x73" => 3, "\x74\157\160\137\x77\x69\x6e\163" => 4, "\x6d\x69\156\x69\x5f\142\x61\156\x6e\x65\162\x73" => 5, "\155\x6f\144\x6f\x5f\x73\165\x72\160\x72\145\163\x61" => 6, "\163\x70\157\162\164\x73\x5f\151\143\x6f\156\163" => 7, "\160\162\x6f\x76\x69\144\145\x72\x73\137\x67\141\155\145\163" => 8, "\154\151\x76\x65\x5f\143\x61\163\151\x6e\157" => 9, "\x74\x6f\160\137\155\x61\164\x63\x68\145\x73" => 10, "\156\145\167\x5f\x67\141\155\145\x73" => 11, "\155\157\163\164\137\166\151\145\167\145\x64\x5f\x67\x61\x6d\145\x73" => 12, "\162\141\x73\x70\x61\x64\x69\156\x68\141\163" => 13, "\160\162\x6f\x76\151\x64\145\162\x73\137\154\151\163\164" => 14, "\162\145\x63\x65\x6e\x74\137\x62\145\164\x73" => 15, "\146\154\157\x61\x74\151\156\x67\x5f\x72\x6f\x75\x6c\145\164\x74\145" => 16, "\x66\x6c\x6f\x61\x74\x69\156\147\x5f\x77\x68\x61\x74\x73\141\x70\160" => 17]; goto T7rkF; iqZbB: lVLoX::beginTransaction(); goto MWO0Y; i2WKc: } catch (\Exception $ai57B) { lVLox::rollback(); return JgKRl()->sBe1Q(["\163\x75\x63\x63\x65\x73\x73" => false, "\155\x65\x73\x73\x61\x67\145" => "\105\x72\162\x6f\40\141\x6f\40\162\145\163\145\x74\141\162\40\157\162\144\145\x6d\40\144\x61\163\x20\x73\x65\303\247\xc3\xb5\x65\x73\72\x20" . $ai57B->getMessage()], 500); } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\HomeSectionOrder;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
+class HomeSectionsController extends Controller
+{
+    /**
+     * Mostrar a página de configuração da ordem das seções
+     */
+    public function index()
+    {
+        // Excluir pwa_install_button da lista (é flutuante e não precisa estar na ordenação)
+        $sections = HomeSectionOrder::where('section_key', '!=', 'pwa_install_button')
+            ->orderBy('position')
+            ->get();
+        
+        return view('admin.personalizacao.sections-order', compact('sections'));
+    }
+
+    /**
+     * Atualizar a ordem das seções
+     */
+    public function updateOrder(Request $request)
+    {
+        try {
+            $sectionsOrder = $request->input('sections', []);
+            
+            // Filtrar pwa_install_button (é flutuante e não precisa estar na ordenação)
+            $sectionsOrder = array_filter($sectionsOrder, function($sectionKey) {
+                return $sectionKey !== 'pwa_install_button';
+            });
+            
+            DB::beginTransaction();
+            
+            foreach ($sectionsOrder as $index => $sectionKey) {
+                HomeSectionOrder::where('section_key', $sectionKey)
+                    ->update(['position' => $index + 1]);
+            }
+            
+            DB::commit();
+            
+            // Limpar cache
+            HomeSectionOrder::clearCache();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Ordem das seções atualizada com sucesso!'
+            ]);
+            
+        } catch (\Exception $e) {
+            DB::rollback();
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar ordem das seções: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Ativar/Desativar seção
+     */
+    public function toggleSection(Request $request)
+    {
+        try {
+            $sectionKey = $request->input('section_key');
+            $isActive = $request->input('is_active');
+            
+            HomeSectionOrder::where('section_key', $sectionKey)
+                ->update(['is_active' => $isActive]);
+            
+            // Limpar cache
+            HomeSectionOrder::clearCache();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Status da seção atualizado com sucesso!'
+            ]);
+            
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar status da seção: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Resetar para ordem padrão
+     */
+    public function resetOrder()
+    {
+        try {
+            DB::beginTransaction();
+            
+            // Definir ordem padrão
+            $defaultOrder = [
+                'search_bar' => 1,
+                'promo_banners' => 2,
+                'menu_icons' => 3,
+                'top_wins' => 4,
+                'mini_banners' => 5,
+                'modo_surpresa' => 6,
+                'sports_icons' => 7,
+                'providers_games' => 8,
+                'live_casino' => 9,
+                'top_matches' => 10,
+                'new_games' => 11,
+                'most_viewed_games' => 12,
+                'raspadinhas' => 13,
+                'providers_list' => 14,
+                'recent_bets' => 15,
+                'floating_roulette' => 16,
+                'floating_whatsapp' => 17,
+            ];
+            
+            foreach ($defaultOrder as $sectionKey => $position) {
+                HomeSectionOrder::where('section_key', $sectionKey)
+                    ->update([
+                        'position' => $position,
+                        'is_active' => 1
+                    ]);
+            }
+            
+            DB::commit();
+            
+            // Limpar cache
+            HomeSectionOrder::clearCache();
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Ordem das seções resetada para o padrão!'
+            ]);
+            
+        } catch (\Exception $e) {
+            DB::rollback();
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao resetar ordem das seções: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+} 

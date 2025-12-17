@@ -1,8 +1,832 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:47              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\SHTEq\fN52m; use ec3ME\sHteq\s9D5t; use eC3ME\H2vUV\P2QH1\dJLvj; use EC3Me\h2vuv\P2qh1\lvLoX; use eC3me\H2vUv\P2Qh1\Log; use jf89X\t0eTD\grzLN; use Jf89x\t0eTD\F521n; use jf89X\t0EtD\XWTw6; use jf89X\T0etD\dPolq; use jF89X\T0EtD\bdqJt; use jF89X\t0eTD\ovu1i; use Exception; class K2sFK extends NMP37 { private const A_vwM = 15; public static function BTkEe() { goto HeEtM; KzxRP: return djLVj::mJFJ5($FXcdu, whFH3()->RW_8L(self::A_vwM), function () { goto YuIMY; jeMvb: return $SRJIE; goto E2Fbr; au9TP: try { goto po92b; Vc0PV: foreach ($z5PNh as $nGClM) { goto mudiL; OGI6v: goto bX5Wp; goto lU3D1; liB3s: if (preg_match("\x2f\134\x7b\134\173\134\x73\x2a\x5f\x5f\x5c\x28\x27\x28\x2e\x2a\x3f\51\47\x5c\51\x5c\163\x2a\134\x7d\x5c\x7d\x2f", $nGClM->T6arb, $ZpZw2)) { goto zOyEY; } goto m_qJi; MtyZb: Osht_: goto fLGCG; p3onX: if (!$nGClM->Fg0Kq) { goto yLTRJ; } goto e1sX2; rAICK: goto bX5Wp; goto LpxUL; VI1Ac: $wMrhh[$ucexR] = ["\151\144" => $ucexR, "\163\x6c\165\147" => $nGClM->T6arb, "\x69\164\x65\155\x73" => []]; goto liB3s; m_qJi: $wMrhh[$ucexR]["\x74\x72\x61\156\163\x6c\x61\164\145\144\x53\x6c\165\147"] = $nGClM->T6arb; goto FfFfk; M3W2d: goto bX5Wp; goto MtyZb; lX8vg: if (preg_match("\57\117\x70\145\x6e\107\x61\x6d\145\x5c\50\x5b\x27\x22\x5d\x28\56\x2b\x3f\x29\x5b\47\x22\x5d\x5c\x73\x2a\x2c\134\x73\x2a\x5b\47\42\x5d\50\56\x2b\x3f\51\x5b\x27\42\135\x5c\x29\57", $nGClM->VpL9s, $ZpZw2)) { goto Osht_; } goto wOA99; Xw0pj: goto bX5Wp; goto J2b4u; e1sX2: $VLVSv = ["\156\157\155\x65" => $nGClM->Fg0Kq, "\x6c\x69\x6e\x6b" => $nGClM->VpL9s, "\x69\143\157\x6e\x65" => $nGClM->yzkM5]; goto I_YAE; TPuz3: yLTRJ: goto Aikar; iI1U9: goto Jz2ul; goto Clfb9; zMy8E: $wMrhh[$ucexR]["\164\x72\x61\156\x73\x6c\x61\x74\x65\x64\123\154\x75\x67"] = IiZzy($ZpZw2[1]); goto jUIFU; El5o0: $VLVSv["\160\162\x6f\143\x65\x73\163\x65\144\x4c\151\156\x6b"] = "\x68\162\x65\x66\x3d\47\x6a\141\166\141\163\143\162\151\160\164\x3a\166\x6f\151\x64\50\x30\51\73\x27"; goto OGI6v; S0MFs: if (strpos($nGClM->VpL9s, "\x63\x61\x73\x69\x6e\x6f\57") !== false) { goto YZsLq; } goto b5QZn; vKJXK: try { $VLVSv["\160\x72\157\143\145\x73\163\145\x64\114\151\x6e\x6b"] = "\x68\162\145\x66\x3d\42" . w3QN1($ZpZw2[1]) . "\x22"; } catch (Exception $ai57B) { $VLVSv["\x70\162\157\143\145\163\163\x65\x64\x4c\x69\156\153"] = "\x68\162\x65\x66\75\47\152\x61\166\x61\163\143\x72\x69\160\164\x3a\166\x6f\151\x64\50\60\51\x3b\x27"; } goto M3W2d; FLQcZ: if (isset($wMrhh[$ucexR])) { goto svtEx; } goto VI1Ac; FfFfk: goto dWKZy; goto bz1h6; lU3D1: zDhNR: goto vKJXK; Clfb9: X0ai2: goto yYEKm; wOA99: if (preg_match("\x2f\x4c\x69\x6e\153\x4d\x6f\x62\151\x6c\x65\x5c\50\133\x27\42\135\x28\x2e\53\x3f\51\x5b\47\42\x5d\x5c\x29\57", $nGClM->VpL9s, $ZpZw2)) { goto rT3o0; } goto S0MFs; I_YAE: if (preg_match("\x2f\134\173\134\173\134\x73\52\137\137\134\50\x27\50\x2e\x2a\77\51\x27\x5c\x29\x5c\x73\52\x5c\175\x5c\x7d\57", $nGClM->Fg0Kq, $ZpZw2)) { goto X0ai2; } goto vE_IB; bz1h6: zOyEY: goto zMy8E; yYEKm: $VLVSv["\164\x72\141\156\163\154\141\164\145\x64\116\141\x6d\145"] = IIzZy($ZpZw2[1]); goto u1XXO; Aikar: LL31T: goto q4_VS; xrvFw: goto bX5Wp; goto IioOU; OiVrD: $VLVSv["\x70\162\157\143\145\x73\x73\x65\x64\114\151\156\x6b"] = "\150\x72\145\146\75\x22\x6a\141\166\141\163\143\x72\x69\x70\x74\x3a\x76\157\x69\144\x28\x30\51\x3b\x22\40\x6f\156\x63\154\151\143\x6b\75\42\117\160\x65\156\x47\x61\x6d\145\50\x27\147\x61\x6d\145\x73\47\x2c\x20\47" . $nGClM->VpL9s . "\47\51\73\42"; goto xrvFw; dEl4t: $wMrhh[$ucexR]["\x69\164\145\x6d\163"][] = $VLVSv; goto TPuz3; mudiL: $ucexR = $nGClM->l_9xU; goto FLQcZ; VqSEv: svtEx: goto p3onX; jUIFU: dWKZy: goto VqSEv; hh_lJ: bX5Wp: goto dEl4t; LpFxB: $VLVSv["\160\162\157\143\145\x73\x73\145\x64\114\x69\156\153"] = "\x68\x72\145\x66\75\x22" . $nGClM->VpL9s . "\42"; goto hh_lJ; yG586: if (preg_match("\x2f\x5c\x7b\x5c\x7b\x5c\163\x2a\162\157\165\x74\x65\x5c\x28\x5b\47\x22\x5d\x28\56\53\x3f\51\133\47\42\x5d\x5c\x29\134\163\x2a\x5c\x7d\134\175\57", $nGClM->VpL9s, $ZpZw2)) { goto zDhNR; } goto lX8vg; xtEjy: $VLVSv["\160\x72\x6f\x63\x65\163\x73\x65\144\x4c\x69\156\153"] = "\150\162\x65\146\x3d\42\x6a\141\x76\x61\x73\143\162\x69\160\164\72\x76\x6f\151\x64\x28\x30\51\x3b\x22\40\157\x6e\143\154\151\143\153\75\x22\x4c\x69\x6e\x6b\115\x6f\x62\x69\154\145\x28\x27" . $ZpZw2[1] . "\47\51\73\42"; goto Xw0pj; u1XXO: Jz2ul: goto yG586; J2b4u: YZsLq: goto OiVrD; vE_IB: $VLVSv["\x74\162\x61\156\163\154\x61\164\145\x64\x4e\141\155\x65"] = $nGClM->Fg0Kq; goto iI1U9; b5QZn: if ($nGClM->VpL9s != '') { goto drhbC; } goto El5o0; IioOU: drhbC: goto LpFxB; LpxUL: rT3o0: goto xtEjy; fLGCG: $VLVSv["\160\x72\157\143\x65\163\163\145\144\x4c\151\156\x6b"] = "\150\162\145\146\x3d\42\x6a\141\166\141\x73\x63\162\x69\x70\164\72\166\157\x69\144\x28\x30\x29\x3b\x22\x20\x6f\x6e\x63\x6c\x69\143\x6b\75\42\117\x70\x65\156\x47\141\155\x65\50\47" . $ZpZw2[1] . "\x27\54\40\x27" . $ZpZw2[2] . "\x27\x29\73\x22"; goto rAICK; q4_VS: } goto ubhgS; po92b: $X21eX = lvLoX::ftZ7F("\x6d\145\x6e\165\137\x69\x74\145\x6d\x73")->C_mhY("\141\143\164\x69\166\x65", "\x31")->c_mhy("\143\141\164\x65\147\157\x72\x69\x61", 6)->A9jMh("\157\162\144\x65\155", "\141\x73\x63")->get(["\x73\154\x75\x67", "\x6e\x6f\155\145", "\x6c\x69\x6e\x6b", "\151\143\x6f\156\x65"]); goto KqFq2; LVtNy: ca9HY: goto fBe74; KqFq2: $SRJIE["\164\157\160\115\x65\156\165\x49\164\x65\155\x73"] = []; goto In4VX; fBe74: $z5PNh = lVLoX::FTz7F("\155\x65\156\165\x5f\143\x61\x74\x65\x67\157\162\x69\x61\x20\141\163\40\155\x63")->GnkPL("\155\145\156\165\137\151\x74\145\155\x73\x20\x61\163\x20\x6d\151", function ($LiCPT) { $LiCPT->Lxox9("\x6d\x63\56\x69\144", "\75", "\x6d\151\x2e\143\141\164\145\x67\157\162\x69\141")->C_mhY("\x6d\151\56\x61\x63\164\x69\166\145", "\75", "\x31"); })->c_Mhy("\155\143\x2e\164\151\160\x6f", 0)->c_Mhy("\155\143\56\141\143\164\151\166\145", "\61")->c_mHy("\155\143\x2e\151\144", "\x21\x3d", 6)->A9jMh("\155\x63\x2e\x69\x64", "\141\x73\143")->A9jMh("\x6d\x69\x2e\157\x72\x64\145\155", "\x61\163\143")->get(["\155\143\56\151\144\40\x61\163\x20\143\x61\x74\145\x67\157\162\171\x5f\x69\x64", "\x6d\x63\56\x73\x6c\x75\x67\x20\141\x73\40\143\141\x74\145\147\x6f\x72\x79\x5f\x73\154\165\x67", "\155\151\56\x6e\x6f\155\x65\x20\141\163\x20\x69\164\x65\x6d\x5f\156\x6f\x6d\145", "\155\x69\x2e\x6c\151\x6e\153\x20\141\163\x20\151\164\x65\x6d\x5f\x6c\x69\x6e\x6b", "\x6d\151\x2e\151\143\x6f\156\x65\40\141\x73\40\151\164\x65\155\137\x69\x63\x6f\x6e\145"]); goto pzCip; In4VX: foreach ($X21eX as $qlAsN => $WT0D7) { goto JmwR4; wjt06: try { $yuhTI["\x6c\151\x6e\153\x55\162\x6c"] = w3QN1($ZpZw2[1]); } catch (Exception $ai57B) { $yuhTI["\154\151\156\x6b\125\x72\154"] = "\152\141\166\141\x73\143\x72\151\x70\164\72\166\x6f\x69\144\x28\x30\51\73"; } goto AV2L3; o_0Ju: goto K5Vhb; goto Ku6Vv; CcUti: rU0yN: goto KUGoO; q0tJp: $yuhTI["\164\162\141\x6e\163\x6c\x61\x74\x65\144\123\154\165\x67"] = iIzZY($ZpZw2[1]); goto CcUti; YrqwA: $yuhTI["\x62\x75\164\x74\x6f\x6e\x43\154\141\x73\x73"] = "\x66\x30\130\x6c\172\40\x43\x63\x6d\121\163\x20\150\x4e\124\x4c\x4d\40\x72\x65\x6c\x61\x74\151\x76\145"; goto mMiHN; Ku6Vv: Y4AJ3: goto Ij0et; mMiHN: goto kqcMz; goto xO85N; d12aS: $yuhTI["\x62\165\x74\x74\157\x6e\x43\154\x61\163\163"] = "\146\x30\x58\154\172\40\x43\x63\155\121\163\x20\x43\x66\147\x78\70\40\162\x65\x6c\x61\164\151\166\145"; goto AZdk6; X7Zlp: K5Vhb: goto HE6H3; vFEOU: goto kqcMz; goto bBYP1; gAbGW: goto Mi4XA; goto ZO8a0; AOGJo: if (preg_match("\57\x5c\x7b\x5c\x7b\134\x73\x2a\137\x5f\x5c\x28\x27\50\x2e\52\77\51\x27\x5c\x29\x5c\x73\52\x5c\175\134\175\57", $WT0D7->EWmd0, $ZpZw2)) { goto GSuAU; } goto tiuoY; xO85N: CCCnK: goto QSFrD; PkGeW: if ($qlAsN == 0) { goto CCCnK; } goto YVSTx; bBYP1: Yk2lQ: goto d12aS; PCR3l: $yuhTI["\x74\x72\x61\156\x73\x6c\x61\x74\145\144\116\141\x6d\145"] = $WT0D7->PSHfe; goto o_0Ju; AZdk6: kqcMz: goto mgRk1; JmwR4: $yuhTI = ["\153\x65\x79" => $qlAsN, "\x73\154\165\147" => $WT0D7->EWmd0, "\x6e\157\155\145" => $WT0D7->PSHfe, "\x6c\151\x6e\x6b" => $WT0D7->o9wPQ, "\151\143\x6f\156\x65" => $WT0D7->cv0nV]; goto AOGJo; mgRk1: $SRJIE["\x74\x6f\x70\115\x65\156\x75\x49\164\145\x6d\x73"][] = $yuhTI; goto pAGdE; YVSTx: if ($qlAsN == 1) { goto Yk2lQ; } goto YrqwA; AV2L3: Mi4XA: goto PkGeW; QSFrD: $yuhTI["\142\x75\164\164\x6f\x6e\x43\x6c\141\x73\x73"] = "\146\60\130\x6c\x7a\40\x43\x63\155\121\163\x20\150\x4e\x54\x4c\115\x4e\40\162\x65\x6c\141\x74\151\166\x65"; goto vFEOU; tiuoY: $yuhTI["\x74\x72\x61\156\163\x6c\x61\x74\x65\144\123\x6c\165\147"] = $WT0D7->EWmd0; goto XpKsh; Ij0et: $yuhTI["\x74\x72\x61\156\163\x6c\141\164\x65\144\116\x61\155\145"] = iizZy($ZpZw2[1]); goto X7Zlp; GM1R5: GSuAU: goto q0tJp; HE6H3: if (preg_match("\57\134\x7b\134\173\x5c\x73\52\x72\x6f\x75\x74\x65\x5c\50\133\x27\x22\x5d\50\x2e\x2b\x3f\51\x5b\47\x22\135\134\x29\x5c\163\52\134\175\134\x7d\57", $WT0D7->o9wPQ, $ZpZw2)) { goto gnit6; } goto gRw7Y; pAGdE: tSsUD: goto s3n1F; ZO8a0: gnit6: goto wjt06; XpKsh: goto rU0yN; goto GM1R5; KUGoO: if (preg_match("\57\x5c\x7b\x5c\x7b\134\x73\52\x5f\137\134\x28\x27\50\x2e\x2a\77\51\47\134\x29\x5c\x73\x2a\134\175\x5c\x7d\57", $WT0D7->PSHfe, $ZpZw2)) { goto Y4AJ3; } goto PCR3l; gRw7Y: $yuhTI["\154\x69\156\x6b\125\162\154"] = $WT0D7->o9wPQ ?: "\x6a\141\166\141\x73\143\162\151\x70\x74\72\166\x6f\x69\x64\x28\x30\x29\73"; goto gAbGW; s3n1F: } goto LVtNy; oIXt3: $SRJIE["\143\x61\x74\145\x67\x6f\x72\151\x65\163"] = array_values($wMrhh); goto GK5ff; pzCip: $wMrhh = []; goto Vc0PV; ubhgS: h3l7e: goto oIXt3; GK5ff: } catch (Exception $ai57B) { $SRJIE = ["\x74\157\160\115\145\156\165\x49\164\x65\x6d\163" => [], "\x63\141\164\145\147\x6f\x72\x69\x65\x73" => []]; } goto jeMvb; YuIMY: $SRJIE = []; goto au9TP; E2Fbr: }); goto PuotS; cnEpG: $FXcdu = "\x70\x61\x72\164\x69\x61\x6c\x73\72\163\151\144\145\x62\141\162\x3a\144\141\164\x61\x3a{$wJwb1}"; goto KzxRP; HeEtM: $wJwb1 = jF89X()->D8g_Y(); goto cnEpG; PuotS: } public static function Z2z4A() { return DJlvj::MJFJ5("\160\141\162\x74\151\x61\154\x73\72\x66\x6f\157\x74\x65\162\72\144\x61\164\141", WHfh3()->rW_8L(self::A_vwM), function () { goto vbJbm; lGpGH: return $SRJIE; goto PuX_W; r4Zrp: try { goto O52sq; wlc64: $YL4qD = bDQJT::YRKR9(); goto maUej; cKtrl: $P4qkJ = VA9Mt("\x6c\157\x67\151\156\x5f\164\x69\x6d\145\x73\164\141\155\160"); goto NvMna; bw3eY: $SRJIE["\163\157\143\151\x61\154\x4c\151\156\153\x73"] = $wAKoi; goto DrgNo; bi_kR: $UsmID = Jf89X()->d8g_Y() ?: "\160\164\137\102\x52"; goto Mcfrw; kHG6w: $SRJIE["\146\x61\x63\x65\x62\x6f\157\x6b\125\x72\154"] = $wAKoi->v0Qsv ?? ''; goto vulgE; O52sq: $eCoBa = XWtw6::OL3x2(); goto oI1in; rjXWd: xvh0E: goto H3uEf; qPmAm: $SRJIE["\146\x6f\x72\155\x61\x74\164\x65\144\114\141\x73\x74\114\x6f\x67\x69\156"] = "\x4e\x2f\x41"; goto Ljjx8; q7WSr: $SRJIE["\163\150\157\x77\106\x61\143\145\x62\157\157\x6b"] = $wAKoi->fiHxC ?? false; goto z1bX7; wfPHU: $SRJIE["\164\145\154\x65\x67\x72\141\x6d\x55\x72\154"] = $wAKoi->N6w7E ?? ''; goto kHG6w; vulgE: $SRJIE["\x63\x6f\x6e\164\141\143\164\102\x75\x74\x74\157\x6e\125\x72\154"] = $eCoBa->z9Gek ?? ''; goto ewGTb; XjBp6: if (!empty($cZTrd)) { goto xvh0E; } goto qPmAm; ewGTb: $SRJIE["\x73\150\x6f\x77\123\x6f\x63\151\x61\x6c\x4c\x69\156\153\x73"] = $eCoBa->vFYzM ?? false; goto kfKg3; Ljjx8: goto vp8il; goto rjXWd; f2Fp1: $SRJIE["\151\156\x73\x74\141\x67\x72\x61\155\125\x72\154"] = $wAKoi->V30s9 ?? ''; goto wfPHU; f41Ka: $hZ3F2 = parse_url(lViq5("\x61\x70\160\x2e\x75\162\x6c"), PHP_URL_HOST); goto NrkIu; pCzBJ: $ovg5Y = floor($y0dUF / 3600); goto L3A5M; GdWKV: goto vgcgr; goto l62qZ; tp3c_: if ($P4qkJ && is_numeric($P4qkJ)) { goto VyCfJ; } goto zCBXA; ksSmb: vgcgr: goto y1kgP; maUej: $SRJIE["\146\157\x6f\x74\145\x72\123\145\x74\x74\151\x6e\x67\x73"] = $eCoBa; goto bw3eY; NrkIu: $SRJIE["\145\x6d\x61\x69\154\x73"] = ["\x73\x75\x70\160\x6f\x72\x74" => "\163\165\160\157\162\x74\145\x40{$hZ3F2}", "\x63\x6f\x6e\x74\x61\x63\164" => "\143\x6f\156\164\x61\x74\157\100{$hZ3F2}", "\141\x74\145\x6e\144\x69\x6d\145\156\x74\157" => $eCoBa->eIqg0 ?? "\x61\x74\145\x6e\144\151\x6d\x65\x6e\x74\157\x40{$hZ3F2}"]; goto oROqF; ouv3x: SNMyD: goto q98je; Apjym: $Vrm3G = $y0dUF % 60; goto rL2pK; LZ911: mxxI3: goto f41Ka; oI1in: $wAKoi = dpoLQ::YRKR9(); goto wlc64; H3uEf: try { $Rhzfz = \ShPk2\Shpk2::KJT_j($cZTrd); $SRJIE["\146\157\x72\x6d\141\x74\164\x65\x64\x4c\141\163\164\x4c\x6f\x67\x69\156"] = $Rhzfz->format("\x64\x2f\x6d\x2f\x59\54\x20\110\72\x69"); } catch (\Exception $ai57B) { $SRJIE["\146\157\162\x6d\141\x74\x74\145\x64\114\141\x73\164\114\x6f\x67\x69\x6e"] = "\x4e\57\x41"; } goto aDjJc; y1kgP: $cZTrd = NXROv()->YFGI_()->NUVHF; goto XjBp6; Dn966: $SRJIE["\163\x68\157\167\x54\x65\154\145\147\x72\x61\155"] = $wAKoi->mD08M ?? false; goto bi_kR; aDjJc: vp8il: goto LZ911; DrgNo: $SRJIE["\163\x69\164\145\111\x6e\x66\157"] = $YL4qD; goto AAf3V; zCBXA: $SRJIE["\x69\156\151\x74\x69\x61\154\124\151\x6d\x65\x4c\157\x67\x67\145\x64"] = "\60\60\x68\x20\60\60\155\x20\x30\x30\163"; goto GdWKV; q98je: if (!nXROv()->c_4hV()) { goto mxxI3; } goto cKtrl; lYDG0: $y0dUF = time() - $P4qkJ; goto pCzBJ; Mcfrw: switch ($UsmID) { case "\x65\x6e": goto hgzfy; hgzfy: $SRJIE["\x66\154\141\147\x49\x6d\x61\x67\x65"] = "\151\155\147\57\146\154\x61\147\163\57\125\x53\101\56\x73\x76\147"; goto Zi9HT; dSJaa: goto SNMyD; goto Cp8Cz; Zi9HT: $SRJIE["\146\x6c\x61\147\x41\x6c\x74"] = "\x55\x53\101"; goto dSJaa; Cp8Cz: case "\145\x73": goto XVvOM; HW4nI: goto SNMyD; goto JrG1A; vZ9n4: $SRJIE["\146\154\x61\x67\101\x6c\x74"] = "\105\123\x50"; goto HW4nI; XVvOM: $SRJIE["\146\154\141\147\111\155\141\147\x65"] = "\151\155\x67\57\x66\154\141\147\x73\57\105\x53\x50\56\163\166\147"; goto vZ9n4; JrG1A: case "\160\164\137\x42\122": default: goto oM_Ih; T8VRz: $SRJIE["\x66\x6c\141\147\x41\x6c\x74"] = "\102\x52\x41"; goto RUK1J; oM_Ih: $SRJIE["\x66\x6c\x61\x67\111\x6d\141\147\145"] = "\x69\x6d\147\x2f\146\154\141\147\x73\57\102\122\x41\x2e\163\x76\147"; goto T8VRz; RUK1J: goto SNMyD; goto aQaAn; aQaAn: } goto xZX62; xZX62: ssHDy: goto ouv3x; DBCiq: $SRJIE["\x73\x68\x6f\x77\111\156\163\x74\x61\147\162\x61\x6d"] = $wAKoi->L1oXG ?? false; goto q7WSr; kfKg3: $SRJIE["\163\150\x6f\x77\101\165\x74\157\162\151\172\141\144\x6f\103\141\163\x73\151\156\157"] = $eCoBa->YLyAx ?? false; goto DBCiq; rL2pK: $SRJIE["\x69\156\x69\x74\151\x61\x6c\x54\151\x6d\x65\114\x6f\x67\147\145\x64"] = sprintf("\45\x30\x32\144\150\x20\45\x30\62\144\x6d\x20\x25\x30\62\x64\x73", $ovg5Y, $xX2zY, $Vrm3G); goto ksSmb; NvMna: $SRJIE["\154\x6f\x67\151\156\124\151\x6d\x65\x73\x74\141\155\160"] = $P4qkJ; goto tp3c_; AAf3V: $SRJIE["\x77\x68\141\164\x73\141\x70\160\x55\x72\154"] = $wAKoi->QNOMv ?? ''; goto f2Fp1; l62qZ: VyCfJ: goto lYDG0; z1bX7: $SRJIE["\x73\x68\x6f\x77\x57\150\x61\x74\x73\x61\160\x70"] = $wAKoi->xemIj ?? false; goto Dn966; L3A5M: $xX2zY = floor($y0dUF % 3600 / 60); goto Apjym; oROqF: } catch (Exception $ai57B) { $SRJIE = ["\x66\157\157\x74\x65\x72\123\x65\x74\x74\151\156\x67\x73" => (object) ["\x66\x6f\157\164\145\x72\x5f\164\x65\x78\164" => '', "\146\x6f\157\x74\x65\162\x5f\163\x75\142\164\145\x78\x74" => ''], "\x73\x6f\x63\x69\x61\x6c\x4c\151\x6e\x6b\163" => (object) [], "\x73\x69\164\x65\111\x6e\146\157" => (object) ["\156\x61\155\145" => lViq5("\x61\x70\160\56\156\x61\x6d\145"), "\154\157\147\157" => "\x69\155\x67\57\154\157\x67\157\55\x69\156\x6f\x76\145\x2e\160\156\147"], "\x73\150\157\167\123\157\143\x69\x61\x6c\x4c\x69\156\153\x73" => false, "\163\150\157\x77\101\165\x74\x6f\162\x69\x7a\141\144\x6f\103\x61\163\163\x69\x6e\x6f" => false, "\x66\x6c\x61\x67\111\x6d\141\x67\x65" => "\151\155\x67\x2f\x66\154\x61\x67\163\57\102\x52\x41\x2e\x73\x76\x67", "\x66\154\141\x67\101\154\x74" => "\x42\122\x41", "\x65\155\x61\151\154\x73" => ["\x61\x74\145\156\x64\151\x6d\x65\156\x74\157" => "\141\x74\145\156\144\x69\x6d\145\156\x74\157\100\x65\170\145\155\x70\154\157\x2e\143\157\x6d"]]; } goto lGpGH; vbJbm: $SRJIE = []; goto r4Zrp; PuX_W: }); } public static function QEzGZ() { goto nQxmE; RWTvF: return djLVj::mjFj5($FXcdu, WHfh3()->Rw_8l(self::A_vwM), function () use($UsmID) { try { goto Ejd5v; D_oWF: $xnbj9 = $JtBNO ? "\66\x35\160\x78" : "\61\60\65\x70\x78"; goto bTVz9; yCcvL: $YL4qD = (object) ["\156\141\155\145" => $nHqPK->name ?? lVIQ5("\141\x70\160\56\x6e\x61\x6d\145"), "\x6c\157\x67\x6f" => $nHqPK->bkt_3 ?? "\x69\155\147\x2f\x6c\x6f\x67\157\x2d\151\156\157\166\145\56\160\x6e\x67"]; goto u_7HJ; Ejd5v: $JtBNO = isset($_COOKIE["\164\x6f\x70\142\141\162\137\x63\x6c\x6f\x73\145\x64"]) && $_COOKIE["\164\x6f\160\x62\x61\162\x5f\143\154\157\163\x65\144"] === "\x74\x72\165\145"; goto D_oWF; tQuL5: foreach ($Kbaob as $qlAsN => $WT0D7) { goto iOVW1; N2xxi: $rEQTT = IiZZY($nz_OW); goto Cs30Y; gAcWW: FaBMS: goto YbFdZ; q2JwX: goto ttt1l; goto AT_iu; qkgAA: goto juO9S; goto yymJT; aG3mF: $rEQTT = $aVL1b; goto qkgAA; LDhYY: $yUOGd = $kbuF5; goto ktU5B; dLUga: tUT2l: goto niY6v; ZdPfd: $tSawI = $yU3q2 ?: "\152\141\166\141\163\143\x72\x69\x70\x74\72\x76\157\x69\x64\x28\60\51\73"; goto iW21X; iOVW1: $aVL1b = $WT0D7->EWmd0; goto YZBQT; ktU5B: goto dJhqI; goto dLUga; MeR98: yQM5h: goto Lcslm; YbFdZ: $x2xxH = "\146\x30\x58\x6c\x7a\x20\103\143\x6d\121\x73\40\103\x66\147\x78\x38\40\162\145\x6c\141\164\151\x76\x65"; goto Jg7g3; TvUpk: $yU3q2 = $WT0D7->o9wPQ; goto lgxdd; yymJT: oZUSh: goto Y7UQY; AAU3f: $yUOGd = IizZy($nz_OW); goto oK5vX; yORUM: if ($qlAsN == 1) { goto FaBMS; } goto xcP_1; n4Zpu: $tSawI = w3qn1($W8VJZ); goto ZNpfM; Cs30Y: juO9S: goto zV98u; V2vqB: if ($qlAsN == 0) { goto PRfNT; } goto yORUM; AT_iu: PRfNT: goto yhMx4; xHWGu: HwtTP: goto HZtOZ; yhMx4: $x2xxH = "\x66\60\130\154\x7a\x20\x43\143\155\121\x73\x20\150\x4e\124\114\115\x4e\40\162\145\x6c\141\164\151\x76\x65"; goto v3TAc; zV98u: $kbuF5 = $WT0D7->PSHfe; goto Z98CY; lgxdd: if (preg_match("\x2f\x5c\x7b\x5c\173\x5c\x73\52\162\157\165\x74\x65\134\x28\x5b\47\42\135\50\56\x2b\77\51\x5b\47\42\135\x5c\51\134\x73\x2a\x5c\175\134\175\x2f", $yU3q2, $ZpZw2)) { goto HwtTP; } goto ZdPfd; niY6v: $nz_OW = $ZpZw2[1]; goto AAU3f; xcP_1: $x2xxH = "\146\60\x58\154\172\x20\x43\143\x6d\121\x73\x20\x68\x4e\124\x4c\115\x20\x72\x65\x6c\141\164\x69\166\x65"; goto q2JwX; YZBQT: if (preg_match("\57\134\173\134\x7b\x5c\163\52\x5f\x5f\x5c\x28\x27\50\x2e\52\77\51\47\134\51\x5c\x73\52\x5c\x7d\x5c\x7d\57", $aVL1b, $ZpZw2)) { goto oZUSh; } goto aG3mF; vnWya: $X21eX[] = ["\164\162\x61\x6e\163\154\x61\164\x65\144\116\141\x6d\145" => $yUOGd, "\x74\x72\x61\x6e\163\154\141\164\x65\x64\123\x6c\165\x67" => $rEQTT, "\154\151\156\153\x55\162\154" => $tSawI, "\142\165\164\164\157\x6e\x43\x6c\141\x73\x73" => $x2xxH, "\x69\143\157\156\145" => $WT0D7->cv0nV]; goto MeR98; Jg7g3: ttt1l: goto vnWya; ZNpfM: vLaga: goto V2vqB; HZtOZ: $W8VJZ = $ZpZw2[1]; goto n4Zpu; v3TAc: goto ttt1l; goto gAcWW; Y7UQY: $nz_OW = $ZpZw2[1]; goto N2xxi; oK5vX: dJhqI: goto TvUpk; Z98CY: if (preg_match("\x2f\134\x7b\134\173\134\x73\52\x5f\137\x5c\50\47\50\x2e\x2a\x3f\x29\x27\134\51\x5c\x73\x2a\134\x7d\134\x7d\x2f", $kbuF5, $ZpZw2)) { goto tUT2l; } goto LDhYY; iW21X: goto vLaga; goto xHWGu; Lcslm: } goto Ocpay; Ocpay: VinzO: goto WNf7v; vbm6w: RjXKQ: goto j_Jl0; bTVz9: $eCoBa = XwTW6::OL3X2(); goto LQFd8; cHNA2: $Kbaob = GrZlN::C_MHy("\x61\x63\x74\151\166\x65", "\x31")->c_mHY("\143\x61\x74\x65\x67\x6f\x72\151\141", 6)->a9jMH("\x6f\162\144\x65\155", "\141\x73\x63")->get(); goto tQuL5; DZuTB: return $SRJIE; goto In5I5; j0yNg: $ReLdK = []; goto NmVCt; lKbK1: PSm03: goto BL_1k; y_BMp: $X3bzl = ["\160\164\137\x42\x52" => ["\x6e\141\155\145" => "\x50\157\x72\x74\165\147\165\303\xaa\x73", "\x66\x6c\141\147" => "\x70\164\137\102\x52\x2e\x70\x6e\x67"], "\145\156" => ["\156\x61\155\145" => "\105\x6e\x67\154\151\x73\x68", "\146\x6c\141\x67" => "\x65\x6e\56\x70\x6e\x67"], "\145\x73" => ["\156\141\x6d\x65" => "\105\x73\160\x61\303\261\157\154", "\146\154\x61\x67" => "\x65\x73\56\160\156\x67"]]; goto j0yNg; BL_1k: $SRJIE = ["\x73\151\144\x65\x62\x61\x72\x48\145\151\x67\x68\164" => $xnbj9, "\150\x6f\155\145\x55\x72\154" => W3qN1("\150\157\155\145"), "\151\163\110\157\x6d\x65\101\143\164\151\166\145" => S9d5t()->WV4Rw("\150\157\155\145\x2a"), "\x73\x69\x74\x65\111\x6e\x66\157" => $YL4qD, "\164\x6f\160\x4d\145\156\165\111\164\145\x6d\163" => $X21eX, "\143\141\164\x65\147\x6f\162\151\x65\x73" => $WlVYt, "\x63\157\x6e\164\141\143\x74\102\x75\x74\x74\x6f\x6e\125\x72\154" => $eCoBa->z9Gek ?? "\43", "\143\165\162\x72\145\x6e\164\114\157\143\141\x6c\x65" => $UsmID, "\143\165\162\162\145\156\x74\114\x61\x6e\x67\x75\141\x67\145\x4e\141\x6d\x65" => $aMRfb, "\154\141\156\147\165\141\147\145\x4f\160\x74\151\x6f\x6e\163" => $ReLdK, "\x74\162\141\156\x73\x6c\x61\x74\151\157\156\163" => ["\x68\145\x6c\160\x5f\143\145\156\164\x65\x72" => IIzzy("\155\x65\163\x73\141\147\x65\163\56\150\145\x6c\160\x5f\143\145\x6e\x74\145\x72"), "\x62\154\157\x67" => IiZzY("\x6d\145\163\x73\x61\147\145\163\x2e\142\154\157\147")]]; goto DZuTB; NmVCt: foreach ($X3bzl as $wJwb1 => $SRJIE) { goto Sk6ca; Rqe2F: HbbKr: goto M9Sw4; S7wIh: $ReLdK[] = ["\x6c\x6f\143\x61\154\145" => $wJwb1, "\x6e\x61\x6d\x65" => $SRJIE["\x6e\x61\x6d\145"], "\146\x6c\141\x67" => $SRJIE["\146\x6c\141\x67"], "\165\x72\154" => w3QN1("\154\141\x6e\147\x75\141\x67\x65\x2e\x73\167\x69\164\143\x68", ["\154\x6f\143\x61\x6c\x65" => $wJwb1])]; goto tAshb; Sk6ca: if (!($wJwb1 !== $UsmID)) { goto SFsOa; } goto S7wIh; tAshb: SFsOa: goto Rqe2F; M9Sw4: } goto lKbK1; LQFd8: $nHqPK = BdQjt::yrKr9(); goto yCcvL; j_Jl0: $aMRfb = match ($UsmID) { "\160\164\x5f\102\x52" => "\120\157\162\x74\x75\x67\165\xc3\xaa\x73", "\145\156" => "\x45\x6e\147\154\151\163\x68", "\x65\x73" => "\105\x73\160\x61\303\261\157\154", default => "\120\x6f\162\x74\x75\147\x75\303\xaa\163", }; goto y_BMp; u_7HJ: $X21eX = []; goto cHNA2; u3r9Z: $DKlvN = f521N::C_MHy("\x74\151\160\x6f", 0)->C_MHy("\141\143\x74\151\x76\145", "\x31")->C_MHY("\151\144", "\41\x3d", 6)->a9JmH("\151\x64", "\141\163\x63")->get(); goto mVvFX; WNf7v: $WlVYt = []; goto u3r9Z; mVvFX: foreach ($DKlvN as $zzN_D) { goto c1eLa; O_xm7: foreach ($azPv_ as $WT0D7) { goto zU656; AW1fe: if (preg_match("\x2f\x4f\x70\x65\x6e\107\x61\x6d\x65\134\50\133\47\x22\x5d\x28\x2e\x2b\x3f\x29\133\47\42\135\134\163\x2a\54\x5c\163\52\133\x27\x22\x5d\50\x2e\x2b\77\x29\133\47\x22\x5d\x5c\51\57", $WT0D7->o9wPQ, $ZpZw2)) { goto dz7lS; } goto LGYL6; ZA8ZP: $yUOGd = IIZZY($HYftz); goto g6QDI; Y7omM: goto wSnOe; goto BO050; AQIZZ: I8c74: goto C6l4t; A3AuL: wSnOe: goto gKQEQ; g6QDI: V50R1: goto JJI5Q; egHOe: reZR6: goto zWJYA; KRT1O: if (strpos($WT0D7->o9wPQ, "\143\141\x73\151\156\x6f\57") !== false) { goto E1oqS; } goto wM__i; zWJYA: $HYftz = $ZpZw2[1]; goto ZA8ZP; WAVDD: cO40S: goto mjKd1; Q81ba: LrCWZ: goto w25z0; wM__i: if ($WT0D7->o9wPQ != '') { goto I8c74; } goto Lkt0i; RE8sW: $mobFi = $WT0D7->o9wPQ; goto nR1Ex; bam8e: $e1Bqn = "\x68\x72\x65\x66\x3d\x22\x6a\141\x76\x61\163\x63\162\x69\x70\x74\72\x20\166\157\151\x64\50\60\51\73\42\x20\157\x6e\x63\x6c\151\x63\x6b\75\x22\114\x69\156\153\x4d\157\142\x69\x6c\x65\x28\x27" . $Tf6I1 . "\47\51\73\42"; goto Y7omM; Lkt0i: $e1Bqn = "\150\162\145\x66\x3d\x27\112\x61\x76\141\x53\x63\x72\151\x70\164\x3a\40\126\157\x69\x64\50\60\51\x3b\x27"; goto ldphE; elVih: goto V50R1; goto egHOe; w25z0: $Tf6I1 = $ZpZw2[1]; goto bam8e; JxUW0: $yUOGd = $yR8Jy; goto elVih; dm2JP: dz7lS: goto FW0pc; FYMus: goto wSnOe; goto Q81ba; ldphE: goto wSnOe; goto WAVDD; a6Owx: WZRti: goto akKri; mjKd1: $W8VJZ = $ZpZw2[1]; goto epw9x; BO050: E1oqS: goto RE8sW; mE7J2: $mobFi = $ZpZw2[2]; goto R7Pc1; epw9x: $e1Bqn = "\150\162\145\146\x3d\x22" . w3qN1($W8VJZ) . "\x22"; goto LD85G; LGYL6: if (preg_match("\57\114\x69\156\153\x4d\x6f\142\151\x6c\145\x5c\50\x5b\47\x22\135\x28\56\53\77\51\x5b\x27\x22\x5d\134\x29\57", $WT0D7->o9wPQ, $ZpZw2)) { goto LrCWZ; } goto KRT1O; JJI5Q: $nSv9o[] = ["\x6c\151\x6e\x6b" => $e1Bqn, "\151\143\157\x6e\x65" => $WT0D7->cv0nV, "\164\x72\141\x6e\163\x6c\141\164\x65\x64\116\141\155\x65" => $yUOGd]; goto a6Owx; R7Pc1: $e1Bqn = "\x68\x72\145\x66\x3d\x22\x4a\141\x76\141\x53\143\x72\151\x70\x74\x3a\40\x56\157\151\x64\x28\x30\51\x3b\42\x20\x6f\156\x63\x6c\x69\143\x6b\75\42\117\160\x65\x6e\107\141\x6d\x65\x28\x27" . $aSlRG . "\x27\54\x20\x27" . $mobFi . "\47\x29\73\x22"; goto FYMus; FW0pc: $aSlRG = $ZpZw2[1]; goto mE7J2; LD85G: goto wSnOe; goto dm2JP; C6l4t: $e1Bqn = "\150\x72\x65\x66\75\x22" . $WT0D7->o9wPQ . "\x22"; goto A3AuL; WH9KR: if (preg_match("\x2f\134\x7b\x5c\173\x5c\163\x2a\x5f\137\x5c\50\47\50\x2e\x2a\x3f\x29\47\134\51\x5c\x73\52\x5c\175\x5c\x7d\57", $yR8Jy, $ZpZw2)) { goto reZR6; } goto JxUW0; gKQEQ: $yR8Jy = $WT0D7->PSHfe; goto WH9KR; FyLiK: goto wSnOe; goto AQIZZ; zU656: if (preg_match("\x2f\134\x7b\134\x7b\x5c\163\52\x72\157\x75\x74\145\x5c\50\133\x27\42\x5d\x28\x2e\x2b\77\51\133\47\42\x5d\x5c\51\134\163\52\134\x7d\x5c\x7d\x2f", $WT0D7->o9wPQ, $ZpZw2)) { goto cO40S; } goto AW1fe; nR1Ex: $e1Bqn = "\x68\162\145\x66\x3d\42\112\141\x76\x61\123\143\162\x69\160\164\x3a\x20\x56\x6f\x69\144\x28\x30\x29\x3b\42\40\x6f\156\x63\x6c\151\x63\x6b\75\x22\x4f\160\145\x6e\107\141\x6d\145\x28\x27\x67\x61\x6d\x65\x73\47\x2c\x20\x27" . $mobFi . "\47\51\x3b\x22"; goto FyLiK; akKri: } goto wSinl; i6miT: UOYIK: goto sjIr7; mS271: $rEQTT = $aVL1b; goto mhFSd; GAEW3: $azPv_ = GrZLn::C_mHy("\x63\x61\x74\145\x67\157\x72\151\x61", $zzN_D->id)->c_Mhy("\x61\143\x74\151\166\x65", "\x31")->A9jMh("\157\x72\144\145\x6d", "\141\163\x63")->get(); goto O_xm7; Lj792: IG2SW: goto XPurV; XPurV: $nz_OW = $ZpZw2[1]; goto zWO1C; zWO1C: $rEQTT = iIZZy($nz_OW); goto i6miT; sjIr7: $nSv9o = []; goto GAEW3; he3Tu: AE7g7: goto ktMWK; f37MM: if (preg_match("\57\134\x7b\134\x7b\x5c\x73\52\x5f\137\134\50\x27\x28\x2e\x2a\77\51\47\134\x29\x5c\163\x2a\x5c\175\134\x7d\x2f", $aVL1b, $ZpZw2)) { goto IG2SW; } goto mS271; vlp5q: $WlVYt[] = ["\x74\x72\141\156\x73\154\141\x74\145\144\x53\154\165\147" => $rEQTT, "\x69\x74\x65\x6d\x73" => $nSv9o]; goto he3Tu; wSinl: pDGfC: goto vlp5q; c1eLa: $aVL1b = $zzN_D->EWmd0; goto f37MM; mhFSd: goto UOYIK; goto Lj792; ktMWK: } goto vbm6w; In5I5: } catch (\Exception $ai57B) { return ["\163\x69\x64\x65\x62\x61\x72\110\x65\151\147\x68\164" => "\61\60\65\160\x78", "\x68\157\x6d\x65\125\x72\154" => W3Qn1("\150\x6f\x6d\145"), "\151\x73\110\x6f\x6d\145\x41\x63\x74\x69\x76\x65" => false, "\163\151\164\x65\x49\x6e\146\x6f" => (object) ["\x6e\141\155\x65" => lViQ5("\x61\160\160\x2e\x6e\x61\155\x65"), "\154\157\x67\157" => "\151\155\147\57\154\x6f\x67\157\x2d\151\x6e\x6f\x76\x65\56\160\156\147"], "\x74\157\160\115\x65\156\x75\x49\x74\145\x6d\163" => [], "\x63\141\x74\x65\x67\157\x72\151\145\x73" => [], "\x63\157\x6e\x74\141\x63\164\x42\x75\164\x74\x6f\156\x55\x72\154" => "\43", "\143\165\x72\162\x65\x6e\x74\x4c\157\143\x61\154\x65" => JF89x()->D8g_Y() ?: "\160\x74\137\x42\122", "\x63\165\162\x72\145\x6e\x74\114\141\156\x67\x75\x61\147\x65\x4e\141\155\x65" => "\120\157\162\x74\x75\x67\165\303\252\x73", "\154\141\156\x67\165\141\147\x65\117\160\164\x69\x6f\x6e\x73" => [], "\164\162\x61\156\x73\154\x61\x74\x69\x6f\156\x73" => ["\150\145\x6c\160\137\x63\145\x6e\164\x65\x72" => "\103\145\x6e\x74\162\x61\x6c\x20\x64\145\x20\x41\x6a\x75\144\x61", "\x62\154\157\x67" => "\x42\x6c\x6f\x67"]]; } }); goto mNYhQ; oqQ9i: $FXcdu = "\160\x61\162\164\151\141\154\x73\72\143\x6f\x6d\x70\x6c\x65\164\145\137\163\151\144\x65\x62\141\162\x3a\x64\141\x74\x61\x3a{$UsmID}"; goto RWTvF; nQxmE: $UsmID = jf89x()->d8g_Y() ?: "\160\x74\x5f\102\122"; goto oqQ9i; mNYhQ: } public static function pjnFv() { return DJlvj::MjFj5("\x70\141\x72\164\x69\141\x6c\163\x3a\142\141\x6e\156\145\162\163\72\x64\141\x74\x61", WHfh3()->rw_8l(self::A_vwM), function () { try { return ovu1I::c_mHY("\x61\x63\x74\x69\x76\145", true)->A9Jmh("\x6f\x72\144\145\155")->get(); } catch (Exception $ai57B) { Log::p2m7e("\x45\x72\162\x6f\x72\x20\x67\x65\164\x74\x69\156\x67\x20\142\141\156\156\x65\x72\x73\x20\x64\x61\164\x61\x3a\40" . $ai57B->getMessage()); return yHA8r(); } }); } public static function mz3W5() { return DJLvJ::mjFj5("\160\x61\162\x74\x69\x61\154\163\72\x6c\141\164\145\x73\164\137\x62\x61\x6e\156\x65\162\72\x64\141\x74\141", Whfh3()->rw_8L(self::A_vwM), function () { try { goto tVMwh; MkgFl: $jdkhQ = $q6kbK->YrKr9(); goto f2Xai; tVMwh: $q6kbK = OVu1i::C_mhy("\x61\143\164\151\x76\x65", true)->C_mhy("\x74\151\160\157", "\x73\x6c\x69\144\145")->a9jMh("\157\162\x64\x65\x6d", "\x61\163\143")->get(); goto MkgFl; f2Xai: return ["\x62\141\x6e\156\145\162\x4d\141\151\163\122\x65\x63\145\x6e\164\x65" => $jdkhQ, "\x68\x61\x73\114\141\x74\145\163\x74\102\141\x6e\156\x65\162" => $jdkhQ ? true : false, "\x70\x72\x65\154\x6f\x61\144\x55\x72\154" => $jdkhQ && !empty($jdkhQ->seS4J) ? B0Qx4($jdkhQ->seS4J) : null]; goto SProL; SProL: } catch (Exception $ai57B) { Log::p2M7e("\x45\x72\x72\157\x72\x20\147\x65\164\x74\151\x6e\x67\40\x6c\x61\x74\145\x73\x74\40\x62\x61\156\156\145\x72\40\144\141\164\x61\x3a\40" . $ai57B->getMessage()); return ["\x62\141\156\x6e\x65\162\115\141\x69\x73\x52\145\143\145\156\164\145" => null, "\x68\141\x73\114\x61\164\x65\163\164\102\141\156\156\x65\x72" => false, "\160\x72\x65\154\x6f\x61\144\x55\x72\x6c" => null]; } }); } public function sAyFk() { try { goto tUBLr; tUBLr: $q6kbK = djLvj::MJFJ5("\160\x61\x72\164\151\141\x6c\163\x3a\163\x6c\151\x64\x65\162\137\x62\x61\156\x6e\x65\x72\163\x3a\x64\141\164\141", wHFh3()->Rw_8l(self::A_vwM), function () { return ovU1i::c_MhY("\x61\x63\x74\x69\x76\x65", true)->c_MHy("\x74\x69\160\x6f", "\163\x6c\151\144\x65")->A9JmH("\157\x72\x64\x65\155", "\x61\163\x63")->get(["\151\x64", "\x69\155\141\147\x65\155", "\154\151\x6e\x6b", "\157\162\144\x65\155"]); }); goto SMbqo; SMbqo: $GnFpN = $q6kbK->vnt3X(function ($lC9vt) { return ["\x69\144" => $lC9vt->id, "\151\x6d\141\147\145\x6d" => $lC9vt->seS4J ? b0qX4($lC9vt->seS4J) : null, "\154\151\156\x6b" => $lC9vt->o9wPQ, "\x6f\162\x64\x65\x6d" => $lC9vt->yxRV_]; }); goto XIWBq; XIWBq: return JgkrL()->SbE1Q($GnFpN); goto ky0ss; ky0ss: } catch (\Exception $ai57B) { Log::P2M7E("\105\x72\x72\157\x72\x20\147\145\x74\164\151\x6e\147\x20\x73\x6c\x69\x64\145\162\40\x62\x61\x6e\156\x65\162\x73\x3a\40" . $ai57B->getMessage()); return jgkrL()->sBE1q(["\x65\x72\162\157\x72" => "\105\x72\x72\x6f\40\x61\x6f\x20\143\x61\162\x72\145\x67\x61\x72\40\x62\x61\156\x6e\145\x72\163", "\155\x65\163\163\x61\147\145" => $ai57B->getMessage()], 500); } } public function qjuYd() { try { goto fsNnj; ugEk2: return JgkrL()->SBE1q(null); goto Eqwj9; YR5Cu: return jgkrl()->sbE1q($jGgIL); goto jeKhf; Eqwj9: q2p8t: goto XnPEW; fsNnj: $lC9vt = DjLvJ::MjFJ5("\x70\141\162\x74\x69\x61\x6c\163\72\154\x61\x74\145\163\164\x5f\x73\x6c\x69\x64\145\162\137\x62\141\x6e\x6e\145\162\x3a\x64\x61\x74\x61", WHFH3()->rW_8l(self::A_vwM), function () { return ovu1i::c_MHY("\x61\143\164\x69\166\145", true)->C_mhy("\164\151\160\x6f", "\163\x6c\151\144\145")->a9jmh("\157\x72\144\x65\x6d", "\141\x73\143")->yrkR9(["\151\144", "\x69\x6d\x61\147\x65\x6d", "\154\x69\156\153", "\157\162\144\145\155"]); }); goto dUwII; dUwII: if ($lC9vt) { goto q2p8t; } goto ugEk2; XnPEW: $jGgIL = ["\151\x64" => $lC9vt->id, "\x69\155\x61\x67\145\x6d" => $lC9vt->seS4J ? b0Qx4($lC9vt->seS4J) : null, "\154\151\x6e\153" => $lC9vt->o9wPQ, "\x6f\162\x64\x65\155" => $lC9vt->yxRV_]; goto YR5Cu; jeKhf: } catch (\Exception $ai57B) { Log::p2m7e("\x45\162\x72\x6f\162\40\147\x65\164\x74\x69\156\x67\x20\x6c\141\164\x65\163\x74\x20\x73\x6c\x69\144\x65\162\40\x62\x61\156\156\x65\162\x3a\x20" . $ai57B->getMessage()); return jgKrL()->Sbe1q(["\x65\162\x72\x6f\x72" => "\x45\x72\162\157\40\141\x6f\40\143\141\x72\162\x65\147\141\162\x20\142\141\156\156\145\x72", "\x6d\x65\x73\163\x61\147\x65" => $ai57B->getMessage()], 500); } } public static function rCrfb() { try { goto EQufM; WcqaO: dJLVj::JCIrA("\x70\141\162\164\151\x61\154\163\x3a\x66\157\x6f\x74\x65\162\72\x64\x61\x74\141"); goto fGYG3; Eyn78: uUG4k: goto WcqaO; TJDqD: return true; goto DS1Ak; EQufM: $x3kl9 = ["\x70\x74\x5f\x42\122", "\x65\156", "\145\x73"]; goto qqUgy; hCV1H: DjlVj::jcira("\x70\x61\x72\164\151\x61\154\x73\x3a\x73\154\151\144\x65\x72\137\x62\141\x6e\156\x65\x72\x73\x3a\144\x61\x74\141"); goto QRCkx; qqUgy: foreach ($x3kl9 as $wJwb1) { goto g7M7l; g7M7l: DJLvj::JciRA("\160\141\x72\164\x69\x61\154\x73\x3a\x73\x69\144\145\x62\x61\162\x3a\x64\x61\164\x61\72{$wJwb1}"); goto hAtVd; vUnwG: HIwDm: goto jXRvR; hAtVd: DjLVJ::jcira("\x70\x61\162\x74\151\141\154\163\x3a\143\157\155\x70\154\x65\164\145\137\163\151\144\x65\x62\x61\162\72\x64\x61\164\x61\72{$wJwb1}"); goto vUnwG; jXRvR: } goto Eyn78; o5jhj: DJlvj::JcIRA("\160\141\162\x74\151\x61\154\163\x3a\154\x61\x74\x65\x73\164\x5f\142\x61\156\x6e\x65\162\72\x64\x61\x74\141"); goto hCV1H; QRCkx: dJLVj::JcIra("\x70\141\x72\x74\x69\x61\x6c\x73\x3a\154\141\164\145\x73\164\x5f\163\154\151\x64\145\162\x5f\142\x61\156\156\145\162\x3a\x64\141\x74\x61"); goto TJDqD; fGYG3: DJLVj::JCiRA("\x70\x61\x72\x74\x69\141\154\x73\x3a\142\141\x6e\156\145\x72\163\72\x64\141\164\141"); goto o5jhj; DS1Ak: } catch (Exception $ai57B) { return false; } } public static function sfCTm() { try { goto BHrgo; BHrgo: $XDHt2 = LVLOX::ftz7f("\x6d\x65\156\165\x5f\151\164\145\155\163")->get(); goto t9vM2; ULah8: return ["\x6d\145\156\x75\137\x69\x74\x65\x6d\x73\x5f\x63\x6f\165\x6e\x74" => $XDHt2->count(), "\143\x61\164\x65\147\157\x72\151\x65\163\137\143\x6f\165\156\x74" => $WlVYt->count(), "\x6d\x65\x6e\165\137\x69\164\145\x6d\163" => $XDHt2, "\143\141\x74\145\x67\x6f\x72\151\145\x73" => $WlVYt]; goto sRyc9; t9vM2: $WlVYt = lvlOX::ftZ7f("\155\145\x6e\165\137\143\141\x74\x65\x67\157\x72\x69\141")->get(); goto ULah8; sRyc9: } catch (Exception $ai57B) { return ["\x65\162\162\x6f\x72" => $ai57B->getMessage()]; } } public static function ohwPB($VzJp0 = null, $AnNqM = "\x70\141\x67\x69\x6e\141\x74\151\157\x6e\55\x64\145\x66\141\165\x6c\164", $HD_Fl = null, $aZR3b = "\143\157\x6e\x74\x65\156\164\55\143\x6f\156\164\x61\151\156\145\162") { try { goto H_IVG; DTPdM: aKOVR: goto BPWLH; lx_Oi: $sdx4E = []; goto P7K0i; ES_gX: $kQ05j = []; goto sF8U4; FJAFS: $LO0mO = $sz19g * 2 + 1 - ($MYOV6 - $pYZ89 + 1); goto fSxwg; fSxwg: if (!($LO0mO > 0)) { goto xOzKC; } goto cFbWR; JdRsp: $pYZ89 = max(1, $vidJA - $sz19g); goto vYB1d; tSW13: return ["\x68\141\x73\x50\141\147\x69\156\141\x74\151\157\156" => false, "\x70\141\x67\x69\156\x61\x74\x69\157\x6e\111\x64" => $AnNqM, "\x74\x61\162\x67\145\164\111\144" => $aZR3b, "\143\x75\162\162\x65\156\x74\x4c\x6f\143\141\x6c\x65" => $UsmID]; goto B8bLF; Ua13T: B8QcI: goto qFypa; ZKZ4P: ochAz: goto FSGm0; tR8TT: if (!($dRhzE == 0)) { goto XINLX; } goto umgVK; H_IVG: $VzJp0 = $VzJp0 ?? S9d5T()->get("\x73\x61\x71\165\145\x73") ?? null; goto YgXi0; vYB1d: $MYOV6 = min($lSSZg, $vidJA + $sz19g); goto DsalO; B8bLF: F_oZj: goto OHw9d; qFypa: $SagQ8 = $VzJp0->Fz_PS() ?? 0; goto aKpBh; dUOOv: $j87mR = $VzJp0 && method_exists($VzJp0, "\x74\x6f\164\141\154") && $VzJp0->C0GSm() > 0; goto nCDq7; BPWLH: xOzKC: goto Ua13T; DsalO: if (!($pYZ89 > 1 && $MYOV6 < $lSSZg)) { goto B8QcI; } goto FJAFS; FSGm0: if (!($IzN49 <= $MYOV6)) { goto bm0bM; } goto fBhK4; OHw9d: $sz19g = 2; goto PM68_; sF8U4: $IzN49 = $pYZ89; goto ZKZ4P; l4KfT: $sN2s7 = min($pYZ89 - 1, $LO0mO); goto QsOz2; BMJ7M: $IzN49++; goto oNUDP; J1O4v: bm0bM: goto lx_Oi; P7K0i: foreach (S9D5T()->query() as $qlAsN => $wor1r) { goto TqxtX; bL04A: $sdx4E[] = ["\x6e\x61\x6d\x65" => $qlAsN, "\166\x61\154\x75\145" => $wor1r]; goto X4HB0; MD70c: bEyqQ: goto Mb5Fo; TqxtX: if (!($qlAsN !== "\x70\141\x67\145")) { goto qXQAQ; } goto bL04A; X4HB0: qXQAQ: goto MD70c; Mb5Fo: } goto DG1l8; kX71C: return ["\x68\x61\x73\120\x61\x67\151\x6e\x61\x74\x69\157\156" => true, "\160\141\x67\x69\156\x61\x74\x69\x6f\156\111\x64" => $AnNqM, "\x74\141\162\147\145\x74\x49\144" => $aZR3b, "\x63\x75\162\x72\x65\x6e\164\114\x6f\143\x61\154\145" => $UsmID, "\x69\164\x65\155\x73" => $VzJp0, "\143\165\162\x72\x65\x6e\164\x50\x61\147\x65" => $vidJA, "\x6c\x61\163\164\120\141\x67\x65" => $lSSZg, "\x73\164\141\162\x74\x50\x61\147\145" => $pYZ89, "\x65\156\144\120\x61\147\145" => $MYOV6, "\160\x61\x67\145\x52\141\x6e\x67\145" => $kQ05j, "\146\x69\x72\x73\164\x49\164\x65\155" => $SagQ8, "\154\x61\x73\x74\x49\x74\x65\x6d" => $hbE3U, "\164\157\164\x61\154" => $dRhzE, "\161\x75\x65\162\171\x50\141\x72\141\x6d\163" => $sdx4E, "\x75\x72\x6c\163" => ["\x66\x69\x72\163\164" => $VzJp0->QPRio(1), "\160\162\145\166\151\x6f\165\163" => $VzJp0->XOQvn(), "\156\x65\170\x74" => $VzJp0->Kg0_r(), "\x6c\x61\x73\164" => $VzJp0->qPRiO($lSSZg), "\x63\x75\x72\x72\145\156\164" => An4p4()->current()], "\163\164\x61\164\x65\163" => ["\157\156\106\151\162\x73\164\120\x61\x67\145" => $VzJp0->DF0t4(), "\150\141\163\115\157\162\145\120\141\147\145\163" => $VzJp0->MJEmH(), "\163\x68\x6f\x77\106\x69\162\x73\164\105\154\154\151\x70\x73\x69\x73" => $pYZ89 > 2, "\x73\150\x6f\x77\x4c\141\163\x74\x45\154\154\x69\160\163\151\x73" => $MYOV6 < $lSSZg - 1, "\163\150\x6f\x77\106\151\162\163\x74\x50\141\x67\x65" => $pYZ89 > 1, "\x73\x68\x6f\x77\114\x61\x73\164\120\x61\147\x65" => $MYOV6 < $lSSZg], "\x74\x72\x61\x6e\163\x6c\x61\x74\151\157\156\163" => ["\x66\x69\162\x73\164\137\x70\x61\147\x65" => IizZY("\x70\x61\147\x69\156\x61\x74\x69\157\x6e\x2e\146\151\x72\163\x74\x5f\x70\x61\x67\x65"), "\160\x72\145\x76\x5f\160\141\147\145" => iizzy("\x70\x61\x67\151\156\x61\164\151\157\x6e\x2e\160\162\145\166\x5f\160\141\x67\145"), "\x6e\x65\170\x74\137\x70\x61\147\x65" => iizzY("\160\141\147\x69\x6e\x61\164\x69\157\156\56\156\145\x78\164\x5f\160\x61\147\145"), "\x6c\141\x73\164\x5f\160\x61\147\x65" => IIZzy("\x70\141\x67\151\156\x61\x74\x69\157\156\56\154\x61\163\164\137\x70\141\147\x65"), "\147\157\x74\x6f\x5f\x70\141\147\145" => IizZy("\160\x61\147\151\156\141\x74\151\157\156\x2e\147\157\164\x6f\137\x70\x61\x67\x65"), "\163\x68\x6f\x77\x69\156\x67" => iiZZy("\160\x61\147\151\156\141\x74\151\x6f\156\56\x73\150\157\x77\151\156\147"), "\164\157" => iIzzy("\x70\141\147\x69\x6e\x61\164\151\x6f\156\x2e\x74\157"), "\x6f\x66" => iizZY("\160\x61\x67\151\156\141\164\x69\157\156\56\x6f\146"), "\x72\x65\x63\157\162\x64\x73" => iiZzy("\x70\141\x67\151\x6e\x61\164\x69\x6f\x6e\x2e\x72\x65\x63\157\x72\x64\x73")]]; goto f3Voa; cFbWR: if (!($pYZ89 > 1)) { goto PoIJh; } goto l4KfT; QsOz2: $pYZ89 -= $sN2s7; goto n6dDz; aKpBh: $hbE3U = $VzJp0->id8H2() ?? 0; goto tkSDg; wBn9T: $MYOV6 += min($lSSZg - $MYOV6, $LO0mO); goto DTPdM; fBhK4: $kQ05j[] = ["\156\165\155\142\x65\162" => $IzN49, "\165\x72\154" => $VzJp0->QPrIO($IzN49), "\x69\x73\103\165\x72\162\x65\x6e\164" => $IzN49 == $vidJA]; goto cz09w; seKMm: $lSSZg = $VzJp0->HHN5P(); goto JdRsp; tkSDg: $dRhzE = $VzJp0->c0gsM() ?? 0; goto tR8TT; cz09w: RLKzO: goto BMJ7M; oNUDP: goto ochAz; goto J1O4v; xqjiv: XINLX: goto ES_gX; OM7ey: PoIJh: goto QY1pm; PM68_: $vidJA = $VzJp0->BD6Pc(); goto seKMm; QY1pm: if (!($LO0mO > 0 && $MYOV6 < $lSSZg)) { goto aKOVR; } goto wBn9T; pYASF: $hbE3U = 0; goto xqjiv; DG1l8: sUnzb: goto kX71C; nCDq7: if ($j87mR) { goto F_oZj; } goto tSW13; umgVK: $SagQ8 = 0; goto pYASF; YgXi0: $UsmID = JF89x()->d8G_Y(); goto dUOOv; n6dDz: $LO0mO -= $sN2s7; goto OM7ey; f3Voa: } catch (Exception $ai57B) { Log::p2M7E("\x45\x72\162\x6f\x72\x20\160\x72\157\143\145\163\163\151\x6e\147\40\160\141\147\151\156\141\x74\151\x6f\x6e\40\144\x61\x74\x61\x3a\40" . $ai57B->getMessage()); return ["\x68\141\x73\x50\141\x67\151\156\141\164\x69\x6f\156" => false, "\160\x61\147\x69\x6e\x61\164\x69\x6f\x6e\x49\x64" => $AnNqM, "\x74\x61\x72\x67\x65\164\x49\x64" => $aZR3b, "\x63\165\x72\162\x65\156\x74\114\157\143\141\154\x65" => jf89x()->d8G_y(), "\x65\x72\162\157\162" => true]; } } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+use App\Models\MenuItems;
+use App\Models\MenuCategoria;
+use App\Models\FooterSettings;
+use App\Models\SocialLink;
+use App\Models\Setting;
+use App\Models\Banner;
+use Exception;
+
+class PartialsController extends Controller
+{
+    /**
+     * TTL padrão para cache (em minutos)
+     */
+    private const CACHE_TTL = 15;
+
+    /**
+     * Obter dados consolidados do sidebar
+     *
+     * @return array
+     */
+    public static function getSidebarData()
+    {
+        $locale = app()->getLocale();
+        $cacheKey = "partials:sidebar:data:{$locale}";
+        
+        return Cache::remember($cacheKey, now()->addMinutes(self::CACHE_TTL), function () {
+            $data = [];
+            
+            try {
+                // Buscar itens de menu da categoria 6 (top menu)
+                $topMenuItems = DB::table('menu_items')
+                    ->where('active', '1')
+                    ->where('categoria', 6)
+                    ->orderBy('ordem', 'asc')
+                    ->get(['slug', 'nome', 'link', 'icone']);
+                    
+                $data['topMenuItems'] = [];
+                foreach ($topMenuItems as $key => $item) {
+                    $processed = [
+                        'key' => $key,
+                        'slug' => $item->slug,
+                        'nome' => $item->nome,
+                        'link' => $item->link,
+                        'icone' => $item->icone
+                    ];
+                    
+                    // Processar traduções
+                    if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $item->slug, $matches)) {
+                        $processed['translatedSlug'] = __($matches[1]);
+                    } else {
+                        $processed['translatedSlug'] = $item->slug;
+                    }
+                    
+                    if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $item->nome, $matches)) {
+                        $processed['translatedName'] = __($matches[1]);
+                    } else {
+                        $processed['translatedName'] = $item->nome;
+                    }
+                    
+                    // Processar links
+                    if (preg_match('/\{\{\s*route\([\'"](.+?)[\'"]\)\s*\}\}/', $item->link, $matches)) {
+                        try {
+                            $processed['linkUrl'] = route($matches[1]);
+                        } catch (Exception $e) {
+                            $processed['linkUrl'] = 'javascript:void(0);';
+                        }
+                    } else {
+                        $processed['linkUrl'] = $item->link ?: 'javascript:void(0);';
+                    }
+                    
+                    // Definir classes do botão
+                    if ($key == 0) {
+                        $processed['buttonClass'] = "f0Xlz CcmQs hNTLMN relative";
+                    } elseif ($key == 1) {
+                        $processed['buttonClass'] = "f0Xlz CcmQs Cfgx8 relative";
+                    } else {
+                        $processed['buttonClass'] = "f0Xlz CcmQs hNTLM relative";
+                    }
+                    
+                    $data['topMenuItems'][] = $processed;
+                }
+                
+                // Buscar categorias de menu e seus itens
+                $categoriesWithItems = DB::table('menu_categoria as mc')
+                    ->leftJoin('menu_items as mi', function($join) {
+                        $join->on('mc.id', '=', 'mi.categoria')
+                             ->where('mi.active', '=', '1');
+                    })
+                    ->where('mc.tipo', 0)
+                    ->where('mc.active', '1')
+                    ->where('mc.id', '!=', 6)
+                    ->orderBy('mc.id', 'asc')
+                    ->orderBy('mi.ordem', 'asc')
+                    ->get([
+                        'mc.id as category_id',
+                        'mc.slug as category_slug',
+                        'mi.nome as item_nome',
+                        'mi.link as item_link',
+                        'mi.icone as item_icone'
+                    ]);
+                
+                // Agrupar os resultados por categoria
+                $groupedData = [];
+                foreach ($categoriesWithItems as $row) {
+                    $categoryId = $row->category_id;
+                    
+                    if (!isset($groupedData[$categoryId])) {
+                        $groupedData[$categoryId] = [
+                            'id' => $categoryId,
+                            'slug' => $row->category_slug,
+                            'items' => []
+                        ];
+                        
+                        // Processar tradução da categoria
+                        if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $row->category_slug, $matches)) {
+                            $groupedData[$categoryId]['translatedSlug'] = __($matches[1]);
+                        } else {
+                            $groupedData[$categoryId]['translatedSlug'] = $row->category_slug;
+                        }
+                    }
+                    
+                    // Adicionar item se existir
+                    if ($row->item_nome) {
+                        $processedItem = [
+                            'nome' => $row->item_nome,
+                            'link' => $row->item_link,
+                            'icone' => $row->item_icone
+                        ];
+                        
+                        // Processar nome do item
+                        if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $row->item_nome, $matches)) {
+                            $processedItem['translatedName'] = __($matches[1]);
+                        } else {
+                            $processedItem['translatedName'] = $row->item_nome;
+                        }
+                        
+                        // Processar link do item
+                        if (preg_match('/\{\{\s*route\([\'"](.+?)[\'"]\)\s*\}\}/', $row->item_link, $matches)) {
+                            try {
+                                $processedItem['processedLink'] = 'href="' . route($matches[1]) . '"';
+                            } catch (Exception $e) {
+                                $processedItem['processedLink'] = "href='javascript:void(0);'";
+                            }
+                        } elseif (preg_match('/OpenGame\([\'"](.+?)[\'"]\s*,\s*[\'"](.+?)[\'"]\)/', $row->item_link, $matches)) {
+                            $processedItem['processedLink'] = 'href="javascript:void(0);" onclick="OpenGame(\'' . $matches[1] . '\', \'' . $matches[2] . '\');"';
+                        } elseif (preg_match('/LinkMobile\([\'"](.+?)[\'"]\)/', $row->item_link, $matches)) {
+                            $processedItem['processedLink'] = 'href="javascript:void(0);" onclick="LinkMobile(\'' . $matches[1] . '\');"';
+                        } elseif (strpos($row->item_link, 'casino/') !== false) {
+                            $processedItem['processedLink'] = 'href="javascript:void(0);" onclick="OpenGame(\'games\', \'' . $row->item_link . '\');"';
+                        } elseif ($row->item_link != "") {
+                            $processedItem['processedLink'] = 'href="' . $row->item_link . '"';
+                        } else {
+                            $processedItem['processedLink'] = "href='javascript:void(0);'";
+                        }
+                        
+                        $groupedData[$categoryId]['items'][] = $processedItem;
+                    }
+                }
+                
+                $data['categories'] = array_values($groupedData);
+                
+            } catch (Exception $e) {
+                // Em caso de erro, retornar estrutura vazia para evitar quebrar o sidebar
+                $data = [
+                    'topMenuItems' => [],
+                    'categories' => []
+                ];
+            }
+            
+            return $data;
+        });
+    }
+    
+    /**
+     * Obter dados do footer
+     *
+     * @return array
+     */
+    public static function getFooterData()
+    {
+        return Cache::remember('partials:footer:data', now()->addMinutes(self::CACHE_TTL), function () {
+            $data = [];
+            
+            try {
+                // Buscar configurações do footer
+                $footerSettings = FooterSettings::getSettings();
+                $socialLinks = SocialLink::first();
+                $siteInfo = Setting::first();
+                
+                // Processar dados do footer
+                $data['footerSettings'] = $footerSettings;
+                $data['socialLinks'] = $socialLinks;
+                $data['siteInfo'] = $siteInfo;
+                
+                // URLs das redes sociais
+                $data['whatsappUrl'] = $socialLinks->whatsapp ?? '';
+                $data['instagramUrl'] = $socialLinks->instagram ?? '';
+                $data['telegramUrl'] = $socialLinks->telegram ?? '';
+                $data['facebookUrl'] = $socialLinks->facebook ?? '';
+                
+                // URLs e configurações
+                $data['contactButtonUrl'] = $footerSettings->contact_button_url ?? '';
+                $data['showSocialLinks'] = $footerSettings->show_social_links ?? false;
+                $data['showAutorizadoCassino'] = $footerSettings->show_autorizado_cassino ?? false;
+                
+                // Configurações individuais das redes sociais
+                $data['showInstagram'] = $socialLinks->show_instagram ?? false;
+                $data['showFacebook'] = $socialLinks->show_facebook ?? false;
+                $data['showWhatsapp'] = $socialLinks->show_whatsapp ?? false;
+                $data['showTelegram'] = $socialLinks->show_telegram ?? false;
+                
+                // Detectar idioma atual e configurar bandeira/texto patriótico
+                $currentLocale = app()->getLocale() ?: 'pt_BR';
+                
+                // Configurar bandeira e texto baseado no idioma
+                switch ($currentLocale) {
+                    case 'en':
+                        $data['flagImage'] = 'img/flags/USA.svg';
+                        $data['flagAlt'] = 'USA';
+                        break;
+                    case 'es':
+                        $data['flagImage'] = 'img/flags/ESP.svg';
+                        $data['flagAlt'] = 'ESP';
+                        break;
+                    case 'pt_BR':
+                    default:
+                        $data['flagImage'] = 'img/flags/BRA.svg';
+                        $data['flagAlt'] = 'BRA';
+                        break;
+                }
+                
+                // Calcular tempo logado se usuário estiver autenticado
+                if (auth()->check()) {
+                    $loginTimestamp = session('login_timestamp');
+                    $data['loginTimestamp'] = $loginTimestamp;
+                    
+                    if ($loginTimestamp && is_numeric($loginTimestamp)) {
+                        $initialDiff = time() - $loginTimestamp;
+                        $hours = floor($initialDiff / 3600);
+                        $minutes = floor(($initialDiff % 3600) / 60);
+                        $seconds = $initialDiff % 60;
+                        $data['initialTimeLogged'] = sprintf('%02dh %02dm %02ds', $hours, $minutes, $seconds);
+                    } else {
+                        $data['initialTimeLogged'] = '00h 00m 00s';
+                    }
+                    
+                    // Formatação do último login
+                    $lastLogin = auth()->user()->last_login;
+                    if (!empty($lastLogin)) {
+                        try {
+                            $lastLoginDate = \Carbon\Carbon::parse($lastLogin);
+                            $data['formattedLastLogin'] = $lastLoginDate->format('d/m/Y, H:i');
+                        } catch (\Exception $e) {
+                            $data['formattedLastLogin'] = 'N/A';
+                        }
+                    } else {
+                        $data['formattedLastLogin'] = 'N/A';
+                    }
+                }
+                
+                // Gerar emails baseados no domínio
+                $domain = parse_url(config('app.url'), PHP_URL_HOST);
+                $data['emails'] = [
+                    'support' => "suporte@{$domain}",
+                    'contact' => "contato@{$domain}",
+                    'atendimento' => $footerSettings->support_email ?? "atendimento@{$domain}"
+                ];
+                
+            } catch (Exception $e) {
+                // Em caso de erro, retornar estrutura mínima
+                $data = [
+                    'footerSettings' => (object) ['footer_text' => '', 'footer_subtext' => ''],
+                    'socialLinks' => (object) [],
+                    'siteInfo' => (object) ['name' => config('app.name'), 'logo' => 'img/logo-inove.png'],
+                    'showSocialLinks' => false,
+                    'showAutorizadoCassino' => false,
+                    'flagImage' => 'img/flags/BRA.svg',
+                    'flagAlt' => 'BRA',
+                    'emails' => ['atendimento' => 'atendimento@exemplo.com']
+                ];
+            }
+            
+            return $data;
+        });
+    }
+    
+    /**
+     * Obter todos os dados necessários para a sidebar já processados
+     *
+     * @return array
+     */
+    public static function getCompleteSidebarData()
+    {
+        $currentLocale = app()->getLocale() ?: 'pt_BR';
+        $cacheKey = "partials:complete_sidebar:data:{$currentLocale}";
+        
+        return Cache::remember($cacheKey, now()->addMinutes(self::CACHE_TTL), function () use ($currentLocale) {
+            try {
+                // Verificar o estado do topbar com base no cookie
+                $topbarClosed = isset($_COOKIE['topbar_closed']) && $_COOKIE['topbar_closed'] === 'true';
+                $sidebarHeight = $topbarClosed ? '65px' : '105px';
+                
+                // Buscar informações do site
+                $footerSettings = FooterSettings::getSettings();
+                $siteInfos = Setting::first();
+                
+                $siteInfo = (object)[
+                    'name' => $siteInfos->name ?? config('app.name'),
+                    'logo' => $siteInfos->logo ?? 'img/logo-inove.png'
+                ];
+                
+                // Buscar itens do menu topo (categoria 6)
+                $topMenuItems = [];
+                $topMenuData = MenuItems::where('active', '1')
+                    ->where('categoria', 6)
+                    ->orderBy('ordem', 'asc')
+                    ->get();
+                
+                foreach ($topMenuData as $key => $item) {
+                    // Processar slug para tradução
+                    $slugText = $item->slug;
+                    if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $slugText, $matches)) {
+                        $translationKey = $matches[1];
+                        $translatedSlug = __($translationKey);
+                    } else {
+                        $translatedSlug = $slugText;
+                    }
+
+                    // Processar nome para tradução
+                    $nameText = $item->nome;
+                    if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $nameText, $matches)) {
+                        $translationKey = $matches[1];
+                        $translatedName = __($translationKey);
+                    } else {
+                        $translatedName = $nameText;
+                    }
+
+                    // Processar link para interpretar rotas do Laravel
+                    $linkText = $item->link;
+                    if (preg_match('/\{\{\s*route\([\'"](.+?)[\'"]\)\s*\}\}/', $linkText, $matches)) {
+                        $routeName = $matches[1];
+                        $linkUrl = route($routeName);
+                    } else {
+                        $linkUrl = $linkText ?: 'javascript:void(0);';
+                    }
+
+                    // Definir classes do botão com base na posição
+                    if ($key == 0) {
+                        $buttonClass = "f0Xlz CcmQs hNTLMN relative";
+                    } elseif ($key == 1) {
+                        $buttonClass = "f0Xlz CcmQs Cfgx8 relative";
+                    } else {
+                        $buttonClass = "f0Xlz CcmQs hNTLM relative";
+                    }
+                    
+                    $topMenuItems[] = [
+                        'translatedName' => $translatedName,
+                        'translatedSlug' => $translatedSlug,
+                        'linkUrl' => $linkUrl,
+                        'buttonClass' => $buttonClass,
+                        'icone' => $item->icone
+                    ];
+                }
+                
+                // Buscar categorias e seus itens
+                $categories = [];
+                $categoriesData = MenuCategoria::where('tipo', 0)
+                    ->where('active', '1')
+                    ->where('id', '!=', 6)
+                    ->orderBy('id', 'asc')
+                    ->get();
+                
+                foreach ($categoriesData as $category) {
+                    // Processar slug da categoria para tradução
+                    $slugText = $category->slug;
+                    if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $slugText, $matches)) {
+                        $translationKey = $matches[1];
+                        $translatedSlug = __($translationKey);
+                    } else {
+                        $translatedSlug = $slugText;
+                    }
+                    
+                    // Buscar itens da categoria
+                    $categoryItems = [];
+                    $itemsData = MenuItems::where('categoria', $category->id)
+                        ->where('active', '1')
+                        ->orderBy('ordem', 'asc')
+                        ->get();
+                    
+                    foreach ($itemsData as $item) {
+                        // Processar link do item
+                        if (preg_match('/\{\{\s*route\([\'"](.+?)[\'"]\)\s*\}\}/', $item->link, $matches)) {
+                            $routeName = $matches[1];
+                            $link = 'href="' . route($routeName) . '"';
+                        }
+                        // Se for um link para OpenGame
+                        elseif (preg_match('/OpenGame\([\'"](.+?)[\'"]\s*,\s*[\'"](.+?)[\'"]\)/', $item->link, $matches)) {
+                            $gameType = $matches[1];
+                            $gameSlug = $matches[2];
+                            $link = 'href="JavaScript: Void(0);" onclick="OpenGame(\'' . $gameType . '\', \'' . $gameSlug . '\');"';
+                        }
+                        // Se for um LinkMobile
+                        elseif (preg_match('/LinkMobile\([\'"](.+?)[\'"]\)/', $item->link, $matches)) {
+                            $mobilePath = $matches[1];
+                            $link = 'href="javascript: void(0);" onclick="LinkMobile(\'' . $mobilePath . '\');"';
+                        }
+                        // Se o link contém casino/ (padrão de link direto para jogos)
+                        elseif (strpos($item->link, 'casino/') !== false) {
+                            $gameSlug = $item->link;
+                            $link = 'href="JavaScript: Void(0);" onclick="OpenGame(\'games\', \'' . $gameSlug . '\');"';
+                        }
+                        // Se não for rota e tiver um link definido
+                        elseif ($item->link != "") {
+                            $link = 'href="' . $item->link . '"';
+                        }
+                        // Se não tiver link
+                        else {
+                            $link = "href='JavaScript: Void(0);'";
+                        }
+
+                        // Processar nome do item para tradução
+                        $itemName = $item->nome;
+                        if (preg_match('/\{\{\s*__\(\'(.*?)\'\)\s*\}\}/', $itemName, $matches)) {
+                            $nameKey = $matches[1];
+                            $translatedName = __($nameKey);
+                        } else {
+                            $translatedName = $itemName;
+                        }
+                        
+                        $categoryItems[] = [
+                            'link' => $link,
+                            'icone' => $item->icone,
+                            'translatedName' => $translatedName
+                        ];
+                    }
+                    
+                    $categories[] = [
+                        'translatedSlug' => $translatedSlug,
+                        'items' => $categoryItems
+                    ];
+                }
+                
+                // Configurações de idioma
+                $currentLanguageName = match($currentLocale) {
+                    'pt_BR' => 'Português',
+                    'en' => 'English',
+                    'es' => 'Español',
+                    default => 'Português'
+                };
+                
+                // Opções de idiomas (excluindo o atual)
+                $allLanguages = [
+                    'pt_BR' => ['name' => 'Português', 'flag' => 'pt_BR.png'],
+                    'en' => ['name' => 'English', 'flag' => 'en.png'],
+                    'es' => ['name' => 'Español', 'flag' => 'es.png']
+                ];
+                
+                $languageOptions = [];
+                foreach ($allLanguages as $locale => $data) {
+                    if ($locale !== $currentLocale) {
+                        $languageOptions[] = [
+                            'locale' => $locale,
+                            'name' => $data['name'],
+                            'flag' => $data['flag'],
+                            'url' => route('language.switch', ['locale' => $locale])
+                        ];
+                    }
+                }
+                
+                // Compilar dados finais
+                $data = [
+                    'sidebarHeight' => $sidebarHeight,
+                    'homeUrl' => route('home'),
+                    'isHomeActive' => request()->routeIs('home*'),
+                    'siteInfo' => $siteInfo,
+                    'topMenuItems' => $topMenuItems,
+                    'categories' => $categories,
+                    'contactButtonUrl' => $footerSettings->contact_button_url ?? '#',
+                    'currentLocale' => $currentLocale,
+                    'currentLanguageName' => $currentLanguageName,
+                    'languageOptions' => $languageOptions,
+                    'translations' => [
+                        'help_center' => __('messages.help_center'),
+                        'blog' => __('messages.blog')
+                    ]
+                ];
+                
+                return $data;
+                
+            } catch (\Exception $e) {
+                // Retornar estrutura básica em caso de erro
+                return [
+                    'sidebarHeight' => '105px',
+                    'homeUrl' => route('home'),
+                    'isHomeActive' => false,
+                    'siteInfo' => (object)['name' => config('app.name'), 'logo' => 'img/logo-inove.png'],
+                    'topMenuItems' => [],
+                    'categories' => [],
+                    'contactButtonUrl' => '#',
+                    'currentLocale' => app()->getLocale() ?: 'pt_BR',
+                    'currentLanguageName' => 'Português',
+                    'languageOptions' => [],
+                    'translations' => [
+                        'help_center' => 'Central de Ajuda',
+                        'blog' => 'Blog'
+                    ]
+                ];
+            }
+        });
+    }
+
+    /**
+     * Obter dados dos banners
+     *
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public static function getBannersData()
+    {
+        return Cache::remember('partials:banners:data', now()->addMinutes(self::CACHE_TTL), function () {
+            try {
+                return Banner::where('active', true)->orderBy('ordem')->get();
+            } catch (Exception $e) {
+                Log::error('Error getting banners data: ' . $e->getMessage());
+                return collect(); // Retorna coleção vazia em caso de erro
+            }
+        });
+    }
+
+    /**
+     * Obter dados do banner mais recente para exibição inicial
+     *
+     * @return array
+     */
+    public static function getLatestBannerData()
+    {
+        return Cache::remember('partials:latest_banner:data', now()->addMinutes(self::CACHE_TTL), function () {
+            try {
+                $banners = Banner::where('active', true)
+                    ->where('tipo', 'slide')
+                    ->orderBy('ordem', 'asc')
+                    ->get();
+                
+                $bannerMaisRecente = $banners->first();
+                
+                return [
+                    'bannerMaisRecente' => $bannerMaisRecente,
+                    'hasLatestBanner' => $bannerMaisRecente ? true : false,
+                    'preloadUrl' => $bannerMaisRecente && !empty($bannerMaisRecente->imagem) ? asset($bannerMaisRecente->imagem) : null
+                ];
+            } catch (Exception $e) {
+                Log::error('Error getting latest banner data: ' . $e->getMessage());
+                return [
+                    'bannerMaisRecente' => null,
+                    'hasLatestBanner' => false,
+                    'preloadUrl' => null
+                ];
+            }
+        });
+    }
+
+    /**
+     * Obter banners do tipo slide ativos via AJAX
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getSliderBanners()
+    {
+        try {
+            $banners = Cache::remember('partials:slider_banners:data', now()->addMinutes(self::CACHE_TTL), function () {
+                return Banner::where('active', true)
+                    ->where('tipo', 'slide')
+                    ->orderBy('ordem', 'asc')
+                    ->get(['id', 'imagem', 'link', 'ordem']);
+            });
+            
+            // Processar dados dos banners
+            $processedBanners = $banners->map(function ($banner) {
+                return [
+                    'id' => $banner->id,
+                    'imagem' => $banner->imagem ? asset($banner->imagem) : null,
+                    'link' => $banner->link,
+                    'ordem' => $banner->ordem
+                ];
+            });
+
+            return response()->json($processedBanners);
+        } catch (\Exception $e) {
+            Log::error('Error getting slider banners: ' . $e->getMessage());
+            return response()->json([
+                'error' => 'Erro ao carregar banners',
+                'message' => $e->getMessage()
+            ], 500);
+        }
+    }
+    
+    /**
+     * Obter apenas o banner mais recente do tipo slide via AJAX
+     *
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getLatestSliderBanner()
+    {
+        try {
+            $banner = Cache::remember('partials:latest_slider_banner:data', now()->addMinutes(self::CACHE_TTL), function () {
+                return Banner::where('active', true)
+                    ->where('tipo', 'slide')
+                    ->orderBy('ordem', 'asc')
+                    ->first(['id', 'imagem', 'link', 'ordem']);
+            });
+            
+            if (!$banner) {
+                return response()->json(null);
+            }
+            
+            $processedBanner = [
+                'id' => $banner->id,
+                'imagem' => $banner->imagem ? asset($banner->imagem) : null,
+                'link' => $banner->link,
+                'ordem' => $banner->ordem
+            ];
+
+            return response()->json($processedBanner);
+        } catch (\Exception $e) {
+            Log::error('Error getting latest slider banner: ' . $e->getMessage());
+            return response()->json([
+                'error' => 'Erro ao carregar banner',
+                'message' => $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Limpar cache das partials
+     *
+     * @return bool
+     */
+    public static function clearPartialsCache()
+    {
+        try {
+            // Limpar caches específicos
+            $locales = ['pt_BR', 'en', 'es'];
+            
+            foreach ($locales as $locale) {
+                Cache::forget("partials:sidebar:data:{$locale}");
+                Cache::forget("partials:complete_sidebar:data:{$locale}");
+            }
+            
+            Cache::forget('partials:footer:data');
+            Cache::forget('partials:banners:data');
+            Cache::forget('partials:latest_banner:data');
+            Cache::forget('partials:slider_banners:data');
+            Cache::forget('partials:latest_slider_banner:data');
+            
+            return true;
+            
+        } catch (Exception $e) {
+            return false;
+        }
+    }
+
+    /**
+     * Método para debug - verificar dados do banco
+     */
+    public static function debugSidebarData()
+    {
+        try {
+            $menuItems = DB::table('menu_items')->get();
+            $categories = DB::table('menu_categoria')->get();
+            
+            return [
+                'menu_items_count' => $menuItems->count(),
+                'categories_count' => $categories->count(),
+                'menu_items' => $menuItems,
+                'categories' => $categories
+            ];
+        } catch (Exception $e) {
+            return ['error' => $e->getMessage()];
+        }
+    }
+
+    /**
+     * Processar dados de paginação
+     *
+     * @param mixed $items - Objeto de paginação
+     * @param string $paginationId - ID único para a paginação
+     * @param string $route - Rota para navegação
+     * @param string $targetId - ID do contêiner a ser atualizado
+     * @return array
+     */
+    public static function processPaginationData($items = null, $paginationId = 'pagination-default', $route = null, $targetId = 'content-container')
+    {
+        try {
+            // Definir variáveis com valores padrão
+            $items = $items ?? request()->get('saques') ?? null;
+            
+            // Obter o idioma atual da aplicação
+            $currentLocale = app()->getLocale();
+            
+            // Verificar se $items é um objeto de paginação válido com resultados
+            $hasPagination = $items && method_exists($items, 'total') && $items->total() > 0;
+
+            if (!$hasPagination) {
+                return [
+                    'hasPagination' => false,
+                    'paginationId' => $paginationId,
+                    'targetId' => $targetId,
+                    'currentLocale' => $currentLocale
+                ];
+            }
+
+            // Configuração para exibição de páginas
+            $onEachSide = 2; // Número de links em cada lado da página atual
+            
+            $currentPage = $items->currentPage();
+            $lastPage = $items->lastPage();
+            
+            // Determinar o intervalo de páginas a exibir
+            $startPage = max(1, $currentPage - $onEachSide);
+            $endPage = min($lastPage, $currentPage + $onEachSide);
+            
+            // Ajustar para garantir que mostramos pelo menos 5 links quando possível
+            if ($startPage > 1 && $endPage < $lastPage) {
+                $diff = $onEachSide * 2 + 1 - ($endPage - $startPage + 1);
+                if ($diff > 0) {
+                    if ($startPage > 1) {
+                        $addToStart = min($startPage - 1, $diff);
+                        $startPage -= $addToStart;
+                        $diff -= $addToStart;
+                    }
+                    
+                    if ($diff > 0 && $endPage < $lastPage) {
+                        $endPage += min($lastPage - $endPage, $diff);
+                    }
+                }
+            }
+
+            // Calcular informações de exibição
+            $firstItem = $items->firstItem() ?? 0;
+            $lastItem = $items->lastItem() ?? 0;
+            $total = $items->total() ?? 0;
+            
+            // Se não há itens, mostrar 0 para ambos
+            if ($total == 0) {
+                $firstItem = 0;
+                $lastItem = 0;
+            }
+
+            // Gerar array de páginas para loop
+            $pageRange = [];
+            for ($i = $startPage; $i <= $endPage; $i++) {
+                $pageRange[] = [
+                    'number' => $i,
+                    'url' => $items->url($i),
+                    'isCurrent' => $i == $currentPage
+                ];
+            }
+
+            // Preservar parâmetros de query string
+            $queryParams = [];
+            foreach (request()->query() as $key => $value) {
+                if ($key !== 'page') {
+                    $queryParams[] = [
+                        'name' => $key,
+                        'value' => $value
+                    ];
+                }
+            }
+
+            return [
+                'hasPagination' => true,
+                'paginationId' => $paginationId,
+                'targetId' => $targetId,
+                'currentLocale' => $currentLocale,
+                'items' => $items,
+                'currentPage' => $currentPage,
+                'lastPage' => $lastPage,
+                'startPage' => $startPage,
+                'endPage' => $endPage,
+                'pageRange' => $pageRange,
+                'firstItem' => $firstItem,
+                'lastItem' => $lastItem,
+                'total' => $total,
+                'queryParams' => $queryParams,
+                'urls' => [
+                    'first' => $items->url(1),
+                    'previous' => $items->previousPageUrl(),
+                    'next' => $items->nextPageUrl(),
+                    'last' => $items->url($lastPage),
+                    'current' => url()->current()
+                ],
+                'states' => [
+                    'onFirstPage' => $items->onFirstPage(),
+                    'hasMorePages' => $items->hasMorePages(),
+                    'showFirstEllipsis' => $startPage > 2,
+                    'showLastEllipsis' => $endPage < $lastPage - 1,
+                    'showFirstPage' => $startPage > 1,
+                    'showLastPage' => $endPage < $lastPage
+                ],
+                'translations' => [
+                    'first_page' => __('pagination.first_page'),
+                    'prev_page' => __('pagination.prev_page'),
+                    'next_page' => __('pagination.next_page'),
+                    'last_page' => __('pagination.last_page'),
+                    'goto_page' => __('pagination.goto_page'),
+                    'showing' => __('pagination.showing'),
+                    'to' => __('pagination.to'),
+                    'of' => __('pagination.of'),
+                    'records' => __('pagination.records')
+                ]
+            ];
+
+        } catch (Exception $e) {
+            Log::error('Error processing pagination data: ' . $e->getMessage());
+            
+            return [
+                'hasPagination' => false,
+                'paginationId' => $paginationId,
+                'targetId' => $targetId,
+                'currentLocale' => app()->getLocale(),
+                'error' => true
+            ];
+        }
+    }
+} 

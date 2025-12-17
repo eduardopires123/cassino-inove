@@ -1,8 +1,253 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:40              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\ShteQ\fN52M\jKLI6; use Jf89X\SHTeQ\fN52M\nmp37; use jF89X\T0eTD\tCDv0; use ec3mE\sHtEQ\s9D5t; use eC3Me\h2vUv\tc4RX; use eC3me\NZJo_\HeDVn; class EaPZV extends NMp37 { public function JKBs3() { $a66yD = tcDV0::a9jmH("\x6e\x61\155\x65")->get(); return Lo0cY("\141\x64\x6d\x69\x6e\x2e\x65\x6d\x61\151\x6c\x5f\x74\x65\x6d\x70\x6c\141\x74\x65\x73\56\x69\x6e\144\x65\170", compact("\x74\145\155\160\x6c\x61\164\145\x73")); } public function create() { return lO0cy("\x61\x64\155\151\156\56\145\155\x61\151\154\x5f\164\x65\155\160\154\x61\x74\145\163\x2e\143\162\x65\141\164\x65"); } public function aohqW(S9D5T $WFz1w) { goto vNZlH; S0h8w: fBlDq: goto QXX3g; nJ4XY: ST1eG: goto HxMP3; fP_UZ: $e22Ko = []; goto lTnYv; D0uXs: return fH6x5()->wwy32("\x61\144\x6d\x69\156\x2e\x65\x6d\x61\x69\x6c\55\164\x65\x6d\x70\x6c\141\164\145\163\x2e\151\156\144\x65\x78")->rNJfY("\x73\x75\143\x63\145\x73\x73", "\124\145\x6d\160\154\x61\164\x65\40\144\145\x20\x65\155\141\x69\x6c\40\x63\x72\x69\x61\144\157\x20\143\x6f\155\40\163\165\x63\x65\x73\163\x6f\x21"); goto KjbG7; HxMP3: $rwPSc["\x76\x61\162\x69\x61\x62\154\x65\x73"] = $e22Ko; goto S0h8w; QXX3g: TcDv0::create($rwPSc); goto D0uXs; vNZlH: $rwPSc = $WFz1w->validate(["\x6e\141\x6d\145" => "\x72\x65\161\165\x69\x72\x65\144\174\x73\x74\162\x69\156\147\174\x6d\x61\170\72\62\x35\65", "\163\154\x75\147" => "\162\x65\x71\x75\x69\162\x65\144\174\x73\x74\162\x69\156\147\174\x6d\141\x78\72\x32\65\x35\174\x75\156\151\161\x75\145\72\x65\155\141\151\154\x5f\164\x65\x6d\160\154\141\x74\x65\163\54\x73\x6c\165\x67", "\x64\145\x73\143\162\151\x70\x74\x69\157\x6e" => "\156\165\154\x6c\x61\x62\154\x65\x7c\163\164\x72\151\x6e\x67", "\x73\165\142\x6a\x65\x63\x74" => "\162\145\x71\x75\x69\x72\145\x64\x7c\x73\x74\x72\x69\156\147", "\x68\x74\x6d\154\137\143\157\156\164\x65\x6e\x74" => "\162\x65\x71\165\x69\162\145\x64\174\x73\164\x72\151\x6e\x67", "\x74\145\170\x74\x5f\x63\157\156\x74\x65\156\164" => "\156\165\154\x6c\x61\x62\x6c\145\x7c\x73\x74\x72\151\x6e\147", "\x69\x73\137\141\x63\164\x69\166\x65" => "\x62\x6f\x6f\x6c\x65\x61\156", "\x62\x72\145\x76\x6f\x5f\x74\x65\x6d\160\154\141\x74\145\x5f\x69\x64" => "\156\x75\x6c\154\x61\x62\154\145\174\x69\156\164\x65\147\x65\162", "\166\x61\162\151\x61\142\154\x65\163" => "\156\165\x6c\x6c\141\142\x6c\145\174\x61\x72\162\141\171", "\166\141\x72\x69\141\142\154\145\163\x2e\x2a\56\x6e\141\x6d\x65" => "\x72\x65\161\165\x69\x72\145\x64\x7c\163\164\x72\151\156\x67", "\166\141\x72\151\x61\142\154\145\163\x2e\52\56\144\145\x73\x63\162\151\x70\x74\x69\x6f\156" => "\x72\145\161\x75\x69\162\145\x64\174\x73\x74\162\x69\x6e\x67"]); goto J7TN5; J7TN5: if (!isset($rwPSc["\166\141\x72\151\141\142\154\x65\163"])) { goto fBlDq; } goto fP_UZ; lTnYv: foreach ($rwPSc["\x76\141\x72\151\x61\142\x6c\145\x73"] as $oY1OU) { $e22Ko[$oY1OU["\x6e\x61\x6d\x65"]] = $oY1OU["\144\x65\163\143\162\151\x70\164\x69\157\x6e"]; z5dU1: } goto nJ4XY; KjbG7: } public function gezB_(tcdv0 $M_TSb) { return lo0Cy("\141\144\x6d\151\x6e\56\145\x6d\x61\151\x6c\x5f\x74\x65\x6d\x70\154\141\164\145\163\x2e\163\x68\157\x77", compact("\145\155\x61\x69\x6c\124\x65\x6d\x70\154\141\x74\x65")); } public function e36Z7(tCDV0 $M_TSb) { return lo0cy("\x61\x64\x6d\151\156\56\145\x6d\141\x69\154\137\164\145\x6d\160\154\141\x74\x65\163\56\x65\x64\151\x74", compact("\x65\155\x61\x69\x6c\x54\x65\155\x70\x6c\141\x74\x65")); } public function update(s9d5T $WFz1w, Tcdv0 $M_TSb) { goto IK6Ob; A7S6v: $e22Ko = []; goto RgreI; IK6Ob: $rwPSc = $WFz1w->validate(["\x6e\x61\x6d\x65" => "\162\145\x71\x75\x69\x72\145\x64\174\x73\x74\162\151\156\147\x7c\155\141\x78\72\62\x35\65", "\x73\x6c\x75\147" => ["\x72\x65\161\x75\x69\162\x65\x64", "\x73\164\162\151\x6e\147", "\155\141\x78\72\62\x35\x35", hedvn::k6HSA("\145\155\141\151\x6c\137\x74\x65\155\160\154\x61\164\145\163")->c3BA2($M_TSb->id)], "\144\x65\x73\x63\162\x69\x70\164\151\x6f\156" => "\156\165\154\154\141\142\x6c\145\174\x73\164\x72\151\x6e\x67", "\x73\x75\x62\x6a\145\143\164" => "\x72\x65\161\x75\151\162\x65\144\174\x73\x74\162\151\x6e\147", "\150\x74\155\154\137\143\x6f\x6e\164\x65\x6e\164" => "\x72\x65\x71\165\151\x72\x65\144\x7c\163\x74\x72\x69\156\x67", "\164\145\x78\164\x5f\143\157\x6e\164\145\156\x74" => "\x6e\x75\154\154\x61\142\154\145\x7c\163\x74\162\151\x6e\x67", "\x69\x73\x5f\x61\143\164\151\x76\x65" => "\x62\x6f\157\x6c\145\141\x6e", "\142\x72\145\166\x6f\137\x74\x65\155\160\x6c\141\x74\145\137\x69\144" => "\x6e\x75\154\x6c\x61\x62\154\145\174\x69\x6e\x74\145\147\145\162", "\166\141\x72\x69\x61\x62\x6c\x65\163" => "\156\x75\154\154\x61\142\x6c\145\x7c\141\x72\x72\141\171", "\166\x61\x72\x69\x61\x62\154\145\163\x2e\x2a\56\x6e\141\155\x65" => "\162\145\x71\x75\151\x72\x65\144\174\x73\x74\x72\151\x6e\x67", "\166\141\162\151\141\142\x6c\145\163\56\52\56\x64\x65\163\x63\x72\x69\160\x74\x69\x6f\x6e" => "\162\145\x71\165\x69\162\145\x64\174\163\x74\x72\x69\156\x67"]); goto zakmS; YWvKo: $rwPSc["\x76\141\x72\151\x61\142\154\145\163"] = $e22Ko; goto rU03D; rU03D: hybVt: goto AFDcv; zakmS: if (!isset($rwPSc["\x76\x61\162\151\141\142\154\x65\x73"])) { goto hybVt; } goto A7S6v; ICnlj: yrzVI: goto YWvKo; RgreI: foreach ($rwPSc["\166\x61\162\x69\x61\x62\x6c\145\x73"] as $oY1OU) { $e22Ko[$oY1OU["\x6e\x61\155\x65"]] = $oY1OU["\144\145\x73\x63\162\151\160\164\x69\157\156"]; wZzI_: } goto ICnlj; D5CCg: return FH6X5()->WwY32("\x61\x64\155\151\156\56\x65\155\141\x69\x6c\x2d\164\x65\155\x70\154\141\164\145\x73\56\151\x6e\x64\x65\x78")->RnJFy("\163\x75\x63\143\145\163\163", "\124\145\x6d\160\x6c\x61\x74\x65\40\144\145\40\145\155\141\x69\154\x20\x61\x74\165\x61\154\x69\172\141\144\157\40\x63\x6f\x6d\x20\x73\x75\x63\x65\x73\x73\x6f\x21"); goto JWXf2; AFDcv: $M_TSb->update($rwPSc); goto D5CCg; JWXf2: } public function destroy(tCDV0 $M_TSb) { goto CTEIr; Kc7q7: mYw8l: goto vLIDn; q2jfh: return fH6x5()->wWy32("\141\144\x6d\x69\156\56\x65\155\141\151\x6c\55\x74\x65\155\160\x6c\x61\x74\x65\x73\56\x69\156\x64\145\x78")->RnJfY("\x65\x72\162\x6f\162", "\x4e\303\xa3\x6f\40\303\251\x20\160\157\x73\x73\xc3\xad\x76\145\x6c\40\145\x78\143\154\165\151\162\x20\x74\145\x6d\160\154\141\164\x65\x73\x20\x70\141\x64\162\303\xa3\157\40\x64\157\40\163\151\x73\164\145\155\x61\x2e"); goto Kc7q7; CTEIr: $kuCui = ["\167\x65\154\143\157\155\145", "\160\x61\163\x73\x77\157\x72\144\55\x72\145\163\x65\x74"]; goto RRakm; vLIDn: $M_TSb->delete(); goto ISPli; ISPli: return fH6x5()->wwy32("\141\x64\155\x69\x6e\x2e\145\155\141\x69\154\55\164\x65\155\160\154\141\x74\145\163\x2e\x69\156\144\x65\170")->rnjFY("\x73\x75\143\x63\x65\163\163", "\x54\x65\x6d\x70\x6c\x61\164\x65\x20\144\145\40\145\155\x61\x69\x6c\40\145\x78\x63\154\x75\xc3\255\144\157\40\x63\x6f\155\x20\163\x75\x63\145\x73\x73\157\41"); goto ZhFNe; RRakm: if (!in_array($M_TSb->EWmd0, $kuCui)) { goto mYw8l; } goto q2jfh; ZhFNe: } public function D5JoK(S9D5t $WFz1w, TcDV0 $M_TSb) { goto Uq_9m; aTwTp: if (!$WFz1w->hkLbp("\x74\x65\x73\164\x5f\144\x61\164\141")) { goto G6bt6; } goto HB_O2; QO224: G6bt6: goto Bhdxt; s80gn: $oO2Mu = $M_TSb->DmR43($SRJIE); goto GiiMp; HB_O2: $SRJIE = array_merge($SRJIE, $WFz1w->PC2lr("\x74\x65\x73\164\137\x64\141\x74\141")); goto QO224; GiiMp: $KOTdq = $M_TSb->NUyWJ($SRJIE); goto Vbh4l; Vbh4l: return Lo0cY("\x61\144\155\151\x6e\x2e\x65\x6d\x61\151\x6c\137\x74\x65\x6d\160\154\141\164\x65\163\56\x70\x72\145\x76\151\145\x77", compact("\x65\155\x61\x69\x6c\x54\x65\155\160\x6c\141\164\145", "\x73\165\142\x6a\x65\143\x74", "\150\164\155\154\103\157\x6e\164\145\156\164", "\x74\145\x78\164\103\x6f\156\x74\x65\156\x74", "\x64\x61\164\x61")); goto SL43G; Uq_9m: $SRJIE = ["\x6e\x6f\x6d\x65" => "\x55\163\x75\xc3\xa1\x72\151\x6f\40\x64\x65\x20\x54\x65\163\164\145", "\163\x69\x74\x65\x5f\156\x61\155\x65" => LviQ5("\x61\x70\x70\x2e\156\141\155\145"), "\163\151\164\145\137\165\162\x6c" => lViQ5("\141\160\x70\56\165\162\154"), "\154\x69\156\153\137\162\145\x73\145\x74" => "\x68\164\x74\160\163\x3a\57\x2f\x65\x78\x65\155\x70\x6c\157\56\x63\x6f\155\57\x72\x65\x73\145\x74\x2f\x74\157\x6b\145\x6e", "\145\x78\x70\151\162\x61\x63\141\157" => "\66\60\40\x6d\151\156\x75\164\157\163", "\x79\145\141\162" => date("\131"), "\x76\141\154\x6f\162" => "\61\60\x30\54\60\x30", "\x64\x61\x74\x61" => date("\x64\x2f\x6d\57\x59\x20\x48\x3a\151\72\163"), "\155\145\164\x6f\x64\157" => "\x50\111\x58", "\164\162\141\x6e\x73\x61\143\164\x69\157\156\x5f\x69\144" => "\124\122\130" . rand(100000, 999999)]; goto aTwTp; Bhdxt: $Du0Cj = $M_TSb->Jhy9c($SRJIE); goto s80gn; SL43G: } public function PfH8_(S9d5t $WFz1w, tCDV0 $M_TSb) { goto n_Q16; YVvAV: if (!$WFz1w->hklbp("\x74\145\163\164\x5f\x64\x61\164\141")) { goto XKwPh; } goto HZCT7; CUhzK: $YrFmr = jf89X(\jf89X\py4pC\Mb4Ha::class); goto DH6ER; tuf1t: return FH6X5()->JYyrv()->rnjfy("\145\x72\162\157\162", "\x45\x72\162\x6f\x20\x61\x6f\x20\x65\156\x76\151\x61\162\40\145\155\x61\151\154\40\x64\145\x20\x74\145\x73\x74\145\x2e\40\x56\x65\x72\151\x66\151\161\x75\145\40\x6f\163\40\x6c\x6f\147\x73\x20\x70\x61\162\141\40\155\141\x69\x73\x20\x64\x65\164\141\x6c\x68\x65\163\56"); goto ahHy3; C8j0d: HsGnO: goto MSW1_; n_Q16: $WFz1w->validate(["\x65\155\141\151\154" => "\x72\145\x71\165\x69\162\145\x64\x7c\x65\x6d\141\x69\154", "\x74\145\163\x74\x5f\x64\x61\x74\x61" => "\x6e\165\154\x6c\141\142\154\x65\x7c\x61\x72\x72\x61\x79"]); goto ZeqQ0; ahHy3: goto HsGnO; goto YW3lq; HZCT7: $SRJIE = array_merge($SRJIE, $WFz1w->pc2lr("\x74\145\x73\164\137\x64\141\164\x61")); goto LDsuw; lzUQv: return fh6X5()->Jyyrv()->RNJFY("\163\165\x63\x63\145\163\163", "\x45\x6d\141\x69\154\40\x64\145\40\x74\x65\163\x74\x65\x20\145\x6e\166\151\x61\144\157\x20\143\157\155\x20\163\x75\143\x65\x73\163\x6f\41"); goto C8j0d; DH6ER: $smCIb = $YrFmr->it_dX(["\145\x6d\141\x69\x6c" => $lYh9X, "\x6e\141\x6d\x65" => "\x55\x73\x75\xc3\xa1\162\151\x6f\x20\144\x65\40\124\x65\x73\x74\145"], $M_TSb->EWmd0, $SRJIE); goto FkAGu; ZeqQ0: $lYh9X = $WFz1w->pC2lr("\x65\155\141\151\154"); goto bZ1J1; YW3lq: Ke0Hn: goto lzUQv; LDsuw: XKwPh: goto CUhzK; bZ1J1: $SRJIE = ["\156\x6f\155\145" => "\x55\163\x75\xc3\241\162\x69\x6f\40\x64\145\40\x54\x65\x73\x74\x65", "\163\x69\x74\x65\x5f\x6e\141\x6d\145" => LvIQ5("\141\x70\160\x2e\156\141\x6d\145"), "\163\x69\164\x65\x5f\165\x72\154" => lVIq5("\141\x70\160\56\x75\162\154"), "\x6c\151\156\153\x5f\162\x65\x73\145\164" => "\x68\164\x74\x70\163\x3a\57\x2f\x65\170\x65\x6d\160\x6c\157\56\143\157\x6d\57\x72\145\163\145\x74\x2f\x74\157\153\145\x6e", "\145\170\160\151\162\x61\x63\141\157" => "\66\x30\x20\155\151\x6e\x75\164\157\x73", "\x79\145\141\162" => date("\x59"), "\x76\141\x6c\157\162" => "\x31\60\60\x2c\60\60", "\x64\141\x74\141" => date("\144\x2f\x6d\x2f\x59\40\110\x3a\x69\72\x73"), "\155\145\x74\x6f\144\157" => "\x50\x49\130", "\164\162\141\156\x73\141\x63\x74\151\x6f\156\137\151\x64" => "\124\x52\x58" . rand(100000, 999999)]; goto YVvAV; FkAGu: if ($smCIb) { goto Ke0Hn; } goto tuf1t; MSW1_: } public function lkVvO() { goto JOWHB; PRJJv: return fH6x5()->wwY32("\x61\144\x6d\x69\156\56\x65\155\141\x69\154\55\164\x65\x6d\160\x6c\x61\x74\145\163\x2e\x69\156\144\x65\x78")->rnjFY("\x73\165\x63\143\x65\x73\x73", "{$serK0}\x20\164\145\x6d\x70\x6c\141\x74\145\x73\x20\x73\x69\x6e\143\162\x6f\x6e\x69\172\x61\x64\x6f\163\x20\143\x6f\x6d\x20\x73\x75\143\x65\x73\163\x6f\41\40\x28{$sqwVt}\x20\x66\141\x6c\150\x61\x73\51"); goto CdG8U; JOWHB: $a66yD = Tcdv0::p0WSl(); goto TnSQI; sDRd9: BbIXp: goto PRJJv; TnSQI: $serK0 = 0; goto eXslb; eXslb: $sqwVt = 0; goto T6x_u; T6x_u: foreach ($a66yD as $kJKnQ) { $serK0++; m9MOL: } goto sDRd9; CdG8U: } public function tHwYY() { \dwMsC::call("\x64\142\x3a\x73\x65\x65\x64", ["\55\x2d\x63\154\x61\163\x73" => "\105\155\141\x69\154\124\x65\x6d\x70\154\141\164\145\123\x65\145\x64\x65\162", "\55\55\x66\x6f\x72\143\145" => true]); return fh6X5()->WWY32("\141\144\x6d\151\x6e\x2e\x65\155\141\151\154\55\x74\x65\155\160\x6c\141\164\145\x73\56\x69\x6e\144\145\x78")->rnJfY("\163\165\x63\x63\145\163\x73", "\x54\x65\155\160\x6c\x61\164\x65\163\40\x70\x61\x64\x72\xc3\243\x6f\40\143\x72\x69\141\x64\x6f\163\x20\x63\x6f\x6d\40\x73\x75\x63\x65\163\163\x6f\41"); } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\EmailTemplate;
+use Illuminate\Http\Request;
+use Illuminate\Support\Str;
+use Illuminate\Validation\Rule;
+
+class EmailTemplateController extends Controller
+{
+    /**
+     * Exibe a lista de templates de email
+     */
+    public function index()
+    {
+        $templates = EmailTemplate::orderBy('name')->get();
+        return view('admin.email_templates.index', compact('templates'));
+    }
+
+    /**
+     * Exibe o formulário para criar um novo template
+     */
+    public function create()
+    {
+        return view('admin.email_templates.create');
+    }
+
+    /**
+     * Armazena um novo template no banco de dados
+     */
+    public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'slug' => 'required|string|max:255|unique:email_templates,slug',
+            'description' => 'nullable|string',
+            'subject' => 'required|string',
+            'html_content' => 'required|string',
+            'text_content' => 'nullable|string',
+            'is_active' => 'boolean',
+            'brevo_template_id' => 'nullable|integer',
+            'variables' => 'nullable|array',
+            'variables.*.name' => 'required|string',
+            'variables.*.description' => 'required|string',
+        ]);
+        
+        // Formatar as variáveis para JSON
+        if (isset($validated['variables'])) {
+            $variables = [];
+            foreach ($validated['variables'] as $variable) {
+                $variables[$variable['name']] = $variable['description'];
+            }
+            $validated['variables'] = $variables;
+        }
+
+        EmailTemplate::create($validated);
+        
+        return redirect()->route('admin.email-templates.index')
+            ->with('success', 'Template de email criado com sucesso!');
+    }
+
+    /**
+     * Exibe um template específico
+     */
+    public function show(EmailTemplate $emailTemplate)
+    {
+        return view('admin.email_templates.show', compact('emailTemplate'));
+    }
+
+    /**
+     * Exibe o formulário para editar um template
+     */
+    public function edit(EmailTemplate $emailTemplate)
+    {
+        return view('admin.email_templates.edit', compact('emailTemplate'));
+    }
+
+    /**
+     * Atualiza um template no banco de dados
+     */
+    public function update(Request $request, EmailTemplate $emailTemplate)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'slug' => [
+                'required',
+                'string',
+                'max:255',
+                Rule::unique('email_templates')->ignore($emailTemplate->id),
+            ],
+            'description' => 'nullable|string',
+            'subject' => 'required|string',
+            'html_content' => 'required|string',
+            'text_content' => 'nullable|string',
+            'is_active' => 'boolean',
+            'brevo_template_id' => 'nullable|integer',
+            'variables' => 'nullable|array',
+            'variables.*.name' => 'required|string',
+            'variables.*.description' => 'required|string',
+        ]);
+        
+        // Formatar as variáveis para JSON
+        if (isset($validated['variables'])) {
+            $variables = [];
+            foreach ($validated['variables'] as $variable) {
+                $variables[$variable['name']] = $variable['description'];
+            }
+            $validated['variables'] = $variables;
+        }
+
+        $emailTemplate->update($validated);
+        
+        return redirect()->route('admin.email-templates.index')
+            ->with('success', 'Template de email atualizado com sucesso!');
+    }
+
+    /**
+     * Remove um template do banco de dados
+     */
+    public function destroy(EmailTemplate $emailTemplate)
+    {
+        // Verificar se é um template padrão do sistema
+        $defaultTemplates = ['welcome', 'password-reset'];
+        if (in_array($emailTemplate->slug, $defaultTemplates)) {
+            return redirect()->route('admin.email-templates.index')
+                ->with('error', 'Não é possível excluir templates padrão do sistema.');
+        }
+        
+        $emailTemplate->delete();
+        
+        return redirect()->route('admin.email-templates.index')
+            ->with('success', 'Template de email excluído com sucesso!');
+    }
+
+    /**
+     * Exibe uma prévia do template de email
+     */
+    public function preview(Request $request, EmailTemplate $emailTemplate)
+    {
+        // Dados de exemplo para preencher o template
+        $data = [
+            'nome' => 'Usuário de Teste',
+            'site_name' => config('app.name'),
+            'site_url' => config('app.url'),
+            'link_reset' => 'https://exemplo.com/reset/token',
+            'expiracao' => '60 minutos',
+            'year' => date('Y'),
+            'valor' => '100,00',
+            'data' => date('d/m/Y H:i:s'),
+            'metodo' => 'PIX',
+            'transaction_id' => 'TRX' . rand(100000, 999999),
+        ];
+        
+        // Substituir os dados personalizados enviados pelo formulário
+        if ($request->has('test_data')) {
+            $data = array_merge($data, $request->input('test_data'));
+        }
+        
+        // Renderizar o template
+        $subject = $emailTemplate->renderSubject($data);
+        $htmlContent = $emailTemplate->renderHtml($data);
+        $textContent = $emailTemplate->renderText($data);
+        
+        return view('admin.email_templates.preview', compact('emailTemplate', 'subject', 'htmlContent', 'textContent', 'data'));
+    }
+
+    /**
+     * Enviar um email de teste para o usuário
+     */
+    public function sendTest(Request $request, EmailTemplate $emailTemplate)
+    {
+        $request->validate([
+            'email' => 'required|email',
+            'test_data' => 'nullable|array',
+        ]);
+        
+        $email = $request->input('email');
+        
+        // Dados de exemplo para preencher o template
+        $data = [
+            'nome' => 'Usuário de Teste',
+            'site_name' => config('app.name'),
+            'site_url' => config('app.url'),
+            'link_reset' => 'https://exemplo.com/reset/token',
+            'expiracao' => '60 minutos',
+            'year' => date('Y'),
+            'valor' => '100,00',
+            'data' => date('d/m/Y H:i:s'),
+            'metodo' => 'PIX',
+            'transaction_id' => 'TRX' . rand(100000, 999999),
+        ];
+        
+        // Substituir os dados personalizados enviados pelo formulário
+        if ($request->has('test_data')) {
+            $data = array_merge($data, $request->input('test_data'));
+        }
+        
+        // Enviar o email de teste
+        $brevoService = app(\App\Services\BrevoService::class);
+        $result = $brevoService->enviarEmailTemplate(
+            [
+                'email' => $email,
+                'name' => 'Usuário de Teste'
+            ],
+            $emailTemplate->slug,
+            $data
+        );
+        
+        if ($result) {
+            return redirect()->back()->with('success', 'Email de teste enviado com sucesso!');
+        } else {
+            return redirect()->back()->with('error', 'Erro ao enviar email de teste. Verifique os logs para mais detalhes.');
+        }
+    }
+
+    /**
+     * Sincroniza todos os templates do sistema com o Brevo
+     */
+    public function syncWithBrevo()
+    {
+        $templates = EmailTemplate::all();
+        $successCount = 0;
+        $errorCount = 0;
+        
+        foreach ($templates as $template) {
+            // Implementar a lógica de sincronização com a API do Brevo
+            // Isso dependerá da API específica do Brevo para criação/atualização de templates
+            
+            // Por enquanto, apenas simular sucesso
+            $successCount++;
+        }
+        
+        return redirect()->route('admin.email-templates.index')
+            ->with('success', "{$successCount} templates sincronizados com sucesso! ({$errorCount} falhas)");
+    }
+
+    /**
+     * Executa a migração de dados para criar os templates padrão
+     */
+    public function runMigration()
+    {
+        // Executar o seeder manualmente
+        \Artisan::call('db:seed', [
+            '--class' => 'EmailTemplateSeeder',
+            '--force' => true,
+        ]);
+        
+        return redirect()->route('admin.email-templates.index')
+            ->with('success', 'Templates padrão criados com sucesso!');
+    }
+}

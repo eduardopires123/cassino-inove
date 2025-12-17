@@ -1,8 +1,210 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:48              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\ShtEq\fN52M; use JF89x\CK8uv\u_W0i as wlfo8; use JF89x\t0ETD\jiKjN; use jf89X\t0eTd\AvSUJ; use Jf89x\t0eTD\c40Q0; use jf89X\t0etd\RSFbt; use Jf89x\t0etD\nrZVI; use jF89X\T0Etd\doY2t; use gigJA\py4LN; use Ec3Me\shteq\s9d5T; use MsnXP\je6VL\jE6vL; use MSNxP\jE6vl\Key; use ec3mE\H2VUV\P2qh1\LvLOx; use EC3Me\h2VUV\P2qh1\Dr_UC; use EC3me\H2VuV\p2QH1\X4hDi; use uLZLO\OcSwq\Exception; use Jf89X\ljjo3\bXpJc; class NUDQL extends nmP37 { public $qm8L3; public $tmvI3; public function __construct() { goto SvuG4; SvuG4: $jBnZw = WlFo8::W5N1f(); goto U0baI; uj0O9: $this->tmvI3 = $jBnZw->rbqYg; goto Zk8S4; U0baI: $this->qm8L3 = $jBnZw->AGSTP; goto uj0O9; Zk8S4: } public function jkBs3(S9d5t $WFz1w) { goto AYPDJ; LsuhV: return Lo0cY("\145\163\160\x6f\x72\x74\x65\x73\56\144\151\147\151\164\x61\x69\156"); goto o5u2B; RwCMX: return fh6x5()->wwY32("\150\x6f\155\145")->RnJfy("\145\162\x72\x6f\x72", "\x53\145\x72\x76\151\303\xa7\x6f\40\x64\x65\x20\145\x73\160\157\x72\x74\145\x73\x20\x6e\xc3\243\157\40\144\x69\x73\160\157\156\xc3\xad\166\x65\x6c\x20\156\x6f\40\155\x6f\x6d\x65\156\164\157\x2e"); goto qranB; qranB: OVCKQ: goto LsuhV; AYPDJ: if (jiKJn::dvAMc()) { goto OVCKQ; } goto RwCMX; o5u2B: } public function oEVhN(S9d5T $WFz1w) { goto Az3PB; dqpKE: $Dbxml = AvsuJ::c_mHy("\151\144", $TO4lJ)->rU29h()->YRKR9(); goto legE7; h_OKj: $Dbxml = null; goto dqpKE; R9PdQ: q0ZMK: goto b82TE; o36aT: return jGkRl()->Sbe1Q(["\162\x65\x73\165\x6c\164" => (object) [], "\163\x74\141\164\165\x73" => 14, "\x65\x72\162\157\162\x5f\x6d\145\163\x73\141\147\145" => "\x55\x73\145\162\40\104\157\x65\x73\x20\116\157\164\40\x65\170\151\x73\164"], 200); goto YGO9e; YGO9e: gjXN3: goto lUNKX; legE7: if ($Dbxml) { goto gjXN3; } goto o36aT; Az3PB: $ckIta = $WFz1w->header("\x58\x2d\106\x6f\162\x77\x61\162\144\x65\144\x2d\x46\x6f\162") ?? $WFz1w->QW_yb(); goto IkP0g; nkulo: return Jgkrl()->sbe1q(["\162\x65\163\x75\154\x74" => (object) [], "\x73\x74\x61\x74\x75\x73" => -1, "\145\162\x72\x6f\162\x5f\155\145\x73\163\141\x67\145" => "\x49\x6e\x74\145\x72\156\x61\154\x20\105\162\x72\x6f\162\40"], 200); goto R9PdQ; otJOz: return jGKRL()->sBE1Q(["\x72\x65\x73\x75\154\164" => ["\x62\x61\154\141\156\x63\x65" => (float) $Dbxml->d1U9g->AqmcG + ($this->tmvI3 ? $Dbxml->d1U9g->tiNLb : 0)], "\163\x74\141\x74\165\x73" => 0, "\x65\162\x72\x6f\162\137\155\145\163\x73\x61\x67\x65" => ''], 200); goto zrXSd; lUNKX: if (!($Dbxml->C_KaU == 1)) { goto VDMWL; } goto c431X; kF7QK: VDMWL: goto otJOz; IkP0g: \lVlOx::Ftz7f("\x64\x65\x62\x75\x67")->insert(["\164\145\x78\164" => "\x70\x6c\x61\x79\x65\162\137\x62\141\154\141\156\x63\145\x20\x3e\40\x49\x50\x3a\40" . $ckIta . "\40\76\x20" . json_encode($WFz1w->p0wsL())]); goto uUD2Q; b82TE: $TO4lJ = $WFz1w->ROWMV; goto h_OKj; uUD2Q: if (!($WFz1w->JM4M5 != $this->qm8L3)) { goto q0ZMK; } goto nkulo; c431X: return jgKRl()->sbE1Q(["\162\x65\x73\165\x6c\x74" => (object) [], "\163\x74\x61\x74\x75\163" => 15, "\x65\x72\162\157\x72\137\x6d\145\163\163\141\147\145" => "\125\x73\145\162\x20\151\163\x20\x62\x61\156\156\x65\144"], 200); goto kF7QK; zrXSd: } public function S5Hcz(S9d5t $WFz1w) { goto aATmS; kPhaO: goto oK0dF; goto Hfyc9; zP894: \lVLoX::FTz7f("\x64\145\142\165\x67")->insert(["\164\x65\x78\164" => "\x63\x68\x61\156\147\x65\137\142\x61\154\141\x6e\143\145\40\x3e\x20\111\x50\x3a\40" . $ckIta . "\40\x3e\40" . json_encode($WFz1w->P0wsl())]); goto gx1AX; jKoaP: $fjPZU = $WFz1w->anOeJ; goto BC6Jl; xoTfj: if (!($Dbxml->d1U9g->p4EKg > 0)) { goto t_4OI; } goto b40iN; Ep0lG: if (!($BwQgc < $WFz1w->e9w7B)) { goto IyJ3S; } goto wFLOV; unQ00: if (!($WFz1w->ipngH === "\144\145\142\151\164")) { goto LHnk1; } goto ZS0yG; gAZCC: $Dbxml->d1U9g->AqmcG = 0; goto EOp7N; SdNE3: $IQy03 = RsFbt::C_MHY("\164\162\x61\x6e\x73\x61\143\x74\151\157\156\x49\x64", $WFz1w->Gc1Rh)->YRKr9(); goto MFbX6; gx1AX: if (!($WFz1w->JM4M5 != $this->qm8L3)) { goto xyskH; } goto wujxU; ur0Cj: if ($Dbxml) { goto M30dj; } goto bqTPv; wujxU: return jgKrL()->sBE1q(["\162\145\x73\165\x6c\164" => (object) [], "\x73\164\141\164\165\x73" => -1, "\145\x72\162\157\162\x5f\155\145\x73\163\x61\x67\145" => "\x49\x6e\164\145\x72\x6e\141\x6c\x20\x45\x72\x72\x6f\162\x20"], 200); goto qnXDy; D1ELt: $Dbxml->d1U9g->AqmcG -= $WFz1w->e9w7B; goto gmdtS; dihxW: $Dbxml = Avsuj::c_MHy("\x69\x64", $TO4lJ)->RU29H()->Yrkr9(); goto ur0Cj; EO30J: fTlGg: goto fz73y; GTf4m: $Dbxml->d1U9g->AqmcG += $WFz1w->e9w7B; goto H4XVh; O_Rn0: $Dbxml->d1U9g->tiNLb = $Dbxml->d1U9g->tiNLb + $WFz1w->e9w7B; goto dBrhd; qnXDy: xyskH: goto SdNE3; fz73y: if ($Dbxml->d1U9g->AqmcG >= $WFz1w->e9w7B) { goto RYFJ3; } goto bwbBp; gfyAF: LHnk1: goto h3s7x; h_XRV: x2HyH: goto ZLLVM; ZLLVM: oK0dF: goto BQuB8; aATmS: $ckIta = $WFz1w->header("\x58\55\106\157\162\x77\141\162\144\145\144\55\x46\x6f\x72") ?? $WFz1w->QW_YB(); goto zP894; NINE6: if (!($Dbxml->C_KaU == 1)) { goto X2hA5; } goto vRpcs; KnEXM: M30dj: goto NINE6; ROzRd: return JGKRL()->SBe1q(["\162\x65\x73\165\x6c\164" => (object) [], "\163\x74\x61\x74\165\163" => 17, "\x65\x72\162\x6f\162\x5f\x6d\x65\x73\163\141\147\145" => "\124\162\141\156\x73\141\x63\164\151\157\x6e\40\x6e\x6f\164\40\x66\x6f\x75\156\x64"], 200); goto ia9Wd; yIJax: if ($this->tmvI3) { goto tpyBh; } goto GTf4m; TQdjc: goto IT3WK; goto JQ1Nu; vRpcs: return JgkRl()->SBE1Q(["\x72\x65\x73\165\x6c\164" => (object) [], "\x73\x74\141\x74\165\163" => 15, "\145\x72\x72\x6f\162\137\155\x65\163\x73\141\x67\145" => "\x55\x73\x65\x72\x20\x69\x73\x20\142\x61\156\x6e\145\x64"], 200); goto R5qxz; S0Svd: if (!$neGIX) { goto losIT; } goto kGBFK; MFbX6: if ($IQy03) { goto ddhlX; } goto l5IPB; BC6Jl: iHuYs: goto smPVR; CTzUD: kRrvC: goto xoTfj; LHajl: goto qM8pf; goto ruWoK; oXXnh: krk98: goto ZtyAS; bqTPv: return JGkRL()->sbE1Q(["\162\x65\x73\x75\x6c\x74" => (object) [], "\x73\x74\x61\x74\165\163" => 14, "\x65\162\162\157\x72\137\155\145\x73\x73\x61\147\145" => "\x55\x73\x65\162\40\104\157\x65\163\x20\x4e\x6f\x74\40\145\x78\151\163\164"], 200); goto KnEXM; BigLc: $fjPZU = []; goto RLhav; iMT7n: if ($this->tmvI3) { goto fTlGg; } goto D1ELt; kGBFK: if (!($WFz1w->ipngH == "\143\162\145\144\x69\x74")) { goto krk98; } goto PXmJ1; R43Jg: goto oK0dF; goto sn8Dj; Krn3X: $neGIX = RsFbt::C_mHY("\x74\x72\x61\x6e\x73\141\143\164\x69\157\156\111\x64", $WFz1w->Gc1Rh)->c_MhY("\x6f\x70\x65\162\x61\x74\x69\157\156", "\x63\x72\x65\144\151\x74")->yrkr9(); goto S0Svd; ZtyAS: losIT: goto CsxXe; H4XVh: goto x2HyH; goto iMDVX; RLhav: if (!($WFz1w->ipngH === "\144\145\142\x69\164" && $WFz1w->hklbp("\141\144\144\x69\164\151\157\x6e\141\x6c\x5f\144\x61\164\x61"))) { goto iHuYs; } goto jKoaP; YqHnT: $Dbxml->d1U9g->z1447 = "\x62\141\x6c\x61\156\x63\x65"; goto NDY1y; h3s7x: if (in_array($WFz1w->ipngH, ["\144\x65\142\x69\x74", "\143\x61\156\143\145\154\x5f\143\162\145\144\x69\164", "\x6c\157\x73\x65"])) { goto iL1c6; } goto hQK1M; l5IPB: if (!in_array($WFz1w->ipngH, ["\143\141\156\143\x65\154\137\144\x65\142\x69\x74", "\x63\x61\156\x63\x65\x6c\x5f\x63\x72\x65\144\151\164"])) { goto qrYcZ; } goto ROzRd; sn8Dj: Uc4LP: goto yIJax; NDY1y: qM8pf: goto CTzUD; gmdtS: goto kRrvC; goto EO30J; KmHJg: $Dbxml->d1U9g->AqmcG = $Dbxml->d1U9g->AqmcG + $WFz1w->e9w7B; goto TQdjc; JTnqP: ddhlX: goto Krn3X; EOp7N: $Dbxml->d1U9g->tiNLb = $Dbxml->d1U9g->tiNLb - $WVf_X; goto kFXCe; CsxXe: $TO4lJ = $WFz1w->ROWMV; goto YsKBZ; LZRXa: if ($Dbxml->d1U9g->z1447 == "\x62\x61\154\141\156\x63\x65\137\x62\x6f\x6e\x75\x73") { goto HT5zs; } goto KmHJg; hQK1M: if (in_array($WFz1w->ipngH, ["\143\x72\145\144\x69\x74", "\143\x61\x6e\143\145\x6c\x5f\144\145\142\151\x74"])) { goto Uc4LP; } goto kPhaO; b40iN: $Dbxml->d1U9g->p4EKg = max(0, $Dbxml->d1U9g->p4EKg - $WFz1w->e9w7B); goto b7yJg; JQ1Nu: HT5zs: goto O_Rn0; Hfyc9: iL1c6: goto iMT7n; F45uL: return jgkrl()->sbE1q(["\162\x65\163\165\x6c\x74" => ["\x62\141\154\141\156\143\x65" => (float) $Dbxml->d1U9g->AqmcG + ($this->tmvI3 ? $Dbxml->d1U9g->tiNLb : 0), "\164\170\156\x5f\x69\x64" => $E5O1L->id], "\x73\164\141\x74\x75\x73" => 0, "\145\162\162\157\x72\x5f\155\145\x73\163\141\x67\145" => ''], 200); goto OHCac; R5qxz: X2hA5: goto unQ00; BQuB8: $Dbxml->d1U9g->save(); goto BigLc; kFXCe: $Dbxml->d1U9g->z1447 = "\142\141\154\x61\x6e\143\145\x5f\x62\157\x6e\x75\x73"; goto LHajl; dBrhd: IT3WK: goto h_XRV; smPVR: $E5O1L = RsFbT::create(["\160\x72\x6f\166\151\x64\145\x72" => "\144\151\x67\151\x74\141\151\156", "\165\x73\145\162\x5f\x69\144" => (string) $Dbxml->id, "\164\162\x61\156\x73\x61\x63\x74\x69\157\156\111\x64" => $WFz1w->Gc1Rh, "\x6f\160\145\x72\x61\164\151\157\156" => $WFz1w->ipngH, "\x73\164\x61\164\165\x73" => $WFz1w->ipngH == "\x64\x65\x62\151\164" ? "\120\145\x6e\x64\151\x6e\x67" : "\103\x6f\x6d\x70\154\145\x74\x65\x64", "\163\x74\x61\164\x75\163\x65\x6c" => "\x4e\151\154", "\x72\145\x61\163\x6f\x6e" => "\x4e\151\x6c", "\141\155\x6f\165\156\x74" => $WFz1w->e9w7B, "\x74\162\x61\x6e\163\141\x63\x74\151\x6f\x6e" => "\173\175", "\142\145\164\163\154\151\x70" => json_encode($fjPZU)]); goto F45uL; wFLOV: return JgKRL()->sBE1Q(["\162\x65\163\x75\x6c\164" => (object) [], "\x73\x74\x61\164\x75\x73" => 13, "\x65\162\162\157\x72\x5f\155\x65\163\163\141\x67\145" => "\x49\x6e\x73\165\x66\146\x69\x63\x69\145\156\x74\x20\102\x61\154\x61\x6e\143\x65"], 200); goto LwIPY; PXmJ1: return JGKrl()->SBE1q(["\x72\145\163\165\154\x74" => (object) [], "\163\x74\x61\164\x75\x73" => -1, "\x65\x72\x72\x6f\162\137\x6d\x65\x73\x73\141\147\145" => "\x49\x6e\164\x65\162\156\141\154\40\x45\x72\x72\x6f\162\x20"], 200); goto oXXnh; ia9Wd: qrYcZ: goto JTnqP; ZS0yG: $BwQgc = $Dbxml->d1U9g->AqmcG + ($this->tmvI3 ? $Dbxml->d1U9g->tiNLb : 0); goto Ep0lG; iMDVX: tpyBh: goto LZRXa; LwIPY: IyJ3S: goto gfyAF; YsKBZ: $Dbxml = null; goto dihxW; bwbBp: $WVf_X = $WFz1w->e9w7B - $Dbxml->d1U9g->AqmcG; goto gAZCC; ruWoK: RYFJ3: goto DuNhf; b7yJg: t_4OI: goto R43Jg; DuNhf: $Dbxml->d1U9g->AqmcG = $Dbxml->d1U9g->AqmcG - $WFz1w->e9w7B; goto YqHnT; OHCac: } }
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Core as Helper;
+use App\Models\Settings;
+
+use App\Models\User;
+use App\Models\Wallet;
+use App\Models\SportBetSummary;
+use App\Models\SportBetDiscards;
+use App\Models\SportBetParents;
+
+use Couchbase\QueryException;
+use Illuminate\Http\Request;
+
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
+
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redis;
+use Illuminate\Support\Facades\Storage;
+use PHPUnit\Util\Exception;
+
+use App\Jobs\ProcessarMake;
+
+class SportsWiseController extends Controller
+{
+    public $partner_id;
+    public $allow_bonus;
+
+    public function __construct()
+    {
+        $Settings = Helper::getSetting();
+
+        $this->partner_id = $Settings->sportpartnername;
+        $this->allow_bonus = $Settings->enable_sports_bonus;
+    }
+
+    /**
+     * Página principal do Digitain Sportsbook
+     */
+    public function index(Request $request)
+    {
+        // Verificar se Digitain está ativo
+        if (!Settings::isDigitainActive()) {
+            // Se Digitain não estiver ativo, redirecionar para home
+            return redirect()->route('home')->with('error', 'Serviço de esportes não disponível no momento.');
+        }
+        
+        return view('esportes.digitain');
+    }
+
+    public function player_balance(Request $request)
+    {
+        $ip = $request->header('X-Forwarded-For') ?? $request->ip();
+
+        \DB::table('debug')->insert(['text' => 'player_balance > IP: ' . $ip . " > " . json_encode($request->all())]);
+
+        // Verificar se o project_name corresponde ao partner_id
+        if ($request->project_name != $this->partner_id){
+            return response()->json(["result" => (object)[], "status" => -1, "error_message" => "Internal Error "], 200);
+        }
+
+        $UserID = $request->user_id;
+
+        $User = null;
+        $User = User::Where('id', $UserID)->lockForUpdate()->first();
+
+        if (!$User)
+        {
+            return response()->json(["result" => (object)[], "status" => 14, "error_message" => "User Does Not exist"], 200);
+        }
+
+        if ($User->banned == 1){
+            return response()->json(["result" => (object)[], "status" => 15, "error_message" => "User is banned"], 200);
+        }
+
+        return response()->json([
+            'result' => [
+                'balance' => (float)$User->wallet->balance + ($this->allow_bonus ? $User->wallet->balance_bonus : 0)
+            ],
+            'status' => 0,
+            'error_message' => ''
+        ], 200);
+    }
+
+    public function change_balance(Request $request)
+    {
+        $ip = $request->header('X-Forwarded-For') ?? $request->ip();
+
+        \DB::table('debug')->insert(['text' => 'change_balance > IP: ' . $ip . " > " . json_encode($request->all())]);
+
+        // Verificar se o project_name corresponde ao partner_id
+        if ($request->project_name != $this->partner_id){
+            return response()->json(["result" => (object)[], "status" => -1, "error_message" => "Internal Error "], 200);
+        }
+
+        $CheckOne = SportBetSummary::Where('transactionId', $request->transaction_id)->first();
+
+        // Verificar se existe transação para cancel_debit e cancel_credit
+        if (!$CheckOne) {
+            if (in_array($request->transaction_type, ["cancel_debit", "cancel_credit"])) {
+                return response()->json(["result" => (object)[], "status" => 17, "error_message" => "Transaction not found"], 200);
+            }
+        }
+
+        $CheckTwo = SportBetSummary::Where('transactionId', $request->transaction_id)->Where('operation', "credit")->first();
+
+        if ($CheckTwo) {
+            if ($request->transaction_type == "credit") {
+                return response()->json(["result" => (object)[], "status" => -1, "error_message" => "Internal Error "], 200);
+            }
+        }
+
+        $UserID = $request->user_id;
+
+        $User = null;
+        $User = User::Where('id', $UserID)->lockForUpdate()->first();
+
+        if (!$User)
+        {
+            return response()->json(["result" => (object)[], "status" => 14, "error_message" => "User Does Not exist"], 200);
+        }
+
+        if ($User->banned == 1){
+            return response()->json(["result" => (object)[], "status" => 15, "error_message" => "User is banned"], 200);
+        }
+
+        if ($request->transaction_type === 'debit') {
+            $totalBalance = $User->wallet->balance + ($this->allow_bonus ? $User->wallet->balance_bonus : 0);
+
+            if ($totalBalance < $request->amount) {
+                return response()->json(["result" => (object)[], "status" => 13, "error_message" => "Insufficient Balance"], 200);
+            }
+        }
+
+        if (in_array($request->transaction_type, ['debit', 'cancel_credit', 'lose'])) {
+            /*if ($this->allow_bonus) {
+                if ($User->wallet->balance >= $remaining) {
+                    $User->wallet->balance -= $remaining;
+                } else {
+                    $remaining -= $User->wallet->balance;
+                    $User->wallet->balance = 0;
+                    $User->wallet->balance_bonus -= $remaining;
+                }
+            }else{
+                $User->wallet->balance -= $remaining;
+            }*/
+
+            if ($this->allow_bonus) {
+                if ($User->wallet->balance >= $request->amount) {
+                    $User->wallet->balance = $User->wallet->balance - $request->amount;
+                    $User->wallet->last_used = "balance";
+                } else {
+                    $remaining = $request->amount - $User->wallet->balance;
+                    $User->wallet->balance = 0;
+                    $User->wallet->balance_bonus = $User->wallet->balance_bonus - $remaining;
+                    $User->wallet->last_used = "balance_bonus";
+                }
+            } else {
+                $User->wallet->balance -= $request->amount;
+            }
+
+            if ($User->wallet->anti_bot > 0) {
+                $User->wallet->anti_bot = max(0, $User->wallet->anti_bot - $request->amount);
+            }
+        } elseif (in_array($request->transaction_type, ['credit', 'cancel_debit'])) {
+            if ($this->allow_bonus) {
+                if ($User->wallet->last_used == "balance_bonus") {
+                    $User->wallet->balance_bonus = $User->wallet->balance_bonus + $request->amount;
+                } else {
+                    $User->wallet->balance = $User->wallet->balance + $request->amount;
+                }
+            } else {
+                $User->wallet->balance += $request->amount;
+            }
+        }
+
+        $User->wallet->save();
+
+        // Preparar dados adicionais para apostas (debit)
+        $additionalData = [];
+        if ($request->transaction_type === 'debit' && $request->has('additional_data')) {
+            $additionalData = $request->additional_data;
+        }
+
+        $InfSum = SportBetSummary::create([
+            'provider' => 'digitain',
+            'user_id' => (String)$User->id,
+            'transactionId' => $request->transaction_id,
+            'operation' => $request->transaction_type,
+            'status' => ($request->transaction_type == 'debit') ? 'Pending' : 'Completed',
+            'statusel' => 'Nil',
+            'reason' => 'Nil',
+            'amount' => $request->amount,
+            'transaction' => '{}',
+            'betslip' => json_encode($additionalData),
+        ]);
+
+        return response()->json([
+            'result' => [
+                'balance' => (float)$User->wallet->balance + ($this->allow_bonus ? $User->wallet->balance_bonus : 0),
+                'txn_id' => $InfSum->id,
+            ],
+            'status' => 0,
+            'error_message' => ''
+        ], 200);
+    }
+}

@@ -1,8 +1,888 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:38              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jF89X\SHtEq\Fn52M\JKli6; use JF89x\Ck8uv\u_w0i as WLFO8; use jF89X\shTeq\fN52M\Nmp37; use ec3mE\ShTeQ\S9d5T; use jf89x\t0ETd\AvsuJ; use Jf89X\T0ETd\UMyA4; use JF89x\t0etd\dIeQd; use JF89X\T0ETd\Ja5M5; use JF89X\T0ETd\C40q0; use jf89x\t0etd\JKlI6\krE2U; use Jf89x\t0etD\JKLi6\RPE1u; use shpK2\ShpK2; use eC3mE\H2VUv\p2Qh1\PlhxG; use EC3ME\nzjO_\iuT8t; use Ec3mE\H2VUV\p2qH1\Hash; use ec3mE\H2VUV\P2Qh1\DJLvj; use Ec3me\h2Vuv\P2QH1\SHtEQ; use Jf89X\t0etd\jIKjn; use eC3me\h2VUV\p2qh1\x4HdI; use mSNXp\JE6Vl\Je6vl; use MsnXP\je6vL\Key; use Ec3me\h2vuv\p2qH1\LVlOX; use JF89x\t0ETD\fRJAE; use jf89X\T0ETD\pdK_2; class sQIFo extends NMP37 { public function __construct() { } public function VYcNz(s9D5t $WFz1w) { goto k2uC3; AvXD9: $m6cJN = AVsUj::c_MHY("\156\141\x6d\x65", "\154\x69\153\x65", "\45" . $Tq89T . "\45")->get(); goto bKp5i; GObsi: $Tq89T = $WFz1w->query("\x6e\141\155\x65"); goto DrnM2; k2uC3: $WAmPm = nXROv()->yfGi_(); goto aGvfa; susvP: efK2v: goto UWZlg; Ht0EE: if ($WAmPm->opaCn > 1) { goto efK2v; } goto AvXD9; bKp5i: goto P7N53; goto susvP; DrnM2: if ($Tq89T) { goto hVXXR; } goto V2Nko; aGvfa: $this->O1Xn1(); goto GObsi; nApZ6: hVXXR: goto Ht0EE; V2Nko: return jGKrL()->Sbe1q(["\x73\164\141\164\x75\x73" => false, "\155\x65\163\x73\141\x67\x65" => "\x50\162\145\x65\156\143\x68\141\40\x6f\40\x6e\x6f\155\x65\x20\145\x20\164\145\156\164\145\40\156\157\166\x61\155\145\x6e\164\145\41"], 400); goto nApZ6; UR1w4: P7N53: goto s69r5; UWZlg: $m6cJN = aVsuj::C_MhY("\x6e\x61\x6d\x65", "\154\x69\153\x65", "\45" . $Tq89T . "\x25")->c_MhY("\x69\156\166\151\164\145\x72", $WAmPm->id)->get(); goto UR1w4; s69r5: return jgKrL()->SbE1Q($m6cJN); goto bROAj; bROAj: } public function yW63p(S9D5T $WFz1w) { goto leLqm; N_O38: $dsqa3[$R_sT5] = $dsqa3[$R_sT5] == 1 ? 0 : 1; goto r7LkL; w_tgn: return jGkrL()->sBE1q(["\163\164\141\x74\165\x73" => true, "\155\x65\163\x73\x61\147\x65" => "\120\x65\162\x6d\151\x73\163\xc3\243\x6f\40\x61\x74\165\141\154\x69\x7a\x61\144\141\x20\143\x6f\x6d\x20\x73\x75\x63\x65\163\163\157\x21"]); goto deWUE; SHwaF: qaMq3: goto vcAuF; Pkf6l: goto c8YfH; goto SHwaF; tZXnG: $R_sT5 = $WFz1w->PC2Lr("\x63\150\x61\166\145"); goto JRKMZ; deWUE: c8YfH: goto Jo6Wh; JRKMZ: $Dbxml = KrE2u::c_MhY("\165\163\x65\162\x5f\151\x64", $WFz1w->PC2lr("\x69\144"))->yrkr9(); goto bMImH; bMImH: if ($Dbxml) { goto qaMq3; } goto jcfgA; r7LkL: $Dbxml->GOGun = json_encode($dsqa3); goto XZHW6; jcfgA: return JGkrL()->sbe1Q(["\x73\164\141\164\165\163" => false, "\155\x65\163\x73\x61\147\x65" => "\125\163\165\xc3\241\x72\151\x6f\x20\x6e\303\243\x6f\x20\145\x6e\x63\157\x6e\x74\162\141\x64\157\41"]); goto Pkf6l; XZHW6: $Dbxml->save(); goto w_tgn; vcAuF: $dsqa3 = json_decode($Dbxml->GOGun, true); goto N_O38; leLqm: $this->o1xN1(); goto tZXnG; Jo6Wh: } public function f_5RY(s9D5T $WFz1w) { goto QKs38; BP7Ig: $SRJIE = $ejwrw->sBe1q(); goto sn_kO; LZwuu: $ejwrw = sHtEQ::mJ7Du(["\101\x75\164\x68\x6f\162\x69\x7a\141\x74\x69\157\x6e" => "\102\145\x61\162\145\162\x20" . $IIU0r, "\101\x63\x63\145\x70\x74" => "\x61\160\x70\x6c\151\143\x61\164\x69\x6f\x6e\57\x6a\x73\157\156", "\x43\x6f\156\x74\145\156\x74\55\x54\171\160\x65" => "\141\160\x70\154\x69\x63\x61\164\x69\157\156\57\152\x73\157\156"])->J3GWP("\150\x74\164\x70\163\x3a\x2f\x2f\141\x70\x69\x2e\x65\144\x70\141\x79\56\155\x65\x2f\x71\162\143\157\144\x65", ["\x61\x6d\x6f\x75\156\x74" => $isULj->aZqi8, "\x64\145\x73\143\162\151\x70\x74\x69\x6f\156" => "\x4d\145\156\x73\141\x6c\151\x64\x61\x64\145\x20\50" . $WFz1w->xnG53 . "\51", "\143\x61\154\x6c\142\141\x63\153" => "\150\164\x74\160\163\x3a\x2f\x2f" . $WFz1w->xnG53 . "\57\143\x61\x6c\154\x62\141\x63\153"]); goto BLxhb; wKeA8: if ($NhGbU = diEqd::create($c7p1T)) { goto Zul8v; } goto OR3Sk; j_1Sd: eSHpP: goto DIPlX; gMuZs: Wtub0: goto Wrt2H; H6gAJ: $isULj = pAArT::C_Mhy("\144\x6f\155\151\156\x69\x6f", $WFz1w->xnG53)->yrkR9(); goto zqdIM; xBHDq: goto LGSfx; goto lgjQH; zQKKj: $SRJIE = $ejwrw->sbE1q(); goto Y4Xta; QALcQ: $IIU0r = $SRJIE["\164\x6f\153\145\156"]; goto LZwuu; Wj1oz: goto Wtub0; goto e9t2I; QU_v8: uRMVP: goto gMuZs; Y4Xta: $c7p1T = ["\x70\141\162\164\x6e\145\162\x5f\151\144" => 0, "\141\x6d\157\165\x6e\164" => $isULj->aZqi8, "\x74\x79\160\145" => 0, "\147\x61\x74\145\x77\x61\x79" => "\105\144\x50\x61\171", "\x74\157\x6b\x65\156" => $SRJIE["\151\x64"], "\x73\x74\x61\164\x75\x73" => 0, "\143\150\141\166\x65\x5f\160\x69\x78" => '']; goto wKeA8; EGQFT: MyjQ3: goto zQKKj; lgjQH: q8fk2: goto eEeEX; SVpHk: return jGKrl()->sbe1q(["\x73\x74\141\164\x75\163" => false], 200); goto Wj1oz; zkoSv: if ($ejwrw->eRxv2()) { goto q8fk2; } goto BP7Ig; dQJ7B: $SRJIE = $ejwrw->sBe1q(); goto SCIPd; jKHeW: Zul8v: goto vFGbE; pmTAq: goto lpCfC; goto jKHeW; t3omp: lpCfC: goto j_1Sd; tol3_: goto uRMVP; goto j912a; i6ij5: $CsRqk = "\123\x45\103\55\x30\x51\125\x35\x51\x4b\x55\122\x45\x38\x2d\121\x55\x59\x47\x4f\116\x47\x45\116\x54\55\103\114\115\x35"; goto q35rN; DIPlX: LGSfx: goto QU_v8; z5Qkj: return jgkrl()->SBE1q($SRJIE); goto t3omp; eEeEX: $SRJIE = $ejwrw->SBE1Q(); goto QALcQ; sn_kO: echo "\x32\40\76\40" . json_encode($SRJIE, JSON_PRETTY_PRINT); goto xBHDq; OR3Sk: return JGKRL()->SbE1Q(["\163\164\141\x74\x75\163" => false, "\x6d\145\x73\163\141\147\145" => "\x4f\143\157\x72\x72\145\165\x20\165\155\x20\145\x72\162\x6f\54\x20\164\x65\x6e\164\145\40\156\x6f\166\x61\155\x65\156\x74\145\x20\145\x6d\x20\x61\x6c\147\x75\x6e\x73\40\x69\x6e\x73\164\141\156\164\x65\163\x2e"]); goto pmTAq; j912a: cwlIG: goto bm72i; q35rN: $ejwrw = sHteQ::Mj7Du(["\101\x63\x63\145\x70\x74" => "\141\160\160\x6c\x69\x63\141\164\x69\157\x6e\x2f\x6a\163\x6f\x6e", "\x43\157\x6e\164\145\156\x74\55\x54\171\160\x65" => "\141\160\160\x6c\151\x63\x61\x74\151\157\156\57\152\x73\157\x6e", "\160\165\142\153\145\171" => $gXhJB, "\x73\145\x63\153\145\171" => $CsRqk])->J3gwp("\150\164\x74\160\163\72\x2f\x2f\141\160\151\x2e\145\144\x70\x61\x79\x2e\x6d\145\57\141\x75\164\150\157\x72\x69\172\141\x74\x69\x6f\x6e", []); goto zkoSv; CRmzD: return JgKRl()->sbe1q(["\x73\164\x61\164\x75\x73" => false], 200); goto tol3_; bm72i: $gXhJB = "\x50\125\102\x2d\115\x56\120\102\x43\107\120\x43\125\64\55\x42\61\112\113\132\x4b\123\x47\x59\70\55\x50\x5a\x59\120"; goto i6ij5; vFGbE: $SRJIE = ["\163\164\x61\x74\x75\x73" => true, "\161\x72\x63\157\144\x65" => $SRJIE["\x71\162\x63\157\x64\145"], "\x63\x6f\160\151\141\143\x6f\154\x61" => $SRJIE["\143\x6f\160\x69\x61\x63\x6f\x6c\x61"]]; goto z5Qkj; e9t2I: PqipJ: goto H6gAJ; SCIPd: echo "\61\40\76\x20" . json_encode($SRJIE, JSON_PRETTY_PRINT); goto e7D_o; e7D_o: goto eSHpP; goto EGQFT; QKs38: if (isset($WFz1w->xnG53)) { goto PqipJ; } goto SVpHk; zqdIM: if ($isULj) { goto cwlIG; } goto CRmzD; BLxhb: if ($ejwrw->Erxv2()) { goto MyjQ3; } goto dQJ7B; Wrt2H: } public function XBTeh($gcXEA = null) { goto tXwy5; HT2Ao: try { $IIU0r = JE6vL::oHJTO($H7BG0, $nQk8V, "\x52\123\x35\x31\62"); } catch (\Exception $ai57B) { return "\55"; } goto NEP17; Aixwu: if ($ejwrw->erXv2()) { goto A2S3D; } goto XjHCE; ftHUx: bgoDu: goto ssR6T; toZfK: $SRJIE = $ejwrw->sBe1q(); goto g5wqS; k2mMe: if (file_exists($ojoQO)) { goto uUUrD; } goto lC9uj; d8Szm: \jf89x\t0ETD\L71oa::Create(["\x74\x65\x78\x74" => "\124\157\153\x65\156\40\102\123\127\x20\106\x61\151\x6c\x65\144\72\x20\x4e\x6f\40\165\x73\145\x72\40\146\157\x75\x6e\144"]); goto GzaQD; Mf9Ui: if (!$WAmPm) { goto GnhG1; } goto IUz1O; LfKd1: goto bgoDu; goto xWZ3d; g5wqS: return $SRJIE["\x72\145\163\x75\154\164"]["\x74\x6f\153\145\156"] ?? ''; goto v1YKa; uokY1: $IIU0r = ''; goto NIILe; WXcJo: if ($Dbxml) { goto dtSSZ; } goto d8Szm; l9Rp3: uUUrD: goto D0BpT; GASkL: $jBnZw = WlFo8::w5n1F(); goto IGq3y; cklOv: GnhG1: goto hrzA1; v1YKa: ZO82S: goto ftHUx; mBSgl: $H7BG0 = ["\151\x64" => $gcXEA, "\143\x75\x72\162\145\156\143\171" => "\x42\x52\114"]; goto HT2Ao; tXwy5: $WAmPm = NxRov()->YFgI_(); goto Mf9Ui; hrzA1: return "\55"; goto vOsV9; IGq3y: $VOW91 = $jBnZw->AGSTP; goto k2mMe; IUz1O: $gcXEA = $WAmPm->id; goto RYhjr; GzaQD: return "\x2d"; goto LfKd1; lC9uj: return "\55"; goto l9Rp3; xWZ3d: dtSSZ: goto cXmpO; cXmpO: $ojoQO = x4HDi::CGYnL("\x70\x72\x69\166\x61\x74\x65\56\x70\145\x6d"); goto GASkL; gUKQG: return "\55"; goto cxlQQ; cxlQQ: goto ZO82S; goto VQ9t6; iSzwO: \Jf89x\t0etd\L71OA::Create(["\x74\145\170\x74" => "\x54\157\x6b\145\x6e\40\x42\x53\x57\72\40" . json_encode($ejwrw->SbE1Q())]); goto toZfK; vOsV9: UhqLT: goto uokY1; RYhjr: goto UhqLT; goto cklOv; VQ9t6: A2S3D: goto iSzwO; XjHCE: \Jf89x\T0ETd\L71OA::Create(["\x74\145\170\x74" => "\124\157\x6b\145\156\40\x42\x53\127\40\x46\x61\151\154\x65\x64\x3a\40" . json_encode($ejwrw->SbE1q())]); goto gUKQG; NIILe: $Dbxml = avsuJ::c_MHY("\x69\144", $gcXEA)->YRKr9(); goto WXcJo; D0BpT: $nQk8V = file_get_contents($ojoQO); goto mBSgl; NEP17: $ejwrw = sHtEq::MJ7dU(["\x78\x2d\x70\141\162\x74\x6e\145\x72\x2d\141\165\164\150\x6f\162\x69\x7a\141\164\x69\157\156" => $IIU0r, "\x78\x2d\x70\x61\162\164\156\145\x72\x2d\156\x61\x6d\x65" => $VOW91])->get("\150\x74\x74\160\x73\x3a\57\57\x70\141\x72\164\x6e\x65\x72\x2e\144\151\147\151\x74\141\151\x6e\56\x62\163\x77\x62\145\164\x2e\157\162\147\x2f\x61\x70\151\57\146\x72\157\x6e\x74\57\164\x6f\153\x65\x6e"); goto Aixwu; ssR6T: } public function zWvBQ(s9D5t $WFz1w) { goto cKcLD; Gg_HR: $SRJIE = ["\x73\x74\141\x74\x75\163" => true, "\161\162\x63\157\144\x65" => $SRJIE["\x71\162\143\x6f\144\145"], "\x63\x6f\x70\151\x61\143\157\154\141" => $SRJIE["\143\x6f\160\151\x61\143\157\x6c\x61"], "\x70\145\144\151\144\x6f" => $NhGbU->id]; goto FHpyw; FHpyw: return jGkrL()->SBE1q($SRJIE); goto Cjykx; z8MCt: goto goqhF; goto jU0v4; wrd9C: $c7p1T = ["\x75\x73\x65\x72\x5f\x69\x64" => 0, "\141\x6d\157\x75\x6e\x74" => jIKJn::yRkR9()->aZqi8, "\164\171\160\x65" => 0, "\147\x61\164\x65\167\141\171" => "\x45\144\x50\x61\171", "\x77\151\x74\150\137\164\x79\x70\x65" => "\115\145\x6e\163\141\154\151\x64\x61\144\x65", "\164\x6f\153\145\x6e" => $SRJIE["\151\144"], "\x73\x74\141\164\165\163" => 0, "\x63\150\x61\x76\x65\137\x70\151\x78" => '']; goto xuFlQ; xuFlQ: if ($NhGbU = DIEQd::create($c7p1T)) { goto JKZgD; } goto zFHzn; Qi0mj: goto awbMA; goto VQFfT; yJZRh: jgfmU: goto cOUrO; jU0v4: AbtFS: goto OP0pX; ny257: if ($ejwrw->ERXV2()) { goto AbtFS; } goto onRhG; fB_Fd: $IIU0r = $SRJIE["\x74\157\x6b\x65\x6e"]; goto A3Cyo; Cjykx: awbMA: goto Smr32; Sddni: $SRJIE = $ejwrw->sbE1q(); goto fB_Fd; cKcLD: $ejwrw = ShTeQ::Mj7dU(["\x41\143\143\x65\x70\x74" => "\141\160\160\154\151\143\x61\x74\151\157\x6e\57\x6a\x73\x6f\x6e", "\103\157\x6e\x74\x65\x6e\164\x2d\x54\x79\160\x65" => "\141\x70\160\x6c\151\143\141\x74\151\x6f\x6e\x2f\152\163\157\156", "\160\x75\142\153\x65\x79" => "\x50\125\x42\55\122\123\x52\103\x56\116\65\110\x46\x4b\55\121\x32\117\120\x43\x4f\117\x4e\114\111\55\105\66\102\x4d", "\x73\145\143\x6b\x65\171" => "\123\105\103\x2d\x42\x5a\126\x35\x58\122\124\64\x44\x35\x2d\x45\x4d\x57\x39\x4d\x52\x5a\x50\x4d\x54\55\107\65\x50\x52"])->J3gWP("\150\164\164\x70\163\72\57\57\x61\x70\151\56\x65\x64\160\141\x79\x2e\155\145\x2f\x61\x75\164\150\x6f\162\x69\x7a\141\x74\151\x6f\156", []); goto l2jzy; VQFfT: JKZgD: goto Gg_HR; l2jzy: if ($ejwrw->ERxV2()) { goto fPqeJ; } goto p4BRf; OP0pX: $SRJIE = $ejwrw->SbE1Q(); goto wrd9C; zFHzn: return jGKRL()->SBE1q(["\163\x74\141\x74\165\163" => false, "\155\145\x73\163\x61\147\145" => "\105\x72\x72\x6f\40\x61\157\40\162\x65\x6e\x6f\x76\x61\x72\40\160\x6c\x61\156\x6f\x21"]); goto Qi0mj; p4BRf: return jgkRL()->SBe1Q(["\163\x74\141\x74\165\163" => false, "\x6d\x65\163\x73\141\147\145" => "\105\x72\162\157\40\x61\x6f\x20\162\x65\156\157\166\141\x72\40\160\154\x61\x6e\x6f\x21"]); goto r4l8e; Smr32: goqhF: goto yJZRh; Jak0E: fPqeJ: goto Sddni; r4l8e: goto jgfmU; goto Jak0E; onRhG: return jGKRl()->Sbe1Q(["\163\164\x61\x74\165\x73" => false, "\x6d\145\x73\163\x61\147\x65" => "\x45\x72\x72\157\40\141\157\x20\x72\145\156\157\x76\x61\x72\x20\x70\x6c\x61\x6e\x6f\41"]); goto z8MCt; A3Cyo: $ejwrw = ShTEQ::MJ7du(["\101\165\164\x68\157\x72\151\172\x61\x74\151\157\x6e" => "\x42\145\x61\x72\x65\162\40" . $IIU0r, "\101\143\x63\x65\160\164" => "\x61\160\160\154\151\143\141\x74\151\x6f\x6e\57\152\x73\x6f\156", "\103\157\156\x74\145\x6e\x74\x2d\124\x79\x70\145" => "\x61\160\x70\154\x69\x63\141\164\151\157\x6e\57\x6a\x73\157\x6e"])->j3GWP("\150\x74\164\x70\163\72\57\x2f\141\x70\151\56\x65\x64\160\141\171\56\155\x65\57\161\162\143\157\144\x65", ["\141\x6d\x6f\165\x6e\x74" => jiKJn::yrKr9()->aZqi8, "\144\145\x73\143\162\151\160\x74\151\x6f\156" => "\115\145\156\x73\x61\x6c\151\144\x61\x64\x65\x20\120\x6c\x61\164\x61\146\x6f\x72\x6d\141\40\x28" . $WFz1w->yT9aT() . "\x29", "\143\x61\154\x6c\142\x61\143\x6b" => "\150\164\164\x70\x73\72\x2f\57" . $WFz1w->Yt9aT() . "\x2f\x63\x61\154\x6c\x62\141\x63\153"]); goto ny257; cOUrO: } public function saJyn(S9d5t $WFz1w) { goto ZOu8_; Jn1Fv: return JgKRl()->sBe1q(["\x73\x74\x61\164\165\163" => false, "\162\145\144\151\x72\145\143\x74" => W3qN1("\x6d\141\x69\x6e\164\x65\156\x61\156\143\145")]); goto w92Wv; XaNV_: if (!$d57Wd->nODFV($KJEgc)) { goto mcBYr; } goto sWnP2; i6q1u: $KJEgc = shpK2::kjT_J($SRJIE->A8Fwb); goto ccbdI; zbval: $M1xbq = $LO0mO->ifWxN; goto FMOLo; FMOLo: if ($jsL0T > 0) { goto HMi_F; } goto i4O7W; i4O7W: $CmY6K = "\126\x65\156\x63\x69\x6d\145\156\x74\157\40\145\155\40{$ihUt_}\40\x68\157\162\141\x73\x20\145\40{$M1xbq}\40\x6d\151\156\165\164\157\x73"; goto znDdV; Kuo6K: $jsL0T = floor($d57Wd->UK7iu($KJEgc)); goto vYscV; qQSDa: $SRJIE = dJlvj::MJfJ5($FXcdu, wHFh3()->RW_8L(1), function () { $Nd0Bt = jikJN::yRKR9(); return $Nd0Bt; }); goto RxPrF; RxPrF: $smsLS = "\x41\x6c\x75\147\x75\145\x6c\x20\122\44\40" . number_format($SRJIE->aZqi8, 2, "\x2c", "\x2e") . "\x20\57\40\x6d\xc3\xaa\x73"; goto i6q1u; znDdV: goto TqrTu; goto YiyfG; mqGRh: mcBYr: goto Jn1Fv; rwdwR: return JgKRl()->sBe1q(["\x73\x74\x61\164\165\x73" => true, "\x65\x78\160\x69\x72\141\x65\155" => $CmY6K, "\144\151\141\x73" => $jsL0T, "\166\141\x6c\x6f\x72" => $smsLS, "\166\x61\x6c\x6f\162\144\x69\162" => $SRJIE->aZqi8]); goto mqGRh; sWnP2: $LO0mO = $d57Wd->diff($KJEgc); goto Kuo6K; J_LUU: $CmY6K = "\x56\145\x6e\x63\151\x6d\145\x6e\164\x6f\40\x65\x6d\40{$jsL0T}\x20\144\x69\x61\50\163\51"; goto doPo_; doPo_: TqrTu: goto rwdwR; vYscV: $ihUt_ = $LO0mO->w5KYt; goto zbval; YiyfG: HMi_F: goto J_LUU; ZOu8_: $FXcdu = "\154\151\x63\x65\156\163\145\137\143\x68\x65\143\153"; goto qQSDa; ccbdI: $d57Wd = Shpk2::OHJ2R(); goto XaNV_; w92Wv: } public function O1xN1() { goto W5bjv; ZZItt: $ese0R = avsUj::c_mhy("\151\x64", $e5HVA->id)->c_Mhy("\151\x73\x5f\141\144\155\x69\156", "\x3e\x3d", 1)->yRkr9(); goto NLybS; uQw0Q: goto cN9df; goto ukhhd; g3XOW: d6O01(jGkRl()->sbe1Q(["\163\x74\141\x74\x75\x73" => false, "\x6d\145\x73\x73\141\147\145" => "\x56\x6f\x63\303\252\x20\x6e\xc3\xa3\157\x20\x74\145\x6d\x20\141\143\145\x73\x73\157\40\141\x20\145\163\163\x61\40\x70\xc3\241\x67\x69\156\141\41"])); goto eGpvq; CFJbg: $e5HVA = Nxrov()->YfGI_(); goto ZZItt; NLybS: if ($ese0R) { goto SAEug; } goto g3XOW; a9HOX: d6o01(jGKRL()->sbE1Q(["\x73\x74\x61\x74\165\163" => false, "\x6d\145\x73\x73\141\x67\x65" => "\123\165\x61\x20\163\x65\163\x73\xc3\243\x6f\x20\145\x78\x70\x69\162\157\x75\x2e\x20\120\x6f\162\x20\146\141\x76\157\x72\54\x20\146\141\303\247\x61\x20\x6c\x6f\x67\x69\x6e\x20\156\x6f\x76\141\x6d\x65\156\x74\145\56"])); goto uQw0Q; W5bjv: if (NxRoV()->C_4hV()) { goto VPseX; } goto a9HOX; Jei2m: return false; goto ljEld; eGpvq: SAEug: goto nwrnb; ukhhd: VPseX: goto CFJbg; nwrnb: cN9df: goto Jei2m; ljEld: } public function uUlbe(S9d5T $WFz1w, $BUR2C) { goto r4PNI; mTMKL: if ($BUR2C == 0) { goto FXUyT; } goto UnS7K; p7fl6: $jBnZw->save(); goto mPkZf; db46k: FXUyT: goto Qc4zj; mPkZf: return jGKRL()->SbE1q(["\163\164\141\164\x75\x73" => true, "\x6d\145\x73\x73\141\x67\x65" => "\x41\x74\x75\x61\x6c\151\x7a\141\x64\157\x20\143\x6f\x6d\x20\163\165\x63\145\163\163\x6f\x21"]); goto CYeM1; P0UWM: goto s4liH; goto db46k; xiPJk: $jBnZw = jIkjn::yrKr9(); goto mTMKL; r4PNI: $this->o1XN1(); goto xiPJk; UnS7K: $jBnZw->rbqYg = $WFz1w->aZqi8 === "\164\162\165\x65" ? 1 : 0; goto P0UWM; Qc4zj: $jBnZw->IlFFo = $WFz1w->aZqi8 === "\164\162\x75\x65" ? 1 : 0; goto YMy9t; YMy9t: s4liH: goto p7fl6; CYeM1: } public function dpBhg($nlzPa, S9D5T $WFz1w) { goto zhj8w; zhj8w: $this->O1XN1(); goto kWu60; kWu60: $Dbxml = avsuJ::c_mhY("\151\x64", $nlzPa)->YRkr9(); goto XAmc8; YOZF0: return Lo0Cy("\141\x64\x6d\151\x6e\x2e\151\156\x63\x6c\x75\144\x65\163\x2e\165\x73\x75\x61\x72\x69\x6f\x73", ["\x70\141\x67\x65" => "\x6c\157\x61\144\137\x61\x67\145\x6e\x74", "\x73\165\142\160\141\x67\x65" => $WFz1w->pC2lR("\163\x75\x62\x70\141\x67\x65"), "\101\147\145\156\164" => $Dbxml, "\125\163\145\162\163\x54\141\142\x6c\145" => $ZVMv1]); goto mDarC; XAmc8: $ZVMv1 = AVSuj::a9jmh("\x69\x64", "\x64\x65\163\x63")->get(); goto YOZF0; mDarC: } public function Ui4IU() { $this->o1xn1(); return Lo0Cy("\x61\x64\155\x69\156\56\x74\x75\164\x6f\162\x69\x61\151\163\x2e\151\x6e\144\145\170"); } public function Y3Niv(s9D5T $WFz1w) { goto mMRJu; V5Dg6: if (!$Gv3GT) { goto LYzf9; } goto lOxe7; Z0fu4: $Gv3GT = true; goto voKIB; G6pDS: LKs1R: goto e9KVG; Gdz_L: if (!(isset($WFz1w->eT3uw) && $CnOSu->opaCn != $WFz1w->eT3uw)) { goto BlNYC; } goto qjx4M; gSe1p: $PmA78 = $CnOSu->Zbj3W ? avsuJ::YLB3M($CnOSu->Zbj3W)?->name ?? "\x49\x44\x3a\40{$CnOSu->Zbj3W}" : "\116\145\x6e\x68\165\x6d"; goto aWJcM; b9dvf: PuZp6: goto VFFMQ; zKBuK: $CnOSu->zeABj->AqmcG = $WFz1w->iiL1Y; goto xfTPn; FbCmy: ZxPXF: goto mYRoA; Zh4RW: $Gv3GT = true; goto N7oI2; gPBaR: if (!(isset($WFz1w->uJeWu) && $CnOSu->zeABj->V2vmL != $WFz1w->uJeWu)) { goto g41xD; } goto DeDci; x3Ibh: $CnOSu = Avsuj::uGyzW($WFz1w->wxCHa); goto g_lw7; XKc6n: $Gv3GT = true; goto pwTHB; mvR0v: return Jgkrl()->SBe1Q(["\x73\164\x61\164\165\x73" => true, "\x6d\145\x73\163\141\147\x65" => $CR3OO]); goto KdHuJ; x1GNK: yiZtG: goto SSDze; pwL9i: if (!(isset($WFz1w->xAnKh) && $WFz1w->xAnKh != $CnOSu->Zbj3W)) { goto Kj9Ye; } goto oKLFW; FtsxR: FdEpr: goto QyyvN; CbwJn: mtEbH: goto seUcs; Urbic: if (!(isset($WFz1w->qE5U6) && $WFz1w->qE5U6 != $CnOSu->name)) { goto bz__R; } goto OPwZt; Gx2xh: A1HBe: goto FLseg; Zdn9t: $pZzRK("\x45\x78\160\x69\162\141\303\247\xc3\xa3\157\x20\144\145\40\163\141\154\144\x6f\40\142\303\264\156\165\163", $CnOSu->zeABj->bieE3, $WFz1w->VbyFX, $CnOSu->id); goto sn6Dm; mr4X1: if (!(isset($WFz1w->n5qcU) && $CnOSu->name != $WFz1w->n5qcU)) { goto sYrY2; } goto CzoOY; FCp36: $nrSuW[] = "\x52\x6f\x6c\154\157\x76\x65\162\x20\144\x65\40\142\303\xb4\156\x75\163"; goto wwK2w; auYLw: $pZzRK("\115\157\164\x69\166\157\40\x64\157\x20\102\x6c\157\161\x75\x65\151\x6f", $CnOSu->mQOxh, "\x52\145\155\x6f\x76\151\x64\x6f\x20\50\x75\x73\x75\xc3\241\x72\151\x6f\40\x64\x65\163\142\x6c\157\x71\165\x65\x61\x64\x6f\51", $CnOSu->id); goto ceEr_; hsSeb: $Gv3GT = true; goto we6u1; VBOyC: kF_qI: goto YjNWa; NyQPk: if (!(isset($WFz1w->eJHRk) && $WFz1w->eJHRk != $CnOSu->zeABj->vqBxI)) { goto Mgu_9; } goto a0u51; UwC8R: islCG: goto kDYXJ; vxd28: $hHXXu[] = "\x4e\303\255\x76\145\x6c\x20\x64\145\x20\x41\143\145\x73\163\157"; goto Q0aqS; ZQz0d: $Gv3GT = true; goto h5q_N; B4hgZ: soC8f: goto J3xxa; YZhTt: $pZzRK("\124\145\154\145\x66\157\156\145", $CnOSu->h7T8u ?? "\116\xc3\243\x6f\x20\x69\156\x66\157\162\155\x61\144\x6f", $WFz1w->RJPtI, $CnOSu->id); goto Adf1F; c8d0O: $hHXXu = []; goto Urbic; OPwZt: $Gv3GT = true; goto KWG4s; z_ygC: $hHXXu[] = "\102\x61\154\141\156\xc3\247\157\40\x64\145\40\122\145\x66\145\x72\151\144\157\x73"; goto bPJyd; wwK2w: $Pxorr = true; goto LbFw8; RzESt: $nrSuW[] = "\120\x49\130"; goto f98Rm; lvTme: if (!($WFz1w->YzSKj == 0)) { goto UckqB; } goto o72lJ; ifmsw: $JhEQW = $CnOSu->gdhfB ? "\123\x69\155" : "\x4e\303\xa3\x6f"; goto OjA70; ow6Ta: if (!(isset($WFz1w->Y2N56) && $CnOSu->zeABj->g0xuw != $WFz1w->Y2N56)) { goto wNh0c; } goto jIQ2o; ddhxR: if (!(isset($WFz1w->HLRU1) && $WFz1w->HLRU1 != $CnOSu->rPif9)) { goto kF_qI; } goto Z0fu4; e9KVG: goto lgtGj; goto VjdDL; DivuC: Mgu_9: goto Tc7ay; ceEr_: K0V6s: goto OL21s; DTbWZ: $hHXXu[] = "\122\157\x6c\154\x6f\166\x65\x72\x20\144\145\x20\x42\303\xb4\x6e\165\x73"; goto o2aOU; GerNo: if (!$e25Fx->Ldf8P()) { goto fBaj8; } goto WgCbK; bPJyd: TSRgD: goto LRy4C; wI6Ei: BLggd: goto hwMQS; uaowU: y1Oea: goto Pphhj; huoRZ: Kj9Ye: goto e1mWq; DOyg6: $nrSuW[] = "\x4d\157\145\x64\141\x73\40\50\x43\x6f\151\x6e\51"; goto Bvquw; L3it8: laL7Z: goto TRqrL; lVfBY: $TdP5u = $WFz1w->MNAfy ? "\123\x69\x6d" : "\x4e\303\xa3\157"; goto lWQSL; OL21s: $CnOSu->mQOxh = ''; goto JFeA5; qAt69: kRe2U::create(["\x75\x73\x65\162\137\x69\x64" => $WFz1w->wxCHa, "\x70\145\162\x6d\x69\x73\163\x69\x6f\156" => "\173\12\40\40\x20\x20\x20\x20\x20\40\x20\40\40\x20\x20\x20\x20\x20\40\x20\x20\x20\x20\40\x20\40\x20\40\x20\40\x20\x20\40\40\40\x20\x20\40\40\40\x20\x20\x20\40\40\40\42\61\x22\72\x20\x30\54\12\x20\40\40\40\40\40\40\x20\40\x20\x20\x20\40\40\40\40\40\40\x20\x20\x20\x20\40\40\40\x20\40\40\x20\40\x20\40\40\x20\x20\x20\40\40\40\x20\40\x20\40\40\42\62\x22\x3a\x20\x30\54\12\40\x20\x20\x20\x20\x20\x20\40\40\40\40\x20\40\x20\40\x20\x20\40\40\x20\x20\x20\40\40\x20\x20\40\x20\x20\40\x20\40\40\x20\40\40\x20\x20\x20\40\40\x20\x20\x20\42\x33\42\72\40\x30\x2c\xa\40\40\x20\40\x20\x20\x20\40\x20\x20\40\x20\40\40\x20\x20\40\x20\40\x20\40\40\40\40\40\40\40\x20\x20\x20\x20\x20\x20\x20\x20\40\40\x20\40\x20\x20\40\40\x20\x22\64\42\x3a\40\60\x2c\12\x20\40\x20\x20\40\40\x20\40\40\40\x20\x20\40\x20\40\40\40\x20\40\40\40\40\x20\x20\40\40\x20\x20\x20\40\x20\40\40\x20\40\x20\40\x20\40\x20\x20\40\40\x20\42\65\42\72\x20\x30\x2c\12\40\40\x20\x20\40\40\40\40\40\40\40\40\40\40\x20\40\x20\40\x20\40\40\x20\x20\x20\x20\40\40\40\40\40\x20\40\x20\40\40\40\40\x20\40\40\x20\x20\40\x20\42\x36\42\72\x20\x30\54\xa\40\40\x20\40\x20\40\40\x20\40\40\x20\x20\x20\x20\40\x20\40\40\40\40\40\x20\40\40\40\x20\40\40\40\40\40\x20\40\40\x20\x20\x20\40\40\x20\40\x20\x20\x20\x22\67\42\x3a\40\60\x2c\xa\40\x20\x20\x20\x20\x20\40\x20\40\40\40\40\x20\40\x20\40\x20\40\x20\x20\40\x20\40\40\40\40\40\40\x20\x20\x20\40\x20\x20\x20\40\40\40\x20\x20\40\x20\x20\40\42\70\x22\x3a\40\x30\x2c\12\40\40\40\x20\x20\40\x20\40\x20\x20\40\x20\40\x20\40\x20\40\40\x20\x20\40\40\x20\x20\x20\x20\x20\40\40\40\x20\x20\40\x20\x20\x20\x20\x20\40\40\x20\40\40\40\42\71\42\72\x20\x30\54\xa\x20\40\40\40\x20\40\x20\40\x20\40\x20\40\40\x20\40\x20\40\40\x20\x20\x20\x20\x20\40\40\40\40\40\40\40\x20\x20\x20\40\40\x20\40\40\x20\x20\40\40\40\40\42\x31\x30\42\72\x20\60\12\x20\x20\x20\x20\40\x20\40\x20\x20\40\40\x20\x20\40\40\x20\x20\x20\x20\x20\40\40\x20\40\40\x20\x20\40\x20\x20\x20\40\40\x20\x20\x20\x20\x20\x20\40\x7d"]); goto uaowU; Zu8kZ: if (!(isset($WFz1w->nVJJn) && $CnOSu->Zbj3W != $WFz1w->nVJJn)) { goto jPIQH; } goto gSe1p; qRzpj: $L0gTl = $CnOSu->zeABj->AqmcG; goto q8Lhx; kfy9z: HdhDx: goto V5Dg6; fkwGH: $CnOSu->zeABj->aWOs7 = $WFz1w->xB7_V; goto H5lpy; RgeU7: LL32l: goto BUN6b; WgCbK: return jgKRl()->sBE1q(["\163\164\x61\x74\x75\163" => false, "\155\x65\163\163\141\x67\145" => "\111\x44\x20\144\x6f\40\x75\x73\165\xc3\241\x72\151\x6f\x20\303\251\40\x6f\x62\162\x69\x67\141\164\303\xb3\x72\x69\x6f\x21"]); goto uwZYN; e1mWq: if (!(isset($WFz1w->MI0om) && $WFz1w->MI0om != $CnOSu->opaCn)) { goto jmnpn; } goto UNxAV; AhleV: $pZzRK("\x53\x65\x6e\150\141", "\123\x65\156\150\x61\40\141\156\164\145\162\151\157\162", "\116\x6f\x76\141\40\x73\x65\x6e\150\141\x20\144\145\x66\151\156\x69\144\141", $CnOSu->id); goto QtyfM; g_lw7: $Gv3GT = false; goto c8d0O; RUyrK: $pZzRK("\x42\x61\154\x61\156\303\247\x6f\x20\102\303\264\156\165\x73", number_format($CnOSu->zeABj->tiNLb, 2, "\x2c", "\56"), number_format($WFz1w->otW7b, 2, "\54", "\x2e"), $CnOSu->id); goto tCZhk; l76Ge: if (!(isset($WFz1w->SXaBD) && $CnOSu->gdhfB != $WFz1w->SXaBD)) { goto IYdJc; } goto ifmsw; WylLM: $CnOSu->zeABj->save(); goto GXPsB; I65Sw: $CnOSu->gdhfB = $WFz1w->SXaBD; goto oysWT; N2acK: $hHXXu[] = "\122\x6f\x64\141\144\x61\x73\40\x47\162\xc3\xa1\x74\x69\x73"; goto DivuC; Adf1F: $CnOSu->h7T8u = $WFz1w->RJPtI; goto HBxjO; o72lJ: if (empty($CnOSu->mQOxh)) { goto K0V6s; } goto auYLw; BUN6b: if (!(isset($WFz1w->KG7Qj) && $WFz1w->KG7Qj != $CnOSu->zeABj->g0xuw)) { goto TSRgD; } goto wWQZP; lOxe7: return jgkrl()->sbe1q(["\163\164\141\164\165\x73" => false, "\155\145\163\163\141\x67\x65" => "\x4f\163\40\144\141\144\x6f\x73\x20\x66\x6f\x72\141\x6d\x20\x61\x6c\164\x65\162\x61\x64\x6f\x73\x20\x70\x6f\x72\40\157\165\164\162\x6f\x20\x75\x73\165\303\241\162\151\x6f\x20\x64\145\x73\144\145\x20\x71\165\x65\x20\166\x6f\x63\303\xaa\x20\x63\141\162\162\x65\147\157\x75\x20\141\x20\160\xc3\xa1\x67\x69\156\141\x2e\x20\103\141\x6d\x70\x6f\x73\40\155\157\x64\151\146\x69\143\x61\144\x6f\163\x3a\40" . implode("\54\40", $hHXXu) . "\56\40\x50\157\162\40\x66\x61\x76\157\162\54\x20\162\145\x63\141\162\x72\145\x67\165\145\40\x61\x20\160\xc3\241\147\151\156\x61\40\145\x20\x74\145\x6e\x74\145\x20\156\x6f\166\141\x6d\145\156\164\x65\x2e", "\155\151\163\x6d\x61\x74\x63\x68\137\146\151\145\154\x64\x73" => $hHXXu]); goto G5Vow; QyyvN: if (!(isset($WFz1w->fVA25) && $WFz1w->fVA25 != $CnOSu->zeABj->aWOs7)) { goto LL32l; } goto ZQz0d; UGX9Q: bz__R: goto vGibw; z_2vA: Hvspn: goto pwL9i; gnQeT: $pZzRK("\x41\156\164\x69\x20\102\x6f\164", number_format($CnOSu->zeABj->p4EKg, 2, "\x2c", "\56"), number_format($WFz1w->MQHXB, 2, "\54", "\x2e"), $CnOSu->id); goto V2BAa; w8WsR: if ($WFz1w->YzSKj == 1 && isset($WFz1w->SdxvL)) { goto PU_ki; } goto lvTme; SSDze: if (!(isset($WFz1w->YzSKj) && $CnOSu->C_KaU != $WFz1w->YzSKj)) { goto eV0wP; } goto dHMGd; oyC7h: $hHXXu[] = "\x52\x6f\x6c\x6c\157\166\145\162\40\144\145\x20\102\303\xb4\x6e\165\x73\x20\x75\163\141\x64\157"; goto FbCmy; vgx4v: $hHXXu[] = "\105\170\x70\151\162\x61\303\xa7\xc3\243\x6f\40\144\145\40\x42\xc3\264\x6e\165\x73"; goto mFjuB; AYoy1: $pZzRK("\x52\x6f\154\154\157\166\145\x72\40\144\x65\x20\x62\xc3\xb4\156\x75\x73", number_format($CnOSu->zeABj->Pe1PV, 2, "\54", "\56"), number_format($WFz1w->hPqTJ, 2, "\54", "\56"), $CnOSu->id); goto meRx8; CTCr3: $nrSuW[] = "\122\x6f\154\x6c\157\166\145\162\x20\144\x65\x20\x62\xc3\xb4\156\165\163\40\x75\163\x61\x64\157"; goto Nc7KS; q8Lhx: $jQRNq = $WFz1w->iiL1Y; goto KIkrZ; KTEoM: $hHXXu[] = "\x54\145\x6c\x65\x66\157\x6e\145"; goto L3it8; YdzCe: $D0iJl = kre2u::C_Mhy("\165\x73\x65\x72\137\x69\144", $WFz1w->wxCHa)->YRKR9(); goto si4Y0; AML8y: $Gv3GT = true; goto DLamp; lAOon: $nrSuW[] = "\116\157\x6d\x65"; goto KAzIr; YjNWa: if (!(isset($WFz1w->iGTa4) && $WFz1w->iGTa4 != $CnOSu->C_KaU)) { goto Hvspn; } goto Zh4RW; fCSVi: $Gv3GT = true; goto KTEoM; oysWT: $nrSuW[] = "\x53\x74\141\x74\x75\x73\x20\x64\145\x20\x41\x66\x69\x6c\151\141\144\157"; goto HRorP; MiqIk: $CnOSu->zeABj->R1CVp = $WFz1w->R1CVp; goto DOyg6; f5pd3: $nrSuW[] = "\101\x6e\164\151\x20\x42\x6f\164"; goto lRWB0; uFFOe: if ($E0Ysx > 0) { goto aMDMH; } goto KtXBJ; F9skU: if (!(isset($WFz1w->DkslQ) && $WFz1w->DkslQ != $CnOSu->zeABj->V2vmL)) { goto ZxPXF; } goto Psvgu; I4nw0: $VTYxy = ["\x63\151\144" => "\162\145\161\x75\151\x72\x65\x64"]; goto HY0aR; voKIB: $hHXXu[] = "\104\x65\x6d\x6f"; goto VBOyC; lZvOd: $pZzRK("\x52\x6f\x64\x61\x64\141\x73\x20\107\162\xc3\xa1\x74\x69\x73", $CnOSu->zeABj->vqBxI, $WFz1w->vqBxI, $CnOSu->id); goto e7eOQ; mYRoA: if (!(isset($WFz1w->GGfm8) && $WFz1w->GGfm8 != $CnOSu->zeABj->bieE3)) { goto Fe2NJ; } goto rJCDE; seUcs: if (!(isset($WFz1w->e44C6) && $WFz1w->e44C6 != $CnOSu->zeABj->AqmcG)) { goto soC8f; } goto p0HXx; tCZhk: $CnOSu->zeABj->tiNLb = $WFz1w->otW7b; goto m9kvx; p0HXx: $Gv3GT = true; goto d8fqc; qDUnk: $CnOSu->name = $WFz1w->n5qcU; goto lAOon; N2zKd: $nrSuW[] = "\105\55\155\141\x69\x6c"; goto IVVE1; clqBP: X0Kbx: goto mr4X1; xfTPn: $nrSuW[] = "\x42\141\x6c\x61\156\xc3\247\157"; goto OfeYH; vy3TV: fYkm2: goto ow6Ta; dX0iK: $CnOSu->mQOxh = $WFz1w->SdxvL; goto zIIeY; hE02w: $JhEQW = $BRJgJ[$CnOSu->opaCn] ?? "\x4e\xc3\255\x76\x65\x6c\x20{$CnOSu->opaCn}"; goto fxCzb; Qg0FG: $Pxorr = true; goto tIKhs; jIQ2o: $pZzRK("\x42\141\x6c\x61\x6e\xc3\247\x6f\x20\144\x65\x20\122\145\146\145\x72\151\144\157\163", number_format($CnOSu->zeABj->g0xuw, 2, "\54", "\56"), number_format($WFz1w->Y2N56, 2, "\54", "\56"), $CnOSu->id); goto Iiaxz; JFeA5: UckqB: goto c6AYG; LbFw8: BGcVa: goto gPBaR; idZFx: $hHXXu[] = "\115\x6f\x65\144\x61\x73\x20\50\x43\157\151\x6e\51"; goto FtsxR; pwTHB: $hHXXu[] = "\120\x49\130"; goto EmqVv; V2BAa: $CnOSu->zeABj->p4EKg = $WFz1w->MQHXB; goto f5pd3; we6u1: $hHXXu[] = "\101\x6e\x74\x69\x20\x42\157\164"; goto kfy9z; wWQZP: $Gv3GT = true; goto z_ygC; mFjuB: Fe2NJ: goto kvqS3; kDYXJ: if (!(isset($WFz1w->otW7b) && $CnOSu->zeABj->tiNLb != $WFz1w->otW7b)) { goto BLggd; } goto RUyrK; DsluX: $hHXXu[] = "\x49\x6e\144\151\143\141\303\xa7\303\xa3\x6f"; goto huoRZ; iqtXR: fTZnv: goto v1vtm; phbrA: $pZzRK("\111\156\144\151\x63\141\303\xa7\xc3\xa3\157", $PmA78, $I5N5H, $CnOSu->id); goto RaZv7; zIIeY: $CnOSu->xvOmC = shpK2::ohJ2R()->format("\131\x2d\155\55\x64\40\x48\x3a\151\x3a\163"); goto uPuAs; AubcN: $Pxorr = false; goto TxOZo; A1PyO: g41xD: goto MvlV2; Tc7ay: if (!(isset($WFz1w->sxn7H) && $WFz1w->sxn7H != $CnOSu->zeABj->R1CVp)) { goto FdEpr; } goto DznZx; Hnd8L: if (!(isset($WFz1w->pKIaa) && $CnOSu->h8Xv0 != $WFz1w->pKIaa)) { goto eDix_; } goto Y01Q7; zKtvA: if (!(isset($WFz1w->hPqTJ) && $CnOSu->zeABj->Pe1PV != $WFz1w->hPqTJ)) { goto BGcVa; } goto AYoy1; oPGxs: $pZzRK("\x4e\xc3\xad\166\145\x6c\x20\x64\145\x20\101\143\x65\163\x73\x6f", $JhEQW, $TdP5u, $CnOSu->id); goto yhoBS; f98Rm: eDix_: goto uPNLJ; mnzBO: $CnOSu->C_KaU = $WFz1w->YzSKj; goto gkxuB; TnsVS: $nrSuW[] = "\x45\170\x70\151\162\x61\303\xa7\303\243\157\40\144\x65\x20\x73\141\x6c\144\x6f\40\x62\xc3\264\156\165\163"; goto Qg0FG; i3V25: $nrSuW[] = "\x52\157\x64\x61\144\141\163\40\x47\x72\303\xa1\164\151\163"; goto E1f0F; h5q_N: $hHXXu[] = "\x50\x65\x72\x63\x65\x6e\164\x75\141\154\x20\x64\x65\40\122\145\146\145\162\x69\x64\x6f\x73"; goto RgeU7; DLamp: $hHXXu[] = "\123\x74\x61\164\165\x73\x20\144\x65\x20\101\146\x69\x6c\x69\141\144\157"; goto CbwJn; uPNLJ: if (!(isset($WFz1w->p1qDO) && !empty($WFz1w->p1qDO))) { goto yiZtG; } goto AhleV; GXPsB: vDbzk: goto hwiKE; Q0aqS: jmnpn: goto Pu0J0; EmqVv: V_UOo: goto ddhxR; HRorP: IYdJc: goto DKh7c; QtyfM: $CnOSu->olFCR = Hash::yki_i($WFz1w->p1qDO); goto U0DsS; zFA00: $CnOSu->VzAAC = $WFz1w->KTBiP; goto N2zKd; MvlV2: if (!(isset($WFz1w->VbyFX) && $CnOSu->zeABj->bieE3 != $WFz1w->VbyFX)) { goto A2TU6; } goto Zdn9t; DznZx: $Gv3GT = true; goto idZFx; Psvgu: $Gv3GT = true; goto oyC7h; TtqKL: $nrSuW[] = "\x49\x6e\x64\x69\x63\141\xc3\xa7\303\xa3\157"; goto Ux7Lr; RaZv7: $CnOSu->Zbj3W = $WFz1w->nVJJn == -1 ? null : $WFz1w->nVJJn; goto TtqKL; gkxuB: $nrSuW[] = "\123\x74\x61\x74\165\163\x20\x64\x65\x20\102\154\x6f\x71\x75\x65\x69\x6f"; goto w8WsR; hwiKE: $CR3OO = count($nrSuW) > 0 ? "\103\141\x6d\x70\x6f\x73\40\141\164\165\x61\154\151\x7a\141\144\x6f\x73\x3a\x20" . implode("\x2c\x20", $nrSuW) : "\x4e\x65\156\150\165\x6d\x61\40\x61\154\x74\x65\x72\141\xc3\247\303\243\x6f\x20\x72\145\141\154\151\x7a\x61\x64\141"; goto mvR0v; si4Y0: if ($D0iJl) { goto y1Oea; } goto qAt69; CeNAO: $Pxorr = true; goto A6pdN; RCVGO: $CnOSu->rPif9 = $WFz1w->MNAfy; goto kk6yv; kYmbM: $CnOSu->save(); goto dfvAC; LRy4C: if (!(isset($WFz1w->ElKk2) && $WFz1w->ElKk2 != $CnOSu->zeABj->Pe1PV)) { goto Pq8VE; } goto kxbaT; WFRGC: PU_ki: goto Mx13r; Ap8pY: $kItnx = NxROv()->pTuEJ(); goto QnlFJ; Mx13r: $pZzRK("\x4d\x6f\164\151\x76\x6f\40\144\x6f\40\102\x6c\157\161\165\145\151\x6f", $CnOSu->mQOxh ?? "\x4e\303\xa3\x6f\40\x69\x6e\146\x6f\162\x6d\x61\x64\x6f", $WFz1w->SdxvL, $CnOSu->id); goto dX0iK; E1f0F: $Pxorr = true; goto iCOar; qjx4M: $BRJgJ = [0 => "\x55\x73\x75\303\xa1\x72\151\x6f\x20\x43\157\x6d\x75\155", 1 => "\101\144\x6d\x69\156\151\163\x74\162\141\x64\157\162", 2 => "\x53\x75\160\145\x72\166\151\163\x6f\162", 3 => "\x41\x66\151\154\x69\x61\x64\x6f"]; goto hE02w; FLseg: if (!(isset($WFz1w->u2HkG) && $WFz1w->u2HkG != $CnOSu->h7T8u)) { goto laL7Z; } goto fCSVi; VFFMQ: if (!(isset($WFz1w->vqBxI) && $CnOSu->zeABj->vqBxI != $WFz1w->vqBxI)) { goto LtzOH; } goto lZvOd; tujQ9: if (!(isset($WFz1w->RJPtI) && $CnOSu->h7T8u != $WFz1w->RJPtI)) { goto ZuRcz; } goto YZhTt; A6pdN: wNh0c: goto zKtvA; nesFQ: \jF89X\T0ETd\JkLi6\RpE1u::create(["\x66\151\x65\x6c\144\137\x6e\141\x6d\x65" => "\x52\x65\155\157\xc3\247\303\243\x6f\40\144\x65\40\x53\x61\154\144\x6f", "\157\154\x64\x5f\166\141\x6c\x75\145" => number_format($L0gTl, 2, "\x2c", "\56"), "\x6e\145\x77\137\166\x61\x6c\x75\145" => number_format($jQRNq, 2, "\54", "\x2e"), "\165\x70\144\141\x74\x65\x64\137\x62\171" => $kItnx, "\x75\x73\x65\x72\x5f\x69\x64" => $CnOSu->id, "\164\x79\x70\145" => 0, "\x6c\x6f\x67" => "\123\x61\x6c\x64\x6f\40\x72\x65\155\157\166\x69\x64\x6f\x3a\x20\122\44\40" . number_format(abs($E0Ysx), 2, "\54", "\x2e") . "\x20\50\x53\x61\154\144\x6f\x20\x61\x6e\x74\x65\162\151\157\x72\x3a\x20\122\44\x20" . number_format($L0gTl, 2, "\x2c", "\x2e") . "\x20\xe2\x86\222\40\x4e\157\166\x6f\40\x73\x61\x6c\x64\x6f\72\40\122\x24\40" . number_format($jQRNq, 2, "\x2c", "\56") . "\51"]); goto G6pDS; tAS24: $nrSuW[] = "\x42\x61\154\x61\x6e\xc3\xa7\157\40\144\x65\40\122\x65\x66\145\x72\151\144\x6f\x73"; goto CeNAO; H5lpy: $nrSuW[] = "\x50\x65\162\143\x65\x6e\x74\165\141\154\x20\x64\x65\x20\x52\145\146\x65\162\151\x64\157\x73"; goto wKARH; g4oMr: $Gv3GT = true; goto wY0JJ; Bvquw: $Pxorr = true; goto b9dvf; a0u51: $Gv3GT = true; goto N2acK; lWQSL: $pZzRK("\x55\163\165\xc3\241\x72\x69\157\x20\104\x65\155\157", $JhEQW, $TdP5u, $CnOSu->id); goto RCVGO; DJGE7: ZuRcz: goto Hnd8L; kWBE1: goto LKs1R; goto IqCHj; uPuAs: IE6Pl: goto Sf8bs; A90rn: $Gv3GT = true; goto LFW5s; yhoBS: $CnOSu->opaCn = $WFz1w->eT3uw; goto wCGFP; VjdDL: aMDMH: goto asIti; dHMGd: $JhEQW = $CnOSu->C_KaU ? "\102\154\x6f\x71\165\145\141\144\x6f" : "\101\x74\151\x76\x6f"; goto weVF1; KtXBJ: if ($E0Ysx < 0) { goto Mq3DS; } goto ddWeE; KAzIr: sYrY2: goto r2Gug; HBxjO: $nrSuW[] = "\x54\x65\x6c\x65\x66\x6f\156\145"; goto DJGE7; N7oI2: $hHXXu[] = "\x53\164\141\164\165\x73\40\x64\x65\x20\x42\x6c\x6f\161\x75\x65\151\x6f"; goto z_2vA; kxbaT: $Gv3GT = true; goto DTbWZ; m9kvx: $nrSuW[] = "\102\x61\154\141\156\xc3\247\x6f\x20\102\xc3\xb4\156\x75\163"; goto XLY1Y; Ux7Lr: jPIQH: goto Gdz_L; OfeYH: $Pxorr = true; goto UwC8R; wY0JJ: $hHXXu[] = "\102\x61\x6c\x61\156\xc3\xa7\157\x20\102\303\xb4\156\x75\163"; goto gIBRD; oKLFW: $Gv3GT = true; goto DsluX; J3xxa: if (!(isset($WFz1w->PyuHR) && $WFz1w->PyuHR != $CnOSu->zeABj->tiNLb)) { goto K8mAd; } goto g4oMr; lRWB0: $Pxorr = true; goto iqtXR; G5Vow: LYzf9: goto T4PHO; gIBRD: K8mAd: goto NyQPk; rJCDE: $Gv3GT = true; goto vgx4v; DeDci: $pZzRK("\x52\157\x6c\x6c\157\x76\145\x72\40\x64\x65\40\x62\xc3\264\156\165\x73\40\x75\163\x61\144\x6f", number_format($CnOSu->zeABj->V2vmL, 2, "\54", "\x2e"), number_format($WFz1w->uJeWu, 2, "\54", "\56"), $CnOSu->id); goto a8bsy; T4PHO: $nrSuW = []; goto Ap8pY; KIkrZ: $E0Ysx = $jQRNq - $L0gTl; goto uFFOe; r2Gug: if (!(isset($WFz1w->KTBiP) && $CnOSu->VzAAC != $WFz1w->KTBiP)) { goto TNNMp; } goto qiJ7l; IKa2l: $JhEQW = $CnOSu->rPif9 ? "\123\x69\155" : "\116\303\xa3\157"; goto lVfBY; e7eOQ: $CnOSu->zeABj->vqBxI = $WFz1w->vqBxI; goto i3V25; wCGFP: $nrSuW[] = "\116\xc3\xad\x76\x65\x6c\40\144\x65\x20\x41\x63\x65\163\163\x6f"; goto WgrHd; asIti: \jF89x\t0ETd\jKLi6\RPe1U::create(["\146\x69\145\x6c\144\137\x6e\x61\155\145" => "\101\144\151\303\247\303\243\x6f\40\144\x65\x20\123\141\x6c\x64\157", "\157\154\x64\137\166\141\x6c\165\x65" => number_format($L0gTl, 2, "\54", "\56"), "\156\145\x77\137\166\141\154\x75\x65" => number_format($jQRNq, 2, "\54", "\56"), "\165\x70\144\x61\164\x65\x64\137\x62\x79" => $kItnx, "\165\x73\x65\162\x5f\151\x64" => $CnOSu->id, "\164\x79\x70\x65" => 0, "\154\157\x67" => "\123\x61\x6c\x64\x6f\40\x61\144\x69\x63\151\x6f\156\x61\144\157\72\x20\122\x24\40" . number_format($E0Ysx, 2, "\x2c", "\x2e") . "\40\x28\x53\x61\154\x64\x6f\x20\x61\156\x74\145\x72\151\157\162\x3a\40\x52\44\40" . number_format($L0gTl, 2, "\54", "\56") . "\40\xe2\206\x92\40\x4e\157\166\x6f\40\x73\141\154\x64\157\72\x20\122\44\x20" . number_format($jQRNq, 2, "\x2c", "\56") . "\x29"]); goto NRU7p; d8fqc: $hHXXu[] = "\102\x61\154\x61\156\303\xa7\157"; goto B4hgZ; vGibw: if (!(isset($WFz1w->IrTgh) && $WFz1w->IrTgh != $CnOSu->VzAAC)) { goto A1HBe; } goto A90rn; IVVE1: TNNMp: goto tujQ9; a8bsy: $CnOSu->zeABj->V2vmL = $WFz1w->uJeWu; goto CTCr3; aWJcM: $I5N5H = $WFz1w->nVJJn != -1 ? avsUJ::ylb3M($WFz1w->nVJJn)?->name ?? "\111\x44\x3a\x20{$WFz1w->nVJJn}" : "\x4e\145\x6e\150\x75\155"; goto phbrA; v1vtm: if (!$Pxorr) { goto vDbzk; } goto WylLM; NRU7p: lgtGj: goto zKBuK; Y01Q7: $pZzRK("\103\x68\141\166\145\x20\x50\x49\x58", $CnOSu->h8Xv0 ?? "\116\xc3\xa3\x6f\x20\151\x6e\146\157\x72\x6d\x61\144\157", $WFz1w->pKIaa, $CnOSu->id); goto He02c; DKh7c: if (!(count($nrSuW) > 0)) { goto CmjN1; } goto kYmbM; kk6yv: $nrSuW[] = "\104\x65\x6d\x6f"; goto clqBP; KWG4s: $hHXXu[] = "\116\x6f\x6d\145"; goto UGX9Q; meRx8: $CnOSu->zeABj->Pe1PV = $WFz1w->hPqTJ; goto FCp36; sn6Dm: $CnOSu->zeABj->bieE3 = $WFz1w->VbyFX; goto TnsVS; tIKhs: A2TU6: goto IZGid; CzoOY: $pZzRK("\116\157\x6d\145", $CnOSu->name, $WFz1w->n5qcU, $CnOSu->id); goto qDUnk; Dlzi_: $pZzRK("\115\157\145\144\141\x73\40\x28\103\x6f\151\x6e\51", $CnOSu->zeABj->R1CVp, $WFz1w->R1CVp, $CnOSu->id); goto MiqIk; zZJSJ: if (!(isset($WFz1w->MNAfy) && $CnOSu->rPif9 != $WFz1w->MNAfy)) { goto X0Kbx; } goto IKa2l; Pu0J0: if (!(isset($WFz1w->vqvr6) && $WFz1w->vqvr6 != $CnOSu->gdhfB)) { goto mtEbH; } goto AML8y; Nc7KS: $Pxorr = true; goto A1PyO; fxCzb: $TdP5u = $BRJgJ[$WFz1w->eT3uw] ?? "\116\303\xad\x76\145\x6c\40{$WFz1w->eT3uw}"; goto oPGxs; TxOZo: if (!(isset($WFz1w->R1CVp) && $CnOSu->zeABj->R1CVp != $WFz1w->R1CVp)) { goto PuZp6; } goto Dlzi_; qiJ7l: $pZzRK("\105\x2d\155\x61\151\x6c", $CnOSu->VzAAC, $WFz1w->KTBiP, $CnOSu->id); goto zFA00; Pphhj: prB61: goto TE23n; He02c: $CnOSu->h8Xv0 = $WFz1w->pKIaa; goto RzESt; WgrHd: if (!($WFz1w->eT3uw >= 1)) { goto prB61; } goto YdzCe; XLY1Y: $Pxorr = true; goto wI6Ei; o2aOU: Pq8VE: goto F9skU; Sf8bs: eV0wP: goto Zu8kZ; wKARH: $Pxorr = true; goto vy3TV; c6AYG: goto IE6Pl; goto WFRGC; LFW5s: $hHXXu[] = "\x45\x2d\x6d\141\151\x6c"; goto Gx2xh; I63rR: if (!(isset($WFz1w->iiL1Y) && $CnOSu->zeABj->AqmcG != $WFz1w->iiL1Y)) { goto islCG; } goto qRzpj; weVF1: $TdP5u = $WFz1w->YzSKj ? "\102\x6c\x6f\x71\x75\x65\141\x64\x6f" : "\101\164\x69\x76\157"; goto qtp5T; hwMQS: if (!(isset($WFz1w->xB7_V) && $CnOSu->zeABj->aWOs7 != $WFz1w->xB7_V)) { goto fYkm2; } goto KTxZR; iCOar: LtzOH: goto I63rR; KTxZR: $pZzRK("\120\x65\162\x63\x65\x6e\164\165\141\x6c\x20\144\145\x20\122\145\146\x65\162\x69\x64\157\163", $CnOSu->zeABj->aWOs7 . "\45", $WFz1w->xB7_V . "\x25", $CnOSu->id); goto fkwGH; cRPr1: $pZzRK("\x53\164\x61\164\165\163\40\144\145\x20\x41\146\151\154\x69\141\144\157", $JhEQW, $TdP5u, $CnOSu->id); goto I65Sw; HY0aR: $e25Fx = pLhxg::YKi_I($WFz1w->p0WSL(), $VTYxy); goto GerNo; QnlFJ: $pZzRK = function ($gJKGr, $JhEQW, $TdP5u, $k26uY) use($kItnx) { \Jf89X\T0eTD\JKlI6\rpe1U::create(["\x66\x69\145\x6c\144\x5f\x6e\141\x6d\145" => $gJKGr, "\x6f\x6c\x64\137\166\x61\x6c\x75\x65" => $JhEQW, "\x6e\145\167\x5f\x76\141\x6c\165\x65" => $TdP5u, "\x75\160\x64\x61\164\145\144\137\142\x79" => $kItnx, "\165\x73\145\162\x5f\x69\x64" => $k26uY, "\164\171\160\145" => 0, "\x6c\157\147" => "\103\141\x6d\x70\x6f\x20\x27{$gJKGr}\47\x20\x61\x6c\x74\145\x72\141\x64\157\x20\x64\145\x20\x27{$JhEQW}\x27\40\160\141\162\141\40\47{$TdP5u}\47"]); }; goto zZJSJ; ddWeE: $pZzRK("\102\x61\154\141\156\303\247\x6f", number_format($L0gTl, 2, "\x2c", "\x2e"), number_format($jQRNq, 2, "\54", "\56"), $CnOSu->id); goto kWBE1; IqCHj: Mq3DS: goto nesFQ; TRqrL: if (!(isset($WFz1w->TRkWM) && $WFz1w->TRkWM != $CnOSu->h8Xv0)) { goto V_UOo; } goto XKc6n; kvqS3: if (!(isset($WFz1w->Y3L2l) && $WFz1w->Y3L2l != $CnOSu->zeABj->p4EKg)) { goto HdhDx; } goto hsSeb; Iiaxz: $CnOSu->zeABj->g0xuw = $WFz1w->Y2N56; goto tAS24; qtp5T: $pZzRK("\123\x74\x61\164\165\x73\40\x64\x65\x20\x42\x6c\157\x71\x75\x65\x69\157", $JhEQW, $TdP5u, $CnOSu->id); goto mnzBO; U0DsS: $nrSuW[] = "\123\145\x6e\150\x61"; goto x1GNK; TE23n: BlNYC: goto l76Ge; dfvAC: CmjN1: goto AubcN; UNxAV: $Gv3GT = true; goto vxd28; OjA70: $TdP5u = $WFz1w->SXaBD ? "\x53\x69\x6d" : "\x4e\303\xa3\x6f"; goto cRPr1; IZGid: if (!(isset($WFz1w->MQHXB) && $CnOSu->zeABj->p4EKg != $WFz1w->MQHXB)) { goto fTZnv; } goto gnQeT; uwZYN: fBaj8: goto x3Ibh; mMRJu: $this->O1xn1(); goto I4nw0; KdHuJ: } public function xMPWU(S9d5T $WFz1w) { goto oN4Wf; U7anK: SHSrD: goto YZFVV; YZFVV: $Dbxml = AVSuj::C_mhy("\151\144", $WFz1w->wxCHa)->yRKr9(); goto dSW6d; qGg4G: $Pa49q = AVsUJ::c_MHy("\151\x64", $WFz1w->wxCHa)->delete(); goto J3y28; Sfe5z: return jgKRL()->SBE1q(["\163\x74\141\164\x75\x73" => false, "\x6d\x65\x73\163\141\147\145" => "\125\163\165\303\xa1\162\151\157\x20\x6e\xc3\xa3\x6f\x20\x65\x6e\143\157\156\164\162\141\x64\157\41"]); goto fov4W; J3y28: $fCMWU = DIEqd::c_mhy("\x75\163\x65\162\x5f\151\144", $WFz1w->wxCHa)->delete(); goto srKKU; ojnSz: return jgkRL()->SBe1Q(["\163\164\141\x74\165\x73" => true, "\155\x65\163\163\141\147\145" => "\x55\x73\x75\303\241\162\x69\157\x20\x72\145\155\157\x76\x69\x64\157\40\143\x6f\155\40\x73\165\143\145\x73\x73\157\41"]); goto GI4pg; e2Lsu: rPE1U::create(["\x66\151\145\154\144\137\x6e\141\155\145" => "\x52\145\155\x6f\303\247\303\xa3\x6f\40\144\145\x20\125\x73\x75\xc3\xa1\x72\x69\x6f", "\x6f\154\144\x5f\166\141\154\165\x65" => $Dbxml->name . "\40\50\111\104\x3a\x20" . $Dbxml->id . "\x29", "\x6e\x65\x77\137\x76\141\154\x75\145" => "\x55\163\x75\xc3\xa1\x72\151\157\40\x72\x65\155\157\x76\151\144\157", "\x75\160\144\x61\x74\145\x64\137\x62\171" => nxroV()->ptuEj(), "\165\163\x65\x72\x5f\x69\144" => $Dbxml->id, "\x74\x79\x70\x65" => 0, "\154\157\x67" => "\x55\x73\x75\303\241\x72\151\x6f\40\x27{$Dbxml->name}\47\x20\50\111\x44\72\40{$Dbxml->id}\x29\40\146\157\151\x20\x72\x65\x6d\x6f\x76\151\144\157\40\x70\145\162\155\x61\x6e\x65\x6e\164\145\x6d\x65\x6e\164\x65\x20\144\157\x20\163\x69\163\x74\145\155\x61"]); goto qGg4G; srKKU: $MxeeB = c40Q0::c_MHy("\x75\x73\x65\x72\137\x69\144", $WFz1w->wxCHa)->delete(); goto kYmql; j3esW: $Dr42i = KRE2U::C_Mhy("\165\163\145\162\137\x69\x64", $WFz1w->wxCHa)->delete(); goto ojnSz; pftMK: if (!($WFz1w->wxCHa == 1)) { goto SHSrD; } goto NOehA; dSW6d: if ($Dbxml) { goto O5TGm; } goto Sfe5z; Kvi6c: $ItBHT = UMYA4::C_MHY("\165\163\145\162\137\x69\x64", $WFz1w->wxCHa)->delete(); goto j3esW; oN4Wf: $this->o1XN1(); goto pftMK; kYmql: $aVdnB = jA5M5::c_MHY("\x75\163\145\162\137\x69\144", $WFz1w->wxCHa)->delete(); goto Kvi6c; fov4W: O5TGm: goto e2Lsu; NOehA: return jGkrl()->Sbe1Q(["\163\x74\141\164\165\x73" => false, "\155\145\x73\x73\141\147\x65" => "\101\x6c\x74\145\x72\x61\xc3\247\xc3\243\157\x20\144\x65\163\x61\164\x69\x76\141\x64\x61\40\160\x61\x72\141\40\145\163\x73\x65\40\165\163\x75\303\241\162\151\x6f\x21"]); goto U7anK; GI4pg: } public function uVf9J(s9d5T $WFz1w) { goto IcRY9; Q0MaH: $Dbxml->C_KaU = 0; goto Rw_bY; UwhGG: $Dbxml->save(); goto Y6FXs; Y6FXs: return JgKrL()->sbE1q(["\x73\164\141\x74\165\163" => true, "\155\145\163\x73\141\x67\145" => "\125\x73\x75\xc3\241\x72\x69\x6f\x20\x64\145\x73\142\154\157\x71\165\145\141\x64\157\40\x63\x6f\155\40\163\x75\143\x65\x73\163\x6f\x21"]); goto kWF0O; mNDGN: VRPC_: goto Q0MaH; hOr1R: nyDIU: goto PH3q4; IcRY9: $this->o1XN1(); goto eyS4g; PH3q4: if (!($Dbxml->C_KaU == 1)) { goto VRPC_; } goto tiO6s; eyS4g: $Dbxml = AVSuj::C_Mhy("\151\x64", $WFz1w->wxCHa)->yrkr9(); goto bX3zB; bX3zB: if ($Dbxml) { goto nyDIU; } goto LUZo2; Rw_bY: $Dbxml->mQOxh = ''; goto UwhGG; LUZo2: return JgkRL()->sbe1Q(["\163\x74\141\164\x75\163" => false, "\155\145\x73\163\x61\147\145" => "\x55\163\x75\303\241\x72\x69\x6f\x20\156\303\243\x6f\x20\145\156\x63\x6f\x6e\x74\162\x61\144\x6f\41"]); goto hOr1R; tiO6s: rPe1U::create(["\x66\x69\x65\154\144\137\x6e\x61\155\x65" => "\104\x65\163\x62\154\157\x71\165\x65\151\x6f\40\144\x65\40\x55\163\165\303\241\x72\x69\x6f", "\157\x6c\144\x5f\x76\141\x6c\x75\x65" => "\x42\154\x6f\x71\165\x65\141\x64\157" . ($Dbxml->mQOxh ? "\x20\x28\x4d\x6f\x74\151\x76\x6f\x3a\x20{$Dbxml->mQOxh}\51" : ''), "\x6e\x65\x77\x5f\166\141\154\165\x65" => "\104\145\163\142\154\157\161\165\x65\x61\144\157", "\165\160\x64\141\164\145\x64\137\142\171" => nxRov()->pTuEj(), "\165\x73\145\x72\x5f\151\144" => $Dbxml->id, "\164\171\160\x65" => 0, "\x6c\157\x67" => "\125\x73\165\303\241\162\x69\157\x20\x27{$Dbxml->name}\x27\40\146\x6f\151\40\144\x65\163\142\154\x6f\x71\165\x65\x61\144\157"]); goto mNDGN; kWF0O: } public function x1qlG(S9D5t $WFz1w, $nlzPa = null) { goto N65yZ; N65yZ: if (!(!nXroV()->C_4hv() || Nxrov()->YFGI_()->opaCn != 1)) { goto iIYv7; } goto o9G8P; laniw: $LmFAt = Avsuj::UgyZw($nlzPa); goto ac20u; ac20u: return lo0cY("\x61\144\x6d\x69\x6e\x2e\x6d\157\144\141\x6c\x2e\x61\147\145\x6e\164\137\x64\145\x74\141\151\154", compact("\141\x67\145\156\x74")); goto SMpwt; o9G8P: return Fh6X5()->WWy32("\141\144\155\151\x6e\56\154\157\x67\151\156"); goto Bghgj; Bghgj: iIYv7: goto laniw; SMpwt: } public function UwoQ_() { goto eq5zh; n0bkv: return lo0cY("\141\x64\155\151\x6e\x2e\x70\145\x72\163\x6f\x6e\x61\154\x69\x7a\x61\x63\x61\x6f\x2e\162\x6f\x75\154\145\x74\164\145", compact("\162\x6f\x75\154\145\164\x74\x65\111\164\145\x6d\x73", "\150\157\x6d\x65\x53\145\x63\164\151\x6f\x6e\163")); goto biCDI; Rm2D2: $NWgIS = Pdk_2::OL3x2(); goto n0bkv; eq5zh: $h6YeW = FRjAE::a9jmh("\160\x72\157\x62\141\x62\151\154\151\164\171", "\x64\145\163\x63")->get(); goto Rm2D2; biCDI: } public function gvXIS(s9D5t $WFz1w) { try { goto twzz9; x3tgh: $NWgIS->QBVHR = $wor1r; goto FYQ_V; twzz9: $wor1r = $WFz1w->Pc2Lr("\163\150\157\x77\x5f\162\157\x75\154\145\x74\164\145"); goto X0_H7; Rq0Gk: return jGKRl()->Sbe1Q(["\x73\x75\x63\x63\x65\x73\163" => true, "\x6d\x65\x73\x73\141\147\x65" => "\x43\x6f\x6e\x66\x69\147\x75\162\141\xc3\247\303\265\x65\x73\x20\144\141\40\x72\x6f\154\145\164\141\40\141\164\165\x61\x6c\151\x7a\x61\144\x61\x73\x20\143\x6f\x6d\40\x73\165\143\145\x73\x73\x6f\41", "\x73\x68\157\x77\x5f\x72\x6f\x75\154\145\164\164\x65" => $NWgIS->QBVHR]); goto zb0kV; FYQ_V: $NWgIS->save(); goto Rq0Gk; X0_H7: $NWgIS = pdK_2::oL3x2(); goto x3tgh; zb0kV: } catch (\Exception $ai57B) { return JgKrl()->sbE1q(["\163\165\x63\143\145\163\x73" => false, "\155\x65\163\163\141\147\145" => "\x45\162\162\157\x20\x61\x6f\40\x61\164\x75\x61\x6c\151\x7a\x61\162\40\143\x6f\156\146\x69\147\x75\x72\x61\303\xa7\303\265\145\163\x20\x64\141\x20\162\x6f\x6c\x65\164\141\x3a\40" . $ai57B->getMessage()], 500); } } public function JXkRU(s9d5t $WFz1w) { try { goto zNVkX; v1pb1: return jgkrL()->SBe1q(["\x73\x75\x63\143\x65\x73\163" => true, "\x6d\145\163\163\141\x67\x65" => "\111\x74\145\155\40\x64\x61\40\162\x6f\154\x65\164\x61\x20\141\164\x75\141\x6c\x69\x7a\141\144\157\x20\x63\x6f\x6d\40\163\165\x63\145\163\x73\157\x21"]); goto GMUdx; ern3S: $WT0D7->update(["\156\141\x6d\145" => $WFz1w->name, "\146\x72\145\145\137\x73\x70\x69\x6e\x73" => $WFz1w->vqBxI, "\x67\x61\x6d\x65\x5f\156\x61\155\x65" => $WFz1w->T9pPG, "\143\x6f\x6c\x6f\x72\x5f\143\157\144\145" => $WFz1w->rJNHN, "\143\x6f\x75\x70\157\156\x5f\x63\x6f\x64\145" => $WFz1w->o1RBP, "\160\162\157\142\x61\x62\x69\x6c\x69\164\171" => $WFz1w->j_q3K, "\144\145\x70\x6f\163\151\x74\x5f\166\141\x6c\165\145" => $WFz1w->cZpky, "\x73\x68\x6f\167\137\155\x6f\x64\141\x6c" => $WFz1w->hklBP("\x73\150\x6f\x77\x5f\155\x6f\x64\141\x6c"), "\151\163\137\x61\x63\x74\x69\x76\145" => $WFz1w->hklbP("\x69\x73\x5f\141\x63\x74\151\166\x65")]); goto v1pb1; pHKbI: $WT0D7 = FRJAE::uGYzw($WFz1w->id); goto ern3S; zNVkX: $WFz1w->validate(["\x69\144" => "\x72\x65\x71\x75\x69\x72\x65\144\174\151\156\x74\145\147\x65\x72\174\x65\170\x69\x73\x74\x73\x3a\162\x6f\165\x6c\x65\x74\164\x65\x5f\151\x74\145\155\x73\x2c\x69\x64", "\156\141\155\x65" => "\162\145\x71\x75\151\162\145\x64\174\x73\164\x72\151\156\x67\x7c\155\x61\x78\72\x32\x35\x35", "\146\x72\145\145\137\x73\160\x69\x6e\x73" => "\x72\145\161\165\151\162\145\144\174\151\156\164\x65\x67\145\162\x7c\155\x69\x6e\x3a\60", "\147\141\x6d\x65\137\x6e\x61\x6d\x65" => "\156\x75\154\x6c\x61\x62\154\145\x7c\x73\x74\162\x69\156\x67\x7c\155\x61\x78\72\x32\65\x35", "\x63\157\x6c\x6f\162\137\x63\157\x64\145" => "\x72\145\161\x75\x69\162\145\144\x7c\x73\164\162\x69\156\147\174\155\141\x78\x3a\67", "\143\157\165\160\157\156\x5f\x63\x6f\144\x65" => "\x6e\165\x6c\154\x61\x62\x6c\145\x7c\163\x74\x72\151\156\x67\174\x6d\x61\170\x3a\x35\x30", "\160\x72\157\142\141\142\x69\x6c\151\164\x79" => "\162\x65\x71\x75\x69\x72\145\x64\x7c\x6e\x75\x6d\145\162\151\x63\174\155\151\x6e\72\x30\174\x6d\141\x78\x3a\x31", "\x64\145\160\x6f\x73\151\x74\x5f\166\x61\x6c\x75\145" => "\162\145\x71\x75\151\162\145\x64\174\156\165\x6d\x65\x72\151\143\174\155\x69\156\x3a\x30", "\x73\150\157\x77\137\x6d\157\144\141\154" => "\x62\x6f\x6f\154\145\141\x6e", "\x69\163\137\x61\143\164\151\166\145" => "\x62\x6f\x6f\x6c\145\x61\156"]); goto pHKbI; GMUdx: } catch (\Exception $ai57B) { return jGKRl()->SbE1Q(["\163\x75\x63\143\x65\x73\x73" => false, "\x6d\x65\163\x73\x61\147\145" => "\105\162\x72\157\40\141\x6f\x20\141\164\x75\x61\x6c\x69\x7a\141\x72\x20\151\x74\145\x6d\x20\144\x61\40\162\157\154\145\164\x61\72\x20" . $ai57B->getMessage()], 500); } } public function rks8w(s9D5T $WFz1w) { try { goto cHsTh; yvLEx: fRjaE::create(["\x6e\141\155\x65" => $WFz1w->name, "\146\x72\x65\x65\137\163\160\151\156\163" => $WFz1w->vqBxI, "\x67\141\x6d\x65\x5f\156\141\x6d\x65" => $WFz1w->T9pPG, "\x63\x6f\x6c\157\x72\137\x63\x6f\x64\145" => $WFz1w->rJNHN, "\x63\x6f\165\x70\x6f\x6e\137\x63\x6f\144\x65" => $WFz1w->o1RBP, "\160\162\157\x62\141\x62\151\154\x69\164\171" => $WFz1w->j_q3K, "\x64\145\160\157\163\x69\x74\x5f\166\141\x6c\165\145" => $WFz1w->cZpky, "\163\150\157\167\x5f\155\x6f\144\141\x6c" => $WFz1w->hklbp("\x73\150\157\167\137\x6d\x6f\144\x61\x6c"), "\151\x73\137\141\x63\164\x69\x76\x65" => $WFz1w->HklbP("\151\x73\x5f\141\143\164\151\166\145")]); goto uyosx; uyosx: return JGKrl()->sbE1q(["\x73\x75\x63\x63\145\x73\x73" => true, "\155\145\163\163\141\x67\145" => "\x49\x74\x65\155\x20\144\x61\x20\x72\157\x6c\x65\x74\x61\x20\x63\x72\151\141\144\157\x20\x63\157\x6d\x20\163\x75\143\145\163\163\x6f\x21"]); goto sUvlf; cHsTh: $WFz1w->validate(["\x6e\x61\x6d\x65" => "\x72\x65\161\165\x69\x72\145\x64\174\x73\x74\x72\151\x6e\x67\174\x6d\141\x78\72\x32\x35\65", "\146\x72\x65\x65\x5f\x73\x70\x69\156\x73" => "\x72\x65\161\165\x69\x72\x65\x64\174\151\156\x74\145\147\145\x72\174\155\151\156\72\x30", "\x67\x61\x6d\x65\x5f\x6e\141\x6d\x65" => "\x6e\165\x6c\x6c\x61\x62\x6c\145\174\163\164\162\x69\156\x67\x7c\155\x61\170\72\x32\65\65", "\x63\157\x6c\x6f\162\137\143\x6f\x64\x65" => "\162\145\161\165\151\162\x65\144\x7c\x73\164\162\x69\156\x67\174\x6d\x61\170\72\x37", "\x63\157\165\x70\157\156\x5f\143\x6f\x64\145" => "\156\x75\x6c\x6c\141\x62\154\x65\x7c\163\x74\162\151\156\x67\174\155\141\x78\72\x35\60", "\160\162\157\142\141\x62\x69\x6c\x69\164\171" => "\162\145\161\165\151\x72\x65\x64\x7c\156\x75\155\x65\162\x69\143\174\155\151\156\72\60\x7c\x6d\141\170\72\x31", "\144\x65\160\x6f\x73\x69\x74\x5f\x76\x61\x6c\x75\x65" => "\162\x65\161\x75\151\162\145\144\174\x6e\165\155\145\x72\x69\143\174\155\151\156\72\x30", "\163\150\157\167\x5f\x6d\157\x64\141\x6c" => "\x62\157\x6f\x6c\145\x61\x6e", "\x69\163\x5f\x61\143\164\151\x76\145" => "\x62\x6f\157\x6c\145\141\x6e"]); goto yvLEx; sUvlf: } catch (\Exception $ai57B) { return jGkRL()->Sbe1Q(["\163\165\x63\143\x65\163\163" => false, "\155\x65\x73\163\x61\147\x65" => "\105\x72\162\157\40\141\157\40\143\162\x69\x61\x72\40\151\x74\145\155\x20\x64\x61\x20\x72\157\154\145\x74\x61\72\x20" . $ai57B->getMessage()], 500); } } public function us331(s9D5T $WFz1w) { try { goto FOxXF; ECDhY: return JGKrL()->SBe1q(["\163\x75\x63\143\x65\x73\x73" => true, "\x6d\x65\163\x73\x61\147\145" => "\111\x74\x65\155\x20\x64\x61\x20\162\157\x6c\x65\x74\x61\40\144\145\154\x65\x74\x61\144\x6f\x20\x63\157\x6d\x20\x73\x75\143\145\163\x73\x6f\x21"]); goto GxP2o; aN8FU: $WT0D7 = FrjaE::uGyZw($WFz1w->id); goto lPouB; lPouB: $WT0D7->delete(); goto ECDhY; FOxXF: $WFz1w->validate(["\x69\144" => "\x72\x65\161\x75\x69\x72\145\144\174\151\x6e\164\x65\x67\x65\x72\174\x65\x78\x69\x73\164\x73\x3a\x72\157\x75\154\145\164\x74\145\137\151\164\x65\155\163\x2c\x69\x64"]); goto aN8FU; GxP2o: } catch (\Exception $ai57B) { return JgKRL()->SBE1q(["\x73\165\x63\143\145\163\x73" => false, "\x6d\x65\x73\163\x61\147\145" => "\105\x72\x72\157\40\x61\157\40\144\x65\154\145\164\141\x72\x20\151\164\x65\155\40\144\x61\x20\162\157\x6c\145\164\141\x3a\40" . $ai57B->getMessage()], 500); } } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Helpers\Core as Helper;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\GameHistory;
+use App\Models\Transactions;
+use App\Models\Affiliates;
+use App\Models\Wallet;
+
+use App\Models\Admin\Permissions;
+use App\Models\Admin\Logs;
+use Carbon\Carbon;
+
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\ValidationException;
+use Illuminate\Support\Facades\Hash;
+
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
+
+use App\Models\Settings;
+use Illuminate\Support\Facades\Storage;
+use Firebase\JWT\JWT;
+use Firebase\JWT\Key;
+
+use Illuminate\Support\Facades\DB;
+use App\Models\RouletteItem;
+use App\Models\HomeSectionsSettings;
+
+class AdminController extends Controller
+{
+    public function __construct()
+    {
+    }
+
+    public function SearchAgent(Request $request)
+    {
+        $UserLogado = auth()->user();
+        $this->CheckAdm();
+
+        $name = $request->query('name');
+
+        if (!$name) {
+            return response()->json(['status' => false, 'message' => 'Preencha o nome e tente novamente!'], 400);
+        }
+
+        if ($UserLogado->is_admin > 1) {
+            $users = User::where('name', 'like', '%' . $name . '%')->where('inviter', $UserLogado->id)->get();
+        }else{
+            $users = User::where('name', 'like', '%' . $name . '%')->get();
+        }
+
+        return response()->json($users);
+    }
+
+    public function setPermissions(Request $request)
+    {
+        $this->CheckAdm();
+
+        $chave = $request->input('chave');
+        $User = Permissions::where('user_id', $request->input('id'))->first();
+
+        if ($User){
+            $PermissoesData = json_decode($User->permission, true);
+
+            $PermissoesData[$chave] = $PermissoesData[$chave] == 1 ? 0 : 1;
+
+            $User->permission = json_encode($PermissoesData);
+            $User->save();
+
+            return response()->json(["status" => true, "message" => "Permissão atualizada com sucesso!"]);
+        }else{
+            return response()->json(["status" => false, "message" => "Usuário não encontrado!"]);
+        }
+    }
+
+    public function Mensalidade(Request $request)
+    {
+        if (isset($request->dominio)){
+            $Client = Clients::Where('dominio', $request->dominio)->first();
+
+            if ($Client){
+                $pubkey = 'PUB-MVPBCGPCU4-B1JKZKSGY8-PZYP';
+                $seckey = 'SEC-0QU5QKURE8-QUYGONGENT-CLM5';
+
+                $response = Http::withHeaders([
+                    'Accept' => 'application/json',
+                    'Content-Type' => 'application/json',
+                    'pubkey' => $pubkey,
+                    'seckey' => $seckey,
+                ])->post('https://api.edpay.me/authorization', []);
+
+                if ($response->successful()) {
+                    $data = $response->json();
+                    $token = $data['token'];
+
+                    $response = Http::withHeaders([
+                        'Authorization' => 'Bearer ' . $token,
+                        'Accept' => 'application/json',
+                        'Content-Type' => 'application/json',
+                    ])->post("https://api.edpay.me/qrcode", [
+                        'amount' => $Client->valor,
+                        'description' => "Mensalidade (".$request->dominio.")",
+                        'callback' => "https://" . $request->dominio . "/wh-pay-r9t4k2",
+                    ]);
+
+                    if ($response->successful()) {
+                        $data = $response->json();
+
+                        $params = [
+                            "partner_id" => 0,
+                            "amount" => $Client->valor,
+                            "type" => 0,
+                            "gateway" => 'EdPay',
+                            "token" => $data['id'],
+                            "status" => 0,
+                            "chave_pix" => "",
+                        ];
+
+                        if($NTransaction = Transactions::create($params))
+                        {
+                            $data = [
+                                'status' => true,
+                                'qrcode' => $data['qrcode'],
+                                'copiacola' => $data['copiacola'],
+                            ];
+
+                            return response()->json($data);
+                        }
+                        else
+                        {
+                            return response()->json(["status" => false, "message" => "Ocorreu um erro, tente novamente em alguns instantes."]);
+                        }
+                    } else {
+                        $data = $response->json();
+                        echo '1 > ' . json_encode($data, JSON_PRETTY_PRINT);
+                    }
+                }else{
+                    $data = $response->json();
+                    echo '2 > ' . json_encode($data, JSON_PRETTY_PRINT);
+
+                }
+            }else{
+                return response()->json(['status' => false], 200);
+            }
+        }else{
+            return response()->json(['status' => false], 200);
+        }
+    }
+
+    public function GenerateToken($IdUser = null)
+    {
+        $UserLogado = auth()->user();
+
+        if (!$UserLogado) {
+            return "-";
+        }else{
+            $IdUser = $UserLogado->id;
+        }
+
+        $token  = "";
+        $User   = User::where('id', $IdUser)->first();
+
+        if ($User){
+            $privateKeyPath = Storage::path('private.pem');
+            $Settings       = Helper::getSetting();
+            $partnerName    = $Settings->sportpartnername;
+
+            if (!file_exists($privateKeyPath)) {
+                return "-";
+            }
+
+            $privateKey = file_get_contents($privateKeyPath);
+
+            $payload = [
+                'id' => $IdUser,
+                'currency' => "BRL"
+            ];
+
+            try {
+                $token = JWT::encode($payload, $privateKey, 'RS512');
+            } catch (\Exception $e) {
+                return "-";
+            }
+
+            $response = Http::withHeaders([
+                'x-partner-authorization' => $token,
+                'x-partner-name' => $partnerName,
+            ])->get('https://partner.digitain.bswbet.org/api/front/token');
+
+            if ($response->successful()) {
+                \App\Models\DebugLogs::Create(['text' => "Token BSW: " . json_encode($response->json())]);
+
+                $data = $response->json();
+                return $data['result']['token'] ?? "";
+            } else {
+                \App\Models\DebugLogs::Create(['text' => "Token BSW Failed: " . json_encode($response->json())]);
+
+                return "-";
+            }
+        }else{
+            \App\Models\DebugLogs::Create(['text' => "Token BSW Failed: No user found"]);
+
+            return "-";
+        }
+    }
+
+    public function CheckAdm()
+    {
+        if (auth()->check())
+        {
+            $user = auth()->user();
+
+            $isadmin = User::where('id', $user->id)->where('is_admin', '>=', 1)->first();
+
+            if (!$isadmin)
+            {
+                abort(response()->json(["status" => false, "message" => "Você não tem acesso a essa página!"]));
+            }
+        }
+        else
+        {
+            abort(response()->json(["status" => false, "message" => "Sua sessão expirou. Por favor, faça login novamente."]));
+        }
+
+        return false;
+    }
+
+    public function AttSportsSettings(Request $request, $Qual)
+    {
+        $this->CheckAdm();
+
+        $Settings = Settings::first();
+
+        if ($Qual == 0) {
+            $Settings->enable_sports = ($request->valor === "true") ? 1 : 0;
+        }else{
+            $Settings->enable_sports_bonus = ($request->valor === "true") ? 1 : 0;
+        }
+
+        $Settings->save();
+
+        return response()->json(['status' => true, 'message' => "Atualizado com sucesso!"]);
+    }
+
+    public function LoadAgent($id, Request $request)
+    {
+        $this->CheckAdm();
+
+        $User = User::where('id', $id)->first();
+        $UsersTable = User::orderBy('id', 'desc')->get();
+
+        return view('admin.includes.usuarios', ['page' => 'load_agent', 'subpage' => $request->input('subpage'), 'Agent' => $User, 'UsersTable' => $UsersTable]);
+    }
+
+    public function AttAgente(Request $request)
+    {
+        $this->CheckAdm();
+
+        $rules = [
+            'cid' => 'required',
+        ];
+
+        $validator = Validator::make($request->all(), $rules);
+
+        if ($validator->fails()) {
+            return response()->json(["status" => false, "message" => "ID do usuário é obrigatório!"]);
+        }
+
+        $registro = User::findOrFail($request->cid);
+
+        // Verificar se os dados originais coincidem com os dados atuais do banco
+        $originalDataMismatch = false;
+        $mismatchFields = [];
+
+        // Verificar dados do usuário
+        if (isset($request->original_name) && $request->original_name != $registro->name) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Nome';
+        }
+
+        if (isset($request->original_email) && $request->original_email != $registro->email) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'E-mail';
+        }
+
+        if (isset($request->original_phone) && $request->original_phone != $registro->phone) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Telefone';
+        }
+
+        if (isset($request->original_pix) && $request->original_pix != $registro->pix) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'PIX';
+        }
+
+        if (isset($request->original_is_demo) && $request->original_is_demo != $registro->is_demo_agent) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Demo';
+        }
+
+        if (isset($request->original_banned) && $request->original_banned != $registro->banned) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Status de Bloqueio';
+        }
+
+        if (isset($request->original_inviter) && $request->original_inviter != $registro->inviter) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Indicação';
+        }
+
+        if (isset($request->original_is_admin) && $request->original_is_admin != $registro->is_admin) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Nível de Acesso';
+        }
+
+        if (isset($request->original_is_affiliate) && $request->original_is_affiliate != $registro->is_affiliate) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Status de Afiliado';
+        }
+
+        // Verificar dados da carteira
+        if (isset($request->original_balance) && $request->original_balance != $registro->Wallet->balance) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Balanço';
+        }
+
+        if (isset($request->original_balance_bonus) && $request->original_balance_bonus != $registro->Wallet->balance_bonus) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Balanço Bônus';
+        }
+
+        if (isset($request->original_free_spins) && $request->original_free_spins != $registro->Wallet->free_spins) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Rodadas Grátis';
+        }
+
+        if (isset($request->original_coin) && $request->original_coin != $registro->Wallet->coin) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Moedas (Coin)';
+        }
+
+        if (isset($request->original_refer_percent) && $request->original_refer_percent != $registro->Wallet->referPercent) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Percentual de Referidos';
+        }
+
+        if (isset($request->original_refer_rewards) && $request->original_refer_rewards != $registro->Wallet->refer_rewards) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Balanço de Referidos';
+        }
+
+        //
+
+        if (isset($request->original_balance_bonus_rollover) && $request->original_balance_bonus_rollover != $registro->Wallet->balance_bonus_rollover) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Rollover de Bônus';
+        }
+        if (isset($request->original_balance_bonus_rollover_used) && $request->original_balance_bonus_rollover_used != $registro->Wallet->balance_bonus_rollover_used) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Rollover de Bônus usado';
+        }
+        if (isset($request->original_balance_bonus_expire) && $request->original_balance_bonus_expire != $registro->Wallet->balance_bonus_expire) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Expiração de Bônus';
+        }
+        if (isset($request->original_anti_bot) && $request->original_anti_bot != $registro->Wallet->anti_bot) {
+            $originalDataMismatch = true;
+            $mismatchFields[] = 'Anti Bot';
+        }
+
+        //
+
+        // Se houver discrepância nos dados originais, não permitir a atualização
+        if ($originalDataMismatch) {
+            return response()->json([
+                "status" => false,
+                "message" => "Os dados foram alterados por outro usuário desde que você carregou a página. Campos modificados: " . implode(', ', $mismatchFields) . ". Por favor, recarregue a página e tente novamente.",
+                "mismatch_fields" => $mismatchFields
+            ]);
+        }
+
+        $modifiedFields = [];
+        $editorUserId = auth()->id();
+
+        // Função helper para registrar logs de edição
+        $logEdit = function($fieldName, $oldValue, $newValue, $userId) use ($editorUserId) {
+            \App\Models\Admin\Logs::create([
+                'field_name' => $fieldName,
+                'old_value' => $oldValue,
+                'new_value' => $newValue,
+                'updated_by' => $editorUserId,
+                'user_id' => $userId,
+                'type' => 0, // Tipo 0 para edições
+                'log' => "Campo '{$fieldName}' alterado de '{$oldValue}' para '{$newValue}'"
+            ]);
+        };
+
+        // Compare and update only if values are different
+        if (isset($request->cdemo) && $registro->is_demo_agent != $request->cdemo) {
+            $oldValue = $registro->is_demo_agent ? 'Sim' : 'Não';
+            $newValue = $request->cdemo ? 'Sim' : 'Não';
+            $logEdit('Usuário Demo', $oldValue, $newValue, $registro->id);
+
+            $registro->is_demo_agent = $request->cdemo;
+            $modifiedFields[] = 'Demo';
+        }
+
+        if (isset($request->cname) && $registro->name != $request->cname) {
+            $logEdit('Nome', $registro->name, $request->cname, $registro->id);
+
+            $registro->name = $request->cname;
+            $modifiedFields[] = 'Nome';
+        }
+
+        if (isset($request->cemail) && $registro->email != $request->cemail) {
+            $logEdit('E-mail', $registro->email, $request->cemail, $registro->id);
+
+            $registro->email = $request->cemail;
+            $modifiedFields[] = 'E-mail';
+        }
+
+        if (isset($request->ctelefone) && $registro->phone != $request->ctelefone) {
+            $logEdit('Telefone', $registro->phone ?? 'Não informado', $request->ctelefone, $registro->id);
+
+            $registro->phone = $request->ctelefone;
+            $modifiedFields[] = 'Telefone';
+        }
+
+        if (isset($request->cpix) && $registro->pix != $request->cpix) {
+            $logEdit('Chave PIX', $registro->pix ?? 'Não informado', $request->cpix, $registro->id);
+
+            $registro->pix = $request->cpix;
+            $modifiedFields[] = 'PIX';
+        }
+
+        // Update password if provided
+        if (isset($request->csenha) && !empty($request->csenha)) {
+            $logEdit('Senha', 'Senha anterior', 'Nova senha definida', $registro->id);
+
+            $registro->password = Hash::make($request->csenha);
+            $modifiedFields[] = 'Senha';
+        }
+
+        if (isset($request->cbanido) && $registro->banned != $request->cbanido) {
+            $oldValue = $registro->banned ? 'Bloqueado' : 'Ativo';
+            $newValue = $request->cbanido ? 'Bloqueado' : 'Ativo';
+            $logEdit('Status de Bloqueio', $oldValue, $newValue, $registro->id);
+
+            $registro->banned = $request->cbanido;
+            $modifiedFields[] = 'Status de Bloqueio';
+
+            if ($request->cbanido == 1 && isset($request->cmotivo)){
+                $logEdit('Motivo do Bloqueio', $registro->banned_reason ?? 'Não informado', $request->cmotivo, $registro->id);
+
+                $registro->banned_reason = $request->cmotivo;
+                $registro->banned_date = Carbon::now()->format('Y-m-d H:i:s');
+            } else if ($request->cbanido == 0) {
+                if (!empty($registro->banned_reason)) {
+                    $logEdit('Motivo do Bloqueio', $registro->banned_reason, 'Removido (usuário desbloqueado)', $registro->id);
+                }
+                $registro->banned_reason = "";
+            }
+        }
+
+        if (isset($request->cindica) && $registro->inviter != $request->cindica) {
+            $oldInviter = $registro->inviter ? User::find($registro->inviter)?->name ?? "ID: {$registro->inviter}" : 'Nenhum';
+            $newInviter = $request->cindica != -1 ? User::find($request->cindica)?->name ?? "ID: {$request->cindica}" : 'Nenhum';
+            $logEdit('Indicação', $oldInviter, $newInviter, $registro->id);
+
+            $registro->inviter = $request->cindica == -1 ? null : $request->cindica;
+            $modifiedFields[] = 'Indicação';
+        }
+
+        if (isset($request->cadm) && $registro->is_admin != $request->cadm) {
+            $adminLevels = [
+                0 => 'Usuário Comum',
+                1 => 'Administrador',
+                2 => 'Supervisor',
+                3 => 'Afiliado'
+            ];
+
+            $oldValue = $adminLevels[$registro->is_admin] ?? "Nível {$registro->is_admin}";
+            $newValue = $adminLevels[$request->cadm] ?? "Nível {$request->cadm}";
+            $logEdit('Nível de Acesso', $oldValue, $newValue, $registro->id);
+
+            $registro->is_admin = $request->cadm;
+            $modifiedFields[] = 'Nível de Acesso';
+
+            if ($request->cadm >= 1){
+                $HavePermission = Permissions::where('user_id', $request->cid)->first();
+
+                if (!$HavePermission) {
+                    Permissions::create([
+                        'user_id' => $request->cid,
+                        'permission' => '{
+                                            "1": 0,
+                                            "2": 0,
+                                            "3": 0,
+                                            "4": 0,
+                                            "5": 0,
+                                            "6": 0,
+                                            "7": 0,
+                                            "8": 0,
+                                            "9": 0,
+                                            "10": 0
+                                        }'
+                    ]);
+                }
+            }
+        }
+
+        if (isset($request->caffiliate) && $registro->is_affiliate != $request->caffiliate) {
+            $oldValue = $registro->is_affiliate ? 'Sim' : 'Não';
+            $newValue = $request->caffiliate ? 'Sim' : 'Não';
+            $logEdit('Status de Afiliado', $oldValue, $newValue, $registro->id);
+
+            $registro->is_affiliate = $request->caffiliate;
+            $modifiedFields[] = 'Status de Afiliado';
+        }
+
+        // Save user changes if any were made
+        if (count($modifiedFields) > 0) {
+            $registro->save();
+        }
+
+        // Handle wallet updates
+        $walletModified = false;
+
+        if (isset($request->coin) && $registro->Wallet->coin != $request->coin) {
+            $logEdit('Moedas (Coin)', $registro->Wallet->coin, $request->coin, $registro->id);
+
+            $registro->Wallet->coin = $request->coin;
+            $modifiedFields[] = 'Moedas (Coin)';
+            $walletModified = true;
+        }
+
+        if (isset($request->free_spins) && $registro->Wallet->free_spins != $request->free_spins) {
+            $logEdit('Rodadas Grátis', $registro->Wallet->free_spins, $request->free_spins, $registro->id);
+
+            $registro->Wallet->free_spins = $request->free_spins;
+            $modifiedFields[] = 'Rodadas Grátis';
+            $walletModified = true;
+        }
+
+        if (isset($request->cbalanco) && $registro->Wallet->balance != $request->cbalanco) {
+            $valorAnterior = $registro->Wallet->balance;
+            $novoValor = $request->cbalanco;
+            $valorAlterado = $novoValor - $valorAnterior;
+
+            // Registrar log de alteração de saldo
+            if ($valorAlterado > 0) {
+                // Adição de saldo
+                \App\Models\Admin\Logs::create([
+                    'field_name' => 'Adição de Saldo',
+                    'old_value' => number_format($valorAnterior, 2, ',', '.'),
+                    'new_value' => number_format($novoValor, 2, ',', '.'),
+                    'updated_by' => $editorUserId,
+                    'user_id' => $registro->id,
+                    'type' => 0,
+                    'log' => "Saldo adicionado: R$ " . number_format($valorAlterado, 2, ',', '.') . " (Saldo anterior: R$ " . number_format($valorAnterior, 2, ',', '.') . " → Novo saldo: R$ " . number_format($novoValor, 2, ',', '.') . ")"
+                ]);
+            } else if ($valorAlterado < 0) {
+                // Remoção de saldo
+                \App\Models\Admin\Logs::create([
+                    'field_name' => 'Remoção de Saldo',
+                    'old_value' => number_format($valorAnterior, 2, ',', '.'),
+                    'new_value' => number_format($novoValor, 2, ',', '.'),
+                    'updated_by' => $editorUserId,
+                    'user_id' => $registro->id,
+                    'type' => 0,
+                    'log' => "Saldo removido: R$ " . number_format(abs($valorAlterado), 2, ',', '.') . " (Saldo anterior: R$ " . number_format($valorAnterior, 2, ',', '.') . " → Novo saldo: R$ " . number_format($novoValor, 2, ',', '.') . ")"
+                ]);
+            } else {
+                // Alteração sem mudança no valor (não deveria acontecer, mas por segurança)
+                $logEdit('Balanço', number_format($valorAnterior, 2, ',', '.'), number_format($novoValor, 2, ',', '.'), $registro->id);
+            }
+
+            $registro->Wallet->balance = $request->cbalanco;
+            $modifiedFields[] = 'Balanço';
+            $walletModified = true;
+        }
+
+        if (isset($request->cbalancob) && $registro->Wallet->balance_bonus != $request->cbalancob) {
+            $logEdit('Balanço Bônus', number_format($registro->Wallet->balance_bonus, 2, ',', '.'), number_format($request->cbalancob, 2, ',', '.'), $registro->id);
+
+            $registro->Wallet->balance_bonus = $request->cbalancob;
+            $modifiedFields[] = 'Balanço Bônus';
+            $walletModified = true;
+        }
+
+        if (isset($request->cref) && $registro->Wallet->referPercent != $request->cref) {
+            $logEdit('Percentual de Referidos', $registro->Wallet->referPercent . '%', $request->cref . '%', $registro->id);
+
+            $registro->Wallet->referPercent = $request->cref;
+            $modifiedFields[] = 'Percentual de Referidos';
+            $walletModified = true;
+        }
+
+        if (isset($request->cbalancor) && $registro->Wallet->refer_rewards != $request->cbalancor) {
+            $logEdit('Balanço de Referidos', number_format($registro->Wallet->refer_rewards, 2, ',', '.'), number_format($request->cbalancor, 2, ',', '.'), $registro->id);
+
+            $registro->Wallet->refer_rewards = $request->cbalancor;
+            $modifiedFields[] = 'Balanço de Referidos';
+            $walletModified = true;
+        }
+
+        //
+        if (isset($request->cbalance_bonus_rollover) && $registro->Wallet->balance_bonus_rollover != $request->cbalance_bonus_rollover) {
+            $logEdit('Rollover de bônus', number_format($registro->Wallet->balance_bonus_rollover, 2, ',', '.'), number_format($request->cbalance_bonus_rollover, 2, ',', '.'), $registro->id);
+
+            $registro->Wallet->balance_bonus_rollover = $request->cbalance_bonus_rollover;
+            $modifiedFields[] = 'Rollover de bônus';
+            $walletModified = true;
+        }
+        if (isset($request->cbalance_bonus_rollover_used) && $registro->Wallet->balance_bonus_rollover_used != $request->cbalance_bonus_rollover_used) {
+            $logEdit('Rollover de bônus usado', number_format($registro->Wallet->balance_bonus_rollover_used, 2, ',', '.'), number_format($request->cbalance_bonus_rollover_used, 2, ',', '.'), $registro->id);
+
+            $registro->Wallet->balance_bonus_rollover_used = $request->cbalance_bonus_rollover_used;
+            $modifiedFields[] = 'Rollover de bônus usado';
+            $walletModified = true;
+        }
+        if (isset($request->cbalance_bonus_expire) && $registro->Wallet->balance_bonus_expire != $request->cbalance_bonus_expire) {
+            $logEdit('Expiração de saldo bônus', $registro->Wallet->balance_bonus_expire, $request->cbalance_bonus_expire, $registro->id);
+
+            $registro->Wallet->balance_bonus_expire = $request->cbalance_bonus_expire;
+            $modifiedFields[] = 'Expiração de saldo bônus';
+            $walletModified = true;
+        }
+        if (isset($request->canti_bot) && $registro->Wallet->anti_bot != $request->canti_bot) {
+            $logEdit('Anti Bot', number_format($registro->Wallet->anti_bot, 2, ',', '.'), number_format($request->canti_bot, 2, ',', '.'), $registro->id);
+
+            $registro->Wallet->anti_bot = $request->canti_bot;
+            $modifiedFields[] = 'Anti Bot';
+            $walletModified = true;
+        }
+        //
+
+        // Save wallet changes if any were made
+        if ($walletModified) {
+            $registro->Wallet->save();
+        }
+
+        $message = count($modifiedFields) > 0
+            ? "Campos atualizados: " . implode(', ', $modifiedFields)
+            : "Nenhuma alteração realizada";
+
+        return response()->json([
+            "status" => true,
+            "message" => $message
+        ]);
+    }
+
+    public function RemoveAgente(Request $request)
+    {
+        $this->CheckAdm();
+
+        if ($request->cid == 1){
+            return response()->json(["status" => false, "message" => "Alteração desativada para esse usuário!"]);
+        }
+
+        $User = User::where('id', $request->cid)->first();
+
+        if (!$User){
+            return response()->json(["status" => false, "message" => "Usuário não encontrado!"]);
+        }
+
+        // Registrar log da remoção do usuário
+        Logs::create([
+            'field_name' => 'Remoção de Usuário',
+            'old_value' => $User->name . ' (ID: ' . $User->id . ')',
+            'new_value' => 'Usuário removido',
+            'updated_by' => auth()->id(),
+            'user_id' => $User->id,
+            'type' => 0,
+            'log' => "Usuário '{$User->name}' (ID: {$User->id}) foi removido permanentemente do sistema"
+        ]);
+
+        $Uregistro = User::where('id', $request->cid)->delete();
+        $Tregistro = Transactions::where('user_id', $request->cid)->delete();
+        $Wregistro = Wallet::where('user_id', $request->cid)->delete();
+        $Aregistro = Affiliates::where('user_id', $request->cid)->delete();
+        $GHregistro = GameHistory::where('user_id', $request->cid)->delete();
+        $Pregistro = Permissions::where('user_id', $request->cid)->delete();
+
+        return response()->json(["status" => true, "message" => "Usuário removido com sucesso!"]);
+    }
+
+    public function UnblockAgente(Request $request)
+    {
+        $this->CheckAdm();
+
+        $User = User::where('id', $request->cid)->first();
+
+        if (!$User) {
+            return response()->json(["status" => false, "message" => "Usuário não encontrado!"]);
+        }
+
+        // Registrar log do desbloqueio
+        if ($User->banned == 1) {
+            Logs::create([
+                'field_name' => 'Desbloqueio de Usuário',
+                'old_value' => 'Bloqueado' . ($User->banned_reason ? " (Motivo: {$User->banned_reason})" : ''),
+                'new_value' => 'Desbloqueado',
+                'updated_by' => auth()->id(),
+                'user_id' => $User->id,
+                'type' => 0,
+                'log' => "Usuário '{$User->name}' foi desbloqueado"
+            ]);
+        }
+
+        $User->banned = 0;
+        $User->banned_reason = "";
+        $User->save();
+
+        return response()->json(["status" => true, "message" => "Usuário desbloqueado com sucesso!"]);
+    }
+
+
+
+    public function modalAgent(Request $request, $id = null)
+    {
+        // Verificar se o usuário está autenticado e é admin
+        if (!auth()->check() || auth()->user()->is_admin != 1) {
+            return redirect()->route('admin.login');
+        }
+
+        $agent = User::findOrFail($id);
+        return view('admin.modal.agent_detail', compact('agent'));
+    }
+
+    /**
+     * Configuração da roleta
+     */
+    public function rouletteConfig()
+    {
+        $rouletteItems = RouletteItem::orderBy('probability', 'desc')->get();
+        $homeSections = HomeSectionsSettings::getSettings();
+
+        return view('admin.personalizacao.roulette', compact('rouletteItems', 'homeSections'));
+    }
+
+    /**
+     * Atualizar configurações da roleta
+     */
+    public function updateRouletteSettings(Request $request)
+    {
+        try {
+            $value = $request->input('show_roulette');
+
+            $homeSections = HomeSectionsSettings::getSettings();
+            $homeSections->show_roulette = $value;
+            $homeSections->save();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Configurações da roleta atualizadas com sucesso!',
+                'show_roulette' => $homeSections->show_roulette
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar configurações da roleta: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Atualizar item da roleta
+     */
+    public function updateRouletteItem(Request $request)
+    {
+        try {
+            $request->validate([
+                'id' => 'required|integer|exists:roulette_items,id',
+                'name' => 'required|string|max:255',
+                'free_spins' => 'required|integer|min:0',
+                'game_name' => 'nullable|string|max:255',
+                'color_code' => 'required|string|max:7',
+                'coupon_code' => 'nullable|string|max:50',
+                'probability' => 'required|numeric|min:0|max:1',
+                'deposit_value' => 'required|numeric|min:0',
+                'show_modal' => 'boolean',
+                'is_active' => 'boolean'
+            ]);
+
+            $item = RouletteItem::findOrFail($request->id);
+
+            $item->update([
+                'name' => $request->name,
+                'free_spins' => $request->free_spins,
+                'game_name' => $request->game_name,
+                'color_code' => $request->color_code,
+                'coupon_code' => $request->coupon_code,
+                'probability' => $request->probability,
+                'deposit_value' => $request->deposit_value,
+                'show_modal' => $request->has('show_modal'),
+                'is_active' => $request->has('is_active')
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Item da roleta atualizado com sucesso!'
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar item da roleta: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Criar novo item da roleta
+     */
+    public function createRouletteItem(Request $request)
+    {
+        try {
+            $request->validate([
+                'name' => 'required|string|max:255',
+                'free_spins' => 'required|integer|min:0',
+                'game_name' => 'nullable|string|max:255',
+                'color_code' => 'required|string|max:7',
+                'coupon_code' => 'nullable|string|max:50',
+                'probability' => 'required|numeric|min:0|max:1',
+                'deposit_value' => 'required|numeric|min:0',
+                'show_modal' => 'boolean',
+                'is_active' => 'boolean'
+            ]);
+
+            RouletteItem::create([
+                'name' => $request->name,
+                'free_spins' => $request->free_spins,
+                'game_name' => $request->game_name,
+                'color_code' => $request->color_code,
+                'coupon_code' => $request->coupon_code,
+                'probability' => $request->probability,
+                'deposit_value' => $request->deposit_value,
+                'show_modal' => $request->has('show_modal'),
+                'is_active' => $request->has('is_active')
+            ]);
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Item da roleta criado com sucesso!'
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao criar item da roleta: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+
+    /**
+     * Deletar item da roleta
+     */
+    public function deleteRouletteItem(Request $request)
+    {
+        try {
+            $request->validate([
+                'id' => 'required|integer|exists:roulette_items,id'
+            ]);
+
+            $item = RouletteItem::findOrFail($request->id);
+            $item->delete();
+
+            return response()->json([
+                'success' => true,
+                'message' => 'Item da roleta deletado com sucesso!'
+            ]);
+
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao deletar item da roleta: ' . $e->getMessage()
+            ], 500);
+        }
+    }
+}

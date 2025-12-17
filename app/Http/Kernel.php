@@ -70,7 +70,6 @@ class Kernel extends HttpKernel
         'check.ip' => \App\Http\Middleware\CheckIp::class,
         'permission' => \App\Http\Middleware\CheckPermission::class,
         'raspadinha.security' => \App\Http\Middleware\RaspadinhaSecurityMiddleware::class,
-        'check.license' => \App\Http\Middleware\CheckLicenseMiddleware::class,
     ];
 
     protected $middlewareAliases = [
@@ -87,6 +86,5 @@ class Kernel extends HttpKernel
         'admin' => \App\Http\Middleware\AdminMiddleware::class,
         'check.ip' => \App\Http\Middleware\CheckIpMiddleware::class,
         'admin.redirect' => \App\Http\Middleware\AdminRedirectMiddleware::class,
-        'check.license' => \App\Http\Middleware\CheckLicenseMiddleware::class,
     ];
 }

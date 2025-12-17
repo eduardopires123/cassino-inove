@@ -1,8 +1,299 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:48              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89X\sHtEQ\fN52m; use EC3Me\ShTeq\s9D5t; use jf89x\t0EtD\AVsuJ; use EC3me\h2VuV\p2qh1\NXRov; use ec3me\H2VUV\p2qh1\PlHxg; use eC3mE\H2vUv\p2qh1\WG7WV; use EC3mE\H2vUv\P2Qh1\Hash; class eXN9y extends NMP37 { public function tccYg() { return Lo0Cy("\x75\163\x65\162\x2e\145\144\x69\164\x5f\x70\x68\x6f\x6e\x65"); } public function X0eqQ(S9d5T $WFz1w) { goto DPu_B; srHGt: return jgKRL()->SBE1q(["\x73\x75\143\x63\145\x73\x73" => false, "\x6d\x65\163\163\x61\147\145" => $e25Fx->WLQVZ()->yrKr9("\x70\150\x6f\x6e\145")]); goto hm8gS; m5Haa: try { goto edgfA; GNaF7: $e5HVA->h7T8u = $p2LNX; goto uVink; uVink: if (!Wg7Wv::hOR2V("\x75\163\x65\162\x73", "\160\x68\157\156\x65\137\x76\145\x72\x69\x66\x69\x65\x64\137\x61\x74")) { goto sYFDe; } goto BMEHZ; EfDn_: $e5HVA->save(); goto ysj0Q; edgfA: $e5HVA = NXroV::YFGi_(); goto td7Jm; ysj0Q: $otwHW = substr($p2LNX, 0, 2); goto ciSbh; td7Jm: $z3xpv = $WFz1w->PC2LR("\x70\x68\x6f\156\145"); goto vQ60T; vQ60T: $p2LNX = preg_replace("\x2f\133\x5e\60\x2d\71\x5d\x2f", '', $z3xpv); goto Lze0w; zaEVE: $dcvpy = substr($p2LNX, -4); goto sc6fx; ciSbh: $aamhE = substr($p2LNX, 2, -4); goto zaEVE; RgkZZ: YniaK: goto cTf7L; tgmYL: sYFDe: goto EfDn_; BMEHZ: $e5HVA->kIPsz = null; goto tgmYL; sc6fx: $aFFZk = "\x2b\65\65\x20\50{$otwHW}\51\40{$aamhE}\x2d{$dcvpy}"; goto NAy2L; Lze0w: if (!str_starts_with($p2LNX, "\x35\65")) { goto YniaK; } goto TAeEX; NAy2L: return JGkrl()->sBE1q(["\163\x75\x63\x63\145\163\x73" => true, "\x66\x6f\x72\x6d\x61\x74\164\145\144\x5f\x70\150\157\x6e\x65" => $aFFZk, "\x6d\x65\x73\x73\141\x67\x65" => "\124\x65\x6c\145\x66\x6f\x6e\145\x20\x61\x74\x75\141\x6c\x69\172\141\144\x6f\x20\x63\x6f\155\x20\163\165\x63\x65\x73\x73\157\x2e"]); goto YopN9; scPGS: IGk_v: goto GNaF7; kIbFp: return JgkRL()->SbE1Q(["\x73\165\x63\143\x65\x73\163" => false, "\155\145\x73\163\x61\x67\x65" => "\x4f\x20\x6e\303\xba\x6d\145\x72\157\x20\x64\145\x20\x74\x65\x6c\145\146\x6f\x6e\145\40\156\303\243\157\x20\x65\x73\x74\303\xa1\x20\x63\157\155\160\154\145\164\x6f\56\40\120\157\162\x20\x66\x61\x76\x6f\x72\54\40\151\156\143\x6c\165\x61\x20\157\40\104\104\104\56"]); goto scPGS; TAeEX: $p2LNX = substr($p2LNX, 2); goto RgkZZ; cTf7L: if (!(strlen($p2LNX) < 10)) { goto IGk_v; } goto kIbFp; YopN9: } catch (\Exception $ai57B) { return JgkrL()->sBE1Q(["\x73\165\143\143\x65\x73\x73" => false, "\x6d\x65\x73\163\x61\147\145" => "\105\x72\162\x6f\40\141\x6f\x20\x61\164\165\141\154\151\172\141\x72\x20\x6f\40\x74\145\154\145\146\x6f\x6e\145\72\40" . $ai57B->getMessage()]); } goto DZ8r5; YUN0j: if (!$e25Fx->LDf8p()) { goto Q5zR1; } goto srHGt; DPu_B: $e25Fx = pLHxg::yki_I($WFz1w->P0wsL(), ["\160\150\157\x6e\x65" => "\x72\x65\161\x75\x69\162\145\x64\174\163\164\162\151\156\147\174\x6d\x69\x6e\72\x38\x7c\155\x61\x78\72\x32\x30"], ["\160\150\157\156\145\x2e\x72\x65\161\165\151\162\x65\144" => "\x4f\x20\164\x65\154\145\x66\x6f\156\145\x20\303\251\x20\157\x62\x72\x69\147\141\x74\303\263\162\151\x6f\x2e", "\160\150\157\156\145\56\155\x69\156" => "\x4f\40\164\x65\154\x65\x66\157\x6e\145\40\144\x65\x76\x65\40\164\145\162\x20\160\145\154\x6f\x20\x6d\x65\156\157\163\x20\70\x20\x63\x61\x72\x61\143\x74\x65\x72\x65\x73\x2e", "\x70\150\x6f\x6e\x65\x2e\155\x61\170" => "\x4f\40\x74\x65\x6c\145\x66\x6f\156\145\x20\156\xc3\243\157\x20\160\157\x64\145\x20\x74\145\x72\40\x6d\141\151\163\40\x64\145\x20\x32\x30\x20\143\141\x72\141\x63\x74\145\x72\145\163\x2e"]); goto YUN0j; hm8gS: Q5zR1: goto m5Haa; DZ8r5: } public function nmK4J(s9D5t $WFz1w) { return fH6x5()->WwY32("\165\163\145\x72\x2e\141\143\x63\157\165\156\164")->RNJfy("\x73\x75\x63\143\145\x73\x73", "\116\xc3\272\x6d\145\162\157\x20\144\x65\40\164\145\x6c\145\146\157\x6e\145\x20\x76\145\162\x69\x66\x69\x63\141\x64\x6f\x20\x63\x6f\155\x20\x73\x75\x63\145\x73\x73\157\56"); } public function sllCL(S9d5t $WFz1w) { goto hbmXY; SXSjy: if (!$e25Fx->LDf8P()) { goto czHny; } goto V_MFt; V_MFt: return jGKrL()->SBe1q(["\x73\165\x63\143\x65\163\163" => false, "\x6d\145\x73\x73\x61\x67\x65" => $e25Fx->WLQVz()->Yrkr9("\x65\155\x61\x69\154")]); goto lfCpA; F9HiU: try { goto Qy1BX; gVIsF: if (!Wg7Wv::HoR2V("\165\x73\145\162\163", "\x65\155\x61\x69\154\x5f\166\145\162\x69\146\151\x65\144\137\x61\x74")) { goto UPh4G; } goto SClU3; u7IPz: return jGkRl()->SBe1Q(["\163\x75\x63\143\x65\x73\x73" => true, "\145\155\141\x69\154" => $pTung, "\155\x65\163\x73\x61\147\145" => "\105\155\x61\151\x6c\40\x61\x74\x75\141\x6c\x69\x7a\x61\x64\157\x20\143\x6f\155\40\x73\x75\143\x65\163\x73\157\x2e"]); goto SY1BM; QZspY: $pTung = $WFz1w->PC2lr("\x65\155\x61\151\x6c"); goto PBdhj; qqIcm: UPh4G: goto eqYIx; Qy1BX: $e5HVA = nxrOv::YfGI_(); goto aqgZ6; PBdhj: if (!($nIabt === $pTung)) { goto Fw5iS; } goto TkYoV; TkYoV: return jGKrl()->SBe1q(["\163\x75\143\x63\x65\x73\x73" => true, "\x65\155\141\x69\154" => $pTung, "\155\145\x73\163\141\147\x65" => "\105\x6d\141\x69\x6c\x20\x61\x74\x75\141\154\x69\x7a\x61\144\x6f\x20\x63\157\x6d\40\163\x75\x63\x65\x73\163\157\x2e"]); goto C2Lr8; LAi1X: $e5HVA->VzAAC = $pTung; goto gVIsF; SClU3: $e5HVA->DO3NI = null; goto qqIcm; eqYIx: $e5HVA->save(); goto u7IPz; C2Lr8: Fw5iS: goto LAi1X; aqgZ6: $nIabt = $e5HVA->VzAAC; goto QZspY; SY1BM: } catch (\Exception $ai57B) { return jGkrl()->sbe1q(["\163\165\143\143\145\x73\x73" => false, "\x6d\x65\x73\x73\141\147\145" => "\105\x72\x72\157\40\141\157\40\x61\164\165\141\x6c\151\x7a\141\x72\40\157\40\145\x6d\x61\151\x6c\x3a\40" . $ai57B->getMessage()]); } goto LuKj0; lfCpA: czHny: goto F9HiU; hbmXY: $e25Fx = pLhxG::yKI_I($WFz1w->P0wSL(), ["\145\155\x61\x69\154" => "\162\x65\161\165\x69\x72\145\144\174\x65\x6d\141\151\154\x7c\x75\156\151\x71\165\145\x3a\165\x73\x65\x72\163\54\x65\x6d\x61\151\x6c\x2c" . NxrOv::PTuEj()], ["\x65\155\x61\x69\154\56\x72\x65\161\x75\151\162\x65\144" => "\x4f\x20\x65\x6d\141\151\x6c\x20\303\xa9\40\x6f\142\x72\x69\147\141\x74\303\263\162\x69\x6f\56", "\x65\155\x61\151\154\56\145\x6d\x61\x69\154" => "\x50\157\x72\x20\146\x61\166\x6f\162\54\40\x66\157\162\156\145\xc3\xa7\x61\40\165\155\40\x65\156\x64\145\x72\145\xc3\247\x6f\x20\x64\x65\40\145\155\141\x69\x6c\x20\166\xc3\xa1\154\151\144\x6f\x2e", "\x65\155\x61\x69\154\x2e\165\156\151\161\x75\x65" => "\x45\163\x74\x65\40\145\x6d\141\x69\x6c\x20\x6a\xc3\241\40\x65\163\x74\xc3\xa1\x20\145\155\40\165\163\x6f\56"]); goto SXSjy; LuKj0: } public function ZOYUQ() { return Lo0Cy("\165\x73\x65\x72\56\163\145\143\x75\162\151\x74\171"); } public function qc7WQ(s9d5T $WFz1w) { goto iWDM0; iWDM0: $WFz1w->validate(["\x63\x75\x72\162\145\x6e\x74\x50\x61\x73\x73\x77\x6f\x72\144" => "\162\145\x71\x75\151\x72\145\x64", "\x6e\x65\x77\120\141\x73\x73\x77\157\162\144" => "\x72\x65\161\165\x69\162\x65\144\x7c\x6d\151\156\72\70\x7c\162\x65\147\145\x78\x3a\57\x5e\50\77\75\x2e\x2a\x5b\x61\55\172\x41\x2d\x5a\x5d\x29\50\77\x3d\x2e\52\x5c\144\51\50\x3f\75\x2e\x2a\x5b\x5e\x61\x2d\172\x41\55\132\134\x64\x5d\x29\x2e\53\x24\57\x7c\x63\157\x6e\x66\151\x72\155\x65\x64"], ["\143\x75\x72\162\x65\156\x74\x50\x61\x73\x73\x77\157\162\x64\56\x72\x65\x71\165\x69\x72\x65\144" => "\x41\x20\x73\x65\156\150\141\40\x61\164\x75\x61\154\40\303\251\40\157\x62\162\151\x67\x61\164\xc3\263\x72\x69\141", "\156\145\x77\x50\141\x73\163\167\157\162\144\x2e\x72\x65\161\x75\x69\162\x65\144" => "\101\40\156\157\166\x61\x20\163\x65\156\150\x61\x20\xc3\251\40\x6f\x62\162\151\147\141\x74\303\263\x72\151\x61", "\x6e\145\167\x50\141\163\163\167\x6f\x72\144\56\x6d\x69\x6e" => "\x41\40\156\157\x76\x61\40\163\x65\x6e\x68\x61\40\x64\145\166\145\40\164\145\x72\x20\x70\x65\154\157\40\155\x65\156\x6f\x73\40\x38\x20\143\x61\x72\141\143\164\145\162\x65\x73", "\156\x65\x77\x50\141\163\163\167\157\x72\x64\x2e\162\x65\x67\x65\x78" => "\101\x20\163\x65\x6e\x68\x61\x20\x64\x65\x76\x65\40\x63\157\x6e\x74\145\x72\40\160\x65\x6c\x6f\x20\155\x65\156\x6f\163\x20\x75\155\141\40\154\145\164\162\x61\x2c\40\165\155\40\156\xc3\xba\155\145\x72\x6f\40\145\x20\x75\155\40\x63\x61\x72\141\x63\164\145\x72\145\x20\145\163\160\x65\143\151\x61\154", "\x6e\145\167\120\x61\163\x73\x77\157\162\144\x2e\143\x6f\x6e\146\x69\x72\155\x65\144" => "\x41\40\x63\157\x6e\x66\x69\x72\x6d\141\303\xa7\303\243\x6f\40\144\x61\x20\x73\145\x6e\x68\141\40\x6e\xc3\xa3\157\40\x63\x6f\162\x72\x65\x73\x70\x6f\156\x64\x65\40\303\xa0\40\156\x6f\166\141\x20\x73\145\156\150\141"]); goto qogwI; FvQXo: return fH6x5()->jyyrV()->rnJFY("\163\165\143\143\145\163\163", "\x53\x65\156\150\x61\x20\141\x74\x75\x61\x6c\x69\172\141\144\141\40\x63\x6f\155\x20\163\165\x63\145\163\163\x6f"); goto BJoeD; FfNGW: return Jgkrl()->sBe1q(["\163\x75\x63\143\x65\163\163" => false, "\x6d\145\x73\163\x61\147\x65" => "\x41\40\163\x65\x6e\150\141\x20\141\x74\165\141\x6c\40\145\x73\x74\303\xa1\x20\151\156\143\x6f\x72\162\145\164\141"], 400); goto B6xLs; B6xLs: fDi2R: goto wqupr; e3vgy: $e5HVA->save(); goto JXZpk; bpWY3: if (Hash::c_4HV($WFz1w->cVF7X, $e5HVA->olFCR)) { goto fDi2R; } goto FfNGW; sW29X: return JgkrL()->sbe1Q(["\163\x75\143\143\x65\x73\163" => true, "\155\145\163\163\x61\x67\x65" => "\x53\145\x6e\x68\x61\40\141\164\x75\x61\x6c\151\x7a\x61\144\x61\40\143\x6f\x6d\40\x73\165\143\145\163\163\157"]); goto pLuxz; qogwI: $e5HVA = nXrOV::yfgi_(); goto bpWY3; JXZpk: if (!$WFz1w->aTzOg()) { goto uJ5g0; } goto sW29X; wqupr: $e5HVA->olFCR = Hash::Yki_i($WFz1w->RInAY); goto e3vgy; pLuxz: uJ5g0: goto FvQXo; BJoeD: } public function nfF8e(s9D5T $WFz1w) { goto F4TjI; F4TjI: $e25Fx = PLHXg::YKI_I($WFz1w->P0wSL(), ["\x63\x65\160" => "\162\x65\161\165\151\x72\x65\x64\x7c\163\x74\x72\x69\156\x67\174\155\151\x6e\x3a\70\174\155\x61\x78\72\x39", "\154\x6f\147\162\x61\144\157\x75\x72\157" => "\162\x65\x71\x75\151\x72\x65\144\x7c\163\x74\162\x69\156\147\174\155\141\170\72\62\65\x35", "\156\165\155\x65\162\x6f" => "\162\145\x71\x75\x69\162\145\144\x7c\x73\164\x72\151\x6e\x67\174\x6d\141\170\x3a\62\x30", "\x62\x61\151\162\x72\x6f" => "\x72\x65\x71\165\x69\162\x65\x64\x7c\163\164\x72\x69\156\x67\x7c\155\141\170\x3a\x31\x30\x30", "\x63\x69\x64\x61\144\x65" => "\162\x65\x71\165\151\162\145\x64\x7c\163\164\162\x69\156\147\x7c\155\141\170\x3a\61\x30\60", "\x65\163\x74\141\x64\x6f" => "\162\x65\161\165\x69\x72\145\144\174\163\x74\x72\x69\156\147\x7c\163\151\172\145\x3a\62", "\x63\157\155\160\x6c\145\155\145\156\x74\157" => "\x6e\165\154\x6c\141\x62\154\145\x7c\163\164\x72\151\x6e\147\174\155\141\170\x3a\x31\x30\x30"], ["\x63\x65\160\x2e\x72\x65\161\165\x69\162\145\x64" => "\x4f\x20\x43\105\x50\40\303\251\x20\157\x62\162\151\x67\141\x74\303\263\162\151\157", "\154\x6f\x67\x72\141\144\157\165\162\157\56\162\x65\161\x75\x69\x72\145\144" => "\117\40\x6c\x6f\x67\162\141\144\x6f\165\x72\157\40\303\xa9\x20\157\142\162\151\x67\x61\164\xc3\263\x72\x69\x6f", "\x6e\x75\155\145\162\x6f\x2e\x72\145\x71\165\x69\162\145\144" => "\117\x20\156\303\272\155\145\162\x6f\x20\303\251\40\157\142\x72\x69\147\x61\x74\xc3\263\162\151\157", "\x62\x61\151\x72\162\157\x2e\x72\145\161\x75\151\x72\145\144" => "\x4f\x20\x62\141\151\x72\162\x6f\40\303\251\x20\157\x62\x72\151\x67\x61\164\xc3\263\162\x69\157", "\143\151\144\x61\x64\145\x2e\x72\145\161\x75\x69\162\145\x64" => "\x41\x20\x63\x69\144\141\144\145\x20\303\251\40\x6f\x62\x72\151\x67\141\x74\303\263\162\151\141", "\145\163\164\x61\144\157\56\162\145\x71\x75\x69\162\145\x64" => "\x4f\40\x65\x73\x74\141\x64\x6f\40\xc3\251\x20\157\x62\x72\x69\x67\141\x74\303\263\x72\x69\x6f"]); goto cbQ5O; PeRtq: return JgKRl()->sbE1Q(["\163\x75\143\143\145\x73\163" => false, "\x6d\145\163\163\141\x67\x65" => $e25Fx->wlQvZ()->YrKR9()]); goto yaleo; PlQM7: try { goto rH_mW; Mikaf: return jgkrL()->sbE1q(["\x73\x75\143\x63\145\x73\x73" => true, "\x6d\x65\x73\x73\x61\x67\x65" => "\x45\156\x64\145\x72\145\xc3\247\x6f\40\141\164\165\x61\x6c\151\172\141\x64\x6f\40\x63\x6f\x6d\x20\x73\165\143\x65\163\163\x6f\41", "\146\157\x72\155\x61\164\164\x65\x64\137\141\x64\144\x72\145\x73\x73" => $LSUZT, "\141\x64\x64\x72\x65\163\x73\137\x63\157\x6d\160\154\145\x74\x65" => $l_i3Y]); goto aQgp7; KswoS: XqdAu: goto vqtnd; Z_xIP: $t1wTP->KOrK2 = $WFz1w->KOrK2; goto Fq9ah; Pz30D: $LSUZT .= "\x2c\x20" . $t1wTP->KOrK2; goto KswoS; IwHYT: nyvaE: goto S4JJh; sIxXd: if ($t1wTP) { goto nyvaE; } goto DyC0Y; S4JJh: $t1wTP->betSl = preg_replace("\57\133\x5e\60\x2d\x39\135\57", '', $WFz1w->betSl); goto df2ld; HI5Pj: $t1wTP->RfHFU = $WFz1w->RfHFU; goto nGq3P; Fq9ah: $t1wTP->Hh7tM = $WFz1w->Hh7tM; goto zOAIB; OiUji: $LSUZT .= "\54\40\x43\105\x50\72\x20" . preg_replace("\x2f\x28\134\144\x7b\65\175\x29\50\134\x64\x7b\x33\x7d\51\57", "\x24\61\x2d\x24\x32", $t1wTP->betSl); goto dex8u; df2ld: $t1wTP->tuCw7 = $WFz1w->tuCw7; goto K520Z; vJkEj: $t1wTP->ROWMV = $e5HVA->id; goto IwHYT; dex8u: $l_i3Y = !empty($t1wTP->betSl) && !empty($t1wTP->tuCw7) && !empty($t1wTP->ss_5w) && !empty($t1wTP->Hh7tM) && !empty($t1wTP->M2GQ2) && !empty($t1wTP->RfHFU); goto Mikaf; qVRjX: $t1wTP = $e5HVA->tZ0IM; goto sIxXd; DV53G: if (empty($t1wTP->KOrK2)) { goto XqdAu; } goto Pz30D; K520Z: $t1wTP->ss_5w = $WFz1w->ss_5w; goto Z_xIP; IzkA9: $LSUZT = $t1wTP->tuCw7 . "\x2c\x20" . $t1wTP->ss_5w; goto DV53G; rH_mW: $e5HVA = nXRov::YfGI_(); goto qVRjX; zOAIB: $t1wTP->M2GQ2 = $WFz1w->M2GQ2; goto HI5Pj; DyC0Y: $t1wTP = new \jf89x\t0etD\DceUr(); goto vJkEj; vqtnd: $LSUZT .= "\x20\x2d\x20" . $t1wTP->Hh7tM . "\x2c\40" . $t1wTP->M2GQ2 . "\x2f" . $t1wTP->RfHFU; goto OiUji; nGq3P: $t1wTP->save(); goto IzkA9; aQgp7: } catch (\Exception $ai57B) { return jGkrL()->sBe1q(["\163\165\143\x63\145\x73\x73" => false, "\155\x65\x73\x73\x61\147\x65" => "\105\x72\x72\x6f\40\141\x6f\x20\141\x74\165\x61\x6c\x69\x7a\x61\162\x20\x6f\x20\145\156\x64\x65\162\x65\303\247\157\x3a\x20" . $ai57B->getMessage()]); } goto ktQYt; cbQ5O: if (!$e25Fx->lDf8P()) { goto NIiBK; } goto PeRtq; yaleo: NIiBK: goto PlQM7; ktQYt: } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\Hash;
+
+class UserEditController extends Controller
+{
+    /**
+     * Mostra o formulário para editar o número de celular
+     */
+    public function editPhone()
+    {
+        return view('user.edit_phone');
+    }
+
+    /**
+     * Atualiza o número de celular do usuário
+     */
+    public function updatePhone(Request $request)
+    {
+        // Validação do telefone no formato brasileiro
+        $validator = Validator::make($request->all(), [
+            'phone' => 'required|string|min:8|max:20',
+        ], [
+            'phone.required' => 'O telefone é obrigatório.',
+            'phone.min' => 'O telefone deve ter pelo menos 8 caracteres.',
+            'phone.max' => 'O telefone não pode ter mais de 20 caracteres.'
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'message' => $validator->errors()->first('phone')
+            ]);
+        }
+
+        try {
+            $user = Auth::user();
+            $phone = $request->input('phone');
+            
+            // Limpar todos os caracteres não numéricos
+            $phoneNumbers = preg_replace('/[^0-9]/', '', $phone);
+            
+            // Remover o 55 do início se estiver presente
+            if (str_starts_with($phoneNumbers, '55')) {
+                $phoneNumbers = substr($phoneNumbers, 2);
+            }
+            
+            // Garantir que o número tenha pelo menos 10 dígitos (DDD + número)
+            if (strlen($phoneNumbers) < 10) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'O número de telefone não está completo. Por favor, inclua o DDD.'
+                ]);
+            }
+            
+            // Salvar apenas o número sem o código do país
+            $user->phone = $phoneNumbers;
+            
+            // Verificar se a coluna phone_verified_at existe antes de tentar atualizá-la
+            if (Schema::hasColumn('users', 'phone_verified_at')) {
+                $user->phone_verified_at = null;
+            }
+            
+            $user->save();
+            
+            // Formatar para exibição com o 55 (país)
+            $ddd = substr($phoneNumbers, 0, 2);
+            $part1 = substr($phoneNumbers, 2, -4);
+            $part2 = substr($phoneNumbers, -4);
+            $formattedPhone = "+55 ({$ddd}) {$part1}-{$part2}";
+            
+            return response()->json([
+                'success' => true,
+                'formatted_phone' => $formattedPhone,
+                'message' => 'Telefone atualizado com sucesso.'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar o telefone: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    /**
+     * Verifica o código enviado para validar o número de telefone
+     */
+    public function verifyPhone(Request $request)
+    {
+        // Implementar verificação do código aqui
+        // ...
+
+        return redirect()->route('user.account')
+            ->with('success', 'Número de telefone verificado com sucesso.');
+    }
+
+    /**
+     * Atualiza o email do usuário
+     */
+    public function updateEmail(Request $request)
+    {
+        // Validação do email
+        $validator = Validator::make($request->all(), [
+            'email' => 'required|email|unique:users,email,' . Auth::id(),
+        ], [
+            'email.required' => 'O email é obrigatório.',
+            'email.email' => 'Por favor, forneça um endereço de email válido.',
+            'email.unique' => 'Este email já está em uso.',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'message' => $validator->errors()->first('email')
+            ]);
+        }
+
+        try {
+            $user = Auth::user();
+            $oldEmail = $user->email;
+            $newEmail = $request->input('email');
+            
+            // Se o email não mudou, retorna sucesso sem fazer alterações
+            if ($oldEmail === $newEmail) {
+                return response()->json([
+                    'success' => true,
+                    'email' => $newEmail,
+                    'message' => 'Email atualizado com sucesso.'
+                ]);
+            }
+            
+            // Atualiza o email sem mexer no email_verified_at
+            $user->email = $newEmail;
+            
+            // Verificar se a coluna email_verified_at existe antes de tentar atualizá-la
+            if (Schema::hasColumn('users', 'email_verified_at')) {
+                $user->email_verified_at = null;
+            }
+            
+            $user->save();
+            
+            return response()->json([
+                'success' => true,
+                'email' => $newEmail,
+                'message' => 'Email atualizado com sucesso.'
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar o email: ' . $e->getMessage()
+            ]);
+        }
+    }
+
+    /**
+     * Carrega a view de segurança para o usuário
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function security()
+    {
+        return view('user.security');
+    }
+
+    /**
+     * Processa a alteração de senha
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function updatePassword(Request $request)
+    {
+        $request->validate([
+            'currentPassword' => 'required',
+            'newPassword' => 'required|min:8|regex:/^(?=.*[a-zA-Z])(?=.*\d)(?=.*[^a-zA-Z\d]).+$/|confirmed',
+        ], [
+            'currentPassword.required' => 'A senha atual é obrigatória',
+            'newPassword.required' => 'A nova senha é obrigatória',
+            'newPassword.min' => 'A nova senha deve ter pelo menos 8 caracteres',
+            'newPassword.regex' => 'A senha deve conter pelo menos uma letra, um número e um caractere especial',
+            'newPassword.confirmed' => 'A confirmação da senha não corresponde à nova senha',
+        ]);
+        
+        $user = Auth::user();
+        
+        if (!Hash::check($request->currentPassword, $user->password)) {
+            return response()->json([
+                'success' => false,
+                'message' => 'A senha atual está incorreta'
+            ], 400);
+        }
+        
+        $user->password = Hash::make($request->newPassword);
+        $user->save();
+        
+        if ($request->ajax()) {
+            return response()->json([
+                'success' => true,
+                'message' => 'Senha atualizada com sucesso'
+            ]);
+        }
+        
+        return redirect()->back()->with('success', 'Senha atualizada com sucesso');
+    }
+
+    /**
+     * Atualiza o endereço do usuário
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function updateAddress(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'cep' => 'required|string|min:8|max:9',
+            'logradouro' => 'required|string|max:255',
+            'numero' => 'required|string|max:20',
+            'bairro' => 'required|string|max:100',
+            'cidade' => 'required|string|max:100',
+            'estado' => 'required|string|size:2',
+            'complemento' => 'nullable|string|max:100',
+        ], [
+            'cep.required' => 'O CEP é obrigatório',
+            'logradouro.required' => 'O logradouro é obrigatório',
+            'numero.required' => 'O número é obrigatório',
+            'bairro.required' => 'O bairro é obrigatório',
+            'cidade.required' => 'A cidade é obrigatória',
+            'estado.required' => 'O estado é obrigatório',
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'message' => $validator->errors()->first()
+            ]);
+        }
+        
+        try {
+            $user = Auth::user();
+            
+            // Verificar se o usuário já tem um endereço
+            $address = $user->address;
+            
+            // Se não tiver, criar um novo
+            if (!$address) {
+                $address = new \App\Models\UserAddress();
+                $address->user_id = $user->id;
+            }
+            
+            // Atualizar os campos do endereço
+            $address->cep = preg_replace('/[^0-9]/', '', $request->cep);
+            $address->logradouro = $request->logradouro;
+            $address->numero = $request->numero;
+            $address->complemento = $request->complemento;
+            $address->bairro = $request->bairro;
+            $address->cidade = $request->cidade;
+            $address->estado = $request->estado;
+            $address->save();
+            
+            // Formatar o endereço para exibição
+            $formattedAddress = $address->logradouro . ", " . $address->numero;
+            if (!empty($address->complemento)) {
+                $formattedAddress .= ", " . $address->complemento;
+            }
+            
+            $formattedAddress .= " - " . $address->bairro . ", " . $address->cidade . "/" . $address->estado;
+            $formattedAddress .= ", CEP: " . preg_replace('/(\d{5})(\d{3})/', '$1-$2', $address->cep);
+            
+            // Um endereço é considerado completo se tiver todos os campos obrigatórios,
+            // independentemente de ter complemento ou não
+            $address_complete = 
+                !empty($address->cep) &&
+                !empty($address->logradouro) &&
+                !empty($address->numero) &&
+                !empty($address->bairro) &&
+                !empty($address->cidade) &&
+                !empty($address->estado);
+            
+            return response()->json([
+                'success' => true,
+                'message' => 'Endereço atualizado com sucesso!',
+                'formatted_address' => $formattedAddress,
+                'address_complete' => $address_complete
+            ]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao atualizar o endereço: ' . $e->getMessage()
+            ]);
+        }
+    }
+} 

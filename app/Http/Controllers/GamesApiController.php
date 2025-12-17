@@ -1,8 +1,212 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\sHTEq\Fn52M; use Jf89x\Ck8UV\U_w0i as wLfo8; use jF89x\T0ETD\AvsUJ; use ec3mE\ShtEq\s9d5t; use jf89x\T0EtD\UMYA4; use jf89x\t0ETd\jBE6w; class NRn94 extends nmP37 { public $tmvI3; public function __construct() { $jBnZw = wLFo8::W5n1F(); $this->tmvI3 = $jBnZw->mrHbP; } public function E1p9S(S9D5t $WFz1w) { goto FYYbx; sr07l: $ncZvq = $WFz1w->pc2Lr("\165\163\x65\x72\x5f\143\157\144\145"); goto wwxBh; b_ySy: return JGkrl()->Sbe1q(["\x73\x74\x61\x74\165\x73" => 0, "\165\163\145\162\x5f\142\x61\x6c\141\156\x63\x65" => 0, "\x6d\163\x67" => "\111\116\x54\105\x52\116\x41\x4c\137\105\x52\122\117\x52"]); goto og7jj; CizXl: vpspD: goto b_ySy; lvxKT: $i2fdh = $WFz1w->pC2lR($i5g8p); goto KGMgq; kQkz5: goto vpspD; goto cBkfw; cBkfw: Glck2: goto Gh1u_; CPAb1: \lvlOX::ftZ7F("\x64\x65\142\165\147")->insert(["\x75\x73\145\162\137\151\144" => $ytieo, "\141\160\x69" => "\106\151\166\145\162\x53\x63\x61\156\40\x63\141\154\154\142\x61\143\153", "\164\145\x78\164" => json_encode($WFz1w->p0WSl()), "\x63\162\145\x61\164\x65\144\x5f\x61\164" => WhfH3(), "\x75\x70\x64\x61\164\x65\x64\x5f\141\x74" => wHfH3()]); goto rRft2; mLJIB: $i5g8p = $WFz1w->PC2lR("\x67\141\x6d\x65\137\x74\x79\160\145"); goto lvxKT; jw7EL: return $this->DyaPr($ytieo, $xco7l, $bzQdf, $bzQdf - $xco7l, $PSnVP, $EwiWK, $yzW_N, $WFz1w, $yEJxl); goto CizXl; Gh1u_: $e5HVA = avsuJ::C_mhY("\x69\144", $ytieo)->YRkR9(); goto HZBDl; LEG8n: $ytieo = $O7KqA[1]; goto CPAb1; smpwY: jsYQb: goto mLJIB; G1nsS: $yzW_N = implode("\55", array_slice($TkYag, 0, 4)); goto jw7EL; QcE1y: $TkYag = explode("\55", $PSnVP); goto G1nsS; bDLyT: $PSnVP = $i2fdh["\164\x78\156\x5f\151\144"]; goto MFTNG; KGMgq: $EwiWK = $i2fdh["\x67\141\155\145\137\143\157\x64\145"]; goto Ubllk; FYYbx: $DNQyr = $WFz1w->PC2LR("\155\x65\164\x68\157\144"); goto sr07l; EC_Wd: if ($DNQyr == "\164\x72\141\x6e\x73\x61\x63\x74\151\157\156") { goto jsYQb; } goto kQkz5; rRft2: if ($DNQyr == "\x75\163\145\x72\x5f\x62\x61\x6c\x61\156\143\145") { goto Glck2; } goto EC_Wd; ppiGp: goto vpspD; goto smpwY; wwxBh: $O7KqA = explode("\x2d", $ncZvq); goto LEG8n; MFTNG: $yEJxl = $i2fdh["\164\170\156\137\164\x79\x70\145"]; goto QcE1y; HZBDl: return jGKrl()->SBE1q(["\x73\x74\x61\x74\x75\x73" => 1, "\x75\x73\145\x72\x5f\x62\x61\154\x61\156\x63\x65" => $e5HVA->d1U9g->AqmcG + ($this->tmvI3 ? $e5HVA->d1U9g->tiNLb : 0)]); goto ppiGp; jA3rB: $bzQdf = $i2fdh["\167\151\156\x5f\x6d\x6f\156\x65\x79"]; goto bDLyT; Ubllk: $xco7l = $i2fdh["\142\x65\164\x5f\x6d\x6f\156\145\171"]; goto jA3rB; og7jj: } private function DyAPR($ytieo, $Gl_3q, $rbzzP, $jJkRq, $tqIGB, $oga4P, $DR0oH, $ZOl9Z, $i5g8p) { goto WKGRO; WKGRO: $jBnZw = WLfo8::w5n1F(); goto QgPCs; qMQvm: goto VHh58; goto kDerf; I99VJ: $e5HVA->d1U9g->p4EKg = max(0, $e5HVA->d1U9g->p4EKg - $Gl_3q); goto blzzG; twe4K: return JGkRL()->sBE1Q(["\163\164\141\164\165\163" => 0, "\x6d\163\x67" => "\111\x4e\x53\x55\x46\106\111\x43\x49\105\x4e\124\137\x55\123\x45\122\x5f\106\125\116\x44\x53"]); goto i82Pc; dtsRC: $Gl_3q = (float) $Gl_3q; goto fMJ42; TNdyj: \LvLox::FTZ7f("\144\145\x62\x75\x67")->insert(["\165\x73\x65\x72\137\x69\144" => $ytieo, "\x61\x70\x69" => "\x46\x69\166\145\x72\123\143\x61\156\x20\x41\x70\x6f\163\164\x61\40\x3c\40\x53\x61\154\144\x6f", "\x74\145\x78\164" => json_encode($ZOl9Z->P0wsl()), "\143\162\145\141\x74\x65\x64\137\x61\x74" => WHFH3(), "\x75\160\144\x61\x74\145\144\x5f\x61\x74" => whFh3()]); goto twe4K; DW9Po: $WVf_X = $Gl_3q - $e5HVA->d1U9g->AqmcG; goto ryZev; oziqh: $e5HVA->d1U9g->z1447 = "\142\141\x6c\x61\156\143\x65"; goto FhxfT; QixG0: $this->SFaLb($e5HVA, $rbzzP, $jJkRq, $oga4P); goto xDJ3u; t0X5s: eehjT: goto lj_QG; lRrxW: $e5HVA->d1U9g->tiNLb = $e5HVA->d1U9g->tiNLb - $WVf_X; goto UbSZS; wps8b: \LvlOX::ftZ7F("\x64\145\142\165\x67")->insert(["\165\x73\145\162\137\x69\x64" => $ytieo, "\141\x70\x69" => "\x46\151\x76\145\162\x53\143\141\x6e\40\122\145\146\165\156\144", "\x74\x65\x78\164" => $rbzzP, "\x63\x72\145\x61\x74\145\144\x5f\141\164" => WHFh3(), "\165\160\x64\141\164\x65\x64\137\x61\164" => WHFH3()]); goto ngW79; IQULU: $EsuU1 = abs($S2xRw); goto wHLlN; r50O0: if ($e5HVA->d1U9g->AqmcG >= $Gl_3q) { goto eehjT; } goto EOdRo; LzUlw: $e5HVA->d1U9g->V2vmL = $IH27s; goto VlEBQ; gTudM: $e5HVA->d1U9g->z1447 = "\x62\141\154\x61\156\143\x65\137\x62\157\156\165\x73"; goto rWD44; UbSZS: $e5HVA->d1U9g->z1447 = "\x62\141\154\x61\156\x63\145\137\142\157\156\x75\x73"; goto RBlQg; L_uAB: HtY2x: goto QbK8b; kuxqF: $e5HVA->d1U9g->z1447 = "\x62\141\x6c\x61\x6e\143\145\x5f\142\157\x6e\x75\163"; goto E_Oxj; YJUnv: $IH27s = $e5HVA->d1U9g->V2vmL + floatval($Gl_3q); goto nAEHc; jdLyT: UmyA4::create(["\x75\x73\145\x72\x5f\151\144" => $ytieo, "\141\x6d\157\165\x6e\x74" => $rbzzP > 0 ? $rbzzP : $Gl_3q, "\x70\x72\157\x76\x69\x64\145\162" => "\111\x6e\x6f\x76\x65", "\x70\x72\157\166\151\144\145\162\137\x74\170\x5f\x69\x64" => $tqIGB, "\147\x61\155\145" => $oga4P, "\x61\143\x74\151\x6f\x6e" => $rbzzP > 0 ? "\167\151\x6e" : "\154\157\x73\x73", "\x72\x6f\x75\156\x64\137\151\144" => $DR0oH ?: $tqIGB, "\163\145\163\x73\151\157\156\x5f\x74\x6f\x6b\x65\156" => $tqIGB, "\x6a\163\157\x6e" => json_encode($ZOl9Z->p0WSl())]); goto V7bfj; i1NER: if (!($rbzzP > 0 && $Gl_3q == 0)) { goto YOmjy; } goto pEyGy; nAEHc: BExcn: goto oPLds; EOdRo: $WVf_X = $Gl_3q - $e5HVA->d1U9g->AqmcG; goto kwpef; knnjH: $e5HVA->d1U9g->tiNLb = $e5HVA->d1U9g->tiNLb + $rbzzP; goto iEFMM; lj_QG: $e5HVA->d1U9g->AqmcG = $e5HVA->d1U9g->AqmcG - $Gl_3q; goto oziqh; dOJi0: if (!($Gl_3q == 0 and $rbzzP == 0)) { goto AmXtN; } goto dKX44; AuZCn: if (!($e5HVA->d1U9g->p4EKg > 0)) { goto uM2e_; } goto I99VJ; A1jUt: $e5HVA->d1U9g->z1447 = "\142\141\x6c\x61\156\x63\145"; goto WSVsm; V7bfj: if (!($jJkRq != 0)) { goto W2bT4; } goto PpVG8; iU84M: if ($S2xRw > 0) { goto HtY2x; } goto IQULU; RBlQg: goto kqWOz; goto t0X5s; blzzG: uM2e_: goto qMQvm; QbK8b: if ($e5HVA->d1U9g->AqmcG >= $Gl_3q) { goto G2lde; } goto DW9Po; i82Pc: bcZYW: goto nErYb; DmW8U: $e5HVA->d1U9g->V2vmL -= $rbzzP; goto d4LAN; GbxG2: SpC8g: goto TWIIm; nErYb: $IH27s = 0; goto Ph74f; lA0Il: AmXtN: goto Q26Si; PwfFG: goto SpC8g; goto L_uAB; VlEBQ: if ($i5g8p == "\144\x65\x62\151\164\x5f\143\162\x65\x64\x69\164") { goto JUcmD; } goto AuZCn; CxzFE: G2lde: goto ZkxlL; FhxfT: kqWOz: goto YQotD; xBeNd: f0SvP: goto LzUlw; kwpef: $e5HVA->d1U9g->AqmcG = 0; goto lRrxW; rWD44: goto jXBFu; goto CxzFE; WKXDO: if (!($e5HVA->d1U9g->Pe1PV > 0.0)) { goto CkXCq; } goto DmW8U; fMJ42: $rbzzP = (float) $rbzzP; goto dOJi0; oPLds: if (!($Gl_3q > 0 && $rbzzP == 0)) { goto mQvO1; } goto r50O0; TWIIm: bOqtM: goto xBeNd; xDJ3u: AwFq5: goto yz_QH; YmRxl: $e5HVA->d1U9g->AqmcG = 0; goto BN4TH; tNWmG: return jGKrL()->Sbe1q(["\163\164\x61\164\165\x73" => 1, "\165\x73\x65\x72\x5f\142\141\154\x61\x6e\x63\145" => $e5HVA->d1U9g->AqmcG + ($this->tmvI3 ? $e5HVA->d1U9g->tiNLb : 0)]); goto OHey2; NhPn1: vDDz7: goto PwfFG; ryZev: $e5HVA->d1U9g->AqmcG = 0; goto w2bWI; E_Oxj: goto vDDz7; goto knDkm; NFYbt: if (!($Gl_3q > 0 && $rbzzP > 0)) { goto f0SvP; } goto hkveF; Ph74f: if (!($e5HVA->d1U9g->Pe1PV > 0.0)) { goto BExcn; } goto YJUnv; WSVsm: jXBFu: goto GbxG2; PpVG8: if (!($jBnZw->ZGHlo == 1)) { goto AwFq5; } goto QixG0; d4LAN: CkXCq: goto Td3bK; w2bWI: $e5HVA->d1U9g->tiNLb = $e5HVA->d1U9g->tiNLb - $WVf_X + $rbzzP; goto gTudM; lQgmm: $e5HVA->d1U9g->AqmcG = $e5HVA->d1U9g->AqmcG + $rbzzP; goto E01la; s0jI3: $e5HVA->d1U9g->z1447 = "\142\x61\154\141\156\143\145"; goto NhPn1; knDkm: m5rbJ: goto esy8x; Fyomf: UmzeB: goto knnjH; kJIGF: $e5HVA->d1U9g->save(); goto jdLyT; E01la: goto rgk6t; goto Fyomf; yz_QH: W2bT4: goto tNWmG; Td3bK: VHh58: goto kJIGF; YQotD: mQvO1: goto i1NER; hkveF: $S2xRw = $rbzzP - $Gl_3q; goto MRq11; ZkxlL: $e5HVA->d1U9g->AqmcG = $e5HVA->d1U9g->AqmcG - $Gl_3q + $rbzzP; goto A1jUt; MRq11: if (!($S2xRw != 0)) { goto bOqtM; } goto iU84M; ngW79: $e5HVA->d1U9g->p4EKg += $rbzzP; goto WKXDO; pEyGy: if ($e5HVA->d1U9g->z1447 == "\x62\141\x6c\x61\156\x63\145\x5f\142\x6f\156\x75\x73") { goto UmzeB; } goto lQgmm; iEFMM: rgk6t: goto TMJXJ; BN4TH: $e5HVA->d1U9g->tiNLb = $e5HVA->d1U9g->tiNLb - $WVf_X; goto kuxqF; Q26Si: if (!($Gl_3q > $e5HVA->d1U9g->AqmcG + ($this->tmvI3 ? $e5HVA->d1U9g->tiNLb : 0))) { goto bcZYW; } goto TNdyj; dKX44: return jgkrL()->sBE1q(["\163\x74\141\x74\165\163" => 1, "\165\163\145\x72\x5f\x62\141\154\141\x6e\143\145" => $e5HVA->d1U9g->AqmcG + ($this->tmvI3 ? $e5HVA->d1U9g->tiNLb : 0)]); goto lA0Il; TMJXJ: YOmjy: goto NFYbt; QgPCs: $e5HVA = aVsuj::c_mhy("\151\144", $ytieo)->Yrkr9(); goto dtsRC; kDerf: JUcmD: goto wps8b; esy8x: $e5HVA->d1U9g->AqmcG = $e5HVA->d1U9g->AqmcG - $EsuU1; goto s0jI3; erA62: $WVf_X = $EsuU1 - $e5HVA->d1U9g->AqmcG; goto YmRxl; wHLlN: if ($e5HVA->d1U9g->AqmcG >= $EsuU1) { goto m5rbJ; } goto erA62; OHey2: } private function sFALb($e5HVA, $rbzzP, $jJkRq, $cAEfu) { goto AgU6N; TzR7F: $n5Ilv = $HQYGt->d1U9g->aWOs7 ? $HQYGt->d1U9g->aWOs7 : $jBnZw->zNsCJ; goto r9aLB; XGSx3: jbe6w::create(["\165\163\145\x72\x5f\x69\144" => $e5HVA->id, "\151\x6e\166\x69\x74\x65\162" => $e5HVA->Zbj3W, "\147\x61\155\x65" => $cAEfu, "\141\x6d\157\165\x6e\x74" => $qSC2q]); goto kby65; AgU6N: $jBnZw = wLFo8::w5n1f(); goto K99CB; r9aLB: $qSC2q = $jJkRq < 0 ? abs($jJkRq) * ($n5Ilv / 100) : -$jJkRq * ($n5Ilv / 100); goto HWc92; K99CB: if (!($e5HVA->Zbj3W && $jJkRq != 0)) { goto vERMa; } goto cRuRZ; cRuRZ: $HQYGt = AVSuJ::C_MHY("\151\x64", $e5HVA->Zbj3W)->YRkr9(); goto SlImc; SlImc: if (!$HQYGt) { goto gMvyS; } goto TzR7F; kby65: gMvyS: goto F854v; F854v: vERMa: goto ptSAD; HWc92: $HQYGt->d1U9g->update(["\x72\x65\x66\x65\x72\137\162\x65\167\141\x72\144\x73" => $HQYGt->d1U9g->g0xuw + $qSC2q]); goto XGSx3; ptSAD: } }
+
+namespace App\Http\Controllers;
+
+use App\Helpers\Core as Helper;
+
+use App\Models\User;
+use Illuminate\Http\Request;
+
+use App\Models\GameHistory;
+use App\Models\AffiliatesHistory;
+
+class GamesApiController extends Controller
+{
+    public $allow_bonus;
+
+    public function __construct()
+    {
+        $Settings = Helper::getSetting();
+
+        $this->allow_bonus = $Settings->enable_cassino_bonus;
+    }
+
+    public function cassino(Request $request)
+    {
+        $method     = $request->input('method');
+        $userCode   = $request->input('user_code');
+
+        $preinfo    = explode('-', $userCode);
+        $user_code  = $preinfo[1];
+
+        \DB::table('debug')->insert(['user_id' => $user_code, 'api' => 'FiverScan callback', 'text' => json_encode($request->all()), 'created_at' => now(), 'updated_at' => now()]);
+
+        if ($method == "user_balance") {
+            $user = User::where("id", $user_code)->first();
+
+            return response()->json([
+                "status" => 1,
+                "user_balance" => $user->wallet->balance + ($this->allow_bonus ? $user->wallet->balance_bonus : 0)
+            ]);
+        }elseif ($method == "transaction") {
+            $type       = $request->input('game_type');
+            $gameData   = $request->input($type);
+
+            $gameCode   = $gameData['game_code'];
+            $bet        = $gameData['bet_money'];
+            $win        = $gameData['win_money'];
+            $txnId      = $gameData['txn_id'];
+            $RetInfo    = $gameData['txn_type'];
+
+            $parts = explode('-', $txnId);
+            $roundId = implode('-', array_slice($parts, 0, 4));
+
+            return $this->setTransaction($user_code, $bet, $win, ($win - $bet), $txnId, $gameCode, $roundId, $request, $RetInfo);
+        }
+
+        return response()->json([
+            "status" => 0,
+            "user_balance" => 0,
+            "msg" => "INTERNAL_ERROR",
+        ]);
+    }
+
+    private function setTransaction($user_code, $bet_money, $win_money, $winLose, $txn_id, $game_code, $round_id, $dados, $type)
+    {
+        $Settings   = Helper::getSetting();
+        $user       = User::where("id", $user_code)->first();
+
+        $bet_money  = (float)$bet_money;
+        $win_money  = (float)$win_money;
+
+        if (($bet_money == 0) and ($win_money == 0)) {
+            return response()->json([
+                "status" => 1,
+                "user_balance" => $user->wallet->balance + ($this->allow_bonus ? $user->wallet->balance_bonus : 0)
+            ]);
+        }
+
+        if ($bet_money > $user->wallet->balance + ($this->allow_bonus ? $user->wallet->balance_bonus : 0)) {
+            \DB::table('debug')->insert(['user_id' => $user_code, 'api' => 'FiverScan Aposta < Saldo', 'text' => json_encode($dados->all()), 'created_at' => now(), 'updated_at' => now()]);
+
+            return response()->json([
+                "status" => 0,
+                "msg" => "INSUFFICIENT_USER_FUNDS",
+            ]);
+        }
+
+        $rollover = 0;
+
+        if ($user->wallet->balance_bonus_rollover > 0.0) {
+            $rollover = $user->wallet->balance_bonus_rollover_used + floatval($bet_money);
+        }
+
+        if ($bet_money > 0 && $win_money == 0) {
+            if ($user->wallet->balance >= $bet_money) {
+                $user->wallet->balance = $user->wallet->balance - $bet_money;
+                $user->wallet->last_used = "balance";
+            } else {
+                $remaining = $bet_money - $user->wallet->balance;
+                $user->wallet->balance = 0;
+                $user->wallet->balance_bonus = $user->wallet->balance_bonus - $remaining;
+                $user->wallet->last_used = "balance_bonus";
+            }
+        }
+
+        if ($win_money > 0 && $bet_money == 0) {
+            if ($user->wallet->last_used == "balance_bonus") {
+                $user->wallet->balance_bonus = $user->wallet->balance_bonus + $win_money;
+            } else {
+                $user->wallet->balance = $user->wallet->balance + $win_money;
+            }
+        }
+
+        if ($bet_money > 0 && $win_money > 0) {
+            $net_win = $win_money - $bet_money;
+
+            if ($net_win != 0) {
+                if ($net_win > 0) {
+                    if ($user->wallet->balance >= $bet_money) {
+                        $user->wallet->balance = $user->wallet->balance - $bet_money + $win_money;
+                        $user->wallet->last_used = "balance";
+                    } else {
+                        $remaining = $bet_money - $user->wallet->balance;
+                        $user->wallet->balance = 0;
+                        $user->wallet->balance_bonus = $user->wallet->balance_bonus - $remaining + $win_money;
+                        $user->wallet->last_used = "balance_bonus";
+                    }
+                } else {
+                    $net_loss = abs($net_win);
+                    if ($user->wallet->balance >= $net_loss) {
+                        $user->wallet->balance = $user->wallet->balance - $net_loss;
+                        $user->wallet->last_used = "balance";
+                    } else {
+                        $remaining = $net_loss - $user->wallet->balance;
+                        $user->wallet->balance = 0;
+                        $user->wallet->balance_bonus = $user->wallet->balance_bonus - $remaining;
+                        $user->wallet->last_used = "balance_bonus";
+                    }
+                }
+            }
+        }
+
+        $user->wallet->balance_bonus_rollover_used = $rollover;
+
+        if ($type == "debit_credit") {
+            \DB::table('debug')->insert(['user_id' => $user_code, 'api' => 'FiverScan Refund', 'text' => $win_money, 'created_at' => now(), 'updated_at' => now()]);
+
+            $user->wallet->anti_bot += $win_money;
+
+            if ($user->wallet->balance_bonus_rollover > 0.0) {
+                $user->wallet->balance_bonus_rollover_used -= $win_money;
+            }
+        }else{
+            if ($user->wallet->anti_bot > 0) {
+                $user->wallet->anti_bot = max(0, $user->wallet->anti_bot - $bet_money);
+            }
+        }
+
+        $user->wallet->save();
+
+        GameHistory::create([
+            'user_id' => $user_code,
+            'amount' => $win_money > 0 ? $win_money : $bet_money,
+            'provider' => "Inove",
+            'provider_tx_id' => $txn_id,
+            'game' => $game_code,
+            'action' => $win_money > 0 ? 'win' : 'loss',
+            'round_id' => $round_id ?: $txn_id,
+            'session_token' => $txn_id,
+            'json' => json_encode($dados->all())
+        ]);
+
+        // Cálculo de RevShare deve ocorrer apenas quando winLose for diferente de 0
+        if ($winLose != 0) {
+            if ($Settings->revenabled == 1) {
+                $this->calculateRevShare($user, $win_money, $winLose, $game_code);
+            }
+        }
+
+        return response()->json([
+            "status" => 1,
+            "user_balance" => $user->wallet->balance + ($this->allow_bonus ? $user->wallet->balance_bonus : 0)
+        ]);
+    }
+
+    private function calculateRevShare($user, $win_money, $winLose, $game)
+    {
+        $Settings = Helper::getSetting();
+
+        if ($user->inviter && $winLose != 0) {
+            $afiliado = User::where('id', $user->inviter)->first();
+            if ($afiliado) {
+                $refAff = $afiliado->wallet->referPercent ? $afiliado->wallet->referPercent : $Settings->percent_aff;
+
+                // Se winLose for negativo, significa que o usuário perdeu, então o afiliado ganha uma porcentagem da perda
+                // Se winLose for positivo, significa que o usuário ganhou, então o afiliado perde uma porcentagem do ganho
+
+                $refRewards = $winLose < 0 ? abs($winLose) * ($refAff / 100) : -$winLose * ($refAff / 100);
+                $afiliado->wallet->update([
+                    'refer_rewards' => $afiliado->wallet->refer_rewards + $refRewards,
+                ]);
+
+                AffiliatesHistory::create([
+                    'user_id' => $user->id,
+                    'inviter' => $user->inviter,
+                    'game' => $game,
+                    'amount' => $refRewards
+                ]);
+            }
+        }
+    }
+}

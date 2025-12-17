@@ -19,16 +19,19 @@ class VerifyCsrfToken extends Middleware
         '/login',
         '/logout',
         '/logout-ajax',
-        '/callback',
-        '/PagPix',
-        '/tbs2api/webhook/',
-        '/playfiver/webhook/',
+        // Rotas de pagamento protegidas
+        '/wh-pay-r9t4k2',           // callback
+        '/fin-d3p-k8n2',            // PagPix
+        '/fin-s4q-m7x1',            // Saque
+        '/fin-s4q-aff-p2r9',        // SaqueAff
+        '/fin-s4q-bns-j5t3',        // SaqueBonus
+        // Rotas de jogos protegidas
+        '/gm-exit-h4n9',            // outgame
+        '/wh-gm-x7k9m2/*',          // games webhook
+        '/api-gm-x5h9w2/*',         // inoveplay
+        // Outras rotas
         '/bookiewiseapi/*',
-        '/paxpay/callback',
-        '/outgame',
-        '/primepag/callback',
         '/betby/callback/*',
-        '/inoveplay/*',
         '/sports/token/refresh',
         '/betby/token/refresh',
     ];

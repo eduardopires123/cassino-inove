@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Services\NotificationService;
 
 class UserCashback extends Model
 {
@@ -135,33 +134,12 @@ class UserCashback extends Model
     
     /**
      * Envia notificação quando um cashback é creditado
+     * @deprecated Sistema de notificações removido
      */
     public function sendCreditedNotification()
     {
-        try {
-            $notificationService = app(NotificationService::class);
-            
-            if ($this->user) {
-                $formattedAmount = number_format($this->cashback_amount, 2, ',', '.');
-                $typeText = $this->getTypeText($this->type);
-                
-                $data = [
-                    'title_pt_br' => '💰 Cashback Creditado',
-                    'title_en' => '💰 Cashback Credited',
-                    'title_es' => '💰 Cashback Acreditado',
-                    
-                    'content_pt_br' => "Seu cashback de R$ {$formattedAmount} para {$typeText} foi creditado na sua conta. Divirta-se!",
-                    'content_en' => "Your cashback of R$ {$formattedAmount} for {$this->getTypeText($this->type, 'en')} has been credited to your account. Have fun!",
-                    'content_es' => "Tu cashback de R$ {$formattedAmount} para {$this->getTypeText($this->type, 'es')} ha sido acreditado en tu cuenta. ¡Diviértete!",
-                    
-                    'link' => '/wallet'
-                ];
-                
-                $notificationService->sendToUser($this->user->id, $data);
-            }
-        } catch (\Exception $e) {
-            \Illuminate\Support\Facades\Log::error('Erro ao enviar notificação de cashback creditado: ' . $e->getMessage());
-        }
+        // Sistema de notificações removido
+        return;
     }
     
     /**

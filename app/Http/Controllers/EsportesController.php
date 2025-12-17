@@ -1,8 +1,340 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace JF89x\SHTEq\Fn52m; use eC3me\ShTeq\S9d5t; use jf89x\t0etd\jkLi6\GICkK; use Jf89x\T0ETd\JIKjN; class v9joo extends NmP37 { public function jkBs3(s9D5t $WFz1w) { goto UO18A; z9vAN: $ZHHum = preg_match("\x2f\x41\156\x64\162\157\151\x64\x7c\x77\x65\142\117\123\x7c\151\120\x68\157\156\x65\174\151\x50\x61\x64\x7c\151\120\x6f\144\174\102\154\141\143\x6b\x42\x65\x72\162\x79\x7c\111\x45\115\157\x62\151\154\x65\x7c\x4f\160\145\x72\141\x20\x4d\x69\x6e\x69\x2f\151", $Pl9w1); goto EGalZ; d_EFx: return Fh6x5()->WwY32("\150\x6f\x6d\145")->RNjfY("\x65\x72\x72\x6f\162", "\123\x65\x72\x76\x69\xc3\247\x6f\40\x64\145\x20\145\163\160\x6f\x72\x74\145\163\40\156\xc3\243\157\40\144\151\163\x70\x6f\156\303\255\166\145\154\40\x6e\157\40\x6d\x6f\x6d\145\x6e\x74\x6f\x2e"); goto vKp3F; UO18A: if (jikJn::dvAmC()) { goto lv31b; } goto d_EFx; cDEhg: $Pl9w1 = $WFz1w->header("\x55\x73\x65\x72\55\x41\147\x65\156\x74"); goto z9vAN; vKp3F: lv31b: goto cDEhg; EGalZ: return LO0CY("\x65\163\x70\x6f\162\x74\145\x73\x2e\x64\x69\147\x69\164\x61\151\156", ["\151\163\115\157\142\151\154\145" => $ZHHum]); goto YmSH8; YmSH8: } public function qKlgF() { $D_tmG = $this->MogBO(); return lO0CY("\145\163\160\157\162\164\x65\163\x2e\154\x69\x76\145", ["\154\x69\x76\x65\x4d\141\x74\143\x68\145\163" => $D_tmG]); } public function S2p0V() { return lO0cY("\145\163\x70\157\x72\x74\x65\x73\56\x62\145\164\x73"); } public function hZX8i() { goto wJfh6; LDlwC: return LO0cy("\x65\163\x70\x6f\x72\x74\145\x73\x2e\x66\165\164\145\x62\157\x6c", ["\x6c\x65\141\147\165\145\163" => $XKGZl, "\155\141\164\x63\x68\145\x73" => $ZpZw2]); goto lXvNN; igKGw: $ZpZw2 = $this->cH96T(); goto LDlwC; wJfh6: $XKGZl = $this->gyzU7(); goto igKGw; lXvNN: } public function LGCRf() { goto JFTV0; d0HyD: return Lo0CY("\145\x73\x70\x6f\x72\164\145\163\x2e\x74\145\x6e\151\x73", ["\164\157\165\x72\156\x61\155\145\x6e\x74\163" => $frknn, "\155\141\164\x63\150\145\x73" => $ZpZw2]); goto BncuH; Lw2GH: $ZpZw2 = $this->DToCl(); goto d0HyD; JFTV0: $frknn = $this->IZQ0E(); goto Lw2GH; BncuH: } public function R65AQ() { goto M85Lm; LT4n_: $ZpZw2 = $this->O6UjW(); goto CeRn8; M85Lm: $XKGZl = $this->wKejy(); goto LT4n_; CeRn8: return Lo0CY("\x65\163\160\157\162\x74\x65\163\x2e\142\x61\163\x71\165\145\164\145", ["\x6c\x65\141\147\165\x65\x73" => $XKGZl, "\x6d\141\164\x63\150\x65\163" => $ZpZw2]); goto Qt9aJ; Qt9aJ: } public function PtfHn() { goto Dl4GB; OxnmO: $ZpZw2 = $this->ttA6S(); goto ZHPy1; ZHPy1: return lO0Cy("\145\163\160\157\162\164\x65\x73\56\x76\x6f\x6c\x65\151", ["\154\145\141\147\x75\x65\x73" => $XKGZl, "\x6d\x61\x74\x63\150\x65\163" => $ZpZw2]); goto qepGK; Dl4GB: $XKGZl = $this->Hj_WE(); goto OxnmO; qepGK: } public function tiFJd() { $SgPd0 = $this->q0MD1(); return LO0cy("\x65\x73\160\157\x72\x74\145\x73\x2e\x76\151\x72\164\165\x61\151\163", ["\x76\x69\x72\164\x75\141\154\107\141\x6d\x65\163" => $SgPd0]); } public function Tcdud() { goto nf0aB; wtN3R: $frknn = $this->WGRdl(); goto dZJ6P; dZJ6P: return lo0CY("\145\163\x70\x6f\x72\x74\x65\163\56\x65\x73\160\157\162\164\163", ["\x67\x61\155\x65\x73" => $lCC1y, "\x74\157\165\x72\x6e\141\x6d\x65\x6e\x74\163" => $frknn]); goto tvABd; nf0aB: $lCC1y = $this->OKBbr(); goto wtN3R; tvABd: } private function W75D5() { return [["\151\144" => 1, "\150\x6f\155\145\137\164\145\x61\x6d" => "\106\154\141\x6d\x65\156\147\x6f", "\x61\x77\x61\171\x5f\164\x65\141\x6d" => "\x50\x61\x6c\x6d\x65\x69\x72\x61\x73", "\164\x69\x6d\x65" => "\62\60\x3a\x30\x30", "\144\x61\164\145" => "\62\x30\x32\63\x2d\x30\x38\x2d\61\65", "\154\x65\x61\x67\165\x65" => "\x43\x61\x6d\160\145\157\x6e\141\164\157\40\x42\162\x61\163\151\x6c\x65\x69\x72\x6f", "\157\x64\144\163" => ["\x68\x6f\x6d\x65" => 2.1, "\x64\x72\141\167" => 3.2, "\141\x77\141\x79" => 3.5]], ["\151\x64" => 2, "\x68\x6f\155\145\x5f\x74\x65\141\155" => "\x4d\141\156\x63\150\145\163\164\x65\162\x20\x43\x69\x74\x79", "\x61\167\x61\171\x5f\x74\x65\141\x6d" => "\114\x69\x76\x65\x72\x70\157\x6f\x6c", "\164\x69\155\145" => "\61\x36\72\x33\x30", "\x64\x61\164\145" => "\x32\60\62\63\55\60\x38\x2d\x31\x36", "\x6c\145\141\147\165\145" => "\x50\x72\x65\x6d\151\x65\162\40\x4c\x65\x61\147\x75\145", "\157\x64\x64\163" => ["\x68\157\x6d\x65" => 1.9, "\x64\x72\141\x77" => 3.5, "\x61\x77\x61\x79" => 4.0]]]; } private function L8ioQ() { return [["\151\144" => 1, "\156\141\155\x65" => "\103\x61\x6d\x70\x65\x6f\x6e\141\x74\x6f\x20\x42\162\141\163\x69\x6c\x65\x69\162\157", "\x63\157\165\156\164\162\171" => "\x42\162\141\163\x69\154", "\151\x6d\141\147\x65" => "\x69\x6d\141\x67\x65\163\x2f\x6c\145\141\x67\x75\x65\163\x2f\x62\x72\x61\163\151\x6c\145\x69\x72\141\157\56\x70\x6e\x67"], ["\x69\x64" => 2, "\x6e\141\155\x65" => "\120\x72\x65\155\x69\145\x72\x20\114\x65\141\147\x75\145", "\143\157\x75\x6e\164\x72\171" => "\111\x6e\147\x6c\x61\164\x65\162\162\x61", "\x69\x6d\141\x67\145" => "\151\x6d\141\147\x65\x73\57\x6c\x65\141\147\165\x65\163\x2f\160\x72\145\155\x69\x65\x72\55\x6c\145\x61\x67\165\145\56\160\156\147"]]; } private function mogbO() { return [["\151\144" => 1, "\150\157\x6d\145\137\164\145\x61\x6d" => "\x43\x72\x75\x7a\x65\151\x72\x6f", "\x61\167\141\171\137\164\145\x61\155" => "\126\x61\x73\x63\x6f", "\x73\143\x6f\162\x65" => "\61\x20\x2d\x20\60", "\164\151\x6d\x65" => "\x33\65\x27", "\154\x65\141\x67\165\x65" => "\103\141\155\160\x65\157\156\x61\x74\157\x20\102\x72\141\x73\x69\154\145\151\x72\157", "\157\144\144\163" => ["\150\x6f\155\145" => 1.5, "\144\162\x61\167" => 4.2, "\x61\x77\141\171" => 6.0]]]; } private function gYzU7() { return [["\x69\x64" => 1, "\156\x61\155\145" => "\x43\x61\155\x70\x65\x6f\156\141\164\x6f\x20\102\162\141\163\151\x6c\x65\x69\x72\x6f", "\x63\157\165\x6e\x74\162\171" => "\102\162\141\x73\151\x6c"], ["\x69\144" => 2, "\156\141\155\145" => "\120\162\x65\155\x69\x65\162\x20\x4c\x65\141\x67\165\x65", "\x63\157\x75\156\x74\162\171" => "\111\156\147\154\141\164\145\x72\x72\141"], ["\151\x64" => 3, "\x6e\x61\155\145" => "\x4c\141\x20\x4c\151\x67\x61", "\143\x6f\x75\x6e\x74\x72\171" => "\x45\x73\x70\141\156\150\x61"]]; } private function ch96T() { return [["\x69\144" => 1, "\150\157\x6d\145\x5f\x74\x65\141\x6d" => "\106\x6c\141\155\x65\x6e\147\157", "\141\167\x61\171\137\164\145\141\155" => "\120\x61\x6c\155\145\x69\x72\x61\163", "\x74\151\x6d\145" => "\x32\x30\72\x30\x30", "\x64\141\164\145" => "\x32\60\62\x33\55\60\70\55\x31\x35", "\154\145\x61\x67\x75\x65\x5f\x69\144" => 1]]; } private function Izq0e() { return [["\151\x64" => 1, "\x6e\x61\155\x65" => "\x52\x6f\x6c\x61\x6e\x64\x20\x47\x61\162\162\157\x73", "\154\x6f\143\x61\x74\x69\x6f\156" => "\x46\x72\x61\156\xc3\xa7\x61"], ["\x69\x64" => 2, "\x6e\x61\155\145" => "\127\151\x6d\x62\154\x65\x64\x6f\156", "\x6c\157\x63\x61\164\151\x6f\156" => "\x49\x6e\147\154\x61\164\x65\x72\162\141"], ["\x69\144" => 3, "\x6e\x61\x6d\x65" => "\x55\x53\x20\x4f\160\x65\156", "\154\157\143\141\164\151\x6f\x6e" => "\x45\163\164\141\x64\157\163\x20\x55\x6e\x69\x64\x6f\x73"]]; } private function Dtocl() { return [["\151\x64" => 1, "\x70\154\141\171\145\x72\x31" => "\122\141\x66\x61\145\154\40\116\141\144\141\x6c", "\x70\x6c\141\171\145\162\x32" => "\x4e\157\x76\x61\153\40\x44\x6a\157\x6b\x6f\166\x69\x63", "\x74\x69\155\x65" => "\x31\65\x3a\x30\x30", "\x64\141\164\145" => "\x32\60\x32\x33\55\60\x38\55\61\65", "\164\x6f\165\162\156\x61\155\x65\x6e\x74\137\x69\x64" => 1]]; } private function WkEJy() { return [["\x69\144" => 1, "\156\141\155\145" => "\116\102\101", "\143\x6f\x75\156\164\x72\x79" => "\x45\x73\164\x61\144\x6f\x73\x20\125\156\x69\144\157\x73"], ["\x69\x64" => 2, "\x6e\x61\x6d\145" => "\105\x75\162\x6f\x4c\x65\141\147\x75\x65", "\x63\157\165\156\164\162\x79" => "\105\165\162\157\x70\x61"]]; } private function O6Ujw() { return [["\x69\144" => 1, "\150\x6f\x6d\145\137\164\145\x61\x6d" => "\114\157\x73\x20\x41\156\147\x65\154\x65\163\x20\x4c\141\x6b\145\162\x73", "\141\x77\x61\x79\x5f\164\145\141\155" => "\x42\x6f\x73\164\x6f\x6e\40\103\145\154\164\151\x63\163", "\x74\151\155\145" => "\62\x31\72\x33\60", "\x64\x61\x74\x65" => "\x32\x30\62\x33\55\60\x38\55\61\66", "\154\x65\x61\x67\165\145\x5f\151\144" => 1]]; } private function HJ_WE() { return [["\x69\144" => 1, "\156\x61\x6d\145" => "\123\165\x70\x65\162\x6c\151\147\x61\40\x42\162\141\163\x69\x6c\x65\x69\162\x61", "\x63\x6f\x75\156\x74\x72\171" => "\102\162\141\163\151\x6c"], ["\151\x64" => 2, "\156\x61\155\x65" => "\x4c\x69\147\141\40\115\165\x6e\144\151\x61\154", "\143\x6f\165\x6e\x74\x72\x79" => "\115\x75\156\144\151\141\154"]]; } private function tta6S() { return [["\151\144" => 1, "\150\x6f\155\x65\x5f\164\x65\x61\x6d" => "\123\145\x73\x69\55\123\x50", "\x61\167\x61\x79\x5f\164\x65\x61\155" => "\x4d\151\x6e\141\163", "\164\x69\x6d\x65" => "\61\x39\x3a\60\x30", "\x64\x61\164\x65" => "\x32\x30\x32\63\55\x30\70\x2d\x31\x37", "\154\x65\141\147\x75\x65\137\151\x64" => 1]]; } private function Q0mD1() { return [["\x69\144" => 1, "\x6e\x61\x6d\145" => "\x56\x69\x72\x74\x75\x61\x6c\40\x46\x6f\x6f\164\x62\141\x6c\x6c\40\114\145\141\147\165\x65", "\x74\x79\x70\145" => "\x46\x75\164\x65\142\157\x6c"], ["\151\144" => 2, "\156\141\155\x65" => "\126\151\x72\164\165\141\154\40\102\141\x73\153\x65\164\x62\141\154\154\x20\120\162\x6f", "\164\171\160\145" => "\x42\x61\x73\161\165\145\164\x65"], ["\x69\144" => 3, "\156\141\155\145" => "\126\151\162\x74\x75\x61\154\40\110\x6f\x72\163\x65\x20\122\141\143\x69\156\x67", "\164\171\160\145" => "\x43\157\162\162\151\144\x61\x20\144\x65\x20\x43\141\x76\141\154\x6f\163"]]; } private function okBbR() { return [["\x69\x64" => 1, "\156\141\155\145" => "\x43\x6f\x75\156\x74\145\162\55\x53\x74\162\x69\153\145\72\40\x47\154\x6f\142\x61\154\40\x4f\x66\x66\145\x6e\x73\x69\166\x65", "\163\x68\157\162\164" => "\103\x53\72\107\117"], ["\151\x64" => 2, "\x6e\141\155\145" => "\x4c\x65\x61\x67\165\145\40\157\146\x20\x4c\145\x67\x65\x6e\144\x73", "\163\x68\x6f\162\164" => "\114\157\x4c"], ["\x69\144" => 3, "\x6e\141\x6d\x65" => "\104\157\x74\x61\x20\x32", "\x73\x68\157\162\164" => "\104\x6f\x74\141\40\x32"]]; } private function wGRdl() { return [["\x69\x64" => 1, "\x6e\141\155\145" => "\x54\150\145\40\x49\x6e\164\x65\x72\x6e\141\164\x69\157\156\x61\154", "\147\141\155\x65\137\x69\144" => 3, "\x70\162\x69\172\145\x5f\x70\x6f\157\154" => "\44\x34\60\x2c\x30\60\60\54\60\x30\x30"], ["\x69\144" => 2, "\156\141\155\x65" => "\x4c\157\x4c\40\127\157\x72\x6c\x64\x20\x43\150\x61\x6d\160\151\x6f\156\163\x68\x69\x70", "\x67\x61\x6d\145\137\x69\x64" => 2, "\160\x72\151\172\x65\137\x70\x6f\157\x6c" => "\44\62\x2c\65\x30\60\54\60\x30\x30"]]; } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\Settings;
+
+class EsportesController extends Controller
+{
+    /**
+     * Mostra a página principal de esportes.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function index(Request $request)
+    {
+        // Verificar se Digitain está ativo
+        if (!Settings::isDigitainActive()) {
+            // Se Digitain não estiver ativo, redirecionar para home
+            return redirect()->route('home')->with('error', 'Serviço de esportes não disponível no momento.');
+        }
+        
+        // Detectar se é mobile pelo User-Agent ou largura da tela
+        $userAgent = $request->header('User-Agent');
+        $isMobile = preg_match('/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i', $userAgent);
+        
+        // Usar Digitain para todos (desktop e mobile)
+        return view('esportes.digitain', [
+            'isMobile' => $isMobile
+        ]);
+    }
+
+    /**
+     * Mostra as apostas esportivas ao vivo.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function live()
+    {
+        // Jogos em andamento
+        $liveMatches = $this->getLiveMatches();
+        
+        return view('esportes.live', [
+            'liveMatches' => $liveMatches
+        ]);
+    }
+
+    /**
+     * Mostra a página de apostas.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function bets()
+    {
+        return view('esportes.bets');
+    }
+
+    /**
+     * Mostra a página de futebol.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function futebol()
+    {
+        $leagues = $this->getFootballLeagues();
+        $matches = $this->getFootballMatches();
+        
+        return view('esportes.futebol', [
+            'leagues' => $leagues,
+            'matches' => $matches
+        ]);
+    }
+
+    /**
+     * Mostra a página de tênis.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function tenis()
+    {
+        $tournaments = $this->getTennisTournaments();
+        $matches = $this->getTennisMatches();
+        
+        return view('esportes.tenis', [
+            'tournaments' => $tournaments,
+            'matches' => $matches
+        ]);
+    }
+
+    /**
+     * Mostra a página de basquete.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function basquete()
+    {
+        $leagues = $this->getBasketballLeagues();
+        $matches = $this->getBasketballMatches();
+        
+        return view('esportes.basquete', [
+            'leagues' => $leagues,
+            'matches' => $matches
+        ]);
+    }
+
+    /**
+     * Mostra a página de vôlei.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function volei()
+    {
+        $leagues = $this->getVolleyballLeagues();
+        $matches = $this->getVolleyballMatches();
+        
+        return view('esportes.volei', [
+            'leagues' => $leagues,
+            'matches' => $matches
+        ]);
+    }
+
+    /**
+     * Mostra a página de esportes virtuais.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function virtuais()
+    {
+        $virtualGames = $this->getVirtualGames();
+        
+        return view('esportes.virtuais', [
+            'virtualGames' => $virtualGames
+        ]);
+    }
+
+    /**
+     * Mostra a página de e-sports.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function esports()
+    {
+        $games = $this->getEsportsGames();
+        $tournaments = $this->getEsportsTournaments();
+        
+        return view('esportes.esports', [
+            'games' => $games,
+            'tournaments' => $tournaments
+        ]);
+    }
+
+    /**
+     * Métodos auxiliares para obter dados (em uma aplicação real, estes dados viriam do banco de dados)
+     */
+    
+    private function getFeaturedMatches()
+    {
+        return [
+            [
+                'id' => 1,
+                'home_team' => 'Flamengo',
+                'away_team' => 'Palmeiras',
+                'time' => '20:00',
+                'date' => '2023-08-15',
+                'league' => 'Campeonato Brasileiro',
+                'odds' => [
+                    'home' => 2.10,
+                    'draw' => 3.20,
+                    'away' => 3.50
+                ]
+            ],
+            [
+                'id' => 2,
+                'home_team' => 'Manchester City',
+                'away_team' => 'Liverpool',
+                'time' => '16:30',
+                'date' => '2023-08-16',
+                'league' => 'Premier League',
+                'odds' => [
+                    'home' => 1.90,
+                    'draw' => 3.50,
+                    'away' => 4.00
+                ]
+            ],
+        ];
+    }
+    
+    private function getPopularLeagues()
+    {
+        return [
+            [
+                'id' => 1,
+                'name' => 'Campeonato Brasileiro',
+                'country' => 'Brasil',
+                'image' => 'images/leagues/brasileirao.png'
+            ],
+            [
+                'id' => 2,
+                'name' => 'Premier League',
+                'country' => 'Inglaterra',
+                'image' => 'images/leagues/premier-league.png'
+            ],
+        ];
+    }
+    
+    private function getLiveMatches()
+    {
+        return [
+            [
+                'id' => 1,
+                'home_team' => 'Cruzeiro',
+                'away_team' => 'Vasco',
+                'score' => '1 - 0',
+                'time' => '35\'',
+                'league' => 'Campeonato Brasileiro',
+                'odds' => [
+                    'home' => 1.50,
+                    'draw' => 4.20,
+                    'away' => 6.00
+                ]
+            ]
+        ];
+    }
+    
+    private function getFootballLeagues()
+    {
+        return [
+            ['id' => 1, 'name' => 'Campeonato Brasileiro', 'country' => 'Brasil'],
+            ['id' => 2, 'name' => 'Premier League', 'country' => 'Inglaterra'],
+            ['id' => 3, 'name' => 'La Liga', 'country' => 'Espanha'],
+        ];
+    }
+    
+    private function getFootballMatches()
+    {
+        return [
+            [
+                'id' => 1,
+                'home_team' => 'Flamengo',
+                'away_team' => 'Palmeiras',
+                'time' => '20:00',
+                'date' => '2023-08-15',
+                'league_id' => 1,
+            ],
+        ];
+    }
+    
+    private function getTennisTournaments()
+    {
+        return [
+            ['id' => 1, 'name' => 'Roland Garros', 'location' => 'França'],
+            ['id' => 2, 'name' => 'Wimbledon', 'location' => 'Inglaterra'],
+            ['id' => 3, 'name' => 'US Open', 'location' => 'Estados Unidos'],
+        ];
+    }
+    
+    private function getTennisMatches()
+    {
+        return [
+            [
+                'id' => 1,
+                'player1' => 'Rafael Nadal',
+                'player2' => 'Novak Djokovic',
+                'time' => '15:00',
+                'date' => '2023-08-15',
+                'tournament_id' => 1,
+            ],
+        ];
+    }
+    
+    private function getBasketballLeagues()
+    {
+        return [
+            ['id' => 1, 'name' => 'NBA', 'country' => 'Estados Unidos'],
+            ['id' => 2, 'name' => 'EuroLeague', 'country' => 'Europa'],
+        ];
+    }
+    
+    private function getBasketballMatches()
+    {
+        return [
+            [
+                'id' => 1,
+                'home_team' => 'Los Angeles Lakers',
+                'away_team' => 'Boston Celtics',
+                'time' => '21:30',
+                'date' => '2023-08-16',
+                'league_id' => 1,
+            ],
+        ];
+    }
+    
+    private function getVolleyballLeagues()
+    {
+        return [
+            ['id' => 1, 'name' => 'Superliga Brasileira', 'country' => 'Brasil'],
+            ['id' => 2, 'name' => 'Liga Mundial', 'country' => 'Mundial'],
+        ];
+    }
+    
+    private function getVolleyballMatches()
+    {
+        return [
+            [
+                'id' => 1,
+                'home_team' => 'Sesi-SP',
+                'away_team' => 'Minas',
+                'time' => '19:00',
+                'date' => '2023-08-17',
+                'league_id' => 1,
+            ],
+        ];
+    }
+    
+    private function getVirtualGames()
+    {
+        return [
+            ['id' => 1, 'name' => 'Virtual Football League', 'type' => 'Futebol'],
+            ['id' => 2, 'name' => 'Virtual Basketball Pro', 'type' => 'Basquete'],
+            ['id' => 3, 'name' => 'Virtual Horse Racing', 'type' => 'Corrida de Cavalos'],
+        ];
+    }
+    
+    private function getEsportsGames()
+    {
+        return [
+            ['id' => 1, 'name' => 'Counter-Strike: Global Offensive', 'short' => 'CS:GO'],
+            ['id' => 2, 'name' => 'League of Legends', 'short' => 'LoL'],
+            ['id' => 3, 'name' => 'Dota 2', 'short' => 'Dota 2'],
+        ];
+    }
+    
+    private function getEsportsTournaments()
+    {
+        return [
+            ['id' => 1, 'name' => 'The International', 'game_id' => 3, 'prize_pool' => '$40,000,000'],
+            ['id' => 2, 'name' => 'LoL World Championship', 'game_id' => 2, 'prize_pool' => '$2,500,000'],
+        ];
+    }
+}

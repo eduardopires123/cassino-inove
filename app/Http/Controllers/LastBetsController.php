@@ -1,8 +1,187 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\SHTeQ\fn52M; use Ec3ME\shTEq\S9d5t; use eC3ME\H2vuv\p2qh1\LvloX; use ec3mE\H2vuv\P2Qh1\DjLVj; use ec3ME\h2VuV\p2QH1\Log; class e54xq extends nMp37 { public function LUq6m(s9D5t $WFz1w) { try { goto MUcE4; W7Db8: foreach ($PiC42 as $xco7l) { goto Xrbmu; IjToX: if (str_starts_with($xco7l->TD6jX, "\150\164\164\x70")) { goto KsExF; } goto Oo0zs; fqC44: $JqAND = $xco7l->e9w7B * $K9klZ / 100; goto lRiXc; YSvgf: if (empty($xco7l->TD6jX)) { goto doAh5; } goto IjToX; udAri: iquOk: goto MgX1N; czMtJ: LZrB_: goto VuDe7; Xqu__: L0MgN: goto KOddQ; tihL6: $Tzurr = $Tzurr . "\52\52\x2a"; goto ghHnJ; MgX1N: $Tzurr = $xco7l->FNpTo; goto AmP5r; PsI2L: HcQwc: goto x65CQ; AmP5r: if (strlen($Tzurr) > 3) { goto Qmg9J; } goto tihL6; KOddQ: goto VvpRD; goto TYQ2m; DmCY2: Qmg9J: goto e7Hqe; YKqsF: if (!file_exists($e9TsV)) { goto L0MgN; } goto KtIqz; Oo0zs: $e9TsV = SvYrZ("\141\160\x70\x2f\160\165\142\154\151\x63\57" . $xco7l->TD6jX); goto YKqsF; KtIqz: $U4PUW = jH97u("\x41\120\120\137\x55\x52\x4c", "\x68\x74\x74\x70\163\x3a\57\x2f" . s9D5T()->yT9at()) . "\x2f\x73\164\157\162\x61\x67\x65\57" . $xco7l->TD6jX; goto Xqu__; x65CQ: $U4PUW = null; goto YSvgf; guZy5: goto LZrB_; goto udAri; TYQ2m: KsExF: goto rr3gF; lRiXc: $fWSjY[] = ["\151\144" => $xco7l->id, "\141\x6d\x6f\x75\x6e\x74" => $xco7l->e9w7B, "\x61\155\x6f\x75\x6e\x74\x5f\146\x6f\x72\155\x61\x74\164\145\x64" => number_format($xco7l->e9w7B, 2, "\54", "\56"), "\160\x72\x65\166\x69\157\165\x73\x5f\x61\x6d\157\165\x6e\164" => $JqAND, "\160\162\145\166\x69\x6f\165\x73\137\x61\155\x6f\x75\x6e\164\x5f\x66\157\x72\155\141\x74\x74\x65\144" => number_format($JqAND, 2, "\54", "\56"), "\141\x63\164\x69\x6f\x6e" => $xco7l->US5ak, "\x75\x73\x65\162\137\x6e\141\155\x65" => $Tzurr, "\x67\141\155\145\137\x6e\141\155\x65" => $xco7l->T9pPG, "\x67\x61\x6d\x65\137\151\x6d\x61\x67\145" => $U4PUW, "\x67\141\155\145\137\151\x64" => $xco7l->dKzX1, "\143\x72\x65\x61\164\145\x64\x5f\141\x74" => $xco7l->RvvCO, "\164\x69\x6d\145\x5f\141\x67\x6f" => $this->h2MBf($xco7l->RvvCO), "\x74\151\x6d\x65\163\164\141\x6d\160" => strtotime($xco7l->RvvCO)]; goto czMtJ; rr3gF: $U4PUW = $xco7l->TD6jX; goto rs1qx; rs1qx: VvpRD: goto wa2Yw; e7Hqe: $Tzurr = substr($Tzurr, 0, 3) . "\x2a\52\x2a"; goto PsI2L; wa2Yw: doAh5: goto zP5Be; zP5Be: $K9klZ = mt_rand(10, 50); goto fqC44; ghHnJ: goto HcQwc; goto DmCY2; Xrbmu: if (!(empty($xco7l->FNpTo) || empty($xco7l->T9pPG) || $xco7l->e9w7B <= 0)) { goto iquOk; } goto guZy5; VuDe7: } goto RqB8I; Jfr96: $fWSjY = []; goto W7Db8; TM_JR: $cjvWU = empty($qQKOq); goto oz0hG; mDp9_: return jGKrL()->sbE1q(["\163\x75\143\143\145\163\163" => true, "\x62\x65\164\163" => [], "\x74\x6f\x74\x61\x6c" => 0, "\151\x73\x5f\165\x70\144\141\x74\145" => !$cjvWU, "\x6c\x61\x73\x74\x5f\143\x68\145\x63\x6b" => whfh3()->G61rB(), "\155\x65\x73\x73\141\147\x65" => $cjvWU ? "\x4e\x65\156\x68\165\x6d\141\40\x61\160\157\x73\164\141\40\145\x6e\x63\157\156\x74\x72\x61\x64\141" : "\116\145\x6e\150\x75\155\x61\x20\x6e\157\166\x61\40\141\x70\157\163\164\141"]); goto v9RwC; nvDTZ: return JGKRL()->SBE1q(["\x73\165\143\143\x65\163\163" => true, "\142\145\164\x73" => $fWSjY, "\x74\157\x74\141\154" => count($fWSjY), "\151\x73\137\x75\160\x64\141\164\145" => !$cjvWU, "\x6c\141\163\x74\137\x63\150\x65\x63\x6b" => whfh3()->g61rb(), "\x68\141\163\x5f\156\x65\x77\x5f\142\x65\x74\163" => count($fWSjY) > 0]); goto VPKpJ; v9RwC: kOxox: goto Jfr96; oz0hG: $FXcdu = $cjvWU ? "\154\x61\163\x74\137\x62\145\164\x73\137\x69\x6e\x69\x74\151\x61\x6c" : "\154\141\163\164\137\142\x65\164\163\137\165\160\x64\141\x74\145\x73\x5f" . md5($qQKOq); goto r7nCg; iPwJ5: if (!$PiC42->isEmpty()) { goto kOxox; } goto mDp9_; kRkLp: $PiC42 = DjlvJ::MJFj5($FXcdu, $TS5ab, function () use($qQKOq, $cjvWU) { goto ij0xX; EPu6x: if (!$cjvWU && $qQKOq) { goto gioeJ; } goto dTetE; B6tUs: return $XrAG1->get(); goto BVFXR; V6j1Y: gioeJ: goto dnI40; oey_i: AeYud: goto B6tUs; dTetE: $XrAG1->NOr_l(20); goto LRmrJ; ij0xX: $XrAG1 = LVlOx::FtZ7f("\147\x61\x6d\145\163\x5f\x68\x69\x73\x74\x6f\x72\x79")->join("\x75\163\145\162\163", "\x67\x61\155\x65\163\x5f\x68\151\163\164\157\x72\171\56\165\163\145\162\137\x69\144", "\75", "\165\x73\x65\162\x73\56\151\144")->GnKpl("\147\x61\155\x65\x73\x5f\141\x70\151", function ($LiCPT) { $LiCPT->cH2ny("\147\x61\155\145\163\137\x68\151\x73\x74\157\x72\x79\56\x67\x61\x6d\145", "\75", "\147\141\155\145\163\137\141\x70\x69\56\163\x6c\x75\x67")->C_MHy("\147\141\155\x65\x73\x5f\141\160\x69\x2e\163\164\x61\164\165\x73", 1); })->gnKpl("\x70\x72\157\166\151\x64\145\x72\163", "\x67\141\155\145\163\137\x61\160\x69\56\160\x72\x6f\x76\151\x64\145\162\x5f\151\144", "\75", "\160\162\157\166\x69\144\x65\x72\x73\x2e\x69\x64")->QqeOk("\147\x61\155\x65\163\137\150\151\163\x74\157\162\x79\56\x69\x64", "\147\141\x6d\145\x73\x5f\150\x69\x73\164\x6f\x72\171\x2e\141\x6d\157\165\x6e\164", "\147\141\155\x65\x73\x5f\x68\151\163\164\157\162\171\56\x61\x63\164\x69\x6f\156", "\x75\x73\145\162\163\56\x6e\x61\x6d\x65\40\141\x73\40\165\163\x65\x72\x5f\156\x61\x6d\x65", "\147\x61\x6d\x65\163\137\x61\160\x69\x2e\156\141\155\145\x20\141\163\x20\147\x61\155\145\137\156\141\x6d\x65", "\x67\141\155\x65\x73\x5f\141\160\151\56\x69\x6d\141\x67\x65\40\141\163\40\x67\x61\x6d\x65\x5f\x69\x6d\x61\x67\145", "\147\x61\155\x65\163\x5f\141\x70\x69\56\151\x64\40\x61\163\x20\147\141\x6d\145\137\151\144", "\x70\x72\x6f\x76\151\144\145\x72\163\56\156\x61\x6d\x65\x20\x61\163\x20\160\162\157\x76\151\x64\145\x72\137\156\141\x6d\145", "\x67\141\x6d\145\163\x5f\x68\151\x73\x74\x6f\x72\171\56\143\x72\x65\141\164\x65\144\137\x61\x74")->c_mhy("\x67\x61\155\x65\163\137\150\x69\x73\164\157\x72\x79\56\141\143\x74\x69\x6f\x6e", "\167\x69\x6e")->C_MhY("\147\x61\x6d\145\x73\x5f\150\x69\x73\164\x6f\162\x79\56\141\x6d\157\x75\156\x74", "\76", 0)->RKTir("\x75\163\x65\162\163\56\x6e\x61\155\x65")->rKtIR("\x67\x61\155\145\x73\x5f\x61\x70\x69\x2e\x6e\x61\155\x65")->a9jmh("\147\x61\x6d\145\x73\137\x68\151\x73\x74\x6f\162\x79\x2e\143\162\x65\141\164\145\144\137\141\164", "\x64\x65\x73\x63"); goto EPu6x; dnI40: $XrAG1->c_MHy("\x67\141\x6d\145\163\x5f\150\x69\163\x74\x6f\x72\x79\56\143\x72\145\x61\x74\145\144\x5f\x61\x74", "\76", $qQKOq); goto cRYXV; cRYXV: $XrAG1->nOr_l(50); goto oey_i; LRmrJ: goto AeYud; goto V6j1Y; BVFXR: }); goto iPwJ5; NbyZN: usort($fWSjY, function ($tqi0S, $svUuc) { return $svUuc["\x74\151\155\x65\163\x74\x61\x6d\160"] - $tqi0S["\164\x69\x6d\x65\163\164\x61\155\160"]; }); goto nvDTZ; r7nCg: $TS5ab = $cjvWU ? WhfH3()->liLE5(15) : whfH3()->LilE5(5); goto kRkLp; RqB8I: dPZZ3: goto NbyZN; MUcE4: $qQKOq = $WFz1w->get("\154\141\x73\164\137\143\150\145\x63\153"); goto TM_JR; VPKpJ: } catch (\Exception $ai57B) { Log::p2M7e("\105\162\x72\157\x20\x61\157\40\157\142\164\145\x72\40\xc3\272\x6c\x74\x69\x6d\x61\x73\40\x61\160\157\x73\164\x61\x73\72\x20" . $ai57B->getMessage(), ["\x65\x78\143\145\160\x74\x69\157\156" => get_class($ai57B), "\x66\151\x6c\x65" => $ai57B->getFile(), "\154\151\156\x65" => $ai57B->getLine(), "\x74\x72\x61\143\145" => $ai57B->getTraceAsString()]); return JgKrl()->sbE1Q(["\163\165\143\143\x65\x73\x73" => false, "\x6d\145\163\163\141\x67\x65" => "\105\x72\x72\157\x20\x69\156\x74\145\162\x6e\157\x20\x64\157\40\x73\145\162\166\151\x64\157\x72\40\141\x6f\40\x62\x75\x73\143\141\x72\x20\xc3\xba\154\x74\x69\x6d\x61\163\40\x61\x70\x6f\163\164\x61\163", "\142\145\x74\x73" => [], "\x74\157\164\141\154" => 0, "\x69\x73\137\165\x70\x64\141\x74\x65" => !empty($WFz1w->get("\154\141\x73\164\137\143\150\x65\143\x6b")), "\x6c\x61\x73\x74\x5f\x63\150\145\143\153" => WhFH3()->G61rb()], 500); } } private function h2Mbf($qZxsF) { try { goto qZPsr; Fu4cr: goto DLK1s; goto J9lib; TymS3: Y8h5O: goto AP2L6; mKw0K: $xX2zY = floor($Bq3b5 / 60); goto dNJem; cHsN6: G9L1S: goto mKw0K; WUTLY: DLK1s: goto KVTFB; bMmdk: if ($Bq3b5 < 86400) { goto qkDd7; } goto FGSzw; lJSVl: if ($Bq3b5 < 3600) { goto G9L1S; } goto bMmdk; wxuWX: goto DLK1s; goto cHsN6; l0MP3: return $sGox0 . "\x64\40\141\164\162\xc3\xa1\163"; goto OpPT1; qZPsr: $Bq3b5 = time() - strtotime($qZxsF); goto Za9yE; AP2L6: return "\x61\147\157\162\x61"; goto wxuWX; FGSzw: $sGox0 = floor($Bq3b5 / 86400); goto l0MP3; QwZT2: return $ovg5Y . "\150\40\x61\x74\162\xc3\241\x73"; goto WUTLY; J9lib: qkDd7: goto m2x03; OpPT1: goto DLK1s; goto TymS3; Za9yE: if ($Bq3b5 < 60) { goto Y8h5O; } goto lJSVl; m2x03: $ovg5Y = floor($Bq3b5 / 3600); goto QwZT2; dNJem: return $xX2zY . "\155\x20\141\x74\162\303\241\163"; goto Fu4cr; KVTFB: } catch (\Exception $ai57B) { return "\150\303\xa1\x20\160\x6f\x75\143\157"; } } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Log;
+
+class LastBetsController extends Controller
+{
+    /**
+     * Obtém as últimas apostas para exibição na página inicial
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getLastBets(Request $request)
+    {
+        try {
+            $lastCheck = $request->get('last_check'); // Timestamp da última verificação
+            $isInitialLoad = empty($lastCheck);
+            
+            // Cache mais curto para atualizações frequentes
+            $cacheKey = $isInitialLoad ? 'last_bets_initial' : 'last_bets_updates_' . md5($lastCheck);
+            $cacheTime = $isInitialLoad ? now()->addSeconds(15) : now()->addSeconds(5);
+            
+            $lastBets = Cache::remember($cacheKey, $cacheTime, function () use ($lastCheck, $isInitialLoad) {
+                $query = DB::table('games_history')
+                    ->join('users', 'games_history.user_id', '=', 'users.id')
+                    ->leftJoin('games_api', function($join) {
+                        $join->whereColumn('games_history.game', '=', 'games_api.slug')
+                             ->where('games_api.status', 1);
+                    })
+                    ->leftJoin('providers', 'games_api.provider_id', '=', 'providers.id')
+                    ->select(
+                        'games_history.id',
+                        'games_history.amount',
+                        'games_history.action',
+                        'users.name as user_name',
+                        'games_api.name as game_name',
+                        'games_api.image as game_image',
+                        'games_api.id as game_id',
+                        'providers.name as provider_name',
+                        'games_history.created_at'
+                    )
+                    ->where('games_history.action', 'win')
+                    ->where('games_history.amount', '>', 0)
+                    ->whereNotNull('users.name')
+                    ->whereNotNull('games_api.name')
+                    ->orderBy('games_history.created_at', 'desc');
+                
+                // Se não for carregamento inicial, buscar apenas apostas mais recentes
+                if (!$isInitialLoad && $lastCheck) {
+                    $query->where('games_history.created_at', '>', $lastCheck);
+                    $query->limit(50); // Limite maior para atualizações
+                } else {
+                    $query->limit(20); // Carregamento inicial
+                }
+                
+                return $query->get();
+            });
+            
+            // Se não houver apostas, retornar array vazio
+            if ($lastBets->isEmpty()) {
+                return response()->json([
+                    'success' => true,
+                    'bets' => [],
+                    'total' => 0,
+                    'is_update' => !$isInitialLoad,
+                    'last_check' => now()->toDateTimeString(),
+                    'message' => $isInitialLoad ? 'Nenhuma aposta encontrada' : 'Nenhuma nova aposta'
+                ]);
+            }
+            
+            // Processar os dados para exibição
+            $formattedBets = [];
+            foreach ($lastBets as $bet) {
+                // Pular apostas sem dados essenciais
+                if (empty($bet->user_name) || empty($bet->game_name) || $bet->amount <= 0) {
+                    continue;
+                }
+                
+                // Mascarar o nome do usuário para privacidade
+                $userName = $bet->user_name;
+                if (strlen($userName) > 3) {
+                    $userName = substr($userName, 0, 3) . '***';
+                } else {
+                    $userName = $userName . '***';
+                }
+                
+                // Tratar imagem do jogo - apenas usar se existir e for válida
+                $gameImage = null;
+                if (!empty($bet->game_image)) {
+                    if (str_starts_with($bet->game_image, 'http')) {
+                        $gameImage = $bet->game_image;
+                    } else {
+                        // Verificar se o arquivo existe antes de usar
+                        $imagePath = storage_path('app/public/' . $bet->game_image);
+                        if (file_exists($imagePath)) {
+                            $gameImage = env('APP_URL', 'https://'.request()->getHost()) . '/storage/' . $bet->game_image;
+                        }
+                    }
+                }
+                
+                // Calcular valor anterior aleatório entre 10% a 50% da aposta ganha
+                $randomPercentage = mt_rand(10, 50);
+                $previousAmount = ($bet->amount * $randomPercentage) / 100;
+                
+                $formattedBets[] = [
+                    'id' => $bet->id,
+                    'amount' => $bet->amount,
+                    'amount_formatted' => number_format($bet->amount, 2, ',', '.'),
+                    'previous_amount' => $previousAmount,
+                    'previous_amount_formatted' => number_format($previousAmount, 2, ',', '.'),
+                    'action' => $bet->action,
+                    'user_name' => $userName,
+                    'game_name' => $bet->game_name,
+                    'game_image' => $gameImage,
+                    'game_id' => $bet->game_id,
+                    'created_at' => $bet->created_at,
+                    'time_ago' => $this->timeAgo($bet->created_at),
+                    'timestamp' => strtotime($bet->created_at)
+                ];
+            }
+            
+            // Ordenar por timestamp mais recente primeiro
+            usort($formattedBets, function($a, $b) {
+                return $b['timestamp'] - $a['timestamp'];
+            });
+            
+            return response()->json([
+                'success' => true,
+                'bets' => $formattedBets,
+                'total' => count($formattedBets),
+                'is_update' => !$isInitialLoad,
+                'last_check' => now()->toDateTimeString(),
+                'has_new_bets' => count($formattedBets) > 0
+            ]);
+            
+        } catch (\Exception $e) {
+            Log::error('Erro ao obter últimas apostas: ' . $e->getMessage(), [
+                'exception' => get_class($e),
+                'file' => $e->getFile(),
+                'line' => $e->getLine(),
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro interno do servidor ao buscar últimas apostas',
+                'bets' => [],
+                'total' => 0,
+                'is_update' => !empty($request->get('last_check')),
+                'last_check' => now()->toDateTimeString()
+            ], 500);
+        }
+    }
+    
+    /**
+     * Calcula o tempo decorrido desde a aposta
+     *
+     * @param string $datetime
+     * @return string
+     */
+    private function timeAgo($datetime)
+    {
+        try {
+            $time = time() - strtotime($datetime);
+            
+            if ($time < 60) {
+                return 'agora';
+            } elseif ($time < 3600) {
+                $minutes = floor($time / 60);
+                return $minutes . 'm atrás';
+            } elseif ($time < 86400) {
+                $hours = floor($time / 3600);
+                return $hours . 'h atrás';
+            } else {
+                $days = floor($time / 86400);
+                return $days . 'd atrás';
+            }
+        } catch (\Exception $e) {
+            return 'há pouco';
+        }
+    }
+} 

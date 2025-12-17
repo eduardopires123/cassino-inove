@@ -1,8 +1,214 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:40              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\SHtEq\Fn52M\jkLi6; use JF89x\sHteq\fN52m\Nmp37; use Jf89x\t0eTD\jkli6\UeNYS; use Ec3ME\SHtEq\s9D5T; use EC3Me\H2vUv\p2QH1\dJLVJ; class VihjV extends NMP37 { public function JkBs3() { return Lo0CY("\141\144\x6d\151\x6e\x2e\143\x75\x73\x74\x6f\x6d\x69\172\141\164\x69\157\x6e\56\143\x73\163"); } public function YGUq0(S9D5t $WFz1w) { try { goto jv5Bh; chByr: return jgkrL()->sBe1q(["\163\x75\143\143\145\x73\x73" => false, "\x6d\x65\163\x73\x61\x67\145" => "\115\x69\x73\163\x69\x6e\x67\40\x76\141\x72\151\141\x62\154\145\x20\x6f\162\40\166\x61\154\x75\145"], 400); goto frPvV; sshv9: $QfkQN->save(); goto cQpIO; Yk2y6: $QfkQN = uEnYS::uGYzw(1); goto BnMjw; iUbB_: $wor1r = $WFz1w->PC2lr("\166\141\154\165\x65"); goto dQlYO; KJ2Bn: $HJ9P3 = "\x63\x73\x73\x5f" . str_replace("\55", "\137", $oY1OU); goto Yk2y6; BnMjw: $QfkQN->{$HJ9P3} = $wor1r; goto sshv9; dQlYO: if (!(!$oY1OU || !$wor1r)) { goto IFp_g; } goto chByr; frPvV: IFp_g: goto KJ2Bn; jv5Bh: $oY1OU = $WFz1w->pC2LR("\x76\141\x72\151\x61\142\x6c\145"); goto iUbB_; cQpIO: return JGKRL()->SbE1q(["\163\x75\x63\x63\x65\163\163" => true]); goto ZPLmm; ZPLmm: } catch (\Exception $ai57B) { return jGkRl()->SBe1q(["\x73\x75\x63\x63\x65\x73\x73" => false, "\155\145\x73\x73\x61\147\145" => $ai57B->getMessage()], 500); } } public function zeY63(S9D5T $WFz1w) { try { goto kCotz; ddvbT: return jGKRL()->SBE1q(["\x73\x75\x63\x63\x65\163\163" => true]); goto uiUYN; w2IEJ: $QfkQN->save(); goto ddvbT; oY3yc: if (!(!$J4shG || !is_numeric($J4shG) || !in_array($J4shG, [1, 2, 3, 4]))) { goto wfd6m; } goto TuiaK; kCotz: $J4shG = $WFz1w->pc2lr("\x74\150\x65\x6d\x65\137\x69\144"); goto oY3yc; TuiaK: return jgKrl()->SBE1Q(["\x73\x75\x63\x63\145\163\x73" => false, "\x6d\x65\163\163\x61\x67\145" => "\111\156\166\141\154\151\144\40\x74\x68\145\155\145\40\x49\104"], 400); goto bLb1s; bLb1s: wfd6m: goto J_7t6; eNm5z: $QfkQN->O2xya = $J4shG; goto w2IEJ; J_7t6: $QfkQN = ueNYS::UGyzW(1); goto eNm5z; uiUYN: } catch (\Exception $ai57B) { return JgkRl()->SBe1Q(["\x73\x75\143\x63\145\x73\x73" => false, "\x6d\x65\163\x73\141\x67\145" => $ai57B->getMessage()], 500); } } public function jw0Lk(S9d5t $WFz1w) { try { goto XynaA; x3aLm: $QfkQN->save(); goto RYwBf; RYwBf: return JGkRl()->SBE1Q(["\163\x75\143\143\145\x73\x73" => true]); goto G1BaU; XynaA: $RguQd = $WFz1w->PC2Lr("\x63\x75\163\164\157\x6d\137\143\163\163"); goto MGDqh; MGDqh: $QfkQN = UENYS::ugyZW(1); goto ON3zU; ON3zU: $QfkQN->MwPxC = urlencode($RguQd); goto x3aLm; G1BaU: } catch (\Exception $ai57B) { return JgKRL()->SbE1q(["\163\x75\x63\x63\x65\163\x73" => false, "\155\x65\163\163\141\147\145" => $ai57B->getMessage()], 500); } } public function LVeuq(s9D5T $WFz1w) { try { goto gMwj_; gMwj_: $PBdZV = json_decode($WFz1w->pc2Lr("\x61\154\x6c\x5f\166\x61\162\x69\141\142\x6c\x65\x73"), true); goto oFEGB; PaSC2: return jGkRL()->sbe1Q(["\x73\x75\x63\x63\145\163\x73" => true]); goto wtQLH; L_zTL: $QfkQN->MwPxC = urlencode($RguQd); goto BR5R9; oFEGB: $RguQd = $WFz1w->Pc2lR("\143\165\x73\164\x6f\155\x5f\x63\163\163"); goto Uei1B; Uei1B: $QfkQN = uenYS::ugyZW(1); goto wDDbK; d_pyh: if (!$RguQd) { goto cZbif; } goto L_zTL; BR5R9: cZbif: goto CjzPi; CjzPi: $QfkQN->save(); goto PaSC2; DJfxq: eVPDB: goto d_pyh; wDDbK: foreach ($PBdZV as $oY1OU => $wor1r) { goto Zo4ZL; uZe9K: $QfkQN->{$HJ9P3} = $wor1r; goto HRHhr; HRHhr: vFx_F: goto UqcZL; Zo4ZL: $HJ9P3 = "\x63\163\x73\x5f" . str_replace("\x2d", "\x5f", $oY1OU); goto uZe9K; UqcZL: } goto DJfxq; wtQLH: } catch (\Exception $ai57B) { return jgKrl()->sbE1q(["\x73\165\143\x63\145\x73\x73" => false, "\155\145\163\163\x61\x67\x65" => $ai57B->getMessage()], 500); } } public static function f1SMU() { goto LmIzo; TphVQ: $xaL80 = $Ez0tS->getAttributes(); goto ig5G2; LmIzo: $Ez0tS = uenys::ylB3M(1); goto Qufy1; Kk1qA: foreach ($xaL80 as $qlAsN => $wor1r) { goto A1Ac9; HmJL0: $sZUJx = str_replace("\x5f", "\x2d", $sZUJx); goto xc_6U; U979H: wKnCg: goto HPUTT; gTmm7: KJkcp: goto U979H; xc_6U: $oRHMY .= "\40\40\x20\40\x2d\55{$sZUJx}\72\40{$wor1r}\73\12"; goto gTmm7; A1Ac9: if (!(strpos($qlAsN, "\x63\163\x73\x5f") === 0 && $qlAsN !== "\143\x75\x73\x74\157\155")) { goto KJkcp; } goto md31x; md31x: $sZUJx = str_replace("\143\x73\163\x5f", '', $qlAsN); goto HmJL0; HPUTT: } goto wl7hW; I71D6: WUFnU: goto TphVQ; wl7hW: gQawy: goto OXdJY; Qufy1: if ($Ez0tS) { goto WUFnU; } goto tQVI7; tQVI7: return "\72\162\157\x6f\164\x20\173\12\40\40\40\x20\57\x2a\40\x56\141\154\157\x72\145\163\40\x70\141\x64\x72\303\243\x6f\x20\163\145\x72\xc3\243\157\x20\165\x73\x61\144\x6f\x73\x20\x2a\x2f\xa\175"; goto I71D6; ig5G2: $oRHMY = "\72\162\x6f\x6f\164\40\x7b\12"; goto Kk1qA; OXdJY: $oRHMY .= "\175\12"; goto jEEFV; jEEFV: return $oRHMY; goto Fw6lG; Fw6lG: } public static function pjMV1() { goto zcC0K; f9z6V: return "\57\x2a\40\x53\145\155\x20\x43\x53\x53\x20\160\x65\162\163\x6f\156\141\x6c\x69\x7a\141\144\x6f\x20\x2a\57"; goto STNSc; W6S8e: if (!(!$Ez0tS || empty($Ez0tS->MwPxC))) { goto R6_QT; } goto f9z6V; STNSc: R6_QT: goto aQV0K; aQV0K: return urldecode($Ez0tS->MwPxC); goto orykR; zcC0K: $Ez0tS = UENys::yLb3m(1); goto W6S8e; orykR: } public static function pgKKq() { return DJlvj::MJfJ5("\151\156\x6c\151\156\x65\137\143\163\x73\x5f\143\x61\x63\x68\x65", wHFh3()->e1mFY(6), function () { return self::f1SmU() . "\12\12" . self::PjMV1(); }); } public static function WiZk0() { return DjlVJ::mJfj5("\x69\x6e\x6c\x69\156\145\137\x74\x68\145\x6d\145\x5f\143\x61\x63\x68\x65", WhFH3()->E1MFY(6), function () { goto b2DTr; igqYF: return 1; goto RDMaf; CBnxF: return (int) $Ez0tS->O2xya; goto T3g18; b2DTr: $Ez0tS = ueNYs::YLb3m(1); goto gw3wy; gw3wy: if (!(!$Ez0tS || !isset($Ez0tS->O2xya))) { goto vgpWc; } goto igqYF; RDMaf: vgpWc: goto CBnxF; T3g18: }); } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\Admin\CustomCSS;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+
+class CustomCSSController extends Controller
+{
+    /**
+     * Display the CSS configuration page
+     *
+     * @return \Illuminate\View\View
+     */
+    public function index()
+    {
+        return view('admin.customization.css');
+    }
+
+    /**
+     * Update a single CSS variable
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateVariable(Request $request)
+    {
+        try {
+            $variable = $request->input('variable');
+            $value = $request->input('value');
+
+            // Validate input
+            if (!$variable || !$value) {
+                return response()->json(['success' => false, 'message' => 'Missing variable or value'], 400);
+            }
+
+            // Convert CSS variable name to database column
+            $columnName = 'css_' . str_replace('-', '_', $variable);
+
+            // Update in database
+            $cssModel = CustomCSS::findOrFail(1);
+            $cssModel->$columnName = $value;
+            $cssModel->save();
+
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Update active theme
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateTheme(Request $request)
+    {
+        try {
+            $themeId = $request->input('theme_id');
+
+            // Validate input
+            if (!$themeId || !is_numeric($themeId) || !in_array($themeId, [1, 2, 3, 4])) {
+                return response()->json(['success' => false, 'message' => 'Invalid theme ID'], 400);
+            }
+
+            // Update in database
+            $cssModel = CustomCSS::findOrFail(1);
+            $cssModel->active_theme = $themeId;
+            $cssModel->save();
+
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Update custom CSS
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateCustom(Request $request)
+    {
+        try {
+            $customCss = $request->input('custom_css');
+
+            // Update in database
+            $cssModel = CustomCSS::findOrFail(1);
+            $cssModel->custom = urlencode($customCss);
+            $cssModel->save();
+
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Update all CSS variables and custom CSS at once
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function updateAll(Request $request)
+    {
+        try {
+            $allVariables = json_decode($request->input('all_variables'), true);
+            $customCss = $request->input('custom_css');
+
+            // Update in database
+            $cssModel = CustomCSS::findOrFail(1);
+
+            foreach ($allVariables as $variable => $value) {
+                $columnName = 'css_' . str_replace('-', '_', $variable);
+                $cssModel->$columnName = $value;
+            }
+
+            if ($customCss) {
+                $cssModel->custom = urlencode($customCss);
+            }
+
+            $cssModel->save();
+
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
+    }
+
+    /**
+     * Gera o código CSS para inclusão inline na página
+     *
+     * @return string
+     */
+    public static function getInlineCss()
+    {
+        // Busca diretamente do banco de dados
+        $settings = CustomCSS::find(1);
+
+        if (!$settings) {
+            return ":root {\n    /* Valores padrão serão usados */\n}";
+        }
+
+        $cssVariables = $settings->getAttributes();
+
+        // Gera o conteúdo CSS
+        $cssContent = ":root {\n";
+
+        foreach ($cssVariables as $key => $value) {
+            // Pega apenas as colunas que começam com css_
+            if (strpos($key, 'css_') === 0 && $key !== 'custom') {
+                $cssVarName = str_replace('css_', '', $key);
+                $cssVarName = str_replace('_', '-', $cssVarName);
+
+                $cssContent .= "    --{$cssVarName}: {$value};\n";
+            }
+        }
+
+        $cssContent .= "}\n";
+
+        return $cssContent;
+    }
+
+    /**
+     * Gera o CSS personalizado para inclusão inline
+     *
+     * @return string
+     */
+    public static function getCustomCss()
+    {
+        // Busca diretamente do banco de dados
+        $settings = CustomCSS::find(1);
+
+        if (!$settings || empty($settings->custom)) {
+            return "/* Sem CSS personalizado */";
+        }
+
+        return urldecode($settings->custom);
+    }
+
+    /**
+     * Gera todo o conteúdo CSS para inclusão inline
+     *
+     * @return string
+     */
+    public static function getAllInlineCss()
+    {
+        return Cache::remember('inline_css_cache', now()->addHours(6), function () {
+            return self::getInlineCss() . "\n\n" . self::getCustomCss();
+        });
+    }
+
+    /**
+     * Retorna o tema ativo atual
+     *
+     * @return int
+     */
+    public static function getActiveTheme()
+    {
+        return Cache::remember('inline_theme_cache', now()->addHours(6), function () {
+            $settings = CustomCSS::find(1);
+
+            if (!$settings || !isset($settings->active_theme)) {
+                return 1; // Default to theme 1 if not set
+            }
+
+            return (int) $settings->active_theme;
+        });
+    }
+}

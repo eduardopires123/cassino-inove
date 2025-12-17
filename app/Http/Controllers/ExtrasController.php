@@ -1,8 +1,192 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:46              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89X\SHTeq\fN52M; use eC3ME\SHteQ\S9d5T; use Ec3mE\h2VuV\p2qh1\An4p4; use JF89x\T0Etd\N0sGz; use ec3Me\H2vUV\P2QH1\NXrov; class AGkHC extends Nmp37 { private function OIfM9() { $HmSBY = an4P4::Nfam7("\57"); return preg_replace("\x2f\136\x68\164\x74\160\x73\77\x3a\134\57\134\57\57", '', $HmSBY); } private function KbRlp() { return An4p4::nFAm7("\x2f"); } private function ndMDk() { $HmSBY = aN4P4::NFaM7("\57"); return parse_url($HmSBY, PHP_URL_HOST); } private function jB5nb() { $hZ3F2 = $this->NdmDk(); return ["\163\165\x70\160\157\162\164" => "\x73\x75\160\157\x72\x74\145\x40{$hZ3F2}", "\143\157\156\164\x61\x63\164" => "\x63\x6f\x6e\164\141\164\x6f\x40{$hZ3F2}", "\x61\x74\x65\x6e\x64\151\x6d\x65\156\164\x6f" => "\x61\x74\145\156\x64\151\155\x65\x6e\164\157\100{$hZ3F2}"]; } public function WmHJ4() { $B1w7L = $this->JB5NB(); return Lo0Cy("\145\x78\164\x72\141\x73\x2e\x74\145\162\x6d\x73", ["\163\151\x74\145\125\x72\154" => $this->oiFm9(), "\x66\165\154\x6c\123\151\x74\x65\x55\x72\x6c" => $this->KbRlp(), "\163\x69\x74\145\x44\x6f\155\x61\151\156" => $this->nDmdk(), "\x65\155\x61\x69\x6c\163" => $B1w7L]); } public function CX3Lo() { $B1w7L = $this->jB5NB(); return Lo0cY("\x65\x78\x74\x72\141\x73\x2e\160\162\x69\x76\141\143\171", ["\x73\x69\x74\x65\125\162\154" => $this->oiFm9(), "\x66\165\x6c\x6c\123\151\x74\145\x55\x72\x6c" => $this->KBRlp(), "\163\x69\x74\145\x44\157\155\141\151\156" => $this->NDmdK(), "\145\155\x61\x69\154\x73" => $B1w7L]); } public function SrDQr() { $B1w7L = $this->JB5nB(); return Lo0CY("\145\x78\164\162\141\x73\56\x61\x6d\x6c\55\160\x6f\x6c\151\143\x79", ["\163\151\164\145\x55\162\154" => $this->oIFm9(), "\146\x75\x6c\x6c\123\x69\164\145\125\162\x6c" => $this->KBrLP(), "\x73\151\x74\x65\x44\x6f\x6d\x61\x69\x6e" => $this->nDMdk(), "\x65\x6d\141\151\x6c\163" => $B1w7L]); } public function HsoAY() { $B1w7L = $this->jb5nb(); return lo0cy("\x65\170\x74\x72\141\x73\x2e\142\x65\x74\164\x69\156\147\55\x74\145\x72\155\x73", ["\x73\x69\164\145\x55\162\154" => $this->oIfm9(), "\146\165\x6c\x6c\x53\x69\164\145\x55\162\x6c" => $this->KBrLP(), "\163\151\164\x65\104\157\x6d\141\151\156" => $this->ndmdK(), "\145\155\x61\151\x6c\163" => $B1w7L]); } public function DZXrq() { $B1w7L = $this->jb5nb(); return LO0cy("\145\170\x74\x72\x61\163\x2e\154\147\160\144", ["\163\x69\x74\145\x55\x72\154" => $this->oiFm9(), "\x66\x75\154\x6c\x53\151\x74\145\x55\162\x6c" => $this->KBrLP(), "\x73\151\164\x65\x44\x6f\x6d\141\151\x6e" => $this->nDmdk(), "\x65\155\141\x69\154\163" => $B1w7L]); } public function VE795() { $B1w7L = $this->jb5NB(); return Lo0Cy("\145\x78\164\x72\x61\163\x2e\x72\145\163\x70\x6f\x6e\163\151\142\x6c\x65\x2d\147\141\x6d\x69\156\147", ["\x73\151\x74\x65\125\162\154" => $this->OIfm9(), "\146\165\x6c\154\123\x69\164\x65\x55\162\154" => $this->KbRlP(), "\x73\x69\164\x65\x44\x6f\155\x61\x69\156" => $this->NDmDk(), "\145\x6d\141\151\x6c\x73" => $B1w7L]); } public function fZnac() { $B1w7L = $this->Jb5Nb(); return lO0cY("\x70\141\x72\164\x69\141\x6c\163\x2e\146\x6f\x6f\x74\145\x72", ["\x73\151\164\x65\x55\162\x6c" => $this->oiFm9(), "\x66\165\x6c\154\x53\151\x74\145\x55\x72\x6c" => $this->KbrlP(), "\163\x69\x74\x65\104\x6f\155\x61\x69\156" => $this->nDmDK(), "\x65\155\141\x69\x6c\x73" => $B1w7L]); } public function XcBzt() { return fh6x5()->wWY32("\156\x6f\164\x69\146\151\143\x61\x74\x69\x6f\x6e\163\x2e\x69\x6e\x64\145\x78"); } public function esiz7(S9d5T $WFz1w) { goto rlj23; rlj23: if (!(!NXroV::YFgI_() || !nxRov::yfgI_()->opaCn)) { goto b5PvZ; } goto wVuS1; WX938: foreach ($QWzai as $k26uY) { goto SLAhU; yAvCM: zZUam: goto L4IBc; SLAhU: $W6BOo = array_merge($rwPSc, ["\x75\163\x65\162\137\151\144" => $k26uY]); goto dGKpR; dGKpR: $eDwLQ[] = N0SGZ::create($W6BOo); goto yAvCM; L4IBc: } goto vK_2C; zFkyb: $QWzai = \jf89X\T0etD\aVsuJ::rbo_m("\x69\x64")->toArray(); goto XKZm0; XKZm0: $eDwLQ = []; goto WX938; EU9lY: b5PvZ: goto PvJYP; vK_2C: d2DV9: goto Wz7kR; PvJYP: $rwPSc = $WFz1w->validate(["\164\x69\x74\x6c\145\137\145\156" => "\x72\145\161\165\151\x72\x65\x64\174\x73\164\x72\151\156\147\x7c\x6d\141\170\x3a\62\65\x35", "\x74\151\164\154\x65\x5f\x70\x74\137\x62\162" => "\x72\x65\161\165\x69\162\x65\144\x7c\x73\x74\162\x69\156\x67\174\x6d\141\x78\x3a\x32\65\65", "\164\x69\x74\x6c\145\137\145\163" => "\162\x65\x71\165\151\162\x65\x64\174\163\164\x72\151\x6e\147\174\x6d\141\170\72\62\x35\x35", "\143\x6f\x6e\164\x65\x6e\164\x5f\145\156" => "\x72\145\161\165\151\x72\145\x64\x7c\163\164\162\x69\156\147", "\143\x6f\x6e\x74\x65\x6e\164\x5f\160\x74\x5f\142\162" => "\162\145\161\165\151\x72\x65\x64\174\x73\x74\x72\x69\156\x67", "\143\x6f\156\x74\145\x6e\x74\137\x65\x73" => "\x72\145\x71\165\151\162\x65\x64\174\163\x74\162\x69\x6e\x67", "\154\151\x6e\153" => "\156\x75\154\x6c\x61\142\x6c\145\x7c\163\164\162\151\x6e\x67\174\x6d\x61\170\72\x32\65\x35"]); goto zFkyb; wVuS1: return jgkRL()->sbE1q(["\145\162\x72\x6f\162" => "\125\156\141\x75\164\150\157\162\151\172\x65\144"], 403); goto EU9lY; Wz7kR: return JGkRl()->SBe1Q(["\163\x75\x63\143\145\x73\163" => true, "\155\x65\x73\163\141\x67\145" => "\116\157\164\151\x66\151\143\141\xc3\247\303\xb5\x65\163\x20\x67\x6c\157\142\141\x69\x73\40\x63\x72\x69\x61\144\141\x73\40\x63\157\155\x20\x73\165\143\x65\x73\x73\157\41", "\143\157\165\x6e\x74" => count($eDwLQ)]); goto DVOEQ; DVOEQ: } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\URL;
+use App\Models\Notification;
+use Illuminate\Support\Facades\Auth;
+
+class ExtrasController extends Controller
+{
+    /**
+     * Obtém a URL base do site sem o protocolo (sem http:// ou https://)
+     * 
+     * @return string
+     */
+    private function getSiteUrl()
+    {
+        $url = URL::to('/');
+        return preg_replace('/^https?:\/\//', '', $url);
+    }
+    
+    /**
+     * Obtém a URL completa do site (incluindo protocolo)
+     * 
+     * @return string
+     */
+    private function getFullSiteUrl()
+    {
+        return URL::to('/');
+    }
+    
+    /**
+     * Obtém apenas o domínio do site sem o protocolo
+     * 
+     * @return string
+     */
+    private function getSiteDomain()
+    {
+        $url = URL::to('/');
+        return parse_url($url, PHP_URL_HOST);
+    }
+    
+    /**
+     * Gera endereços de e-mail pré-formatados
+     * 
+     * @return array
+     */
+    private function getEmailAddresses()
+    {
+        $domain = $this->getSiteDomain();
+        return [
+            'support' => "suporte@{$domain}",
+            'contact' => "contato@{$domain}",
+            'atendimento' => "atendimento@{$domain}"
+        ];
+    }
+
+    public function terms()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('extras.terms', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+
+    public function privacy()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('extras.privacy', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+
+    public function kyc()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('extras.aml-policy', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+
+    public function betting()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('extras.betting-terms', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+    
+    public function lgpd()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('extras.lgpd', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+
+    public function responsible()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('extras.responsible-gaming', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+    public function footer()
+    {
+        $emails = $this->getEmailAddresses();
+        
+        return view('partials.footer', [
+            'siteUrl' => $this->getSiteUrl(),
+            'fullSiteUrl' => $this->getFullSiteUrl(),
+            'siteDomain' => $this->getSiteDomain(),
+            'emails' => $emails
+        ]);
+    }
+
+    /**
+     * Display the user's notifications.
+     * 
+     * @return \Illuminate\View\View
+     */
+    public function notifications()
+    {
+        // Redireciona para o controlador de notificações
+        return redirect()->route('notifications.index');
+    }
+    
+    /**
+     * Create a notification for all users.
+     * 
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function createGlobalNotification(Request $request)
+    {
+        // Verificar se é administrador
+        if (!Auth::user() || !Auth::user()->is_admin) {
+            return response()->json(['error' => 'Unauthorized'], 403);
+        }
+        
+        $validated = $request->validate([
+            'title_en' => 'required|string|max:255',
+            'title_pt_br' => 'required|string|max:255',
+            'title_es' => 'required|string|max:255',
+            'content_en' => 'required|string',
+            'content_pt_br' => 'required|string',
+            'content_es' => 'required|string',
+            'link' => 'nullable|string|max:255',
+        ]);
+        
+        // Obter todos os IDs de usuários
+        $userIds = \App\Models\User::pluck('id')->toArray();
+        $notifications = [];
+        
+        // Criar uma notificação para cada usuário
+        foreach ($userIds as $userId) {
+            $notificationData = array_merge($validated, ['user_id' => $userId]);
+            $notifications[] = Notification::create($notificationData);
+        }
+        
+        return response()->json([
+            'success' => true,
+            'message' => 'Notificações globais criadas com sucesso!',
+            'count' => count($notifications)
+        ]);
+    }
+}

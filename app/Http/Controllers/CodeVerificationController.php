@@ -1,8 +1,251 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:45              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace Jf89x\SHteQ\fn52M; use eC3ME\sHtEQ\S9d5T; use Jf89x\T0etD\AVSUj; use jf89X\T0etD\h8tQq; use Ec3mE\h2vUv\p2Qh1\Mail; use JF89X\Mail\tItRA; use JF89x\pY4PC\mB4Ha; use EC3ME\H2vuv\p2Qh1\Log; class gxRXV extends Nmp37 { protected $DBNrM; public function __construct(Mb4HA $YrFmr) { $this->DBNrM = $YrFmr; } public function zyqp3(s9d5t $WFz1w) { goto OlPRE; RQCYC: try { goto qHvyl; VKNWN: $H7fYt["\x65\x6d\141\151\154"] = "\156\x6f\x72\145\160\154\171\100{$hZ3F2}"; goto v88z2; gN239: $sSSIc = $this->DBNrM->It_Dx(["\x65\155\x61\x69\154" => $e5HVA->VzAAC, "\x6e\x61\x6d\145" => $e5HVA->name ?? "\125\163\165\303\xa1\x72\x69\157"], "\166\x65\162\x69\146\x69\143\x61\x74\x69\157\x6e\55\143\x6f\144\145", $PqR21, $H7fYt); goto TvWgt; qHvyl: $PqR21 = ["\x63\157\x64\x65" => $R3n9k, "\156\x61\x6d\145" => $e5HVA->name ?? "\x55\163\x75\303\xa1\x72\151\157", "\145\x6d\x61\x69\x6c" => $e5HVA->VzAAC, "\x73\x69\164\145\137\156\x61\155\x65" => lviq5("\x61\x70\x70\x2e\156\141\155\x65"), "\171\145\x61\162" => date("\131")]; goto AoDJB; EqztG: Cjeoy: goto e6ttF; ckf9Y: $VGN5I = LvIq5("\x61\160\x70\x2e\165\162\154"); goto xRuq5; mrlE3: INHtO: goto KrV22; XwPg_: if (filter_var($H7fYt["\145\x6d\x61\151\x6c"], FILTER_VALIDATE_EMAIL)) { goto INHtO; } goto VKNWN; sLm_C: Log::p2m7e("\x46\x61\154\150\141\40\x6e\x6f\40\x65\x6e\x76\151\157\x20\x64\x6f\x20\x63\303\xb3\144\151\147\x6f\40\160\x6f\x72\x20\102\x72\x65\166\157\54\40\x74\145\x6e\x74\x61\156\x64\157\40\x6d\303\xa9\x74\x6f\144\x6f\40\x61\154\164\x65\162\156\x61\164\151\x76\x6f"); goto e6Ege; xRuq5: $hZ3F2 = Jh97U("\x42\x52\105\x56\117\137\104\105\106\101\125\114\x54\137\x44\117\115\x41\x49\116") ?: parse_url($VGN5I, PHP_URL_HOST); goto XvzIA; dWG2f: Vv2ib: goto qNuim; e6Ege: try { goto Actdd; Actdd: Mail::JFQoG("\123\145\x75\x20\143\303\263\x64\x69\x67\157\x20\x64\x65\40\166\x65\162\151\x66\x69\x63\141\xc3\xa7\303\xa3\157\x20\303\xa9\72\40{$R3n9k}", function ($CR3OO) use($e5HVA, $H7fYt, $R3n9k) { $CR3OO->nfaM7($e5HVA->VzAAC, $e5HVA->name ?? "\x55\x73\x75\303\241\x72\151\157")->CqsRl("\x53\x65\x75\40\x63\xc3\263\144\151\147\x6f\40\144\145\x20\x76\145\162\x69\146\151\143\x61\303\xa7\303\243\x6f\40\x2d\40" . lviQ5("\x61\160\160\x2e\156\141\155\145"))->from($H7fYt["\145\x6d\141\151\154"], $H7fYt["\x6e\141\155\x65"]); }); goto iqjm5; o6z3Q: return JgkrL()->Sbe1q(["\163\165\143\143\145\x73\163" => true, "\x6d\145\x73\x73\x61\x67\145" => "\x43\303\xb3\x64\151\x67\157\x20\x64\145\x20\166\x65\x72\151\146\151\x63\141\303\247\xc3\243\x6f\40\145\156\166\x69\141\x64\x6f\40\160\141\x72\141\x20\163\145\165\40\145\x6d\141\x69\x6c\40\x63\157\155\157\x20\x6d\145\x6e\163\141\x67\x65\155\x20\x73\151\x6d\x70\x6c\145\x73\x21\40\x53\x65\x20\156\303\243\157\40\x65\156\x63\157\x6e\164\162\141\162\x2c\x20\x76\145\x72\x69\x66\x69\161\165\145\40\x73\x75\x61\40\x70\141\x73\x74\x61\40\144\x65\x20\163\160\x61\155\x20\157\165\x20\154\151\170\x6f\40\145\154\x65\x74\x72\xc3\xb4\156\x69\143\x6f\x2e"]); goto XrUIP; iqjm5: Log::info("\x45\x6d\x61\x69\x6c\40\145\156\166\x69\x61\x64\x6f\x20\x75\x73\x61\156\x64\x6f\40\155\xc3\251\x74\x6f\x64\x6f\40\x61\154\x74\x65\162\156\141\164\x69\x76\157"); goto o6z3Q; XrUIP: } catch (\Exception $ai57B) { Log::P2M7e("\106\x61\154\x68\141\x20\x6e\157\40\145\x6e\166\151\157\40\x61\154\164\145\162\x6e\141\164\151\x76\157", ["\x65\x72\x72\157\x72" => $ai57B->getMessage()]); return JGkRl()->Sbe1q(["\x73\165\x63\x63\145\x73\163" => false, "\155\145\163\x73\x61\x67\x65" => "\x45\x72\162\157\x20\141\x6f\40\x65\156\x76\151\x61\162\x20\x63\303\263\x64\151\147\x6f\40\144\x65\40\166\x65\x72\x69\146\151\x63\x61\xc3\247\xc3\243\157\x2e\x20\x50\x6f\162\x20\x66\x61\x76\157\x72\x2c\40\164\x65\156\x74\x65\x20\x6e\x6f\166\x61\x6d\x65\156\x74\x65\40\x6d\141\x69\163\40\x74\141\162\144\145\40\x6f\x75\40\143\157\156\x74\141\x74\x65\x20\x6f\x20\163\165\160\x6f\162\x74\145\x2e"]); } goto b2IgQ; XvzIA: $H7fYt = ["\145\x6d\x61\151\154" => LviQ5("\x6d\x61\x69\154\56\146\x72\x6f\155\x2e\141\144\144\162\x65\x73\163") ?: "\x6e\x6f\x72\145\160\154\171\x40{$hZ3F2}", "\156\x61\x6d\145" => LViQ5("\x6d\141\151\154\56\146\x72\x6f\x6d\x2e\156\141\155\x65") ?: Lviq5("\x61\x70\x70\56\x6e\x61\x6d\x65")]; goto XwPg_; v88z2: Log::info("\105\x6d\x61\151\x6c\x20\144\x6f\40\162\145\155\145\x74\x65\156\x74\x65\40\x69\156\166\303\241\x6c\x69\x64\x6f\x2c\40\x75\163\x61\x6e\x64\x6f\40\160\141\144\x72\303\243\x6f", ["\145\155\141\151\x6c" => $H7fYt["\x65\155\x61\151\154"]]); goto mrlE3; AoDJB: Log::info("\105\156\166\x69\x61\156\x64\157\x20\143\303\xb3\x64\151\147\157\40\x64\145\x20\166\x65\162\151\x66\151\x63\141\xc3\247\xc3\xa3\157\40\144\145\40\145\155\x61\151\x6c", ["\x75\163\145\x72\137\x69\144" => $e5HVA->id, "\x65\155\x61\151\154" => substr($e5HVA->VzAAC, 0, 3) . "\x2a\x2a\52" . strstr($e5HVA->VzAAC, "\x40"), "\x63\x6f\144\145" => $R3n9k]); goto ckf9Y; b2IgQ: goto Cjeoy; goto dWG2f; qNuim: return JgkrL()->sbe1q(["\163\165\143\143\x65\x73\x73" => true, "\x6d\x65\x73\163\x61\147\145" => "\x43\303\263\x64\x69\x67\157\x20\144\x65\x20\x76\x65\162\151\146\151\x63\141\303\xa7\303\xa3\157\40\145\x6e\x76\x69\141\144\x6f\40\x70\141\x72\141\40\163\145\165\x20\145\155\x61\x69\154\x21\40\123\x65\x20\156\xc3\xa3\157\40\145\x6e\x63\157\x6e\x74\x72\141\x72\54\x20\166\x65\x72\x69\146\151\x71\x75\x65\x20\164\x61\x6d\142\xc3\xa9\155\x20\163\x75\141\x20\x70\141\x73\x74\x61\x20\x64\x65\x20\163\x70\x61\x6d\40\157\165\x20\x6c\151\x78\x6f\x20\x65\154\145\164\162\xc3\264\x6e\x69\143\x6f\56"]); goto EqztG; KrV22: Log::info("\104\x65\x74\141\x6c\150\x65\x73\40\x64\x6f\40\x65\156\x76\151\157\x20\x64\145\40\x65\x6d\x61\151\154", ["\163\x65\156\144\x65\162\137\x65\x6d\x61\151\x6c" => $H7fYt["\145\155\x61\151\154"], "\163\x65\x6e\144\145\162\137\x6e\141\x6d\x65" => $H7fYt["\156\141\x6d\145"], "\162\145\x63\x69\160\151\x65\156\164" => $e5HVA->VzAAC, "\x74\x65\155\160\x6c\x61\164\x65" => "\166\145\162\x69\146\x69\143\x61\164\151\x6f\156\55\x63\x6f\x64\145", "\x62\162\x65\166\157\137\x64\x6f\x6d\x61\x69\156" => $hZ3F2]); goto gN239; TvWgt: if ($sSSIc) { goto Vv2ib; } goto sLm_C; e6ttF: } catch (\Exception $ai57B) { Log::p2m7e("\105\x72\x72\157\x20\141\157\40\x65\x6e\166\x69\141\162\x20\143\xc3\xb3\x64\x69\147\x6f\x20\144\x65\x20\166\145\162\x69\x66\151\x63\x61\xc3\247\303\xa3\x6f\x3a\40" . $ai57B->getMessage(), ["\x75\x73\145\162\x5f\x69\x64" => $e5HVA->id, "\145\x6d\141\x69\154" => $e5HVA->VzAAC, "\164\162\x61\x63\145" => $ai57B->getTraceAsString()]); return JGKRl()->sbE1q(["\x73\165\x63\143\145\163\163" => false, "\155\145\163\163\141\147\145" => "\105\x72\x72\157\40\141\x6f\x20\145\x6e\166\151\141\162\x20\x63\xc3\xb3\x64\x69\147\x6f\x20\x64\145\x20\x76\x65\162\x69\x66\x69\x63\x61\303\247\xc3\243\x6f\56\40\120\x6f\162\x20\146\141\166\x6f\x72\54\40\x74\x65\x6e\x74\145\x20\x6e\x6f\x76\141\x6d\x65\156\x74\x65\40\x6d\x61\151\163\x20\x74\x61\162\144\145\x20\157\x75\40\x63\x6f\x6e\164\141\x74\145\40\157\40\163\165\160\157\x72\x74\x65\56"]); } goto balS0; OlPRE: $e5HVA = NXrOV()->yFgi_(); goto gOb2s; gOb2s: $R3n9k = str_pad(rand(0, 99999), 5, "\x30", STR_PAD_LEFT); goto vf8PZ; vf8PZ: h8tQq::B8DuA(["\x75\x73\145\x72\137\151\144" => $e5HVA->id, "\x74\171\x70\145" => "\145\x6d\141\x69\154"], ["\x63\x6f\x64\145" => $R3n9k, "\x65\x78\160\x69\162\145\x73\x5f\x61\x74" => WhfH3()->Rw_8L(10)]); goto RQCYC; balS0: } public function Zii5G(S9d5T $WFz1w) { goto dUJqs; U0eG0: H8TqQ::b8DUa(["\165\163\x65\162\137\151\144" => $e5HVA->id, "\164\171\160\x65" => "\x70\150\x6f\156\x65"], ["\x63\157\x64\x65" => $R3n9k, "\145\x78\160\151\x72\145\163\x5f\x61\164" => whfH3()->rW_8L(10)]); goto pVthB; K204I: $R3n9k = str_pad(rand(0, 99999), 5, "\x30", STR_PAD_LEFT); goto U0eG0; dUJqs: $e5HVA = NxrOV()->yFgI_(); goto K204I; pVthB: try { goto Gq5Vo; EXsZ9: return jGkRl()->SbE1q(["\163\x75\143\x63\x65\163\163" => true, "\155\145\163\x73\x61\147\145" => "\103\xc3\263\144\151\147\x6f\x20\x64\145\40\x76\x65\162\x69\x66\x69\x63\141\xc3\xa7\xc3\xa3\x6f\40\x65\x6e\166\x69\141\144\x6f\40\x70\141\162\141\x20\163\x65\165\x20\127\x68\141\x74\163\101\160\160\41"]); goto wCRnR; c7ojP: \Log::p2M7e("\x46\x61\154\150\141\x20\141\157\40\x65\x6e\166\x69\x61\162\40\x63\303\xb3\x64\x69\x67\x6f\40\x76\151\x61\x20\x57\150\141\x74\163\x41\160\x70\40\x70\141\x72\141\x20\x6f\40\164\145\154\145\x66\157\x6e\x65\40{$lF4lV}"); goto KJVO_; Ikfmz: if (str_starts_with($lF4lV, "\65\65")) { goto VaKT2; } goto d3HHc; jOw11: $CR3OO .= "\x55\x73\145\x20\145\x73\164\x65\40\143\303\263\144\x69\x67\x6f\x20\x70\x61\162\141\40\x76\145\x72\x69\x66\x69\x63\141\162\40\163\145\165\x20\156\xc3\272\155\x65\162\157\x20\144\145\40\164\x65\x6c\145\x66\x6f\156\145\x20\145\x6d\x20" . lvIq5("\141\x70\x70\x2e\x6e\141\x6d\145") . "\x2e"; goto ybsTr; ybsTr: $nQKv8 = JF89x(\Jf89X\Py4pc\NXp9g::class); goto TRSQD; KJVO_: return JGkrl()->sbe1Q(["\x73\165\143\x63\145\x73\163" => false, "\x6d\145\x73\163\x61\x67\145" => "\x4e\303\xa3\x6f\x20\x66\157\x69\40\160\157\163\163\xc3\255\x76\145\154\x20\x65\156\x76\151\141\x72\40\157\40\143\xc3\xb3\x64\x69\147\x6f\x20\x76\151\141\x20\x57\x68\141\x74\x73\101\x70\x70\56\x20\120\157\162\40\146\x61\166\157\x72\x2c\x20\x74\x65\156\164\x65\x20\156\x6f\x76\x61\x6d\x65\156\x74\x65\40\155\141\151\163\x20\164\141\x72\x64\145\x2e"]); goto D4Kvz; Gq5Vo: $lF4lV = preg_replace("\x2f\133\136\x30\55\x39\x5d\x2f", '', $e5HVA->h7T8u); goto Ikfmz; wCRnR: Qu7wT: goto PXh0c; sdyn1: if ($smCIb) { goto emAFM; } goto c7ojP; wqZjl: emAFM: goto EXsZ9; D4Kvz: goto Qu7wT; goto wqZjl; d3HHc: $lF4lV = "\x35\x35" . $lF4lV; goto GX9vP; TRSQD: $smCIb = $nQKv8->zuhUi($e5HVA, $lF4lV, $CR3OO); goto sdyn1; Oa3CP: $CR3OO = "\123\x65\x75\x20\143\xc3\xb3\144\x69\147\x6f\x20\x64\145\x20\166\145\x72\151\x66\x69\x63\x61\303\xa7\303\xa3\x6f\40\303\251\x3a\40\x2a{$R3n9k}\52\xa\12"; goto jOw11; GX9vP: VaKT2: goto Oa3CP; PXh0c: } catch (\Exception $ai57B) { \Log::P2m7e("\105\x72\162\x6f\40\x61\157\40\x65\x6e\166\151\141\x72\40\143\303\263\x64\151\x67\x6f\40\144\x65\40\166\145\162\151\146\x69\x63\x61\303\247\xc3\xa3\157\x20\x76\151\141\40\x57\150\141\164\163\x41\x70\160\72\40" . $ai57B->getMessage()); return jGKRl()->Sbe1Q(["\x73\165\143\x63\x65\x73\163" => false, "\x6d\145\163\163\141\147\x65" => "\105\162\x72\x6f\x20\x61\x6f\x20\145\x6e\166\x69\x61\x72\x20\143\xc3\xb3\144\151\x67\x6f\x20\144\x65\40\166\145\162\x69\x66\151\143\x61\xc3\247\303\xa3\x6f\x3a\40" . $ai57B->getMessage()]); } goto pHw5W; pHw5W: } public function zoU31(S9D5t $WFz1w) { return $this->sojZ1($WFz1w, "\x65\x6d\x61\151\154"); } public function BXyPQ(s9d5T $WFz1w) { return $this->SoJZ1($WFz1w, "\x70\x68\x6f\x6e\145"); } private function SoJz1(S9d5T $WFz1w, $i5g8p) { goto Y5nL5; cFGGP: if ($i5g8p === "\x65\x6d\141\151\154") { goto Jsh5m; } goto XKapV; RrkKZ: YxmRH: goto y2r64; y2r64: $e5HVA->save(); goto p2qIr; pPxZV: xBlOn: goto cFGGP; TU1Bx: $e5HVA->kIPsz = whfH3(); goto rjCnA; Kg0xf: if ($KQChG) { goto xBlOn; } goto L0tJp; ibRpp: return jGkRL()->Sbe1Q(["\163\165\143\143\145\163\x73" => true, "\x6d\145\163\x73\141\x67\x65" => $i5g8p === "\x65\155\141\x69\154" ? "\x45\x6d\x61\151\x6c\40\166\145\162\151\x66\151\x63\141\144\x6f\x20\x63\157\155\40\163\x75\x63\145\163\x73\157\41" : "\124\x65\154\145\146\x6f\156\145\x20\x76\145\162\x69\146\151\143\141\x64\x6f\40\143\x6f\x6d\x20\x73\x75\143\145\x73\163\157\41"]); goto Lr7uM; CdDCu: Jsh5m: goto JF_a9; p2qIr: $KQChG->delete(); goto ibRpp; rwXa8: $e5HVA = Nxrov()->yFgi_(); goto NUc1s; rjCnA: d2kVd: goto Cmdkz; Cmdkz: goto YxmRH; goto CdDCu; ybTtN: $KQChG = h8TqQ::c_MHY("\165\x73\x65\x72\137\x69\144", $e5HVA->id)->C_mhy("\164\171\x70\145", $i5g8p)->C_MHy("\x63\x6f\x64\145", $R3n9k)->c_MHY("\x65\170\x70\151\x72\x65\163\x5f\x61\164", "\x3e", whFH3())->YrKr9(); goto Kg0xf; NUc1s: $R3n9k = $WFz1w->pC2LR("\143\157\144\x65"); goto ybTtN; JF_a9: $e5HVA->DO3NI = wHFH3(); goto RrkKZ; L0tJp: return jGkRL()->SbE1Q(["\x73\165\143\143\x65\163\163" => false, "\x6d\145\163\x73\141\x67\145" => "\103\xc3\xb3\144\151\x67\x6f\40\151\156\x76\303\241\x6c\x69\x64\157\40\157\165\40\x65\170\x70\151\162\141\x64\x6f\56"]); goto pPxZV; Y5nL5: $WFz1w->validate(["\x63\x6f\x64\x65" => "\x72\x65\x71\x75\x69\x72\145\144\174\163\164\x72\151\x6e\147\174\x73\x69\172\x65\x3a\65"]); goto rwXa8; XKapV: if (!($i5g8p === "\160\x68\157\156\145")) { goto d2kVd; } goto TU1Bx; Lr7uM: } }
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\VerificationCode;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\VerificationCodeMail;
+use App\Services\BrevoService;
+use Illuminate\Support\Facades\Log;
+
+class CodeVerificationController extends Controller
+{
+    protected $brevoService;
+    
+    public function __construct(BrevoService $brevoService)
+    {
+        $this->brevoService = $brevoService;
+    }
+    
+    // Gera e envia código de verificação por email
+    public function sendEmailCode(Request $request)
+    {
+        $user = auth()->user();
+        
+        // Gerar código aleatório de 5 dígitos
+        $code = str_pad(rand(0, 99999), 5, '0', STR_PAD_LEFT);
+        
+        // Salvar código no banco de dados - Usar updateOrCreate para evitar códigos duplicados
+        VerificationCode::updateOrCreate(
+            ['user_id' => $user->id, 'type' => 'email'],
+            ['code' => $code, 'expires_at' => now()->addMinutes(10)]
+        );
+        
+        try {
+            // Dados para o template de email
+            $templateData = [
+                'code' => $code,
+                'name' => $user->name ?? 'Usuário',
+                'email' => $user->email,
+                'site_name' => config('app.name'),
+                'year' => date('Y')
+            ];
+            
+            // Log para debug
+            Log::info('Enviando código de verificação de email', [
+                'user_id' => $user->id,
+                'email' => substr($user->email, 0, 3) . '***' . strstr($user->email, '@'),
+                'code' => $code
+            ]);
+            
+            // Configurar remetente válido para o Brevo
+            $siteUrl = config('app.url');
+            $domain = env('BREVO_DEFAULT_DOMAIN') ?: parse_url($siteUrl, PHP_URL_HOST);
+            
+            $sender = [
+                'email' => config('mail.from.address') ?: "noreply@{$domain}",
+                'name' => config('mail.from.name') ?: config('app.name')
+            ];
+            
+            // Validar o email do remetente
+            if (!filter_var($sender['email'], FILTER_VALIDATE_EMAIL)) {
+                // Tentar usar um email de remetente padrão com o domínio configurado
+                $sender['email'] = "noreply@{$domain}";
+                
+                Log::info('Email do remetente inválido, usando padrão', [
+                    'email' => $sender['email']
+                ]);
+            }
+            
+            // Registrar informações de envio
+            Log::info('Detalhes do envio de email', [
+                'sender_email' => $sender['email'],
+                'sender_name' => $sender['name'],
+                'recipient' => $user->email,
+                'template' => 'verification-code',
+                'brevo_domain' => $domain
+            ]);
+            
+            // Enviar email usando o slug do template de verificação com o serviço Brevo
+            $enviado = $this->brevoService->enviarEmailTemplate(
+                [
+                    'email' => $user->email,
+                    'name' => $user->name ?? 'Usuário'
+                ],
+                'verification-code',  // Slug do template que será mapeado para o ID através das variáveis de ambiente
+                $templateData,
+                $sender
+            );
+            
+            if ($enviado) {
+                // Adicionando mensagem para o usuário verificar a pasta de spam/lixo eletrônico
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Código de verificação enviado para seu email! Se não encontrar, verifique também sua pasta de spam ou lixo eletrônico.'
+                ]);
+            } else {
+                // Log do erro
+                Log::error('Falha no envio do código por Brevo, tentando método alternativo');
+                
+                // Tentar enviar diretamente pelo mailer do Laravel
+                try {
+                    // Enviar email básico com o código
+                    Mail::raw("Seu código de verificação é: $code", function ($message) use ($user, $sender, $code) {
+                        $message->to($user->email, $user->name ?? 'Usuário')
+                                ->subject('Seu código de verificação - ' . config('app.name'))
+                                ->from($sender['email'], $sender['name']);
+                    });
+                    
+                    Log::info('Email enviado usando método alternativo');
+                    
+                    return response()->json([
+                        'success' => true,
+                        'message' => 'Código de verificação enviado para seu email como mensagem simples! Se não encontrar, verifique sua pasta de spam ou lixo eletrônico.'
+                    ]);
+                } catch (\Exception $e) {
+                    Log::error('Falha no envio alternativo', [
+                        'error' => $e->getMessage()
+                    ]);
+                    
+                    return response()->json([
+                        'success' => false,
+                        'message' => 'Erro ao enviar código de verificação. Por favor, tente novamente mais tarde ou contate o suporte.'
+                    ]);
+                }
+            }
+        } catch (\Exception $e) {
+            // Log do erro
+            Log::error('Erro ao enviar código de verificação: ' . $e->getMessage(), [
+                'user_id' => $user->id,
+                'email' => $user->email,
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao enviar código de verificação. Por favor, tente novamente mais tarde ou contate o suporte.'
+            ]);
+        }
+    }
+    
+    // Gera e envia código de verificação por WhatsApp
+    public function sendPhoneCode(Request $request)
+    {
+        $user = auth()->user();
+        
+        // Gerar código aleatório de 5 dígitos
+        $code = str_pad(rand(0, 99999), 5, '0', STR_PAD_LEFT);
+        
+        // Salvar código no banco de dados
+        VerificationCode::updateOrCreate(
+            ['user_id' => $user->id, 'type' => 'phone'],
+            ['code' => $code, 'expires_at' => now()->addMinutes(10)]
+        );
+        
+        try {
+            // Preparar o número de telefone
+            $phoneNumber = preg_replace('/[^0-9]/', '', $user->phone);
+            
+            // Adicionar o código do país se não estiver presente
+            if (!str_starts_with($phoneNumber, '55')) {
+                $phoneNumber = '55' . $phoneNumber;
+            }
+            
+            // Preparar a mensagem para o WhatsApp
+            $message = "Seu código de verificação é: *$code*\n\n";
+            $message .= "Use este código para verificar seu número de telefone em " . config('app.name') . ".";
+            
+            // Usar o serviço de WhatsApp existente para enviar a mensagem
+            $whatsappService = app(\App\Services\WhatsappService::class);
+            $result = $whatsappService->sendCustomMessage($user, $phoneNumber, $message);
+            
+            if ($result) {
+                return response()->json([
+                    'success' => true,
+                    'message' => 'Código de verificação enviado para seu WhatsApp!'
+                ]);
+            } else {
+                // Registrar o erro
+                \Log::error("Falha ao enviar código via WhatsApp para o telefone $phoneNumber");
+                
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Não foi possível enviar o código via WhatsApp. Por favor, tente novamente mais tarde.'
+                ]);
+            }
+        } catch (\Exception $e) {
+            \Log::error('Erro ao enviar código de verificação via WhatsApp: ' . $e->getMessage());
+            
+            return response()->json([
+                'success' => false,
+                'message' => 'Erro ao enviar código de verificação: ' . $e->getMessage()
+            ]);
+        }
+    }
+    
+    // Verifica o código de email
+    public function verifyEmailCode(Request $request)
+    {
+        return $this->verifyCode($request, 'email');
+    }
+    
+    // Verifica o código de telefone
+    public function verifyPhoneCode(Request $request)
+    {
+        return $this->verifyCode($request, 'phone');
+    }
+    
+    // Método genérico para verificação de código
+    private function verifyCode(Request $request, $type)
+    {
+        $request->validate([
+            'code' => 'required|string|size:5'
+        ]);
+        
+        $user = auth()->user();
+        $code = $request->input('code');
+        
+        // Buscar código na base de dados
+        $verificationCode = VerificationCode::where('user_id', $user->id)
+            ->where('type', $type)
+            ->where('code', $code)
+            ->where('expires_at', '>', now())
+            ->first();
+        
+        if (!$verificationCode) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Código inválido ou expirado.'
+            ]);
+        }
+        
+        // Atualizar status de verificação do usuário
+        if ($type === 'email') {
+            $user->email_verified_at = now();
+        } else if ($type === 'phone') {
+            $user->phone_verified_at = now();
+        }
+        
+        $user->save();
+        
+        // Remover o código usado
+        $verificationCode->delete();
+        
+        return response()->json([
+            'success' => true,
+            'message' => $type === 'email' ? 'Email verificado com sucesso!' : 'Telefone verificado com sucesso!'
+        ]);
+    }
+} 

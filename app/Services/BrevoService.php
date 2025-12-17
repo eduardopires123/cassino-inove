@@ -1,8 +1,387 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:49              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace nr8e2\yFU0e; use UmgzF\qbiPT\xH7dz\bzayU; use UMGzF\qBiPT\JVfX7; use UMGzF\QbIpT\fzxEj\ABswz; use Y05Ls\Qbipt; use q7Q4h\HRemd\rkrc8\Log; use Nr8E2\h7Dtb\AhZxI; use q7Q4h\hremD\rKRC8\PC2I5; use yj_EA\yJ_ea; use nR8e2\H7DtB\UmNWF; class QNhG4 { protected $lLMUL; protected $Ls58t; protected $nwa3T; protected $ajPE8; public function __construct() { goto yMau7; Hhrl0: $this->ajPE8 = Z501c("\x55\x53\x45\137\x4c\x4f\103\101\x4c\x5f\x45\115\x41\x49\x4c\x5f\124\105\x4d\x50\x4c\x41\124\105\123", true); goto tBFGh; x3aXF: $this->lLMUL = new BZaYU(new qBIpt(), $OI89M); goto nVEZn; yMau7: $OI89M = jVfX7::fBFqy()->z6_p4("\141\160\151\55\153\x65\171", lOykA("\163\145\162\166\151\143\x65\x73\56\x62\x72\x65\x76\157\56\153\x65\x79")); goto x3aXF; nVEZn: $this->Ls58t = z501c("\102\x52\105\126\117\137\x44\x45\x46\x41\x55\x4c\124\137\104\117\x4d\x41\x49\x4e"); goto O5fKv; O5fKv: try { $LaBO2 = umNWF::kO7RR(); $this->nwa3T = $LaBO2 ? $LaBO2->name : Z501C("\102\122\105\126\x4f\x5f\104\111\x53\x50\x4c\x41\x59\x5f\116\101\x4d\105", loykA("\x61\160\x70\x2e\x6e\x61\x6d\145")); } catch (\Exception $kAPGM) { $this->nwa3T = Z501c("\102\x52\x45\x56\x4f\x5f\104\111\x53\x50\x4c\x41\131\137\116\101\x4d\x45", LOYKa("\141\160\160\56\x6e\141\x6d\145")); Log::nArNk("\x4e\303\243\157\x20\x66\x6f\151\x20\x70\x6f\163\163\xc3\255\166\145\x6c\x20\x6f\142\x74\x65\x72\40\x6e\x6f\x6d\145\40\x64\x6f\40\163\x69\x74\145\x20\144\141\163\x20\143\x6f\156\x66\x69\147\x75\162\x61\xc3\247\xc3\265\x65\x73\x2e\x20\x55\x73\x61\156\x64\157\x20\146\141\x6c\154\142\x61\x63\x6b\x2e", ["\145\x72\162\x6f\x72" => $kAPGM->getMessage()]); } goto Hhrl0; tBFGh: } public function WVznL($eP0YE, string $dWBFY, string $LkcMG, array $d68R_ = []) : bool { try { goto myeVf; DXpWO: AgrrN: goto I_Rws; ViDG7: XmuZ0: goto rKW2w; oouHg: $d6VJk->C5etg($eWbai); goto eFp2R; KdfTP: rHsPW: goto lYNgO; Sj2e7: if (!(isset($d68R_["\141\x74\x74\141\x63\150\x6d\x65\156\164\163"]) && is_array($d68R_["\x61\164\x74\141\143\x68\155\145\x6e\164\163"]))) { goto AuHEm; } goto T4o0z; CAmnf: if (!(isset($d68R_["\160\141\162\141\x6d\163"]) && is_array($d68R_["\160\141\x72\x61\x6d\163"]))) { goto E1neZ; } goto CF_fU; MLosi: jLoll: goto M11Ha; eFp2R: $d6VJk->D17ef($dWBFY); goto NjFni; dXZmi: ox336: goto Sj2e7; I_Rws: $d6VJk->OqY9w($eP0YE); goto RMp1Z; T4o0z: $d6VJk->HGz42($d68R_["\x61\164\164\141\x63\150\155\x65\x6e\x74\163"]); goto PQcrp; i35ks: if (!isset($d68R_["\x63\x63"])) { goto q1H0Y; } goto MJpxA; rrdR9: goto dJsZV; goto DXpWO; GQchL: return true; goto ECuj_; h8jW9: if (is_string($eP0YE)) { goto WJ2g8; } goto XlcH7; MhKhk: if (!isset($d68R_["\x74\x65\170\x74\137\x63\157\x6e\x74\x65\156\x74"])) { goto XmuZ0; } goto hU3nY; NjFni: $d6VJk->xtd4C($LkcMG); goto i35ks; PQcrp: AuHEm: goto CAmnf; XlcH7: $eP0YE = [["\x65\x6d\x61\151\x6c" => $eP0YE["\x65\x6d\141\151\154"], "\156\141\155\145" => $eP0YE["\156\x61\x6d\145"] ?? null]]; goto QjTQP; RR6xi: Log::info("\105\x6d\141\x69\x6c\40\145\156\166\x69\x61\144\157\x20\143\157\155\40\163\x75\x63\x65\x73\163\x6f", ["\x6d\145\163\x73\141\147\x65\137\151\144" => $CyX6L->GeO5e(), "\x64\x6f\155\141\151\x6e" => $this->Ls58t]); goto GQchL; M11Ha: $d6VJk->OQY9w($eP0YE); goto rrdR9; hU3nY: $d6VJk->L3kt2($d68R_["\164\145\170\164\137\143\157\156\164\x65\156\x74"]); goto ViDG7; vNeuQ: if (!isset($d68R_["\142\x63\143"])) { goto rHsPW; } goto iIITj; rKW2w: $CyX6L = $this->lLMUL->nnWac($d6VJk); goto RR6xi; m8pRe: $eWbai = $d68R_["\163\145\156\144\145\x72"] ?? ["\156\x61\155\145" => $d68R_["\163\145\156\144\x65\162\x5f\156\141\155\x65"] ?? $this->nwa3T, "\x65\x6d\141\x69\154" => $d68R_["\x73\145\x6e\144\145\x72\137\145\x6d\141\151\154"] ?? "\156\157\162\145\x70\154\171\100{$this->Ls58t}"]; goto oouHg; W0Grr: E1neZ: goto MhKhk; iIITj: $d6VJk->Xy0I2($d68R_["\142\x63\143"]); goto KdfTP; ozyF9: WJ2g8: goto KXVH1; RMp1Z: dJsZV: goto m8pRe; ZmdMv: if (is_array($eP0YE) && !isset($eP0YE["\x65\155\x61\x69\x6c"])) { goto AgrrN; } goto h8jW9; lYNgO: if (!isset($d68R_["\x72\x65\160\154\x79\x5f\164\x6f"])) { goto ox336; } goto AsHAF; CF_fU: $d6VJk->AUlws($d68R_["\160\141\x72\141\155\163"]); goto W0Grr; MJpxA: $d6VJk->osRs3($d68R_["\143\x63"]); goto GHHV2; KXVH1: $eP0YE = [["\145\x6d\x61\151\154" => $eP0YE]]; goto MLosi; GHHV2: q1H0Y: goto vNeuQ; QjTQP: goto jLoll; goto ozyF9; myeVf: $d6VJk = new Abswz(); goto ZmdMv; AsHAF: $d6VJk->Y4a2R($d68R_["\x72\145\x70\x6c\171\x5f\164\x6f"]); goto dXZmi; ECuj_: } catch (\Exception $kAPGM) { Log::kw7cx("\105\x72\x72\x6f\x20\141\x6f\x20\x65\x6e\x76\x69\141\x72\40\145\x6d\x61\x69\154\x20\143\157\x6d\x20\x42\162\x65\166\x6f", ["\145\x72\x72\x6f" => $kAPGM->getMessage(), "\x64\x65\163\x74\x69\156\x61\164\x61\x72\151\157" => $eP0YE, "\x61\x73\x73\165\x6e\x74\x6f" => $dWBFY]); return false; } } public function k01EG($eP0YE, $PNcHg, array $d68R_ = [], $eWbai = null, array $vuwIM = []) : bool { goto STRVO; STRVO: if (!($eWbai && isset($eWbai["\x65\155\x61\x69\154"]) && !empty($eWbai["\145\155\x61\151\154"]))) { goto egymD; } goto B6MZF; B4IzX: try { goto y1J6O; GPl26: \q7q4h\HrEMD\rkRc8\Log::KW7Cx("\124\x69\160\157\40\x64\145\x20\164\145\x6d\160\x6c\141\164\x65\x20\156\303\243\x6f\40\x69\144\145\x6e\164\x69\146\x69\x63\141\x64\157", ["\x74\x65\x6d\160\154\x61\x74\x65" => $PNcHg]); goto jWyNN; CFhhK: if (!is_string($PNcHg)) { goto P0yka; } goto l8zay; q7vKT: vqUwX: goto CFhhK; THpK5: return false; goto wN2zx; rl_9T: U0T2M: goto gJK1W; jcvVG: P0yka: goto GPl26; g04mL: return $this->b_obz($eP0YE, $yY7lv->ZFpAM, $d68R_, $vuwIM); goto ZnW2m; l8zay: $yY7lv = \NR8e2\H7dTb\AHzXi::mlKEP($PNcHg); goto oqZPi; lVSlV: $yY7lv = \nr8E2\H7DtB\AhZxI::n9TRv($PNcHg); goto if0GC; if0GC: if ($yY7lv) { goto tPkUG; } goto OR0t4; gJK1W: \Q7q4h\HrEMD\RKRc8\Log::info("\125\x73\x61\x6e\144\157\40\x74\x65\x6d\x70\154\x61\x74\145\x20\154\157\x63\x61\154\40\144\157\40\142\x61\x6e\x63\157\x20\160\157\x72\x20\x73\154\x75\147", ["\x73\154\165\147" => $PNcHg, "\164\145\155\x70\154\141\x74\x65\x5f\x69\x64" => $yY7lv->id]); goto GSSBS; OR0t4: \q7Q4H\hrEmD\rkRc8\Log::KW7cX("\124\145\155\160\154\141\x74\x65\x20\144\145\x20\145\155\141\x69\x6c\x20\x6e\303\xa3\x6f\x20\x65\156\143\157\x6e\164\x72\141\144\x6f\x20\x6e\x6f\40\x62\x61\156\143\157\x20\144\145\x20\144\141\144\x6f\163", ["\x74\145\155\x70\154\x61\x74\145\137\x69\x64" => $PNcHg]); goto HqChL; wN2zx: goto mGRR2; goto rl_9T; dGArH: goto cEXfs; goto K0M_p; EH36m: mGRR2: goto jcvVG; jWyNN: return false; goto CYKrC; GSSBS: return $this->B_obZ($eP0YE, $PNcHg, $d68R_, $vuwIM); goto EH36m; SUVOW: \Q7q4H\hreMD\rkrC8\Log::info("\x55\x73\141\156\x64\x6f\x20\164\145\155\160\154\141\164\x65\40\154\157\143\x61\x6c\x20\x64\x6f\40\x62\141\156\x63\157\x20\x70\x6f\x72\40\111\104", ["\164\x65\x6d\x70\154\x61\x74\145\x5f\x69\x64" => $PNcHg, "\163\154\165\147" => $yY7lv->ZFpAM]); goto g04mL; o68OJ: \q7Q4h\HReMD\RKRc8\Log::kW7CX("\124\145\155\160\x6c\141\164\x65\40\156\xc3\243\157\40\x65\156\143\x6f\156\x74\x72\x61\x64\157\x20\156\x6f\x20\142\x61\x6e\143\x6f\40\160\157\x72\x20\163\154\165\x67", ["\x73\x6c\x75\147" => $PNcHg]); goto THpK5; oqZPi: if ($yY7lv) { goto U0T2M; } goto o68OJ; ZnW2m: cEXfs: goto q7vKT; HqChL: return false; goto dGArH; y1J6O: if (!is_numeric($PNcHg)) { goto vqUwX; } goto lVSlV; K0M_p: tPkUG: goto SUVOW; CYKrC: } catch (\Exception $kAPGM) { \q7q4H\hremd\RkrC8\Log::Kw7cX("\x45\162\162\x6f\x20\x61\157\x20\x65\x6e\166\151\x61\x72\40\x65\155\141\151\154\40\x63\x6f\x6d\x20\164\x65\x6d\x70\154\x61\164\x65", ["\145\162\x72\157" => $kAPGM->getMessage(), "\x74\145\x6d\160\x6c\141\x74\x65" => $PNcHg]); return false; } goto pZvMN; B6MZF: $vuwIM["\x73\x65\x6e\144\145\162"] = $eWbai; goto AUvde; AUvde: egymD: goto B4IzX; pZvMN: } protected function B_Obz($eP0YE, string $nux5Q, array $d68R_ = [], array $vuwIM = []) : bool { goto WGca5; Vj850: if ($yY7lv) { goto MNnhB; } goto z8UE0; H2TPg: \Q7Q4h\HRemD\rkrc8\Log::info("\x50\x72\157\x63\145\163\x73\x61\156\144\157\40\164\x65\155\x70\154\141\x74\145\40\154\x6f\143\x61\x6c", ["\163\x6c\x75\x67" => $nux5Q, "\x74\145\x6d\x70\x6c\141\x74\145\137\151\144" => $yY7lv->id, "\156\141\x6d\145" => $yY7lv->name]); goto mOJbB; QvUHw: $tgT_s = $yY7lv->Kb0HU($d68R_); goto yEvWR; MVMu1: $vuwIM["\x74\145\170\x74\137\143\x6f\156\x74\145\x6e\x74"] = $tgT_s; goto S1IWs; Lf9zp: $LkcMG = $yY7lv->PF2vu($d68R_); goto QvUHw; RiaPj: MNnhB: goto H2TPg; yEvWR: \q7q4h\HreMd\rKrc8\Log::info("\124\x65\x6d\160\154\141\164\145\40\x6c\x6f\x63\141\154\40\x72\145\x6e\144\145\162\151\172\x61\x64\157", ["\x73\x6c\165\147" => $nux5Q, "\x73\165\x62\152\145\x63\x74" => $dWBFY, "\x68\x61\x73\x5f\150\164\x6d\154" => !empty($LkcMG), "\x68\141\x73\x5f\x74\x65\170\x74" => !empty($tgT_s)]); goto rdzzd; WGca5: $yY7lv = AhZXI::MlkEP($nux5Q); goto Vj850; nisyK: $dWBFY = $yY7lv->RESR9($d68R_); goto Lf9zp; rdzzd: if (!$tgT_s) { goto Xx0yM; } goto MVMu1; ibulP: return false; goto RiaPj; mOJbB: $d68R_ = array_merge(["\163\x69\164\145\x5f\x6e\141\155\x65" => lOyKa("\141\x70\x70\56\156\141\155\x65"), "\x73\151\164\x65\137\x75\162\x6c" => LoYKa("\141\160\x70\56\165\x72\154"), "\171\145\x61\x72" => date("\x59")], $d68R_); goto nisyK; z8UE0: Log::kw7cx("\x54\145\155\160\x6c\x61\164\145\40\144\145\x20\145\155\141\x69\154\x20\x6e\303\xa3\157\40\145\156\143\157\156\164\162\141\144\157", ["\x73\154\x75\147" => $nux5Q]); goto ibulP; ztacs: return $this->WvzNl($eP0YE, $dWBFY, $LkcMG, array_merge($vuwIM, ["\160\141\162\141\155\163" => $d68R_])); goto fg0TH; S1IWs: Xx0yM: goto ztacs; fg0TH: } protected function heGEJ(string $nux5Q) : ?int { $yORJm = ["\x77\x65\x6c\x63\x6f\x6d\145" => Z501c("\102\x52\105\x56\117\x5f\124\105\x4d\x50\114\x41\x54\x45\137\102\x4f\x41\x53\137\126\x49\116\104\101\x53"), "\x70\x61\x73\163\x77\157\162\x64\55\162\x65\163\145\164" => z501C("\x42\x52\x45\x56\x4f\x5f\x54\105\115\120\114\x41\124\x45\137\120\x41\123\123\x57\x4f\122\104\x5f\122\x45\x53\x45\x54"), "\x76\x65\162\151\146\x69\x63\x61\x74\x69\x6f\156\55\143\157\144\x65" => Z501c("\102\122\105\x56\x4f\137\x54\x45\115\120\114\101\x54\105\137\126\105\x52\x49\x46\111\x43\101\124\111\x4f\x4e\x5f\103\117\104\105")]; return $yORJm[$nux5Q] ?? null; } protected function IEfzg($eP0YE, int $gG0vF, array $d68R_ = [], array $vuwIM = []) : bool { try { goto jGKMn; crHqt: khWox: goto DO73g; WIpbz: \q7Q4H\hRemd\RKRC8\Log::info("\105\156\166\151\x61\156\x64\157\40\145\x6d\141\x69\154\x20\166\x69\x61\40\101\120\x49\40\102\x72\145\166\x6f\x2e\x2e\56"); goto OvWuV; ruI1W: if (empty($d68R_)) { goto SDuYI; } goto E_zoJ; VTBse: return true; goto gfFpn; kW2jo: if (!(empty($eWbai["\x65\x6d\x61\151\154"]) || !filter_var($eWbai["\x65\x6d\141\151\x6c"], FILTER_VALIDATE_EMAIL))) { goto khWox; } goto qVrAI; DtGJn: $d6VJk->oqY9W($eP0YE); goto BNsX2; I_V3G: J2wtV: goto CxcDF; P_GiU: $d6VJk->c5EtG($eWbai); goto HsXAY; hl2eC: o2P11: goto svPyr; G4p9G: \q7q4h\hREMD\RKrc8\Log::info("\105\155\x61\151\154\40\143\x6f\x6d\40\x74\x65\x6d\160\x6c\141\x74\x65\40\102\x72\x65\x76\x6f\x20\145\156\166\151\x61\144\157\40\143\157\155\40\163\x75\x63\145\163\x73\157", ["\x6d\x65\163\x73\141\x67\145\x5f\x69\144" => $CyX6L->gEo5e(), "\x74\x6f" => is_array($eP0YE[0]) ? $eP0YE[0]["\145\155\x61\151\x6c"] : $eP0YE[0], "\x74\x65\155\160\154\x61\x74\x65\x5f\x69\x64" => $gG0vF]); goto VTBse; BNsX2: goto o2P11; goto tUPrf; DO73g: \Q7q4h\hRemD\RKRC8\Log::info("\x43\157\156\146\x69\147\165\x72\x61\xc3\247\303\265\x65\163\x20\x64\157\x20\x65\x6d\141\x69\154", ["\164\145\155\x70\x6c\x61\164\145\137\x69\144" => $gG0vF, "\164\157" => is_array($eP0YE[0]) ? $eP0YE[0]["\145\x6d\141\x69\x6c"] : $eP0YE[0], "\x73\x65\x6e\x64\x65\162" => $eWbai, "\x64\x6f\155\141\x69\x6e" => $this->Ls58t, "\160\x61\162\141\155\163" => $d68R_]); goto P_GiU; p40eL: $d6VJk->xY0i2($vuwIM["\x62\x63\x63"]); goto Lh2_U; Jw0j3: $d6VJk->OQy9W($eP0YE); goto hl2eC; RdK8i: XTnUo: goto n7Hu7; HsXAY: $d6VJk->OxZxR($gG0vF); goto ruI1W; jGKMn: \Q7Q4H\HreMD\rKrc8\Log::info("\x49\156\151\143\151\x61\156\144\157\40\145\156\166\151\x6f\x20\144\x65\x20\145\x6d\x61\x69\x6c\x20\143\157\x6d\x20\164\x65\x6d\160\x6c\141\x74\x65\x20\x42\162\x65\x76\x6f", ["\x74\x65\155\160\154\x61\164\145\x5f\x69\x64" => $gG0vF, "\x74\x6f" => is_array($eP0YE) && isset($eP0YE[0]) ? is_array($eP0YE[0]) ? $eP0YE[0]["\145\x6d\141\151\154"] : $eP0YE[0] : $eP0YE, "\x70\x61\x72\141\x6d\x73\137\x63\157\165\x6e\x74" => count($d68R_), "\144\x6f\x6d\x61\x69\156" => $this->Ls58t]); goto bjo5I; m_vNQ: $eP0YE = [["\x65\155\141\151\154" => $eP0YE["\145\155\141\x69\x6c"], "\x6e\141\x6d\145" => $eP0YE["\156\x61\x6d\145"] ?? null]]; goto vzEPj; CxcDF: if (!(isset($vuwIM["\x62\x63\x63"]) && is_array($vuwIM["\x62\x63\143"]))) { goto aLOaO; } goto p40eL; GQu6H: if (is_string($eP0YE)) { goto XTnUo; } goto m_vNQ; gZIDw: YHGCW: goto DtGJn; qVrAI: \q7q4H\hRemd\RkRC8\Log::nArNk("\105\155\141\x69\154\x20\x64\157\40\162\145\155\145\164\x65\156\x74\145\x20\x69\x6e\166\xc3\241\154\151\x64\x6f\x2c\x20\165\x73\141\x6e\144\x6f\40\x70\141\x64\162\xc3\243\157", ["\157\x72\x69\x67\x69\x6e\141\154\x5f\x65\155\141\x69\x6c" => $eWbai["\x65\155\141\151\x6c"] ?? "\156\303\243\x6f\x20\x64\x65\146\x69\156\151\144\157", "\144\157\x6d\x61\151\x6e" => $this->Ls58t]); goto PEq3V; PEq3V: $eWbai["\x65\155\141\x69\154"] = "\156\x6f\162\x65\x70\154\171\x40{$this->Ls58t}"; goto crHqt; dMmZT: if (!isset($vuwIM["\x72\145\x70\154\x79\137\164\x6f"])) { goto J2wtV; } goto xLqNK; bjo5I: $d6VJk = new aBsWZ(); goto DNAxG; JMzwd: SDuYI: goto dMmZT; OvWuV: $CyX6L = $this->lLMUL->nNWac($d6VJk); goto G4p9G; tUPrf: Bh4Nz: goto Jw0j3; E_zoJ: $d6VJk->AULwS($d68R_); goto JMzwd; svPyr: $eWbai = $vuwIM["\x73\x65\x6e\x64\145\162"] ?? ["\156\x61\155\145" => $vuwIM["\163\x65\156\x64\x65\162\x5f\156\141\x6d\145"] ?? $this->nwa3T, "\x65\x6d\x61\x69\154" => $vuwIM["\163\x65\156\144\x65\162\x5f\x65\155\x61\x69\x6c"] ?? "\x6e\x6f\x72\145\x70\x6c\171\100{$this->Ls58t}"]; goto kW2jo; n7Hu7: $eP0YE = [["\145\155\141\151\154" => $eP0YE]]; goto gZIDw; DNAxG: if (is_array($eP0YE) && !isset($eP0YE["\145\x6d\x61\x69\154"])) { goto Bh4Nz; } goto GQu6H; vzEPj: goto YHGCW; goto RdK8i; Lh2_U: aLOaO: goto WIpbz; xLqNK: $d6VJk->y4A2r($vuwIM["\x72\145\160\x6c\x79\137\x74\157"]); goto I_V3G; gfFpn: } catch (\Exception $kAPGM) { \Q7Q4H\HreMd\rkRc8\Log::Kw7Cx("\105\x72\x72\x6f\40\141\x6f\40\x65\156\166\151\x61\162\x20\x65\x6d\141\x69\154\x20\143\157\x6d\40\164\x65\155\x70\154\141\164\145\x20\x42\162\x65\x76\157", ["\145\x72\162\157" => $kAPGM->getMessage(), "\x74\x65\155\x70\x6c\x61\x74\145\x5f\151\x64" => $gG0vF, "\x74\157" => is_array($eP0YE) && isset($eP0YE[0]) && is_array($eP0YE[0]) ? $eP0YE[0]["\145\x6d\x61\x69\x6c"] : (is_array($eP0YE) ? json_encode($eP0YE) : $eP0YE), "\x70\141\162\141\x6d\x73" => $d68R_, "\144\x6f\x6d\141\151\156" => $this->Ls58t, "\x74\x72\x61\x63\x65" => $kAPGM->getTraceAsString()]); return false; } } }
+
+namespace App\Services;
+
+use Brevo\Client\Api\TransactionalEmailsApi;
+use Brevo\Client\Configuration;
+use Brevo\Client\Model\SendSmtpEmail;
+use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Log;
+use App\Models\EmailTemplate;
+use Illuminate\Support\Facades\View;
+use Carbon\Carbon;
+use App\Models\Settings;
+
+class BrevoService
+{
+    protected $apiInstance;
+    protected $domain;
+    protected $displayName;
+    protected $useLocalTemplates;
+
+    public function __construct()
+    {
+        $config = Configuration::getDefaultConfiguration()
+            ->setApiKey('api-key', config('services.brevo.key'));
+
+        $this->apiInstance = new TransactionalEmailsApi(
+            new Client(),
+            $config
+        );
+
+        // Domínio para envio de emails - sempre usar o valor do .env
+        $this->domain = env('BREVO_DEFAULT_DOMAIN');
+        
+        // Nome de exibição para o domínio - tenta buscar do banco de dados primeiro
+        try {
+            $settings = Settings::first();
+            $this->displayName = $settings ? $settings->name : env('BREVO_DISPLAY_NAME', config('app.name'));
+        } catch (\Exception $e) {
+            // Em caso de falha (ex: durante migrations), usa o valor do .env
+            $this->displayName = env('BREVO_DISPLAY_NAME', config('app.name'));
+            Log::warning('Não foi possível obter nome do site das configurações. Usando fallback.', [
+                'error' => $e->getMessage()
+            ]);
+        }
+
+        // Usar templates locais ou do Brevo
+        $this->useLocalTemplates = env('USE_LOCAL_EMAIL_TEMPLATES', true);
+    }
+
+    /**
+     * Enviar um email simples
+     *
+     * @param string|array $to Destinatário (email ou array ['email' => 'nome'])
+     * @param string $subject Assunto do email
+     * @param string $htmlContent Conteúdo HTML do email
+     * @param array $params Parâmetros adicionais (cc, bcc, reply_to, etc)
+     * @return bool
+     */
+    public function enviarEmail($to, string $subject, string $htmlContent, array $params = []): bool
+    {
+        try {
+            $sendSmtpEmail = new SendSmtpEmail();
+            
+            // Configurar destinatário(s)
+            if (is_array($to) && !isset($to['email'])) {
+                $sendSmtpEmail->setTo($to);
+            } else {
+                if (is_string($to)) {
+                    $to = [['email' => $to]];
+                } else {
+                    $to = [['email' => $to['email'], 'name' => $to['name'] ?? null]];
+                }
+                $sendSmtpEmail->setTo($to);
+            }
+
+            // Definir remetente
+            $sender = $params['sender'] ?? [
+                'name' => $params['sender_name'] ?? $this->displayName,
+                'email' => $params['sender_email'] ?? "noreply@{$this->domain}"
+            ];
+            $sendSmtpEmail->setSender($sender);
+
+            // Configurar assunto e conteúdo
+            $sendSmtpEmail->setSubject($subject);
+            $sendSmtpEmail->setHtmlContent($htmlContent);
+
+            // Configurações adicionais (cc, bcc, reply_to)
+            if (isset($params['cc'])) {
+                $sendSmtpEmail->setCc($params['cc']);
+            }
+            
+            if (isset($params['bcc'])) {
+                $sendSmtpEmail->setBcc($params['bcc']);
+            }
+            
+            if (isset($params['reply_to'])) {
+                $sendSmtpEmail->setReplyTo($params['reply_to']);
+            }
+
+            // Configurar anexos
+            if (isset($params['attachments']) && is_array($params['attachments'])) {
+                $sendSmtpEmail->setAttachment($params['attachments']);
+            }
+
+            // Configurar parâmetros de template
+            if (isset($params['params']) && is_array($params['params'])) {
+                $sendSmtpEmail->setParams($params['params']);
+            }
+
+            // Configurar conteúdo de texto simples (fallback)
+            if (isset($params['text_content'])) {
+                $sendSmtpEmail->setTextContent($params['text_content']);
+            }
+
+            // Enviar o email
+            $result = $this->apiInstance->sendTransacEmail($sendSmtpEmail);
+            Log::info('Email enviado com sucesso', [
+                'message_id' => $result->getMessageId(),
+                'domain' => $this->domain
+            ]);
+            
+            return true;
+        } catch (\Exception $e) {
+            Log::error('Erro ao enviar email com Brevo', [
+                'erro' => $e->getMessage(),
+                'destinatario' => $to,
+                'assunto' => $subject
+            ]);
+            
+            return false;
+        }
+    }
+
+    /**
+     * Enviar email usando um template do Brevo ou template local
+     *
+     * @param string|array $to Destinatário (email ou array ['email' => 'nome'])
+     * @param int|string $templateIdOrSlug ID do template no Brevo ou slug do template local
+     * @param array $params Variáveis para o template
+     * @param array|null $sender Remetente personalizado ['email' => '', 'name' => '']
+     * @param array $options Opções adicionais
+     * @return bool
+     */
+    public function enviarEmailTemplate($to, $templateIdOrSlug, array $params = [], $sender = null, array $options = []): bool
+    {
+        // Adicionar o remetente às opções se fornecido
+        if ($sender && isset($sender['email']) && !empty($sender['email'])) {
+            $options['sender'] = $sender;
+        }
+        
+        try {
+            // SEMPRE usar templates locais do banco de dados
+            // Verificar se o template está sendo buscado por ID (numérico)
+            if (is_numeric($templateIdOrSlug)) {
+                // Buscar o template pelo ID no banco de dados
+                $template = \App\Models\EmailTemplate::find($templateIdOrSlug);
+                
+                if ($template) {
+                    \Illuminate\Support\Facades\Log::info('Usando template local do banco por ID', [
+                        'template_id' => $templateIdOrSlug,
+                        'slug' => $template->slug
+                    ]);
+                    
+                    // SEMPRE usar o template local, ignorando brevo_template_id
+                    return $this->enviarEmailTemplateLocal($to, $template->slug, $params, $options);
+                } else {
+                    // Log de erro: template não encontrado
+                    \Illuminate\Support\Facades\Log::error('Template de email não encontrado no banco de dados', [
+                        'template_id' => $templateIdOrSlug
+                    ]);
+                    
+                    return false;
+                }
+            }
+            
+            // Se for uma string (slug), buscar no banco de dados
+            if (is_string($templateIdOrSlug)) {
+                $template = \App\Models\EmailTemplate::findBySlug($templateIdOrSlug);
+                
+                if ($template) {
+                    \Illuminate\Support\Facades\Log::info('Usando template local do banco por slug', [
+                        'slug' => $templateIdOrSlug,
+                        'template_id' => $template->id
+                    ]);
+                    
+                    // SEMPRE usar template local, ignorando brevo_template_id
+                    return $this->enviarEmailTemplateLocal($to, $templateIdOrSlug, $params, $options);
+                } else {
+                    \Illuminate\Support\Facades\Log::error('Template não encontrado no banco por slug', [
+                        'slug' => $templateIdOrSlug
+                    ]);
+                    
+                    return false;
+                }
+            }
+            
+            // Se chegou até aqui, não foi possível determinar o tipo de template
+            \Illuminate\Support\Facades\Log::error('Tipo de template não identificado', [
+                'template' => $templateIdOrSlug
+            ]);
+            
+            return false;
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Erro ao enviar email com template', [
+                'erro' => $e->getMessage(),
+                'template' => $templateIdOrSlug
+            ]);
+            
+            return false;
+        }
+    }
+
+    /**
+     * Enviar email usando um template local
+     *
+     * @param string|array $to Destinatário
+     * @param string $slug Slug do template
+     * @param array $params Variáveis para o template
+     * @param array $options Opções adicionais
+     * @return bool
+     */
+    protected function enviarEmailTemplateLocal($to, string $slug, array $params = [], array $options = []): bool
+    {
+        // Procurar o template pelo slug
+        $template = EmailTemplate::findBySlug($slug);
+        
+        if (!$template) {
+            Log::error('Template de email não encontrado', ['slug' => $slug]);
+            return false;
+        }
+        
+        \Illuminate\Support\Facades\Log::info('Processando template local', [
+            'slug' => $slug,
+            'template_id' => $template->id,
+            'name' => $template->name
+        ]);
+        
+        // Adicionar variáveis padrão aos parâmetros
+        $params = array_merge([
+            'site_name' => config('app.name'),
+            'site_url' => config('app.url'),
+            'year' => date('Y'),
+        ], $params);
+        
+        // Renderizar o assunto e conteúdo com as variáveis
+        $subject = $template->renderSubject($params);
+        $htmlContent = $template->renderHtml($params);
+        $textContent = $template->renderText($params);
+        
+        \Illuminate\Support\Facades\Log::info('Template local renderizado', [
+            'slug' => $slug,
+            'subject' => $subject,
+            'has_html' => !empty($htmlContent),
+            'has_text' => !empty($textContent)
+        ]);
+        
+        // Adicionar o conteúdo de texto às opções
+        if ($textContent) {
+            $options['text_content'] = $textContent;
+        }
+        
+        // Enviar o email usando o método simples
+        return $this->enviarEmail($to, $subject, $htmlContent, array_merge($options, ['params' => $params]));
+    }
+
+    /**
+     * Obter o ID do template do Brevo pelo slug
+     *
+     * @param string $slug
+     * @return int|null
+     */
+    protected function getBrevoTemplateIdBySlug(string $slug): ?int
+    {
+        $templateMap = [
+            'welcome' => env('BREVO_TEMPLATE_BOAS_VINDAS'),
+            'password-reset' => env('BREVO_TEMPLATE_PASSWORD_RESET'),
+            'verification-code' => env('BREVO_TEMPLATE_VERIFICATION_CODE'),
+        ];
+        
+        return $templateMap[$slug] ?? null;
+    }
+
+    /**
+     * Enviar email usando um template do Brevo
+     *
+     * @param string|array $to Destinatário
+     * @param int $templateId ID do template no Brevo
+     * @param array $params Variáveis para o template
+     * @param array $options Opções adicionais
+     * @return bool
+     */
+    protected function enviarEmailTemplateBrevo($to, int $templateId, array $params = [], array $options = []): bool
+    {
+        try {
+            // Log do início do processo
+            \Illuminate\Support\Facades\Log::info('Iniciando envio de email com template Brevo', [
+                'template_id' => $templateId,
+                'to' => is_array($to) && isset($to[0]) ? (is_array($to[0]) ? $to[0]['email'] : $to[0]) : $to,
+                'params_count' => count($params),
+                'domain' => $this->domain
+            ]);
+
+            $sendSmtpEmail = new SendSmtpEmail();
+            
+            // Configurar destinatário(s)
+            if (is_array($to) && !isset($to['email'])) {
+                $sendSmtpEmail->setTo($to);
+            } else {
+                if (is_string($to)) {
+                    $to = [['email' => $to]];
+                } else {
+                    $to = [['email' => $to['email'], 'name' => $to['name'] ?? null]];
+                }
+                $sendSmtpEmail->setTo($to);
+            }
+            
+            // Configurar remetente
+            $sender = $options['sender'] ?? [
+                'name' => $options['sender_name'] ?? $this->displayName,
+                'email' => $options['sender_email'] ?? "noreply@{$this->domain}"
+            ];
+            
+            // Garantir que o remetente seja válido
+            if (empty($sender['email']) || !filter_var($sender['email'], FILTER_VALIDATE_EMAIL)) {
+                // Log do problema
+                \Illuminate\Support\Facades\Log::warning('Email do remetente inválido, usando padrão', [
+                    'original_email' => $sender['email'] ?? 'não definido',
+                    'domain' => $this->domain
+                ]);
+                
+                // Usar o domínio configurado
+                $sender['email'] = "noreply@{$this->domain}";
+            }
+            
+            // Registrar detalhes do envio
+            \Illuminate\Support\Facades\Log::info('Configurações do email', [
+                'template_id' => $templateId,
+                'to' => is_array($to[0]) ? $to[0]['email'] : $to[0],
+                'sender' => $sender,
+                'domain' => $this->domain,
+                'params' => $params
+            ]);
+            
+            $sendSmtpEmail->setSender($sender);
+            
+            // Configurar parâmetros de template
+            $sendSmtpEmail->setTemplateId($templateId);
+            
+            if (!empty($params)) {
+                $sendSmtpEmail->setParams($params);
+            }
+            
+            // Configurações adicionais
+            if (isset($options['reply_to'])) {
+                $sendSmtpEmail->setReplyTo($options['reply_to']);
+            }
+            
+            if (isset($options['bcc']) && is_array($options['bcc'])) {
+                $sendSmtpEmail->setBcc($options['bcc']);
+            }
+            
+            // Tentar enviar o email
+            \Illuminate\Support\Facades\Log::info('Enviando email via API Brevo...');
+            $result = $this->apiInstance->sendTransacEmail($sendSmtpEmail);
+            
+            \Illuminate\Support\Facades\Log::info('Email com template Brevo enviado com sucesso', [
+                'message_id' => $result->getMessageId(),
+                'to' => is_array($to[0]) ? $to[0]['email'] : $to[0],
+                'template_id' => $templateId
+            ]);
+            
+            return true;
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Erro ao enviar email com template Brevo', [
+                'erro' => $e->getMessage(),
+                'template_id' => $templateId,
+                'to' => is_array($to) && isset($to[0]) && is_array($to[0]) ? $to[0]['email'] : (is_array($to) ? json_encode($to) : $to),
+                'params' => $params,
+                'domain' => $this->domain,
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return false;
+        }
+    }
+} 

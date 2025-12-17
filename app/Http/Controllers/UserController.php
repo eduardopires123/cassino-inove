@@ -1,8 +1,137 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:48              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\ShteQ\fN52m; use jF89x\sHTeq\fn52m\nmp37; use ec3me\SHtEQ\s9D5T; use ec3ME\H2VUv\P2qh1\NxroV; class nCSui extends nmp37 { public function ruttl() { return Lo0cy("\165\163\145\x72\x2e\160\x72\x6f\x66\x69\x6c\x65"); } public function D3p4v(S9d5t $WFz1w) { goto ySbTK; YQT4j: if (!($JUFkJ < 4)) { goto BpYjc; } goto b6AOt; b6AOt: return jgkrL()->SbE1q(["\x73\x75\x63\143\145\163\163" => false, "\155\145\x73\x73\141\x67\145" => "\x56\157\143\303\xaa\x20\x70\162\145\143\x69\163\141\x20\164\145\162\x20\162\x61\156\x6b\151\x6e\147\40\x50\x72\x61\164\141\40\x28\156\xc3\xad\166\x65\154\40\64\x29\x20\x6f\165\40\x73\165\x70\145\x72\151\157\x72\40\x70\x61\162\141\40\165\x73\x61\162\x20\145\163\164\x65\40\141\166\x61\x74\x61\162\x2e"]); goto QXVXs; c3GZr: return JgkRl()->SBE1q(["\163\165\x63\143\x65\x73\x73" => false, "\x6d\145\163\x73\x61\x67\x65" => "\x56\x6f\x63\xc3\xaa\40\x70\162\x65\x63\x69\x73\141\x20\x74\x65\162\40\162\x61\156\153\x69\156\147\x20\x4f\165\162\x6f\x20\x28\x6e\xc3\255\166\x65\x6c\x20\x37\x29\x20\x6f\x75\x20\163\x75\x70\145\x72\151\x6f\x72\40\160\141\x72\x61\x20\x75\x73\x61\162\40\145\163\x74\145\40\x61\x76\x61\x74\141\x72\56"]); goto KqPnc; YbW6t: return JGKrl()->sBe1Q(["\163\165\x63\143\145\x73\163" => true, "\141\x76\141\164\x61\162" => $ctNN8]); goto MkVSx; tdVOQ: o_WBI: goto ZbujC; KqPnc: IPscz: goto tdVOQ; pzE_2: $e5HVA = NXROV::YFGi_(); goto KGLmC; ySbTK: $WFz1w->validate(["\151\x6d\x61\147\145" => "\x72\x65\161\x75\x69\162\145\144\x7c\163\164\x72\x69\x6e\x67"]); goto pzE_2; l5YE8: YstES: goto dLl55; qD9I4: if (!($JUFkJ < 7)) { goto IPscz; } goto c3GZr; xIZ8j: $e5HVA->save(); goto YbW6t; LxRPj: $JUFkJ = $e5HVA->cEBWD()["\x6c\145\166\x65\x6c"]; goto QvQbl; QvQbl: if (!($WFz1w->type == "\163\x69\x6c\x76\145\162")) { goto YstES; } goto YQT4j; QXVXs: BpYjc: goto l5YE8; dLl55: if (!($WFz1w->type == "\x67\x6f\154\x64")) { goto o_WBI; } goto qD9I4; KGLmC: $ctNN8 = $WFz1w->BUVn7; goto LxRPj; ZbujC: $e5HVA->BUVn7 = $ctNN8; goto xIZ8j; MkVSx: } public function e07EN(S9D5t $WFz1w) { goto aoCBK; r_X4D: $e5HVA->save(); goto QlGyK; ouE5y: $e5HVA = nxRoV::YFgi_(); goto IVKpe; QlGyK: return JgKrl()->sbe1q(["\163\x75\x63\143\145\163\163" => true, "\x6e\141\155\145" => $nbsXB]); goto QXBGO; AHdyg: $e5HVA->name = $nbsXB; goto r_X4D; aoCBK: $WFz1w->validate(["\x6e\141\x6d\x65" => "\162\145\161\165\x69\162\x65\x64\174\163\164\x72\151\x6e\147\174\x6d\141\x78\x3a\62\x35\65"]); goto ouE5y; IVKpe: $nbsXB = $WFz1w->name; goto AHdyg; QXBGO: } public function FAJ0X() { return Lo0cy("\x75\163\x65\162\x2e\141\143\143\x6f\165\x6e\164"); } public function zOYuq() { $e5HVA = nxRov::YfgI_(); return lo0cY("\x75\163\145\x72\x2e\163\145\143\165\x72\151\164\x79", compact("\x75\163\145\x72")); } public function jkbS3() { return Lo0Cy("\x75\163\x65\162\56\141\143\x63\157\165\156\164"); } public function RFKu1() { return fH6x5()->WWY32("\165\163\145\162\56\x77\x61\154\x6c\x65\x74"); } public function hJvkP(s9D5t $WFz1w) { goto chkaZ; iSSw9: szXsa: goto a2Ss7; mAEpD: $e5HVA->load("\x77\141\x6c\x6c\145\x74"); goto OPzM2; chkaZ: $e5HVA = NxrOv::YFgI_(); goto wxrFP; OPzM2: return jGkrL()->sbE1q(["\x73\165\x63\x63\145\x73\x73" => true, "\x62\141\x6c\141\x6e\143\x65" => $e5HVA->d1U9g->AqmcG ?? 0]); goto ChFeS; wxrFP: if ($e5HVA) { goto szXsa; } goto Ke7J3; a2Ss7: $e5HVA->refresh(); goto mAEpD; Ke7J3: return JgkrL()->sBe1q(["\163\165\x63\143\145\163\163" => false, "\x6d\145\163\x73\141\x67\x65" => "\125\x73\x75\xc3\241\162\x69\157\x20\156\xc3\243\x6f\x20\141\165\164\145\x6e\164\x69\143\x61\144\x6f"], 401); goto iSSw9; ChFeS: } }
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+class UserController extends Controller
+{
+    public function profile()
+    {
+        return view('user.profile');
+    }
+
+    public function updateAvatar(Request $request)
+    {
+        // Validar a requisição
+        $request->validate([
+            'image' => 'required|string',
+        ]);
+
+        $user = Auth::user();
+        $avatar = $request->image;
+        $userRank = $user->getRanking()['level'];
+
+        // Verificar se é um avatar do tipo A (Prata)
+        if ($request->type == "silver") {
+            if ($userRank < 4) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Você precisa ter ranking Prata (nível 4) ou superior para usar este avatar.'
+                ]);
+            }
+        }
+
+        // Verificar se é um avatar do tipo B (Ouro)
+        if ($request->type == "gold") {
+            if ($userRank < 7) {
+                return response()->json([
+                    'success' => false,
+                    'message' => 'Você precisa ter ranking Ouro (nível 7) ou superior para usar este avatar.'
+                ]);
+            }
+        }
+
+        // Atualizar o avatar
+        $user->image = $avatar;
+        $user->save();
+
+        return response()->json([
+            'success' => true,
+            'avatar' => $avatar
+        ]);
+    }
+
+    /**
+     * Atualiza o nome do usuário
+     */
+    public function updateUsername(Request $request)
+    {
+        // Validar a requisição
+        $request->validate([
+            'name' => 'required|string|max:255',
+        ]);
+
+        $user = Auth::user();
+        $newName = $request->name;
+
+        // Atualizar o nome do usuário
+        $user->name = $newName;
+        $user->save();
+
+        return response()->json([
+            'success' => true,
+            'name' => $newName
+        ]);
+    }
+
+    /**
+     * Exibe a página de dados da conta.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function account()
+    {
+        return view('user.account');
+    }
+
+    /**
+     * Exibe a página de segurança da conta.
+     *
+     * @return \Illuminate\View\View
+     */
+    public function security()
+    {
+        $user = Auth::user();
+        return view('user.security', compact('user'));
+    }
+
+    public function index()
+    {
+        return view('user.account');
+    }
+
+    /**
+     * Redireciona para a carteira do usuário no ProfileController
+     */
+    public function wallet()
+    {
+        return redirect()->route('user.wallet');
+    }
+
+    /**
+     * Atualiza e retorna o saldo atual do usuário
+     */
+    public function refreshBalance(Request $request)
+    {
+        $user = Auth::user();
+
+        if (!$user) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Usuário não autenticado'
+            ], 401);
+        }
+
+        // Recarregar dados do usuário e carteira do banco
+        $user->refresh();
+        $user->load('wallet');
+
+        return response()->json([
+            'success' => true,
+            'balance' => $user->wallet->balance ?? 0
+        ]);
+    }
+}

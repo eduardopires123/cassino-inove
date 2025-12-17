@@ -1,8 +1,393 @@
 <?php
-/*   __________________________________________________
-    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
-    |              on 2025-12-17 20:57:43              |
-    |    GitHub: https://github.com/pk-fr/yakpro-po    |
-    |__________________________________________________|
-*/
- namespace jf89x\shTeQ\fn52m\JKlI6; use jf89x\SHtEq\Fn52M\NMp37; use ec3Me\shTeQ\S9d5t; use jF89X\T0Etd\Avsuj; use jf89x\t0Etd\c40Q0; use JF89x\T0etd\DIEqD; use jF89x\t0eTD\Y0xep; use ShPk2\SHPk2; use d2G_K\Ect6g\P2QH1\ecT6G; class HrDbc extends nmp37 { public function tYoHR(s9D5t $WFz1w) { $fB3ev = y0xeP::g0jIt(); return lO0cy("\x61\144\155\151\x6e\56\x75\163\x75\x61\x72\x69\157\163\x2e\165\163\x75\141\x72\151\x6f\163", compact("\x76\151\x70\114\x65\x76\x65\x6c\163")); } public function nVJsG(s9D5T $WFz1w) { goto D9QMX; kPPHn: goto Xt0pP; goto F5CqP; T3KU5: Xt0pP: goto LVNI9; M0bAC: $XrAG1->c_mHY("\x63\x72\x65\x61\164\x65\144\x5f\141\x74", "\74\x3d", shpK2::kjT_j($WFz1w->pC2LR("\144\x66"))->HG0Qb()); goto T3KU5; bemp3: if (!$WFz1w->PC2LR("\144\151") && $WFz1w->pC2lR("\x64\x66")) { goto DsQrO; } goto a_g4M; a_g4M: goto Xt0pP; goto FXNZV; Tc6B2: return EcT6G::VY87w($XrAG1)->e4RgN("\156\x6f\x6d\x65", function ($nGClM) { return $nGClM->name; })->e4rgN("\x72\x61\x6e\x6b\x69\x6e\147", function ($nGClM) { goto UpSCa; UpSCa: $GadLW = $nGClM->ceBWD(); goto eWCQC; eWCQC: if (!(!$GadLW || empty($GadLW["\x69\x6d\141\147\145"]))) { goto iVFun; } goto OIhUP; LW8tL: return "\74\x69\155\147\40\163\162\x63\75\42" . B0qX4($GadLW["\x69\155\141\x67\145"]) . "\x22\xa\40\40\x20\40\x20\x20\x20\x20\40\x20\x20\x20\x20\40\40\40\40\x20\40\40\x20\40\40\40\143\x6c\x61\163\x73\75\x22\x72\141\156\x6b\151\156\147\x2d\x69\155\147\42\xa\x20\40\x20\40\40\x20\40\x20\40\x20\40\x20\40\x20\40\40\40\x20\40\40\40\40\40\40\167\x69\144\164\150\x3d\x22\63\x30\42\xa\40\x20\x20\40\40\40\x20\x20\40\x20\x20\40\40\40\40\40\40\x20\x20\x20\40\x20\x20\x20\150\x65\x69\147\150\x74\x3d\x22\63\x30\42\12\x20\x20\x20\x20\40\40\40\x20\40\x20\x20\x20\x20\x20\x20\x20\x20\x20\40\40\x20\40\40\40\144\141\x74\x61\x2d\x62\x73\55\x74\x6f\147\x67\154\145\x3d\x22\164\x6f\x6f\x6c\164\x69\x70\x22\xa\40\40\x20\x20\x20\x20\40\40\x20\x20\40\x20\x20\40\40\40\40\40\x20\x20\x20\40\40\x20\144\x61\x74\141\55\x62\163\x2d\x70\x6c\x61\x63\x65\x6d\145\156\164\x3d\42\164\157\x70\42\xa\40\x20\40\40\40\40\40\x20\x20\x20\x20\x20\40\40\40\x20\x20\x20\x20\x20\40\x20\x20\40\164\x69\x74\x6c\145\x3d\x22" . $GadLW["\156\x61\155\x65"] . "\42\76"; goto XUt8b; OIhUP: return "\x3c\x73\x70\x61\x6e\x3e\x2d\x3c\57\163\x70\141\x6e\76"; goto znenp; znenp: iVFun: goto LW8tL; XUt8b: })->e4RGn("\145\x6d\141\151\x6c", function ($nGClM) { return $nGClM->VzAAC; })->e4RGN("\163\141\154\144\x6f", function ($nGClM) { goto E2KsS; gntNr: c2YkY: goto ZuglL; E2KsS: if ($nGClM->zeABj) { goto c2YkY; } goto KvQPD; KvQPD: return "\122\44\40\60\x2c\x30\60"; goto gntNr; SEPma: $qPR06 = $rs2KM > 9999 ? number_format($rs2KM, 2, "\x2c", "\x2e") : number_format($rs2KM, 2, "\x2c", ''); goto LHBIq; LHBIq: return "\122\44\x20" . $qPR06; goto Hm5Io; ZuglL: $rs2KM = $nGClM->zeABj->AqmcG; goto SEPma; Hm5Io: })->E4rgN("\x64\x61\164\x61\x5f\x63\141\x64\x61\x73\164\162\157", function ($nGClM) { return $nGClM->RvvCO->format("\144\57\155\57\131\40\x48\x3a\x69\72\x73"); })->E4rgn("\165\x6c\x74\x69\155\x6f\x5f\144\145\x70\x6f\x73\151\164\157", function ($nGClM) { goto DAVEi; obJIU: return $ri_ge->CLvtD->format("\x64\x2f\155\x2f\131"); goto n3ya5; DAVEi: $ri_ge = dieqD::C_mhY("\x75\163\x65\162\137\151\x64", $nGClM->id)->c_mhY("\x74\x79\160\145", 0)->A9jmH("\x69\x64", "\144\145\163\143")->yrKr9(); goto ZADGl; ZADGl: if (!$ri_ge) { goto UUau_; } goto obJIU; n3ya5: UUau_: goto fJAKB; fJAKB: return "\x4e\303\243\157\x20\x68\303\241\x20\144\x65\160\303\xb3\x73\151\164\157\x73\x20\x72\145\x63\145\156\x74\145\163"; goto EEMLa; EEMLa: })->e4Rgn("\x61\x63\x6f\x65\x73", function ($nGClM) { goto KmR2p; AwaGn: $QEqeW .= "\74\163\x76\147\40\x78\x6d\x6c\x6e\163\x3d\42\150\x74\164\x70\x3a\x2f\x2f\x77\x77\167\56\x77\x33\x2e\x6f\x72\x67\57\x32\x30\x30\x30\x2f\163\x76\x67\x22\40\x77\x69\144\x74\150\75\42\62\64\x22\x20\x68\145\x69\x67\x68\164\x3d\x22\62\x34\x22\40\x76\151\145\167\x42\x6f\170\x3d\42\60\x20\x30\x20\x32\64\x20\62\x34\x22\x20\x66\151\x6c\154\75\x22\x6e\x6f\x6e\x65\42\40\163\x74\162\157\x6b\145\x3d\x22\143\x75\162\x72\145\x6e\164\x43\157\x6c\x6f\162\x22\40\163\164\162\x6f\153\145\x2d\x77\x69\144\x74\150\75\x22\62\42\x20\x73\164\x72\157\x6b\x65\x2d\x6c\x69\x6e\x65\143\141\160\x3d\x22\x72\157\165\x6e\144\x22\x20\163\164\162\157\x6b\145\x2d\154\151\x6e\x65\152\x6f\151\156\75\42\x72\157\x75\156\x64\x22\x20\x63\154\141\163\x73\x3d\42\146\145\141\164\150\x65\162\x20\x66\x65\x61\x74\150\145\162\55\145\x64\151\x74\x2d\x33\x22\76\x3c\160\x61\x74\150\x20\x64\x3d\x22\115\61\x32\40\62\60\x68\x39\42\x3e\74\x2f\x70\x61\164\x68\76\x3c\x70\x61\x74\150\40\144\x3d\x22\115\x31\x36\56\x35\x20\63\56\65\141\x32\x2e\61\62\61\40\x32\x2e\x31\x32\x31\40\x30\40\x30\40\x31\x20\63\40\x33\114\67\40\61\71\x6c\55\x34\40\61\40\x31\55\64\114\61\66\56\x35\x20\x33\56\65\172\x22\76\74\57\160\x61\164\150\x3e\x3c\57\163\x76\147\x3e"; goto TLCsI; WcdDk: $QEqeW .= "\x3c\x2f\141\76"; goto JeA0M; TLCsI: $QEqeW .= "\74\57\x61\76"; goto L3Z7L; KmR2p: $QEqeW = "\74\x61\x20\143\154\x61\163\163\75\x22\142\x61\x64\x67\145\x20\x62\x61\x64\x67\145\55\x6c\151\147\150\164\x2d\160\x72\151\x6d\141\x72\171\x20\164\x65\x78\164\x2d\x73\164\141\162\164\40\x6d\x65\55\x32\40\x61\x63\x74\151\157\156\55\x65\x64\151\164\42\x20\x68\x72\x65\x66\x3d\x22\152\141\x76\x61\x73\x63\x72\x69\x70\164\72\x76\157\151\144\x28\x30\51\73\42\40\157\156\x63\154\x69\143\153\x3d\42\114\x6f\141\x64\101\147\x65\156\164\50\x27" . $nGClM->id . "\x27\x29\x3b\42\x20\144\x61\164\x61\55\x62\x73\x2d\164\157\x67\147\x6c\x65\x3d\x22\x6d\x6f\144\x61\154\x22\x20\144\x61\164\x61\x2d\142\x73\55\x74\x61\162\x67\x65\x74\75\x22\43\164\141\142\163\x4d\x6f\144\141\154\42\x3e"; goto AwaGn; JeA0M: return $QEqeW; goto QlmYR; glXHR: $QEqeW .= "\74\x73\166\x67\40\x78\x6d\154\x6e\x73\x3d\42\150\x74\x74\160\x3a\x2f\57\167\167\x77\56\x77\x33\x2e\x6f\162\x67\x2f\x32\60\60\60\57\x73\x76\x67\42\40\x77\x69\144\x74\x68\x3d\x22\x32\x34\x22\x20\150\145\151\147\150\x74\x3d\42\x32\64\x22\x20\166\x69\x65\x77\x42\157\170\x3d\x22\60\x20\x30\40\62\x34\x20\62\x34\42\x20\x66\151\x6c\154\x3d\x22\x6e\157\156\x65\x22\x20\x73\x74\162\x6f\x6b\145\x3d\x22\x63\x75\x72\162\145\156\x74\103\x6f\x6c\157\x72\42\x20\x73\164\162\x6f\153\145\55\x77\151\x64\164\150\75\x22\x32\x22\40\163\164\x72\157\x6b\x65\x2d\x6c\151\156\145\x63\x61\160\x3d\42\x72\x6f\x75\x6e\x64\42\40\163\x74\x72\157\x6b\145\55\x6c\x69\x6e\145\152\x6f\x69\156\x3d\42\x72\x6f\165\156\x64\x22\40\x63\154\x61\x73\x73\75\x22\x66\x65\x61\164\x68\145\162\x20\146\x65\141\x74\x68\145\162\x2d\164\x72\141\163\150\x22\76\x3c\x70\x6f\154\171\x6c\151\156\x65\40\x70\x6f\x69\x6e\x74\163\x3d\x22\x33\40\x36\x20\65\40\66\x20\x32\61\x20\x36\x22\76\74\57\x70\x6f\x6c\171\154\x69\156\x65\76\x3c\160\141\x74\x68\x20\144\75\x22\x4d\x31\x39\x20\66\166\61\64\x61\x32\40\x32\x20\60\40\60\40\61\55\62\40\x32\x48\67\141\x32\40\x32\40\60\x20\60\40\x31\x2d\62\55\62\x56\x36\x6d\x33\40\x30\x56\64\x61\62\40\x32\x20\60\40\60\40\x31\40\x32\55\62\x68\x34\x61\x32\x20\x32\x20\x30\40\x30\40\x31\40\62\40\62\166\62\42\x3e\x3c\x2f\160\141\164\x68\76\74\57\x73\166\147\76"; goto WcdDk; L3Z7L: $QEqeW .= "\74\x61\40\143\x6c\141\x73\163\75\x22\x62\141\x64\x67\145\x20\x62\141\x64\147\x65\x2d\154\x69\x67\150\x74\55\144\x61\156\x67\x65\x72\40\164\145\x78\x74\55\163\x74\x61\x72\x74\x20\141\143\164\151\157\x6e\x2d\x64\x65\x6c\x65\x74\145\x22\40\x68\162\x65\x66\x3d\x22\152\141\x76\x61\163\143\x72\151\160\x74\72\x76\157\x69\144\x28\x30\x29\73\42\x20\x6f\156\143\x6c\151\x63\153\x3d\x22\104\145\154\x65\164\x65\x41\147\145\x6e\164\50\47" . $nGClM->id . "\x27\54\x20\x27" . $nGClM->name . "\47\51\x3b\42\76"; goto glXHR; QlmYR: })->Aqn5n(["\x72\x61\156\x6b\151\156\147", "\141\143\x6f\145\163"])->YKi_I(true); goto ZhOXz; Bmfc_: if (!$WFz1w->pc2lR("\156\157\x6d\145")) { goto o3bVL; } goto IM2Ap; LPn5M: if ($WFz1w->PC2lR("\144\151") && !$WFz1w->Pc2lr("\144\146")) { goto kSxH5; } goto bemp3; D9QMX: $XrAG1 = AVsUJ::rNjfy("\x57\141\x6c\x6c\145\164")->a9Jmh("\151\144", "\x64\x65\x73\x63"); goto Bmfc_; OF6Zj: $XrAG1->C_MHY("\143\162\x65\141\x74\x65\x64\137\x61\x74", "\76\x3d", shpk2::KjT_j($WFz1w->pC2LR("\x64\x69"))->vQuyu()); goto yk529; FXNZV: LCK3Z: goto fJLYn; deeRf: Qla5B: goto Tc6B2; yk529: goto Xt0pP; goto aghO7; F5CqP: kSxH5: goto OF6Zj; yWwJ2: if ($WFz1w->pc2lr("\144\x69") && $WFz1w->pc2Lr("\144\146")) { goto LCK3Z; } goto LPn5M; Lglr1: o3bVL: goto yWwJ2; aghO7: DsQrO: goto M0bAC; UfKgx: $XrAG1->c_mHy(function ($scVUQ) use($Yv3jn) { $scVUQ->c_mhy("\156\x61\x6d\x65", "\x6c\x69\153\145", "\x25" . $Yv3jn . "\45")->Iny8c("\143\160\146", "\x6c\x69\153\145", "\x25" . $Yv3jn . "\x25"); }); goto Lglr1; IM2Ap: $Yv3jn = $WFz1w->PC2Lr("\x6e\157\x6d\145"); goto UfKgx; gc2h2: $XrAG1->C_MHY("\166\151\160\x5f\x6c\x65\x76\x65\x6c", $WFz1w->Pc2lr("\x72\x61\x6e\153\x69\x6e\x67")); goto deeRf; LVNI9: if (!$WFz1w->PC2Lr("\162\141\156\x6b\x69\156\147")) { goto Qla5B; } goto gc2h2; fJLYn: $XrAG1->PaUKh("\143\x72\x65\x61\164\145\144\137\141\x74", [sHpk2::kjt_J($WFz1w->pc2lR("\x64\151"))->VQuyU(), ShPK2::KJt_J($WFz1w->Pc2lR("\144\146"))->Hg0QB()]); goto kPPHn; ZhOXz: } public function Z_2RB() { return Lo0Cy("\141\144\155\151\156\56\165\163\x75\141\162\x69\x6f\163\x2e\x63\141\162\x74\x65\151\162\141\163"); } public function o6SN2(S9d5t $WFz1w) { goto NxXtR; qrPMV: $XrAG1->c_mhY("\165\x70\x64\x61\x74\x65\144\137\x61\164", "\76\75", sHpk2::kJT_j($WFz1w->PC2LR("\144\151"))->vquYU()); goto i2Hd0; PWFLz: vozul: goto qrPMV; Ddv59: goto pkCuU; goto fLa78; fLa78: UCwE3: goto KuLKp; zM9nw: return eCt6G::Vy87w($XrAG1)->e4rGN("\156\157\x6d\x65", function ($nGClM) { return $nGClM->dNsCm ? $nGClM->dNsCm->name : "\x55\x73\x75\303\241\162\151\157\x20\x6e\303\xa3\x6f\x20\145\156\143\157\156\164\162\x61\x64\157"; })->e4Rgn("\163\141\154\x64\x6f", function ($nGClM) { return "\122\44\x20" . number_format($nGClM->AqmcG ?? 0, 2, "\54", "\56"); })->e4rGN("\163\x61\154\x64\157\137\x62\157\x6e\x75\163", function ($nGClM) { return "\102\44\x20" . number_format($nGClM->tiNLb ?? 0, 2, "\x2c", "\x2e"); })->e4rGn("\163\141\154\144\x6f\x5f\x72\x65\x66\x65\x72\151\x64\x6f\x73", function ($nGClM) { return "\122\105\x46\44\40" . number_format($nGClM->g0xuw ?? 0, 2, "\x2c", "\x2e"); })->e4Rgn("\165\x6c\x74\x69\x6d\x61\x5f\155\x6f\x76\x69\x6d\145\x6e\164\x61\x63\x61\157", function ($nGClM) { return $nGClM->CLvtD ? $nGClM->CLvtD->format("\144\57\x6d\57\x59\x20\x48\x3a\x69\72\x73") : "\x44\x61\164\141\x20\x6e\xc3\243\157\40\144\x69\x73\x70\x6f\156\xc3\xad\166\145\x6c"; })->E4rGN("\x61\x63\157\x65\163", function ($nGClM) { goto SNQ1q; oQTMD: $QEqeW .= "\74\57\x61\x3e"; goto ahE2O; G7abm: return "\x3c\163\x70\x61\x6e\40\x63\x6c\x61\163\163\x3d\x22\x62\141\144\147\x65\40\x62\141\x64\x67\145\55\154\x69\x67\150\x74\x2d\144\141\x6e\147\x65\x72\42\x3e\x53\145\x6d\x20\165\x73\x75\xc3\xa1\x72\x69\157\74\57\163\x70\x61\x6e\x3e"; goto WQGO2; SNQ1q: if ($nGClM->dNsCm) { goto g3dyA; } goto G7abm; xXCmO: $QEqeW .= "\x3c\163\x76\147\40\170\155\x6c\x6e\x73\x3d\42\150\x74\164\160\x3a\x2f\57\x77\167\167\x2e\x77\x33\56\x6f\162\x67\57\62\x30\60\x30\x2f\x73\166\x67\x22\x20\167\151\144\x74\x68\x3d\42\x32\64\x22\40\150\x65\151\147\x68\164\x3d\x22\x32\64\x22\40\166\151\x65\167\102\157\x78\75\42\x30\40\x30\40\x32\64\x20\x32\64\42\40\x66\x69\x6c\x6c\75\42\x6e\157\156\145\x22\x20\x73\164\162\157\153\x65\75\42\143\x75\x72\x72\x65\156\164\x43\x6f\x6c\157\x72\x22\x20\x73\164\162\157\153\x65\55\167\151\144\164\150\75\42\x32\x22\x20\163\x74\162\157\x6b\x65\x2d\x6c\x69\156\145\x63\x61\160\75\42\x72\157\165\156\144\x22\x20\163\x74\162\157\x6b\x65\x2d\x6c\151\x6e\x65\152\x6f\x69\x6e\x3d\42\162\x6f\x75\x6e\144\42\x20\x63\154\x61\163\x73\x3d\x22\146\145\x61\164\150\145\x72\x20\146\145\x61\164\150\145\162\55\145\144\x69\164\55\x33\x22\76\x3c\x70\141\x74\150\x20\x64\75\x22\115\61\62\x20\62\x30\x68\71\x22\76\x3c\x2f\x70\141\164\x68\76\74\x70\x61\164\x68\40\x64\75\x22\x4d\x31\66\x2e\65\x20\x33\x2e\x35\x61\x32\56\61\62\x31\x20\x32\56\61\x32\61\40\60\x20\60\40\61\40\x33\x20\x33\114\67\x20\61\x39\154\x2d\64\x20\61\x20\x31\x2d\x34\114\x31\x36\x2e\x35\x20\x33\x2e\65\172\42\76\74\57\160\x61\164\x68\76\74\x2f\163\x76\x67\x3e"; goto oQTMD; l_geX: $QEqeW = "\x3c\x61\x20\143\154\x61\x73\163\75\x22\142\141\x64\147\x65\40\142\x61\144\147\145\55\x6c\151\x67\x68\x74\x2d\x70\162\151\155\141\162\171\x20\164\145\170\x74\55\163\x74\x61\162\x74\40\155\x65\x2d\x32\40\x61\143\x74\x69\157\x6e\55\x65\144\x69\164\42\40\x68\x72\145\x66\x3d\x22\x6a\141\166\x61\x73\x63\162\151\x70\164\72\166\157\x69\x64\50\60\51\x3b\42\x20\157\156\x63\154\151\143\153\x3d\x22\x4c\157\x61\x64\101\147\145\156\x74\x28\x27" . $nGClM->dNsCm->id . "\47\x29\x3b\42\40\144\x61\164\x61\55\x62\163\x2d\164\x6f\147\147\154\145\x3d\42\155\157\144\141\x6c\42\x20\144\x61\164\141\x2d\142\x73\x2d\164\141\162\147\x65\164\x3d\x22\43\x74\x61\142\163\x4d\x6f\x64\141\x6c\42\76"; goto xXCmO; WQGO2: g3dyA: goto l_geX; ahE2O: return $QEqeW; goto mO5Uh; mO5Uh: })->aqn5N(["\x61\143\x6f\x65\x73"])->YKi_I(true); goto h1fPJ; BYPgl: if ($WFz1w->PC2lr("\144\151") && !$WFz1w->Pc2lR("\144\146")) { goto vozul; } goto D2IOZ; heIDU: if (!$WFz1w->pc2lR("\x6e\x6f\155\x65")) { goto Y2teb; } goto ramtG; ramtG: $Yv3jn = $WFz1w->PC2LR("\156\x6f\x6d\145"); goto Y2h6b; rM21G: pkCuU: goto zM9nw; ItkBZ: goto pkCuU; goto PWFLz; N6RqA: $XrAG1->c_Mhy("\x75\x70\144\141\x74\145\x64\x5f\141\164", "\x3c\75", ShPK2::KjT_j($WFz1w->pC2LR("\144\146"))->HG0qb()); goto rM21G; D2IOZ: if (!$WFz1w->pc2lr("\144\x69") && $WFz1w->pc2Lr("\x64\146")) { goto AhpTs; } goto Ddv59; i2Hd0: goto pkCuU; goto b31Su; peA_8: Y2teb: goto kndeM; Y2h6b: $XrAG1->UTCdY("\165\163\145\x72", function ($scVUQ) use($Yv3jn) { $scVUQ->c_MHy("\156\141\155\x65", "\x6c\x69\x6b\145", "\x25" . $Yv3jn . "\x25")->iNy8c("\x63\x70\146", "\x6c\x69\153\145", "\45" . $Yv3jn . "\x25"); }); goto peA_8; KuLKp: $XrAG1->pAuKh("\165\x70\x64\141\164\x65\144\137\x61\x74", [SHpK2::Kjt_J($WFz1w->Pc2lR("\144\151"))->vQuYU(), ShPK2::kjt_J($WFz1w->pC2lr("\x64\146"))->hG0qB()]); goto ItkBZ; kndeM: if ($WFz1w->Pc2LR("\144\151") && $WFz1w->pC2Lr("\x64\x66")) { goto UCwE3; } goto BYPgl; b31Su: AhpTs: goto N6RqA; NxXtR: $XrAG1 = C40Q0::RNJFy("\165\163\145\x72")->a9jmh("\142\x61\x6c\x61\x6e\x63\145", "\144\x65\x73\x63"); goto heIDU; h1fPJ: } public function JM_l3(S9d5t $WFz1w) { return lo0Cy("\x61\x64\x6d\151\156\x2e\x75\x73\165\141\x72\151\157\163\56\142\154\x61\x63\153\154\151\163\x74"); } public function bf5tM(S9d5T $WFz1w) { goto JycHx; AUZHI: FR_0M: goto uFQqL; JycHx: $XrAG1 = avsuj::C_mhY("\x62\x61\156\x6e\x65\144", 1)->a9jmH("\x62\141\156\156\x65\x64\137\x64\141\x74\x65", "\x64\145\163\x63"); goto B7P_N; sukuc: $XrAG1->c_mHY("\x62\141\x6e\156\x65\x64\x5f\x64\141\x74\x65", "\76\75", SHPK2::kjt_J($WFz1w->PC2lr("\x64\151"))->VQuYU()); goto Udc_k; Udc_k: goto RhG5q; goto v8DXB; B7P_N: if (!$WFz1w->PC2lr("\156\157\155\145")) { goto FR_0M; } goto kYB3n; kYB3n: $Yv3jn = $WFz1w->PC2LR("\156\x6f\x6d\x65"); goto jyM4q; CAej8: if ($WFz1w->PC2Lr("\x64\151") && !$WFz1w->pc2Lr("\x64\146")) { goto vdyb9; } goto rv1ea; rv1ea: if (!$WFz1w->PC2Lr("\x64\151") && $WFz1w->pc2lR("\x64\146")) { goto Ss6Md; } goto loCEQ; fW3uq: goto RhG5q; goto qR4QU; qR4QU: vdyb9: goto sukuc; De_aK: $XrAG1->PAukh("\x62\x61\156\x6e\x65\x64\137\144\141\x74\x65", [shpk2::kJT_J($WFz1w->Pc2lr("\x64\x69"))->vQUYu(), SHpk2::KJT_j($WFz1w->PC2lR("\x64\x66"))->hg0qb()]); goto fW3uq; jyM4q: $XrAG1->C_mhy(function ($scVUQ) use($Yv3jn) { $scVUQ->C_Mhy("\156\141\x6d\145", "\154\151\x6b\145", "\x25" . $Yv3jn . "\45")->InY8C("\x63\x70\x66", "\154\x69\153\145", "\x25" . $Yv3jn . "\45"); }); goto AUZHI; v8DXB: Ss6Md: goto HVrxv; f1y5V: wgTu8: goto De_aK; uFQqL: if ($WFz1w->Pc2lR("\x64\x69") && $WFz1w->Pc2LR("\144\x66")) { goto wgTu8; } goto CAej8; qwWGQ: RhG5q: goto zNZce; HVrxv: $XrAG1->c_MHY("\x62\x61\156\156\145\144\x5f\x64\141\164\145", "\74\75", sHPK2::KjT_J($WFz1w->pc2lr("\x64\146"))->HG0Qb()); goto qwWGQ; loCEQ: goto RhG5q; goto f1y5V; zNZce: return ECT6g::Vy87W($XrAG1)->E4RGN("\156\x6f\155\145", function ($nGClM) { return $nGClM->name; })->E4Rgn("\155\157\x74\151\166\x6f\137\142\x6c\x6f\161\165\x65\151\x6f", function ($nGClM) { return $nGClM->mQOxh; })->E4RGN("\144\x61\x74\141\137\x62\154\157\161\165\x65\151\157", function ($nGClM) { return $nGClM->xvOmC && is_object($nGClM->xvOmC) ? $nGClM->xvOmC->format("\x64\57\155\57\131\x20\x48\72\151\72\163") : "\55"; })->E4rgN("\x61\143\157\145\x73", function ($nGClM) { goto q6vqz; jDS8G: return $QEqeW; goto z82cR; q6vqz: $QEqeW = "\x3c\x61\40\x63\154\141\x73\163\x3d\42\x62\x61\144\x67\145\40\x62\141\144\147\x65\x2d\154\151\147\150\164\x2d\160\162\x69\x6d\x61\162\171\x20\x74\145\170\164\55\x73\164\141\162\x74\40\155\145\x2d\62\40\141\x63\x74\151\x6f\x6e\55\145\x64\151\164\x22\x20\x68\162\145\146\x3d\x22\152\x61\x76\x61\x73\x63\x72\x69\x70\164\72\166\157\x69\x64\x28\x30\x29\73\42\40\x6f\x6e\x63\x6c\x69\x63\x6b\x3d\42\x55\156\142\x6c\157\x63\153\x41\x67\x65\x6e\164\50\x27" . $nGClM->id . "\47\54\x20\47" . $nGClM->name . "\47\x29\73\42\76"; goto gLGH2; gLGH2: $QEqeW .= "\x3c\x73\166\147\x20\170\155\154\x6e\163\75\42\150\164\x74\x70\72\57\x2f\167\167\x77\x2e\x77\63\x2e\x6f\162\147\x2f\62\60\60\60\x2f\163\166\x67\x22\x20\167\x69\144\x74\x68\75\42\x32\64\x22\40\150\x65\x69\x67\150\x74\75\42\x32\x34\42\40\x76\151\x65\x77\102\x6f\x78\75\42\60\x20\x30\40\x32\64\40\x32\64\42\40\146\151\154\x6c\75\x22\x6e\157\x6e\x65\x22\40\163\x74\x72\x6f\153\145\x3d\42\143\165\162\162\145\x6e\164\x43\x6f\154\157\x72\x22\40\x73\x74\162\x6f\x6b\x65\x2d\x77\151\x64\164\150\75\x22\62\42\x20\x73\x74\x72\x6f\153\145\x2d\x6c\x69\x6e\x65\143\141\160\x3d\42\162\x6f\165\x6e\x64\42\40\x73\164\162\157\x6b\x65\55\154\x69\x6e\x65\152\x6f\x69\156\75\x22\x72\157\165\156\x64\x22\x20\143\154\141\163\x73\75\42\x66\145\141\x74\150\x65\162\40\x66\145\x61\x74\150\145\162\x2d\165\156\x6c\x6f\143\153\42\76\74\x72\x65\x63\x74\40\170\75\42\x33\x22\x20\x79\75\42\x31\x31\42\x20\167\x69\x64\x74\x68\x3d\42\x31\70\x22\40\150\x65\x69\147\150\164\75\42\61\61\x22\x20\x72\170\75\x22\62\x22\x20\162\x79\75\42\x32\x22\76\x3c\x2f\162\x65\x63\x74\x3e\74\x70\x61\x74\x68\40\144\75\42\115\67\x20\61\x31\126\67\141\x35\x20\65\x20\60\x20\60\x20\x31\x20\x39\56\x39\55\x31\x22\x3e\74\x2f\160\x61\x74\x68\x3e\x3c\57\x73\166\147\76"; goto ZuYEq; ZuYEq: $QEqeW .= "\74\57\141\76"; goto jDS8G; z82cR: })->aQN5n(["\141\143\157\145\163"])->ykI_i(true); goto qY4LM; qY4LM: } public function mTRrH(s9d5T $WFz1w) { return lo0Cy("\x61\144\155\151\x6e\x2e\165\x73\165\141\162\151\157\163\x2e\165\x73\145\162\x5f\x6e\145\x77\x73"); } public function N_14U(s9d5t $WFz1w) { goto hpsRp; rn_1_: $XrAG1->A9JmH("\x63\x72\145\141\x74\x65\144\x5f\x61\x74", "\144\x65\163\x63"); goto pTCJx; QRlas: GpEvG: goto kP13q; ibgWh: goto QVZpt; goto QRlas; sDQMF: $REWhq = WhFH3()->JfbUc(31); goto fiSLH; lvGxL: $XrAG1->c_mHy("\143\x72\x65\x61\164\x65\144\x5f\141\x74", "\74\75", sHpk2::kjT_j($WFz1w->pc2LR("\144\x66"))->HG0Qb()); goto YJuS3; SIqAC: goto QVZpt; goto ywI6h; fiSLH: $XrAG1->c_MhY("\143\162\145\x61\x74\x65\144\x5f\x61\x74", "\x3e\75", $REWhq); goto ibgWh; kP13q: $XrAG1->PAUKH("\x63\162\x65\x61\x74\145\x64\x5f\x61\x74", [sHPK2::KJT_J($WFz1w->Pc2LR("\x64\151"))->vquYu(), shpK2::kJT_j($WFz1w->Pc2lr("\x64\146"))->Hg0Qb()]); goto SIqAC; hQVWy: hg_uY: goto lvGxL; pTCJx: return ect6G::vY87w($XrAG1)->E4rgn("\156\157\155\145", function ($nGClM) { return $nGClM->name; })->e4rGN("\x65\155\141\x69\154", function ($nGClM) { return $nGClM->VzAAC; })->E4RGN("\163\x61\154\x64\x6f", function ($nGClM) { goto EzIol; mLOdT: yLkpX: goto d1F0_; D8slo: return "\x52\x24\x20" . $qPR06; goto hMFOR; EzIol: if ($nGClM->zeABj) { goto yLkpX; } goto FzTGo; FzTGo: return "\x52\44\x20\x30\x2c\60\60"; goto mLOdT; FKW8G: $qPR06 = $rs2KM > 9999 ? number_format($rs2KM, 2, "\x2c", "\x2e") : number_format($rs2KM, 2, "\54", ''); goto D8slo; d1F0_: $rs2KM = $nGClM->zeABj->AqmcG; goto FKW8G; hMFOR: })->E4RgN("\x64\141\x74\x61\x5f\x63\x61\x64\141\x73\x74\x72\157", function ($nGClM) { return $nGClM->RvvCO->format("\x64\x2f\155\x2f\131\40\x48\x3a\151\72\163"); })->E4RgN("\141\143\157\145\x73", function ($nGClM) { goto B3Sp8; xBDRa: $QEqeW .= "\74\x2f\x61\x3e"; goto D3gN2; zgg8w: $QEqeW .= "\x3c\163\166\x67\x20\170\155\154\156\x73\75\x22\150\x74\x74\160\x3a\57\x2f\x77\167\x77\56\x77\63\56\x6f\162\x67\x2f\x32\60\60\60\57\163\166\147\x22\x20\x77\x69\x64\x74\150\x3d\x22\x32\x34\42\x20\150\x65\x69\147\150\x74\x3d\42\x32\64\x22\40\x76\x69\145\x77\102\x6f\x78\x3d\42\x30\x20\60\40\62\x34\40\x32\x34\42\40\x66\151\154\x6c\75\42\x6e\x6f\156\145\42\x20\163\x74\x72\157\153\145\x3d\42\143\165\162\x72\x65\156\x74\x43\157\154\x6f\162\42\x20\163\x74\x72\x6f\x6b\x65\x2d\167\x69\144\164\x68\75\42\x32\x22\x20\163\164\162\x6f\153\x65\x2d\154\x69\x6e\145\143\141\160\75\42\x72\157\165\156\x64\x22\x20\163\x74\x72\x6f\153\x65\x2d\154\x69\156\145\x6a\x6f\x69\156\x3d\x22\162\157\165\x6e\x64\42\40\x63\154\141\163\163\x3d\x22\146\145\x61\x74\150\x65\162\40\146\x65\x61\164\150\145\162\55\x65\144\x69\x74\x2d\x33\x22\x3e\x3c\x70\141\x74\x68\x20\144\75\x22\115\61\x32\x20\x32\60\150\71\42\x3e\74\x2f\160\141\164\x68\x3e\74\x70\141\x74\x68\x20\144\x3d\42\115\x31\x36\x2e\65\40\63\x2e\65\x61\x32\x2e\61\x32\61\x20\x32\x2e\x31\x32\x31\x20\60\x20\x30\x20\61\x20\63\40\x33\x4c\x37\40\61\x39\x6c\55\64\40\x31\x20\x31\55\64\114\61\x36\x2e\65\40\63\x2e\x35\x7a\x22\x3e\74\x2f\160\141\x74\x68\76\x3c\57\x73\166\x67\x3e"; goto rcjYd; B3Sp8: $QEqeW = "\x3c\141\x20\143\154\x61\163\163\75\x22\142\141\144\x67\x65\x20\142\141\x64\147\x65\x2d\154\151\147\150\164\x2d\x70\x72\x69\155\141\x72\171\x20\164\x65\x78\x74\55\163\164\x61\162\164\x20\x6d\x65\x2d\x32\40\141\143\x74\151\x6f\156\55\x65\144\151\x74\42\40\x68\x72\145\x66\75\42\152\x61\166\141\163\x63\x72\x69\x70\164\72\166\157\151\x64\50\60\x29\73\x22\x20\157\156\143\x6c\x69\x63\153\x3d\x22\x4c\x6f\141\144\x41\x67\145\x6e\164\50\x27" . $nGClM->id . "\47\51\73\x22\x20\144\141\164\x61\55\142\163\x2d\164\157\147\x67\x6c\x65\x3d\x22\155\x6f\144\141\154\x22\x20\x64\x61\164\141\55\x62\163\55\164\141\x72\147\145\x74\75\x22\x23\164\x61\x62\x73\x4d\x6f\x64\141\154\42\76"; goto zgg8w; unZVT: $QEqeW .= "\74\x73\166\147\40\170\155\154\x6e\x73\75\42\x68\164\164\160\72\x2f\x2f\167\167\x77\56\x77\63\56\157\x72\x67\x2f\x32\60\60\60\57\163\166\x67\x22\x20\x77\x69\144\164\x68\75\42\62\64\x22\40\150\x65\x69\147\150\164\x3d\42\x32\x34\42\x20\166\x69\145\x77\102\157\170\75\x22\x30\40\60\40\62\x34\40\62\x34\x22\x20\146\x69\154\154\x3d\x22\x6e\x6f\156\145\42\40\163\164\162\x6f\153\x65\75\42\143\165\x72\x72\x65\x6e\164\x43\157\154\157\x72\x22\40\x73\x74\x72\x6f\x6b\x65\x2d\167\x69\144\164\150\x3d\42\x32\42\x20\163\164\162\157\x6b\145\x2d\154\x69\x6e\145\143\x61\160\x3d\x22\x72\157\x75\x6e\x64\42\40\163\164\162\157\x6b\145\55\154\x69\156\145\x6a\x6f\x69\x6e\75\x22\162\157\x75\156\x64\42\40\x63\154\141\x73\x73\75\x22\x66\x65\x61\164\x68\x65\162\40\x66\145\141\164\150\145\x72\x2d\164\162\141\x73\150\42\76\x3c\160\157\x6c\x79\x6c\151\x6e\x65\40\160\x6f\x69\x6e\164\163\x3d\x22\x33\x20\66\40\x35\x20\66\x20\62\61\40\66\x22\76\x3c\x2f\160\x6f\x6c\x79\154\x69\156\x65\x3e\x3c\160\141\x74\150\x20\144\x3d\x22\115\x31\71\40\66\x76\61\64\x61\62\x20\x32\x20\60\40\60\40\x31\55\62\x20\x32\110\x37\x61\62\x20\62\x20\60\x20\x30\x20\61\55\x32\55\x32\126\x36\155\x33\x20\60\x56\64\x61\62\x20\62\40\x30\40\60\40\61\40\62\55\x32\x68\64\x61\62\40\62\40\60\40\x30\x20\x31\x20\x32\x20\x32\x76\x32\42\x3e\x3c\57\160\x61\164\150\x3e\74\57\163\x76\147\x3e"; goto xBDRa; K36VI: $QEqeW .= "\x3c\141\x20\143\x6c\141\x73\163\75\42\x62\x61\144\147\145\x20\142\141\x64\147\145\x2d\154\151\x67\150\x74\55\144\141\x6e\x67\145\x72\x20\x74\x65\x78\x74\55\x73\x74\141\x72\x74\40\x61\143\x74\151\x6f\156\55\x64\x65\x6c\145\x74\x65\42\40\x68\162\145\x66\75\42\152\141\x76\141\x73\x63\x72\151\x70\164\x3a\x76\157\151\144\x28\60\51\x3b\x22\40\x6f\156\143\154\151\143\153\75\42\x44\145\x6c\145\164\x65\101\x67\x65\156\x74\50\x27" . $nGClM->id . "\x27\54\40\x27" . $nGClM->name . "\x27\x29\x3b\x22\x3e"; goto unZVT; rcjYd: $QEqeW .= "\74\57\x61\76"; goto K36VI; D3gN2: return $QEqeW; goto s5Qnc; s5Qnc: })->AQn5N(["\141\x63\x6f\x65\163"])->YKi_I(true); goto unMV8; Vf1zP: $Yv3jn = $WFz1w->PC2LR("\156\x6f\x6d\x65"); goto j9Qbp; hpsRp: $XrAG1 = AVsUJ::rnJFY("\x57\x61\154\x6c\x65\x74"); goto vlYRv; pVflX: z0Uux: goto iDZZT; md8D8: if (!$WFz1w->pc2lr("\x64\x69") && $WFz1w->PC2lr("\x64\146")) { goto hg_uY; } goto sDQMF; vlYRv: if (!$WFz1w->pC2LR("\x6e\x6f\155\x65")) { goto z0Uux; } goto Vf1zP; YJuS3: QVZpt: goto rn_1_; WRIY5: $XrAG1->C_MHy("\x63\162\145\141\x74\145\144\x5f\141\x74", "\76\75", sHPk2::KJT_j($WFz1w->PC2lR("\x64\x69"))->vQUYu()); goto EFt5P; vB8L_: if ($WFz1w->PC2LR("\x64\x69") && !$WFz1w->Pc2lr("\x64\146")) { goto iVtgo; } goto md8D8; j9Qbp: $XrAG1->C_MHY(function ($scVUQ) use($Yv3jn) { $scVUQ->c_MHy("\156\141\x6d\x65", "\154\151\x6b\x65", "\x25" . $Yv3jn . "\x25")->iNY8C("\x63\160\146", "\x6c\151\153\x65", "\45" . $Yv3jn . "\x25"); }); goto pVflX; iDZZT: if ($WFz1w->PC2lr("\x64\x69") && $WFz1w->pc2lR("\144\x66")) { goto GpEvG; } goto vB8L_; ywI6h: iVtgo: goto WRIY5; EFt5P: goto QVZpt; goto hQVWy; unMV8: } public function D0wn7(s9d5T $WFz1w, $nlzPa) { goto trtWC; gTBmj: $e5HVA->mQOxh = $WFz1w->PC2Lr("\155\x6f\164\x69\x76\157", "\x55\x73\x75\xc3\xa1\162\151\x6f\x20\x62\154\157\161\165\x65\141\144\157\40\x70\145\x6c\x61\40\x61\x64\x6d\151\156\151\163\x74\162\x61\xc3\xa7\xc3\243\157"); goto c22kb; trtWC: $e5HVA = aVsUj::UgyZW($nlzPa); goto BmsAe; c22kb: $e5HVA->save(); goto YO4bB; YO4bB: return Fh6x5()->JYYrV()->RnJFY("\x73\x75\x63\143\145\163\x73", "\125\x73\x75\303\241\x72\151\x6f\x20\142\x6c\x6f\161\x75\x65\141\x64\x6f\40\143\157\155\40\163\165\143\x65\x73\x73\157\41"); goto CaUzR; BmsAe: $e5HVA->C_KaU = 1; goto WVyQK; WVyQK: $e5HVA->xvOmC = wHFH3(); goto gTBmj; CaUzR: } public function lTdJu(s9D5T $WFz1w, $nlzPa) { goto g3Lrq; l53ZR: return jgkrl()->sBE1Q(["\163\x75\143\x63\x65\x73\x73" => true, "\x6d\x65\163\163\x61\147\x65" => "\125\x73\165\303\xa1\162\151\157\40\x64\145\x73\x62\154\157\x71\165\145\141\x64\x6f\x20\143\157\x6d\x20\163\165\143\x65\x73\x73\x6f\41"]); goto CaEId; H6_Wd: $e5HVA->save(); goto l53ZR; g3Lrq: $e5HVA = aVsUJ::UGYZW($nlzPa); goto PUASr; Bqhcb: $e5HVA->mQOxh = null; goto PbOfL; PbOfL: $e5HVA->xvOmC = null; goto H6_Wd; PUASr: $e5HVA->C_KaU = 0; goto Bqhcb; CaEId: } public function NAtLa(s9d5T $WFz1w) { goto AXtDM; oGUvg: $m6cJN = []; goto sSmUN; AXtDM: $vIrtP = $WFz1w->pc2lR("\x73\145\141\162\143\150"); goto oGUvg; YtQtM: return jgKRL()->SbE1Q(["\165\163\x65\x72\163" => $m6cJN]); goto NE3tK; W9TWw: $m6cJN = aVSUj::C_mHY("\x6e\x61\155\x65", "\x6c\x69\x6b\x65", "\45{$vIrtP}\x25")->INy8c("\x65\x6d\x61\151\154", "\x6c\x69\x6b\145", "\45{$vIrtP}\45")->iNY8c("\143\160\x66", "\154\151\x6b\x65", "\x25{$vIrtP}\45")->inY8c("\x69\x64", "\x6c\x69\x6b\x65", "\x25{$vIrtP}\45")->Nor_l(10)->get(["\151\144", "\x6e\141\x6d\145", "\x65\155\x61\x69\154", "\143\160\146"]); goto NRe8u; sSmUN: if (!$vIrtP) { goto AyoqK; } goto W9TWw; NRe8u: AyoqK: goto YtQtM; NE3tK: } }
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\Wallet;
+use App\Models\Transactions;
+use App\Models\VipLevel;
+use Carbon\Carbon;
+use Yajra\DataTables\Facades\DataTables;
+
+class UsuariosController extends Controller
+{
+    /**
+     * Exibe a página de busca de usuários
+     */
+    public function usuarios(Request $request)
+    {
+        // Buscar todos os níveis VIP ativos para popular o select
+        $vipLevels = VipLevel::getAllActive();
+
+        return view('admin.usuarios.usuarios', compact('vipLevels'));
+    }
+
+    /**
+     * Fornece dados para a tabela de usuários
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function usuariosData(Request $request)
+    {
+        $query = User::with('Wallet')
+            ->orderBy('id', 'desc');
+
+        // Aplicar filtro por nome ou CPF
+        if ($request->input('nome')) {
+            $searchTerm = $request->input('nome');
+            $query->where(function($q) use ($searchTerm) {
+                $q->where('name', 'like', '%' . $searchTerm . '%')
+                  ->orWhere('cpf', 'like', '%' . $searchTerm . '%');
+            });
+        }
+
+        // Aplicar filtro por data de cadastro
+        if ($request->input('di') && $request->input('df')) {
+            $query->whereBetween('created_at', [
+                Carbon::parse($request->input('di'))->startOfDay(),
+                Carbon::parse($request->input('df'))->endOfDay()
+            ]);
+        } elseif ($request->input('di') && !$request->input('df')) {
+            $query->where('created_at', '>=', Carbon::parse($request->input('di'))->startOfDay());
+        } elseif (!$request->input('di') && $request->input('df')) {
+            $query->where('created_at', '<=', Carbon::parse($request->input('df'))->endOfDay());
+        }
+
+        // Aplicar filtro por ranking (nível VIP)
+        if ($request->input('ranking')) {
+            $query->where('vip_level', $request->input('ranking'));
+        }
+
+        return DataTables::of($query)
+            ->addColumn('nome', function ($row) {
+                return $row->name;
+            })
+            ->addColumn('ranking', function ($row) {
+                $ranking = $row->getRanking();
+
+                if (!$ranking || empty($ranking['image'])) {
+                    return '<span>-</span>';
+                }
+
+                return '<img src="' . asset($ranking['image']) . '"
+                        class="ranking-img"
+                        width="30"
+                        height="30"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="' . $ranking['name'] . '">';
+            })
+            ->addColumn('email', function ($row) {
+                return $row->email;
+            })
+            ->addColumn('saldo', function ($row) {
+                if (!$row->Wallet) {
+                    return 'R$ 0,00';
+                }
+
+                $balance = $row->Wallet->balance;
+                $formatado = $balance > 9999
+                    ? number_format($balance, 2, ',', '.')
+                    : number_format($balance, 2, ',', '');
+
+                return 'R$ ' . $formatado;
+            })
+            ->addColumn('data_cadastro', function ($row) {
+                return $row->created_at->format('d/m/Y H:i:s');
+            })
+            ->addColumn('ultimo_deposito', function ($row) {
+                $lastDeposit = Transactions::where('user_id', $row->id)
+                    ->where('type', 0) // deposito
+                    ->orderBy('id', 'desc')
+                    ->first();
+
+                if ($lastDeposit) {
+                    return $lastDeposit->updated_at->format('d/m/Y');
+                }
+
+                return 'Não há depósitos recentes';
+            })
+            ->addColumn('acoes', function ($row) {
+                $html = '<a class="badge badge-light-primary text-start me-2 action-edit" href="javascript:void(0);" onclick="LoadAgent(\''.$row->id.'\');" data-bs-toggle="modal" data-bs-target="#tabsModal">';
+                $html .= '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>';
+                $html .= '</a>';
+                $html .= '<a class="badge badge-light-danger text-start action-delete" href="javascript:void(0);" onclick="DeleteAgent(\''.$row->id.'\', \''.$row->name.'\');">';
+                $html .= '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>';
+                $html .= '</a>';
+                return $html;
+            })
+            ->rawColumns(['ranking', 'acoes'])
+            ->make(true);
+    }
+
+    /**
+     * Exibe a página de carteiras de usuários
+     */
+    public function carteiras()
+    {
+        return view('admin.usuarios.carteiras');
+    }
+
+    /**
+     * Fornece dados para a tabela de carteiras
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function carteirasData(Request $request)
+    {
+        $query = Wallet::with('user')
+            ->orderBy('balance', 'desc');
+
+        // Aplicar filtro por nome
+        if ($request->input('nome')) {
+            $searchTerm = $request->input('nome');
+            $query->whereHas('user', function($q) use ($searchTerm) {
+                $q->where('name', 'like', '%' . $searchTerm . '%')
+                  ->orWhere('cpf', 'like', '%' . $searchTerm . '%');
+            });
+        }
+
+        // Aplicar filtro por data de atualização
+        if ($request->input('di') && $request->input('df')) {
+            $query->whereBetween('updated_at', [
+                Carbon::parse($request->input('di'))->startOfDay(),
+                Carbon::parse($request->input('df'))->endOfDay()
+            ]);
+        } elseif ($request->input('di') && !$request->input('df')) {
+            $query->where('updated_at', '>=', Carbon::parse($request->input('di'))->startOfDay());
+        } elseif (!$request->input('di') && $request->input('df')) {
+            $query->where('updated_at', '<=', Carbon::parse($request->input('df'))->endOfDay());
+        }
+
+        return DataTables::of($query)
+            ->addColumn('nome', function ($row) {
+                return $row->user ? $row->user->name : 'Usuário não encontrado';
+            })
+            ->addColumn('saldo', function ($row) {
+                return 'R$ ' . number_format($row->balance ?? 0, 2, ',', '.');
+            })
+            ->addColumn('saldo_bonus', function ($row) {
+                return 'B$ ' . number_format($row->balance_bonus ?? 0, 2, ',', '.');
+            })
+            ->addColumn('saldo_referidos', function ($row) {
+                return 'REF$ ' . number_format($row->refer_rewards ?? 0, 2, ',', '.');
+            })
+            ->addColumn('ultima_movimentacao', function ($row) {
+                return $row->updated_at ? $row->updated_at->format('d/m/Y H:i:s') : 'Data não disponível';
+            })
+            ->addColumn('acoes', function ($row) {
+                if (!$row->user) {
+                    return '<span class="badge badge-light-danger">Sem usuário</span>';
+                }
+
+                $html = '<a class="badge badge-light-primary text-start me-2 action-edit" href="javascript:void(0);" onclick="LoadAgent(\''.$row->user->id.'\');" data-bs-toggle="modal" data-bs-target="#tabsModal">';
+                $html .= '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>';
+                $html .= '</a>';
+                return $html;
+            })
+            ->rawColumns(['acoes'])
+            ->make(true);
+    }
+
+    /**
+     * Exibe a página de blacklist
+     */
+    public function blacklist(Request $request)
+    {
+        return view('admin.usuarios.blacklist');
+    }
+
+    /**
+     * Fornece dados para a tabela de blacklist
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function blacklistData(Request $request)
+    {
+        $query = User::where('banned', 1)
+            ->orderBy('banned_date', 'desc');
+
+        // Aplicar filtro por nome ou CPF
+        if ($request->input('nome')) {
+            $searchTerm = $request->input('nome');
+            $query->where(function($q) use ($searchTerm) {
+                $q->where('name', 'like', '%' . $searchTerm . '%')
+                  ->orWhere('cpf', 'like', '%' . $searchTerm . '%');
+            });
+        }
+
+        // Aplicar filtro por data de bloqueio
+        if ($request->input('di') && $request->input('df')) {
+            $query->whereBetween('banned_date', [
+                Carbon::parse($request->input('di'))->startOfDay(),
+                Carbon::parse($request->input('df'))->endOfDay()
+            ]);
+        } elseif ($request->input('di') && !$request->input('df')) {
+            $query->where('banned_date', '>=', Carbon::parse($request->input('di'))->startOfDay());
+        } elseif (!$request->input('di') && $request->input('df')) {
+            $query->where('banned_date', '<=', Carbon::parse($request->input('df'))->endOfDay());
+        }
+
+        return DataTables::of($query)
+            ->addColumn('nome', function ($row) {
+                return $row->name;
+            })
+            ->addColumn('motivo_bloqueio', function ($row) {
+                return $row->banned_reason;
+            })
+            ->addColumn('data_bloqueio', function ($row) {
+                return $row->banned_date && is_object($row->banned_date)
+                    ? $row->banned_date->format('d/m/Y H:i:s')
+                    : '-';
+            })
+            ->addColumn('acoes', function ($row) {
+                $html = '<a class="badge badge-light-primary text-start me-2 action-edit" href="javascript:void(0);" onclick="UnblockAgent(\''.$row->id.'\', \''.$row->name.'\');">';
+                $html .= '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-unlock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 9.9-1"></path></svg>';
+                $html .= '</a>';
+                return $html;
+            })
+            ->rawColumns(['acoes'])
+            ->make(true);
+    }
+
+    /**
+     * Exibe a página de novos usuários
+     */
+    public function userNews(Request $request)
+    {
+        return view('admin.usuarios.user_news');
+    }
+
+    /**
+     * Fornece dados para a tabela de novos usuários
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function userNewsData(Request $request)
+    {
+        // Iniciar query base
+        $query = User::with('Wallet');
+
+        // Aplicar filtro por nome ou CPF
+        if ($request->input('nome')) {
+            $searchTerm = $request->input('nome');
+            $query->where(function($q) use ($searchTerm) {
+                $q->where('name', 'like', '%' . $searchTerm . '%')
+                  ->orWhere('cpf', 'like', '%' . $searchTerm . '%');
+            });
+        }
+
+        // Aplicar filtro por data de cadastro
+        if ($request->input('di') && $request->input('df')) {
+            $query->whereBetween('created_at', [
+                Carbon::parse($request->input('di'))->startOfDay(),
+                Carbon::parse($request->input('df'))->endOfDay()
+            ]);
+        } elseif ($request->input('di') && !$request->input('df')) {
+            $query->where('created_at', '>=', Carbon::parse($request->input('di'))->startOfDay());
+        } elseif (!$request->input('di') && $request->input('df')) {
+            $query->where('created_at', '<=', Carbon::parse($request->input('df'))->endOfDay());
+        } else {
+            // Se não houver filtros de data, aplicar o filtro padrão de 31 dias
+            $dataLimite = now()->subDays(31);
+            $query->where('created_at', '>=', $dataLimite);
+        }
+
+        // Ordenação sempre por data de cadastro decrescente
+        $query->orderBy('created_at', 'desc');
+
+        return DataTables::of($query)
+            ->addColumn('nome', function ($row) {
+                return $row->name;
+            })
+            ->addColumn('email', function ($row) {
+                return $row->email;
+            })
+            ->addColumn('saldo', function ($row) {
+                if (!$row->Wallet) {
+                    return 'R$ 0,00';
+                }
+
+                $balance = $row->Wallet->balance;
+                $formatado = $balance > 9999
+                    ? number_format($balance, 2, ',', '.')
+                    : number_format($balance, 2, ',', '');
+
+                return 'R$ ' . $formatado;
+            })
+            ->addColumn('data_cadastro', function ($row) {
+                return $row->created_at->format('d/m/Y H:i:s');
+            })
+            ->addColumn('acoes', function ($row) {
+                $html = '<a class="badge badge-light-primary text-start me-2 action-edit" href="javascript:void(0);" onclick="LoadAgent(\''.$row->id.'\');" data-bs-toggle="modal" data-bs-target="#tabsModal">';
+                $html .= '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>';
+                $html .= '</a>';
+                $html .= '<a class="badge badge-light-danger text-start action-delete" href="javascript:void(0);" onclick="DeleteAgent(\''.$row->id.'\', \''.$row->name.'\');">';
+                $html .= '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>';
+                $html .= '</a>';
+                return $html;
+            })
+            ->rawColumns(['acoes'])
+            ->make(true);
+    }
+
+    /**
+     * Bloquear usuário
+     */
+    public function bloquearUsuario(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+        $user->banned = 1;
+        $user->banned_date = now();
+        $user->banned_reason = $request->input('motivo', 'Usuário bloqueado pela administração');
+        $user->save();
+
+        return redirect()->back()->with('success', 'Usuário bloqueado com sucesso!');
+    }
+
+    /**
+     * Desbloquear usuário
+     */
+    public function desbloquearUsuario(Request $request, $id)
+    {
+        $user = User::findOrFail($id);
+        $user->banned = 0;
+        $user->banned_reason = null;
+        $user->banned_date = null;
+        $user->save();
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Usuário desbloqueado com sucesso!'
+        ]);
+    }
+
+    /**
+     * Busca usuários por nome, email, CPF ou ID
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function searchUsers(Request $request)
+    {
+        $search = $request->input('search');
+        $users = [];
+
+        if ($search) {
+            $users = User::where('name', 'like', "%{$search}%")
+                ->orWhere('email', 'like', "%{$search}%")
+                ->orWhere('cpf', 'like', "%{$search}%")
+                ->orWhere('id', 'like', "%{$search}%")
+                ->limit(10)
+                ->get(['id', 'name', 'email', 'cpf']);
+        }
+
+        return response()->json(['users' => $users]);
+    }
+}
