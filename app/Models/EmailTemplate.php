@@ -1,12 +1,110 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXg2\lsSq3; use WKhul\QCZcg\eJfUr\q4FQj\jzdKT; use Wkhul\QCzCg\EJfUr\uyksy; class ZKoUZ extends UYKSY { use jZDkt; protected $GWg5z = ["\156\x61\x6d\145", "\163\154\165\x67", "\144\x65\x73\x63\162\151\x70\x74\x69\157\156", "\x73\x75\142\152\145\143\164", "\150\164\155\x6c\x5f\x63\x6f\156\x74\x65\x6e\164", "\x74\x65\170\x74\137\x63\157\x6e\x74\145\x6e\x74", "\166\141\162\151\141\x62\x6c\145\x73", "\151\163\x5f\x61\x63\x74\x69\166\x65", "\142\162\145\166\157\x5f\x74\145\155\x70\x6c\141\x74\145\x5f\151\144"]; protected $FPpxl = ["\166\x61\162\151\x61\142\154\145\x73" => "\141\x72\162\141\x79", "\151\163\137\141\143\164\x69\166\x65" => "\142\x6f\x6f\x6c\x65\141\x6e"]; public function nV_vh(array $QmT4B) : string { goto C9xJo; qkw41: $rtI2B = preg_replace("\x2f\134\173\134\x7b\x5b\136\x7d\x5d\x2b\134\x7d\134\175\57", '', $rtI2B); goto yzv0J; yzv0J: return $rtI2B; goto Oua6Q; I05nl: JfrPc: goto qkw41; Wsg4l: foreach ($QmT4B as $VlAhW => $HgIMK) { $rtI2B = str_replace("\173\173" . $VlAhW . "\x7d\x7d", $HgIMK, $rtI2B); WpRag: } goto I05nl; C9xJo: $rtI2B = $this->EkeYc; goto Wsg4l; Oua6Q: } public function A6Rz2(array $QmT4B) : string { goto UdKwx; UdKwx: $L9sQK = $this->v9QBA; goto UQagz; UQagz: foreach ($QmT4B as $VlAhW => $HgIMK) { $L9sQK = str_replace("\173\x7b" . $VlAhW . "\175\x7d", $HgIMK, $L9sQK); h65E_: } goto iuvIj; ozY8o: $L9sQK = preg_replace("\57\134\x7b\x5c\x7b\133\136\x7d\135\53\x5c\175\x5c\x7d\x2f", '', $L9sQK); goto MPGF6; iuvIj: tfb3O: goto ozY8o; MPGF6: return $L9sQK; goto a95Ob; a95Ob: } public function V1VJ8(array $QmT4B) : ?string { goto jdXPr; r53d3: nPnyh: goto YLy2y; PjtRP: return null; goto zOtTO; pEaPS: foreach ($QmT4B as $VlAhW => $HgIMK) { $rtI2B = str_replace("\173\x7b" . $VlAhW . "\x7d\175", $HgIMK, $rtI2B); e787F: } goto r53d3; QDjsm: return $rtI2B; goto JQmVL; zOtTO: URFSs: goto KixL6; jdXPr: if (!empty($this->Pt4KU)) { goto URFSs; } goto PjtRP; KixL6: $rtI2B = $this->Pt4KU; goto pEaPS; YLy2y: $rtI2B = preg_replace("\x2f\134\173\x5c\173\133\x5e\x7d\x5d\53\134\x7d\134\175\57", '', $rtI2B); goto QDjsm; JQmVL: } public static function iiIUV(string $j9ET1) : ?self { return self::O_0MH("\x73\x6c\165\147", $j9ET1)->o_0mH("\x69\x73\x5f\141\143\164\151\166\145", true)->ewfb9(); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class EmailTemplate extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'name',
+        'slug',
+        'description',
+        'subject',
+        'html_content',
+        'text_content',
+        'variables',
+        'is_active',
+        'brevo_template_id',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'variables' => 'array',
+        'is_active' => 'boolean',
+    ];
+
+    /**
+     * Renderiza o conteúdo do template substituindo as variáveis.
+     *
+     * @param array $data
+     * @return string
+     */
+    public function renderHtml(array $data): string
+    {
+        $content = $this->html_content;
+        
+        foreach ($data as $key => $value) {
+            $content = str_replace('{{' . $key . '}}', $value, $content);
+        }
+        
+        // Remover qualquer variável restante não substituída
+        $content = preg_replace('/\{\{[^}]+\}\}/', '', $content);
+        
+        return $content;
+    }
+
+    /**
+     * Renderiza o assunto substituindo as variáveis.
+     *
+     * @param array $data
+     * @return string
+     */
+    public function renderSubject(array $data): string
+    {
+        $subject = $this->subject;
+        
+        foreach ($data as $key => $value) {
+            $subject = str_replace('{{' . $key . '}}', $value, $subject);
+        }
+        
+        // Remover qualquer variável restante não substituída
+        $subject = preg_replace('/\{\{[^}]+\}\}/', '', $subject);
+        
+        return $subject;
+    }
+
+    /**
+     * Renderiza o conteúdo de texto do template substituindo as variáveis.
+     *
+     * @param array $data
+     * @return string|null
+     */
+    public function renderText(array $data): ?string
+    {
+        if (empty($this->text_content)) {
+            return null;
+        }
+        
+        $content = $this->text_content;
+        
+        foreach ($data as $key => $value) {
+            $content = str_replace('{{' . $key . '}}', $value, $content);
+        }
+        
+        // Remover qualquer variável restante não substituída
+        $content = preg_replace('/\{\{[^}]+\}\}/', '', $content);
+        
+        return $content;
+    }
+
+    /**
+     * Busca um template pelo slug.
+     *
+     * @param string $slug
+     * @return self|null
+     */
+    public static function findBySlug(string $slug): ?self
+    {
+        return self::where('slug', $slug)
+            ->where('is_active', true)
+            ->first();
+    }
+}

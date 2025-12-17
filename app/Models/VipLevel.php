@@ -1,12 +1,120 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMxg2\LSSq3; use wkHuL\Qczcg\EjFUr\q4FqJ\JzDkt; use wKhul\QczCG\eJFur\UykSY; class uC4df extends uYKsY { use JZDKT; protected $GWg5z = array("\156\x61\x6d\x65", "\154\x65\166\x65\154", "\x6d\x69\x6e\137\x64\x65\160\x6f\163\151\164", "\155\141\170\137\x64\x65\160\157\x73\151\x74", "\x69\155\x61\147\145", "\142\x65\x6e\145\146\151\164\163", "\141\x63\x74\x69\x76\145", "\157\x72\x64\145\162", "\143\157\151\x6e\163\137\x72\145\x77\141\162\x64", "\142\141\x6c\141\x6e\x63\145\137\x72\x65\x77\141\162\x64", "\142\141\154\141\x6e\143\x65\137\x62\x6f\156\x75\163\137\162\x65\x77\141\162\x64", "\x66\162\x65\145\x5f\x73\x70\x69\156\x73\137\x72\x65\167\x61\162\x64"); protected $FPpxl = array("\x6d\x69\156\x5f\144\x65\160\x6f\163\x69\x74" => "\146\x6c\x6f\141\164", "\155\141\170\137\144\x65\x70\157\x73\151\x74" => "\x66\x6c\157\141\164", "\141\x63\164\151\166\x65" => "\x62\157\157\154\x65\141\x6e", "\x6f\162\144\x65\162" => "\151\156\164\145\x67\x65\162", "\154\x65\166\x65\x6c" => "\151\156\x74\145\147\x65\x72", "\x63\x6f\151\x6e\x73\x5f\162\x65\x77\141\x72\x64" => "\x69\156\x74\x65\147\145\162", "\x62\141\154\x61\156\x63\145\x5f\162\145\167\x61\162\144" => "\144\145\143\151\x6d\x61\x6c\x3a\x32", "\142\141\x6c\x61\x6e\143\x65\x5f\142\157\x6e\165\163\x5f\x72\145\x77\x61\162\x64" => "\144\x65\x63\x69\155\141\x6c\72\62", "\x66\x72\145\145\137\x73\160\151\x6e\163\x5f\x72\145\167\141\162\x64" => "\151\x6e\x74\145\147\145\x72"); public static function eCmwi() { return self::O_0mh("\x61\x63\x74\x69\166\145", true)->fAHyr("\x6f\162\x64\x65\162", "\x61\163\143")->FaHYr("\x6c\145\166\x65\x6c", "\141\163\143")->get(); } public static function YL_Gb($JzXf7) { goto uALFQ; QSG5i: if ($rM6KI) { goto UBCjL; } goto Y5SFo; cxib_: return $rM6KI; goto YBQbP; GNm2k: if (!($dJR19->count() > 0)) { goto dC2tz; } goto D10Qx; Wy_GG: $k37al = self::O_0Mh("\141\x63\164\x69\x76\145", true)->o_0mH("\155\x69\156\137\x64\x65\160\157\x73\151\x74", "\74\x3d", $JzXf7)->o_0MH(function ($k37al) use($JzXf7) { $k37al->T4nHi("\x6d\141\170\x5f\144\145\x70\x6f\163\x69\164")->mAKif("\x6d\x61\170\137\x64\x65\x70\157\163\151\x74", "\x3e\x3d", $JzXf7); })->FahYR("\154\145\166\145\154", "\144\x65\163\143"); goto NuGBt; QzQQ8: LHJIn: goto cxib_; uALFQ: $JzXf7 = (float) $JzXf7; goto Wy_GG; Y5SFo: $rM6KI = self::O_0MH("\x61\x63\164\x69\x76\x65", true)->Fahyr("\155\x69\156\137\x64\145\160\157\x73\151\164", "\x61\163\x63")->eWfb9(); goto KoIjy; uXMH4: if ($rM6KI) { goto LHJIn; } goto C6yGI; LtAzR: dC2tz: goto QzQQ8; C6yGI: $dJR19 = self::o_0mh("\141\x63\164\x69\166\145", true)->FahYR("\x6d\x69\156\x5f\144\x65\x70\x6f\x73\x69\x74")->get(); goto GNm2k; NuGBt: $rM6KI = $k37al->ewfb9(); goto uXMH4; KoIjy: UBCjL: goto LtAzR; D10Qx: $rM6KI = self::O_0mH("\x61\x63\164\151\x76\145", true)->o_0mH("\x6d\151\x6e\x5f\144\145\x70\x6f\x73\x69\164", "\74\75", $JzXf7)->fAHYr("\155\x69\156\137\144\145\x70\157\163\151\164", "\x64\x65\x73\x63")->ewfB9(); goto QSG5i; YBQbP: } public function bSmLZ() { return self::o_0Mh("\x61\143\164\151\166\145", true)->O_0mH("\154\x65\166\145\x6c", "\x3e", $this->level)->fAHyr("\x6c\x65\166\145\x6c", "\x61\163\143")->ewFB9(); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class VipLevel extends Model
+{
+    use HasFactory;
+    
+    /**
+     * Os atributos que são atribuíveis em massa.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name',
+        'level',
+        'min_deposit',
+        'max_deposit',
+        'image',
+        'benefits',
+        'active',
+        'order',
+        'coins_reward',
+        'balance_reward',
+        'balance_bonus_reward',
+        'free_spins_reward'
+    ];
+    
+    /**
+     * Os atributos que devem ser convertidos.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'min_deposit' => 'float',
+        'max_deposit' => 'float',
+        'active' => 'boolean',
+        'order' => 'integer',
+        'level' => 'integer',
+        'coins_reward' => 'integer',
+        'balance_reward' => 'decimal:2',
+        'balance_bonus_reward' => 'decimal:2',
+        'free_spins_reward' => 'integer'
+    ];
+    
+    /**
+     * Retorna todos os níveis VIP ativos, ordenados por ordem/nível
+     *
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public static function getAllActive()
+    {
+        return self::where('active', true)
+            ->orderBy('order', 'asc')
+            ->orderBy('level', 'asc')
+            ->get();
+    }
+    
+    /**
+     * Determina o nível VIP com base no valor de depósitos
+     *
+     * @param float $totalDeposits
+     * @return \App\Models\VipLevel
+     */
+    public static function getCurrentLevelByDeposit($totalDeposits)
+    {
+        // Converter para garantir que é float
+        $totalDeposits = (float) $totalDeposits;
+        
+        $query = self::where('active', true)
+            ->where('min_deposit', '<=', $totalDeposits)
+            ->where(function ($query) use ($totalDeposits) {
+                $query->whereNull('max_deposit')
+                    ->orWhere('max_deposit', '>=', $totalDeposits);
+            })
+            ->orderBy('level', 'desc');
+        
+        $result = $query->first();
+        
+        if (!$result) {
+            // Verificar se existem níveis cadastrados
+            $allLevels = self::where('active', true)->orderBy('min_deposit')->get();
+            
+            // Se não encontrar o nível específico, mas existirem níveis,
+            // encontrar o nível com o maior min_deposit que seja menor que o totalDeposits
+            if ($allLevels->count() > 0) {
+                // Buscar especificamente apenas o nível com o maior min_deposit que seja menor ou igual ao valor de depósito
+                $result = self::where('active', true)
+                    ->where('min_deposit', '<=', $totalDeposits)
+                    ->orderBy('min_deposit', 'desc')
+                    ->first();
+                
+                if (!$result) {
+                    // Se ainda não encontrar, pegar o nível com menor min_deposit
+                    $result = self::where('active', true)
+                        ->orderBy('min_deposit', 'asc')
+                        ->first();
+                }
+            }
+        }
+        
+        return $result;
+    }
+    
+    /**
+     * Obtém o próximo nível após o nível atual
+     *
+     * @return \App\Models\VipLevel|null
+     */
+    public function getNextLevel()
+    {
+        return self::where('active', true)
+            ->where('level', '>', $this->level)
+            ->orderBy('level', 'asc')
+            ->first();
+    }
+}

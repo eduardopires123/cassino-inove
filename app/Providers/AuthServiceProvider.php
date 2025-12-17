@@ -1,12 +1,30 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmxG2\f1dJx; use WkHul\B35Fs\N3q0R\F1djx\WyCbD as EjjJD; use wKhUL\N3Q0r\wPWAe\TWtIn; class wycbd extends eJJJD { protected $avSry = array(); public function S3ocp() { $this->iImEW(); } }
+
+namespace App\Providers;
+
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Gate;
+
+class AuthServiceProvider extends ServiceProvider
+{
+    /**
+     * As políticas de autorização mapeadas para a aplicação.
+     *
+     * @var array<class-string, class-string>
+     */
+    protected $policies = [
+        // 'App\Models\Model' => 'App\Policies\ModelPolicy',
+    ];
+
+    /**
+     * Registra qualquer serviço de autenticação/autorização.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->registerPolicies();
+
+        //
+    }
+} 

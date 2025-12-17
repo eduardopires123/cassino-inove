@@ -1,12 +1,106 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxG2\k79pf; use NMxG2\LsSq3\vG1pp; use NmXG2\lSsQ3\Z6LGl; use Nmxg2\YFc5l\zMzPp; use WkhUl\N3q0r\wPWae\Log; class Syf9b { protected $buiA3; public function __construct(zmzPp $fWGmY) { $this->buiA3 = $fWGmY; } public function ckNly(Vg1pp $dmv6p) : void { } public function Z1cw0(VG1pp $dmv6p) : void { goto UEDZt; k1O0J: ianbh: goto g0UyM; ipLRt: $this->fvaI6($dmv6p); goto k1O0J; UEDZt: if (!($dmv6p->RT2QN("\163\x74\x61\x74\x75\163") && $dmv6p->status == 1)) { goto ianbh; } goto ipLRt; g0UyM: } protected function fVaI6(VG1PP $dmv6p) : void { try { goto eNGuB; M0FcA: iTKZd: goto IVThn; g2xj3: $this->buiA3->PQgar($e3e3M, $dmv6p); goto T4cPX; FUVcK: Log::info("\111\147\x6e\x6f\x72\x61\x6e\x64\157\40\156\x6f\164\151\146\x69\143\x61\xc3\xa7\xc3\243\x6f\x20\x64\x75\x70\154\x69\143\x61\144\141\40\160\141\162\x61\x20\x61\40\164\162\x61\156\x73\141\xc3\xa7\303\xa3\157\40\x23" . $dmv6p->id); goto zzMgZ; UPrEn: iaJb6: goto g2xj3; KCkue: goto b4uC0; goto bZJU8; K122w: return; goto dFRRG; IVThn: if ($this->buiA3->MJrJQ()) { goto NNS9J; } goto oR7xi; oR7xi: Log::info("\127\x68\141\164\x73\101\x70\x70\40\156\xc3\xa3\157\40\145\x73\x74\xc3\241\40\143\x6f\156\145\x63\x74\141\144\x6f\x20\x70\x61\x72\x61\x20\x65\x6e\166\x69\x61\x72\x20\156\157\x74\151\146\151\143\141\xc3\247\xc3\xa3\157\40\144\145\40\164\x72\141\156\x73\x61\xc3\xa7\xc3\xa3\157\x20\43" . $dmv6p->id); goto K122w; Mrplu: ma7iY: goto Bc7h3; Bc7h3: if ($dmv6p->type == 1 && $dmv6p->status == 1) { goto Lu04W; } goto tiNGC; dFRRG: NNS9J: goto gQ55v; wiry6: Log::uwiC8("\x55\x73\x75\xc3\xa1\x72\x69\x6f\x20\156\303\243\x6f\40\145\x6e\143\157\x6e\164\x72\x61\x64\157\40\x70\141\162\x61\x20\x61\x20\x74\162\x61\x6e\163\x61\303\247\xc3\xa3\157\x20\x23" . $dmv6p->id); goto you0I; BoQp4: if ($e3e3M) { goto ma7iY; } goto wiry6; zzMgZ: return; goto M0FcA; hWWei: $this->buiA3->p1tVa($e3e3M, $dmv6p); goto rAmMy; tiNGC: if ($dmv6p->type == 0) { goto iaJb6; } goto hWWei; gQ55v: $e3e3M = Z6LGl::NZWAY($dmv6p->rXheI); goto BoQp4; bZJU8: Lu04W: goto lJRaK; T4cPX: Log::info("\x4e\157\x74\x69\x66\x69\143\x61\303\xa7\xc3\xa3\157\40\144\x65\40\144\x65\x70\xc3\263\163\151\x74\x6f\40\145\156\166\151\141\144\141\x20\x70\141\x72\x61\x20\141\x20\x74\162\141\156\163\x61\303\247\303\243\x6f\40\43" . $dmv6p->id); goto jNmXV; eNGuB: if (!(isset($dmv6p->SFAqB) && $dmv6p->SFAqB === true)) { goto iTKZd; } goto FUVcK; lJRaK: $this->buiA3->FlQX6($e3e3M, $dmv6p); goto eL_9i; jNmXV: b4uC0: goto dS1br; eL_9i: Log::info("\116\157\x74\x69\146\151\x63\x61\xc3\247\303\xa3\x6f\x20\144\145\x20\x73\x61\161\x75\145\x20\141\x70\x72\157\x76\141\x64\x6f\40\145\x6e\166\151\x61\144\141\40\160\x61\x72\x61\x20\x61\40\164\x72\x61\x6e\163\x61\xc3\247\xc3\xa3\x6f\40\x23" . $dmv6p->id); goto DrJz1; rAmMy: Log::info("\116\157\x74\x69\x66\151\143\x61\303\xa7\xc3\xa3\x6f\x20\144\145\x20\141\160\157\x73\164\x61\40\145\x6e\166\x69\x61\144\x61\40\x70\x61\x72\141\40\141\40\x74\162\141\156\163\141\303\xa7\xc3\xa3\157\x20\43" . $dmv6p->id); goto KCkue; you0I: return; goto Mrplu; DrJz1: goto b4uC0; goto UPrEn; dS1br: } catch (\Exception $BOaI6) { Log::uwIC8("\x45\x72\x72\x6f\40\x61\x6f\40\x65\156\x76\x69\141\162\x20\x6e\157\164\151\x66\151\143\x61\xc3\xa7\xc3\243\157\x20\x64\x65\40\x57\150\141\164\x73\x41\160\160\72\40" . $BOaI6->getMessage()); } } public function lTII8(vG1PP $dmv6p) : void { } public function yKAJd(Vg1pp $dmv6p) : void { } public function cOWIN(vg1pP $dmv6p) : void { } }
+
+namespace App\Observers;
+
+use App\Models\Transactions;
+use App\Models\User;
+use App\Services\WhatsappService;
+use Illuminate\Support\Facades\Log;
+
+class TransactionObserver
+{
+    protected $whatsappService;
+
+    public function __construct(WhatsappService $whatsappService)
+    {
+        $this->whatsappService = $whatsappService;
+    }
+
+    /**
+     * Handle the Transactions "created" event.
+     */
+    public function created(Transactions $transaction): void
+    {
+        // Não fazemos nada quando a transação é criada, pois precisamos aguardar a aprovação
+    }
+
+    /**
+     * Handle the Transactions "updated" event.
+     */
+    public function updated(Transactions $transaction): void
+    {
+        // Verificar se o status mudou para 1 (aprovado)
+        if ($transaction->isDirty('status') && $transaction->status == 1) {
+            $this->notifyTransaction($transaction);
+        }
+    }
+
+    /**
+     * Enviar notificação sobre a transação via WhatsApp
+     */
+    protected function notifyTransaction(Transactions $transaction): void
+    {
+        try {
+            // Verificar se a transação já foi notificada anteriormente
+            if (isset($transaction->notified) && $transaction->notified === true) {
+                Log::info('Ignorando notificação duplicada para a transação #' . $transaction->id);
+                return;
+            }
+            
+            // Verificar se o WhatsApp está conectado
+            if (!$this->whatsappService->isConnected()) {
+                Log::info('WhatsApp não está conectado para enviar notificação de transação #' . $transaction->id);
+                return;
+            }
+
+            $user = User::find($transaction->user_id);
+            
+            if (!$user) {
+                Log::error('Usuário não encontrado para a transação #' . $transaction->id);
+                return;
+            }
+
+            // Se for um saque (type = 1) e está aprovado (status = 1)
+            if ($transaction->type == 1 && $transaction->status == 1) {
+                $this->whatsappService->sendWithdrawalNotification($user, $transaction);
+                Log::info('Notificação de saque aprovado enviada para a transação #' . $transaction->id);
+            }
+            // Se for um depósito (type = 0)
+            elseif ($transaction->type == 0) {
+                $this->whatsappService->sendDepositNotification($user, $transaction);
+                Log::info('Notificação de depósito enviada para a transação #' . $transaction->id);
+            }
+            // Se for uma aposta (outro tipo)
+            else {
+                $this->whatsappService->sendBetNotification($user, $transaction);
+                Log::info('Notificação de aposta enviada para a transação #' . $transaction->id);
+            }
+        } catch (\Exception $e) {
+            Log::error('Erro ao enviar notificação de WhatsApp: ' . $e->getMessage());
+        }
+    }
+
+    /**
+     * Handle the Transactions "deleted" event.
+     */
+    public function deleted(Transactions $transaction): void
+    {
+        //
+    }
+
+    /**
+     * Handle the Transactions "restored" event.
+     */
+    public function restored(Transactions $transaction): void
+    {
+        //
+    }
+
+    /**
+     * Handle the Transactions "force deleted" event.
+     */
+    public function forceDeleted(Transactions $transaction): void
+    {
+        //
+    }
+}

@@ -1,12 +1,97 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmxG2\F1dJx; use wKHuL\n3q0R\EjjJD; use wKhUL\N3Q0r\WPwAE\EMHYT; use WKhul\O7MQX\uX7tu; use WkhUL\N3Q0r\wPWAE\zphRT; use NmXG2\o7Mqx\H1_G2\P3hLE; use wKhUL\n3Q0R\wPWAE\bpgM5; use WKhUL\n3q0R\WpwAe\NMxg2; use wkhUL\N3q0r\WpwaE\Gb3ra; use WKhuL\AP52N\gPoP5; use wkHuL\aP52N\AM1Lo; use WkHUL\N3Q0R\wPWAE\XIm9n; class qWA6O extends eJjJD { public function g5u0b() : void { $this->rjz9j->FekjZ(NMXg2\Yfc5L\OrIxH::class, function ($IbPiE) { return new NmXG2\YFc5l\OrIXh(); }); } public function S3oCp(uX7TU $sTdSC) : void { goto gVZN9; pEohj: NmxG2::setLocale($dZlwJ); goto zsLeB; gVZN9: xiM9n::o9xcV("\x68\164\x74\160\x73"); goto i69V4; lbWsi: goto w0HuP; goto DdTG1; hpRzu: nMXg2::setLocale($srW2c); goto GBVYQ; DdTG1: Y3Ik0: goto pEohj; V0wYH: GqPoS: goto hpRzu; Nl8kf: goto hUlpj; goto V0wYH; HPAwk: w0HuP: goto mPeqE; lyqrp: \Nmxg2\lSSQ3\aE4CW::Vn6Qh(\nMxG2\k79pf\rSBYv::class); goto fk2BQ; gVE6g: NmXg2::setLocale($z9zMo); goto Nl8kf; ydmEK: if (in_array($dZlwJ, ["\x65\x6e", "\x65\163"])) { goto Y3Ik0; } goto trWuM; mPeqE: \NmXg2\lssQ3\vg1pP::Vn6qH(\nmxg2\k79pF\SyF9B::class); goto lyqrp; zsLeB: gB3RA::I5_af("\165\163\x65\x72\137\154\x6f\x63\x61\154\x65", $dZlwJ, 60 * 24 * 365); goto Qi5bw; rvU2s: ZpHRt::iEfV6("\52", function ($XHP4C) { goto y3zXM; o6m4h: muYZD: goto UeSxj; y3zXM: if (!BPGM5::jreBR()) { goto muYZD; } goto EsgrW; EsgrW: $XHP4C->W4XKZ("\x72\141\156\153\x69\156\x67", BpGm5::NtE8s()->ZF6XS()); goto o6m4h; UeSxj: }); goto TJfQh; GBVYQ: hUlpj: goto lbWsi; EORNo: $dZlwJ = $sTdSC->GUC3d(1); goto ydmEK; E1Il1: \wKhuL\n3q0R\Wpwae\WsBCH::CJfkg("\163\x6c\165\147", "\133\141\x2d\x7a\60\x2d\71\55\x5d\x2b"); goto rvU2s; spBfF: $z9zMo = "\x70\x74\x5f\x42\x52"; goto EORNo; i69V4: \WkHul\N3Q0R\WpWaE\WSBcH::cjfkG("\151\x64", "\x5b\x30\55\x39\x5d\53"); goto E1Il1; Bi3N3: if ($srW2c && in_array($srW2c, $Kz2gj)) { goto GqPoS; } goto gVE6g; vUik4: xiM9n::Iv6Ts(["\154\157\143\141\x6c\145" => $dZlwJ]); goto HPAwk; trWuM: $srW2c = $sTdSC->ciCAC("\165\x73\145\x72\x5f\154\157\143\141\x6c\x65"); goto Bi3N3; Qi5bw: Am1lO::RarFi(function () use($dZlwJ) { goto dKWYn; YjPpP: return $dZlwJ . "\x2f" . ltrim($lvVr5, "\x2f"); goto sHNIs; s0aOh: return $lvVr5; goto oLNTl; dKWYn: $lvVr5 = ux7tU()->STYTC(); goto K8oZL; oLNTl: g3aFB: goto YjPpP; K8oZL: if (!(strpos($lvVr5, $dZlwJ) === 0)) { goto g3aFB; } goto s0aOh; sHNIs: }); goto vUik4; TJfQh: $Kz2gj = ["\x65\x6e", "\145\x73", "\160\x74\x5f\x42\x52"]; goto spBfF; fk2BQ: } }
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Event;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\View;
+use App\Http\Controllers\BannerController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Cookie;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\URL;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register(): void
+    {
+        // Registrar o serviço de imagem
+        $this->app->singleton(App\Services\ImageService::class, function ($app) {
+            return new App\Services\ImageService();
+        });
+        
+        // Procure por algo como:
+        // config(['app.key' => null]);
+        // Ou qualquer manipulação da configuração 'app.key'
+    }
+
+    /**
+     * Bootstrap any application services.
+     *
+     * @return void
+     */
+    public function boot(Request $request): void
+    {
+        URL::forceScheme('https');
+        
+        // Define padrões globais de rota para parâmetros comuns
+        \Illuminate\Support\Facades\Route::pattern('id', '[0-9]+');
+        \Illuminate\Support\Facades\Route::pattern('slug', '[a-z0-9-]+');
+
+        // Compartilhar o ranking do usuário com todas as views
+        View::composer('*', function ($view) {
+            if (Auth::check()) {
+                $view->with('ranking', Auth::user()->getRanking());
+            }
+        });
+
+        // Definir idiomas suportados
+        $supportedLocales = ['en', 'es', 'pt_BR'];
+        $defaultLocale = 'pt_BR';
+        
+        // Obter o locale da URL se estiver presente
+        $locale = $request->segment(1);
+        
+        // Verificar se o locale está entre os suportados (en, es)
+        if (in_array($locale, ['en', 'es'])) {
+            App::setLocale($locale);
+            // Armazenar em cookie para futuras visitas
+            Cookie::queue('user_locale', $locale, 60 * 24 * 365); // 1 ano
+            
+            // Configura o resolvedor de caminho da paginação para manter o prefixo de idioma
+            Paginator::currentPathResolver(function () use ($locale) {
+                $path = request()->path();
+                // Remove o prefixo de idioma se já estiver presente para evitar duplicação
+                if (strpos($path, $locale) === 0) {
+                    return $path;
+                }
+                return $locale . '/' . ltrim($path, '/');
+            });
+            
+            // Para o LengthAwarePaginator, substituímos a resolução de URL padrão
+            // Isso afeta todas as instâncias de paginação criadas após este ponto
+            URL::defaults(['locale' => $locale]);
+        } else {
+            // Se não há locale na URL, tenta usar o cookie
+            $cookieLocale = $request->cookie('user_locale');
+            if ($cookieLocale && in_array($cookieLocale, $supportedLocales)) {
+                App::setLocale($cookieLocale);
+                
+            } else {
+                // Caso contrário, usar o padrão (pt_BR)
+                App::setLocale($defaultLocale);
+            }
+        }
+        // Registrar observers
+        \App\Models\Transactions::observe(\App\Observers\TransactionObserver::class);
+        \App\Models\SportBetSummary::observe(\App\Observers\SportBetObserver::class);
+    }
+}

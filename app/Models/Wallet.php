@@ -1,12 +1,101 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmxG2\LSSQ3; use WkHUL\qcZCg\EJFUr\Q4FQJ\jzdKt; use wkHul\QczCG\eJfur\uyKSy; class llsPF extends UYKsY { use jZDKt; protected $ZYaJD = "\167\x61\154\x6c\x65\x74\163"; protected $GWg5z = array("\x75\x73\x65\x72\x5f\151\x64", "\142\141\154\141\156\x63\x65", "\x62\x61\x6c\x61\x6e\x63\x65\x5f\x62\157\156\x75\163", "\x62\141\154\141\156\x63\145\x5f\142\x6f\x6e\x75\163\x5f\x72\157\154\x6c\x6f\166\145\162", "\142\x61\154\141\x6e\143\x65\137\x62\x6f\156\x75\x73\137\x72\157\x6c\x6c\157\166\145\162\x5f\165\163\x65\144", "\142\x61\x6c\x61\156\x63\145\137\142\x6f\156\x75\163\x5f\145\x78\160\151\x72\145", "\141\x6e\164\151\x5f\142\x6f\x74", "\x61\156\x74\151\137\142\x6f\164\137\x74\157\x74\141\x6c", "\x74\157\164\141\154\x5f\142\x65\164", "\164\x6f\x74\x61\x6c\137\167\157\156", "\164\x6f\164\141\154\x5f\x6c\157\x73\x65", "\x6c\141\163\164\x5f\167\157\x6e", "\154\x61\x73\x74\137\154\x6f\163\145", "\x6c\141\163\164\137\x75\163\x65\144", "\x68\x69\144\145\x5f\x62\x61\x6c\x61\156\143\x65", "\150\x69\x64\145\x5f\142\x61\154\141\156\x63\145\x72\x65\146\145\x72", "\x72\x65\x66\x65\x72\120\145\162\x63\x65\156\164", "\162\145\146\145\162\137\x72\x65\x77\x61\x72\144\x73", "\x63\x6f\x69\x6e", "\x66\x72\145\x65\x5f\163\160\151\156\x73"); protected $FPpxl = array("\x62\141\x6c\141\x6e\143\145" => "\144\145\143\x69\155\x61\154\x3a\x32", "\x62\141\x6c\141\156\x63\145\137\x62\x6f\x6e\x75\x73" => "\x64\x65\x63\x69\x6d\141\x6c\72\62", "\142\141\154\x61\156\143\145\137\142\157\156\165\x73\x5f\x72\x6f\154\x6c\157\166\145\162" => "\x64\x65\x63\x69\155\x61\x6c\x3a\x32", "\142\141\154\141\x6e\143\x65\137\142\157\x6e\x75\163\x5f\x72\157\x6c\154\x6f\x76\x65\162\x5f\x75\x73\145\144" => "\144\145\x63\x69\x6d\x61\154\x3a\62", "\x62\x61\154\141\x6e\x63\145\137\x62\157\x6e\165\163\x5f\x65\x78\x70\x69\162\x65" => "\x64\141\164\145\x74\151\x6d\145", "\x61\156\x74\x69\x5f\x62\157\x74" => "\x64\x65\143\151\x6d\141\154\x3a\x32", "\x61\x6e\164\151\137\x62\157\164\x5f\x74\157\164\141\x6c" => "\x64\145\143\x69\155\x61\x6c\72\x32", "\164\x6f\x74\x61\154\137\x62\x65\164" => "\x64\145\x63\x69\x6d\141\x6c\72\x32", "\x74\157\164\141\154\x5f\x77\157\x6e" => "\144\x65\143\x69\x6d\x61\x6c\x3a\62", "\164\157\164\141\x6c\x5f\x6c\x6f\163\145" => "\144\145\143\x69\x6d\141\x6c\72\62", "\x6c\141\163\164\137\167\x6f\156" => "\144\145\143\x69\x6d\141\154\x3a\62", "\154\x61\x73\x74\137\154\x6f\x73\145" => "\144\x65\143\x69\155\141\x6c\x3a\62", "\150\151\144\145\x5f\x62\141\154\141\156\143\145" => "\x69\156\x74\145\147\145\x72", "\x68\151\x64\x65\x5f\x62\x61\154\x61\156\143\145\162\x65\146\x65\162" => "\x69\156\x74\x65\x67\145\x72", "\x72\145\146\145\162\x50\x65\162\143\x65\156\x74" => "\151\156\x74\145\x67\145\162", "\x72\145\x66\x65\162\137\162\x65\x77\141\x72\144\163" => "\144\x65\143\x69\x6d\x61\x6c\72\x32", "\x63\x72\145\x61\x74\145\x64\137\141\164" => "\144\141\164\145\x74\x69\x6d\x65", "\x75\160\144\x61\x74\x65\144\x5f\141\x74" => "\144\x61\164\x65\164\151\155\x65", "\x63\x6f\x69\x6e" => "\151\156\164\145\147\x65\162", "\x66\162\x65\145\x5f\163\x70\151\156\163" => "\151\156\x74\145\147\145\162"); public $epvj9 = true; public function NTe8s() { return $this->qwDGZ(Z6LgL::class); } protected static function fFSpg() { static::z1Cw0(function ($LgUgh) { goto zeI5E; RWAh0: vS7QC: goto WVzwG; zeI5E: if (!$LgUgh->rT2qN("\142\141\x6c\x61\156\143\145")) { goto vS7QC; } goto rpNQ_; rpNQ_: $iriek = $LgUgh->InZ4V("\x62\x61\154\141\156\143\145"); goto vGr4r; vGr4r: $CO_fY = $LgUgh->Hpoum; goto lSo5V; lSo5V: \ZHV2I::M7ne7("\x64\145\142\165\x67")->insert(["\165\x73\x65\x72\137\151\x64" => $LgUgh->rXheI, "\141\x70\151" => "\101\154\164\x65\162\x61\xc3\247\xc3\243\x6f\x20\x53\141\154\x64\x6f", "\x74\x65\170\x74" => "\x53\x61\x6c\x64\x6f\40\141\x6c\164\x65\x72\141\144\x6f\x3a\x20\104\145\x20{$iriek}\x20\x50\141\x72\141\x20{$CO_fY}", "\x63\162\145\141\164\145\144\x5f\141\x74" => o6q8e(), "\165\160\x64\141\164\145\x64\137\x61\164" => o6Q8e()]); goto RWAh0; WVzwG: }); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Wallet extends Model
+{
+    use HasFactory;
+
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'wallets';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'user_id',
+        'balance',
+        'balance_bonus',
+        'balance_bonus_rollover',
+        'balance_bonus_rollover_used',
+        'balance_bonus_expire',
+        'anti_bot',
+        'anti_bot_total',
+        'total_bet',
+        'total_won',
+        'total_lose',
+        'last_won',
+        'last_lose',
+        'last_used',
+        'hide_balance',
+        'hide_balancerefer',
+        'referPercent',
+        'refer_rewards',
+        'coin',
+        'free_spins',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'balance' => 'decimal:2',
+        'balance_bonus' => 'decimal:2',
+        'balance_bonus_rollover' => 'decimal:2',
+        'balance_bonus_rollover_used' => 'decimal:2',
+        'balance_bonus_expire' => 'datetime',
+        'anti_bot' => 'decimal:2',
+        'anti_bot_total' => 'decimal:2',
+        'total_bet' => 'decimal:2',
+        'total_won' => 'decimal:2',
+        'total_lose' => 'decimal:2',
+        'last_won' => 'decimal:2',
+        'last_lose' => 'decimal:2',
+        'hide_balance' => 'integer',
+        'hide_balancerefer' => 'integer',
+        'referPercent' => 'integer',
+        'refer_rewards' => 'decimal:2',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+        'coin' => 'integer',
+        'free_spins' => 'integer',
+    ];
+
+    /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = true;
+
+    /**
+     * Get the user that owns the wallet.
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    protected static function booted()
+    {
+        static::updated(function ($wallet) {
+            if ($wallet->isDirty('balance')) {
+                $original = $wallet->getOriginal('balance');
+                $new = $wallet->balance;
+
+                \DB::table('debug')->insert(['user_id' => $wallet->user_id, 'api' => 'Alteração Saldo', 'text' => "Saldo alterado: De {$original} Para {$new}", 'created_at' => now(), 'updated_at' => now()]);
+            }
+        });
+    }
+}

@@ -1,12 +1,59 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXG2\LSSq3\F4ho4; use nmxg2\LsSQ3\Z6lgl; use wKhuL\QCZcg\EjfUr\UyKSY; use wKHUl\N3Q0R\WpWaE\BPGM5; class VZDno extends UYKSY { protected $ZYaJD = "\142\141\156\x6e\x65\162\163"; protected $GWg5z = array("\151\144", "\151\155\141\x67\x65\155", "\x6c\151\x6e\153", "\157\162\144\145\155", "\x61\x63\164\x69\166\x65", "\155\x6f\142\151\x6c\x65", "\164\x69\x70\157"); protected static function FfSPg() { parent::s3oCp(); static::Z1cW0(function (VZDnO $xtKWz) { goto LWL5J; n4Tjz: foreach ($GCXo6 as $QCo2j => $djNJl) { goto Xs34n; r88JE: goto Bf5xg; goto Scwxm; kOgG9: xO0wF: goto dhIOk; C3IcE: UJNlN: goto XxQN_; e5kpz: if ($QCo2j == "\x69\x6d\141\x67\x65\x6d") { goto Wgqfs; } goto nrTwn; v78a5: $QCo2j = "\x4f\162\x64\145\x6d"; goto r88JE; fDEgH: $QCo2j = "\x41\x74\x69\166\x6f"; goto iC0ki; WzwoC: if ($QCo2j == "\155\157\142\151\154\145") { goto u1IfC; } goto DrtDO; tMfOs: if ($QCo2j == "\141\x63\164\x69\x76\145") { goto Sp2DT; } goto WzwoC; v0in4: goto Bf5xg; goto kOgG9; VpZd_: Bf5xg: goto zLwja; dhIOk: $QCo2j = "\124\x69\160\x6f"; goto VpZd_; iC0ki: goto Bf5xg; goto lKMix; dGNnA: $QCo2j = "\x4d\x6f\x62\151\154\145"; goto v0in4; lKMix: u1IfC: goto dGNnA; Cj_fS: goto Bf5xg; goto JqvBR; AZRLx: $QCo2j = "\111\155\141\147\x65\x6d"; goto R4A35; DrtDO: if ($QCo2j == "\164\151\160\157") { goto xO0wF; } goto Cj_fS; JqvBR: Wgqfs: goto AZRLx; Xs34n: $lgXHi = $xtKWz->iNZ4V($QCo2j); goto e5kpz; nrTwn: if ($QCo2j == "\x6f\x72\144\145\x6d") { goto Jcohu; } goto tMfOs; OoVfm: Jcohu: goto v78a5; zLwja: TF8ML::create(["\165\160\x64\141\164\x65\144\x5f\x62\x79" => $HN9bK, "\x75\x73\x65\x72\137\x69\144" => 0, "\x6c\157\x67" => "\102\141\156\156\x65\162\x73\72\x20\101\40\x63\x6f\154\165\156\141\x20\47{$QCo2j}\x27\40\x66\157\x69\40\141\154\x74\x65\x72\x61\x64\x61\x2e\40\x56\x61\x6c\157\x72\x20\157\162\151\x67\151\156\141\x6c\72\x20\47{$lgXHi}\47\x2c\40\x4e\157\x76\x6f\x20\x76\141\154\x6f\x72\x3a\40\47{$djNJl}\x27", "\x74\x79\160\x65" => 1]); goto C3IcE; R4A35: goto Bf5xg; goto OoVfm; Scwxm: Sp2DT: goto fDEgH; XxQN_: } goto sMAsR; LWL5J: $HN9bK = bpGm5::mNCZ8(); goto L2ss5; RXq5M: OAS3G: goto ypUqg; sMAsR: E1el8: goto RXq5M; L2ss5: $GCXo6 = $xtKWz->YBzMI(); goto ED4rp; KTha7: if (empty($GCXo6)) { goto OAS3G; } goto n4Tjz; ED4rp: unset($GCXo6["\165\160\x64\141\x74\145\144\137\141\164"]); goto KTha7; ypUqg: }); } }
+
+namespace App\Models\Admin;
+
+use App\Models\User;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+
+class Banners extends Model
+{
+    protected $table = 'banners';
+
+    protected $fillable = [
+        'id',
+        'imagem',
+        'link',
+        'ordem',
+        'active',
+        'mobile',
+        'tipo',
+    ];
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (Banners  $Banners ) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $Banners->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $Banners->getOriginal($column);
+
+                    if ($column == 'imagem') {
+                        $column = "Imagem";
+                    }elseif ($column == 'ordem') {
+                        $column = "Ordem";
+                    }elseif ($column == 'active') {
+                        $column = "Ativo";
+                    }elseif ($column == 'mobile') {
+                        $column = "Mobile";
+                    }elseif ($column == 'tipo') {
+                        $column = "Tipo";
+                    }
+
+                    Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => "Banners: A coluna '{$column}' foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                        'type' => 1,
+                    ]);
+                }
+            }
+        });
+    }
+}

@@ -1,12 +1,133 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXg2\Lssq3; use wKHul\qczcg\eJFuR\Q4fQJ\JzdKt; use WkhUl\QczCG\eJfuR\UyKsY; class R9ovB extends UykSy { use jZdKt; protected $ZYaJD = "\147\141\155\x65\163\137\141\x70\x69"; protected $GWg5z = array("\156\x61\155\x65", "\151\x6d\x61\x67\x65", "\143\141\164\145\147\x6f\162\171", "\x6f\162\x64\x65\162\137\166\141\x6c\165\145", "\163\150\x6f\x77\x5f\150\x6f\x6d\145", "\144\145\163\164\x61\x71\165\145", "\144\x69\163\164\162\x69\x62\x75\x74\151\157\156", "\x76\x69\x65\x77\163", "\x6d\x61\151\x6e\x74\145\x6e\141\156\x63\145", "\x73\x74\x61\164\165\163"); protected $FPpxl = array("\x6f\162\144\145\x72\x5f\x76\x61\x6c\165\145" => "\151\156\164\x65\x67\x65\162", "\163\150\157\167\137\150\157\x6d\145" => "\x62\x6f\x6f\154\x65\x61\156", "\x64\145\x73\x74\141\x71\x75\145" => "\x62\x6f\157\x6c\x65\141\x6e", "\x76\x69\145\x77\x73" => "\x69\156\164\145\x67\x65\x72", "\155\141\x69\x6e\164\x65\x6e\141\156\x63\145" => "\x62\157\157\154\145\141\x6e", "\x73\164\x61\x74\x75\163" => "\x69\156\164\x65\147\x65\162", "\143\x72\x65\141\164\x65\x64\x5f\141\164" => "\144\x61\x74\145\164\x69\x6d\145", "\165\160\x64\141\x74\145\x64\x5f\141\x74" => "\144\141\164\145\x74\x69\x6d\145"); public function WJSmZ($k37al) { return $k37al->o_0mh("\x73\x74\141\164\x75\x73", 1); } public function QGvIL($k37al) { return $k37al->o_0MH("\144\145\163\x74\141\x71\165\x65", 1); } public function ctGHX($k37al, $IvhHu) { return $k37al->O_0mh("\x63\141\x74\145\147\157\x72\x79", $IvhHu); } public function baSr_($k37al, $DRzEC) { return $k37al->join("\141\160\x69\x5f\x67\141\x6d\x65\x73\x5f\163\x6c\x75\x67\x73", "\147\141\x6d\x65\x73\137\x61\x70\151\x2e\x69\144", "\75", "\x61\x70\151\137\x67\141\155\x65\163\x5f\163\154\x75\x67\x73\x2e\151\144\137\x67\x61\x6d\x65")->join("\160\x72\157\166\x69\x64\x65\x72\x73", "\x61\x70\151\x5f\x67\141\155\145\x73\x5f\163\x6c\165\147\163\56\160\x72\x6f\166\151\144\145\162\137\x69\144", "\75", "\x70\162\157\x76\151\x64\145\x72\163\x2e\151\x64")->o_0MH("\x70\162\x6f\166\151\144\145\162\x73\x2e\156\x61\155\145", $DRzEC)->O_0mh("\x61\160\151\137\x67\141\x6d\x65\x73\137\x73\x6c\165\x67\163\x2e\141\x63\164\x69\x76\145", 1)->rVzxF("\147\141\x6d\145\163\x5f\141\160\151\x2e\52")->V9EK8(); } public function lbdEt($k37al, $Y4prD) { return $k37al->o_0mH("\156\141\x6d\145", "\154\x69\x6b\145", "\45{$Y4prD}\x25"); } public function rbsyd($mUQ6U = 6) { return self::O_0mH("\x63\x61\164\x65\147\157\162\x79", $this->bWZaj)->O_0Mh("\x69\144", "\x21\x3d", $this->id)->hy3Ob()->fAHyR("\x76\151\145\x77\163", "\x64\145\163\x63")->WvoTG($mUQ6U)->get(); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Game extends Model
+{
+    use HasFactory;
+
+    /**
+     * A tabela associada ao modelo.
+     *
+     * @var string
+     */
+    protected $table = 'games_api';
+
+    /**
+     * Os atributos que são atribuíveis em massa.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name',
+        'image',
+        'category',
+        'order_value',
+        'show_home',
+        'destaque',
+        'distribution',
+        'views',
+        'maintenance',
+        'status'
+    ];
+
+    /**
+     * Os atributos que devem ser convertidos para tipos nativos.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'order_value' => 'integer',
+        'show_home' => 'boolean',
+        'destaque' => 'boolean',
+        'views' => 'integer',
+        'maintenance' => 'boolean',
+        'status' => 'integer',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+
+
+
+    /**
+     * Escopo de consulta para obter jogos ativos.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeActive($query)
+    {
+        return $query->where('status', 1);
+    }
+
+    /**
+     * Escopo de consulta para obter jogos destacados.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeFeatured($query)
+    {
+        return $query->where('destaque', 1);
+    }
+
+    /**
+     * Escopo de consulta para obter jogos por categoria.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $category
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeByCategory($query, $category)
+    {
+        return $query->where('category', $category);
+    }
+
+    /**
+     * Escopo de consulta para obter jogos por provedor.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $provider
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeByProvider($query, $provider)
+    {
+        return $query->join('api_games_slugs', 'games_api.id', '=', 'api_games_slugs.id_game')
+                    ->join('providers', 'api_games_slugs.provider_id', '=', 'providers.id')
+                    ->where('providers.name', $provider)
+                    ->where('api_games_slugs.active', 1)
+                    ->select('games_api.*')
+                    ->distinct();
+    }
+
+    /**
+     * Escopo de consulta para pesquisar jogos por nome.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param string $search
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
+    public function scopeSearch($query, $search)
+    {
+        return $query->where('name', 'like', "%{$search}%");
+    }
+
+    /**
+     * Obter jogos similares a este jogo.
+     *
+     * @param int $limit
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function getSimilarGames($limit = 6)
+    {
+        return self::where('category', $this->category)
+            ->where('id', '!=', $this->id)
+            ->active()
+            ->orderBy('views', 'desc')
+            ->limit($limit)
+            ->get();
+    }
+}

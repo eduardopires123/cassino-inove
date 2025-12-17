@@ -1,12 +1,122 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace Nmxg2\LSsq3; use wkhuL\qCzcG\ejfUr\q4FqJ\JZdKT; use WKHul\QcZCg\ejfur\UyKSy; use WKHul\n3q0r\wpWAe\uGgJ9; use WkHUl\n3Q0R\wpwaE\ZHV2I; use wkHul\N3Q0r\wPWae\Log; class nXxmj extends uyKSY { use jzdKT; protected $ZYaJD = "\x68\157\x6d\145\x5f\x63\165\163\164\x6f\155\x5f\146\x69\145\154\x64\x73"; protected $GWg5z = array("\164\x69\x74\x6c\x65", "\151\163\x5f\141\x63\x74\x69\x76\145", "\160\x6f\163\x69\x74\x69\157\156"); protected $FPpxl = array("\x69\163\137\x61\x63\164\151\x76\145" => "\142\x6f\x6f\154\x65\141\156", "\x70\x6f\x73\x69\164\151\x6f\156" => "\x69\x6e\164\145\x67\x65\162"); public function n7xbu() { return $this->coKsJ(iBo55::class, "\143\165\163\x74\x6f\155\x5f\x66\x69\145\x6c\144\137\151\144")->FAHYr("\x70\x6f\x73\x69\x74\x69\x6f\x6e"); } public function EAZgK() { try { return UggJ9::Ow2ve("\150\157\155\145\137\143\x75\x73\164\157\155\x5f\x66\151\x65\x6c\144\137\147\x61\x6d\145\163\137{$this->id}", 3600, function () { try { goto itEN3; Uaumu: wnAHG: goto I3rul; I3rul: if (!function_exists("\127\x41\x4f\x73\x34")) { goto EF7yV; } goto x6Szh; x6Szh: return wAOs4($akiF8); goto qT1Ov; qT1Ov: EF7yV: goto btuTB; btuTB: return $akiF8->CS37G(function ($motr0) { $motr0->pPnvg = $motr0->oahEP ?? ($motr0->oahEP ? strpos($motr0->oahEP, "\x68\x74\x74\160") === 0 ? $motr0->oahEP : Y63gy($motr0->oahEP) : null); return $motr0; }); goto OyLBW; oTRnp: if (!$akiF8->isEmpty()) { goto wnAHG; } goto vk1Uf; vk1Uf: return LtRL6([]); goto Uaumu; itEN3: $akiF8 = $this->N7xBU()->join("\x67\141\155\x65\163\137\x61\x70\151", "\150\x6f\x6d\x65\137\143\x75\163\164\157\x6d\137\x66\151\145\154\x64\x5f\147\141\155\x65\x73\x2e\147\141\x6d\x65\137\x69\144", "\x3d", "\147\x61\x6d\145\163\137\141\160\151\x2e\x69\x64")->U2ZPK("\160\x72\x6f\x76\x69\x64\145\x72\x73", "\147\x61\x6d\x65\163\137\141\160\151\56\160\162\157\x76\x69\144\145\x72\x5f\151\144", "\75", "\x70\162\157\x76\x69\144\145\x72\x73\56\x69\144")->o_0mH("\147\x61\x6d\145\163\137\x61\x70\151\x2e\x73\164\x61\x74\165\x73", 1)->rvzXF("\147\x61\x6d\x65\x73\x5f\141\160\151\x2e\151\x64", "\x67\x61\x6d\x65\163\137\x61\x70\151\56\x6e\141\155\145", "\x67\141\155\x65\x73\x5f\x61\x70\151\x2e\x69\x6d\141\x67\145", ZHV2i::WVe6M("\103\117\101\x4c\105\123\x43\105\50\x70\x72\x6f\166\151\x64\x65\x72\163\x2e\x6e\x61\155\x65\x2c\x20\42\116\x2f\101\42\51\x20\141\163\40\160\162\157\x76\151\x64\145\x72\x5f\x6e\141\155\145"), "\x68\157\155\145\137\143\165\x73\x74\x6f\155\137\x66\151\145\x6c\x64\137\x67\x61\x6d\x65\x73\x2e\160\157\x73\151\x74\x69\x6f\156\x20\141\x73\40\147\141\x6d\145\x5f\160\157\x73\x69\x74\x69\157\156")->fahyR("\x68\157\x6d\x65\x5f\x63\x75\x73\x74\157\x6d\137\x66\x69\x65\x6c\x64\137\147\141\155\x65\163\x2e\x70\157\163\151\x74\x69\x6f\x6e")->sx9g0("\147\141\155\145\x73\x5f\x61\x70\x69\x2e\151\144", "\147\x61\155\x65\x73\137\x61\160\x69\56\x6e\x61\155\145", "\147\x61\155\145\163\137\x61\160\151\56\x69\x6d\141\147\x65", "\x70\x72\x6f\166\x69\x64\145\162\x73\x2e\x6e\141\x6d\145", "\150\157\155\x65\x5f\x63\x75\163\x74\x6f\155\137\x66\x69\x65\x6c\144\x5f\x67\141\x6d\x65\163\56\160\x6f\163\x69\x74\x69\x6f\156")->get(); goto oTRnp; OyLBW: } catch (\Exception $BOaI6) { Log::uwIC8("\x45\162\162\x6f\x20\x61\157\40\x62\x75\x73\x63\x61\x72\40\152\157\x67\157\x73\x20\144\157\40\x63\165\163\164\157\155\x20\146\151\x65\x6c\144\40{$this->id}\72\40" . $BOaI6->getMessage()); return LtRL6([]); } }); } catch (\Exception $BOaI6) { Log::UwiC8("\x45\x72\x72\x6f\40\x6e\x6f\40\143\141\x63\x68\x65\x20\144\157\x20\x63\x75\163\164\157\x6d\x20\x66\151\x65\x6c\144\x20{$this->id}\x3a\x20" . $BOaI6->getMessage()); return lTRl6([]); } } public static function V7gh2() { try { return UGgj9::OW2Ve("\150\x6f\x6d\145\x5f\x63\165\163\164\157\155\x5f\x66\151\x65\x6c\x64\x73\137\141\143\164\x69\166\x65", 3600, function () { try { return self::o_0Mh("\151\163\137\141\143\x74\x69\x76\145", true)->FAhYr("\160\x6f\x73\151\164\151\x6f\156")->get(); } catch (\Exception $BOaI6) { Log::uWIc8("\105\162\162\157\40\x61\157\x20\142\x75\163\143\x61\x72\40\143\x75\x73\x74\157\x6d\40\x66\151\145\154\x64\x73\x20\141\164\x69\166\157\x73\x3a\x20" . $BOaI6->getMessage()); return lTRl6([]); } }); } catch (\Exception $BOaI6) { Log::UWIc8("\x45\x72\x72\x6f\40\156\157\x20\143\x61\143\150\145\40\x64\145\40\x63\x75\163\164\157\x6d\40\x66\x69\x65\154\x64\163\40\x61\x74\151\x76\x6f\x73\72\40" . $BOaI6->getMessage()); return LTrL6([]); } } public static function bFNKO() { goto IpZfy; QBQ4B: TIBZQ: goto TdrmX; IpZfy: uggJ9::QeTo4("\150\157\155\x65\x5f\143\165\163\x74\157\155\x5f\x66\x69\145\x6c\144\163\x5f\x61\143\164\151\166\x65"); goto FMANP; FMANP: $HMLRD = self::tLOte(); goto jymlk; jymlk: foreach ($HMLRD as $xs9Nn) { UGGJ9::QeTO4("\x68\x6f\x6d\x65\x5f\143\165\x73\164\157\x6d\x5f\x66\x69\x65\x6c\144\137\147\x61\155\145\x73\x5f{$xs9Nn->id}"); f9kJ3: } goto QBQ4B; TdrmX: } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
+
+class HomeCustomField extends Model
+{
+    use HasFactory;
+
+    protected $table = 'home_custom_fields';
+
+    protected $fillable = [
+        'title',
+        'is_active',
+        'position',
+    ];
+
+    protected $casts = [
+        'is_active' => 'boolean',
+        'position' => 'integer',
+    ];
+
+    /**
+     * Relacionamento com os jogos do campo personalizado
+     */
+    public function games()
+    {
+        return $this->hasMany(HomeCustomFieldGame::class, 'custom_field_id')
+                    ->orderBy('position');
+    }
+
+    /**
+     * Obter jogos com dados completos
+     */
+    public function getGamesWithDetails()
+    {
+        try {
+            return Cache::remember("home_custom_field_games_{$this->id}", 3600, function () {
+                try {
+                    $games = $this->games()
+                        ->join('games_api', 'home_custom_field_games.game_id', '=', 'games_api.id')
+                        ->leftJoin('providers', 'games_api.provider_id', '=', 'providers.id')
+                        ->where('games_api.status', 1)
+                        ->select(
+                            'games_api.id',
+                            'games_api.name',
+                            'games_api.image',
+                            DB::raw('COALESCE(providers.name, "N/A") as provider_name'),
+                            'home_custom_field_games.position as game_position'
+                        )
+                        ->orderBy('home_custom_field_games.position')
+                        ->groupBy('games_api.id', 'games_api.name', 'games_api.image', 'providers.name', 'home_custom_field_games.position')
+                        ->get();
+
+                    // Se não houver jogos, retornar coleção vazia
+                    if ($games->isEmpty()) {
+                        return collect([]);
+                    }
+
+                    // Aplicar função completeGameImageUrl se existir
+                    if (function_exists('completeGameImageUrl')) {
+                        return completeGameImageUrl($games);
+                    }
+
+                    // Fallback se a função não existir
+                    return $games->map(function ($game) {
+                        $game->image_url = $game->image ?? ($game->image ? (strpos($game->image, 'http') === 0 ? $game->image : asset($game->image)) : null);
+                        return $game;
+                    });
+                } catch (\Exception $e) {
+                    // Log do erro mas não quebrar a aplicação
+                    Log::error("Erro ao buscar jogos do custom field {$this->id}: " . $e->getMessage());
+                    return collect([]);
+                }
+            });
+        } catch (\Exception $e) {
+            // Log do erro mas não quebrar a aplicação
+            Log::error("Erro no cache do custom field {$this->id}: " . $e->getMessage());
+            return collect([]);
+        }
+    }
+
+    /**
+     * Obter todos os campos personalizados ativos ordenados
+     */
+    public static function getActiveFields()
+    {
+        try {
+            return Cache::remember('home_custom_fields_active', 3600, function () {
+                try {
+                    return self::where('is_active', true)
+                        ->orderBy('position')
+                        ->get();
+                } catch (\Exception $e) {
+                    Log::error("Erro ao buscar custom fields ativos: " . $e->getMessage());
+                    return collect([]);
+                }
+            });
+        } catch (\Exception $e) {
+            Log::error("Erro no cache de custom fields ativos: " . $e->getMessage());
+            return collect([]);
+        }
+    }
+
+    /**
+     * Limpar cache
+     */
+    public static function clearCache()
+    {
+        Cache::forget('home_custom_fields_active');
+        $fields = self::all();
+        foreach ($fields as $field) {
+            Cache::forget("home_custom_field_games_{$field->id}");
+        }
+    }
+}
+

@@ -1,12 +1,254 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMxg2\j6aeu\OPtow; use nMxg2\Yfc5l\OC5bG; use NMXG2\LSsQ3\mdOvp; use wKhUl\j6aEU\ppy8J; use WkhUL\N3Q0r\WPwaE\Log; use eYQJv\EYQjV; class j9VZy extends pPy8J { protected $kMGjZ = "\143\141\163\150\x62\x61\x63\153\72\160\162\x6f\143\x65\x73\163\40\xa\40\x20\x20\x20\x20\x20\x20\40\40\40\x20\x20\x20\40\x20\x20\x20\x20\x20\40\x20\40\x20\x20\173\164\171\160\x65\x3d\141\154\154\x20\72\40\124\151\x70\x6f\40\x64\145\x20\x63\141\163\x68\142\141\143\x6b\x20\141\40\x70\162\x6f\x63\145\163\163\141\x72\40\x28\x73\160\x6f\x72\x74\163\54\40\166\x69\x72\x74\x75\141\154\54\40\x61\x6c\154\x29\175\12\40\x20\x20\40\40\x20\x20\x20\x20\x20\40\40\40\40\x20\x20\40\x20\x20\40\x20\x20\40\x20\x7b\55\x2d\163\x63\150\145\x64\165\x6c\145\144\40\72\40\120\x72\x6f\x63\x65\163\x73\x61\40\x61\160\x65\x6e\141\163\x20\x63\x61\163\x68\142\x61\x63\153\163\40\x61\147\x65\156\x64\x61\144\157\x73\40\160\162\x6f\x6e\x74\x6f\163\x20\x70\141\x72\x61\40\145\x78\145\x63\x75\xc3\xa7\303\243\x6f\x7d\12\40\x20\x20\40\40\40\40\40\40\x20\40\40\x20\40\x20\40\x20\40\40\x20\x20\40\40\40\173\55\55\163\x65\164\164\151\156\147\x3d\40\x3a\40\111\x44\x20\x64\x61\x20\x63\157\x6e\x66\x69\x67\165\x72\141\xc3\xa7\303\xa3\157\x20\x65\x73\x70\x65\x63\303\255\x66\x69\x63\x61\40\160\x61\x72\141\40\x70\x72\157\x63\145\163\x73\x61\162\x7d\xa\40\40\x20\x20\40\x20\x20\x20\x20\x20\40\40\x20\x20\x20\x20\40\x20\x20\40\40\40\40\x20\173\55\x2d\165\x73\145\162\75\x20\x3a\x20\x49\104\x20\x64\157\x20\165\163\165\xc3\241\x72\151\157\x20\145\x73\x70\145\143\303\xad\146\x69\x63\157\40\160\x61\x72\x61\40\160\x72\157\x63\x65\163\163\x61\x72\40\143\x61\163\150\142\141\143\153\x7d\xa\x20\40\40\x20\x20\x20\x20\40\x20\x20\x20\40\40\40\40\40\40\40\40\40\40\x20\40\40\x7b\x2d\55\146\157\162\x63\145\40\72\x20\106\x6f\162\xc3\247\x61\40\141\x20\x65\x78\145\143\165\xc3\xa7\xc3\243\x6f\40\151\x6d\x65\x64\151\x61\164\141\x20\x64\145\40\165\155\x61\40\x63\x6f\x6e\x66\x69\x67\165\x72\x61\xc3\xa7\xc3\xa3\x6f\40\145\x73\160\x65\143\303\xad\x66\151\x63\x61\x7d\xa\40\40\x20\x20\40\x20\x20\40\40\40\40\40\x20\40\x20\40\40\40\x20\x20\40\x20\40\x20\173\x2d\55\144\145\x62\165\147\40\72\x20\115\x6f\163\164\162\141\40\x69\156\x66\x6f\x72\155\x61\303\xa7\303\265\x65\163\40\144\145\164\x61\x6c\x68\x61\144\x61\x73\40\144\165\162\141\x6e\164\x65\40\157\x20\x70\x72\157\x63\x65\x73\163\141\x6d\x65\x6e\x74\x6f\x7d"; protected $cR9xw = "\x50\x72\x6f\x63\145\163\x73\x61\40\157\x73\40\x63\141\x73\x68\x62\x61\143\x6b\x73\x20\x64\157\163\40\165\x73\165\xc3\241\162\x69\x6f\163\x20\143\157\155\x20\142\141\x73\145\40\156\x61\163\40\x70\145\x72\144\x61\163\40\x6e\157\x20\x70\145\x72\xc3\xad\157\144\157\40\143\157\156\146\x69\x67\x75\x72\x61\144\157"; public function ttbdp(oc5bg $v1CTF) { goto RLnZo; RLnZo: $eeYYe = $this->u3RKa("\164\171\160\x65"); goto S7wkE; mfbL5: o9W80: goto oU01d; NdLRv: if (!$svB6b) { goto mz50Q; } goto SyNwd; paOI5: mz50Q: goto WL52y; WL52y: if ($Zp10T) { goto gUBdu; } goto FTDts; FTDts: return $this->fWfx9($v1CTF, $eeYYe, $gQPvw); goto qJaVw; qJaVw: goto o9W80; goto WGa8v; mgqNh: $gQPvw = $this->j__LS("\144\x65\142\x75\147"); goto NdLRv; SyNwd: return $this->wWBZF($v1CTF, $svB6b, $gQPvw); goto paOI5; H1pvr: $svB6b = $this->J__Ls("\x73\145\164\x74\151\156\x67"); goto mgqNh; WGa8v: gUBdu: goto qC_TF; S7wkE: $Zp10T = $this->j__Ls("\163\143\x68\x65\144\x75\x6c\145\144"); goto H1pvr; qC_TF: return $this->uhl1e($v1CTF, $gQPvw); goto mfbL5; oU01d: } private function wwbzF(oC5bg $v1CTF, $svB6b, $gQPvw = false) { $this->info("\x50\x72\157\x63\145\x73\163\141\156\144\157\x20\x63\157\x6e\146\x69\147\165\x72\x61\xc3\247\303\xa3\157\x20\x64\x65\x20\x63\141\x73\150\142\141\x63\x6b\x20\145\x73\x70\x65\143\xc3\xad\x66\x69\x63\x61\x20\x28\111\x44\x3a\x20{$svB6b}\51"); try { goto rP22M; ljiRr: $this->info("\120\x72\xc3\263\170\x69\x6d\x61\x20\145\x78\145\x63\165\xc3\247\303\243\x6f\40\141\147\145\x6e\x64\141\x64\x61\x20\160\141\x72\x61\x3a\x20" . ($i19kP->fSY4B ? $i19kP->fSY4B->format("\x64\x2f\x6d\x2f\x59\x20\110\x3a\151\x3a\x73") : "\116\x2f\x41")); goto g92CW; ft055: $this->UWIC8("\103\x6f\x6e\146\151\147\x75\162\x61\xc3\xa7\xc3\xa3\x6f\40\144\x65\40\x49\x44\x20{$svB6b}\x20\x6e\xc3\xa3\157\x20\145\x6e\143\157\x6e\x74\x72\141\144\141\41"); goto KgwMY; RkoYd: $i19kP->save(); goto dOERg; TigfV: vkKg0: goto DxX6A; nxZBN: $this->ZXVum("\120\x65\x72\x63\x65\156\x74\x75\x61\x6c\72\40{$i19kP->iVeQm}\x25"); goto dGPnW; KgwMY: return Ppy8J::E5mgC; goto QLmY7; ig4yP: if (!$gQPvw) { goto YcVLP; } goto xZrR8; ALTHZ: $this->info("\x41\147\x65\x6e\x64\141\155\x65\156\x74\157\x20\x64\x65\x73\x61\164\x69\x76\141\144\x6f\40\x61\x70\xc3\xb3\163\x20\145\x78\x65\x63\165\xc3\247\xc3\xa3\157\40\50\x66\x72\145\x71\165\xc3\252\156\143\151\141\72\40{$i19kP->Twh1e}\51"); goto gJV2p; ZF5L3: return pPy8j::nn35i; goto KmWc2; HBMnC: if (!$HN9bK) { goto rYTgd; } goto O__rH; efruO: YcVLP: goto tranF; g92CW: MShFz: goto ZF5L3; dGPnW: $this->zxVuM("\x50\x65\x72\144\x61\x20\x4d\xc3\xad\156\151\x6d\x61\72\x20\x52\44\x20" . number_format($i19kP->UCx5M, 2, "\x2c", "\x2e")); goto SvIk8; W6i9o: nhTjO: goto VGMVG; UGhDI: $this->info("\x43\x6f\156\146\151\x67\165\x72\x61\303\xa7\xc3\xa3\x6f\40\x65\x6e\143\157\x6e\x74\x72\141\144\141\72\40{$i19kP->name}"); goto ig4yP; QQXyB: $this->uwic8("\x55\163\x75\xc3\xa1\162\x69\157\40\144\145\x20\111\x44\40{$HN9bK}\40\156\303\xa3\x6f\40\x65\x6e\143\157\156\164\162\x61\x64\157\x21"); goto NB7gA; K1DgB: if ($i19kP) { goto ty3eR; } goto ft055; jegbK: if ($i19kP->VtFRt) { goto eVQ4i; } goto ALTHZ; uwl1I: if (!$i19kP->VtFRt) { goto vkKg0; } goto aB1Vu; efeK2: if (!($i19kP->fSY4B && $i19kP->fSY4B > o6Q8e() && !$this->j__lS("\146\x6f\162\143\145"))) { goto ePdJd; } goto H0lc_; JAdLH: $HN9bK = $this->J__LS("\165\x73\145\x72"); goto HBMnC; aiZfD: $this->info("\x46\x6f\162\303\247\x61\x6e\144\x6f\x20\145\x78\145\x63\165\303\247\xc3\xa3\x6f\40\151\x6d\145\144\x69\x61\x74\141\x20\50\x70\162\xc3\263\170\x69\155\x6f\40\141\x67\x65\x6e\x64\x61\x6d\145\156\x74\157\x20\x65\x72\x61\40\x70\x61\x72\141\72\40" . $i19kP->fSY4B->format("\144\x2f\x6d\57\x59\40\x48\x3a\151\x3a\163") . "\51"); goto V3akJ; MVVHv: rYTgd: goto gwqCn; csgZm: $this->m7ne7(["\x50\x72\x6f\x63\x65\x73\x73\141\x64\157\x73", "\126\141\154\157\x72\40\124\x6f\x74\141\x6c", "\x47\154\x6f\x62\x61\x69\163", "\x56\x49\x50", "\105\x72\x72\x6f\163"], [[$ynYyV["\160\x72\x6f\x63\x65\163\x73\x65\144"], "\122\44\x20" . number_format($ynYyV["\141\x6d\157\x75\156\164"], 2, "\x2c", "\56"), $ynYyV["\147\x6c\157\x62\x61\x6c"], $ynYyV["\166\x69\160"], $ynYyV["\x65\x72\162\x6f\x72\163"]]]); goto jegbK; Re_7Y: if ($e3e3M) { goto nhTjO; } goto QQXyB; aB1Vu: $i19kP->tBwaj(); goto TigfV; H0lc_: $this->U9yhh("\105\163\164\141\40\143\x6f\156\146\151\147\x75\162\141\303\xa7\303\243\x6f\x20\x61\151\x6e\x64\x61\40\156\303\243\x6f\x20\145\163\x74\303\241\x20\x61\x67\145\156\144\x61\x64\141\40\160\x61\x72\141\40\145\170\145\143\x75\303\247\xc3\xa3\157\56\x20" . "\x50\x72\303\xb3\170\x69\x6d\x61\x20\x65\x78\145\x63\165\xc3\xa7\xc3\xa3\x6f\x3a\x20" . $i19kP->fSY4B->format("\x64\x2f\x6d\x2f\x59\x20\x48\x3a\151\72\x73")); goto r3NB3; xZrR8: $this->zxvUM("\124\x69\160\x6f\x3a\x20" . ucfirst($i19kP->type)); goto nxZBN; V3akJ: $i19kP->fSY4B = o6Q8e(); goto RkoYd; gJV2p: goto MShFz; goto AVEAE; NB7gA: return pPy8J::E5mgC; goto W6i9o; r3NB3: $this->u9yHh("\x55\x73\145\x20\141\40\x6f\x70\xc3\247\303\xa3\x6f\x20\x2d\x2d\146\x6f\162\x63\145\x20\x70\x61\x72\x61\x20\145\170\x65\143\x75\164\141\x72\40\x69\155\x65\x64\151\x61\x74\x61\155\x65\x6e\164\x65\x2e"); goto X6Uo0; O__rH: $e3e3M = \NmxG2\LSSQ3\z6lGL::NZWaY($HN9bK); goto Re_7Y; AVEAE: eVQ4i: goto ljiRr; X6Uo0: return ppY8j::E5mgC; goto NGR9O; rP22M: $i19kP = Mdovp::NzwaY($svB6b); goto K1DgB; dOERg: bAkYE: goto efeK2; NGR9O: ePdJd: goto JAdLH; tranF: if (!($this->J__LS("\146\157\x72\x63\x65") && $i19kP->fSY4B && $i19kP->fSY4B > O6q8E())) { goto bAkYE; } goto aiZfD; QLmY7: ty3eR: goto UGhDI; DxX6A: $this->info("\120\x72\157\x63\x65\x73\163\x61\155\145\156\x74\x6f\x20\143\x6f\x6e\143\x6c\165\303\255\144\x6f\x21"); goto csgZm; VGMVG: $this->info("\120\162\x6f\143\145\x73\163\141\156\x64\x6f\40\x63\x61\x73\150\x62\x61\x63\x6b\40\x65\x73\x70\145\143\303\xad\x66\x69\143\157\40\160\141\162\141\x20\165\x73\165\303\xa1\162\x69\x6f\x3a\40{$e3e3M->name}\x20\x28\x49\x44\72\x20{$HN9bK}\51"); goto MVVHv; SvIk8: $this->ZXvUM("\101\x67\145\156\x64\141\x6d\145\x6e\164\x6f\72\x20" . ($i19kP->VtFRt ? "\101\x74\151\166\x6f" : "\111\156\x61\x74\x69\x76\x6f")); goto efruO; gwqCn: $ynYyV = $v1CTF->se1s9($i19kP, $HN9bK); goto uwl1I; KmWc2: } catch (\Exception $BOaI6) { goto yLvEN; yLvEN: $this->uWic8("\105\x72\162\157\40\141\x6f\40\x70\x72\157\143\145\163\163\141\162\40\x63\x6f\156\146\x69\147\x75\162\x61\xc3\xa7\xc3\xa3\157\x20\145\x73\x70\x65\143\xc3\xad\x66\x69\143\x61\72\40" . $BOaI6->getMessage()); goto of_OC; of_OC: Log::UwiC8("\x45\162\162\x6f\40\141\157\40\160\162\x6f\x63\145\163\163\x61\x72\40\143\157\x6e\146\151\147\165\162\141\xc3\xa7\xc3\243\x6f\40\145\x73\160\145\143\xc3\255\x66\151\x63\x61\x20\x28\x49\x44\x3a\40{$svB6b}\x29\x3a\40" . $BOaI6->getMessage(), ["\164\x72\x61\x63\x65" => $BOaI6->getTraceAsString()]); goto dRFvf; dRFvf: return ppY8J::E5mgC; goto YnS8d; YnS8d: } } private function uHL1E(oC5BG $v1CTF, $gQPvw = false) { $this->info("\x49\156\x69\x63\151\x61\x6e\x64\157\x20\160\162\x6f\143\x65\163\163\141\155\145\156\164\157\x20\x64\x65\x20\143\141\x73\x68\x62\141\143\x6b\x73\40\141\x67\145\x6e\x64\x61\x64\x6f\x73"); try { goto fZDqq; oT3C5: t_3OK: goto vbrwG; fZDqq: $zq2_x = mDOvP::O_0MH("\141\x63\164\x69\166\145", true)->O_0mH("\x73\x63\150\145\x64\x75\x6c\145\137\x61\x63\x74\151\166\145", true)->O_0mh(function ($k37al) { $k37al->ZxWPq("\x6e\145\x78\x74\x5f\162\165\156\137\x61\x74")->O_0Mh("\x6e\145\x78\164\x5f\x72\x75\x6e\137\x61\164", "\x3c\x3d", O6q8e()); })->get(); goto Tu5Xw; v0tHh: if (empty($ynYyV["\163\145\164\164\151\156\147\x73\x5f\x70\162\x6f\x63\145\x73\x73\x65\x64"])) { goto DIRLY; } goto Zr_6D; OANyv: DIRLY: goto dpLaU; vbrwG: tsDUI: goto W7t01; QABmK: $this->info("\x50\162\157\143\x65\x73\x73\141\155\145\x6e\x74\157\40\143\157\x6e\x63\154\x75\xc3\xad\x64\x6f\41"); goto iX8PJ; Tu5Xw: if (!$zq2_x->isEmpty()) { goto xBNlo; } goto VWBug; wKGYr: $this->m7nE7(["\x49\104", "\116\157\x6d\145", "\120\x72\x6f\143\145\x73\x73\x61\144\157\x73", "\126\x61\154\157\x72", "\120\162\303\xb3\170\x69\x6d\141\x20\105\170\145\143\x75\xc3\xa7\xc3\xa3\157"], $p3hER); goto OANyv; Z5_Yi: $this->info("\x45\156\143\157\x6e\x74\x72\141\144\x61\x73\40{$zq2_x->count()}\40\x63\x6f\156\146\x69\147\165\x72\141\303\xa7\xc3\265\x65\x73\x20\160\141\x72\x61\40\x70\x72\157\143\145\x73\x73\141\162\x3a"); goto Q8sP1; Q8sP1: foreach ($zq2_x as $i19kP) { $this->ZxVUM("\x2d\40{$i19kP->name}\40\x28\x49\104\72\x20{$i19kP->id}\x2c\x20\124\151\x70\x6f\x3a\40{$i19kP->type}\54\40\101\147\145\x6e\144\141\x64\x6f\x20\160\x61\x72\141\x3a\x20" . ($i19kP->fSY4B ? $i19kP->fSY4B->format("\x64\x2f\155\57\x59\40\x48\x3a\151\x3a\163") : "\x4e\57\x41") . "\x29"); gG7Ad: } goto IgfWt; jEyl4: $this->zXvUM("\120\x72\xc3\xb3\170\x69\155\157\x20\x63\141\163\150\142\x61\143\153\x20\141\x67\x65\156\144\141\x64\x6f\72\x20{$etTen->name}\x20\55\x20" . $etTen->fSY4B->format("\x64\57\155\57\x59\x20\x48\72\151\72\163")); goto oT3C5; Zr_6D: $this->info("\103\x6f\x6e\146\x69\147\x75\x72\141\303\247\303\xb5\145\163\x20\x70\x72\157\x63\x65\x73\163\x61\x64\x61\x73\72"); goto BlMGe; QFXFF: xBNlo: goto wT4y0; LD0ns: dtH18: goto e8_aA; IgfWt: LAVYI: goto LD0ns; begcP: $etTen = mdovp::o_0MH("\x61\x63\164\x69\166\145", true)->O_0Mh("\163\143\150\x65\144\x75\154\145\x5f\141\143\x74\x69\x76\145", true)->ZXWPq("\156\145\x78\164\137\x72\x75\x6e\x5f\x61\164")->FaHyR("\156\x65\x78\x74\137\x72\165\156\137\141\164")->EWFB9(); goto o7GFy; iX8PJ: $this->M7Ne7(["\120\162\157\x63\145\x73\163\141\144\157\x73", "\x56\x61\154\157\x72\x20\124\x6f\164\x61\154", "\x47\154\x6f\x62\x61\x69\x73", "\126\x49\x50", "\x45\162\162\x6f\163"], [[$ynYyV["\160\x72\157\143\x65\163\163\x65\x64"], "\122\44\40" . number_format($ynYyV["\x61\x6d\157\x75\x6e\x74"], 2, "\54", "\x2e"), $ynYyV["\x67\154\x6f\x62\x61\x6c"], $ynYyV["\x76\151\x70"], $ynYyV["\145\x72\x72\x6f\162\x73"]]]); goto v0tHh; aN1ac: return PpY8J::nn35i; goto Niclq; o7GFy: if (!$etTen) { goto t_3OK; } goto jEyl4; wT4y0: if (!$gQPvw) { goto dtH18; } goto Z5_Yi; nMR9G: lMmz6: goto wKGYr; VWBug: $this->u9yhH("\116\xc3\xa3\157\x20\x68\303\241\x20\x63\157\x6e\x66\x69\x67\165\162\x61\xc3\xa7\303\265\x65\x73\40\144\145\40\x63\141\x73\x68\x62\x61\x63\153\x20\141\x67\145\156\x64\x61\144\x61\163\x20\160\x61\x72\x61\40\145\170\x65\x63\x75\xc3\xa7\303\xa3\157\40\156\145\x73\x74\145\x20\155\x6f\155\145\156\x74\x6f\56"); goto r6hNM; dpLaU: Log::info("\x50\162\x6f\x63\x65\163\x73\x61\x6d\x65\x6e\164\157\x20\144\145\x20\143\141\x73\x68\142\x61\143\153\163\40\141\147\x65\x6e\x64\141\144\x6f\x73\40\143\157\x6e\x63\154\x75\303\xad\144\x6f", $ynYyV); goto aN1ac; e8_aA: $ynYyV = $v1CTF->uhL1E(); goto QABmK; KgQuV: foreach ($ynYyV["\163\x65\x74\x74\151\x6e\147\163\137\x70\162\157\143\145\x73\x73\x65\144"] as $i19kP) { $p3hER[] = [$i19kP["\151\144"], $i19kP["\x6e\141\x6d\145"], $i19kP["\160\162\x6f\143\145\163\163\145\144"], "\x52\x24\x20" . number_format($i19kP["\141\155\157\165\x6e\x74"], 2, "\x2c", "\x2e"), $i19kP["\156\145\170\164\137\162\165\156"] ? $i19kP["\156\145\x78\164\137\x72\165\156"]->format("\144\x2f\x6d\57\x59\40\110\x3a\x69") : "\x4e\57\x41"]; VtJuR: } goto nMR9G; r6hNM: if (!$gQPvw) { goto tsDUI; } goto begcP; W7t01: return ppy8J::nn35i; goto QFXFF; BlMGe: $p3hER = []; goto KgQuV; Niclq: } catch (\Exception $BOaI6) { goto Irwqz; Irwqz: $this->uWIc8("\105\x72\x72\157\x20\x61\x6f\40\x70\162\x6f\x63\x65\x73\163\x61\162\40\x63\141\163\150\142\141\143\153\163\x20\x61\x67\145\x6e\x64\x61\x64\x6f\163\x3a\x20" . $BOaI6->getMessage()); goto eKMH2; z4gvt: return Ppy8j::E5mgC; goto C7eEm; eKMH2: Log::UWIC8("\x45\x72\162\157\40\141\x6f\x20\160\162\x6f\143\x65\x73\163\x61\162\40\x63\141\x73\x68\142\x61\x63\x6b\x73\x20\141\147\145\x6e\x64\141\x64\157\163\72\x20" . $BOaI6->getMessage(), ["\164\x72\x61\x63\x65" => $BOaI6->getTraceAsString()]); goto z4gvt; C7eEm: } } private function FwFX9(oc5BG $v1CTF, $eeYYe, $gQPvw = false) { $this->info("\111\x6e\x69\143\151\x61\x6e\144\157\40\x70\162\x6f\143\x65\x73\x73\x61\155\145\x6e\x74\x6f\40\155\x61\156\x75\x61\x6c\40\144\x65\x20\x63\x61\163\150\142\x61\x63\153\x73\x20\144\x6f\x20\x74\151\x70\157\x3a\40{$eeYYe}"); try { goto bwp8Q; bwp8Q: if (!$gQPvw) { goto M_LYZ; } goto aZ6HD; rpvJa: Log::info("\120\x72\157\x63\145\x73\x73\141\155\x65\156\x74\157\x20\144\145\40\x63\141\163\x68\142\x61\x63\x6b\163\40\x61\165\164\157\x6d\xc3\xa1\164\x69\x63\157\x73\x20\x63\157\156\143\154\x75\303\255\x64\x6f", $ynYyV); goto ef5DH; ZNkpV: $this->M7nE7(["\120\x72\x6f\143\x65\x73\163\141\144\157\163", "\126\141\x6c\x6f\x72\x20\x54\157\164\x61\154", "\x47\x6c\157\x62\141\151\x73", "\126\111\x50", "\105\x72\162\157\x73"], [[$ynYyV["\x70\162\157\x63\145\163\163\145\x64"], "\x52\x24\40" . number_format($ynYyV["\141\155\157\x75\156\164"], 2, "\54", "\x2e"), $ynYyV["\147\154\157\142\141\x6c"], $ynYyV["\x76\151\x70"], $ynYyV["\145\162\x72\x6f\x72\163"]]]); goto rpvJa; aZ6HD: $this->ZxvUM("\x42\165\x73\143\x61\156\144\x6f\40\165\163\165\xc3\241\x72\x69\157\x73\40\x63\157\155\x20\160\x65\162\x64\141\x73\40\x72\145\143\145\x6e\x74\x65\x73\x2e\56\56"); goto Wlt3O; jZDBJ: $ynYyV = $v1CTF->fWfx9($eeYYe); goto Fq9wP; Fq9wP: $this->info("\x50\162\x6f\143\x65\x73\x73\x61\155\145\x6e\x74\x6f\x20\x63\157\156\x63\x6c\x75\303\xad\144\x6f\x21"); goto ZNkpV; ef5DH: return pPY8j::nn35i; goto KCm_o; Wlt3O: M_LYZ: goto jZDBJ; KCm_o: } catch (\Exception $BOaI6) { goto EtNYG; XGBaq: Log::uwIc8("\x45\162\x72\157\40\x61\157\40\160\x72\x6f\x63\145\x73\163\x61\x72\40\143\x61\163\150\x62\141\x63\x6b\x73\x20\x61\165\x74\157\x6d\303\xa1\164\151\x63\x6f\163\x3a\40" . $BOaI6->getMessage(), ["\x74\162\141\143\x65" => $BOaI6->getTraceAsString()]); goto YckJO; EtNYG: $this->uWIC8("\105\162\x72\x6f\40\x61\157\40\160\x72\x6f\x63\145\163\x73\141\x72\x20\143\141\x73\150\x62\141\x63\x6b\163\x3a\x20" . $BOaI6->getMessage()); goto XGBaq; YckJO: return pPy8j::E5mgC; goto f0Kh0; f0Kh0: } } }
+
+namespace App\Console\Commands;
+
+use App\Services\CashbackService;
+use App\Models\CashbackSetting;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Log;
+use Carbon\Carbon;
+
+class ProcessCashbacks extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'cashback:process 
+                        {type=all : Tipo de cashback a processar (sports, virtual, all)}
+                        {--scheduled : Processa apenas cashbacks agendados prontos para execução}
+                        {--setting= : ID da configuração específica para processar}
+                        {--user= : ID do usuário específico para processar cashback}
+                        {--force : Força a execução imediata de uma configuração específica}
+                        {--debug : Mostra informações detalhadas durante o processamento}';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Processa os cashbacks dos usuários com base nas perdas no período configurado';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle(CashbackService $cashbackService)
+    {
+        $type = $this->argument('type');
+        $useScheduled = $this->option('scheduled');
+        $settingId = $this->option('setting');
+        $debug = $this->option('debug');
+        
+        if ($settingId) {
+            return $this->processSpecificSetting($cashbackService, $settingId, $debug);
+        }
+        
+        if ($useScheduled) {
+            return $this->processScheduledCashbacks($cashbackService, $debug);
+        } else {
+            return $this->processAutomaticCashbacks($cashbackService, $type, $debug);
+        }
+    }
+    
+    /**
+     * Processa uma configuração específica de cashback
+     */
+    private function processSpecificSetting(CashbackService $cashbackService, $settingId, $debug = false)
+    {
+        $this->info("Processando configuração de cashback específica (ID: {$settingId})");
+        
+        try {
+            // Buscar a configuração
+            $setting = CashbackSetting::find($settingId);
+            
+            if (!$setting) {
+                $this->error("Configuração de ID {$settingId} não encontrada!");
+                return Command::FAILURE;
+            }
+            
+            $this->info("Configuração encontrada: {$setting->name}");
+            
+            if ($debug) {
+                $this->line("Tipo: " . ucfirst($setting->type));
+                $this->line("Percentual: {$setting->percentage}%");
+                $this->line("Perda Mínima: R$ " . number_format($setting->min_loss, 2, ',', '.'));
+                $this->line("Agendamento: " . ($setting->schedule_active ? 'Ativo' : 'Inativo'));
+            }
+            
+            // Forçar o próximo agendamento para agora se necessário
+            if ($this->option('force') && $setting->next_run_at && $setting->next_run_at > now()) {
+                $this->info("Forçando execução imediata (próximo agendamento era para: " . 
+                    $setting->next_run_at->format('d/m/Y H:i:s') . ")");
+                $setting->next_run_at = now();
+                $setting->save();
+            }
+            
+            // Verificar se está pronto para execução
+            if ($setting->next_run_at && $setting->next_run_at > now() && !$this->option('force')) {
+                $this->warn("Esta configuração ainda não está agendada para execução. " .
+                    "Próxima execução: " . $setting->next_run_at->format('d/m/Y H:i:s'));
+                $this->warn("Use a opção --force para executar imediatamente.");
+                return Command::FAILURE;
+            }
+            
+            // Verificar se é para um usuário específico
+            $userId = $this->option('user');
+            if ($userId) {
+                $user = \App\Models\User::find($userId);
+                if (!$user) {
+                    $this->error("Usuário de ID {$userId} não encontrado!");
+                    return Command::FAILURE;
+                }
+                $this->info("Processando cashback específico para usuário: {$user->name} (ID: {$userId})");
+            }
+            
+            // Processar
+            $results = $cashbackService->processForSetting($setting, $userId);
+            
+            if ($setting->schedule_active) {
+                $setting->markAsRun();
+            }
+            
+            $this->info("Processamento concluído!");
+            $this->table(
+                ['Processados', 'Valor Total', 'Globais', 'VIP', 'Erros'],
+                [[$results['processed'], 'R$ ' . number_format($results['amount'], 2, ',', '.'), $results['global'], $results['vip'], $results['errors']]]
+            );
+            
+            // Mostrar próximo agendamento se ainda estiver ativo
+            if ($setting->schedule_active) {
+                $this->info("Próxima execução agendada para: " . 
+                    ($setting->next_run_at ? $setting->next_run_at->format('d/m/Y H:i:s') : 'N/A'));
+            } else {
+                $this->info("Agendamento desativado após execução (frequência: {$setting->scheduled_frequency})");
+            }
+            
+            return Command::SUCCESS;
+        } catch (\Exception $e) {
+            $this->error("Erro ao processar configuração específica: " . $e->getMessage());
+            Log::error("Erro ao processar configuração específica (ID: {$settingId}): " . $e->getMessage(), [
+                'trace' => $e->getTraceAsString()
+            ]);
+            return Command::FAILURE;
+        }
+    }
+    
+    /**
+     * Processa todos os cashbacks agendados prontos para execução
+     */
+    private function processScheduledCashbacks(CashbackService $cashbackService, $debug = false)
+    {
+        $this->info("Iniciando processamento de cashbacks agendados");
+        
+        try {
+            // Verificar configurações com agendamento pendente
+            $pendingSettings = CashbackSetting::where('active', true)
+                ->where('schedule_active', true)
+                ->where(function($query) {
+                    $query->whereNotNull('next_run_at')
+                          ->where('next_run_at', '<=', now());
+                })
+                ->get();
+                
+            if ($pendingSettings->isEmpty()) {
+                $this->warn("Não há configurações de cashback agendadas para execução neste momento.");
+                
+                if ($debug) {
+                    $nextScheduled = CashbackSetting::where('active', true)
+                        ->where('schedule_active', true)
+                        ->whereNotNull('next_run_at')
+                        ->orderBy('next_run_at')
+                        ->first();
+                        
+                    if ($nextScheduled) {
+                        $this->line("Próximo cashback agendado: {$nextScheduled->name} - " . 
+                            $nextScheduled->next_run_at->format('d/m/Y H:i:s'));
+                    }
+                }
+                
+                return Command::SUCCESS;
+            }
+            
+            if ($debug) {
+                $this->info("Encontradas {$pendingSettings->count()} configurações para processar:");
+                foreach ($pendingSettings as $setting) {
+                    $this->line("- {$setting->name} (ID: {$setting->id}, Tipo: {$setting->type}, Agendado para: " . 
+                        ($setting->next_run_at ? $setting->next_run_at->format('d/m/Y H:i:s') : 'N/A') . ")");
+                }
+            }
+            
+            $results = $cashbackService->processScheduledCashbacks();
+            
+            $this->info("Processamento concluído!");
+            $this->table(
+                ['Processados', 'Valor Total', 'Globais', 'VIP', 'Erros'],
+                [[$results['processed'], 'R$ ' . number_format($results['amount'], 2, ',', '.'), $results['global'], $results['vip'], $results['errors']]]
+            );
+            
+            if (!empty($results['settings_processed'])) {
+                $this->info("Configurações processadas:");
+                $processedTableData = [];
+                
+                foreach ($results['settings_processed'] as $setting) {
+                    $processedTableData[] = [
+                        $setting['id'],
+                        $setting['name'],
+                        $setting['processed'],
+                        'R$ ' . number_format($setting['amount'], 2, ',', '.'),
+                        $setting['next_run'] ? $setting['next_run']->format('d/m/Y H:i') : 'N/A'
+                    ];
+                }
+                
+                $this->table(
+                    ['ID', 'Nome', 'Processados', 'Valor', 'Próxima Execução'],
+                    $processedTableData
+                );
+            }
+            
+            Log::info("Processamento de cashbacks agendados concluído", $results);
+            
+            return Command::SUCCESS;
+        } catch (\Exception $e) {
+            $this->error("Erro ao processar cashbacks agendados: " . $e->getMessage());
+            Log::error("Erro ao processar cashbacks agendados: " . $e->getMessage(), [
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return Command::FAILURE;
+        }
+    }
+    
+    /**
+     * Processa cashbacks automáticos
+     */
+    private function processAutomaticCashbacks(CashbackService $cashbackService, $type, $debug = false)
+    {
+        $this->info("Iniciando processamento manual de cashbacks do tipo: {$type}");
+        
+        try {
+            if ($debug) {
+                $this->line("Buscando usuários com perdas recentes...");
+            }
+            
+            $results = $cashbackService->processAutomaticCashbacks($type);
+            
+            $this->info("Processamento concluído!");
+            $this->table(
+                ['Processados', 'Valor Total', 'Globais', 'VIP', 'Erros'],
+                [[$results['processed'], 'R$ ' . number_format($results['amount'], 2, ',', '.'), $results['global'], $results['vip'], $results['errors']]]
+            );
+            
+            Log::info("Processamento de cashbacks automáticos concluído", $results);
+            
+            return Command::SUCCESS;
+        } catch (\Exception $e) {
+            $this->error("Erro ao processar cashbacks: " . $e->getMessage());
+            Log::error("Erro ao processar cashbacks automáticos: " . $e->getMessage(), [
+                'trace' => $e->getTraceAsString()
+            ]);
+            
+            return Command::FAILURE;
+        }
+    }
+} 

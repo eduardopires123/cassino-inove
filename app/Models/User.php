@@ -1,12 +1,448 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMxG2\LsSQ3; use nmXG2\LsSQ3\Uc4DF; use WKhUl\DXT4k\bPgM5\rGHww; use wKhul\QCZcg\EJfur\Q4fqj\jzDKT; use Wkhul\B35Fs\BpgM5\z6Lgl as m0Vfq; use WkHul\WCJ9m\fx8JA; use HN7J5\dgPdo\mrzzp; use nMXG2\SgNdE\q8BPQ; use WkhUL\bPgm5\rGhWW as Xsd4R; class z6LgL extends m0vFQ implements rGhWW { use MRzZP, jzdkT, fx8Ja, Q8bpQ, xSd4r; protected $GWg5z = array("\x6e\x61\x6d\145", "\145\x6d\x61\x69\154", "\x70\x61\x73\163\x77\x6f\162\x64", "\x70\151\x78", "\x63\160\146", "\160\x68\x6f\x6e\145", "\151\155\141\147\145", "\x6e\x61\x73\143\151\155\x65\156\164\157", "\x69\163\x5f\x61\144\155\151\156", "\151\163\137\x61\x66\146\151\x6c\x69\141\164\x65", "\x6c\157\147\x67\145\144\137\x69\156", "\x62\x61\x6e\x6e\145\144", "\x62\141\156\x6e\145\x64\137\162\x65\x61\163\x6f\x6e", "\x62\x61\156\156\x65\144\137\144\x61\164\x65", "\151\156\166\151\x74\145\x72", "\x69\163\137\144\x65\x6d\x6f\x5f\141\x67\x65\x6e\164", "\163\x74\x61\164\165\x73", "\x6d\x61\x78\137\161\165\x61\156\x74\x69\144\141\144\x65\x5f\163\x61\x71\165\x65\163\x5f\x64\x69\x61\162\151\157", "\x6d\141\170\137\161\165\x61\156\164\x69\x64\141\x64\145\137\163\141\x71\165\x65\163\137\x61\x75\x74\x6f\155\x61\164\x69\143\x6f\163\137\x64\x69\141\x72\151\x6f", "\160\x6c\141\171\151\x6e\147", "\x70\x6c\141\x79\x65\x64", "\x74\x77\151\164\143\x68\x5f\x69\x64", "\x65\155\x61\x69\x6c\x5f\166\145\x72\x69\x66\151\x65\x64\137\141\x74", "\160\x68\157\x6e\145\137\x76\x65\162\151\146\x69\145\x64\x5f\x61\x74", "\154\x61\156\147\165\141\x67\x65", "\x76\x69\x70\x5f\x6c\145\x76\x65\x6c\40", "\164\x6f\x6b\145\156\x5f\163\x70\157\162\x74"); protected $zgSzi = array("\x70\141\163\x73\167\157\x72\144", "\162\x65\155\x65\155\x62\145\x72\x5f\x74\x6f\153\x65\156"); protected $FPpxl = array("\x65\155\x61\151\x6c\137\166\145\x72\x69\146\151\x65\144\137\141\164" => "\x64\141\x74\145\164\x69\155\x65", "\x70\141\163\163\167\x6f\x72\144" => "\x68\x61\163\x68\x65\x64", "\151\163\137\x61\x64\155\x69\x6e" => "\151\x6e\x74\x65\x67\145\162", "\151\x73\x5f\141\146\x66\x69\154\x69\141\x74\145" => "\x62\157\x6f\154\145\x61\156", "\154\157\x67\x67\x65\144\x5f\x69\x6e" => "\x62\157\x6f\154\x65\x61\156", "\142\141\156\x6e\145\x64" => "\142\x6f\157\x6c\x65\x61\156", "\151\x73\x5f\x64\145\155\157\x5f\x61\147\x65\156\164" => "\142\x6f\157\154\145\x61\x6e", "\x70\154\141\171\x69\x6e\x67" => "\142\157\x6f\x6c\145\141\156", "\x70\x6c\141\171\145\144" => "\x62\157\x6f\154\145\x61\156", "\x62\141\156\x6e\x65\144\137\x64\141\x74\x65" => "\144\141\164\145\164\151\155\145", "\x65\155\141\151\154\137\166\x65\x72\x69\146\151\x65\x64\137\x61\164" => "\144\x61\x74\x65\164\x69\155\145", "\160\x68\x6f\x6e\x65\137\x76\145\x72\151\146\151\145\x64\x5f\x61\164" => "\x64\141\x74\x65\164\x69\x6d\145"); public function RKf3e() { return $this->vWAVW(LlSPF::class); } public function yATya() { return $this->COkSJ(Z6Lgl::class, "\151\x6e\166\151\x74\145\162", "\151\144"); } public function EIxwK() { return $this->COKSj(Vg1pP::class); } public function zwVMJ() { return $this->cOkSJ(WR1XC::class); } public function RXxXS($Z4Ixk) { goto PhUA3; cLPp3: yHaaV: goto yKTBF; A83qQ: if ($Q1XnB) { goto yHaaV; } goto B8Ic0; o1PPu: return 1; goto wWqFv; yKTBF: $X4Dpe = json_decode($Q1XnB->YpMTq, true); goto CQ82v; wWqFv: HeM4e: goto qFo8w; B8Ic0: return 0; goto cLPp3; PhUA3: $Q1XnB = \NMXG2\lSsQ3\F4hO4\HwOZO::o_0mH("\165\163\145\x72\x5f\151\144", $this->id)->eWFB9(); goto A83qQ; qFo8w: return 0; goto Rvuox; CQ82v: if (!(isset($X4Dpe[$Z4Ixk]) && $X4Dpe[$Z4Ixk] == 1)) { goto HeM4e; } goto o1PPu; Rvuox: } protected $ZYaJD = "\165\163\x65\162\x73"; protected $P2OM7 = "\155\x79\x73\161\154"; public function N5loZ($Ba5N1) { $Ba5N1 = trim(strtolower($Ba5N1)); return $this->O_0MH("\145\155\x61\x69\154", $Ba5N1)->Makif("\143\x70\x66", $Ba5N1)->eWfB9(); } public function zF6Xs() { goto AmqTn; F7GVo: if (!empty($j07Zz)) { goto hThkC; } goto etTf1; ncexO: $KKVsz = array_search($mfn20, array_column($K9H2a, "\x6c\x65\x76\145\154")); goto QF_Bo; VRRug: $ZZH11 = 0; goto pypWf; pypWf: if ($E3c98) { goto Bsgac; } goto bNHj4; avwb0: $JzXf7 = (float) $JzXf7; goto SNAFq; AmqTn: $JzXf7 = vg1pP::o_0mh("\165\163\145\162\137\x69\x64", $this->id)->o_0mh("\164\x79\x70\x65", 0)->O_0mh("\x73\164\141\x74\165\x73", 1)->ibyMn("\141\x6d\x6f\x75\x6e\164"); goto avwb0; d9oIc: $E3c98 = $bYPhE->toArray(); goto f9xGa; qZC0H: $QaEPl = $B_aWL->toArray(); goto Sbv9k; TgRDC: $mfn20 = $B_aWL->level; goto qZC0H; skjdZ: return null; goto zIApI; etTf1: return null; goto z5QIn; jlNB9: Bsgac: goto X4Icx; seEZu: $kUlXf = $E3c98["\x6d\x69\156\137\x64\x65\160\157\x73\151\164"] - $a1F0D; goto R0AMz; kCCyZ: $E3c98 = null; goto SHYQY; z5QIn: hThkC: goto i2fhc; Q8aAc: if ($B_aWL) { goto PeQz2; } goto skjdZ; bNHj4: $ZZH11 = 100; goto wdthZ; X4Icx: $K9H2a = uC4DF::O_0mH("\141\143\x74\x69\x76\x65", true)->FaHYR("\154\145\x76\x65\x6c", "\x61\x73\x63")->get()->toArray(); goto ncexO; R0AMz: $fgHVg = $JzXf7 - $a1F0D; goto yivOw; tl9gk: $HC36J = $bYPhE->level; goto d9oIc; YTB6l: if ($B_aWL) { goto bmIsy; } goto vnAWd; SNAFq: $j07Zz = UC4dF::ecmWi()->toArray(); goto F7GVo; FDSMa: Sqay6: goto wcdIm; QF_Bo: $a1F0D = $QaEPl["\x6d\x69\156\x5f\x64\x65\160\x6f\x73\151\164"]; goto seEZu; wcdIm: return ["\x6c\145\x76\145\154" => $mfn20, "\156\x61\x6d\145" => $QaEPl["\x6e\x61\x6d\x65"], "\151\155\141\x67\145" => $QaEPl["\x69\x6d\x61\147\145"], "\x63\165\162\162\145\x6e\164\x5f\x64\x65\160\x6f\x73\x69\x74" => $JzXf7, "\x6e\x65\x78\x74\x5f\154\x65\166\145\154" => $HC36J, "\x6e\145\x78\x74\137\154\x65\166\145\x6c\x5f\x64\x65\160\157\x73\151\164" => $E3c98 ? $E3c98["\155\x69\156\x5f\x64\145\160\157\163\x69\164"] : null, "\160\162\157\147\x72\145\x73\x73" => $ZZH11]; goto fTky8; Sbv9k: $bYPhE = $B_aWL->BSMlz(); goto KwDzD; f9xGa: a_YWX: goto VRRug; CXLqu: bmIsy: goto TgRDC; SHYQY: if (!$bYPhE) { goto a_YWX; } goto tl9gk; zIApI: PeQz2: goto CXLqu; yivOw: $ZZH11 = $kUlXf > 0 ? min(100, $fgHVg / $kUlXf * 100) : 0; goto FDSMa; wdthZ: goto Sqay6; goto jlNB9; i2fhc: $B_aWL = Uc4DF::yL_gB($JzXf7); goto YTB6l; vnAWd: $B_aWL = Uc4df::o_0Mh("\x6c\145\166\x65\x6c", 1)->EWfb9(); goto Q8aAc; KwDzD: $HC36J = null; goto kCCyZ; fTky8: } public function Ok9L5() { return $this->vwaVW(zXGbO::class); } public function jhi4i() { goto aCU98; B82zM: \Log::XyWNk("\x75\160\x64\x61\x74\145\x56\x69\x70\114\145\166\145\x6c\x41\156\x64\122\145\x77\x61\x72\x64\x43\x6f\151\x6e\163\x20\x2d\40\116\145\x6e\x68\x75\x6d\x20\x6e\303\255\166\x65\x6c\40\x65\156\143\x6f\x6e\x74\x72\141\144\x6f\40\160\x61\162\141\x20\x6f\x20\x76\x61\154\157\x72\x20\144\x65\40\144\145\160\303\263\x73\x69\x74\157\x20{$JzXf7}"); goto aEh0o; xSJzM: $I5fzV = $this->DwZWy ?? 0; goto dc05M; X2HO9: try { goto LbeEJ; hv54g: if (!$yI_fs) { goto k1aw0; } goto WD_m1; Sueki: if ($s80nb) { goto v5nOy; } goto ctuzb; cYaYf: \Log::info("\x75\160\x64\141\x74\145\126\x69\160\114\145\166\x65\x6c\101\x6e\x64\x52\x65\167\x61\x72\144\x43\x6f\151\156\x73\x20\55\x20\x52\x65\x63\157\x6d\x70\145\x6e\163\x61\x20\x72\x65\147\x69\x73\x74\x72\141\x64\141\x20\160\141\x72\x61\40\x6e\xc3\xad\166\x65\x6c\x20{$sRyqh}"); goto wXM8y; tbvDT: $this->DwZWy = $PA89m->level; goto xUILz; qIdwJ: if (!($sRyqh <= $PA89m->level)) { goto rNA_r; } goto m9M_D; xUILz: $this->save(); goto kZtDx; pMnOm: Oc5K0: goto qArIq; aDJzU: $sRyqh = $ykadM; goto y6r4P; wXM8y: v5nOy: goto grY99; WD_m1: $s80nb = DeCEy::O_0mh("\x75\163\x65\x72\137\x69\144", $this->id)->O_0Mh("\166\x69\x70\x5f\x6c\145\166\x65\x6c\137\151\x64", $yI_fs->id)->Ewfb9(); goto Sueki; ctuzb: DEcey::create(["\165\x73\145\162\x5f\151\144" => $this->id, "\166\151\x70\x5f\x6c\x65\166\145\154\x5f\151\144" => $yI_fs->id, "\151\163\137\x63\x6c\x61\x69\x6d\x65\x64" => false, "\x63\157\151\x6e\163\137\162\x65\x77\141\x72\x64\145\144" => $yI_fs->Uw4Fd, "\x62\141\154\x61\x6e\143\145\137\162\145\167\x61\162\x64\x65\x64" => $yI_fs->qaGbQ, "\x62\141\154\141\156\143\x65\x5f\x62\x6f\156\x75\163\137\162\145\167\x61\162\144\145\144" => $yI_fs->hYiO2]); goto cYaYf; kZtDx: \Log::info("\x75\160\144\141\x74\145\126\151\x70\114\145\166\145\154\x41\156\x64\122\x65\x77\x61\x72\144\103\157\x69\156\x73\x20\x2d\40\x4e\303\xad\x76\145\154\x20\144\x6f\40\x75\163\x75\xc3\xa1\x72\x69\x6f\x20\141\164\x75\x61\x6c\x69\172\141\x64\157\40\x70\x61\x72\141\40{$PA89m->level}"); goto PTKYu; LbeEJ: $ykadM = $I5fzV > 0 ? $I5fzV + 1 : 1; goto aDJzU; y6r4P: XYMjl: goto qIdwJ; PXAZO: rNA_r: goto tbvDT; GC82o: goto XYMjl; goto PXAZO; m9M_D: $yI_fs = uC4dF::o_0MH("\154\145\166\x65\154", $sRyqh)->O_0mH("\x61\x63\x74\151\166\x65", true)->ewfB9(); goto hv54g; grY99: k1aw0: goto pMnOm; qArIq: $sRyqh++; goto GC82o; PTKYu: } catch (\Exception $BOaI6) { \Log::uWIC8("\165\x70\x64\141\x74\145\x56\151\x70\114\145\166\x65\154\101\x6e\144\122\x65\167\141\x72\x64\x43\x6f\x69\x6e\163\x20\x2d\40\x45\162\x72\x6f\40\x61\157\40\162\x65\x67\151\x73\164\x72\141\162\40\162\145\143\157\x6d\x70\145\156\x73\141\163\x3a\40" . $BOaI6->getMessage()); } goto Ma805; UauCw: \Log::xYWnK("\x75\160\x64\x61\164\145\126\x69\x70\x4c\x65\x76\145\154\x41\x6e\144\122\x65\x77\x61\162\144\x43\x6f\x69\x6e\x73\x20\55\x20\x57\x61\154\154\x65\164\x20\x6e\303\243\x6f\40\x65\x6e\143\157\x6e\164\162\141\144\x61\40\160\x61\x72\x61\40\157\x20\x75\163\x75\xc3\xa1\x72\x69\157\40{$this->id}\x2c\40\x63\162\x69\141\x6e\144\x6f\40\156\x6f\x76\x61"); goto X7khS; OFJAX: \Log::info("\x75\160\x64\x61\x74\145\x56\151\160\x4c\x65\x76\x65\154\101\156\x64\x52\x65\167\x61\x72\x64\x43\157\151\156\163\x20\55\x20\127\x61\154\x6c\x65\164\40\145\x6e\x63\157\x6e\x74\x72\x61\144\x61\x3a\40\x49\x44\x20{$LgUgh->id}\54\40\103\157\x69\156\x73\x20\141\x74\165\141\x69\163\72\x20{$LgUgh->cDtv5}"); goto e6s4h; tab1Y: if ($PA89m) { goto qwTpS; } goto B82zM; dc05M: \Log::info("\165\160\144\x61\164\145\126\151\160\x4c\145\166\145\x6c\x41\156\144\x52\x65\167\141\x72\x64\103\x6f\x69\156\163\40\55\x20\303\232\154\164\x69\x6d\x6f\x20\x6e\xc3\255\x76\145\154\x20\x63\x6f\156\150\145\x63\151\144\157\x3a\x20{$I5fzV}"); goto FOzDV; x9LtW: if (!$LgUgh) { goto NT3V1; } goto OFJAX; Ccvtb: \Log::info("\165\x70\144\141\164\145\126\151\160\x4c\145\x76\145\x6c\101\x6e\144\x52\145\167\x61\162\x64\103\x6f\x69\156\163\x20\x2d\x20\125\x73\x75\xc3\241\x72\151\x6f\40\x73\x75\x62\151\165\40\144\x65\40\x6e\303\xad\166\x65\x6c\x21\40\104\x65\40{$I5fzV}\x20\160\x61\x72\x61\40{$PA89m->level}"); goto X2HO9; I81mO: \Log::info("\x75\x70\144\141\164\x65\x56\151\160\x4c\x65\166\x65\x6c\101\156\144\x52\145\167\141\x72\x64\x43\x6f\x69\156\x73\x20\x2d\x20\125\x73\x75\xc3\241\162\151\157\x20\111\x44\x3a\40{$this->id}\x2c\x20\124\157\x74\141\154\40\x64\145\x20\144\145\160\xc3\xb3\x73\151\164\157\163\x3a\x20{$JzXf7}"); goto GgMJT; zMzBC: UTD0W: goto Ccvtb; CZ762: qwTpS: goto giuXu; zSPRR: oh0sL: goto DJAPH; X7khS: $LgUgh = $this->rKF3e()->create(["\x75\163\145\162\x5f\x69\x64" => $this->id, "\142\141\x6c\x61\x6e\143\x65" => 0, "\x62\x61\x6c\141\x6e\143\x65\x5f\142\157\156\x75\163" => 0, "\143\x6f\151\156" => 0]); goto zSPRR; e6s4h: goto oh0sL; goto u0wEw; Ma805: return ["\154\x65\166\x65\x6c\x5f\165\160" => true, "\157\154\144\137\154\x65\166\x65\154" => $I5fzV, "\156\x65\x77\x5f\154\145\166\x65\154" => $PA89m->level, "\x63\157\151\x6e\163\137\x72\145\x77\141\162\x64\x65\x64" => $PA89m->Uw4Fd, "\142\x61\x6c\x61\x6e\143\x65\137\x72\145\x77\141\x72\x64\145\144" => $PA89m->qaGbQ, "\x62\141\x6c\141\156\x63\145\x5f\142\x6f\156\x75\x73\x5f\162\x65\167\141\x72\144\x65\144" => $PA89m->hYiO2]; goto h2OuT; giuXu: \Log::info("\165\160\x64\x61\164\145\x56\151\160\114\x65\166\145\154\101\x6e\x64\122\145\167\141\x72\x64\x43\157\151\x6e\163\40\x2d\40\x4e\xc3\255\x76\x65\x6c\x20\144\x65\x74\x65\162\155\x69\156\x61\x64\x6f\x3a\x20{$PA89m->level}\54\40\116\x6f\155\145\72\40{$PA89m->name}\x2c\x20\103\157\x69\x6e\x73\72\x20{$PA89m->Uw4Fd}"); goto xSJzM; bJcUF: $JzXf7 = (float) $JzXf7; goto I81mO; DJAPH: if ($PA89m->level > $I5fzV) { goto UTD0W; } goto dOwWZ; KfPyz: goto rJlS7; goto zMzBC; h2OuT: rJlS7: goto x7EB_; u0wEw: NT3V1: goto UauCw; FOzDV: $LgUgh = $this->Okd_S; goto x9LtW; aEh0o: return null; goto CZ762; x7EB_: return ["\x6c\x65\x76\x65\154\137\x75\x70" => false, "\143\165\162\162\x65\156\164\137\154\x65\166\x65\154" => $PA89m->level]; goto UrAVf; dOwWZ: \Log::info("\x75\x70\144\141\164\145\x56\151\x70\x4c\145\166\145\154\101\x6e\x64\x52\145\x77\141\162\144\103\157\151\156\x73\x20\x2d\40\125\163\165\xc3\241\x72\x69\x6f\x20\156\303\xa3\x6f\x20\163\x75\142\x69\x75\40\144\x65\x20\x6e\xc3\255\166\x65\154\x2e\x20\120\x65\162\155\x61\x6e\x65\143\x65\x20\x6e\157\x20\x6e\303\xad\166\145\x6c\x20{$PA89m->level}"); goto KfPyz; aCU98: $JzXf7 = vG1Pp::o_0mh("\x75\163\145\x72\x5f\151\x64", $this->id)->o_0MH("\x74\x79\x70\145", 0)->o_0Mh("\163\164\x61\x74\165\x73", 1)->ibymN("\x61\x6d\157\165\x6e\x74"); goto bJcUF; GgMJT: $PA89m = Uc4DF::yl_gB($JzXf7); goto tab1Y; UrAVf: } public function tJsef() { return DEceY::w4xkz("\166\x69\x70\114\x65\166\x65\x6c")->o_0Mh("\x75\x73\x65\x72\x5f\151\x64", $this->id)->o_0MH("\151\x73\137\143\x6c\141\151\155\x65\144", false)->fAHYr("\166\x69\x70\137\154\x65\x76\x65\x6c\x5f\x69\x64", "\x61\x73\x63")->get(); } public function bszye($VGrsS) { goto ciAEX; qvFJW: return ["\x73\165\143\x63\x65\163\163" => false, "\x6d\145\163\163\141\147\x65" => "\x56\x6f\x63\xc3\xaa\x20\160\162\x65\x63\x69\x73\141\40\162\x65\x73\x67\141\164\141\x72\x20\141\163\x20\x72\x65\x63\x6f\x6d\160\x65\156\x73\x61\x73\x20\x64\145\x20\x6e\xc3\255\166\x65\x69\x73\40\x69\156\146\x65\x72\x69\157\x72\x65\x73\40\x70\162\x69\x6d\x65\x69\x72\x6f\41"]; goto o8QeO; u16OF: return false; goto MRHcU; MRHcU: VUlog: goto qS7Uy; qS7Uy: $XwJF3 = decEY::join("\166\x69\160\x5f\x6c\x65\166\145\x6c\163", "\x76\x69\160\137\162\145\167\141\x72\x64\163\56\166\151\160\137\x6c\145\166\x65\x6c\x5f\151\144", "\x3d", "\x76\151\x70\137\154\145\166\145\154\x73\x2e\151\x64")->o_0mh("\166\151\160\x5f\162\x65\167\141\162\x64\163\56\x75\163\145\x72\137\x69\x64", $this->id)->O_0Mh("\x76\x69\160\x5f\162\x65\167\141\162\x64\x73\x2e\x69\163\x5f\x63\154\x61\x69\x6d\145\144", false)->o_0mh("\166\x69\x70\137\x6c\145\166\x65\x6c\x73\56\x6c\145\166\x65\154", "\x3c", $gfxkJ->cytu0->level)->EXckk(); goto rd4mb; ciAEX: $gfxkJ = decEy::O_0MH("\151\x64", $VGrsS)->O_0mH("\x75\x73\x65\x72\137\x69\144", $this->id)->O_0Mh("\151\x73\137\143\154\141\x69\155\x65\x64", false)->ewFb9(); goto hjmUK; hjmUK: if ($gfxkJ) { goto VUlog; } goto u16OF; o8QeO: MYh5J: goto TV0SJ; rd4mb: if (!$XwJF3) { goto MYh5J; } goto qvFJW; TV0SJ: try { goto a8qXh; AZXlV: $gfxkJ->aff3D = o6q8e(); goto knLAL; M3pMr: $LgUgh->save(); goto qUhzu; rh9qQ: puJdU: goto ir5X_; Tyd3q: $LgUgh->Hpoum += $gfxkJ->cSSUE; goto A6Yw1; mnbjc: return ["\x73\165\143\x63\x65\x73\x73" => true, "\162\145\167\x61\162\144" => $gfxkJ, "\155\145\x73\x73\141\x67\145" => "\x50\x61\162\141\142\xc3\xa9\x6e\163\41\x20\126\x6f\143\303\252\x20\x72\x65\x73\147\141\x74\x6f\165\x20\x61\x20\162\145\x63\157\x6d\160\145\x6e\x73\141\40\x64\x6f\x20\x6e\xc3\xad\x76\145\x6c\x20" . $gfxkJ->cytu0->name]; goto J2ekf; A6Yw1: $LgUgh->g5MwD += $gfxkJ->S3Fx5; goto M3pMr; qUhzu: $gfxkJ->nVnOQ = true; goto AZXlV; ir5X_: $LgUgh->cDtv5 += $gfxkJ->htv5o; goto Tyd3q; JFyEO: if ($LgUgh) { goto puJdU; } goto ZT0Cg; ZT0Cg: return false; goto rh9qQ; knLAL: $gfxkJ->save(); goto mnbjc; a8qXh: $LgUgh = $this->Okd_S; goto JFyEO; J2ekf: } catch (\Exception $BOaI6) { \Log::UwIC8("\x63\154\141\151\x6d\x56\x69\160\x52\145\x77\141\x72\x64\40\55\x20\x45\162\x72\x6f\x20\141\157\x20\162\145\163\147\x61\164\141\162\40\162\x65\143\x6f\x6d\160\145\x6e\163\141\x3a\40" . $BOaI6->getMessage()); return ["\163\165\x63\143\145\x73\x73" => false, "\x6d\x65\x73\x73\x61\x67\145" => "\117\143\x6f\x72\162\x65\165\x20\165\x6d\40\x65\162\162\157\40\x61\x6f\40\x70\x72\x6f\x63\x65\163\163\x61\x72\x20\157\40\x72\145\x73\147\141\164\x65\x2e\x20\x54\x65\x6e\164\x65\x20\156\157\166\x61\x6d\145\x6e\164\145\56"]; } goto fw3tg; fw3tg: } public function yVFIR() { return $this->COKsj(deceY::class); } }
+
+namespace App\Models;
+
+use App\Models\VipLevel;
+use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
+use App\Traits\HasRanking;
+use Illuminate\Auth\MustVerifyEmail as MustVerifyEmailTrait;
+
+class User extends Authenticatable implements MustVerifyEmail
+{
+    /** @use HasFactory<\Database\Factories\UserFactory> */
+    use HasApiTokens, HasFactory, Notifiable, HasRanking, MustVerifyEmailTrait;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+        'pix',
+        'cpf',
+        'phone',
+        'image',
+        'nascimento',
+        'is_admin',
+        'is_affiliate',
+        'logged_in',
+        'banned',
+        'banned_reason',
+        'banned_date',
+        'inviter',
+        'is_demo_agent',
+        'status',
+        'max_quantidade_saques_diario',
+        'max_quantidade_saques_automaticos_diario',
+        'playing',
+        'played',
+        'twitch_id',
+        'email_verified_at',
+        'phone_verified_at',
+        'language',
+        'vip_level ',
+        'token_sport',
+    ];
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+        'password' => 'hashed',
+        'is_admin' => 'integer',
+        'is_affiliate' => 'boolean',
+        'logged_in' => 'boolean',
+        'banned' => 'boolean',
+        'is_demo_agent' => 'boolean',
+        'playing' => 'boolean',
+        'played' => 'boolean',
+        'banned_date' => 'datetime',
+        'email_verified_at' => 'datetime',
+        'phone_verified_at' => 'datetime',
+    ];
+
+    /**
+     * Obter a carteira associada ao usuário.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function wallet()
+    {
+        return $this->hasOne(Wallet::class);
+    }
+
+    public function affiliates()
+    {
+        return $this->hasMany(User::class, 'inviter', 'id');
+    }
+
+    /**
+     * Relacionamento com as transações do usuário
+     */
+    public function transactions()
+    {
+        return $this->hasMany(Transactions::class);
+    }
+
+    /**
+     * Relacionamento com os giros de roleta do usuário
+     */
+    public function rouletteSpins()
+    {
+        return $this->hasMany(RouletteSpin::class);
+    }
+
+    /**
+     * Verifica se o usuário tem permissão para um determinado módulo
+     *
+     * @param int $permissionId ID da permissão a ser verificada
+     * @return int Retorna 1 se tem permissão, 0 se não tem
+     */
+    public function hasPermission($permissionId)
+    {
+        // Buscar permissões do usuário no banco de dados
+        $userPermission = \App\Models\Admin\Permissions::where('user_id', $this->id)->first();
+
+        // Se não tem registros de permissão, retorna 0 (sem permissão)
+        if (!$userPermission) {
+            return 0;
+        }
+
+        // Decodifica as permissões do formato JSON
+        $permissions = json_decode($userPermission->permission, true);
+
+        // Verifica se a permissão específica existe e está ativa (1)
+        if (isset($permissions[$permissionId]) && $permissions[$permissionId] == 1) {
+            return 1;
+        }
+
+        return 0;
+    }
+
+    // Verifique se a tabela está definida corretamente
+    protected $table = 'users'; // Este é o nome da tabela no banco de dados
+
+    // Defina a conexão explicitamente
+    protected $connection = 'mysql'; // ou o nome da conexão que contém seus usuários
+
+    public function findForPassport($username)
+    {
+        // Normaliza o nome de usuário
+        $username = trim(strtolower($username));
+
+        // Verifica se é um email ou CPF
+        return $this->where('email', $username)
+            ->orWhere('cpf', $username)
+            ->first();
+    }
+
+    /**
+     * Obtém o ranking do usuário com base nos depósitos
+     *
+     * @return array|null
+     */
+    public function getRanking()
+    {
+        // Calcula o total de depósitos do usuário
+        $totalDeposits = Transactions::where('user_id', $this->id)
+            ->where('type', 0)
+            ->where('status', 1)
+            ->sum('amount');
+
+        $totalDeposits = (float) $totalDeposits;
+
+        // Busca níveis ativos no banco de dados
+        $levels = VipLevel::getAllActive()->toArray();
+
+        if (empty($levels)) {
+            return null;
+        }
+
+        // Obter o nível atual com base no depósito
+        $currentLevelObj = VipLevel::getCurrentLevelByDeposit($totalDeposits);
+
+        if (!$currentLevelObj) {
+            // Caso não tenha nível atual (não deve acontecer se o seeder for executado)
+            $currentLevelObj = VipLevel::where('level', 1)->first();
+
+            if (!$currentLevelObj) {
+                return null;
+            }
+        }
+
+        $currentLevel = $currentLevelObj->level;
+        $currentLevelData = $currentLevelObj->toArray();
+
+        // Obter o próximo nível
+        $nextLevelObj = $currentLevelObj->getNextLevel();
+        $nextLevel = null;
+        $nextLevelData = null;
+
+        if ($nextLevelObj) {
+            $nextLevel = $nextLevelObj->level;
+            $nextLevelData = $nextLevelObj->toArray();
+        }
+
+        // Calcular o progresso percentual para o próximo nível
+        $progress = 0;
+        if ($nextLevelData) {
+            // Obter níveis ordenados para encontrar o nível atual e o anterior
+            $orderedLevels = VipLevel::where('active', true)
+                ->orderBy('level', 'asc')
+                ->get()
+                ->toArray();
+
+            // Encontrar o índice do nível atual
+            $currentIndex = array_search($currentLevel, array_column($orderedLevels, 'level'));
+
+            // Obter o valor mínimo do nível atual e do nível anterior
+            $currentLevelMinDeposit = $currentLevelData['min_deposit'];
+
+            // Calcular quanto falta para o próximo nível
+            $depositRange = $nextLevelData['min_deposit'] - $currentLevelMinDeposit;
+            $currentProgress = $totalDeposits - $currentLevelMinDeposit;
+
+            // Calcular a porcentagem de progresso
+            $progress = $depositRange > 0 ? min(100, ($currentProgress / $depositRange) * 100) : 0;
+        } else {
+            // Se já está no nível máximo
+            $progress = 100;
+        }
+
+        // Retornar array com dados de ranking
+        return [
+            'level' => $currentLevel,
+            'name' => $currentLevelData['name'],
+            'image' => $currentLevelData['image'],
+            'current_deposit' => $totalDeposits,
+            'next_level' => $nextLevel,
+            'next_level_deposit' => $nextLevelData ? $nextLevelData['min_deposit'] : null,
+            'progress' => $progress,  // Adicionando o progresso ao array
+        ];
+    }
+
+    /**
+     * Obtém o endereço associado ao usuário.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function address()
+    {
+        return $this->hasOne(UserAddress::class);
+    }
+
+    /**
+     * Atualiza o nível VIP do usuário com base nos depósitos
+     * e adiciona coins de recompensa se necessário
+     *
+     * @return array|null
+     */
+    public function updateVipLevelAndRewardCoins()
+    {
+        // Calcular total de depósitos
+        $totalDeposits = Transactions::where('user_id', $this->id)
+            ->where('type', 0)
+            ->where('status', 1)
+            ->sum('amount');
+
+        $totalDeposits = (float) $totalDeposits;
+
+        // Log para debug
+        \Log::info("updateVipLevelAndRewardCoins - Usuário ID: {$this->id}, Total de depósitos: {$totalDeposits}");
+
+        // Obter o nível atual com base no depósito
+        $newLevelObj = VipLevel::getCurrentLevelByDeposit($totalDeposits);
+
+        if (!$newLevelObj) {
+            \Log::warning("updateVipLevelAndRewardCoins - Nenhum nível encontrado para o valor de depósito {$totalDeposits}");
+            return null;
+        }
+
+        \Log::info("updateVipLevelAndRewardCoins - Nível determinado: {$newLevelObj->level}, Nome: {$newLevelObj->name}, Coins: {$newLevelObj->coins_reward}");
+
+        // Verificar se o usuário tem um último nível registrado
+        $lastKnownLevel = $this->last_vip_level ?? 0;
+        \Log::info("updateVipLevelAndRewardCoins - Último nível conhecido: {$lastKnownLevel}");
+
+        // Verificar se a carteira existe
+        $wallet = $this->wallet;
+
+        if (!$wallet) {
+            \Log::warning("updateVipLevelAndRewardCoins - Wallet não encontrada para o usuário {$this->id}, criando nova");
+            // Criar uma carteira se não existir
+            $wallet = $this->wallet()->create([
+                'user_id' => $this->id,
+                'balance' => 0,
+                'balance_bonus' => 0,
+                'coin' => 0
+            ]);
+        } else {
+            \Log::info("updateVipLevelAndRewardCoins - Wallet encontrada: ID {$wallet->id}, Coins atuais: {$wallet->coin}");
+        }
+
+        // Se o novo nível for maior que o último nível conhecido, o usuário subiu de nível
+        if ($newLevelObj->level > $lastKnownLevel) {
+            \Log::info("updateVipLevelAndRewardCoins - Usuário subiu de nível! De {$lastKnownLevel} para {$newLevelObj->level}");
+
+            try {
+                // Criar registros de recompensas pendentes para todos os níveis atingidos
+                $startLevel = ($lastKnownLevel > 0) ? $lastKnownLevel + 1 : 1;
+
+                // Registrar recompensas para cada nível entre o anterior e o atual
+                for ($level = $startLevel; $level <= $newLevelObj->level; $level++) {
+                    $levelObj = VipLevel::where('level', $level)->where('active', true)->first();
+
+                    if ($levelObj) {
+                        // Verificar se já existe um registro para este nível
+                        $existingReward = VipReward::where('user_id', $this->id)
+                            ->where('vip_level_id', $levelObj->id)
+                            ->first();
+
+                        if (!$existingReward) {
+                            // Criar um novo registro de recompensa não resgatada
+                            VipReward::create([
+                                'user_id' => $this->id,
+                                'vip_level_id' => $levelObj->id,
+                                'is_claimed' => false,
+                                'coins_rewarded' => $levelObj->coins_reward,
+                                'balance_rewarded' => $levelObj->balance_reward,
+                                'balance_bonus_rewarded' => $levelObj->balance_bonus_reward
+                            ]);
+
+                            \Log::info("updateVipLevelAndRewardCoins - Recompensa registrada para nível {$level}");
+                        }
+                    }
+                }
+
+                // Atualizar último nível conhecido
+                $this->last_vip_level = $newLevelObj->level;
+                $this->save();
+                \Log::info("updateVipLevelAndRewardCoins - Nível do usuário atualizado para {$newLevelObj->level}");
+            } catch (\Exception $e) {
+                \Log::error("updateVipLevelAndRewardCoins - Erro ao registrar recompensas: " . $e->getMessage());
+            }
+
+            return [
+                'level_up' => true,
+                'old_level' => $lastKnownLevel,
+                'new_level' => $newLevelObj->level,
+                'coins_rewarded' => $newLevelObj->coins_reward,
+                'balance_rewarded' => $newLevelObj->balance_reward,
+                'balance_bonus_rewarded' => $newLevelObj->balance_bonus_reward
+            ];
+        } else {
+            \Log::info("updateVipLevelAndRewardCoins - Usuário não subiu de nível. Permanece no nível {$newLevelObj->level}");
+        }
+
+        return [
+            'level_up' => false,
+            'current_level' => $newLevelObj->level
+        ];
+    }
+
+    /**
+     * Retorna as recompensas VIP disponíveis para resgate
+     *
+     * @return \Illuminate\Database\Eloquent\Collection
+     */
+    public function getAvailableVipRewards()
+    {
+        return VipReward::with('vipLevel')
+            ->where('user_id', $this->id)
+            ->where('is_claimed', false)
+            ->orderBy('vip_level_id', 'asc')
+            ->get();
+    }
+
+    /**
+     * Resgata uma recompensa de nível VIP específica
+     *
+     * @param int $rewardId ID da recompensa a ser resgatada
+     * @return bool|array Retorna false em caso de erro ou array com os detalhes da recompensa resgatada
+     */
+    public function claimVipReward($rewardId)
+    {
+        $reward = VipReward::where('id', $rewardId)
+            ->where('user_id', $this->id)
+            ->where('is_claimed', false)
+            ->first();
+
+        if (!$reward) {
+            return false;
+        }
+
+        // Verificar se há níveis inferiores não resgatados
+        $lowerLevelNotClaimed = VipReward::join('vip_levels', 'vip_rewards.vip_level_id', '=', 'vip_levels.id')
+            ->where('vip_rewards.user_id', $this->id)
+            ->where('vip_rewards.is_claimed', false)
+            ->where('vip_levels.level', '<', $reward->vipLevel->level)
+            ->exists();
+
+        if ($lowerLevelNotClaimed) {
+            return [
+                'success' => false,
+                'message' => 'Você precisa resgatar as recompensas de níveis inferiores primeiro!'
+            ];
+        }
+
+        try {
+            // Adicionar as recompensas à carteira do usuário
+            $wallet = $this->wallet;
+
+            if (!$wallet) {
+                return false;
+            }
+
+            // Atualizar a carteira com as recompensas
+            $wallet->coin += $reward->coins_rewarded;
+            $wallet->balance += $reward->balance_rewarded;
+            $wallet->balance_bonus += $reward->balance_bonus_rewarded;
+            $wallet->save();
+
+            // Marcar a recompensa como resgatada
+            $reward->is_claimed = true;
+            $reward->claimed_at = now();
+            $reward->save();
+
+            return [
+                'success' => true,
+                'reward' => $reward,
+                'message' => 'Parabéns! Você resgatou a recompensa do nível ' . $reward->vipLevel->name
+            ];
+        } catch (\Exception $e) {
+            \Log::error("claimVipReward - Erro ao resgatar recompensa: " . $e->getMessage());
+            return [
+                'success' => false,
+                'message' => 'Ocorreu um erro ao processar o resgate. Tente novamente.'
+            ];
+        }
+    }
+
+    /**
+     * Relacionamento com as recompensas VIP
+     */
+    public function vipRewards()
+    {
+        return $this->hasMany(VipReward::class);
+    }
+}

@@ -1,12 +1,28 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmXg2\O7MQx\nWHuT; use wkhUL\O7MQx\NwHut\tnOs9 as NWhUt; use wkHUl\o7Mqx\ux7tU; class tnos9 extends NwhuT { protected $UcuPh; protected $DunaX = ux7tU::mSbMw | ux7tu::eJXET | UX7TU::fAp13 | UX7TU::hF7MB | uX7TU::X8Nqm; }
+
+namespace App\Http\Middleware;
+
+use Illuminate\Http\Middleware\TrustProxies as Middleware;
+use Illuminate\Http\Request;
+
+class TrustProxies extends Middleware
+{
+    /**
+     * The trusted proxies for this application.
+     *
+     * @var array<int, string>|string|null
+     */
+    protected $proxies;
+
+    /**
+     * The headers that should be used to detect proxies.
+     *
+     * @var int
+     */
+    protected $headers =
+        Request::HEADER_X_FORWARDED_FOR |
+        Request::HEADER_X_FORWARDED_HOST |
+        Request::HEADER_X_FORWARDED_PORT |
+        Request::HEADER_X_FORWARDED_PROTO |
+        Request::HEADER_X_FORWARDED_AWS_ELB;
+} 

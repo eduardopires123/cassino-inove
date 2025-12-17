@@ -1,12 +1,98 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxg2\lssq3; use WkHuL\QczCg\EJFur\q4FqJ\jzDkt; use WKHuL\qCZcG\eJfUR\uYkSY; class TXnPZ extends UYKsY { use jZDkT; protected $ZYaJD = "\x68\x6f\155\145\x5f\x73\x65\143\x74\151\x6f\156\163\x5f\163\145\164\164\151\156\147\163"; protected $GWg5z = array("\x73\150\157\167\137\x6c\151\166\145\137\143\x61\x73\151\156\157", "\163\x68\x6f\x77\x5f\x6e\x65\167\137\x67\141\155\x65\163", "\x73\150\x6f\167\x5f\155\157\x73\164\x5f\x76\151\145\x77\145\144\137\x67\x61\155\145\163", "\x73\150\157\167\137\x74\x6f\x70\137\167\151\156\163", "\163\x68\157\x77\x5f\x6c\141\163\164\x5f\x62\x65\164\163", "\x73\150\157\167\x5f\162\157\165\x6c\x65\x74\164\x65", "\163\150\157\x77\137\167\x68\x61\x74\x73\x61\x70\x70\x5f\146\x6c\157\141\x74", "\x73\150\157\x77\137\x72\141\163\160\141\144\x69\156\150\141\163\137\150\x6f\x6d\145", "\143\x75\x73\x74\x6f\x6d\137\x74\151\x74\x6c\x65\x5f\154\x69\x76\145\x5f\143\141\x73\x69\156\157", "\143\x75\x73\x74\x6f\155\137\x74\151\164\154\145\x5f\156\145\167\137\x67\x61\x6d\145\x73", "\143\x75\x73\x74\x6f\155\x5f\164\151\x74\x6c\x65\x5f\155\157\x73\164\137\x76\x69\x65\x77\145\144\x5f\147\141\x6d\x65\x73", "\x63\165\163\x74\x6f\155\137\x74\151\164\154\x65\x5f\164\x6f\160\137\x77\151\156\x73", "\x63\165\x73\x74\x6f\155\137\x74\151\x74\154\145\x5f\155\x6f\x73\164\137\x70\141\151\x64", "\143\165\x73\164\157\155\137\164\x69\164\x6c\145\137\163\164\165\144\x69\157\163", "\x63\165\x73\x74\x6f\155\x5f\164\151\164\x6c\x65\137\164\157\x70\137\x72\141\x73\x70\141\144\151\156\150\x61\x73", "\143\x75\163\164\157\155\x5f\164\x69\x74\x6c\145\x5f\155\157\x64\157\x5f\163\x75\x72\160\162\x65\x73\x61", "\143\x75\x73\x74\x6f\155\137\x74\x69\164\154\x65\x5f\163\x70\157\x72\x74\x73\137\x69\143\x6f\156\x73", "\x63\165\x73\x74\157\155\x5f\164\151\x74\x6c\x65\137\154\141\x73\164\x5f\x62\x65\x74\x73"); protected $FPpxl = array("\x73\150\x6f\167\x5f\154\151\x76\145\137\143\141\x73\x69\x6e\157" => "\142\x6f\x6f\154\x65\141\x6e", "\x73\x68\x6f\167\137\x6e\145\167\x5f\147\x61\x6d\145\x73" => "\x62\157\x6f\x6c\145\141\156", "\x73\150\157\x77\137\155\x6f\x73\164\137\166\x69\x65\x77\145\144\x5f\x67\x61\155\x65\163" => "\x62\x6f\157\x6c\145\141\156", "\x73\150\157\167\137\x74\157\160\137\167\x69\x6e\x73" => "\x69\x6e\x74\x65\x67\145\162", "\x73\x68\x6f\x77\x5f\154\141\163\164\137\142\x65\164\163" => "\151\156\x74\x65\147\x65\162", "\163\x68\157\x77\x5f\x72\x6f\165\x6c\x65\x74\x74\x65" => "\142\x6f\157\x6c\145\x61\156", "\x73\150\157\167\137\167\150\141\164\x73\x61\x70\x70\x5f\x66\154\157\141\164" => "\142\x6f\157\154\x65\x61\x6e", "\163\150\x6f\167\x5f\x72\x61\x73\x70\141\144\x69\156\150\141\x73\137\150\157\155\x65" => "\x62\x6f\157\x6c\145\x61\156"); public static function ZwE0q() { goto MEzPL; MEzPL: $TsiBp = self::EWfb9(); goto ClcYJ; t93ND: return $TsiBp; goto TVmOv; ClcYJ: if ($TsiBp) { goto h8Q9Q; } goto s6i5d; s6i5d: $TsiBp = self::create(["\x73\x68\157\x77\x5f\154\x69\166\x65\137\143\141\x73\x69\156\157" => true, "\163\150\x6f\x77\137\156\145\167\137\x67\141\x6d\x65\x73" => true, "\163\150\x6f\x77\x5f\155\x6f\163\x74\137\166\151\x65\167\145\144\137\147\x61\x6d\x65\x73" => true, "\163\x68\157\x77\137\x74\157\x70\x5f\167\x69\156\163" => 1, "\163\x68\x6f\167\137\x6c\141\x73\x74\137\x62\x65\x74\163" => 1, "\x73\150\157\167\137\162\x6f\165\154\x65\164\x74\x65" => true, "\163\150\157\167\x5f\x77\150\x61\x74\163\x61\x70\160\137\x66\154\x6f\141\164" => true, "\163\150\x6f\167\137\162\x61\x73\160\x61\144\151\x6e\150\x61\x73\137\150\157\155\x65" => true]); goto NSHpe; NSHpe: h8Q9Q: goto t93ND; TVmOv: } public function eCMDJ($xs9Nn, $HtkXf) { $fQ3Df = $this->{$xs9Nn}; return !empty($fQ3Df) ? $fQ3Df : $HtkXf; } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class HomeSectionsSettings extends Model
+{
+    use HasFactory;
+
+    /**
+     * A tabela associada ao modelo.
+     *
+     * @var string
+     */
+    protected $table = 'home_sections_settings';
+
+    /**
+     * Os atributos que são atribuíveis em massa.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'show_live_casino',
+        'show_new_games',
+        'show_most_viewed_games',
+        'show_top_wins',
+        'show_last_bets',
+        'show_roulette',
+        'show_whatsapp_float',
+        'show_raspadinhas_home',
+        'custom_title_live_casino',
+        'custom_title_new_games',
+        'custom_title_most_viewed_games',
+        'custom_title_top_wins',
+        'custom_title_most_paid',
+        'custom_title_studios',
+        'custom_title_top_raspadinhas',
+        'custom_title_modo_surpresa',
+        'custom_title_sports_icons',
+        'custom_title_last_bets',
+    ];
+
+    /**
+     * Os atributos que devem ser convertidos para tipos nativos.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'show_live_casino' => 'boolean',
+        'show_new_games' => 'boolean',
+        'show_most_viewed_games' => 'boolean',
+        'show_top_wins' => 'integer',
+        'show_last_bets' => 'integer',
+        'show_roulette' => 'boolean',
+        'show_whatsapp_float' => 'boolean',
+        'show_raspadinhas_home' => 'boolean',
+    ];
+
+    /**
+     * Obter a configuração atual ou criar uma padrão se não existir
+     *
+     * @return HomeSectionsSettings
+     */
+    public static function getSettings()
+    {
+        $settings = self::first();
+        
+        if (!$settings) {
+            $settings = self::create([
+                'show_live_casino' => true,
+                'show_new_games' => true,
+                'show_most_viewed_games' => true,
+                'show_top_wins' => 1,
+                'show_last_bets' => 1,
+                'show_roulette' => true,
+                'show_whatsapp_float' => true,
+                'show_raspadinhas_home' => true,
+            ]);
+        }
+        
+        return $settings;
+    }
+
+    /**
+     * Obter título personalizado ou usar fallback
+     *
+     * @param string $field Campo do título (ex: 'custom_title_live_casino')
+     * @param string $fallback Título padrão (tradução)
+     * @return string
+     */
+    public function getSectionTitle($field, $fallback)
+    {
+        $customTitle = $this->$field;
+        return !empty($customTitle) ? $customTitle : $fallback;
+    }
+}

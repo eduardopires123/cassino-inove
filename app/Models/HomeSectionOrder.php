@@ -1,12 +1,105 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmXG2\LSSq3; use wKHuL\QCzcG\EJFUR\q4fQJ\JZDkT; use wKHuL\QCzcg\ejfuR\UYKsy; use WKhuL\N3q0R\WpWAe\UggJ9; class YQsHz extends uYKsy { use JzDkt; protected $ZYaJD = "\x68\x6f\155\x65\x5f\163\x65\x63\164\151\157\156\x73\137\x6f\x72\144\x65\162"; protected $GWg5z = array("\163\x65\143\164\151\x6f\156\x5f\153\145\171", "\163\145\x63\x74\x69\157\156\x5f\x6e\x61\155\145", "\160\x6f\x73\151\x74\x69\157\156", "\x69\163\x5f\141\x63\x74\x69\x76\145"); protected $FPpxl = array("\x69\163\137\141\143\x74\151\x76\x65" => "\x62\157\157\154\145\x61\156", "\160\x6f\163\x69\x74\151\157\156" => "\151\156\x74\145\147\x65\x72"); public static function O2JTb() { return UgGJ9::OW2VE("\150\x6f\x6d\x65\x5f\x73\x65\x63\164\x69\157\x6e\x73\137\157\162\144\145\162", 3600, function () { return self::o_0mH("\151\163\x5f\141\x63\x74\151\166\x65", true)->FaHyr("\x70\157\x73\151\164\x69\157\x6e")->get(); }); } public static function ky5f2() { return UgGJ9::Ow2ve("\x68\157\x6d\145\x5f\163\x65\143\x74\x69\157\x6e\163\137\155\x61\x70", 3600, function () { return self::o_0Mh("\151\x73\x5f\141\x63\164\x69\166\x65", true)->faHyR("\x70\157\163\151\x74\151\157\156")->ndHLy("\x70\157\x73\151\164\151\157\156", "\x73\145\x63\x74\151\157\x6e\137\x6b\145\x79")->toArray(); }); } public static function pNwnC(array $zME3C) { goto xfoKa; jb0qh: self::BfNko(); goto X7x5p; QWgCU: uniw_: goto jb0qh; xfoKa: foreach ($zME3C as $hZ0EI => $gL_wl) { self::o_0Mh("\163\145\x63\164\x69\x6f\x6e\x5f\153\145\171", $hZ0EI)->update(["\160\x6f\163\x69\x74\x69\x6f\x6e" => $gL_wl]); fxDxa: } goto QWgCU; X7x5p: } public static function dOLK3($hZ0EI, $iZWl4) { self::O_0mH("\x73\x65\x63\x74\x69\157\156\137\153\145\171", $hZ0EI)->update(["\151\163\x5f\141\143\164\151\166\145" => $iZWl4]); self::BFnko(); } public static function bfnkO() { UggJ9::qeTO4("\x68\157\x6d\145\x5f\x73\145\x63\x74\151\x6f\156\163\137\157\x72\144\x65\x72"); UGgJ9::qeto4("\x68\157\155\145\x5f\163\x65\143\164\x69\x6f\156\x73\137\x6d\x61\x70"); } public static function yGVAm($hZ0EI) { $MQ95q = self::KY5F2(); return isset($MQ95q[$hZ0EI]); } public static function G6bj8($hZ0EI) { $MQ95q = self::KY5F2(); return $MQ95q[$hZ0EI] ?? 999; } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
+
+class HomeSectionOrder extends Model
+{
+    use HasFactory;
+
+    protected $table = 'home_sections_order';
+
+    protected $fillable = [
+        'section_key',
+        'section_name',
+        'position',
+        'is_active',
+    ];
+
+    protected $casts = [
+        'is_active' => 'boolean',
+        'position' => 'integer',
+    ];
+
+    /**
+     * Obter todas as seções ordenadas pela posição
+     */
+    public static function getOrderedSections()
+    {
+        return Cache::remember('home_sections_order', 3600, function () {
+            return self::where('is_active', true)
+                ->orderBy('position')
+                ->get();
+        });
+    }
+
+    /**
+     * Obter seções como array com chave sendo a section_key
+     */
+    public static function getSectionsMap()
+    {
+        return Cache::remember('home_sections_map', 3600, function () {
+            return self::where('is_active', true)
+                ->orderBy('position')
+                ->pluck('position', 'section_key')
+                ->toArray();
+        });
+    }
+
+    /**
+     * Atualizar a ordem das seções
+     */
+    public static function updateOrder(array $sectionsOrder)
+    {
+        foreach ($sectionsOrder as $sectionKey => $position) {
+            self::where('section_key', $sectionKey)->update([
+                'position' => $position
+            ]);
+        }
+
+        // Limpar cache
+        self::clearCache();
+    }
+
+    /**
+     * Ativar/desativar seção
+     */
+    public static function toggleSection($sectionKey, $isActive)
+    {
+        self::where('section_key', $sectionKey)->update([
+            'is_active' => $isActive
+        ]);
+
+        self::clearCache();
+    }
+
+    /**
+     * Limpar cache das seções
+     */
+    public static function clearCache()
+    {
+        Cache::forget('home_sections_order');
+        Cache::forget('home_sections_map');
+    }
+
+    /**
+     * Verificar se uma seção está ativa
+     */
+    public static function isSectionActive($sectionKey)
+    {
+        $sectionsMap = self::getSectionsMap();
+        return isset($sectionsMap[$sectionKey]);
+    }
+
+    /**
+     * Obter posição de uma seção
+     */
+    public static function getSectionPosition($sectionKey)
+    {
+        $sectionsMap = self::getSectionsMap();
+        return $sectionsMap[$sectionKey] ?? 999;
+    }
+} 

@@ -1,12 +1,149 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmXg2\sGnDE; use NmXg2\Lssq3\uC4Df; use WKhUL\n3q0R\WpwAE\Log; trait q8bpq { public function ZF6xs() { try { goto l9BWb; btbfW: $B_aWL = uc4Df::Yl_gb($JzXf7); goto w9KW0; Qhm6l: $QaEPl = $B_aWL->toArray(); goto HiCCL; zUn1u: Ud2Wz: goto HOPN7; A7Q5T: $kUlXf = $E3c98["\155\x69\156\x5f\144\145\160\x6f\163\151\x74"] - $a1F0D; goto wnuus; pYFl5: return ["\154\x65\166\145\154" => 1, "\156\x61\155\145" => "\x42\162\x6f\156\172\145", "\x69\x6d\141\x67\145" => "\x69\x6d\x67\57\x72\x61\156\x6b\x69\x6e\147\x2f\61\56\x70\x6e\x67", "\x63\x75\162\x72\x65\x6e\164\x5f\x64\145\160\x6f\163\x69\164" => 0, "\x6e\x65\170\164\137\154\x65\166\145\x6c" => 2, "\156\x65\170\x74\137\154\x65\x76\x65\154\137\x64\145\160\157\x73\151\164" => 200, "\160\x72\x6f\147\162\145\x73\163" => 0, "\x68\x61\163\137\x72\x65\167\141\x72\x64" => false, "\x72\145\x77\x61\162\x64\x5f\151\144" => null]; goto QTnVg; a1Ra4: $JzXf7 = (float) $JzXf7; goto kgw7L; PVSDM: $VGrsS = $gfxkJ ? $gfxkJ->id : null; goto pvMP3; w5_si: $ZZH11 = 0; goto lcVbY; XIPFk: $B_aWL = null; goto Tx38d; LIEQD: $ZZH11 = 100; goto J2v2c; RbvB8: $E3c98 = $bYPhE ? $bYPhE->toArray() : null; goto w5_si; wnuus: $fgHVg = $JzXf7 - $a1F0D; goto hJAgF; U5gbn: $ZS7i5 = $dJR19->W1Y_c("\x6d\x69\x6e\137\144\145\x70\157\x73\x69\164"); goto XIPFk; JgyaO: $B_aWL = $ZS7i5->EWFB9(); goto TVKPj; KLqq6: if ($B_aWL) { goto undyU; } goto zzWGI; gM7Db: $a1F0D = $QaEPl["\155\151\156\137\x64\145\160\157\163\151\x74"]; goto A7Q5T; JKyDo: $VGrsS = null; goto btGbW; JPF6y: if (!($JzXf7 <= 0 || $dJR19->isEmpty())) { goto oJxDl; } goto pYFl5; QTnVg: oJxDl: goto btbfW; TVKPj: kVrJY: goto IdBOT; Tx38d: foreach ($ZS7i5 as $sRyqh) { goto OMzYm; reZtr: BwLWW: goto BZpmD; d1XwJ: kH7tZ: goto NTl0_; yovxS: goto UNe0_; goto d1XwJ; OXQvF: goto Ud2Wz; goto yovxS; NTl0_: $B_aWL = $sRyqh; goto vv5Y0; vv5Y0: UNe0_: goto reZtr; OMzYm: if ($JzXf7 >= $sRyqh->Jd_pX) { goto kH7tZ; } goto OXQvF; BZpmD: } goto zUn1u; J2v2c: goto mJ_w6; goto B02kN; IdBOT: ffN5K: goto KLqq6; hwcjH: mJ_w6: goto wjE00; GoQmE: undyU: goto aCoDQ; aCoDQ: $mfn20 = $B_aWL->level; goto Qhm6l; l9BWb: $JzXf7 = $this->EIxwk()->o_0MH("\x74\171\160\x65", 1)->O_0mh("\163\x74\141\x74\x75\x73", 1)->iBYmN("\141\x6d\x6f\165\156\164"); goto a1Ra4; HiCCL: $bYPhE = $B_aWL->BsmlZ(); goto VC9m1; hJAgF: $ZZH11 = $kUlXf > 0 ? min(100, $fgHVg / $kUlXf * 100) : 0; goto hwcjH; lcVbY: if ($bYPhE) { goto jH2yE; } goto LIEQD; pvMP3: TpjjO: goto u0In7; w9KW0: if (!(!$B_aWL && !$dJR19->isEmpty())) { goto ffN5K; } goto U5gbn; q2eP6: $gfxkJ = \NMxg2\lSsq3\DeceY::o_0mH("\165\x73\x65\x72\x5f\151\x64", $this->id)->O_0mH("\166\151\160\x5f\154\145\x76\145\x6c\x5f\151\144", $B_aWL->id)->ewFb9(); goto Omze4; u0In7: return ["\x6c\145\166\145\x6c" => $mfn20, "\156\141\155\x65" => $QaEPl["\x6e\141\155\x65"], "\151\x6d\141\x67\145" => $QaEPl["\151\155\x61\x67\x65"], "\x63\165\162\162\x65\x6e\164\x5f\x64\x65\160\x6f\163\x69\164" => $JzXf7, "\156\x65\x78\x74\x5f\154\145\166\x65\154" => $HC36J, "\x6e\145\x78\164\x5f\154\x65\166\x65\x6c\x5f\x64\x65\x70\x6f\163\151\x74" => $E3c98 ? $E3c98["\155\151\156\x5f\x64\x65\160\x6f\163\151\x74"] : null, "\x70\x72\157\147\162\145\163\x73" => $ZZH11, "\x68\x61\163\137\162\x65\167\x61\x72\x64" => $hYArJ, "\x72\145\167\141\162\144\137\x69\x64" => $VGrsS]; goto x79kK; HOPN7: if ($B_aWL) { goto kVrJY; } goto JgyaO; kgw7L: $dJR19 = UC4df::ECmWI(); goto JPF6y; B02kN: jH2yE: goto gM7Db; zzWGI: return ["\x6c\x65\x76\145\154" => 1, "\x6e\141\x6d\x65" => "\102\x72\157\156\172\145", "\151\x6d\141\147\x65" => "\x69\x6d\147\57\x72\x61\156\x6b\x69\x6e\147\x2f\61\x2e\160\x6e\x67", "\x63\165\x72\x72\x65\x6e\x74\x5f\144\x65\x70\x6f\163\x69\164" => $JzXf7, "\x6e\145\170\164\x5f\x6c\145\x76\145\154" => 2, "\156\x65\170\164\x5f\154\145\x76\145\x6c\x5f\144\x65\x70\x6f\163\151\x74" => 200, "\x70\162\x6f\x67\162\x65\x73\x73" => $JzXf7 / 200 * 100, "\x68\x61\x73\x5f\x72\x65\x77\141\x72\x64" => false, "\162\x65\167\x61\162\x64\137\x69\x64" => null]; goto GoQmE; wjE00: $hYArJ = false; goto JKyDo; btGbW: if (!class_exists("\101\x70\160\x5c\x4d\x6f\x64\145\x6c\x73\134\x56\x69\160\122\x65\167\x61\162\x64")) { goto TpjjO; } goto q2eP6; VC9m1: $HC36J = $bYPhE ? $bYPhE->level : null; goto RbvB8; Omze4: $hYArJ = !$gfxkJ || !$gfxkJ->nVnOQ; goto PVSDM; x79kK: } catch (\Exception $BOaI6) { return ["\154\x65\166\145\x6c" => 1, "\x6e\141\x6d\x65" => "\102\162\157\x6e\172\145", "\151\155\x61\x67\145" => "\151\x6d\x67\57\162\x61\x6e\x6b\x69\x6e\147\x2f\61\56\160\156\x67", "\x63\165\162\162\x65\156\x74\x5f\x64\145\160\157\x73\x69\x74" => 0, "\156\x65\x78\164\x5f\x6c\x65\166\145\154" => 2, "\x6e\145\x78\x74\x5f\x6c\145\x76\145\154\x5f\x64\x65\160\x6f\x73\x69\164" => 200, "\x70\162\157\147\x72\145\x73\x73" => 0, "\150\141\x73\137\x72\145\x77\x61\162\x64" => false, "\162\145\x77\x61\162\144\137\x69\x64" => null]; } } }
+
+namespace App\Traits;
+
+use App\Models\VipLevel;
+use Illuminate\Support\Facades\Log;
+
+trait HasRanking
+{
+    /**
+     * Retorna o nível do usuário baseado no valor total de depósitos
+     *
+     * @return array
+     */
+    public function getRanking()
+    {
+        try {
+            // Obter o total de depósitos aprovados (type=1, status=1)
+            $totalDeposits = $this->transactions()
+                ->where('type', 1)
+                ->where('status', 1)
+                ->sum('amount');
+            
+            // Garantir que seja um float
+            $totalDeposits = (float) $totalDeposits;
+            
+            // Buscar todos os níveis VIP para referência
+            $allLevels = VipLevel::getAllActive();
+            
+            // Se não há depósitos ou níveis definidos, usar valores padrão
+            if ($totalDeposits <= 0 || $allLevels->isEmpty()) {
+                return [
+                    'level' => 1,
+                    'name' => 'Bronze',
+                    'image' => 'img/ranking/1.png',
+                    'current_deposit' => 0,
+                    'next_level' => 2,
+                    'next_level_deposit' => 200,
+                    'progress' => 0,
+                    'has_reward' => false,
+                    'reward_id' => null
+                ];
+            }
+            
+            // Tentar obter o nível atual com base no depósito do banco de dados
+            $currentLevelObj = VipLevel::getCurrentLevelByDeposit($totalDeposits);
+            
+            // Se não encontrar o nível no banco, tente encontrar o nível mais próximo
+            if (!$currentLevelObj && !$allLevels->isEmpty()) {
+                // Ordenar níveis por min_deposit
+                $sortedLevels = $allLevels->sortBy('min_deposit');
+                
+                // Encontrar o nível apropriado
+                $currentLevelObj = null;
+                foreach ($sortedLevels as $level) {
+                    if ($totalDeposits >= $level->min_deposit) {
+                        $currentLevelObj = $level;
+                    } else {
+                        break;
+                    }
+                }
+                
+                // Se ainda não encontrou um nível, usar o primeiro nível
+                if (!$currentLevelObj) {
+                    $currentLevelObj = $sortedLevels->first();
+                }
+            }
+            
+            // Se ainda não tiver um nível definido, use um valor padrão
+            if (!$currentLevelObj) {
+                return [
+                    'level' => 1,
+                    'name' => 'Bronze',
+                    'image' => 'img/ranking/1.png',
+                    'current_deposit' => $totalDeposits,
+                    'next_level' => 2,
+                    'next_level_deposit' => 200,
+                    'progress' => ($totalDeposits / 200) * 100,
+                    'has_reward' => false,
+                    'reward_id' => null
+                ];
+            }
+            
+            // Se encontrou o nível no banco
+            $currentLevel = $currentLevelObj->level;
+            $currentLevelData = $currentLevelObj->toArray();
+            
+            // Obter o próximo nível
+            $nextLevelObj = $currentLevelObj->getNextLevel();
+            $nextLevel = $nextLevelObj ? $nextLevelObj->level : null;
+            $nextLevelData = $nextLevelObj ? $nextLevelObj->toArray() : null;
+            
+            // Calcular progresso para o próximo nível
+            $progress = 0;
+            if ($nextLevelObj) {
+                // Obter valor mínimo do nível atual
+                $currentLevelMinDeposit = $currentLevelData['min_deposit'];
+                
+                // Calcular quanto falta para o próximo nível
+                $depositRange = $nextLevelData['min_deposit'] - $currentLevelMinDeposit;
+                $currentProgress = $totalDeposits - $currentLevelMinDeposit;
+                
+                // Calcular a porcentagem de progresso
+                $progress = $depositRange > 0 ? min(100, ($currentProgress / $depositRange) * 100) : 0;
+            } else {
+                // Se já está no nível máximo
+                $progress = 100;
+            }
+            
+            // Verificar recompensa disponível
+            $hasReward = false;
+            $rewardId = null;
+            if (class_exists('App\Models\VipReward')) {
+                $reward = \App\Models\VipReward::where('user_id', $this->id)
+                    ->where('vip_level_id', $currentLevelObj->id)
+                    ->first();
+                
+                $hasReward = !$reward || !$reward->is_claimed;
+                $rewardId = $reward ? $reward->id : null;
+            }
+            
+            // Retornar array com dados de ranking
+            return [
+                'level' => $currentLevel,
+                'name' => $currentLevelData['name'],
+                'image' => $currentLevelData['image'],
+                'current_deposit' => $totalDeposits,
+                'next_level' => $nextLevel,
+                'next_level_deposit' => $nextLevelData ? $nextLevelData['min_deposit'] : null,
+                'progress' => $progress,
+                'has_reward' => $hasReward,
+                'reward_id' => $rewardId
+            ];
+        } catch (\Exception $e) {
+            // Em caso de erro, retornar valores padrão seguros
+            return [
+                'level' => 1,
+                'name' => 'Bronze',
+                'image' => 'img/ranking/1.png',
+                'current_deposit' => 0,
+                'next_level' => 2,
+                'next_level_deposit' => 200,
+                'progress' => 0,
+                'has_reward' => false,
+                'reward_id' => null
+            ];
+        }
+    }
+} 

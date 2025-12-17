@@ -1,12 +1,179 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMxG2\j6aEu\optOW; use nmXg2\YFC5l\orIxH; use WkHuL\J6aeu\PpY8j; use wkHUl\N3q0r\wpwAE\File; use wkhUL\N3Q0r\wpwAE\OgDXQ; use WKhUL\o7MqX\wHkW0; class KBe3a extends PPY8j { protected $kMGjZ = "\x69\155\141\147\x65\163\72\143\x6f\x6e\x76\x65\x72\164\x2d\164\157\x2d\x61\x76\x69\x66\40\xa\40\40\40\x20\x20\x20\x20\40\x20\x20\40\x20\x20\x20\40\40\40\40\40\x20\x20\40\40\40\x20\40\40\x20\173\x2d\55\160\141\x74\x68\x3d\151\x6d\147\40\72\40\103\x61\155\x69\156\x68\x6f\40\x72\x65\x6c\141\164\x69\166\x6f\40\x64\145\156\164\162\157\40\144\x61\x20\x70\141\x73\x74\141\40\160\165\142\154\x69\x63\x20\x70\141\162\x61\40\x63\x6f\156\166\x65\162\164\145\162\175\40\12\40\40\x20\x20\40\40\40\40\x20\x20\x20\x20\40\x20\x20\40\40\x20\x20\40\x20\40\40\x20\40\40\40\x20\173\x2d\x2d\161\165\x61\x6c\151\x74\x79\75\x38\60\40\72\40\x51\165\141\x6c\151\x64\x61\x64\145\40\x64\141\x73\40\x69\155\141\147\x65\156\163\40\101\x56\111\106\x20\50\x30\x2d\61\60\x30\51\x7d\xa\x20\x20\40\40\40\x20\40\x20\x20\40\x20\x20\40\x20\40\x20\40\40\x20\x20\x20\x20\40\x20\40\40\40\40\173\x2d\x2d\x77\151\144\x74\x68\x3d\x31\x39\62\x30\40\72\x20\x4c\x61\162\x67\x75\x72\x61\40\x6d\xc3\241\x78\151\x6d\x61\40\x64\x61\x73\40\x69\155\141\147\x65\156\163\175\xa\x20\40\x20\40\40\40\40\40\x20\40\x20\40\x20\x20\40\x20\x20\40\x20\x20\40\40\40\40\x20\40\x20\x20\x7b\55\55\144\162\x79\55\x72\165\156\x20\x3a\x20\x41\160\x65\156\x61\163\x20\155\157\x73\164\162\141\x72\x20\x6f\x20\161\x75\x65\40\163\x65\x72\x69\x61\x20\x66\145\x69\x74\x6f\40\163\145\x6d\x20\x65\x78\x65\143\165\164\141\x72\x7d"; protected $cR9xw = "\103\157\x6e\166\145\x72\x74\145\x20\151\x6d\x61\147\x65\x6e\163\40\145\170\151\x73\x74\x65\x6e\x74\145\x73\x20\160\x61\x72\x61\x20\x6f\x20\146\x6f\162\155\141\x74\157\40\101\126\111\x46\x20\x70\141\x72\141\40\155\x65\x6c\x68\157\x72\x61\x72\40\157\40\144\145\163\x65\x6d\160\145\156\x68\x6f"; public function __construct(private oRIxH $Nbn3h) { parent::__construct(); } public function Ttbdp() { goto sYsRN; ZGz7e: return 1; goto Eo2ym; kzIJP: $jZFT0 = $this->usfEy($ZoKUu, $al03N); goto BS7gH; XI2yP: $Btry1 = (int) $this->J__ls("\167\151\x64\164\150"); goto LPWlF; D6XD2: $this->U9yHh("\115\x4f\x44\117\40\x53\111\115\125\x4c\101\xc3\x87\xc3\x83\x4f\x3a\x20\116\x65\156\150\165\155\141\40\141\154\164\x65\162\141\xc3\xa7\xc3\xa3\157\40\x73\x65\162\303\241\40\x72\145\141\154\151\172\141\x64\x61\x2e"); goto A6nSy; gKtOV: xNBKW: goto Da_5v; qRuAp: if (!$ghc67) { goto YZxox; } goto D6XD2; LPWlF: $ghc67 = $this->J__ls("\x64\x72\171\55\162\165\156"); goto s3TWa; boOMi: $PXdAW = 0; goto R_fRd; e3Ial: $ZoKUu = N1FJR($lvVr5); goto dFS5E; hMqoB: $o1Iib->start(); goto LAA2b; iSSGq: $this->uwIC8("\x44\x69\x72\145\x74\xc3\xb3\x72\151\x6f\40\x6e\xc3\xa3\157\40\145\156\143\x6f\x6e\164\x72\141\144\x6f\x3a\40{$ZoKUu}"); goto H_oUZ; A6nSy: YZxox: goto e3Ial; asC9F: $this->zxvum("\x2d\40\103\157\x6e\x76\145\162\x74\151\144\x61\163\72\40{$AgLUH}"); goto ONrwp; s3TWa: if (!($Hwk83 < 1 || $Hwk83 > 100)) { goto j0dKe; } goto gzoSm; D010K: if (!$ghc67) { goto xNBKW; } goto f1yFQ; dFS5E: if (is_dir($ZoKUu)) { goto D_VWc; } goto iSSGq; sYsRN: $lvVr5 = $this->j__ls("\160\x61\164\x68"); goto uoq4R; f1yFQ: $this->U9yHh("\123\x49\x4d\x55\114\101\xc3\207\303\x83\117\x3a\40\116\x65\156\x68\x75\155\141\x20\141\x6c\164\x65\x72\x61\303\xa7\303\243\x6f\x20\146\157\x69\x20\x72\x65\141\154\x69\172\141\x64\x61\x2e"); goto gKtOV; d4zBi: $this->info("\x2d\x20\121\x75\x61\154\151\x64\141\x64\145\x3a\x20{$Hwk83}"); goto CxBdL; mS7eG: $o1Iib->Z0Er0(); goto WWMrV; uEk5q: $al03N = ["\x6a\160\x67", "\152\160\x65\x67", "\160\156\x67", "\147\x69\x66", "\167\x65\142\160"]; goto kzIJP; TMp7n: $this->info("\x43\157\x6e\166\145\162\163\xc3\xa3\157\x20\143\157\x6e\143\x6c\x75\303\xad\144\141\x21"); goto tCJ0m; Da_5v: return 0; goto d3gGw; R_fRd: $fKSvK = 0; goto ADEKG; Fp0Vf: D_VWc: goto uEk5q; LAA2b: $AgLUH = 0; goto boOMi; ONrwp: $this->ZXVum("\55\40\120\165\x6c\141\x64\141\x73\40\50\x6a\303\241\40\x65\x78\151\163\x74\145\x6d\x29\x3a\x20{$PXdAW}"); goto b2Vbq; jsTna: $this->info("\105\156\x63\x6f\x6e\x74\x72\x61\144\x61\163\40{$YOSUi}\x20\151\155\141\147\145\156\163\x20\160\141\x72\x61\x20\143\x6f\156\x76\145\x72\x74\x65\162\56"); goto OxqYx; ADEKG: foreach ($jZFT0 as $ihZg1) { goto l4yxB; u9tyr: goto cbZz6; goto l4hGD; KaVbq: cbZz6: goto ekIoh; PFKf5: gSugN: goto iSUf8; O0KMc: $EZoAO = $JwrgZ . "\x2e\141\x76\x69\146"; goto x3EqC; iSUf8: if (!$ghc67) { goto osII7; } goto ySqZT; ySqZT: $this->YukfH(); goto rGYOt; LLBRn: XKt84: goto xUefr; V0Xdj: $YhCqj = pathinfo($ihZg1); goto Vknpi; obDjL: $o1Iib->gMjf7(); goto GrPV5; HPooW: $PXdAW++; goto obDjL; D56s0: $AgLUH++; goto u9tyr; PaSfP: $this->yuKFh(); goto Jsf4z; rGYOt: $this->ZXvum("\40\x3c\146\147\x3d\x62\154\165\145\x3e\x69\x3c\x2f\x3e\40\x53\145\x72\151\x61\x20\x63\157\x6e\166\x65\162\164\x69\x64\x6f\x3a\x20{$b2D1O}\40\55\x3e\x20{$EZoAO}"); goto D56s0; l4hGD: osII7: goto wUYry; Jsf4z: $this->ZXvum("\40\x3c\146\x67\75\171\145\154\x6c\x6f\167\x3e\342\x9c\223\x3c\57\76\40\x50\x75\x6c\141\x6e\x64\157\40{$b2D1O}\x20\x28\101\126\x49\106\x20\x6a\xc3\xa1\x20\145\x78\x69\163\x74\x65\x29"); goto HPooW; Vknpi: $JwrgZ = $YhCqj["\x64\x69\x72\156\141\x6d\x65"] . "\57" . $YhCqj["\146\x69\x6c\x65\156\x61\155\145"]; goto O0KMc; l4yxB: $b2D1O = str_replace(N1fJR() . "\57", '', $ihZg1); goto V0Xdj; ekIoh: $o1Iib->gMjF7(); goto LLBRn; wUYry: try { goto YrKhb; Pb513: $this->ZXvuM("\x20\74\146\x67\75\x67\162\145\145\x6e\76\xe2\234\x93\x3c\x2f\x3e\x20\103\x6f\x6e\166\x65\162\164\x69\x64\x6f\x3a\x20{$b2D1O}\x20\55\76\x20{$rM6KI}"); goto uskas; uskas: $AgLUH++; goto QG3oe; YrKhb: $tnf2i = new Whkw0($ihZg1, basename($ihZg1), mime_content_type($ihZg1), null, true); goto ej0OT; OzSL0: $this->yUkFH(); goto Pb513; ej0OT: $rM6KI = $this->sZCix->yejzb($tnf2i, $YhCqj["\144\x69\162\x6e\x61\x6d\145"] . "\57" . $YhCqj["\146\151\x6c\145\x6e\141\155\145"], $Hwk83, $Btry1, null); goto OzSL0; QG3oe: } catch (\Exception $BOaI6) { goto I3WVw; qiPv6: $fKSvK++; goto xFzgY; I3WVw: $this->yUKFh(); goto b2JE8; b2JE8: $this->UWIC8("\40\x3c\146\x67\75\x72\x65\x64\76\xe2\x9c\x97\74\57\x3e\40\x45\162\162\157\40\x61\x6f\40\143\157\x6e\x76\x65\x72\164\x65\162\x20{$b2D1O}\x3a\x20" . $BOaI6->getMessage()); goto qiPv6; xFzgY: } goto KaVbq; GrPV5: goto XKt84; goto PFKf5; x3EqC: if (!file_exists(n1FjR($EZoAO))) { goto gSugN; } goto PaSfP; xUefr: } goto gJTsX; sNrC9: $this->info("\x2d\40\x43\x61\x6d\x69\156\x68\x6f\x3a\40{$lvVr5}"); goto d4zBi; Eo2ym: j0dKe: goto vW2mZ; CxBdL: $this->info("\x2d\x20\114\x61\162\147\x75\162\141\x20\x6d\xc3\241\x78\151\155\141\x3a\40{$Btry1}\x70\170"); goto qRuAp; vW2mZ: $this->info("\x43\x6f\156\166\x65\x72\164\x65\x6e\144\x6f\x20\151\155\x61\x67\145\156\163\x20\x70\x61\x72\x61\40\101\x56\x49\106\72"); goto sNrC9; OxqYx: $o1Iib = $this->kTm3b->njEZu($YOSUi); goto hMqoB; uoq4R: $Hwk83 = (int) $this->j__LS("\161\165\x61\x6c\x69\x74\171"); goto XI2yP; BS7gH: $YOSUi = count($jZFT0); goto jsTna; tCJ0m: $this->ZXVUM("\x2d\40\124\x6f\x74\x61\154\x20\x64\145\x20\x69\x6d\141\147\145\x6e\x73\72\x20{$YOSUi}"); goto asC9F; b2Vbq: $this->zxVuM("\x2d\40\x45\162\x72\x6f\x73\72\40{$fKSvK}"); goto D010K; gzoSm: $this->UwIc8("\x41\40\161\165\141\x6c\151\144\x61\x64\x65\40\x64\145\x76\145\x20\x65\163\164\141\162\x20\x65\x6e\x74\x72\x65\x20\x31\x20\145\40\x31\60\x30"); goto ZGz7e; gJTsX: g11_7: goto mS7eG; H_oUZ: return 1; goto Fp0Vf; WWMrV: $this->yuKfh(2); goto TMp7n; d3gGw: } private function USFey(string $kfBW0, array $al03N) : array { goto T4EhJ; TYJjw: $bqAf0 = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($kfBW0, \RecursiveDirectoryIterator::SKIP_DOTS)); goto mbx2c; T4EhJ: $jZFT0 = []; goto TYJjw; c0dwN: return $jZFT0; goto ZLWkC; hjq11: Uq03R: goto c0dwN; mbx2c: foreach ($bqAf0 as $Bo5rt) { goto wWWig; XS5Gn: aayOb: goto bsFnG; wWWig: if (!$Bo5rt->isFile()) { goto a1147; } goto rvIgP; liZAV: DtTqo: goto cCrrq; IXv5w: if (!in_array($KJq0i, $al03N)) { goto DtTqo; } goto pq2LP; pq2LP: $jZFT0[] = $Bo5rt->getPathname(); goto liZAV; rvIgP: $KJq0i = strtolower($Bo5rt->getExtension()); goto IXv5w; cCrrq: a1147: goto XS5Gn; bsFnG: } goto hjq11; ZLWkC: } }
+
+namespace App\Console\Commands;
+
+use App\Services\ImageService;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Http\UploadedFile;
+
+class ConvertImagesToAvif extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'images:convert-to-avif 
+                            {--path=img : Caminho relativo dentro da pasta public para converter} 
+                            {--quality=80 : Qualidade das imagens AVIF (0-100)}
+                            {--width=1920 : Largura máxima das imagens}
+                            {--dry-run : Apenas mostrar o que seria feito sem executar}';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Converte imagens existentes para o formato AVIF para melhorar o desempenho';
+
+    /**
+     * Create a new command instance.
+     */
+    public function __construct(private ImageService $imageService)
+    {
+        parent::__construct();
+    }
+
+    /**
+     * Execute the console command.
+     */
+    public function handle()
+    {
+        $path = $this->option('path');
+        $quality = (int) $this->option('quality');
+        $width = (int) $this->option('width');
+        $dryRun = $this->option('dry-run');
+        
+        // Validar parâmetros
+        if ($quality < 1 || $quality > 100) {
+            $this->error('A qualidade deve estar entre 1 e 100');
+            return 1;
+        }
+        
+        // Mostrar configuração
+        $this->info("Convertendo imagens para AVIF:");
+        $this->info("- Caminho: {$path}");
+        $this->info("- Qualidade: {$quality}");
+        $this->info("- Largura máxima: {$width}px");
+        if ($dryRun) {
+            $this->warn("MODO SIMULAÇÃO: Nenhuma alteração será realizada.");
+        }
+        
+        // Encontrar todas as imagens no diretório
+        $baseDir = public_path($path);
+        if (!is_dir($baseDir)) {
+            $this->error("Diretório não encontrado: {$baseDir}");
+            return 1;
+        }
+        
+        $extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+        $images = $this->findImageFiles($baseDir, $extensions);
+        
+        $totalImages = count($images);
+        $this->info("Encontradas {$totalImages} imagens para converter.");
+        
+        // Barra de progresso
+        $bar = $this->output->createProgressBar($totalImages);
+        $bar->start();
+        
+        $converted = 0;
+        $skipped = 0;
+        $errors = 0;
+        
+        foreach ($images as $image) {
+            $relativePath = str_replace(public_path() . '/', '', $image);
+            $pathInfo = pathinfo($image);
+            $newFilename = $pathInfo['dirname'] . '/' . $pathInfo['filename'];
+            $avifPath = $newFilename . '.avif';
+            
+            // Verificar se o arquivo AVIF já existe
+            if (file_exists(public_path($avifPath))) {
+                $this->newLine();
+                $this->line(" <fg=yellow>✓</> Pulando {$relativePath} (AVIF já existe)");
+                $skipped++;
+                $bar->advance();
+                continue;
+            }
+            
+            if (!$dryRun) {
+                try {
+                    // Criar objeto UploadedFile simulado para usar com o serviço
+                    $tempFile = new UploadedFile(
+                        $image,
+                        basename($image),
+                        mime_content_type($image),
+                        null,
+                        true
+                    );
+                    
+                    // Converter para AVIF
+                    $result = $this->imageService->convertToAvif(
+                        $tempFile,
+                        $pathInfo['dirname'] . '/' . $pathInfo['filename'],
+                        $quality,
+                        $width,
+                        null
+                    );
+                    
+                    $this->newLine();
+                    $this->line(" <fg=green>✓</> Convertido: {$relativePath} -> {$result}");
+                    $converted++;
+                } catch (\Exception $e) {
+                    $this->newLine();
+                    $this->error(" <fg=red>✗</> Erro ao converter {$relativePath}: " . $e->getMessage());
+                    $errors++;
+                }
+            } else {
+                $this->newLine();
+                $this->line(" <fg=blue>i</> Seria convertido: {$relativePath} -> {$avifPath}");
+                $converted++;
+            }
+            
+            $bar->advance();
+        }
+        
+        $bar->finish();
+        $this->newLine(2);
+        
+        // Mostrar resumo
+        $this->info("Conversão concluída!");
+        $this->line("- Total de imagens: {$totalImages}");
+        $this->line("- Convertidas: {$converted}");
+        $this->line("- Puladas (já existem): {$skipped}");
+        $this->line("- Erros: {$errors}");
+        
+        if ($dryRun) {
+            $this->warn("SIMULAÇÃO: Nenhuma alteração foi realizada.");
+        }
+        
+        return 0;
+    }
+    
+    /**
+     * Encontra recursivamente todos os arquivos de imagem em um diretório
+     *
+     * @param string $dir Diretório para procurar
+     * @param array $extensions Lista de extensões a procurar
+     * @return array Lista de caminhos completos para as imagens
+     */
+    private function findImageFiles(string $dir, array $extensions): array
+    {
+        $images = [];
+        $iterator = new \RecursiveIteratorIterator(
+            new \RecursiveDirectoryIterator($dir, \RecursiveDirectoryIterator::SKIP_DOTS)
+        );
+        
+        foreach ($iterator as $file) {
+            if ($file->isFile()) {
+                $extension = strtolower($file->getExtension());
+                if (in_array($extension, $extensions)) {
+                    $images[] = $file->getPathname();
+                }
+            }
+        }
+        
+        return $images;
+    }
+} 

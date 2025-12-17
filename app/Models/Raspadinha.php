@@ -1,12 +1,400 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXg2\lSSq3; use WKHul\qczcg\EJfur\Q4Fqj\jzDKt; use WKHuL\QczCG\ejFUr\uYKSy; class vrKwb extends UyKsY { use jZdKT; protected $ZYaJD = "\x72\141\x73\160\x61\144\x69\156\x68\x61\x73"; protected $GWg5z = array("\156\141\x6d\145", "\x64\x65\163\143\x72\151\x70\x74\151\x6f\156", "\151\x6d\x61\x67\145", "\x70\162\151\x63\x65", "\x74\165\x72\x62\x6f\137\160\162\x69\143\x65", "\151\x73\137\141\x63\x74\151\166\x65", "\x72\164\160\x5f\160\145\162\x63\145\x6e\164\x61\x67\145", "\x74\165\x72\x62\157\137\142\x6f\x6f\x73\164\x5f\x70\x65\162\x63\x65\156\164\141\x67\145"); protected $FPpxl = array("\160\162\x69\143\x65" => "\144\145\x63\151\x6d\141\x6c\x3a\62", "\x74\165\x72\142\x6f\x5f\160\x72\151\143\x65" => "\x64\145\143\x69\x6d\x61\x6c\x3a\x32", "\151\163\x5f\x61\x63\164\x69\166\145" => "\142\x6f\157\x6c\145\141\x6e", "\162\x74\160\x5f\x70\x65\x72\x63\145\x6e\164\x61\147\x65" => "\144\x65\143\151\x6d\x61\x6c\x3a\62", "\164\x75\162\x62\x6f\x5f\x62\x6f\x6f\163\164\137\x70\x65\x72\143\145\x6e\x74\141\147\145" => "\x64\145\143\151\x6d\141\154\72\62"); public function NUK6M() { return $this->CoKSj(nFzhI::class)->FaHyr("\x70\x6f\x73\151\x74\151\157\x6e", "\141\163\x63"); } public function Xs2cP() { return $this->cOksj(Dnz8h::class); } public function WjSmZ($k37al) { return $k37al->o_0mH("\151\163\x5f\141\143\x74\x69\x76\x65", true); } public function dI85h() { goto wIHMo; qlF8H: return Y63gY("\162\141\x73\x70\x61\144\151\x6e\x68\141\57" . $this->oahEP); goto m2dgd; wIHMo: if (!$this->oahEP) { goto U7Yh2; } goto qlF8H; m2dgd: U7Yh2: goto NHvq4; NHvq4: return y63Gy("\151\155\x67\x2f\162\x61\x73\x70\x61\144\x69\156\150\x61\57\x64\145\146\x61\165\154\164\56\160\156\147"); goto mX5Ie; mX5Ie: } public function sj9sE($k37al, $mUQ6U = 10) { return $k37al->HY3OB()->fioaY(["\x68\151\x73\x74\157\162\171\x20\x61\163\40\x70\154\x61\171\163\x5f\143\157\x75\156\164"])->faHyr("\x70\x6c\141\171\163\x5f\x63\x6f\165\156\164", "\144\145\x73\x63")->WVOtG($mUQ6U); } public function fT0_2($VNTem = false) { goto LnOOz; Kdh8r: $this->IcgwY("\167\151\x6e", $PvNJb->value); goto WTLTI; CC6v1: if ($jpW0T) { goto y_l2A; } goto hkOjM; bP2Y0: $LBgv2 = 100 - $yI0t6; goto P5hyt; dPTn2: $lRJ3x = mt_rand(1, 10000) / 100; goto jxx9A; P5hyt: $jpW0T = $this->m8UIM($yI0t6); goto CC6v1; k6Cze: return $ynYyV; goto hzNhE; zFOmW: wDlH3: goto XPsOC; hkOjM: $Qtgx0 = $HvYmM->iBymN("\160\x72\157\142\x61\x62\151\154\x69\164\x79"); goto tP3Zo; llrS5: goto wDlH3; goto leUQK; t1cUU: goto d7D9K; goto BbdFd; aZqIz: $PvNJb = $this->cRm4I($HvYmM, $VNTem); goto PZu9T; aqY3y: \Log::info("\x52\124\x50\40\103\157\156\x74\162\x6f\154\40\x41\x70\x70\x6c\151\x65\x64\40\x2d\40\106\157\x72\x63\145\x64\x20\114\x6f\163\163\40\146\x6f\x72\40\x52\x61\163\x70\x61\x64\x69\x6e\150\x61\40\111\104\x3a\x20{$this->id}"); goto zFOmW; WTLTI: d7D9K: goto llrS5; LnOOz: $HvYmM = $this->nUk6M()->hY3oB()->get(); goto ZugUo; iRiqg: if ($iv31L && $HvYmM->count() >= 3) { goto Kx7TS; } goto X5b75; X5b75: $ynYyV = $this->o791s($HvYmM); goto M754E; tP3Zo: $FRcBp = max(0, 100 - $Qtgx0); goto dPTn2; leUQK: y_l2A: goto HqBUR; HqBUR: $ynYyV = $this->o791s($HvYmM); goto aqY3y; jxx9A: $iv31L = $lRJ3x > $FRcBp; goto iRiqg; XPsOC: shuffle($ynYyV); goto k6Cze; M754E: $this->icgWY("\154\157\163\163", 0); goto t1cUU; BbdFd: Kx7TS: goto aZqIz; PZu9T: $ynYyV = $this->XoMIg($PvNJb, $HvYmM); goto Kdh8r; ZugUo: $ynYyV = []; goto wcMoH; wcMoH: $yI0t6 = $this->PyQmA ?? 75; goto bP2Y0; hzNhE: } private function m8uiM($aYP6n) { goto Ol0xW; BTnAg: $D470Z = $v_FP2 / $TCOQG * 100; goto jSiOI; S9XMN: return $D470Z > $aYP6n + $QpHsp; goto GwKFz; Nlddn: j3U8Z: goto BTnAg; jSiOI: $QpHsp = 5; goto S9XMN; m_sqC: dInov: goto BzD5N; bdkfZ: $v_FP2 = $Teb6b->ibYMN("\141\155\x6f\165\x6e\164\x5f\x77\157\x6e"); goto rufQW; eSH8t: if (!($Teb6b->count() < 20)) { goto dInov; } goto hc1d8; Ol0xW: $Teb6b = \zHv2I::M7nE7("\162\141\163\x70\x61\x64\151\156\150\x61\x5f\150\151\x73\x74\x6f\x72\x79")->O_0MH("\162\141\x73\x70\141\144\x69\156\150\141\137\151\144", $this->id)->o_0mh("\x63\162\145\141\164\x65\x64\x5f\x61\x74", "\x3e\75", o6q8E()->CZLi2(1))->FaHyr("\143\x72\145\x61\164\x65\x64\x5f\x61\164", "\144\145\x73\x63")->WVotg(100)->get(); goto eSH8t; rufQW: if (!($TCOQG == 0)) { goto j3U8Z; } goto oKhxv; BzD5N: $TCOQG = $Teb6b->IBymn("\141\x6d\x6f\165\x6e\x74\137\160\141\x69\x64"); goto bdkfZ; oKhxv: return false; goto Nlddn; hc1d8: return false; goto m_sqC; GwKFz: } private function Icgwy($eeYYe, $HgIMK) { \Log::info("\x52\124\120\40\105\166\x65\156\x74\x20\x2d\40\122\141\163\160\141\x64\x69\x6e\x68\141\40\111\104\72\40{$this->id}\54\x20\124\x79\160\145\72\x20{$eeYYe}\54\40\126\x61\x6c\165\x65\x3a\x20{$HgIMK}"); } private function Crm4I($HvYmM, $VNTem = false) { goto MbtQt; h5fEd: $F09dg = 0; goto cDHcO; QrY0H: ow6Ae: goto XUNDY; XUNDY: return $HvYmM->ewFB9(); goto wqZXQ; B6qsk: $N6DDL = $HvYmM->cS37G(function ($pHH5J) use($iLHc0) { goto ilixO; MW3hh: $Zc953 = min($Zc953, 100); goto a2g0Y; ilixO: $Zc953 = $pHH5J->nS20C + $iLHc0; goto MW3hh; a2g0Y: return (object) ["\x69\x74\x65\x6d" => $pHH5J, "\x70\162\157\x62\141\x62\151\154\x69\164\x79" => $Zc953]; goto eob39; eob39: }); goto Mbfz0; Mbfz0: $lRJ3x = mt_rand(1, 10000) / 100; goto h5fEd; MbtQt: $iLHc0 = $VNTem ? $this->KQeNA ?? 0 : 0; goto B6qsk; cDHcO: foreach ($N6DDL as $uRz86) { goto RGK6v; P3Rqk: XeOqV: goto SHIDL; nz8Mc: if (!($lRJ3x <= $F09dg)) { goto XeOqV; } goto eGDXz; eGDXz: return $uRz86->FHhwz; goto P3Rqk; RGK6v: $F09dg += $uRz86->nS20C; goto nz8Mc; SHIDL: d0yfa: goto o2Qzk; o2Qzk: } goto QrY0H; wqZXQ: } private function XOMig($PvNJb, $hYiVQ) { goto HRToP; g3iFI: $vHlqv = 0; goto cKLNf; R_quV: $L2Svb = $UMDVl->eWfB9(); goto R7_iU; RoegL: Gbgjv: goto yMmqT; zwxy0: Sg2gh: goto LAG1e; J2uUi: KnPt7: goto fwns4; m7VWM: goto lnHZW; goto pTbAM; HRToP: $ynYyV = []; goto usog6; WG4Wl: goto zlHvc; goto Yodle; bT6Cz: kFNcd: goto L00T_; otLr2: if (!($vHlqv < 3)) { goto ZAYh1; } goto xDp30; DGSR4: $jtjEq = $FrK05->zIn5X(); goto gP0vW; usog6: $vHlqv = 0; goto CZQmw; n0hBy: goto WpgfU; goto n_334; cKLNf: lnHZW: goto SMl4u; yMmqT: return $ynYyV; goto u2Nj7; pTbAM: Yti8x: goto J2uUi; CZQmw: WpgfU: goto otLr2; fwns4: goto Gbgjv; goto PpQDP; Yodle: sbvbv: goto YonlL; VRAkd: $vHlqv++; goto m7VWM; bC_jz: $Uw3_h = $hYiVQ->eWFB9(); goto WgcxN; n_334: ZAYh1: goto rbQ3Z; icbbm: A_YCM: goto RoegL; HFml0: zlHvc: goto W0KX9; R7_iU: $ynYyV[] = $L2Svb->id; goto QyvWL; PpQDP: FrXoB: goto nP1i2; QyvWL: Y0DXJ: goto VRAkd; rbQ3Z: $FrK05 = $hYiVQ->o_0Mh("\151\144", "\x21\x3d", $PvNJb->id); goto aS6O3; NV720: if ($UMDVl->count() > 0) { goto aN9kl; } goto W3lOg; nP1i2: $vHlqv = 0; goto zwxy0; aS6O3: if ($FrK05->count() > 0) { goto FrXoB; } goto fmhhV; oIyha: $vHlqv++; goto n0hBy; W0KX9: if (!($vHlqv < 6)) { goto sbvbv; } goto bC_jz; lyYtN: $vHlqv++; goto d5cWL; W3lOg: $vHlqv = 0; goto HFml0; gP0vW: $ynYyV[] = $jtjEq->id; goto FD3qv; LAG1e: if (!($vHlqv < 6)) { goto A_YCM; } goto DGSR4; L_eSQ: y3PdT: goto oIyha; WgcxN: $ynYyV[] = $Uw3_h->id; goto bT6Cz; FD3qv: twP9d: goto lyYtN; nQ8ep: aN9kl: goto g3iFI; fmhhV: $UMDVl = $hYiVQ->O_0mH("\166\141\x6c\x75\145", 0.0); goto NV720; xDp30: $ynYyV[] = $PvNJb->id; goto L_eSQ; SMl4u: if (!($vHlqv < 6)) { goto Yti8x; } goto R_quV; d5cWL: goto Sg2gh; goto icbbm; L00T_: $vHlqv++; goto WG4Wl; YonlL: goto KnPt7; goto nQ8ep; u2Nj7: } private function o791s($HvYmM) { goto L23Wf; dRIPu: $vHlqv++; goto XtNYJ; XtNYJ: goto oWfjV; goto oQq4i; slAjL: O9_Dt: goto M3UxO; YGJL3: $vR8Un = $UMDVl->EWfb9(); goto slAjL; cMwo3: if ($lBxHn->count() == 0) { goto YbALw; } goto N1Uw5; UEjPE: $vR8Un = $HvYmM->EWfb9(); goto e1F1r; e1F1r: goto O9_Dt; goto OyoCH; oQq4i: C25wZ: goto yT7s5; OyoCH: FPQ4v: goto YGJL3; hWmcG: $ynYyV[] = $vR8Un->id; goto OSxbh; N1Uw5: $vR8Un = $lBxHn->ziN5x(); goto WsvYL; L23Wf: $ynYyV = []; goto RdPAH; WsvYL: goto DOdii; goto wOZPK; yT7s5: return $ynYyV; goto IW5KQ; IVcKX: $vHlqv = 0; goto B53C5; OSxbh: E5_9R: goto dRIPu; BBprx: if ($UMDVl->count() > 0) { goto FPQ4v; } goto UEjPE; B53C5: oWfjV: goto JXRPP; mIZIv: $lBxHn = $HvYmM->filter(function ($pHH5J) use($n6NN5) { return ($n6NN5[$pHH5J->id] ?? 0) < 2; }); goto cMwo3; CEG0b: $n6NN5[$vR8Un->id] = ($n6NN5[$vR8Un->id] ?? 0) + 1; goto hWmcG; RdPAH: $n6NN5 = []; goto IVcKX; JXRPP: if (!($vHlqv < 9)) { goto C25wZ; } goto mIZIv; wOZPK: YbALw: goto Q1ZXN; Q1ZXN: $UMDVl = $HvYmM->o_0Mh("\x76\141\x6c\x75\x65", 0.0); goto BBprx; M3UxO: DOdii: goto CEG0b; IW5KQ: } public function oWAgE($ynYyV) { goto QUwAF; caHnX: Rw8e5: goto x_L2_; iN5dR: foreach ($ynYyV as $HwI3H) { goto E5dQK; dVl8Y: exMAp: goto TxmVO; AWM5C: goto vH9qq; goto dVl8Y; E5dQK: $n6NN5[$HwI3H] = ($n6NN5[$HwI3H] ?? 0) + 1; goto Kq4Pu; TxmVO: lP8_9: goto kanHk; QoR1W: $zErmL = $HwI3H; goto AWM5C; Kq4Pu: if (!($n6NN5[$HwI3H] >= 3)) { goto exMAp; } goto QoR1W; kanHk: } goto iYbth; kBXbh: $zErmL = null; goto iN5dR; CJO6M: if (!$PvNJb) { goto nVptR; } goto J0NWx; dyWaI: nVptR: goto caHnX; J0NWx: return ["\150\141\163\137\160\x72\x69\172\x65" => true, "\151\164\145\155\137\151\x64" => $PvNJb->id, "\160\162\x69\172\x65\x5f\x76\141\x6c\x75\145" => $PvNJb->value, "\x70\x72\151\x7a\x65\137\x74\171\160\145" => $PvNJb->DyKx5, "\160\x72\151\172\x65\137\x64\x65\x73\x63\x72\x69\x70\164\x69\157\156" => $this->G_mVq($PvNJb), "\x70\162\x69\172\x65\137\x6e\x61\x6d\x65" => $PvNJb->name, "\x70\x72\151\172\145\137\x69\x6d\141\x67\145" => $PvNJb->pPnvg, "\x77\151\x6e\156\x69\x6e\147\137\x69\x74\x65\x6d" => $PvNJb]; goto dyWaI; iYbth: vH9qq: goto iSpwT; Jn7XU: $PvNJb = $this->NuK6m()->o_0Mh("\151\144", $zErmL)->EWFB9(); goto CJO6M; iSpwT: if (!$zErmL) { goto Rw8e5; } goto Jn7XU; QUwAF: $n6NN5 = []; goto kBXbh; x_L2_: return ["\150\x61\163\x5f\x70\162\x69\172\x65" => false, "\151\x74\x65\x6d\x5f\x69\x64" => null, "\x70\x72\x69\x7a\145\x5f\x76\141\154\165\x65" => 0, "\x70\162\x69\x7a\x65\x5f\164\171\x70\x65" => null, "\x70\x72\x69\x7a\x65\x5f\144\x65\163\x63\162\x69\x70\164\x69\157\x6e" => "\x53\x65\155\x20\x70\162\xc3\252\155\x69\x6f", "\x70\162\x69\172\145\137\x6e\x61\155\x65" => '', "\160\162\x69\172\x65\137\x69\x6d\141\147\145" => '', "\167\151\x6e\156\151\156\147\x5f\151\x74\145\155" => null]; goto es8HV; es8HV: } private function G_mvQ($pHH5J) { goto KX1kb; KX1kb: switch ($pHH5J->DyKx5) { case "\x73\141\154\144\x6f\x5f\x72\x65\141\x6c": return "\123\x61\154\x64\x6f\x20\x52\145\x61\154\72\x20\x52\x24\40" . number_format($pHH5J->value, 2, "\54", "\56"); case "\163\141\x6c\144\x6f\137\x62\157\156\x75\163": return "\123\x61\x6c\144\x6f\x20\102\xc3\264\156\165\x73\72\40\122\x24\x20" . number_format($pHH5J->value, 2, "\54", "\56"); case "\x72\157\144\141\x64\141\163\137\x67\162\x61\x74\x69\163": return $pHH5J->value . "\40\122\x6f\x64\141\x64\141\163\x20\107\162\xc3\241\164\x69\163"; case "\160\x72\x6f\x64\x75\x74\157": return "\x50\x72\x6f\x64\165\164\x6f\72\40" . ($pHH5J->ziCBb ?: $pHH5J->name); default: return $pHH5J->name; } goto mA21t; pFPU2: zz5Ev: goto FMcuL; mA21t: FHZLO: goto pFPU2; FMcuL: } public function gOhaM($GSNRA = 7) { goto MySIR; n3Kne: $D470Z = $TCOQG > 0 ? $v_FP2 / $TCOQG * 100 : 0; goto ENGc3; BMiNG: $nWzhS = $akiF8->count(); goto c322n; c322n: $TCOQG = $akiF8->IbYmN("\x61\155\157\x75\x6e\x74\x5f\160\x61\x69\x64"); goto kN6II; aBp5g: $JUR2r = $akiF8->O_0mh("\x61\x6d\157\x75\156\164\137\167\157\x6e", "\x3e", 0)->count(); goto n3Kne; qOZpG: $Z1orQ = $TCOQG - $v_FP2; goto EIKfb; MySIR: $akiF8 = \zhv2i::m7NE7("\162\x61\163\160\x61\144\x69\x6e\x68\141\x5f\x68\x69\x73\x74\x6f\162\171")->o_0MH("\162\141\163\160\141\x64\x69\x6e\x68\141\x5f\x69\144", $this->id)->O_0mH("\x63\x72\x65\x61\164\x65\x64\137\141\x74", "\76\x3d", O6Q8e()->CZlI2($GSNRA))->get(); goto BMiNG; kN6II: $v_FP2 = $akiF8->IbymN("\141\155\157\165\156\x74\x5f\167\x6f\x6e"); goto aBp5g; gC7_N: return ["\x74\157\164\x61\154\x5f\147\x61\155\145\x73" => $nWzhS, "\164\157\x74\141\x6c\137\x70\141\x69\x64" => $TCOQG, "\164\157\164\141\x6c\137\167\157\156" => $v_FP2, "\150\x6f\165\163\145\x5f\x70\x72\x6f\146\x69\164" => $Z1orQ, "\143\x75\162\162\x65\x6e\x74\x5f\162\164\x70" => round($D470Z, 2), "\164\141\x72\x67\145\164\137\x72\164\160" => $this->PyQmA ?? 75, "\x68\157\165\163\x65\137\160\162\x6f\x66\151\x74\137\160\145\x72\143\x65\156\164\141\147\145" => round($ErI9t, 2), "\167\x69\156\137\x72\141\x74\x65" => round($y76b1, 2), "\x77\x69\x6e\x6e\x65\162\163\x5f\143\157\x75\156\164" => $JUR2r, "\x64\141\171\x73\137\141\x6e\x61\x6c\171\x7a\145\x64" => $GSNRA, "\162\x74\160\137\x73\x74\x61\164\165\x73" => $D470Z > ($this->PyQmA ?? 75) ? "\x61\142\x6f\x76\145\x5f\164\141\x72\x67\x65\164" : "\167\x69\164\x68\151\x6e\137\x74\x61\x72\147\145\164"]; goto h8wdy; ENGc3: $y76b1 = $nWzhS > 0 ? $JUR2r / $nWzhS * 100 : 0; goto qOZpG; EIKfb: $ErI9t = $TCOQG > 0 ? $Z1orQ / $TCOQG * 100 : 0; goto gC7_N; h8wdy: } public function Y06O6() { goto BhxZ6; HMlqO: $FRcBp = max(0, 100 - $Qtgx0); goto MIXjD; MIXjD: return ["\x69\x74\145\155\x73\137\x70\162\157\x62\x61\x62\151\x6c\151\164\171" => $Qtgx0, "\x6c\x6f\163\x73\x5f\160\x72\x6f\142\x61\x62\x69\154\x69\164\171" => $FRcBp, "\x77\x69\156\x5f\x63\150\141\x6e\x63\x65" => $Qtgx0, "\154\157\x73\145\137\143\x68\141\x6e\x63\145" => $FRcBp]; goto qdT85; BhxZ6: $Qtgx0 = $this->NUK6m()->Hy3ob()->ibyMN("\x70\x72\x6f\x62\x61\142\x69\154\x69\x74\171"); goto HMlqO; qdT85: } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Raspadinha extends Model
+{
+    use HasFactory;
+
+    protected $table = 'raspadinhas';
+
+    protected $fillable = [
+        'name',
+        'description',
+        'image',
+        'price',
+        'turbo_price',
+        'is_active',
+        'rtp_percentage',
+        'turbo_boost_percentage',
+    ];
+
+    protected $casts = [
+        'price' => 'decimal:2',
+        'turbo_price' => 'decimal:2',
+        'is_active' => 'boolean',
+        'rtp_percentage' => 'decimal:2',
+        'turbo_boost_percentage' => 'decimal:2',
+    ];
+
+    /**
+     * Relacionamento com os itens da raspadinha
+     */
+    public function items()
+    {
+        return $this->hasMany(RaspadinhaItem::class)->orderBy('position', 'asc');
+    }
+
+    /**
+     * Relacionamento com o histórico de jogadas
+     */
+    public function history()
+    {
+        return $this->hasMany(RaspadinhaHistory::class);
+    }
+
+    /**
+     * Escopo para buscar apenas raspadinhas ativas
+     */
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', true);
+    }
+
+    /**
+     * Accessor para URL da imagem
+     */
+    public function getImageUrlAttribute()
+    {
+        if ($this->image) {
+            return asset('raspadinha/' . $this->image);
+        }
+        return asset('img/raspadinha/default.png');
+    }
+
+    /**
+     * Escopo para buscar raspadinhas mais jogadas
+     */
+    public function scopeMostPlayed($query, $limit = 10)
+    {
+        return $query->active()
+            ->withCount(['history as plays_count'])
+            ->orderBy('plays_count', 'desc')
+            ->limit($limit);
+    }
+
+    /**
+     * Gerar resultado da raspadinha baseado nas probabilidades e RTP da casa
+     * Sistema de RTP: sempre garante margem de lucro para a casa
+     * @param bool $isTurbo Se true, aplica boost nas probabilidades
+     */
+    public function generateResults($isTurbo = false)
+    {
+        $items = $this->items()->active()->get();
+        $results = [];
+        
+        // RTP da casa (configurável por raspadinha, padrão 75%)
+        $rtpPercentage = $this->rtp_percentage ?? 75; // 75% para jogadores, 25% para casa
+        $houseEdge = 100 - $rtpPercentage; // 25% margem da casa
+        
+        // Verificar se deve aplicar controle de RTP
+        $shouldApplyRTP = $this->shouldApplyRTPControl($rtpPercentage);
+        
+        if ($shouldApplyRTP) {
+            // Casa precisa reter mais, forçar derrota
+            $results = $this->generateLosingResults($items);
+            \Log::info("RTP Control Applied - Forced Loss for Raspadinha ID: {$this->id}");
+        } else {
+            // Seguir probabilidades normais
+            $totalItemsProbability = $items->sum('probability');
+            $lossProbability = max(0, 100 - $totalItemsProbability);
+            
+            // Determinar se o jogador vai ganhar ou perder
+            $randomValue = mt_rand(1, 10000) / 100;
+            $willWin = $randomValue > $lossProbability;
+            
+            if ($willWin && $items->count() >= 3) {
+                // JOGADOR VAI GANHAR
+                $winningItem = $this->selectWinningItem($items, $isTurbo);
+                $results = $this->generateWinningResults($winningItem, $items);
+                
+                // Registrar vitória para controle de RTP
+                $this->recordRTPEvent('win', $winningItem->value);
+            } else {
+                // JOGADOR VAI PERDER
+                $results = $this->generateLosingResults($items);
+                
+                // Registrar derrota para controle de RTP
+                $this->recordRTPEvent('loss', 0);
+            }
+        }
+        
+        // Embaralhar os resultados para randomizar posições
+        shuffle($results);
+        
+        return $results;
+    }
+    
+    /**
+     * Verificar se deve aplicar controle de RTP
+     */
+    private function shouldApplyRTPControl($targetRTP)
+    {
+        // Buscar estatísticas dos últimos 100 jogos desta raspadinha
+        $recentGames = \DB::table('raspadinha_history')
+            ->where('raspadinha_id', $this->id)
+            ->where('created_at', '>=', now()->subDays(1)) // Últimas 24 horas
+            ->orderBy('created_at', 'desc')
+            ->limit(100)
+            ->get();
+            
+        if ($recentGames->count() < 20) {
+            // Poucos jogos, não aplicar controle ainda
+            return false;
+        }
+        
+        $totalPaid = $recentGames->sum('amount_paid');
+        $totalWon = $recentGames->sum('amount_won');
+        
+        if ($totalPaid == 0) {
+            return false;
+        }
+        
+        // Calcular RTP atual
+        $currentRTP = ($totalWon / $totalPaid) * 100;
+        
+        // Se RTP atual está acima do target + margem de segurança, aplicar controle
+        $safetyMargin = 5; // 5% de margem de segurança
+        return $currentRTP > ($targetRTP + $safetyMargin);
+    }
+    
+    /**
+     * Registrar evento para controle de RTP
+     */
+    private function recordRTPEvent($type, $value)
+    {
+        // Este método pode ser expandido para logging detalhado se necessário
+        \Log::info("RTP Event - Raspadinha ID: {$this->id}, Type: {$type}, Value: {$value}");
+    }
+
+    /**
+     * Selecionar item vencedor baseado nas probabilidades dos itens
+     * @param bool $isTurbo Se true, aplica boost nas probabilidades
+     */
+    private function selectWinningItem($items, $isTurbo = false)
+    {
+        $turboBoost = $isTurbo ? ($this->turbo_boost_percentage ?? 0) : 0;
+        
+        // Calcular probabilidades com boost se for turbo
+        $adjustedItems = $items->map(function($item) use ($turboBoost) {
+            $adjustedProbability = $item->probability + $turboBoost;
+            // Não permitir probabilidade maior que 100%
+            $adjustedProbability = min($adjustedProbability, 100);
+            
+            return (object)[
+                'item' => $item,
+                'probability' => $adjustedProbability
+            ];
+        });
+        
+        $randomValue = mt_rand(1, 10000) / 100;
+        $currentSum = 0;
+        
+        foreach ($adjustedItems as $adjustedItem) {
+            $currentSum += $adjustedItem->probability;
+            if ($randomValue <= $currentSum) {
+                return $adjustedItem->item;
+            }
+        }
+        
+        // Fallback: retorna o primeiro item se algo der errado
+        return $items->first();
+    }
+
+    /**
+     * Gerar resultados de vitória (3 itens iguais + outros diferentes)
+     */
+    private function generateWinningResults($winningItem, $allItems)
+    {
+        $results = [];
+        
+        // Adicionar 3 itens vencedores
+        for ($i = 0; $i < 3; $i++) {
+            $results[] = $winningItem->id;
+        }
+        
+        // Adicionar 6 itens diferentes (sem repetir o item vencedor)
+        $otherItems = $allItems->where('id', '!=', $winningItem->id);
+        
+        if ($otherItems->count() > 0) {
+            for ($i = 0; $i < 6; $i++) {
+                $randomItem = $otherItems->random();
+                $results[] = $randomItem->id;
+            }
+        } else {
+            // Se não há outros itens, usar itens com valor 0.00 da raspadinha
+            $zeroValueItems = $allItems->where('value', 0.00);
+            
+            if ($zeroValueItems->count() > 0) {
+                for ($i = 0; $i < 6; $i++) {
+                    $zeroItem = $zeroValueItems->first();
+                    $results[] = $zeroItem->id;
+                }
+            } else {
+                // Fallback: usar o primeiro item disponível
+                for ($i = 0; $i < 6; $i++) {
+                    $firstItem = $allItems->first();
+                    $results[] = $firstItem->id;
+                }
+            }
+        }
+        
+        return $results;
+    }
+
+    /**
+     * Gerar resultados de perda (garantir que não há 3 iguais)
+     */
+    private function generateLosingResults($items)
+    {
+        $results = [];
+        $itemCounts = [];
+        
+        // Gerar 9 itens garantindo que nenhum aparece 3 vezes
+        for ($i = 0; $i < 9; $i++) {
+            $availableItems = $items->filter(function($item) use ($itemCounts) {
+                return ($itemCounts[$item->id] ?? 0) < 2; // Máximo 2 de cada item
+            });
+            
+            if ($availableItems->count() == 0) {
+                // Se não há itens disponíveis, usar itens com valor 0.00
+                $zeroValueItems = $items->where('value', 0.00);
+                
+                if ($zeroValueItems->count() > 0) {
+                    $selectedItem = $zeroValueItems->first();
+                } else {
+                    // Fallback: usar qualquer item
+                    $selectedItem = $items->first();
+                }
+            } else {
+                $selectedItem = $availableItems->random();
+            }
+            
+            $itemCounts[$selectedItem->id] = ($itemCounts[$selectedItem->id] ?? 0) + 1;
+            $results[] = $selectedItem->id;
+        }
+        
+        return $results;
+    }
+
+    /**
+     * Calcular prêmio baseado nos resultados (verificar se há 3 iguais)
+     */
+    public function calculatePrize($results)
+    {
+        // Agrupar por ID do item
+        $itemCounts = [];
+        $winningItemId = null;
+        
+        foreach ($results as $itemId) {
+            $itemCounts[$itemId] = ($itemCounts[$itemId] ?? 0) + 1;
+            
+            // Se encontrou 3 iguais, é o item vencedor
+            if ($itemCounts[$itemId] >= 3) {
+                $winningItemId = $itemId;
+                break;
+            }
+        }
+        
+        if ($winningItemId) {
+            $winningItem = $this->items()->where('id', $winningItemId)->first();
+            
+            if ($winningItem) {
+                return [
+                    'has_prize' => true,
+                    'item_id' => $winningItem->id,
+                    'prize_value' => $winningItem->value,
+                    'prize_type' => $winningItem->premio_type,
+                    'prize_description' => $this->getPrizeDescription($winningItem),
+                    'prize_name' => $winningItem->name,
+                    'prize_image' => $winningItem->image_url,
+                    'winning_item' => $winningItem
+                ];
+            }
+        }
+        
+        return [
+            'has_prize' => false,
+            'item_id' => null,
+            'prize_value' => 0,
+            'prize_type' => null,
+            'prize_description' => 'Sem prêmio',
+            'prize_name' => '',
+            'prize_image' => '',
+            'winning_item' => null
+        ];
+    }
+
+    /**
+     * Obter descrição do prêmio baseada no tipo
+     */
+    private function getPrizeDescription($item)
+    {
+        switch ($item->premio_type) {
+            case 'saldo_real':
+                return 'Saldo Real: R$ ' . number_format($item->value, 2, ',', '.');
+            case 'saldo_bonus':
+                return 'Saldo Bônus: R$ ' . number_format($item->value, 2, ',', '.');
+            case 'rodadas_gratis':
+                return $item->value . ' Rodadas Grátis';
+            case 'produto':
+                return 'Produto: ' . ($item->product_description ?: $item->name);
+            default:
+                return $item->name;
+        }
+    }
+
+    /**
+     * Obter estatísticas de RTP atual
+     */
+    public function getRTPStats($days = 7)
+    {
+        $games = \DB::table('raspadinha_history')
+            ->where('raspadinha_id', $this->id)
+            ->where('created_at', '>=', now()->subDays($days))
+            ->get();
+            
+        $totalGames = $games->count();
+        $totalPaid = $games->sum('amount_paid');
+        $totalWon = $games->sum('amount_won');
+        $winners = $games->where('amount_won', '>', 0)->count();
+        
+        $currentRTP = $totalPaid > 0 ? ($totalWon / $totalPaid) * 100 : 0;
+        $winRate = $totalGames > 0 ? ($winners / $totalGames) * 100 : 0;
+        $houseProfit = $totalPaid - $totalWon;
+        $houseProfitPercentage = $totalPaid > 0 ? ($houseProfit / $totalPaid) * 100 : 0;
+        
+        return [
+            'total_games' => $totalGames,
+            'total_paid' => $totalPaid,
+            'total_won' => $totalWon,
+            'house_profit' => $houseProfit,
+            'current_rtp' => round($currentRTP, 2),
+            'target_rtp' => $this->rtp_percentage ?? 75,
+            'house_profit_percentage' => round($houseProfitPercentage, 2),
+            'win_rate' => round($winRate, 2),
+            'winners_count' => $winners,
+            'days_analyzed' => $days,
+            'rtp_status' => $currentRTP > ($this->rtp_percentage ?? 75) ? 'above_target' : 'within_target'
+        ];
+    }
+
+    /**
+     * Obter estatísticas de probabilidade
+     */
+    public function getProbabilityStats()
+    {
+        $totalItemsProbability = $this->items()->active()->sum('probability');
+        $lossProbability = max(0, 100 - $totalItemsProbability);
+        
+        return [
+            'items_probability' => $totalItemsProbability,
+            'loss_probability' => $lossProbability,
+            'win_chance' => $totalItemsProbability,
+            'lose_chance' => $lossProbability
+        ];
+    }
+} 

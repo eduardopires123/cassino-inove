@@ -1,12 +1,66 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXg2\LSSQ3; use WKHUL\qCZCG\EjFUr\uYKSy; use WKhuL\O7mQx\Ux7tu; use WkHUL\n3q0R\wpwae\bpgm5; use NmXg2\LSsq3\f4ho4\Tf8Ml; class Yzl06 extends UyksY { protected $ZYaJD = "\147\x61\164\x65\x77\141\x79\163"; protected $GWg5z = array("\143\154\151\x65\x6e\x74\137\151\x64", "\156\157\155\x65", "\x61\160\151\x5f\x75\162\154", "\x73\145\x63\x72\145\164\137\153\145\171", "\x70\x75\142\154\151\x63\x5f\x63\154\x69\x65\156\164\x69\144\137\153\x65\x79", "\160\x69\x78\153\145\171", "\163\x65\x63\162\x65\164\137\x6b\x65\171\137\141\x63\143\157\x75\x6e\164", "\160\x75\142\154\151\143\x5f\x63\154\x69\x65\x6e\164\x69\x64\x5f\153\145\x79\x5f\141\x63\x63\157\165\156\164", "\141\x63\164\151\x76\145"); protected $attributes = array("\x73\145\x63\162\145\164\137\x6b\145\171" => '', "\160\x75\142\154\151\x63\137\x63\x6c\x69\145\x6e\164\x69\144\137\153\145\x79" => '', "\141\143\164\x69\166\145" => 0); protected static function ffSPG() { parent::s3Ocp(); static::z1Cw0(function (yzl06 $cAL0E) { goto FxH5R; K9wwV: nfWfk: goto nT8My; FxH5R: $HN9bK = BPGm5::Mncz8(); goto bL9Bz; bL9Bz: $GCXo6 = $cAL0E->YbZmi(); goto up2_x; up2_x: unset($GCXo6["\165\160\x64\x61\x74\145\x64\x5f\x61\164"]); goto gcL8Z; gcL8Z: if (empty($GCXo6)) { goto TUs8s; } goto QeHxp; QeHxp: foreach ($GCXo6 as $QCo2j => $djNJl) { goto eD5kX; qfSqD: if ($QCo2j == "\160\165\x62\x6c\x69\x63\137\143\154\151\145\x6e\164\151\144\137\153\145\171") { goto KzKyH; } goto NBa3c; U0T0r: $QCo2j = "\x50\x75\x62\154\151\143\40\x26\x20\103\x6c\x69\145\156\164\40\x49\x64\x20\x4b\145\x79"; goto qu_PT; VOwek: goto w_vRQ; goto HJUNu; NBa3c: goto w_vRQ; goto tQ6gH; NQJ7m: goto w_vRQ; goto bQFAJ; bQFAJ: c2LCf: goto D_bBH; HJUNu: KzKyH: goto U0T0r; FZWuS: iufHG: goto iv9x6; hCsAE: if ($QCo2j == "\163\145\143\x72\145\164\137\x6b\145\171") { goto c2LCf; } goto qfSqD; D_bBH: $QCo2j = "\x53\145\143\x72\x65\164\x20\x4b\145\x79"; goto VOwek; tQ6gH: czNJM: goto CtFsE; eD5kX: $lgXHi = $cAL0E->inZ4v($QCo2j); goto ysOGa; M_3xb: tf8Ml::create(["\165\160\144\x61\164\145\x64\x5f\142\x79" => $HN9bK, "\165\163\x65\162\137\x69\x64" => 0, "\x6c\157\147" => "\107\x61\164\145\x77\x61\171\x73\72\40\x41\x20\143\157\x6c\x75\156\141\40\47{$QCo2j}\x27\40\x64\145\40\x27{$cAL0E->I5u_M}\47\x20\x66\x6f\151\40\x61\154\x74\x65\x72\x61\x64\141\x2e\40\126\141\154\157\x72\40\x6f\162\x69\x67\151\156\x61\x6c\x3a\x20\x27{$lgXHi}\x27\x2c\40\116\x6f\x76\157\40\x76\141\154\x6f\x72\72\x20\47{$djNJl}\x27", "\x74\171\160\x65" => 1]); goto FZWuS; CtFsE: $QCo2j = "\101\x74\x69\x76\141\x64\x6f"; goto NQJ7m; ysOGa: if ($QCo2j == "\141\x63\164\x69\x76\x65") { goto czNJM; } goto hCsAE; qu_PT: w_vRQ: goto M_3xb; iv9x6: } goto K9wwV; nT8My: TUs8s: goto R4PrW; R4PrW: }); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+use App\Models\Admin\Logs;
+
+class Gateways extends Model
+{
+    protected $table = 'gateways';
+
+    protected $fillable = [
+        'client_id',
+        'nome',
+        'api_url',
+        'secret_key',
+        'public_clientid_key',
+        'pixkey',
+        'secret_key_account',
+        'public_clientid_key_account',
+        'active',
+    ];
+
+    // Prevenindo erros com valores nulos
+    protected $attributes = [
+        'secret_key' => '',
+        'public_clientid_key' => '',
+        'active' => 0,
+    ];
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (Gateways $Gateways) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $Gateways->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $Gateways->getOriginal($column);
+
+                    if ($column == 'active') {
+                        $column = "Ativado";
+                    }elseif ($column == 'secret_key') {
+                        $column = "Secret Key";
+                    }elseif ($column == 'public_clientid_key') {
+                        $column = "Public & Client Id Key";
+                    }
+
+                    Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => "Gateways: A coluna '{$column}' de '{$Gateways->nome}' foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                        'type' => 1,
+                    ]);
+                }
+            }
+        });
+    }
+}

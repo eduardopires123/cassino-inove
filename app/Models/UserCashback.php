@@ -1,12 +1,197 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmXg2\lSsQ3; use WkHUL\QCzcG\EjfUR\Q4FQj\JzDkT; use wKhUl\QCZcG\eJfur\UykSy; class Lkcw3 extends uYksy { use jzDkT; protected $ZYaJD = "\165\x73\145\x72\x5f\x63\141\163\x68\142\x61\143\x6b\163"; protected $GWg5z = array("\165\x73\x65\x72\x5f\x69\144", "\x63\x61\x73\x68\142\x61\x63\153\x5f\163\145\164\x74\x69\x6e\147\137\x69\x64", "\164\157\x74\141\x6c\x5f\154\x6f\x73\x73", "\x63\x61\x73\x68\142\x61\143\153\137\141\155\157\x75\156\164", "\160\x65\162\143\145\x6e\164\x61\x67\x65\137\141\x70\160\154\x69\x65\x64", "\x74\x79\160\145", "\163\164\141\164\165\163", "\x73\x74\141\x72\x74\137\x64\141\164\x65", "\145\156\144\137\x64\x61\164\145", "\x63\162\145\x64\151\x74\x65\144\x5f\x61\164", "\145\x78\160\151\162\145\x73\x5f\141\164", "\156\157\164\x65\163"); protected $FPpxl = array("\164\x6f\164\x61\x6c\x5f\x6c\157\163\163" => "\x64\145\x63\151\155\141\x6c\72\62", "\143\x61\163\x68\x62\x61\x63\153\x5f\x61\x6d\x6f\x75\x6e\x74" => "\x64\x65\143\151\155\x61\x6c\x3a\x32", "\160\145\162\143\x65\156\164\x61\147\x65\137\141\x70\160\154\x69\145\x64" => "\144\145\x63\151\x6d\141\154\72\x32", "\163\164\141\162\x74\x5f\x64\141\164\x65" => "\x64\141\164\x65\x74\x69\155\145", "\145\156\x64\x5f\144\x61\x74\145" => "\144\141\x74\x65\164\x69\x6d\x65", "\x63\162\x65\x64\151\164\145\x64\x5f\x61\x74" => "\x64\x61\164\x65\x74\x69\155\x65", "\x65\x78\x70\151\x72\x65\x73\137\x61\x74" => "\x64\x61\164\145\164\151\155\145"); public function NTE8S() { return $this->QWdgz(z6LGL::class); } public function sVYfC() { return $this->qWDGZ(mDOvP::class, "\143\141\x73\x68\142\141\143\x6b\x5f\x73\145\x74\164\x69\156\x67\137\x69\144"); } public function A0X_g() { goto oRpdG; xeCev: $this->status = "\x63\x72\145\x64\151\164\x65\144"; goto MY6NU; aBTzQ: return false; goto l9hbB; FRmeq: $iHdzU = $LgUgh->Hpoum; goto tP05Y; Tp91w: $i_YgQ = $LgUgh->Hpoum; goto xeCev; l9hbB: PsotH: goto jIsz_; Ht8wr: $this->FDPqY(); goto lPhn0; lPhn0: return true; goto GOTZg; j6_sz: \nmxg2\LSSq3\F4ho4\TF8mL::create(["\146\151\145\x6c\x64\137\156\x61\x6d\145" => "\x43\x61\x73\150\x42\x61\143\x6b\40\x2d\x20\125\163\165\141\x72\151\x6f", "\x6f\x6c\x64\x5f\166\x61\154\x75\x65" => $iHdzU, "\x6e\145\167\137\166\x61\x6c\x75\145" => $i_YgQ, "\165\x70\x64\141\164\x65\x64\x5f\x62\171" => BpGm5()->mNcz8() ?? 1, "\x75\x73\x65\x72\x5f\151\x64" => $this->rXheI, "\164\x79\x70\145" => 1, "\x6c\x6f\147" => "\120\x61\147\x61\155\x65\x6e\164\157\40\x64\145\x20\143\141\163\150\x62\x61\x63\x6b\x20\160\x61\x72\x61\40{$this->tt9Q1->name}\x3a\40{$this->HxuUa}\40\55\x20" . $this->DbbzU($this->type)]); goto Ht8wr; MY6NU: $this->fMNaW = o6Q8E(); goto nf7Rl; tP05Y: $LgUgh->Hpoum += $this->HxuUa; goto Tp91w; cn7ku: fjOIg: goto FRmeq; sLq0N: if ($LgUgh) { goto fjOIg; } goto GxspT; H6TH1: $this->save(); goto j6_sz; oRpdG: if (!($this->status !== "\160\x65\156\x64\x69\x6e\147")) { goto PsotH; } goto aBTzQ; nf7Rl: $LgUgh->save(); goto H6TH1; GxspT: return false; goto cn7ku; jIsz_: $LgUgh = $this->tt9Q1->Okd_S; goto sLq0N; GOTZg: } public function DZMs6() { goto k1y9x; BZ00j: M5Eya: goto UgUN_; mSG5_: iNSY6: goto RmMxQ; aXhVZ: $this->save(); goto gqmxF; k1y9x: if (!($this->status !== "\160\x65\156\144\x69\x6e\x67")) { goto M5Eya; } goto S47r3; RmMxQ: return false; goto mJiIW; CBVb3: $this->status = "\145\170\x70\x69\162\x65\144"; goto aXhVZ; S47r3: return false; goto BZ00j; UgUN_: if (!($this->V69eM && o6q8e()->przB8($this->V69eM))) { goto iNSY6; } goto CBVb3; gqmxF: return true; goto mSG5_; mJiIW: } protected static function fFSPg() { parent::FfSpG(); } public function FDpQY() { return; } private function DBBzu($eeYYe, $VTC2c = "\160\164\x5f\142\162") { goto mYwVp; ek6Re: goto symDK; goto cBkB7; rH1Sn: if ($VTC2c === "\x65\x6e") { goto Klj3q; } goto hSpTn; XBpL0: goto symDK; goto Xi6ab; qJ5j6: goto symDK; goto NSM2S; NSM2S: AQbBQ: goto reU7V; Q7S1U: switch ($eeYYe) { case "\x73\160\157\x72\x74\x73": return "\x41\160\157\163\164\x61\x73\40\x45\x73\160\157\x72\164\151\166\x61\163"; case "\166\x69\162\164\x75\x61\x6c": return "\x43\x61\163\163\151\x6e\x6f"; case "\x61\x6c\154": default: return "\x54\x6f\x64\157\x73\40\x6f\x73\40\x4a\157\x67\x6f\163"; } goto zmJnt; xd8sq: GLdDz: goto qJ5j6; reU7V: switch ($eeYYe) { case "\x73\x70\x6f\162\164\163": return "\101\x70\165\145\163\164\141\163\40\104\145\160\x6f\162\x74\x69\x76\x61\x73"; case "\x76\151\x72\x74\165\141\x6c": return "\103\141\x73\151\x6e\x6f"; case "\141\154\x6c": default: return "\124\157\144\157\x73\40\154\157\163\x20\x4a\165\x65\x67\157\x73"; } goto A3yDE; b0xfA: symDK: goto ff_nK; ff_nK: return "\x41\154\x6c\40\107\x61\155\145\163"; goto tzhr5; mYwVp: if ($VTC2c === "\160\164\137\142\162") { goto IwInK; } goto rH1Sn; V2fSg: tFZd4: goto xd8sq; A3yDE: OXIuH: goto bcoOH; zmJnt: pYQT2: goto qOAov; cBkB7: IwInK: goto Q7S1U; bcoOH: FhY08: goto b0xfA; qOAov: Mq7di: goto XBpL0; hSpTn: if ($VTC2c === "\x65\x73") { goto AQbBQ; } goto ek6Re; Xi6ab: Klj3q: goto hTnCh; hTnCh: switch ($eeYYe) { case "\163\x70\x6f\x72\164\x73": return "\x53\x70\157\162\164\x73\x20\102\145\x74\x74\x69\x6e\x67"; case "\166\151\162\164\165\x61\x6c": return "\x43\141\163\151\156\x6f"; case "\141\154\x6c": default: return "\x41\x6c\x6c\x20\107\141\x6d\x65\163"; } goto V2fSg; tzhr5: } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use App\Services\NotificationService;
+
+class UserCashback extends Model
+{
+    use HasFactory;
+
+    protected $table = 'user_cashbacks';
+
+    protected $fillable = [
+        'user_id',
+        'cashback_setting_id',
+        'total_loss',
+        'cashback_amount',
+        'percentage_applied',
+        'type',
+        'status',
+        'start_date',
+        'end_date',
+        'credited_at',
+        'expires_at',
+        'notes'
+    ];
+
+    protected $casts = [
+        'total_loss' => 'decimal:2',
+        'cashback_amount' => 'decimal:2',
+        'percentage_applied' => 'decimal:2',
+        'start_date' => 'datetime',
+        'end_date' => 'datetime',
+        'credited_at' => 'datetime',
+        'expires_at' => 'datetime'
+    ];
+
+    /**
+     * Usuário a quem pertence este cashback
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Configuração de cashback associada
+     */
+    public function setting()
+    {
+        return $this->belongsTo(CashbackSetting::class, 'cashback_setting_id');
+    }
+
+    /**
+     * Aplicar o cashback na conta do usuário
+     * 
+     * @return bool
+     */
+    public function apply()
+    {
+        // Verifica se já foi creditado ou expirado
+        if ($this->status !== 'pending') {
+            return false;
+        }
+
+        // Busca a carteira do usuário
+        $wallet = $this->user->wallet;
+        
+        if (!$wallet) {
+            return false;
+        }
+
+        // Adiciona o valor do cashback ao saldo principal (balance)
+        $oldBalance = $wallet->balance;
+        $wallet->balance += $this->cashback_amount;
+        $newBalance = $wallet->balance;
+        
+        // Atualiza status para creditado e salva a data
+        $this->status = 'credited';
+        $this->credited_at = now();
+        
+        // Salva as mudanças
+        $wallet->save();
+        $this->save();
+        
+        // Registrar o log da operação
+        \App\Models\Admin\Logs::create([
+            'field_name' => 'CashBack - Usuario',
+            'old_value' => $oldBalance,
+            'new_value' => $newBalance,
+            'updated_by' => auth()->id() ?? 1,
+            'user_id' => $this->user_id,
+            'type' => 1,
+            'log' => "Pagamento de cashback para {$this->user->name}: {$this->cashback_amount} - " . $this->getTypeText($this->type)
+        ]);
+        
+        // Enviar notificação para o usuário
+        $this->sendCreditedNotification();
+        
+        return true;
+    }
+
+    /**
+     * Verificar se o cashback expirou
+     * 
+     * @return bool
+     */
+    public function checkExpiration()
+    {
+        if ($this->status !== 'pending') {
+            return false;
+        }
+
+        if ($this->expires_at && now()->gt($this->expires_at)) {
+            $this->status = 'expired';
+            $this->save();
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
+     * Hook para depois de criar um cashback: enviar notificação
+     */
+    protected static function booted()
+    {
+        parent::booted();
+        
+        // Não enviamos mais notificações no momento da criação do cashback
+        // A notificação só será enviada quando o cashback for creditado
+    }
+    
+    /**
+     * Envia notificação quando um cashback é creditado
+     */
+    public function sendCreditedNotification()
+    {
+        try {
+            $notificationService = app(NotificationService::class);
+            
+            if ($this->user) {
+                $formattedAmount = number_format($this->cashback_amount, 2, ',', '.');
+                $typeText = $this->getTypeText($this->type);
+                
+                $data = [
+                    'title_pt_br' => '💰 Cashback Creditado',
+                    'title_en' => '💰 Cashback Credited',
+                    'title_es' => '💰 Cashback Acreditado',
+                    
+                    'content_pt_br' => "Seu cashback de R$ {$formattedAmount} para {$typeText} foi creditado na sua conta. Divirta-se!",
+                    'content_en' => "Your cashback of R$ {$formattedAmount} for {$this->getTypeText($this->type, 'en')} has been credited to your account. Have fun!",
+                    'content_es' => "Tu cashback de R$ {$formattedAmount} para {$this->getTypeText($this->type, 'es')} ha sido acreditado en tu cuenta. ¡Diviértete!",
+                    
+                    'link' => '/wallet'
+                ];
+                
+                $notificationService->sendToUser($this->user->id, $data);
+            }
+        } catch (\Exception $e) {
+            \Illuminate\Support\Facades\Log::error('Erro ao enviar notificação de cashback creditado: ' . $e->getMessage());
+        }
+    }
+    
+    /**
+     * Retorna o texto do tipo de jogo em diferentes idiomas
+     */
+    private function getTypeText($type, $lang = 'pt_br')
+    {
+        if ($lang === 'pt_br') {
+            switch ($type) {
+                case 'sports': return 'Apostas Esportivas';
+                case 'virtual': return 'Cassino';
+                case 'all':
+                default: return 'Todos os Jogos';
+            }
+        } elseif ($lang === 'en') {
+            switch ($type) {
+                case 'sports': return 'Sports Betting';
+                case 'virtual': return 'Casino';
+                case 'all':
+                default: return 'All Games';
+            }
+        } elseif ($lang === 'es') {
+            switch ($type) {
+                case 'sports': return 'Apuestas Deportivas';
+                case 'virtual': return 'Casino';
+                case 'all':
+                default: return 'Todos los Juegos';
+            }
+        }
+        
+        return 'All Games';
+    }
+} 

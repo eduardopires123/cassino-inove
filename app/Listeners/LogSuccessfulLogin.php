@@ -1,12 +1,97 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXG2\Qk5Tb; use WKhUL\BpGM5\v0jYy\zmu5V; use WKHuL\dXT4k\pDpPL\mRYeC; use WKHUl\pDppL\pEWPp; use nmxg2\LSsQ3\GrrSa; use WkhuL\n3q0R\wpWAE\O7mQx; class WCIRI { public function __construct() { } public function Ttbdp(zMu5v $m8gLK) { goto gBMqZ; NnWQ9: $zoOVy = $this->mhTnK($CkCRB); goto Iyy4I; gBMqZ: $CkCRB = uX7TU()->oDr2z(); goto MqjHz; Iyy4I: GrRSa::create(["\165\x73\x65\162\x5f\x69\144" => $m8gLK->tt9Q1->id, "\151\160" => $CkCRB, "\143\x69\164\x79" => $zoOVy["\143\151\x74\171"] ?? null, "\163\x74\141\164\x65" => $zoOVy["\x72\x65\147\151\x6f\x6e"] ?? null, "\143\x6f\165\156\x74\x72\x79" => $zoOVy["\143\x6f\x75\x6e\x74\162\171"] ?? null, "\x6c\141\164" => $zoOVy["\154\x61\164"] ?? null, "\154\x6e\147" => $zoOVy["\154\x6e\x67"] ?? null, "\165\163\145\x72\137\141\147\x65\156\x74" => $NyQs3]); goto aL_jt; MqjHz: $NyQs3 = Ux7Tu()->EMmFn(); goto NnWQ9; aL_jt: } private function MHTNk($CkCRB) { goto AuITp; SQteQ: return ["\143\x69\164\171" => null, "\162\145\x67\151\157\156" => null, "\143\157\165\156\x74\162\x79" => null, "\x6c\x61\164" => null, "\154\x6e\147" => null]; goto LobMv; tNfJR: return ["\143\151\164\x79" => "\114\x6f\143\141\x6c", "\162\145\x67\151\x6f\x6e" => "\104\145\x76", "\143\x6f\165\156\164\x72\171" => "\x42\x52", "\x6c\x61\x74" => "\x2d\62\63\x2e\x35\65\60\x35", "\x6c\x6e\x67" => "\x2d\64\66\x2e\x36\63\63\x33"]; goto YCo9t; AuITp: if (!in_array($CkCRB, ["\x31\62\x37\x2e\60\56\x30\x2e\61", "\72\x3a\x31", "\x6c\x6f\143\x61\154\150\x6f\163\164"])) { goto pa2eY; } goto tNfJR; iKpqH: try { goto iSeiy; rOCon: DfxCP: goto I5Kcz; iSeiy: $WUKJG = o7mqx::get("\x68\164\x74\160\163\x3a\57\x2f\151\x70\141\x70\x69\x2e\143\x6f\57{$CkCRB}\57\152\163\x6f\x6e\x2f"); goto iYRv8; PuR4h: $QmT4B = $WUKJG->QK1st(); goto T_2KC; iYRv8: if (!$WUKJG->xPetY()) { goto DfxCP; } goto PuR4h; T_2KC: return ["\x63\x69\x74\x79" => $QmT4B["\143\151\164\x79"] ?? null, "\162\145\147\x69\x6f\156" => $QmT4B["\x72\145\x67\151\157\156"] ?? null, "\143\x6f\165\x6e\164\162\x79" => $QmT4B["\143\x6f\165\x6e\x74\162\171"] ?? null, "\154\141\164" => $QmT4B["\x6c\x61\164\x69\x74\x75\x64\x65"] ?? null, "\154\156\x67" => $QmT4B["\154\x6f\156\x67\151\164\165\144\x65"] ?? null]; goto rOCon; I5Kcz: } catch (\Exception $BOaI6) { \Log::uwIc8("\105\x72\162\x6f\40\x61\157\x20\157\142\x74\x65\162\40\144\141\x64\x6f\163\40\x64\x65\x20\x67\x65\x6f\x6c\x6f\x63\x61\x6c\x69\x7a\x61\303\xa7\303\243\157\72\40" . $BOaI6->getMessage()); } goto SQteQ; YCo9t: pa2eY: goto iKpqH; LobMv: } }
+
+namespace App\Listeners;
+
+use Illuminate\Auth\Events\Login;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Queue\InteractsWithQueue;
+use App\Models\LoginHistory;
+use Illuminate\Support\Facades\Http;
+
+class LogSuccessfulLogin
+{
+    /**
+     * Create the event listener.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Handle the event.
+     *
+     * @param  \Illuminate\Auth\Events\Login  $event
+     * @return void
+     */
+    public function handle(Login $event)
+    {
+        $ip = request()->ip();
+        $userAgent = request()->userAgent();
+        
+        // Dados de geolocalização (pode ser feito através de um serviço como ipinfo.io)
+        $geoData = $this->getGeoData($ip);
+        
+        // Registra o login
+        LoginHistory::create([
+            'user_id' => $event->user->id,
+            'ip' => $ip,
+            'city' => $geoData['city'] ?? null,
+            'state' => $geoData['region'] ?? null,
+            'country' => $geoData['country'] ?? null,
+            'lat' => $geoData['lat'] ?? null,
+            'lng' => $geoData['lng'] ?? null,
+            'user_agent' => $userAgent
+        ]);
+    }
+    
+    /**
+     * Obtém dados de geolocalização a partir do IP
+     *
+     * @param string $ip
+     * @return array
+     */
+    private function getGeoData($ip)
+    {
+        // Verifica se é um IP local (para desenvolvimento)
+        if (in_array($ip, ['127.0.0.1', '::1', 'localhost'])) {
+            return [
+                'city' => 'Local',
+                'region' => 'Dev',
+                'country' => 'BR',
+                'lat' => '-23.5505',
+                'lng' => '-46.6333'
+            ];
+        }
+
+        try {
+            // Usando API gratuita do ipapi.co (limite de 1000 requisições/dia)
+            // Você pode substituir por outros serviços como ipinfo.io (requer token)
+            $response = Http::get("https://ipapi.co/{$ip}/json/");
+            
+            if ($response->successful()) {
+                $data = $response->json();
+                return [
+                    'city' => $data['city'] ?? null,
+                    'region' => $data['region'] ?? null,
+                    'country' => $data['country'] ?? null,
+                    'lat' => $data['latitude'] ?? null,
+                    'lng' => $data['longitude'] ?? null
+                ];
+            }
+        } catch (\Exception $e) {
+            \Log::error('Erro ao obter dados de geolocalização: ' . $e->getMessage());
+        }
+        
+        // Retorna dados vazios em caso de falha
+        return [
+            'city' => null,
+            'region' => null,
+            'country' => null,
+            'lat' => null,
+            'lng' => null
+        ];
+    }
+} 

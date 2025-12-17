@@ -1,12 +1,136 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmXg2\lssQ3; use WKhuL\qCZCg\eJFUR\Q4FQJ\jzDKt; use wKhul\qcZCG\ejFUr\UYKSY; class NFZHi extends UYksy { use jZDkt; protected $ZYaJD = "\x72\x61\x73\160\141\144\151\156\150\141\137\151\x74\x65\155\163"; protected $GWg5z = array("\x72\141\x73\x70\141\144\151\x6e\x68\141\x5f\x69\x64", "\156\x61\155\145", "\151\155\x61\x67\145", "\166\x61\154\x75\x65", "\160\162\145\x6d\151\157\137\x74\x79\x70\145", "\160\162\x6f\x64\x75\143\x74\x5f\144\145\x73\143\162\151\160\164\151\157\x6e", "\x70\162\x6f\x62\x61\x62\x69\154\151\164\171", "\160\x6f\x73\151\164\x69\157\156", "\151\x73\137\141\143\x74\151\x76\145"); protected $FPpxl = array("\166\x61\x6c\x75\145" => "\x64\145\x63\151\x6d\141\154\x3a\x32", "\160\x72\x6f\x62\x61\x62\151\154\x69\164\x79" => "\144\x65\143\151\155\141\154\72\x32", "\160\x6f\x73\151\x74\151\157\156" => "\x69\x6e\164\145\147\x65\x72", "\151\163\x5f\x61\143\164\151\166\145" => "\142\157\157\x6c\145\x61\x6e"); const DE_Vr = array("\x73\x61\x6c\x64\x6f\137\162\145\x61\x6c" => "\123\141\x6c\x64\x6f\x20\x52\x65\141\154", "\x73\x61\154\144\157\137\142\157\156\165\163" => "\123\x61\x6c\x64\x6f\40\x42\xc3\xb4\156\x75\x73", "\x72\157\144\141\144\x61\163\137\147\x72\x61\x74\151\x73" => "\122\157\x64\x61\x64\x61\163\40\107\x72\303\xa1\x74\x69\x73", "\160\162\x6f\x64\165\164\157" => "\x50\162\x6f\x64\x75\x74\x6f"); public function btMwR() { return $this->QWdgz(vrkWb::class); } public function XS2cp() { return $this->CokSj(dnZ8h::class); } public function WJSMz($k37al) { return $k37al->O_0Mh("\151\163\137\x61\x63\164\151\166\145", true); } public function cLmf1($k37al) { return $k37al->faHyR("\160\x6f\x73\151\x74\151\x6f\156", "\x61\163\x63"); } public function DycYQ() { goto n6K7A; oG4p1: l2FUU: goto q5_aK; Su4DR: return $this->value . "\40\162\157\144\x61\x64\x61\x73\40\147\162\303\241\x74\151\163"; goto oG4p1; BZ63x: if (!($this->DyKx5 === "\x72\157\x64\x61\144\141\x73\137\147\x72\141\x74\151\163")) { goto l2FUU; } goto Su4DR; sfnQ5: DFcQO: goto BZ63x; q5_aK: return "\122\x24\x20" . number_format($this->value, 2, "\x2c", "\56"); goto DYFMh; aVkOZ: return $this->ziCBb ?: "\120\162\157\x64\x75\x74\157"; goto sfnQ5; n6K7A: if (!($this->DyKx5 === "\160\x72\x6f\x64\x75\164\157")) { goto DFcQO; } goto aVkOZ; DYFMh: } public function FvaFO() { goto uVotf; kFQyQ: dnDki: goto kzgbv; uVotf: switch ($this->DyKx5) { case "\163\x61\154\x64\x6f\137\x72\x65\x61\x6c": return "\123\x61\x6c\x64\157\40\122\x65\x61\x6c\x3a\40" . $this->xPZVn; case "\163\x61\x6c\x64\x6f\x5f\142\157\156\165\163": return "\123\x61\154\144\157\40\102\xc3\264\x6e\x75\x73\x3a\40" . $this->xPZVn; case "\162\157\144\141\x64\x61\x73\x5f\x67\x72\x61\x74\151\163": return $this->value . "\x20\122\x6f\x64\141\144\141\x73\x20\107\162\303\241\164\x69\x73"; case "\x70\162\157\x64\165\164\x6f": return "\120\162\x6f\x64\165\164\157\x3a\40" . ($this->ziCBb ?: $this->name); default: return $this->xPZVn; } goto eD2zZ; eD2zZ: lSydT: goto kFQyQ; kzgbv: } public function QkN_W() { return in_array($this->DyKx5, ["\163\141\154\x64\157\137\x72\145\141\x6c", "\x73\x61\154\144\x6f\137\x62\157\x6e\x75\x73"]); } public function qmnXM() { return $this->DyKx5 === "\160\162\157\x64\x75\164\157"; } public function DI85h() { goto kmZcv; kmZcv: if (!$this->oahEP) { goto bXhS9; } goto WVpzf; mKEHF: bXhS9: goto FTrpY; WVpzf: return Y63gY("\x72\x61\163\160\141\144\x69\156\x68\x61\x2f" . $this->oahEP); goto mKEHF; FTrpY: return null; goto r4ruj; r4ruj: } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class RaspadinhaItem extends Model
+{
+    use HasFactory;
+
+    protected $table = 'raspadinha_items';
+
+    protected $fillable = [
+        'raspadinha_id',
+        'name',
+        'image',
+        'value',
+        'premio_type',
+        'product_description',
+        'probability',
+        'position',
+        'is_active',
+    ];
+
+    protected $casts = [
+        'value' => 'decimal:2',
+        'probability' => 'decimal:2',
+        'position' => 'integer',
+        'is_active' => 'boolean',
+    ];
+
+    /**
+     * Tipos de prêmio disponíveis
+     */
+    const PREMIO_TYPES = [
+        'saldo_real' => 'Saldo Real',
+        'saldo_bonus' => 'Saldo Bônus',
+        'rodadas_gratis' => 'Rodadas Grátis',
+        'produto' => 'Produto'
+    ];
+
+    /**
+     * Relacionamento com a raspadinha
+     */
+    public function raspadinha()
+    {
+        return $this->belongsTo(Raspadinha::class);
+    }
+
+    /**
+     * Relacionamento com o histórico
+     */
+    public function history()
+    {
+        return $this->hasMany(RaspadinhaHistory::class);
+    }
+
+    /**
+     * Escopo para buscar apenas itens ativos
+     */
+    public function scopeActive($query)
+    {
+        return $query->where('is_active', true);
+    }
+
+    /**
+     * Escopo para ordenar por posição
+     */
+    public function scopeOrderedByPosition($query)
+    {
+        return $query->orderBy('position', 'asc');
+    }
+
+    /**
+     * Accessor para formatar o valor em moeda brasileira
+     */
+    public function getFormattedValueAttribute()
+    {
+        if ($this->premio_type === 'produto') {
+            return $this->product_description ?: 'Produto';
+        }
+        
+        if ($this->premio_type === 'rodadas_gratis') {
+            return $this->value . ' rodadas grátis';
+        }
+        
+        return 'R$ ' . number_format($this->value, 2, ',', '.');
+    }
+
+    /**
+     * Accessor para descrição do prêmio
+     */
+    public function getPremioDescriptionAttribute()
+    {
+        switch ($this->premio_type) {
+            case 'saldo_real':
+                return 'Saldo Real: ' . $this->formatted_value;
+            case 'saldo_bonus':
+                return 'Saldo Bônus: ' . $this->formatted_value;
+            case 'rodadas_gratis':
+                return $this->value . ' Rodadas Grátis';
+            case 'produto':
+                return 'Produto: ' . ($this->product_description ?: $this->name);
+            default:
+                return $this->formatted_value;
+        }
+    }
+
+    /**
+     * Verifica se o prêmio requer valor monetário
+     */
+    public function requiresMonetaryValue()
+    {
+        return in_array($this->premio_type, ['saldo_real', 'saldo_bonus']);
+    }
+
+    /**
+     * Verifica se o prêmio é um produto
+     */
+    public function isProduct()
+    {
+        return $this->premio_type === 'produto';
+    }
+
+    /**
+     * Accessor para URL da imagem
+     */
+    public function getImageUrlAttribute()
+    {
+        if ($this->image) {
+            return asset('raspadinha/' . $this->image);
+        }
+        return null;
+    }
+} 

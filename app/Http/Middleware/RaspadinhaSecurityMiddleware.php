@@ -1,12 +1,115 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMxg2\o7MqX\nWhUT; use Closure; use wKhUL\o7mqx\uX7TU; use wKHuL\n3q0R\WPWae\UgGj9; use Wkhul\n3q0r\WpwaE\BPgm5; use uggJG\mTELD\TunJp\fygaR; class Lk0p2 { public function TtbdP(uX7tU $sTdSC, Closure $TFRKa) : FYgaR { goto MwNkx; ZCScF: $NaOsS = $sTdSC->Odr2Z(); goto b8RVe; GjO6V: iubTU: goto iH0Za; MwNkx: if (bPgm5::jREBR()) { goto g9mEC; } goto qPpxj; Pevdx: return $TFRKa($sTdSC); goto NcXyY; smtQ1: $e3e3M = bPGm5::NTE8s(); goto gxyoH; NcKqh: return FYgAR()->qk1St(["\x73\165\143\143\145\163\163" => false, "\x6d\145\x73\163\141\147\145" => "\115\x75\151\164\141\163\x20\x74\145\156\164\x61\164\x69\x76\141\x73\x2e\x20\101\x67\165\141\162\144\145\40\x75\x6d\40\155\x6f\155\x65\156\164\157\x2e"], 429); goto ssgwW; ssgwW: Y81SB: goto jDi3A; c6fIP: j3v8S: goto ZoEIP; kKDjc: $E532d[] = $YThlo; goto FSliN; PVhi2: $bTeiD = "\162\141\x73\x70\x61\144\x69\x6e\150\x61\x5f\162\141\x74\145\x5f\x6c\151\x6d\151\x74\x5f\165\163\x65\x72\x5f{$HN9bK}"; goto fGeuy; Xkswq: $CEA9z = "\x72\141\x73\160\x61\144\151\x6e\x68\141\137\154\141\x73\164\137\147\x61\x6d\145\137{$HN9bK}"; goto k96Qs; gFNmt: $OGrVe = array_filter($OGrVe, function ($giGne) use($YThlo) { return $YThlo->snKIM($giGne) <= 60; }); goto VaH4a; O7PSP: if (!(count($E532d) >= 60)) { goto NNHWO; } goto PXdW0; jDi3A: $y6URs = "\x72\141\x73\x70\x61\144\151\x6e\x68\x61\137\x72\141\x74\x65\137\x6c\x69\155\151\x74\137\x69\x70\137{$NaOsS}"; goto xyCfg; k96Qs: $aoDl1 = uGGj9::get($CEA9z); goto G2wWS; ebRr0: if (!($sTdSC->H7yDl("\x72\x61\x73\160\141\144\151\x6e\x68\x61\56\160\154\141\x79") || $sTdSC->H7Ydl("\162\141\163\160\x61\144\151\156\150\141\56\160\x6c\x61\x79\x2d\141\x75\x74\x6f"))) { goto PzpFJ; } goto Xkswq; VaH4a: if (!(count($OGrVe) >= 30)) { goto Y81SB; } goto NcKqh; fGeuy: $OGrVe = UGgj9::get($bTeiD, []); goto gFNmt; HmAtX: NNHWO: goto ebRr0; b8RVe: $YThlo = o6q8e(); goto PVhi2; LEv8N: if (!$sTdSC->h7YdL("\162\x61\163\160\141\144\x69\x6e\150\x61\x2e\143\154\141\x69\155\55\160\162\151\172\x65")) { goto j3v8S; } goto GvZel; iH0Za: uggJ9::AazG_($CEA9z, $YThlo, 60); goto JKTWx; ZoEIP: $OGrVe[] = $YThlo; goto kKDjc; i2FmJ: $E532d = array_filter($E532d, function ($giGne) use($YThlo) { return $YThlo->sNKiM($giGne) <= 60; }); goto O7PSP; qPpxj: return fyGar()->qK1ST(["\163\165\x63\x63\x65\163\x73" => false, "\x6d\x65\x73\x73\x61\147\x65" => "\116\303\243\x6f\40\141\x75\164\145\x6e\x74\151\x63\141\x64\x6f"], 401); goto TtdNV; G2wWS: if (!($aoDl1 && $YThlo->Gcf37($aoDl1) < 500)) { goto iubTU; } goto Vfd4_; Vfd4_: return fygAR()->qK1St(["\x73\x75\x63\143\145\163\163" => false, "\x6d\145\163\163\x61\147\x65" => "\x41\147\x75\141\162\x64\x65\40\165\155\x20\155\157\155\145\156\x74\x6f\x20\141\156\164\145\x73\40\x64\145\40\152\x6f\147\141\x72\40\156\x6f\166\x61\x6d\145\156\x74\x65\x2e"], 429); goto GjO6V; JKTWx: PzpFJ: goto LEv8N; gxyoH: $HN9bK = $e3e3M->id; goto ZCScF; xCoww: uGgJ9::aazg_($y6URs, $E532d, 120); goto Pevdx; TtdNV: g9mEC: goto smtQ1; GvZel: $this->uOFWJ($sTdSC, $HN9bK); goto c6fIP; FSliN: Uggj9::aAzG_($bTeiD, $OGrVe, 120); goto xCoww; PXdW0: return fygaR()->qk1ST(["\x73\165\143\143\x65\x73\163" => false, "\x6d\x65\x73\x73\x61\147\x65" => "\114\x69\x6d\x69\164\x65\40\144\x65\40\x72\x65\161\165\x69\163\151\303\xa7\303\xb5\x65\163\40\x61\x74\151\156\x67\x69\144\157\40\x70\x61\x72\141\x20\145\163\x74\145\x20\x49\120\x2e"], 429); goto HmAtX; xyCfg: $E532d = ugGJ9::get($y6URs, []); goto i2FmJ; NcXyY: } private function UofwJ(uX7tu $sTdSC, int $HN9bK) : void { goto HHhp1; jppIz: Ap7PA: goto Zssgg; pb7Yb: if ($LUMM2) { goto IFh0a; } goto h2nC9; Awcn0: IFh0a: goto ADABB; d9_km: pJP5A(429, "\x4d\x75\151\x74\141\x73\x20\164\145\x6e\x74\141\164\151\x76\x61\x73\x20\144\x65\x20\x72\x65\151\166\151\156\x64\151\143\141\xc3\xa7\303\xa3\x6f\x20\x70\x61\162\141\x20\x65\x73\x74\145\40\152\x6f\x67\157\x2e"); goto jppIz; HHhp1: $LUMM2 = $sTdSC->WY7we("\x68\x69\x73\164\x6f\x72\171\x5f\x69\144"); goto pb7Yb; h2nC9: return; goto Awcn0; ADABB: $Ln6gQ = "\162\x61\x73\160\x61\144\151\156\150\141\137\143\x6c\141\x69\155\x5f\x61\164\164\x65\155\x70\164\x5f{$HN9bK}\137{$LUMM2}"; goto ZgMiE; zoG0Y: if (!($vhZRX >= 5)) { goto Ap7PA; } goto d9_km; Zssgg: uGgj9::AazG_($Ln6gQ, $vhZRX + 1, 300); goto OHBVZ; ZgMiE: $vhZRX = UgGj9::get($Ln6gQ, 0); goto zoG0Y; OHBVZ: } }
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Auth;
+use Symfony\Component\HttpFoundation\Response;
+
+class RaspadinhaSecurityMiddleware
+{
+    /**
+     * Handle an incoming request.
+     */
+    public function handle(Request $request, Closure $next): Response
+    {
+        if (!Auth::check()) {
+            return response()->json(['success' => false, 'message' => 'Não autenticado'], 401);
+        }
+
+        $user = Auth::user();
+        $userId = $user->id;
+        $userIP = $request->ip();
+        $now = now();
+
+        // 1. RATE LIMITING POR USUÁRIO
+        $userKey = "raspadinha_rate_limit_user_{$userId}";
+        $userRequests = Cache::get($userKey, []);
+        
+        // Limpar requests antigos (últimos 60 segundos)
+        $userRequests = array_filter($userRequests, function($timestamp) use ($now) {
+            return $now->diffInSeconds($timestamp) <= 60;
+        });
+
+        // Verificar se excedeu limite (máximo 30 requests por minuto por usuário - permite jogo rápido)
+        if (count($userRequests) >= 30) {
+            return response()->json([
+                'success' => false, 
+                'message' => 'Muitas tentativas. Aguarde um momento.'
+            ], 429);
+        }
+
+        // 2. RATE LIMITING POR IP
+        $ipKey = "raspadinha_rate_limit_ip_{$userIP}";
+        $ipRequests = Cache::get($ipKey, []);
+        
+        // Limpar requests antigos do IP
+        $ipRequests = array_filter($ipRequests, function($timestamp) use ($now) {
+            return $now->diffInSeconds($timestamp) <= 60;
+        });
+
+        // Verificar se IP excedeu limite (máximo 60 requests por minuto por IP - permite múltiplos usuários)
+        if (count($ipRequests) >= 60) {
+            return response()->json([
+                'success' => false, 
+                'message' => 'Limite de requisições atingido para este IP.'
+            ], 429);
+        }
+
+        // 3. VALIDAR INTERVALO MÍNIMO ENTRE JOGADAS (apenas para prevenir spam automático)
+        if ($request->routeIs('raspadinha.play') || $request->routeIs('raspadinha.play-auto')) {
+            $lastGameKey = "raspadinha_last_game_{$userId}";
+            $lastGameTime = Cache::get($lastGameKey);
+            
+            // Reduzido para 0.5 segundos - permite jogo rápido mas previne spam
+            if ($lastGameTime && $now->diffInMilliseconds($lastGameTime) < 500) {
+                return response()->json([
+                    'success' => false, 
+                    'message' => 'Aguarde um momento antes de jogar novamente.'
+                ], 429);
+            }
+            
+            // Registrar tempo da jogada atual
+            Cache::put($lastGameKey, $now, 60); // 1 minuto de cache apenas
+        }
+
+        // 4. VALIDAR SEQUÊNCIA CLAIM-PRIZE (apenas múltiplas tentativas do mesmo claim)
+        if ($request->routeIs('raspadinha.claim-prize')) {
+            $this->validateClaimPrizeSequence($request, $userId);
+        }
+
+        // Registrar request atual
+        $userRequests[] = $now;
+        $ipRequests[] = $now;
+        
+        Cache::put($userKey, $userRequests, 120); // 2 minutos
+        Cache::put($ipKey, $ipRequests, 120); // 2 minutos
+
+        return $next($request);
+    }
+
+    /**
+     * Validar sequência de claim prize
+     */
+    private function validateClaimPrizeSequence(Request $request, int $userId): void
+    {
+        $historyId = $request->input('history_id');
+        
+        if (!$historyId) {
+            return;
+        }
+
+        // Verificar se já foi tentado claim para este history_id
+        $claimKey = "raspadinha_claim_attempt_{$userId}_{$historyId}";
+        $claimAttempts = Cache::get($claimKey, 0);
+        
+        if ($claimAttempts >= 5) {
+            abort(429, 'Muitas tentativas de reivindicação para este jogo.');
+        }
+        
+        // Incrementar contador de tentativas
+        Cache::put($claimKey, $claimAttempts + 1, 300); // 5 minutos
+    }
+} 

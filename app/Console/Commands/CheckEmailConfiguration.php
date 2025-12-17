@@ -1,12 +1,152 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXg2\j6AeU\OPtoW; use WkhUl\j6aeu\Ppy8J; use NMxG2\lSSq3\zkOUZ; use nmxG2\YFC5l\Hkels; use WKhuL\n3q0r\wPwAE\Mail; use WKHUl\n3Q0r\wPwae\CHOr6; class kIVwT extends Ppy8j { protected $kMGjZ = "\x65\155\141\x69\x6c\72\143\150\145\x63\x6b\55\x63\x6f\x6e\x66\151\147"; protected $cR9xw = "\x56\145\162\151\x66\151\143\141\40\145\x20\145\x78\151\142\x65\40\143\x6f\156\x66\x69\147\x75\x72\x61\xc3\xa7\xc3\265\145\163\40\144\x65\x20\x65\155\141\x69\154\x20\144\157\40\x73\151\163\164\x65\155\x61"; public function __construct() { parent::__construct(); } public function TtbDp() { goto gszGC; gszGC: $this->info("\126\x65\x72\x69\x66\x69\143\141\x6e\x64\x6f\x20\x63\x6f\156\x66\151\147\165\x72\x61\303\247\303\xb5\145\163\40\x64\145\x20\x65\155\141\151\x6c\x20\x64\157\40\163\x69\163\164\145\x6d\141\56\56\x2e"); goto gabrG; TNDSl: $this->info("\x56\145\x72\151\146\151\143\x61\303\xa7\xc3\243\157\x20\143\x6f\156\x63\x6c\x75\xc3\255\x64\x61\41"); goto hYgeP; hYgeP: return 0; goto f_Uvs; Ql9Ez: $this->YuKFh(); goto EMoWI; dYe9f: $this->ZxVUM("\x20\40\x20\x20\x20\x20\x20\x50\x61\x72\x61\x20\x65\x76\151\x74\141\x72\x20\x70\x72\157\142\154\145\x6d\x61\163\40\x63\157\x6d\40\163\x65\x72\166\151\303\xa7\x6f\x73\x20\x63\x6f\155\157\40\x42\162\145\x76\157\54\40\x63\x6f\x6e\x73\151\x64\x65\162\x65\40\165\163\141\x72\x20\165\x6d\x20\x65\x6d\x61\x69\x6c\40\x64\157\40\x6d\145\163\155\157\40\x64\x6f\155\303\255\x6e\151\157\56"); goto D_AtZ; uoz0h: goto CpprX; goto VBioB; C4y1q: foreach ($I6GT2 as $wqwax) { $q0hKT[] = [$wqwax->id, $wqwax->name, $wqwax->SHrfV, $wqwax->siXAG ?: "\x4e\x2f\101", $wqwax->NoaH3 ? "\123\151\x6d" : "\116\xc3\xa3\157"]; k1TE7: } goto I98LN; iu_yk: $this->yukFH(); goto zXg7a; lL12R: jNYFr: goto zkXDq; q1spy: $ypsh3 = CHoR6("\141\160\160\x2e\x75\162\154"); goto zwsZV; VBioB: wYv0V: goto zvf5p; RbKyZ: $this->M7ne7(["\103\x68\141\x76\x65", "\126\x61\x6c\x6f\x72"], [["\x6d\141\151\154\56\x66\x72\x6f\155\x2e\141\144\x64\x72\145\163\163", choR6("\155\141\x69\x6c\x2e\x66\x72\x6f\x6d\x2e\x61\x64\144\162\x65\x73\163", "\156\303\xa3\x6f\40\144\145\x66\151\x6e\x69\144\157")], ["\155\x61\151\x6c\56\x66\162\157\x6d\56\156\141\155\145", Chor6("\x6d\141\151\154\56\x66\162\x6f\x6d\x2e\156\141\155\145", "\x6e\303\xa3\x6f\40\x64\145\x66\x69\156\x69\144\157")], ["\141\160\160\x2e\x75\162\x6c", cHOr6("\141\x70\160\x2e\x75\x72\x6c", "\156\xc3\xa3\157\40\x64\x65\146\151\156\151\x64\157")], ["\x61\x70\x70\x2e\x6e\141\155\x65", cHOr6("\141\x70\160\56\x6e\141\155\x65", "\x6e\303\xa3\x6f\40\x64\145\x66\x69\x6e\x69\144\x6f")]]); goto Ql9Ez; o83_g: $this->U9YhH("\40\x20\x20\x20\x20\116\x65\x6e\150\165\155\x20\x74\x65\155\160\154\141\x74\145\40\144\x65\x20\x65\155\141\x69\154\x20\x65\x6e\143\x6f\156\x74\x72\141\144\157\x20\156\157\x20\x62\141\x6e\x63\157\x20\144\145\x20\x64\141\144\157\x73\56"); goto MDSKg; Shavj: $this->U9yhH("\40\x20\40\40\x20\342\232\xa0\40\117\40\x64\157\155\xc3\255\156\151\x6f\x20\144\x6f\x20\x65\155\141\151\x6c\x20\x4e\xc3\x83\117\40\x63\x6f\x72\162\145\x73\x70\157\156\144\145\x20\x61\x6f\x20\144\x6f\x6d\xc3\255\156\151\157\40\x64\141\40\x61\x70\154\151\x63\x61\xc3\247\xc3\243\157\x2e"); goto dYe9f; FFVMp: if ($q3Q0n == $HeIhh) { goto jNYFr; } goto Shavj; JTQso: goto nbnUj; goto gnGzP; SAS36: bABgY: goto v20hM; VE3QO: $this->UWiC8("\40\x20\x20\40\x20\342\234\227\40\105\155\141\151\x6c\40\x64\157\x20\x72\145\155\x65\x74\145\156\164\145\40\x6e\xc3\243\157\x20\143\157\x6e\146\x69\x67\165\162\x61\x64\x6f\40\x28\x4d\101\x49\x4c\137\x46\x52\117\115\x5f\x41\104\104\122\105\x53\123\51\x2e"); goto uoz0h; KrSJ0: $this->U9yhh("\x20\x20\40\40\x20\342\x9a\xa0\40\x4e\303\xa3\x6f\40\146\157\x69\x20\x70\x6f\x73\163\303\xad\166\x65\154\x20\x65\x78\x74\162\141\x69\x72\40\x6f\x20\144\157\x6d\xc3\xad\x6e\x69\x6f\x20\144\157\x20\x41\x50\x50\137\x55\x52\114\x2e"); goto JTQso; dpazG: CpprX: goto HKSS5; pwibw: $q0hKT = []; goto C4y1q; Whwtl: q2M9Y: goto pwibw; u1Kna: $this->m7NE7(["\x49\104", "\x4e\x6f\155\145", "\123\154\165\147", "\111\x44\40\102\162\145\166\x6f", "\101\164\151\x76\x6f"], $q0hKT); goto SAS36; OjIzT: nbnUj: goto dpazG; a48rA: $this->info("\65\x2e\40\x56\x65\x72\x69\146\151\143\141\303\xa7\303\xa3\157\40\x64\145\40\144\x6f\x6d\303\255\156\x69\157\x20\144\x65\40\x65\x6d\x61\151\154\x3a"); goto acEnH; v20hM: $this->yuKFH(); goto a48rA; P6bTk: $this->m7nE7(["\x43\150\141\x76\145", "\x56\x61\154\x6f\x72"], [["\x41\120\x49\40\113\x65\x79", Fm6NL("\102\x52\x45\126\x4f\x5f\x41\x50\111\x5f\x4b\x45\x59") ? substr(Fm6nl("\102\122\x45\x56\x4f\x5f\x41\120\111\x5f\113\x45\x59"), 0, 5) . "\52\52\52\52" : "\156\303\243\x6f\x20\144\145\x66\151\x6e\x69\144\x6f"], ["\x41\x74\151\166\x6f", Fm6NL("\x42\x52\105\126\117\x5f\101\x50\x49\x5f\x4b\x45\131") ? "\x53\x69\x6d" : "\116\303\xa3\x6f"]]); goto iu_yk; W71sQ: $this->info("\x31\56\40\103\x6f\156\146\151\x67\x75\x72\141\303\xa7\303\xb5\145\163\40\x64\x6f\40\56\x65\x6e\166\x3a"); goto LGOv2; zXg7a: $this->info("\64\x2e\x20\124\x65\x6d\x70\x6c\x61\x74\x65\163\x20\144\145\40\x65\155\141\151\154\x20\144\157\x20\142\141\156\143\x6f\40\144\145\x20\144\141\144\157\x73\x3a"); goto emnP7; LGOv2: $this->m7Ne7(["\103\150\x61\166\x65", "\126\x61\154\x6f\162"], [["\115\101\111\x4c\x5f\x4d\x41\x49\114\105\122", fM6Nl("\x4d\101\x49\x4c\x5f\115\x41\111\x4c\x45\122", "\x6e\xc3\243\157\x20\x64\145\146\x69\156\151\x64\157")], ["\115\101\x49\x4c\x5f\x48\117\123\124", fm6nL("\x4d\101\111\x4c\x5f\x48\x4f\x53\124", "\x6e\xc3\xa3\x6f\x20\144\145\146\x69\x6e\151\x64\157")], ["\115\x41\x49\114\x5f\x50\117\122\124", Fm6Nl("\x4d\x41\111\x4c\x5f\x50\x4f\x52\x54", "\x6e\xc3\243\157\40\144\145\146\151\156\x69\x64\157")], ["\115\101\x49\114\137\125\123\105\x52\116\101\115\105", fm6nl("\115\x41\x49\114\x5f\x55\x53\x45\x52\x4e\101\115\x45", "\x6e\xc3\243\157\x20\144\x65\x66\x69\156\x69\144\x6f")], ["\x4d\x41\x49\x4c\x5f\x50\101\x53\123\127\x4f\122\x44", fm6NL("\115\101\111\x4c\x5f\x50\x41\x53\123\x57\117\122\104") ? "\52\52\x2a\52" : "\156\303\243\x6f\x20\x64\145\x66\x69\x6e\x69\144\x6f"], ["\x4d\101\x49\x4c\x5f\105\116\103\x52\x59\120\124\x49\117\x4e", Fm6NL("\x4d\x41\x49\x4c\137\105\116\103\122\x59\x50\x54\111\117\x4e", "\156\303\243\157\x20\x64\x65\146\151\x6e\x69\x64\157")], ["\115\x41\111\114\x5f\x46\122\x4f\115\x5f\x41\x44\104\x52\x45\123\x53", fm6nl("\x4d\101\x49\114\137\x46\122\117\x4d\x5f\x41\x44\104\x52\105\x53\x53", "\x6e\303\243\157\x20\144\145\146\151\156\151\144\157")], ["\x4d\101\x49\114\x5f\106\122\117\115\x5f\116\x41\115\x45", fM6NL("\x4d\101\x49\x4c\x5f\x46\x52\x4f\x4d\x5f\x4e\x41\115\105", "\x6e\xc3\243\x6f\40\144\x65\x66\x69\x6e\x69\144\x6f")], ["\x42\122\x45\126\117\137\x44\x45\106\101\x55\x4c\124\x5f\x44\x4f\115\101\111\116", Fm6Nl("\102\x52\105\x56\x4f\x5f\x44\x45\x46\101\125\114\124\x5f\x44\x4f\115\101\111\x4e", "\156\xc3\243\x6f\x20\x64\145\146\151\x6e\x69\144\157")], ["\x42\x52\105\126\x4f\137\104\111\123\120\x4c\101\x59\137\x4e\x41\x4d\x45", fm6Nl("\x42\x52\105\126\x4f\x5f\x44\111\123\x50\x4c\101\131\x5f\x4e\x41\x4d\x45", "\x6e\303\243\157\x20\144\145\146\x69\156\x69\x64\x6f")], ["\x42\122\x45\x56\117\x5f\x54\105\x4d\x50\x4c\x41\x54\105\137\102\x4f\x41\x53\137\x56\x49\116\x44\101\x53", fM6NL("\x42\x52\105\126\117\137\124\x45\115\x50\114\x41\124\105\x5f\102\x4f\x41\x53\137\126\x49\x4e\x44\x41\x53", "\156\303\243\157\x20\144\x65\x66\151\x6e\x69\144\157")], ["\102\122\x45\126\x4f\137\x54\x45\x4d\x50\114\x41\124\x45\137\x50\x41\x53\x53\x57\x4f\x52\x44\137\122\x45\x53\x45\124", FM6nL("\102\122\x45\x56\117\x5f\x54\x45\x4d\x50\114\101\124\105\137\x50\x41\123\123\x57\x4f\x52\x44\137\x52\105\x53\x45\124", "\x6e\xc3\xa3\x6f\x20\x64\x65\146\151\156\x69\144\157")], ["\102\122\x45\x56\117\x5f\x54\x45\115\x50\x4c\x41\x54\x45\137\126\x45\122\111\106\x49\103\101\x54\111\117\x4e\x5f\x43\x4f\104\105", fm6nL("\x42\122\x45\126\x4f\x5f\x54\x45\x4d\x50\x4c\x41\124\x45\137\x56\x45\x52\x49\x46\111\x43\101\x54\x49\117\x4e\x5f\103\x4f\x44\105", "\x6e\303\xa3\157\40\144\145\x66\x69\x6e\x69\144\157")], ["\101\x50\x50\137\125\x52\x4c", Fm6Nl("\x41\x50\120\137\x55\122\x4c", "\x6e\xc3\243\x6f\x20\144\x65\146\151\156\151\x64\157")]]); goto wWy8Z; EMoWI: $this->info("\63\56\40\103\x6f\x6e\x66\x69\x67\165\x72\141\xc3\xa7\303\243\157\40\144\x61\x20\101\x50\111\40\102\x72\145\x76\157\x3a"); goto P6bTk; I98LN: fPlkS: goto u1Kna; hqVkl: Fshtg: goto OjIzT; RYzmW: if ($I6GT2->count() > 0) { goto q2M9Y; } goto o83_g; gabrG: $this->YUKFH(); goto W71sQ; mb5Bl: goto Fshtg; goto lL12R; zwsZV: $HeIhh = parse_url($ypsh3, PHP_URL_HOST); goto oDWMu; wjLru: if ($HeIhh) { goto nyegS; } goto KrSJ0; wWy8Z: $this->YuKfH(); goto r3koH; yOequ: $this->ZxvuM("\x20\x20\x20\40\x20\x44\x6f\x6d\303\255\x6e\x69\x6f\x20\144\x61\40\141\x70\154\151\143\x61\xc3\247\303\243\157\72\x20{$HeIhh}"); goto FFVMp; D_AtZ: $this->ZxVUM("\x20\x20\40\x20\40\x20\40\x45\x78\145\155\160\154\157\x3a\x20\156\x6f\162\145\x70\x6c\x79\x40{$HeIhh}"); goto mb5Bl; BUUvR: $this->ZXvUm("\x20\x20\40\40\40\x45\155\141\x69\154\x20\144\157\x20\x72\145\x6d\x65\x74\145\x6e\x74\145\x3a\x20{$ra0EZ}"); goto g5_QA; g5_QA: $this->zxvuM("\x20\x20\x20\x20\x20\x44\x6f\155\303\255\x6e\151\157\x20\144\x6f\40\x65\x6d\141\151\x6c\x3a\x20{$q3Q0n}"); goto wjLru; oDWMu: if ($ra0EZ) { goto wYv0V; } goto VE3QO; acEnH: $ra0EZ = chOR6("\155\x61\x69\154\x2e\146\x72\x6f\x6d\56\141\144\144\x72\145\163\163"); goto q1spy; zkXDq: $this->info("\x20\x20\40\40\x20\xe2\x9c\223\x20\117\40\144\x6f\x6d\xc3\xad\156\151\x6f\40\x64\x6f\40\145\x6d\141\x69\x6c\x20\x63\157\162\162\x65\x73\160\x6f\x6e\x64\x65\40\141\x6f\x20\144\157\155\xc3\xad\156\x69\x6f\x20\x64\x61\40\x61\x70\x6c\x69\143\141\xc3\247\xc3\243\157\x2e"); goto hqVkl; r3koH: $this->info("\x32\x2e\x20\x43\157\x6e\146\151\x67\165\162\x61\xc3\xa7\303\xb5\x65\163\40\x64\157\x20\x4c\141\x72\x61\x76\x65\154\72"); goto RbKyZ; gnGzP: nyegS: goto yOequ; MDSKg: goto bABgY; goto Whwtl; zvf5p: $q3Q0n = substr(strrchr($ra0EZ, "\x40"), 1); goto BUUvR; emnP7: $I6GT2 = ZkoUZ::Tlote(); goto RYzmW; HKSS5: $this->YUkfH(); goto TNDSl; f_Uvs: } }
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+use App\Models\EmailTemplate;
+use App\Services\BrevoService;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Config;
+
+class CheckEmailConfiguration extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'email:check-config';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Verifica e exibe configurações de email do sistema';
+
+    /**
+     * Create a new command instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
+     * Execute the console command.
+     *
+     * @return int
+     */
+    public function handle()
+    {
+        $this->info('Verificando configurações de email do sistema...');
+        $this->newLine();
+
+        // Verificar configurações do .env
+        $this->info('1. Configurações do .env:');
+        $this->table(
+            ['Chave', 'Valor'],
+            [
+                ['MAIL_MAILER', env('MAIL_MAILER', 'não definido')],
+                ['MAIL_HOST', env('MAIL_HOST', 'não definido')],
+                ['MAIL_PORT', env('MAIL_PORT', 'não definido')],
+                ['MAIL_USERNAME', env('MAIL_USERNAME', 'não definido')],
+                ['MAIL_PASSWORD', env('MAIL_PASSWORD') ? '****' : 'não definido'],
+                ['MAIL_ENCRYPTION', env('MAIL_ENCRYPTION', 'não definido')],
+                ['MAIL_FROM_ADDRESS', env('MAIL_FROM_ADDRESS', 'não definido')],
+                ['MAIL_FROM_NAME', env('MAIL_FROM_NAME', 'não definido')],
+                ['BREVO_DEFAULT_DOMAIN', env('BREVO_DEFAULT_DOMAIN', 'não definido')],
+                ['BREVO_DISPLAY_NAME', env('BREVO_DISPLAY_NAME', 'não definido')],
+                ['BREVO_TEMPLATE_BOAS_VINDAS', env('BREVO_TEMPLATE_BOAS_VINDAS', 'não definido')],
+                ['BREVO_TEMPLATE_PASSWORD_RESET', env('BREVO_TEMPLATE_PASSWORD_RESET', 'não definido')],
+                ['BREVO_TEMPLATE_VERIFICATION_CODE', env('BREVO_TEMPLATE_VERIFICATION_CODE', 'não definido')],
+                ['APP_URL', env('APP_URL', 'não definido')],
+            ]
+        );
+        $this->newLine();
+
+        // Verificar se as configurações de email do Laravel estão carregadas corretamente
+        $this->info('2. Configurações do Laravel:');
+        $this->table(
+            ['Chave', 'Valor'],
+            [
+                ['mail.from.address', config('mail.from.address', 'não definido')],
+                ['mail.from.name', config('mail.from.name', 'não definido')],
+                ['app.url', config('app.url', 'não definido')],
+                ['app.name', config('app.name', 'não definido')],
+            ]
+        );
+        $this->newLine();
+
+        // Verificar configuração da API Brevo
+        $this->info('3. Configuração da API Brevo:');
+        $this->table(
+            ['Chave', 'Valor'],
+            [
+                ['API Key', env('BREVO_API_KEY') ? substr(env('BREVO_API_KEY'), 0, 5) . '****' : 'não definido'],
+                ['Ativo', env('BREVO_API_KEY') ? 'Sim' : 'Não'],
+            ]
+        );
+        $this->newLine();
+
+        // Listar templates de email do banco de dados
+        $this->info('4. Templates de email do banco de dados:');
+        $templates = EmailTemplate::all();
+        
+        if ($templates->count() > 0) {
+            $templateData = [];
+            foreach ($templates as $template) {
+                $templateData[] = [
+                    $template->id,
+                    $template->name,
+                    $template->slug,
+                    $template->brevo_template_id ?: 'N/A',
+                    $template->is_active ? 'Sim' : 'Não',
+                ];
+            }
+            
+            $this->table(
+                ['ID', 'Nome', 'Slug', 'ID Brevo', 'Ativo'],
+                $templateData
+            );
+        } else {
+            $this->warn('     Nenhum template de email encontrado no banco de dados.');
+        }
+        $this->newLine();
+
+        // Checar domínio de email
+        $this->info('5. Verificação de domínio de email:');
+        $mailFromAddress = config('mail.from.address');
+        $appUrl = config('app.url');
+        $domain = parse_url($appUrl, PHP_URL_HOST);
+        
+        if ($mailFromAddress) {
+            $mailDomain = substr(strrchr($mailFromAddress, "@"), 1);
+            $this->line("     Email do remetente: $mailFromAddress");
+            $this->line("     Domínio do email: $mailDomain");
+            
+            if ($domain) {
+                $this->line("     Domínio da aplicação: $domain");
+                
+                if ($mailDomain == $domain) {
+                    $this->info("     ✓ O domínio do email corresponde ao domínio da aplicação.");
+                } else {
+                    $this->warn("     ⚠ O domínio do email NÃO corresponde ao domínio da aplicação.");
+                    $this->line("       Para evitar problemas com serviços como Brevo, considere usar um email do mesmo domínio.");
+                    $this->line("       Exemplo: noreply@$domain");
+                }
+            } else {
+                $this->warn("     ⚠ Não foi possível extrair o domínio do APP_URL.");
+            }
+        } else {
+            $this->error("     ✗ Email do remetente não configurado (MAIL_FROM_ADDRESS).");
+        }
+        $this->newLine();
+
+        $this->info('Verificação concluída!');
+        
+        return 0;
+    }
+} 

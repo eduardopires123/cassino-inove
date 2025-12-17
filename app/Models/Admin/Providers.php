@@ -1,12 +1,61 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMxg2\lSSq3\F4HO4; use wkhuL\qczCg\EjFUr\UYkSy; use wKhuL\N3q0r\WPWaE\BpgM5; class F1DJx extends uyksY { protected $ZYaJD = "\x70\162\x6f\166\151\144\145\162\163"; protected $GWg5z = array("\156\141\155\x65", "\x70\162\157\x76\x69\x64\145\162\x5f\x6e\x61\x6d\x65", "\x6e\x61\x6d\x65\137\150\157\x6d\x65", "\144\x69\x73\x74\x72\x69\142\165\164\151\x6f\156", "\163\x68\157\x77\x6d\141\x69\156", "\x6f\x72\x64\145\x72\137\166\x61\154\165\145", "\141\x63\x74\151\166\x65", "\151\x6d\x67", "\167\x61\154\x6c\145\x74\x73"); public function n7Xbu() { return $this->COKsj(\nMxG2\lsSq3\a01Ij::class, "\x70\162\x6f\166\151\144\x65\162\x5f\151\144"); } protected static function FFSpG() { parent::s3oCp(); static::z1cW0(function (f1djX $bCl8A) { goto pzx09; k1qsX: foreach ($GCXo6 as $QCo2j => $djNJl) { goto VYU53; u85KN: yiMJT: goto I3rlq; VYU53: $lgXHi = $bCl8A->inZ4v($QCo2j); goto Gzqhh; u7kl6: sDcDb: goto tSDmJ; tSDmJ: $QCo2j = "\101\164\x69\x76\157"; goto u85KN; Gzqhh: if ($QCo2j == "\163\150\x6f\x77\155\141\151\x6e") { goto qW5u3; } goto xVyi2; I3rlq: TF8mL::create(["\x75\x70\x64\141\164\145\x64\137\x62\x79" => $HN9bK, "\165\x73\145\162\137\x69\144" => 0, "\x6c\157\x67" => "\120\162\x6f\166\145\144\157\x72\x65\x73\x3a\x20\101\40\x63\x6f\x6c\165\156\141\40\x27{$QCo2j}\47\x20\x64\145\40\47{$bCl8A->name}\x27\x20\x66\157\151\40\x61\154\x74\145\162\x61\144\141\56\x20\126\x61\x6c\157\162\40\157\x72\x69\x67\x69\x6e\x61\154\x3a\x20\x27{$lgXHi}\x27\x2c\40\116\x6f\x76\x6f\40\166\141\154\x6f\x72\x3a\40\47{$djNJl}\47", "\164\x79\160\x65" => 1]); goto iSOTx; iSOTx: ogt0Z: goto CmIxa; kQIXm: $QCo2j = "\105\x78\x69\142\151\162\40\156\141\x20\110\157\155\145"; goto WdfVb; IiOVO: $QCo2j = "\117\x72\x64\x65\x6d"; goto qFkVz; oN1Oa: qW5u3: goto kQIXm; xVyi2: if ($QCo2j == "\x6f\162\144\x65\x72\137\166\141\154\165\x65") { goto YvsuW; } goto zks0B; mDfUA: YvsuW: goto IiOVO; zks0B: if ($QCo2j == "\x61\x63\x74\151\x76\x65") { goto sDcDb; } goto yNKh3; WdfVb: goto yiMJT; goto mDfUA; yNKh3: goto yiMJT; goto oN1Oa; qFkVz: goto yiMJT; goto u7kl6; CmIxa: } goto oSGKV; NxoWO: $GCXo6 = $bCl8A->YBzmI(); goto GwxLk; oSGKV: Jh07T: goto zvi16; GwxLk: unset($GCXo6["\x75\160\144\x61\164\145\144\137\141\164"]); goto gkbJJ; pzx09: $HN9bK = bpgM5::Mncz8(); goto NxoWO; gkbJJ: if (empty($GCXo6)) { goto NYb2X; } goto k1qsX; zvi16: NYb2X: goto AnCMe; AnCMe: }); } }
+
+namespace App\Models\Admin;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+
+class Providers extends Model
+{
+    protected $table = 'providers';
+
+    protected $fillable = [
+        'name',
+        'provider_name',
+        'name_home',
+        'distribution',
+        'showmain',
+        'order_value',
+        'active',
+        'img',
+        'wallets',
+    ];
+
+    public function games()
+    {
+        return $this->hasMany(\App\Models\GamesApi::class, 'provider_id');
+    }
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (Providers $Providers) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $Providers->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $Providers->getOriginal($column);
+
+                    if ($column == 'showmain') {
+                        $column = "Exibir na Home";
+                    }elseif ($column == 'order_value') {
+                        $column = "Ordem";
+                    }elseif ($column == 'active') {
+                        $column = "Ativo";
+                    }
+
+                    Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => "Provedores: A coluna '{$column}' de '{$Providers->name}' foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                        'type' => 1,
+                    ]);
+                }
+            }
+        });
+    }
+}

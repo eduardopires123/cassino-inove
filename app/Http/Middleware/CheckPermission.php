@@ -1,12 +1,70 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXg2\O7mQX\NwhUt; use NMXG2\LsSQ3\F4ho4\hWOzo; use Closure; use wKhuL\o7MqX\uX7Tu; use NMXG2\lSSQ3\qOywp; class bngIr { public function ttBdP(UX7tU $sTdSC, Closure $TFRKa) { goto h1eNa; vWIxe: if (!($e3e3M->ku75Q == 3)) { goto P9BIC; } goto MzjjC; jdLaw: goto Qrz5J; goto SkSaq; k5qtl: $Y8wP9 = ["\61" => ["\x61\144\x6d\x69\156\x2e\x70\x65\x72\163\157\x6e\x61\154\x69\x7a\x61\x63\141\x6f\56\x62\141\x6e\x6e\145\x72\163", "\141\144\x6d\151\x6e\x2e\160\x65\x72\x73\x6f\156\141\154\x69\172\141\x63\141\x6f\56\155\x65\156\x75", "\x61\x64\x6d\151\x6e\x2e\x70\x65\162\163\x6f\x6e\x61\x6c\x69\172\x61\143\x61\157\x2e\x63\163\x73", "\141\144\155\x69\156\56\x70\x65\162\163\157\156\141\154\151\172\x61\x63\141\157\56\150\x6f\155\145", "\x61\144\x6d\151\156\x2e\146\157\x6f\x74\x65\x72\55\163\145\x74\x74\151\156\x67\163\x2e\145\144\151\164"], "\x32" => ["\x61\144\x6d\151\156\x2e\143\141\x73\x73\x69\156\157\56\160\x72\157\x76\145\144\x6f\x72\x65\163", "\141\144\155\x69\156\x2e\143\141\163\163\151\x6e\157\x2e\x74\157\x64\x6f\163", "\x61\x64\155\x69\x6e\x2e\143\x61\x73\x73\x69\x6e\x6f\x2e\x6a\157\147\157\163\56\144\x61\164\x61", "\141\x64\x6d\x69\156\x2e\143\x61\x73\163\x69\x6e\x6f\x2e\x67\x65\x74\x2d\x70\162\157\x76\x69\x64\x65\x72\x73\x2d\142\171\55\163\x74\141\x74\165\163", "\x61\144\x6d\x69\x6e\x2e\143\141\x73\163\151\156\x6f\56\x70\x61\162\x74\x69\x64\141\163", "\141\x64\x6d\151\156\56\x63\x61\x73\x73\151\156\157\x2e\160\x61\x72\x74\x69\144\141\x73\56\144\141\x74\141", "\141\x64\155\151\x6e\x2e\151\x6d\160\157\162\x74\56\x67\141\155\145\x73"], "\63" => ["\141\x64\x6d\x69\x6e\56\163\x70\x6f\x72\x74\x73\x2e\163\160\157\162\164\163\x5f\141\x70\x6f\163\164\141\x73", "\141\x64\155\151\156\56\x73\160\157\x72\164\x73\56\141\160\157\x73\x74\141\x73\x2e\x64\x61\x74\x61", "\x61\x64\x6d\x69\156\x2e\163\160\x6f\x72\x74\163\56\163\x70\x6f\x72\164\x73\137\145\163\164\141\164\151\163\x74\151\143\141\163", "\141\x64\155\x69\x6e\56\x73\160\x6f\162\x74\163\x2e\163\160\x6f\x72\164\163\x5f\x63\x6f\156\146\151\147\165\162\x61\143\157\145\x73", "\x61\144\155\x69\156\x2e\163\160\157\x72\164\x73\x2e\143\x61\x6d\x70\145\x6f\x6e\141\x74\157\x73\137\157\143\165\x6c\x74\157\163\x2e\144\141\164\x61", "\141\x64\x6d\151\x6e\x2e\163\160\x6f\x72\164\163\56\143\141\x74\145\x67\x6f\x72\x69\x61\x73\137\157\143\x75\154\x74\141\163\56\x64\141\164\141", "\x61\x64\155\151\x6e\x2e\142\x65\164\x62\171\55\x73\x70\157\x72\164\163\x2e\x73\x70\x6f\162\x74\x73\137\141\160\157\x73\x74\141\163", "\x61\x64\155\151\x6e\x2e\142\x65\164\142\x79\55\163\160\x6f\162\164\x73\x2e\x61\x70\157\x73\164\x61\x73\x2e\144\141\164\x61", "\141\x64\x6d\x69\156\56\x62\145\164\142\171\55\163\160\157\x72\x74\x73\56\x61\x70\x6f\x73\x74\141\163\56\163\x74\141\x74\x73", "\x61\x64\x6d\151\156\56\142\x65\x74\142\x79\x2d\163\160\157\162\x74\163\56\x61\x70\157\x73\x74\141\163\56\x64\x65\x74\141\154\150\145\163", "\x61\x64\155\x69\x6e\56\142\x65\x74\142\171\55\x73\x70\x6f\162\x74\x73\56\x73\160\157\x72\x74\x73\x5f\x65\x73\x74\141\x74\151\x73\164\x69\143\141\163"], "\64" => ["\141\x64\155\x69\156\56\160\x61\147\x61\x6d\145\x6e\164\157\163\x2e\144\145\160\x6f\163\x69\164\x6f\163", "\x61\144\x6d\x69\x6e\x2e\x70\x61\147\x61\x6d\145\x6e\164\x6f\163\x2e\144\145\x70\x6f\163\151\164\x6f\163\x2e\x64\141\x74\x61", "\141\144\x6d\151\x6e\56\x70\x61\x67\x61\x6d\x65\x6e\x74\157\x73\x2e\144\145\x70\157\x73\151\x74\x6f\x73\x2e\160\x64\x66", "\141\x64\x6d\x69\156\x2e\x70\141\147\141\x6d\x65\x6e\x74\157\x73\x2e\x73\x61\x71\x75\145\163", "\141\x64\155\151\x6e\x2e\x70\x61\147\141\155\145\156\x74\x6f\x73\56\163\x61\x71\x75\x65\x73\x2e\x64\141\164\141", "\141\x64\155\151\x6e\56\x70\141\147\x61\155\x65\156\x74\157\x73\x2e\163\x61\x71\165\145\x73\56\160\144\x66", "\x61\144\x6d\x69\x6e\56\x70\x61\x67\141\x6d\145\x6e\x74\x6f\x73\x2e\x73\141\x71\x75\x65\x73\137\160\145\x6e\144\145\x6e\164\145\x73", "\141\144\155\x69\156\56\160\141\147\141\155\145\156\164\x6f\x73\56\163\141\161\165\145\163\137\160\x65\x6e\144\145\x6e\164\145\x73\x2e\144\141\x74\x61", "\x61\144\155\151\x6e\56\x70\x61\x67\x61\155\x65\156\x74\x6f\163\56\x73\141\161\165\x65\x73\137\x61\x66\151\x6c\151\x61\144\157\x73", "\x61\x64\155\151\156\x2e\x70\x61\147\141\x6d\145\156\164\x6f\x73\56\x73\x61\161\x75\x65\x73\137\x61\146\151\x6c\x69\x61\x64\157\x73\56\144\141\x74\x61", "\141\x64\155\x69\156\56\x70\x61\147\141\x6d\145\156\164\x6f\x73\x2e\163\x61\x71\x75\145\163\137\141\x66\151\x6c\151\x61\144\x6f\x73\x2e\160\x64\146"], "\65" => ["\141\x64\155\151\x6e\x2e\x75\x73\x75\x61\x72\151\x6f\x73\x2e\165\163\165\x61\x72\x69\x6f\x73", "\141\144\x6d\151\156\56\165\163\x75\x61\x72\151\x6f\x73\56\x75\163\165\x61\x72\x69\157\163\56\x64\141\164\x61", "\141\144\x6d\151\156\56\x75\163\165\141\162\151\x6f\x73\56\x63\x61\x72\x74\145\x69\x72\141\x73", "\141\x64\x6d\x69\x6e\56\x75\x73\165\x61\x72\x69\157\x73\x2e\x63\x61\x72\164\x65\x69\x72\x61\x73\x2e\144\141\x74\x61", "\141\144\155\x69\x6e\56\x75\163\165\x61\x72\151\x6f\163\x2e\x62\154\x61\x63\153\x6c\151\x73\x74", "\x61\144\155\151\x6e\56\x75\x73\165\141\x72\x69\x6f\163\x2e\x62\154\x61\143\153\x6c\x69\163\164\56\x64\x61\164\141", "\x61\x64\155\x69\156\56\165\163\165\141\x72\x69\157\163\56\165\x73\145\162\137\156\145\167\163", "\141\144\155\151\x6e\56\165\163\165\x61\x72\x69\157\163\x2e\165\x73\x65\162\x5f\x6e\145\167\x73\56\x64\x61\164\x61", "\141\144\155\151\x6e\56\165\x73\x75\141\x72\x69\x6f\x73\x2e\x64\x65\163\142\x6c\x6f\x71\165\x65\141\162", "\141\144\155\x69\x6e\x2e\x75\163\165\141\162\151\157\x73\56\x73\145\141\x72\x63\150"], "\66" => ["\x61\x64\155\x69\x6e\56\x61\144\x6d\x69\156\x69\x73\x74\162\x61\143\141\157\x2e\x63\157\156\146\x69\147\165\x72\x61\143\157\x65\x73\x5f\x67\x65\162\141\x69\163", "\141\x64\x6d\x69\x6e\56\141\144\x6d\151\156\x69\163\164\x72\141\x63\x61\x6f\56\142\141\156\143\x6f", "\141\x64\x6d\x69\x6e\56\x61\144\155\x69\156\x69\163\164\162\x61\x63\141\157\x2e\147\x61\164\145\x77\x61\x79\x73", "\x61\x64\155\151\156\56\141\x64\x6d\x69\156\x69\x73\164\162\x61\x63\141\157\56\x61\160\x69\163\147\x61\x6d\145\x73", "\x61\x64\155\x69\156\56\141\144\x6d\x69\x6e\x69\x73\x74\162\141\143\x61\x6f\x2e\146\x75\x6e\x63\x6f\145\163\x65\x70\x65\x72\155\151\x73\163\157\x65\x73", "\141\x64\155\x69\x6e\x2e\143\x6c\x65\x61\x72\x2d\143\141\x63\150\145"], "\x38" => ["\141\x64\x6d\151\156\x2e\x63\141\163\150\142\141\x63\153\56\x69\x6e\144\145\170", "\x61\x64\155\x69\156\x2e\x63\141\163\150\x62\141\143\153\56\165\163\145\162\163", "\141\144\x6d\151\x6e\56\x63\141\x73\x68\142\x61\x63\x6b\56\162\x65\160\157\x72\164", "\163\x65\x74\x74\151\156\x67\163\x2e\144\141\164\141", "\x75\x73\145\162\x73\56\144\x61\x74\141"], "\x39" => ["\141\144\x6d\x69\x6e\56\x61\146\151\154\151\x61\x63\141\157\x2e\141\146\x69\x6c\151\141\x64\x6f\163", "\141\x64\155\x69\x6e\x2e\141\x66\x69\x6c\x69\141\143\141\157\x2e\141\x66\x69\x6c\151\x61\144\x6f\x73\56\144\141\x74\141", "\141\144\x6d\151\x6e\x2e\141\x66\151\154\151\141\143\141\157\x2e\x65\163\x74\x61\164\151\163\x74\151\143\141\x73", "\x61\144\x6d\151\x6e\56\x61\x66\151\154\x69\x61\x63\141\157\56\x67\x65\162\145\x6e\164\x65\163", "\x61\144\155\x69\x6e\x2e\x61\x66\x69\x6c\x69\141\143\x61\157\56\147\145\x72\145\x6e\x74\145\x73\56\x64\x61\164\141", "\x61\x64\155\x69\156\x2e\141\x66\x69\x6c\151\x61\x63\x61\x6f\56\x65\x73\164\x61\x74\151\x73\x74\x69\x63\141\x73\56\x67\145\x72\x65\x6e\164\x65", "\141\144\155\151\156\56\x61\146\x69\x6c\x69\141\143\x61\157\56\x63\157\156\146\151\147"], "\61\60" => ["\141\x64\155\151\156\x2e\154\165\x63\153\x79\55\142\x6f\170\145\163\x2e\151\156\x64\145\170", "\x61\x64\x6d\x69\x6e\56\x6c\165\143\x6b\171\x2d\x62\157\x78\x65\x73\x2e\x72\x65\x64\x65\155\160\164\151\157\x6e\x73\x2e\144\x61\x74\x61", "\x61\144\x6d\x69\x6e\x2e\166\x69\x70\x2d\154\x65\x76\x65\x6c\163\56\151\156\144\145\x78", "\x61\144\x6d\151\156\x2e\166\151\x70\55\x6c\145\166\x65\154\163\56\x72\145\x64\145\155\160\164\151\157\x6e\163\56\x64\x61\164\141", "\x61\144\x6d\151\x6e\56\x63\x6f\165\x70\157\x6e\x73\56\151\156\x64\x65\x78"]]; goto kmOnk; nmQLA: $JPOls = json_decode($gZ8a7->YpMTq, true); goto k5qtl; Eqsry: return $TFRKa($sTdSC); goto jdLaw; tvjhk: $gZ8a7 = hWozo::O_0mh("\165\163\145\x72\x5f\x69\144", $e3e3M->id)->eWfB9(); goto Cr5Qo; ysAEb: return s3X_i()->LL7kM("\141\144\x6d\x69\x6e\56\141\x66\151\x6c\151\x61\143\x61\x6f\56\145\x73\x74\141\164\x69\163\x74\151\143\141\163\56\x67\145\162\x65\x6e\x74\145"); goto G1Jvp; hEpxP: ZzXFT: goto GRFFH; MzjjC: if (!in_array($OuJwy->getName(), $wKtzr)) { goto X8SKT; } goto Eqsry; RAQc_: P9BIC: goto nmQLA; G1Jvp: Qrz5J: goto RAQc_; h1eNa: $OuJwy = $sTdSC->LL7kM(); goto IFkKt; kmOnk: foreach ($Y8wP9 as $VlAhW => $Adc1D) { goto ijQUH; JtJEz: Y_EyU: goto c0i9I; ijQUH: if (!in_array($OuJwy->getName(), $Adc1D)) { goto yQSNr; } goto TixSd; ZW_Yd: s1aHh: goto sX3m5; JoBRD: yQSNr: goto JtJEz; aTqXL: pJP5a(403, "\126\x6f\143\303\252\x20\156\xc3\xa3\x6f\x20\164\145\155\x20\x70\145\162\155\151\x73\163\303\243\x6f\40\x70\141\x72\x61\40\x61\143\145\163\x73\141\x72\40\145\163\x74\141\40\x70\303\241\147\151\156\x61\x2e"); goto TGFbH; TGFbH: goto YkuBx; goto ZW_Yd; sX3m5: YkuBx: goto JoBRD; TixSd: if (isset($JPOls[$VlAhW]) && $JPOls[$VlAhW] == 1) { goto s1aHh; } goto aTqXL; c0i9I: } goto hEpxP; Cr5Qo: $wKtzr = ["\141\x64\155\x69\156\x2e\x61\x66\151\154\x69\141\143\141\157\x2e\145\163\x74\141\164\x69\x73\164\151\143\x61\x73\56\x67\145\162\145\x6e\x74\x65", "\141\144\155\151\x6e\56\x61\x66\x69\154\151\x61\x63\141\x6f\56\141\x66\151\x6c\151\x61\144\x6f\x73", "\x61\144\155\x69\x6e\56\x61\146\151\154\x69\x61\x63\x61\157\x2e\x61\x66\x69\x6c\x69\x61\x64\157\163\56\x64\141\164\141", "\141\x64\155\151\x6e\x2e\x6c\157\x67\157\x75\x74"]; goto vWIxe; SkSaq: X8SKT: goto ysAEb; IFkKt: $e3e3M = BPgM5()->ntE8s(); goto tvjhk; GRFFH: return $TFRKa($sTdSC); goto t6VoW; t6VoW: } }
+
+namespace App\Http\Middleware;
+
+use App\Models\Admin\Permissions;
+use Closure;
+use Illuminate\Http\Request;
+
+use App\Models\DebugLogs;
+
+class CheckPermission
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    public function handle(Request $request, Closure $next)
+    {
+        $route  = $request->route();
+
+        $user   = auth()->user();
+        $User   = Permissions::where('user_id', $user->id)->first();
+
+        $allowedRoutes = [
+            'admin.afiliacao.estatisticas.gerente',
+            'admin.afiliacao.afiliados',
+            'admin.afiliacao.afiliados.data',
+            'admin.logout',
+        ];
+
+        if ($user->is_admin == 3) {
+            if (!in_array($route->getName(), $allowedRoutes)) {
+                return redirect()->route('admin.afiliacao.estatisticas.gerente');
+            }else{
+                return $next($request);
+            }
+        }
+
+        $PermissoesData = json_decode($User->permission, true);
+
+        $areas = [
+            "1" => ['admin.personalizacao.banners', 'admin.personalizacao.menu', 'admin.personalizacao.css', 'admin.personalizacao.home', 'admin.footer-settings.edit'],
+            "2" => ['admin.cassino.provedores', 'admin.cassino.todos', 'admin.cassino.jogos.data', 'admin.cassino.get-providers-by-status', 'admin.cassino.partidas', 'admin.cassino.partidas.data', 'admin.import.games'],
+            "3" => ['admin.sports.sports_apostas', 'admin.sports.apostas.data', 'admin.sports.sports_estatisticas', 'admin.sports-banners.index', 'admin.sports.sports_configuracoes', 'admin.sports.campeonatos_ocultos.data', 'admin.sports.categorias_ocultas.data', 'admin.betby-sports.sports_apostas', 'admin.betby-sports.apostas.data', 'admin.betby-sports.apostas.stats', 'admin.betby-sports.apostas.detalhes', 'admin.betby-sports.sports_estatisticas'],
+            "4" => ['admin.pagamentos.depositos', 'admin.pagamentos.depositos.data', 'admin.pagamentos.depositos.pdf', 'admin.pagamentos.saques', 'admin.pagamentos.saques.data', 'admin.pagamentos.saques.pdf', 'admin.pagamentos.saques_pendentes', 'admin.pagamentos.saques_pendentes.data', 'admin.pagamentos.saques_afiliados', 'admin.pagamentos.saques_afiliados.data', 'admin.pagamentos.saques_afiliados.pdf'],
+            "5" => ['admin.usuarios.usuarios', 'admin.usuarios.usuarios.data', 'admin.usuarios.carteiras', 'admin.usuarios.carteiras.data', 'admin.usuarios.blacklist', 'admin.usuarios.blacklist.data', 'admin.usuarios.user_news', 'admin.usuarios.user_news.data', 'admin.usuarios.desbloquear', 'admin.usuarios.search'],
+            "6" => ['admin.administracao.configuracoes_gerais', 'admin.administracao.banco', 'admin.administracao.gateways', 'admin.administracao.apisgames', 'admin.administracao.funcoesepermissoes', 'admin.logs.logs_edicoes', 'admin.logs.logs_edicoes.data', 'admin.logs.logs_gerais', 'admin.logs.logs_gerais.data', 'admin.platform-update.index', 'admin.clear-cache'],
+            "7" => ['admin.notificacoes.notificacoes', 'admin.notificacoes.data', 'admin.notificacoes.sms.data', 'admin.whatsapp.messages', 'admin.whatsapp.messages.data', 'admin.notificacoes.notificacoes_configuracoes'],
+            "8" => ['admin.cashback.index', 'admin.cashback.users', 'admin.cashback.report', 'settings.data', 'users.data'],
+            "9" => ['admin.afiliacao.afiliados', 'admin.afiliacao.afiliados.data', 'admin.afiliacao.estatisticas', 'admin.afiliacao.gerentes', 'admin.afiliacao.gerentes.data', 'admin.afiliacao.estatisticas.gerente', 'admin.afiliacao.config'],
+            "10" => ['admin.lucky-boxes.index', 'admin.lucky-boxes.redemptions.data', 'admin.vip-levels.index', 'admin.vip-levels.redemptions.data', 'admin.missions.index', 'admin.whatsapp.index', 'admin.coupons.index'],
+        ];
+
+        foreach ($areas as $key => $pages) {
+            if (in_array($route->getName(), $pages)) {
+                if (isset($PermissoesData[$key]) && $PermissoesData[$key] == 1) {
+                    // Permissão concedida, continue carregando a página
+                } else {
+                    // Permissão negada, bloqueie o acesso
+                    abort(403, 'Você não tem permissão para acessar esta página.');
+                }
+            }
+        }
+
+        return $next($request);
+    }
+}

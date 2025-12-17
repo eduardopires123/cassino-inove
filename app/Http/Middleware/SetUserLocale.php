@@ -1,12 +1,79 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmxG2\O7Mqx\NWHuT; use Closure; use wkHUL\O7mQx\Ux7tu; use WKHul\N3Q0R\WPWAe\NmxG2; use WkHUL\N3q0r\wPwae\bpgM5; use WkHUl\n3q0R\WPWAe\gb3ra; class B1VsN { public function TTbDP(ux7tu $sTdSC, Closure $TFRKa) { goto mfr5o; IG_it: return $TFRKa($sTdSC); goto V7YJO; N3d9P: NmxG2::setLocale($dZlwJ); goto IG_it; dcO8g: $z9zMo = "\160\164\x5f\102\x52"; goto fWa60; fWa60: $dZlwJ = $this->v4bHw($sTdSC, $Kz2gj, $z9zMo); goto N3d9P; mfr5o: $Kz2gj = ["\x70\164\137\x42\122", "\x65\156", "\x65\163"]; goto dcO8g; V7YJO: } private function v4bHW(uX7TU $sTdSC, array $Kz2gj, string $z9zMo) : string { goto V_bid; GZ4sX: K73Cr: goto O4et2; PKnBq: if (!(bpGM5::jREBR() && BpGm5::NtE8s()->H1req && in_array(bPgm5::nte8s()->H1req, $Kz2gj))) { goto iLB5b; } goto zguS3; E8iXR: return $z9zMo; goto v8ODE; OPIpL: if (!$DfIxa) { goto K73Cr; } goto tnRFw; O4et2: OygDZ: goto E8iXR; y37b2: $DfIxa = $this->wYI2e($sTdSC, $Kz2gj); goto OPIpL; zguS3: return bPgm5::NtE8S()->H1req; goto pmI10; e7XVJ: RrqYY: goto PKnBq; f6WfZ: if (!$sTdSC->header("\101\143\x63\145\x70\164\x2d\x4c\x61\156\147\x75\141\147\x65")) { goto OygDZ; } goto y37b2; RVrOn: return $sTdSC->CicaC("\x75\x73\x65\x72\137\x6c\x6f\x63\141\154\x65"); goto e7XVJ; pmI10: iLB5b: goto f6WfZ; V_bid: if (!($sTdSC->cICac("\x75\163\145\x72\137\x6c\157\143\141\x6c\145") && in_array($sTdSC->cIcAc("\165\163\145\x72\x5f\x6c\x6f\143\141\154\145"), $Kz2gj))) { goto RrqYY; } goto RVrOn; tnRFw: return $DfIxa; goto GZ4sX; v8ODE: } private function wYi2e(ux7tU $sTdSC, array $Kz2gj) : ?string { goto lpqYS; Khijb: DqzZH: goto mIDUV; XgVfU: HnFdB: goto Khijb; lpqYS: $pQd5a = $sTdSC->f31Ua(["\x70\164\x2d\x42\x52", "\160\x74", "\x65\156", "\x65\163"]); goto lPBwY; lPBwY: switch ($pQd5a) { case "\x70\x74\55\x42\x52": case "\160\164": return in_array("\x70\x74\137\102\x52", $Kz2gj) ? "\160\164\x5f\102\x52" : null; case "\145\156": return in_array("\145\x6e", $Kz2gj) ? "\145\156" : null; case "\x65\x73": return in_array("\145\x73", $Kz2gj) ? "\x65\163" : null; default: return null; } goto XgVfU; mIDUV: } }
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Cookie;
+
+class SetUserLocale
+{
+    /**
+     * Handle an incoming request.
+     */
+    public function handle(Request $request, Closure $next)
+    {
+        $supportedLocales = ['pt_BR', 'en', 'es'];
+        $defaultLocale = 'pt_BR';
+        
+        $locale = $this->determineLocale($request, $supportedLocales, $defaultLocale);
+        
+        // Definir o idioma da aplicação
+        App::setLocale($locale);
+        
+        return $next($request);
+    }
+    
+    /**
+     * Determina o idioma a ser usado baseado na prioridade:
+     * 1. Cookie existente (após troca manual)
+     * 2. Usuário logado (banco de dados)
+     * 3. Accept-Language do browser
+     * 4. Idioma padrão
+     */
+    private function determineLocale(Request $request, array $supportedLocales, string $defaultLocale): string
+    {
+        // 1. Prioridade: Cookie existente (sempre que o usuário escolher manualmente)
+        if ($request->cookie('user_locale') && in_array($request->cookie('user_locale'), $supportedLocales)) {
+            return $request->cookie('user_locale');
+        }
+        
+        // 2. Usuário logado com idioma definido (só se não houver cookie)
+        if (Auth::check() && Auth::user()->language && in_array(Auth::user()->language, $supportedLocales)) {
+            return Auth::user()->language;
+        }
+        
+        // 3. Accept-Language do browser
+        if ($request->header('Accept-Language')) {
+            $browserLocale = $this->getBrowserLocale($request, $supportedLocales);
+            if ($browserLocale) {
+                return $browserLocale;
+            }
+        }
+        
+        // 4. Idioma padrão
+        return $defaultLocale;
+    }
+    
+    /**
+     * Obtém o idioma preferido do browser
+     */
+    private function getBrowserLocale(Request $request, array $supportedLocales): ?string
+    {
+        $browserLang = $request->getPreferredLanguage(['pt-BR', 'pt', 'en', 'es']);
+        
+        switch ($browserLang) {
+            case 'pt-BR':
+            case 'pt':
+                return in_array('pt_BR', $supportedLocales) ? 'pt_BR' : null;
+            case 'en':
+                return in_array('en', $supportedLocales) ? 'en' : null;
+            case 'es':
+                return in_array('es', $supportedLocales) ? 'es' : null;
+            default:
+                return null;
+        }
+    }
+} 

@@ -1,12 +1,61 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxg2\nenop; use WKhUl\B35Fs\nEnoP\zdw2J as KP0Cd; use WKHuL\ZqOsj\aTuL1; use uGGjg\mteLD\CNbMy\Exception\POjlZ; use Throwable; class zDw2J extends KP0Cd { protected $KWiH1 = array("\x63\x75\162\x72\x65\x6e\x74\137\160\141\x73\x73\x77\x6f\162\x64", "\x70\x61\163\x73\x77\157\x72\x64", "\x70\x61\x73\163\x77\157\162\144\x5f\x63\157\156\146\151\162\155\141\x74\x69\157\x6e"); public function g5U0B() : void { goto Gi6pC; NZzv2: $this->k889o(function (PojLZ $BOaI6, $sTdSC) { goto TlcTB; SXu7U: goto no1Ky; goto Dlwqj; Dlwqj: NRVw6: goto dHlwF; kZwnh: return fygaR()->Fck_k("\x65\162\162\157\162\163\56\64\60\x34", [], 404); goto SXu7U; TlcTB: if ($sTdSC->is("\x61\144\x6d\x69\x6e\x2a")) { goto NRVw6; } goto kZwnh; qK4dO: no1Ky: goto YPOo5; dHlwF: return FYgar()->FcK_k("\x61\144\x6d\151\x6e\56\160\141\162\164\x69\141\154\163\56\145\162\162\157\x72\x34\x30\x34", [], 404); goto qK4dO; YPOo5: }); goto RA8sr; g0iPX: $this->K889O(function (ATuL1 $BOaI6, $sTdSC) { goto izp3q; UqFd5: return s3X_i()->HRR18()->w4Xkz("\x65\162\162\157\162", "\123\x75\141\x20\x73\145\x73\x73\303\xa3\x6f\40\145\x78\160\151\x72\x6f\165\56\x20\120\157\162\x20\146\141\166\157\162\x2c\40\x74\145\x6e\x74\145\x20\156\157\166\141\x6d\145\x6e\164\x65\x2e"); goto J0A6B; hlrw1: return FYGaR()->qk1ST(["\155\x65\163\x73\141\x67\145" => "\x53\x75\141\x20\163\x65\163\x73\xc3\xa3\x6f\40\x65\x78\160\151\162\157\165\56\x20\x50\157\162\40\146\x61\x76\157\x72\54\40\141\x74\165\x61\154\x69\x7a\x65\x20\141\x20\x70\xc3\xa1\147\151\x6e\141\x20\145\40\x74\x65\x6e\x74\x65\40\x6e\x6f\x76\141\155\145\156\164\145\56"], 419); goto H9Yer; H9Yer: Z51UM: goto Y28BI; Opq6V: return S3x_i()->ll7km("\154\x6f\147\x69\x6e")->w4xkZ("\145\162\x72\x6f\x72", "\x53\x75\x61\40\163\145\163\163\303\xa3\x6f\40\x65\x78\160\x69\x72\x6f\165\56\x20\120\157\162\x20\x66\x61\x76\x6f\x72\x2c\x20\164\x65\156\x74\145\x20\x6e\x6f\166\141\155\x65\156\164\145\x2e"); goto qB3VC; izp3q: if (!$sTdSC->nSjNb()) { goto Z51UM; } goto hlrw1; Y28BI: if (!($sTdSC->is("\x6c\157\147\x69\x6e") || $sTdSC->is("\162\x65\x67\151\163\164\x72\145\55\x73\x65"))) { goto UY3fQ; } goto Opq6V; qB3VC: UY3fQ: goto UqFd5; J0A6B: }); goto NZzv2; Gi6pC: $this->eET_U(function (Throwable $BOaI6) { }); goto g0iPX; RA8sr: } }
+
+namespace App\Exceptions;
+
+use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Session\TokenMismatchException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
+use Throwable;
+
+class Handler extends ExceptionHandler
+{
+    /**
+     * The list of the inputs that are never flashed to the session on validation exceptions.
+     *
+     * @var array<int, string>
+     */
+    protected $dontFlash = [
+        'current_password',
+        'password',
+        'password_confirmation',
+    ];
+
+    /**
+     * Register the exception handling callbacks for the application.
+     */
+    public function register(): void
+    {
+        $this->reportable(function (Throwable $e) {
+            //
+        });
+
+        // Lidar com erros de CSRF (token mismatch)
+        $this->renderable(function (TokenMismatchException $e, $request) {
+            // Se for uma requisição AJAX, retorne JSON
+            if ($request->expectsJson()) {
+                return response()->json([
+                    'message' => 'Sua sessão expirou. Por favor, atualize a página e tente novamente.'
+                ], 419);
+            }
+
+            // Se for na página de login ou registro, redirecione para login com mensagem
+            if ($request->is('login') || $request->is('registre-se')) {
+                return redirect()->route('login')->with('error', 'Sua sessão expirou. Por favor, tente novamente.');
+            }
+            
+            // Para qualquer outra página, volte para a página anterior com mensagem
+            return redirect()->back()->with('error', 'Sua sessão expirou. Por favor, tente novamente.');
+        });
+
+        // Lidar com erros 404 (página não encontrada)
+        $this->renderable(function (NotFoundHttpException $e, $request) {
+            if ($request->is('admin*')) {
+                // Se a URL começar com 'admin', use o template administrativo
+                return response()->view('admin.partials.error404', [], 404);
+            } else {
+                // Para todas as outras URLs, use o template padrão
+                return response()->view('errors.404', [], 404);
+            }
+        });
+    }
+}

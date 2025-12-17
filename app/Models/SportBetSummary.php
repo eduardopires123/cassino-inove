@@ -1,12 +1,142 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmxG2\lSsQ3; use WkHul\qCzCg\EjFUr\uYKSY; class aE4cw extends uyksy { protected $ZYaJD = "\163\x70\157\x72\x74\142\x65\164\163\x75\x6d\x6d\x61\x72\171"; protected $GWg5z = array("\x70\162\x6f\166\151\144\x65\x72", "\x75\163\x65\x72\137\151\144", "\164\x72\141\156\x73\x61\143\x74\151\157\156\111\x64", "\157\x70\x65\x72\x61\x74\151\x6f\156", "\x64\x65\x64\156", "\x73\164\141\164\x75\x73", "\x73\x74\141\164\165\x73\x65\x6c", "\x72\x65\x61\x73\x6f\156", "\141\x6d\157\x75\156\x74", "\141\155\x6f\x75\156\164\x5f\x77\x69\156", "\x63\141\163\150\x6f\165\164", "\163\x74\141\153\x65", "\164\x72\141\156\x73\x61\143\164\151\x6f\156", "\142\145\164\163\x6c\151\160"); public function Nte8s() { return $this->qWdGz(Z6LGl::class); } public function ndTzY() { return $this->tC_c2 === "\142\x65\x74\142\171"; } public function cziTI() { return $this->tC_c2 === "\144\x69\x67\151\x74\141\x69\156"; } public function UiP0M() { goto vMFMU; A2cZ2: return $this->status === "\x77\151\156"; goto RoU_G; OE084: return $this->KRHQZ === "\x63\x72\145\144\151\164"; goto W2XAH; RoU_G: pXDoa: goto OE084; vMFMU: if (!$this->ndTZy()) { goto pXDoa; } goto A2cZ2; W2XAH: } public function co9qb() { goto g_1HM; aSMaG: return $this->status === "\154\x6f\x73\164"; goto jCnjp; jCnjp: pMNDF: goto ajq0x; g_1HM: if (!$this->nDtZy()) { goto pMNDF; } goto aSMaG; ajq0x: return $this->KRHQZ === "\154\157\x73\145"; goto n__PC; n__PC: } public function Md0Ou() { goto ZB5Mr; ufYaF: return $this->status === "\120\145\156\x64\151\156\x67"; goto pHBxp; AHSjd: return $this->status === "\120\145\x6e\144\151\x6e\x67"; goto xUK6a; ZB5Mr: if (!$this->nDtZY()) { goto yWCG3; } goto AHSjd; xUK6a: yWCG3: goto ufYaF; pHBxp: } public function BE330() { goto jEMRV; JokmS: cNXDe: goto d1D6q; cXg6o: return $this->vAHaV; goto Tu4On; zd09z: return $this->foO_S; goto JokmS; d1D6q: return 0; goto H8DFT; Tu4On: OCWF6: goto wrHon; jEMRV: if (!($this->ndtzy() && $this->UIp0M())) { goto OCWF6; } goto cXg6o; wrHon: if (!($this->czItI() && $this->uIp0M())) { goto cNXDe; } goto zd09z; H8DFT: } public function fq78W($k37al, $DRzEC) { return $k37al->o_0MH("\160\162\157\x76\x69\144\x65\x72", $DRzEC); } public function wbTbm($k37al) { return $k37al->O_0MH(function ($vNib8) { $vNib8->O_0Mh(function ($TnJ_W) { $TnJ_W->O_0mH("\x70\162\x6f\166\151\x64\145\162", "\x62\x65\164\142\x79")->O_0mH("\x73\164\x61\x74\x75\163", "\x77\x69\156"); })->mAkiF(function ($mZj_l) { $mZj_l->o_0mh("\x70\162\x6f\166\151\x64\x65\162", "\x64\x69\x67\151\164\x61\151\x6e")->O_0mh("\157\x70\x65\x72\x61\164\x69\x6f\x6e", "\143\162\x65\x64\151\x74"); }); }); } public function nyE46($k37al) { return $k37al->o_0MH(function ($vNib8) { $vNib8->O_0MH(function ($TnJ_W) { $TnJ_W->o_0mH("\x70\x72\x6f\x76\x69\144\145\162", "\x62\145\x74\142\x79")->O_0MH("\x73\x74\x61\x74\x75\163", "\x6c\157\163\x74"); })->maKIf(function ($mZj_l) { $mZj_l->o_0mH("\x70\162\x6f\x76\151\x64\x65\x72", "\144\151\147\x69\164\x61\x69\156")->o_0MH("\x6f\160\145\x72\141\164\x69\x6f\x6e", "\x6c\x6f\163\145"); }); }); } public function hsU74($k37al) { return $k37al->o_0mh("\163\x74\141\164\165\163", "\120\145\156\x64\x69\156\147"); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class SportBetSummary extends Model
+{
+    protected $table = 'sportbetsummary';
+
+    protected $fillable = [
+        'provider',
+        'user_id',
+        'transactionId',
+        'operation',
+        'dedn',
+        'status',
+        'statusel',
+        'reason',
+        'amount',
+        'amount_win',
+        'cashout',
+        'stake',
+        'transaction',
+        'betslip',
+    ];
+
+    /**
+     * Relacionamento com usuário
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Verifica se é uma aposta do provedor BetBy
+     */
+    public function isBetBy()
+    {
+        return $this->provider === 'betby';
+    }
+
+    /**
+     * Verifica se é uma aposta do provedor Digitain
+     */
+    public function isDigitain()
+    {
+        return $this->provider === 'digitain';
+    }
+
+    /**
+     * Verifica se a aposta foi ganha
+     */
+    public function isWon()
+    {
+        if ($this->isBetBy()) {
+            return $this->status === 'win';
+        }
+        return $this->operation === 'credit';
+    }
+
+    /**
+     * Verifica se a aposta foi perdida
+     */
+    public function isLost()
+    {
+        if ($this->isBetBy()) {
+            return $this->status === 'lost';
+        }
+        return $this->operation === 'lose';
+    }
+
+    /**
+     * Verifica se a aposta está pendente
+     */
+    public function isPending()
+    {
+        if ($this->isBetBy()) {
+            return $this->status === 'Pending';
+        }
+        return $this->status === 'Pending';
+    }
+
+    /**
+     * Obtém o valor do ganho baseado no provedor
+     */
+    public function getWinAmountAttribute()
+    {
+        if ($this->isBetBy() && $this->isWon()) {
+            return $this->amount_win;
+        }
+        if ($this->isDigitain() && $this->isWon()) {
+            return $this->amount;
+        }
+        return 0;
+    }
+
+    /**
+     * Scope para filtrar por provedor
+     */
+    public function scopeProvider($query, $provider)
+    {
+        return $query->where('provider', $provider);
+    }
+
+    /**
+     * Scope para apostas ganhas
+     */
+    public function scopeWon($query)
+    {
+        return $query->where(function($q) {
+            $q->where(function($betby) {
+                $betby->where('provider', 'betby')->where('status', 'win');
+            })->orWhere(function($digitain) {
+                $digitain->where('provider', 'digitain')->where('operation', 'credit');
+            });
+        });
+    }
+
+    /**
+     * Scope para apostas perdidas
+     */
+    public function scopeLost($query)
+    {
+        return $query->where(function($q) {
+            $q->where(function($betby) {
+                $betby->where('provider', 'betby')->where('status', 'lost');
+            })->orWhere(function($digitain) {
+                $digitain->where('provider', 'digitain')->where('operation', 'lose');
+            });
+        });
+    }
+
+    /**
+     * Scope para apostas pendentes
+     */
+    public function scopePending($query)
+    {
+        return $query->where('status', 'Pending');
+    }
+}

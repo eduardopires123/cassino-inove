@@ -1,12 +1,185 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxg2\k79pf; use nMxg2\lSsq3\ae4Cw; use nMXG2\LSSq3\z6lgL; use nMXg2\yFc5l\zMzpP; use WkhUL\n3q0r\WPwaE\Log; class RSbyv { protected $buiA3; public function __construct(zmzpP $fWGmY) { $this->buiA3 = $fWGmY; } public function CKnly(aE4CW $ndjW2) : void { Log::debug("\123\x70\157\x72\x74\x42\145\x74\x4f\x62\x73\x65\x72\166\145\162\x3a\x20\x4e\x6f\x76\x61\x20\141\x70\x6f\x73\164\141\40\145\163\x70\x6f\x72\164\151\x76\141\40\143\x72\x69\141\x64\141", ["\151\x64" => $ndjW2->id, "\x70\x72\x6f\x76\151\x64\x65\x72" => $ndjW2->tC_c2, "\157\x70\x65\162\x61\164\x69\x6f\156" => $ndjW2->KRHQZ, "\x73\x74\x61\x74\x75\x73" => $ndjW2->status, "\165\163\x65\162\x5f\x69\144" => $ndjW2->rXheI, "\141\x6d\157\x75\x6e\164" => $ndjW2->foO_S, "\x74\162\141\156\163\141\143\x74\x69\157\x6e\x49\144" => $ndjW2->Uz5xG]); $this->QJ62X($ndjW2); } public function Z1cW0(Ae4cW $ndjW2) : void { goto L8fwv; DzBVq: HuyEb: goto f5sgh; dvAbn: Log::debug("\123\160\157\x72\164\x42\145\164\117\142\163\x65\x72\x76\145\162\x3a\x20\101\160\157\163\164\141\x20\102\x65\x74\142\x79\40\146\x69\156\141\154\151\x7a\x61\144\x61", ["\151\x64" => $ndjW2->id, "\163\164\141\x74\165\x73\137\x61\156\164\145\x72\x69\157\x72" => $ndjW2->INZ4v("\x73\164\141\x74\165\163"), "\x73\164\141\x74\x75\x73\x5f\x61\164\165\141\x6c" => $ndjW2->status, "\165\163\145\x72\x5f\x69\144" => $ndjW2->rXheI]); goto AJkSG; L8fwv: if ($ndjW2->tC_c2 === "\142\x65\x74\142\171") { goto hJUbL; } goto i4V2Y; WwLey: hJUbL: goto qZa1P; BtawV: $this->QJ62x($ndjW2); goto hXJua; hXJua: U8lvL: goto aRkAR; Jzyps: Log::debug("\123\x70\157\x72\164\x42\x65\x74\x4f\142\163\145\162\x76\145\162\72\40\101\x70\157\x73\x74\x61\x20\x65\x73\160\157\162\164\151\166\141\x20\141\x74\165\x61\x6c\151\172\x61\144\x61", ["\x69\144" => $ndjW2->id, "\x70\162\157\x76\x69\x64\145\162" => $ndjW2->tC_c2, "\163\x74\141\x74\x75\x73\x5f\141\x6e\164\145\x72\x69\x6f\x72" => $ndjW2->Inz4v("\163\164\x61\x74\x75\x73"), "\163\164\x61\x74\x75\163\x5f\141\164\x75\141\x6c" => $ndjW2->status, "\165\x73\x65\162\137\x69\144" => $ndjW2->rXheI]); goto BtawV; AJkSG: Q8rxr: goto DzBVq; aRkAR: goto HuyEb; goto WwLey; i4V2Y: if (!$ndjW2->rT2QN("\x73\164\141\x74\x75\x73")) { goto U8lvL; } goto Jzyps; qZa1P: if (!($ndjW2->rT2qN("\x73\x74\141\x74\x75\163") && in_array($ndjW2->status, ["\167\x69\156", "\x6c\x6f\163\164", "\x64\151\163\143\x61\x72\144"]))) { goto Q8rxr; } goto dvAbn; f5sgh: } protected function QJ62X(ae4Cw $ndjW2) : void { try { goto YLB9l; QVEPi: hfjpq: goto eRIbE; ewxS7: if ($XEqb9) { goto hfjpq; } goto UTmM5; reb6V: if ($e3e3M) { goto FYEnV; } goto dtBrb; DCWBD: $XEqb9 = false; goto TOHAV; hB513: Log::info("\x57\x68\141\x74\163\x41\x70\160\40\156\303\243\157\40\145\x73\x74\303\241\x20\143\x6f\156\145\x63\164\141\x64\x6f\40\x70\x61\x72\x61\40\x65\x6e\x76\x69\141\x72\40\x6e\157\x74\151\146\x69\x63\141\xc3\xa7\xc3\xa3\157\x20\x64\145\x20\x61\x70\157\x73\164\141\40\x65\x73\160\157\162\164\151\166\x61\x20\x23" . $ndjW2->id); goto spFMi; NrmXY: K_jIz: goto IvliN; UTmM5: Log::info("\116\157\164\x69\x66\151\x63\x61\303\247\xc3\243\157\x20\151\147\x6e\157\x72\x61\144\x61\40\x70\x61\162\141\40\141\160\157\x73\x74\141\x20\x65\163\x70\x6f\162\164\x69\x76\x61", ["\x73\x70\x6f\x72\164\x62\x65\164\x5f\x69\x64" => $ndjW2->id, "\160\162\x6f\166\x69\144\x65\x72" => $ndjW2->tC_c2, "\157\x70\x65\x72\x61\164\x69\x6f\x6e" => $ndjW2->KRHQZ, "\x72\x65\141\x73\x6f\156" => "\x4f\x70\x65\x72\141\x74\151\x6f\x6e\x20\156\303\xa3\x6f\40\145\x6c\x65\147\303\255\x76\145\154\x20\x70\x61\162\141\40\x6e\157\164\x69\x66\x69\x63\x61\xc3\xa7\303\xa3\x6f"]); goto qZTbN; xBk8U: Log::debug("\123\160\157\162\x74\x42\145\x74\117\142\x73\x65\162\x76\145\x72\72\40\126\145\162\x69\x66\151\x63\141\303\xa7\303\xa3\x6f\40\157\x75\164\x72\157\x73\40\x70\162\157\166\145\144\157\162\x65\163", ["\x70\162\x6f\166\151\x64\145\x72" => $ndjW2->tC_c2, "\157\160\x65\162\x61\164\x69\157\x6e" => $ndjW2->KRHQZ, "\x73\150\157\165\x6c\144\137\x6e\x6f\x74\x69\146\x79" => $XEqb9]); goto h1rbY; Crmyg: Log::info("\116\157\x74\x69\x66\x69\x63\x61\303\247\303\243\157\x20\144\145\x20\141\160\x6f\x73\x74\141\x20\x65\x73\x70\x6f\162\x74\x69\x76\141\40\x65\156\166\x69\x61\x64\x61\x20\143\157\x6d\x20\163\165\x63\145\x73\x73\157", ["\x73\160\x6f\x72\164\142\145\164\137\151\144" => $ndjW2->id, "\160\162\157\x76\151\x64\x65\162" => $ndjW2->tC_c2, "\x75\163\145\x72\x5f\151\144" => $e3e3M->id, "\141\x6d\157\165\156\x74" => $ndjW2->foO_S, "\157\x70\x65\x72\x61\164\151\157\156" => $ndjW2->KRHQZ]); goto fVMe9; TOHAV: if ($ndjW2->tC_c2 === "\x62\145\x74\x62\171") { goto PwjEn; } goto Iv8pt; Hmv31: X7gBt: goto ewxS7; KzMKz: PwjEn: goto bYDip; spFMi: return; goto NrmXY; qAnAr: goto QtNCz; goto gPA1K; Iv8pt: $XEqb9 = $ndjW2->KRHQZ === "\x64\x65\x62\x69\164"; goto xBk8U; c63B2: Log::debug("\x53\x70\157\x72\164\102\x65\164\117\142\x73\x65\162\x76\x65\x72\72\40\x56\145\162\151\146\151\x63\x61\xc3\xa7\xc3\243\x6f\x20\102\145\x74\142\x79", ["\157\160\x65\162\x61\x74\x69\157\156" => $ndjW2->KRHQZ, "\163\x68\157\165\154\x64\137\156\157\x74\x69\x66\171" => $XEqb9]); goto Hmv31; Wb2nU: if ($this->buiA3->MjRJQ()) { goto K_jIz; } goto hB513; qZTbN: return; goto QVEPi; xOhS6: return; goto kobbT; dCcBk: Log::UWic8("\x46\x61\x6c\x68\141\40\x61\x6f\40\x65\x6e\166\x69\x61\x72\x20\156\157\164\x69\146\x69\x63\x61\xc3\xa7\303\243\x6f\40\x64\145\x20\141\160\x6f\163\x74\x61\40\145\163\160\x6f\162\164\151\x76\x61", ["\x73\x70\x6f\162\164\142\145\x74\137\151\x64" => $ndjW2->id, "\160\x72\157\166\151\144\x65\162" => $ndjW2->tC_c2, "\165\163\145\162\x5f\151\144" => $e3e3M->id, "\x6f\160\145\162\x61\164\x69\157\x6e" => $ndjW2->KRHQZ]); goto qAnAr; fVMe9: QtNCz: goto tT6l5; eRIbE: $rM6KI = $this->buiA3->xFL01($e3e3M, $ndjW2); goto YFnYR; dtBrb: Log::uwic8("\x55\x73\x75\303\241\162\x69\157\40\156\xc3\243\x6f\x20\x65\x6e\x63\x6f\156\x74\x72\x61\144\157\x20\x70\141\x72\141\40\141\x20\141\160\157\x73\x74\141\40\x65\163\x70\x6f\x72\164\x69\x76\x61\x20\43" . $ndjW2->id); goto xOhS6; bYDip: $XEqb9 = $ndjW2->KRHQZ === "\155\141\153\x65"; goto c63B2; IvliN: $e3e3M = Z6LGL::nzway($ndjW2->rXheI); goto reb6V; h1rbY: goto X7gBt; goto KzMKz; kobbT: FYEnV: goto DCWBD; YLB9l: Log::debug("\123\160\157\162\164\x42\145\x74\x4f\142\163\145\x72\x76\x65\162\x3a\x20\x49\x6e\x69\x63\x69\141\156\144\x6f\x20\160\x72\x6f\x63\145\x73\x73\157\x20\x64\x65\x20\156\x6f\x74\x69\x66\x69\x63\x61\xc3\247\xc3\243\157", ["\163\x70\x6f\162\x74\142\x65\164\137\151\144" => $ndjW2->id, "\x70\162\157\x76\x69\x64\145\x72" => $ndjW2->tC_c2, "\x6f\160\145\162\x61\x74\151\157\x6e" => $ndjW2->KRHQZ, "\x73\x74\141\x74\165\163" => $ndjW2->status, "\x75\x73\145\162\x5f\x69\144" => $ndjW2->rXheI]); goto Wb2nU; YFnYR: if ($rM6KI) { goto ecV6R; } goto dCcBk; gPA1K: ecV6R: goto Crmyg; tT6l5: } catch (\Exception $BOaI6) { Log::uWiC8("\x45\x72\162\x6f\40\141\157\x20\x65\x6e\x76\x69\141\x72\40\x6e\157\x74\151\x66\x69\x63\x61\303\247\303\243\x6f\x20\x64\x65\x20\127\x68\141\164\x73\101\x70\x70\x20\x70\x61\162\x61\x20\x61\160\157\163\x74\141\x20\x65\163\160\157\162\164\x69\x76\141\x3a\40" . $BOaI6->getMessage(), ["\163\160\157\162\x74\x62\x65\164\x5f\151\x64" => $ndjW2->id, "\x70\162\x6f\x76\x69\x64\145\x72" => $ndjW2->tC_c2 ?? "\x6e\303\xa3\x6f\x20\x64\x65\x66\x69\156\x69\x64\x6f", "\x6f\x70\145\x72\141\164\x69\x6f\x6e" => $ndjW2->KRHQZ ?? "\156\303\243\x6f\x20\x64\x65\146\x69\x6e\x69\x64\x61", "\145\170\x63\145\160\x74\151\157\x6e" => get_class($BOaI6), "\x66\151\154\145" => $BOaI6->getFile(), "\x6c\151\x6e\x65" => $BOaI6->getLine()]); } } public function LtII8(AE4CW $ndjW2) : void { } public function YKAJd(AE4cW $ndjW2) : void { } public function COWin(AE4cW $ndjW2) : void { } }
+
+namespace App\Observers;
+
+use App\Models\SportBetSummary;
+use App\Models\User;
+use App\Services\WhatsappService;
+use Illuminate\Support\Facades\Log;
+
+class SportBetObserver
+{
+    protected $whatsappService;
+
+    public function __construct(WhatsappService $whatsappService)
+    {
+        $this->whatsappService = $whatsappService;
+    }
+
+    /**
+     * Handle the SportBetSummary "created" event.
+     */
+    public function created(SportBetSummary $sportBet): void
+    {
+        // Log detalhado para debug
+        Log::debug('SportBetObserver: Nova aposta esportiva criada', [
+            'id' => $sportBet->id,
+            'provider' => $sportBet->provider,
+            'operation' => $sportBet->operation,
+            'status' => $sportBet->status,
+            'user_id' => $sportBet->user_id,
+            'amount' => $sportBet->amount,
+            'transactionId' => $sportBet->transactionId
+        ]);
+        
+        $this->notifySportBet($sportBet);
+    }
+
+    /**
+     * Handle the SportBetSummary "updated" event.
+     */
+    public function updated(SportBetSummary $sportBet): void
+    {
+        // Para Betby, notificar apenas na criação (operation = 'make') ou mudança de status importante
+        if ($sportBet->provider === 'betby') {
+            // Para Betby, só notificar se houve mudança de status para resultado final
+            if ($sportBet->isDirty('status') && in_array($sportBet->status, ['win', 'lost', 'discard'])) {
+                Log::debug('SportBetObserver: Aposta Betby finalizada', [
+                    'id' => $sportBet->id,
+                    'status_anterior' => $sportBet->getOriginal('status'),
+                    'status_atual' => $sportBet->status,
+                    'user_id' => $sportBet->user_id
+                ]);
+                // Podemos adicionar aqui notificação de resultado se necessário no futuro
+                // $this->notifySportBetResult($sportBet);
+            }
+        } else {
+            // Para outros provedores, notificar apenas se o status foi alterado
+            if ($sportBet->isDirty('status')) {
+                Log::debug('SportBetObserver: Aposta esportiva atualizada', [
+                    'id' => $sportBet->id,
+                    'provider' => $sportBet->provider,
+                    'status_anterior' => $sportBet->getOriginal('status'),
+                    'status_atual' => $sportBet->status,
+                    'user_id' => $sportBet->user_id
+                ]);
+                $this->notifySportBet($sportBet);
+            }
+        }
+    }
+
+    /**
+     * Enviar notificação sobre a aposta esportiva via WhatsApp
+     */
+    protected function notifySportBet(SportBetSummary $sportBet): void
+    {
+        try {
+            // Log de início do processo de notificação
+            Log::debug('SportBetObserver: Iniciando processo de notificação', [
+                'sportbet_id' => $sportBet->id,
+                'provider' => $sportBet->provider,
+                'operation' => $sportBet->operation,
+                'status' => $sportBet->status,
+                'user_id' => $sportBet->user_id
+            ]);
+            
+            // Verificar se o WhatsApp está conectado
+            if (!$this->whatsappService->isConnected()) {
+                Log::info('WhatsApp não está conectado para enviar notificação de aposta esportiva #' . $sportBet->id);
+                return;
+            }
+
+            $user = User::find($sportBet->user_id);
+            
+            if (!$user) {
+                Log::error('Usuário não encontrado para a aposta esportiva #' . $sportBet->id);
+                return;
+            }
+
+            // Verificar se deve notificar baseado no provider e operation
+            $shouldNotify = false;
+            
+            if ($sportBet->provider === 'betby') {
+                // Para Betby, notificar apenas apostas com operation 'make' (nova aposta)
+                $shouldNotify = ($sportBet->operation === 'make');
+                
+                Log::debug('SportBetObserver: Verificação Betby', [
+                    'operation' => $sportBet->operation,
+                    'should_notify' => $shouldNotify
+                ]);
+            } else {
+                // Para outros provedores, usar a lógica original (operation 'debit')
+                $shouldNotify = ($sportBet->operation === 'debit');
+                
+                Log::debug('SportBetObserver: Verificação outros provedores', [
+                    'provider' => $sportBet->provider,
+                    'operation' => $sportBet->operation,
+                    'should_notify' => $shouldNotify
+                ]);
+            }
+            
+            if (!$shouldNotify) {
+                Log::info('Notificação ignorada para aposta esportiva', [
+                    'sportbet_id' => $sportBet->id,
+                    'provider' => $sportBet->provider,
+                    'operation' => $sportBet->operation,
+                    'reason' => 'Operation não elegível para notificação'
+                ]);
+                return;
+            }
+
+            // Enviar notificação de aposta esportiva
+            $result = $this->whatsappService->sendSportBetNotification($user, $sportBet);
+            
+            if ($result) {
+                Log::info('Notificação de aposta esportiva enviada com sucesso', [
+                    'sportbet_id' => $sportBet->id,
+                    'provider' => $sportBet->provider,
+                    'user_id' => $user->id,
+                    'amount' => $sportBet->amount,
+                    'operation' => $sportBet->operation
+                ]);
+            } else {
+                Log::error('Falha ao enviar notificação de aposta esportiva', [
+                    'sportbet_id' => $sportBet->id,
+                    'provider' => $sportBet->provider,
+                    'user_id' => $user->id,
+                    'operation' => $sportBet->operation
+                ]);
+            }
+        } catch (\Exception $e) {
+            Log::error('Erro ao enviar notificação de WhatsApp para aposta esportiva: ' . $e->getMessage(), [
+                'sportbet_id' => $sportBet->id,
+                'provider' => $sportBet->provider ?? 'não definido',
+                'operation' => $sportBet->operation ?? 'não definida',
+                'exception' => get_class($e),
+                'file' => $e->getFile(),
+                'line' => $e->getLine()
+            ]);
+        }
+    }
+
+    /**
+     * Handle the SportBetSummary "deleted" event.
+     */
+    public function deleted(SportBetSummary $sportBet): void
+    {
+        //
+    }
+
+    /**
+     * Handle the SportBetSummary "restored" event.
+     */
+    public function restored(SportBetSummary $sportBet): void
+    {
+        //
+    }
+
+    /**
+     * Handle the SportBetSummary "force deleted" event.
+     */
+    public function forceDeleted(SportBetSummary $sportBet): void
+    {
+        //
+    }
+} 

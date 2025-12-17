@@ -1,12 +1,70 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmXG2\o7mqX\nWhUT; use Closure; use wkHuL\B35fS\o7MQx\NwhUt\OnrJT as NWhUt; use WKhUl\ZQOSJ\AtuL1; use WKhUl\n3Q0R\WpWAE\Log; class ONRjt extends NwHUT { protected $Ve2Rk = array("\x2f\141\x64\x6d\x69\156\57\x6c\157\x67\151\x6e", "\57\x6c\157\147\x69\156", "\57\x6c\157\x67\157\x75\x74", "\57\x6c\157\147\x6f\x75\x74\55\141\152\x61\x78", "\x2f\x77\x68\55\x70\x61\x79\x2d\x72\x39\164\x34\x6b\x32", "\x2f\x66\x69\x6e\x2d\144\x33\160\55\x6b\x38\156\62", "\x2f\146\151\x6e\x2d\x73\x34\x71\55\x6d\67\170\x31", "\x2f\146\x69\156\55\x73\64\x71\55\141\146\146\55\x70\x32\x72\71", "\x2f\146\x69\156\55\x73\x34\x71\55\142\156\x73\55\152\x35\x74\63", "\57\x67\155\55\145\x78\151\x74\55\x68\x34\x6e\71", "\57\x77\150\55\147\x6d\x2d\x78\67\153\x39\x6d\62\x2f\52", "\x2f\x61\160\x69\55\147\155\x2d\x78\65\x68\x39\167\x32\57\52", "\57\x62\x6f\x6f\153\151\145\167\x69\x73\145\x61\160\x69\x2f\x2a", "\57\x62\x65\164\142\x79\57\x63\x61\x6c\154\142\141\143\x6b\x2f\52", "\57\163\x70\157\x72\164\163\57\x74\157\x6b\x65\156\57\162\x65\146\162\145\x73\150", "\57\x62\145\164\142\x79\x2f\x74\157\153\145\x6e\57\162\x65\x66\162\x65\x73\x68"); public function ttbDp($sTdSC, Closure $TFRKa) { try { return parent::TtbDP($sTdSC, $TFRKa); } catch (AtUl1 $BOaI6) { goto wIbO3; T2OPn: if (!$sTdSC->nSJnB()) { goto aa4Vc; } goto vAHo3; oIGrB: $sTdSC->fuy0U()->YbnR2(); goto T2OPn; wIbO3: Log::xYWNk("\103\123\122\106\40\164\x6f\x6b\x65\x6e\40\x6d\151\163\155\141\x74\143\150", ["\151\160" => $sTdSC->odR2Z(), "\x75\x73\145\162\137\141\x67\x65\156\164" => $sTdSC->header("\x55\163\x65\162\55\101\x67\x65\x6e\164"), "\x70\x61\x74\150" => $sTdSC->sTyTc()]); goto oIGrB; vAHo3: return fygAr()->qk1St(["\x6d\145\163\163\x61\x67\145" => "\123\x65\x73\x73\xc3\xa3\157\x20\145\x78\x70\x69\162\x61\x64\141\56\40\120\x6f\162\40\146\141\x76\x6f\x72\x2c\40\x72\x65\x63\141\162\x72\145\147\x75\x65\40\x61\40\160\xc3\241\x67\x69\x6e\x61\40\x65\40\x74\145\156\164\x65\x20\156\157\x76\141\155\145\156\164\145\x2e", "\x63\163\162\x66\x5f\145\162\x72\157\x72" => true, "\x6e\145\x77\x5f\x74\x6f\153\145\156" => RTUcW()], 419); goto U7bXK; U7bXK: aa4Vc: goto uWyp5; uWyp5: return S3x_I()->HRr18()->rmuBi($sTdSC->Su61g("\x70\141\x73\163\167\x6f\162\144"))->w4XkZ("\145\162\x72\157\162", "\123\x65\x73\163\303\xa3\x6f\x20\x65\x78\160\151\162\141\144\141\x2e\40\120\x6f\162\x20\146\x61\166\157\x72\x2c\x20\x74\x65\x6e\x74\x65\x20\156\157\166\141\155\x65\x6e\164\x65\56"); goto OkH0C; OkH0C: } } }
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as Middleware;
+use Illuminate\Session\TokenMismatchException;
+use Illuminate\Support\Facades\Log;
+
+class VerifyCsrfToken extends Middleware
+{
+    /**
+     * Os URIs que devem ser excluídos da verificação CSRF.
+     *
+     * @var array<int, string>
+     */
+    protected $except = [
+        '/admin/login',
+        '/login',
+        '/logout',
+        '/logout-ajax',
+        '/callback',
+        '/PagPix',
+        '/tbs2api/webhook/',
+        '/playfiver/webhook/',
+        '/bookiewiseapi/*',
+        '/paxpay/callback',
+        '/outgame',
+        '/primepag/callback',
+        '/betby/callback/*',
+        '/inoveplay/*',
+        '/sports/token/refresh',
+        '/betby/token/refresh',
+    ];
+
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    public function handle($request, Closure $next)
+    {
+        try {
+            return parent::handle($request, $next);
+        } catch (TokenMismatchException $e) {
+            Log::warning('CSRF token mismatch', [
+                'ip' => $request->ip(),
+                'user_agent' => $request->header('User-Agent'),
+                'path' => $request->path(),
+            ]);
+
+            // Regenerar token CSRF
+            $request->session()->regenerateToken();
+
+            if ($request->expectsJson()) {
+                return response()->json([
+                    'message' => 'Sessão expirada. Por favor, recarregue a página e tente novamente.',
+                    'csrf_error' => true,
+                    'new_token' => csrf_token()
+                ], 419);
+            }
+
+            return redirect()->back()
+                ->withInput($request->except('password'))
+                ->with('error', 'Sessão expirada. Por favor, tente novamente.');
+        }
+    }
+}

@@ -1,12 +1,67 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxG2\LSSQ3; use WkHUl\QczcG\EjfuR\uYKsY; use WKHUL\n3q0r\wpWAE\bPGm5; class yaWfC extends uYKSY { protected $ZYaJD = "\155\145\x6e\165\137\x69\164\145\x6d\163"; protected $GWg5z = array("\151\x64", "\151\144\x5f\143\154\x69\145\x6e\164\x65", "\x63\141\164\x65\147\157\x72\x69\141", "\156\x6f\155\145", "\x73\x6c\x75\147", "\157\162\144\x65\155", "\151\143\157\x6e\145", "\154\x69\x6e\x6b", "\141\x63\164\x69\x76\x65"); protected static function FFSpG() { parent::S3ocP(); static::z1Cw0(function (YaWfc $jUKOf) { goto vf652; D209x: if (empty($GCXo6)) { goto ozcvG; } goto Au62E; PJYAJ: $GCXo6 = $jUKOf->yBzMI(); goto omgAj; nIV20: ozcvG: goto CzONd; omgAj: unset($GCXo6["\165\160\x64\141\x74\145\x64\137\141\164"]); goto D209x; vyXkX: uF3NA: goto nIV20; vf652: $HN9bK = bPgm5::MNCz8(); goto PJYAJ; Au62E: foreach ($GCXo6 as $QCo2j => $djNJl) { goto X0JE2; zhP5k: goto QU6qx; goto czHe1; czHe1: MFXwo: goto ly363; rdLiG: $QCo2j = "\117\162\x64\145\x6d"; goto VeL6q; aC2IA: if ($QCo2j == "\156\157\x6d\x65") { goto MFXwo; } goto m2Uph; AHOSR: goto QU6qx; goto I1tEg; m2Uph: if ($QCo2j == "\x6f\x72\x64\145\x6d") { goto ClhHA; } goto Gl8i5; OBJtJ: $QCo2j = "\101\164\x69\x76\157"; goto n35tE; r6Ar_: G4JSx: goto OqOH3; eiiBC: ikWsA: goto xD5zm; xD5zm: $QCo2j = "\x43\x61\x74\x65\x67\157\x72\x69\141"; goto zhP5k; bzQNV: if ($QCo2j == "\143\x61\164\145\x67\x6f\162\x69\x61") { goto ikWsA; } goto aC2IA; X0JE2: $lgXHi = $jUKOf->inZ4v($QCo2j); goto bzQNV; qRryW: w2fZN: goto OBJtJ; wlAQi: QU6qx: goto usTLI; E3UuE: goto QU6qx; goto eZpQj; jfWLx: $QCo2j = "\114\x69\x6e\x6b"; goto wlAQi; OqOH3: $QCo2j = "\xc3\215\x63\157\156\x65"; goto E3UuE; Gl8i5: if ($QCo2j == "\141\143\x74\151\x76\x65") { goto w2fZN; } goto hhgeX; w9nuP: goto QU6qx; goto eiiBC; hhgeX: if ($QCo2j == "\x69\x63\157\156\x65") { goto G4JSx; } goto xCvSt; VeL6q: goto QU6qx; goto qRryW; eZpQj: onwC7: goto jfWLx; n35tE: goto QU6qx; goto r6Ar_; ly363: $QCo2j = "\x4e\x6f\155\x65"; goto AHOSR; I1tEg: ClhHA: goto rdLiG; xCvSt: if ($QCo2j == "\x6c\x69\x6e\x6b") { goto onwC7; } goto w9nuP; usTLI: WzgCs: goto eZ22_; eZ22_: } goto vyXkX; CzONd: }); } public function r61Xd() { return $this->Qwdgz(r8f7U::class, "\143\141\164\x65\147\x6f\x72\x69\x61", "\x69\144"); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+
+class MenuItems extends Model
+{
+    protected $table = 'menu_items';
+
+    protected $fillable = [
+        'id',
+        'id_cliente',
+        'categoria',
+        'nome',
+        'slug',
+        'ordem',
+        'icone',
+        'link',
+        'active',
+    ];
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (MenuItems $MenuItems) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $MenuItems->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $MenuItems->getOriginal($column);
+
+                    if ($column == 'categoria') {
+                        $column = "Categoria";
+                    }elseif ($column == 'nome') {
+                        $column = "Nome";
+                    }elseif ($column == 'ordem') {
+                        $column = "Ordem";
+                    }elseif ($column == 'active') {
+                        $column = "Ativo";
+                    }elseif ($column == 'icone') {
+                        $column = "Ícone";
+                    }elseif ($column == 'link') {
+                        $column = "Link";
+                    }
+
+                    /*Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => "Items Menu: A coluna '{$column}' de '{$MenuItems->nome}' foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                        'type' => 1,
+                    ]);*/
+                }
+            }
+        });
+    }
+
+    public function Categoria()
+    {
+        return $this->belongsTo(MenuCategoria::class, 'categoria', 'id');
+    }
+}

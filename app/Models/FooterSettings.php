@@ -1,12 +1,77 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nmXg2\lSSQ3; use WKhuL\QCzcG\EjfUR\Q4FQj\jzDkT; use wKhUL\QCzcg\EJFUr\UykSy; use wKhUl\n3Q0r\WpwAE\Uggj9; class WRq2d extends UYKsy { use JzDKT; protected $ZYaJD = "\146\157\157\x74\145\x72\x5f\x73\x65\x74\x74\x69\156\147\x73"; protected $GWg5z = array("\146\x6f\157\x74\145\162\x5f\x74\x65\x78\x74", "\x66\157\157\x74\x65\162\x5f\x73\165\142\164\145\170\x74", "\143\x6f\156\x74\x61\x63\164\x5f\x62\x75\x74\x74\157\x6e\x5f\x75\162\x6c", "\163\150\x6f\167\x5f\141\165\164\157\162\x69\x7a\141\x64\157\137\143\x61\x73\x73\151\156\157", "\163\x68\157\167\x5f\163\x6f\143\x69\x61\154\137\154\x69\156\153\163", "\x74\x6f\160\x62\x61\162\x5f\164\145\170\164", "\x74\157\160\142\x61\162\x5f\x62\x75\x74\x74\157\156\x5f\x74\145\170\164", "\x74\x6f\x70\x62\141\x72\x5f\142\165\x74\164\157\x6e\x5f\x75\x72\x6c", "\163\x68\x6f\x77\x5f\x74\157\x70\x62\x61\x72"); protected $FPpxl = array("\x73\x68\157\167\x5f\x61\x75\x74\x6f\x72\x69\172\141\x64\157\137\x63\x61\163\163\x69\x6e\x6f" => "\142\x6f\x6f\154\x65\x61\x6e", "\163\150\157\x77\x5f\163\x6f\x63\x69\141\154\x5f\154\151\x6e\x6b\x73" => "\x62\157\x6f\154\145\x61\156", "\163\150\157\x77\137\x74\157\160\142\141\162" => "\x62\x6f\157\x6c\145\141\156", "\x75\160\144\141\164\x65\144\137\x61\x74" => "\x64\x61\164\145\164\151\x6d\x65", "\x63\x72\145\141\x74\x65\x64\137\141\164" => "\x64\141\x74\x65\164\151\155\145"); public static function ZWe0Q() { return uGGj9::OW2Ve("\151\156\x6c\151\x6e\x65\137\146\157\x6f\x74\x65\x72\x5f\143\141\143\x68\x65", o6q8e()->YcZux(6), function () { goto mWqv7; IZ18s: return $TsiBp; goto eh13U; eTOkI: if ($TsiBp) { goto gfpUo; } goto EmKp3; RcyHT: gfpUo: goto IZ18s; EmKp3: $TsiBp = self::create(["\x66\x6f\157\164\145\162\137\x74\x65\x78\164" => cHOR6("\141\x70\160\56\x6e\141\155\145") . "\40\x65\40\xc3\251\40\157\x20\x6d\x65\154\150\157\x72\40\x73\151\x74\x65\40\144\145\40\143\x61\x73\163\151\156\x6f\x20\360\237\x8e\260\40\x65\x20\x61\x70\x6f\163\x74\141\163\40\x65\163\x70\157\x72\x74\151\x76\141\x73\40\342\x9a\275\40\143\157\x6d\40\144\x69\x76\145\162\x73\141\x73\x20\157\x70\xc3\247\xc3\xb5\x65\163\40\x64\145\x20\145\163\160\x6f\162\164\145\x73\40\x70\141\x72\141\x20\141\x70\157\x73\x74\141\x72\54\x20\x6a\157\x67\x6f\x73\40\144\145\x20\x63\141\163\x73\151\156\157\x20\x70\x61\162\x61\40\152\x6f\147\x61\x72\40\x65\40\x70\162\157\155\157\xc3\xa7\xc3\xb5\x65\x73\40\x65\x78\143\154\165\x73\x69\166\141\x73\40\360\x9f\x8e\201\56\x20\x43\157\x6d\40\x75\x6d\141\40\x70\x6c\x61\164\141\x66\x6f\162\x6d\141\x20\x69\x6e\164\x75\151\x74\151\166\141\x20\x65\40\163\x65\x67\165\x72\x61\x2c\x20\157\x66\x65\162\145\x63\x65\155\157\x73\40\x6d\151\154\x68\141\162\145\x73\x20\144\145\x20\152\157\x67\157\x73\x20\x64\145\40\143\x61\x73\163\x69\x6e\157\54\x20\x6a\157\x67\157\163\40\144\x65\x20\145\x73\x70\x6f\x72\x74\x65\x73\40\145\40\163\165\160\x6f\x72\164\145\x20\141\157\x20\143\x6c\151\x65\x6e\x74\145\x20\62\64\x2f\x37\56", "\146\x6f\157\164\x65\162\137\x73\x75\x62\x74\x65\x78\x74" => chOR6("\x61\x70\160\56\156\141\x6d\x65") . "\40\xc3\251\x20\x75\x6d\141\40\145\155\x70\x72\145\x73\141\x20\x72\145\147\x69\x73\x74\162\x61\x64\141\40\156\x6f\x20\102\162\x61\x73\151\x6c\54\40\x73\157\x62\40\157\40\103\x4e\120\x4a\x20\65\66\x2e\70\67\x35\x2e\61\x32\62\57\x30\60\60\x31\55\70\66", "\143\157\x6e\x74\141\143\164\x5f\x62\x75\164\x74\157\x6e\x5f\165\x72\154" => "\43", "\x73\150\157\x77\137\x61\x75\164\x6f\x72\151\172\x61\x64\157\137\x63\141\x73\x73\x69\156\x6f" => true, "\x73\150\x6f\167\137\163\157\143\x69\x61\154\137\x6c\151\156\x6b\x73" => true, "\x74\x6f\160\142\141\162\x5f\x74\145\x78\164" => "\111\156\144\151\x71\165\145\40\x75\x6d\40\x61\155\151\x67\157\40\145\40\x67\141\x6e\x68\145\40\122\44\x31\x30\x20\145\x6d\x20\x62\xc3\xb4\156\165\x73\x21", "\164\157\x70\142\x61\162\137\142\x75\164\164\157\156\137\x74\145\170\x74" => "\x52\x65\x73\147\x61\164\141\x72", "\x74\x6f\x70\x62\x61\162\137\142\165\x74\164\157\x6e\137\x75\162\154" => "\x23", "\163\150\x6f\167\137\164\157\160\142\x61\162" => true]); goto RcyHT; mWqv7: $TsiBp = self::eWFB9(); goto eTOkI; eh13U: }); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Cache;
+
+class FooterSettings extends Model
+{
+    use HasFactory;
+
+    /**
+     * A tabela associada ao modelo.
+     *
+     * @var string
+     */
+    protected $table = 'footer_settings';
+
+    /**
+     * Os atributos que são atribuíveis em massa.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'footer_text',
+        'footer_subtext',
+        'contact_button_url',
+        'show_autorizado_cassino',
+        'show_social_links',
+        'topbar_text',
+        'topbar_button_text',
+        'topbar_button_url',
+        'show_topbar',
+    ];
+
+    /**
+     * Os atributos que devem ser convertidos para tipos nativos.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'show_autorizado_cassino' => 'boolean',
+        'show_social_links' => 'boolean',
+        'show_topbar' => 'boolean',
+        'updated_at' => 'datetime',
+        'created_at' => 'datetime',
+    ];
+
+    /**
+     * Retorna as configurações do rodapé ou cria um registro padrão se não existir.
+     *
+     * @return \App\Models\FooterSettings
+     */
+    public static function getSettings()
+    {
+        return Cache::remember('inline_footer_cache', now()->addHours(6), function () {
+            $settings = self::first();
+
+            if (!$settings) {
+                $settings = self::create([
+                    'footer_text' => config('app.name') . ' e é o melhor site de cassino 🎰 e apostas esportivas ⚽ com diversas opções de esportes para apostar, jogos de cassino para jogar e promoções exclusivas 🎁. Com uma plataforma intuitiva e segura, oferecemos milhares de jogos de cassino, jogos de esportes e suporte ao cliente 24/7.',
+                    'footer_subtext' => config('app.name') . ' é uma empresa registrada no Brasil, sob o CNPJ 56.875.122/0001-86',
+                    'contact_button_url' => '#',
+                    'show_autorizado_cassino' => true,
+                    'show_social_links' => true,
+                    'topbar_text' => 'Indique um amigo e ganhe R$10 em bônus!',
+                    'topbar_button_text' => 'Resgatar',
+                    'topbar_button_url' => '#',
+                    'show_topbar' => true,
+                ]);
+            }
+
+            return $settings;
+        });
+    }
+}

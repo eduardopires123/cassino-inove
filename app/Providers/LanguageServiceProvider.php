@@ -1,12 +1,117 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace Nmxg2\f1dJx; use wKHUl\N3Q0R\EjJjd; use wKHUL\N3Q0R\eYQjV; use WKhuL\n3q0r\wpWAe\nMxG2; use wkHul\N3Q0r\wPwae\zphRT; class Ad4s7 extends eJJjD { public function g5U0b() : void { } public function S3OcP() : void { $this->llMy6(); $this->G_1yB(); } protected function llMY6() : void { goto ydZNu; ydZNu: $Z65Zw = ["\160\164\x5f\x42\122" => "\160\164\137\102\122", "\145\156" => "\x65\x6e", "\145\x73" => "\x65\x73"]; goto hFuwQ; uLQQ6: $Vwhni = $Z65Zw[$dZlwJ] ?? "\x65\x6e"; goto c5yEa; hFuwQ: $dZlwJ = nMxg2::PAUR2(); goto uLQQ6; vmIpm: $wgKZJ = (require Od8QS($dZlwJ . "\57\x64\x61\164\145\x74\x69\155\145\x2e\x70\x68\160")); goto OE_L7; hD3dl: if (!file_exists(OD8qS($dZlwJ . "\x2f\144\x61\164\x65\x74\151\x6d\x65\56\x70\150\x70"))) { goto rl82S; } goto vmIpm; lnvXJ: n3JQ4: goto LK9C3; c5yEa: EyQJv::setLocale($Vwhni); goto hD3dl; LK9C3: rl82S: goto W1ANH; OE_L7: foreach ($wgKZJ as $VlAhW => $HgIMK) { goto d8sjx; S0TkC: M1OPg: goto fSXks; SOr6M: goto M1OPg; goto dvrpD; d8sjx: if (!is_array($HgIMK)) { goto KlUHL; } goto SOr6M; llD1r: $this->jRB9W($dZlwJ, $VlAhW, $HgIMK); goto S0TkC; dvrpD: KlUHL: goto llD1r; fSXks: } goto lnvXJ; W1ANH: } protected function JRb9w(string $dZlwJ, string $VlAhW, string $HgIMK) : void { goto b3BWd; g73ZA: bIGc_: goto gQ8Yy; oBFnD: $g85em->BC0k8[$dZlwJ][$VlAhW] = $HgIMK; goto g73ZA; PzPat: KPgX_: goto JmcvJ; griEW: goto bIGc_; goto PzPat; E2ihj: EYQjv::rQ6Xo($VlAhW, $HgIMK, $dZlwJ); goto griEW; aQ5Ok: LGDkY: goto oBFnD; IkKDj: n4qGG: goto S_Wge; LvNQl: if (property_exists($g85em, "\155\145\x73\163\x61\x67\145\x73")) { goto LGDkY; } goto E2ihj; RhZjT: if (method_exists($g85em, "\141\144\x64\x54\162\141\x6e\163\154\141\x74\x69\157\x6e")) { goto n4qGG; } goto LvNQl; rrmbF: goto bIGc_; goto aQ5Ok; JmcvJ: $g85em->naYb6("\141\x72\162\x61\171", [$VlAhW => $HgIMK], $dZlwJ); goto AMUfn; AMUfn: goto bIGc_; goto IkKDj; S_Wge: $g85em->ZmrTh($dZlwJ, $VlAhW, $HgIMK); goto rrmbF; b3BWd: $g85em = EYQjV::Ax01p(); goto f22MQ; f22MQ: if (method_exists($g85em, "\x61\x64\144\122\x65\163\x6f\165\162\x63\x65")) { goto KPgX_; } goto RhZjT; gQ8Yy: } protected function g_1YB() : void { goto fASRw; fASRw: $diWKv = ["\160\x74\137\x42\122" => ["\x6e\x61\155\145" => "\x50\157\162\x74\165\x67\165\xc3\xaa\x73", "\x66\154\141\147" => "\x70\x74\55\142\x72\x2e\160\156\x67", "\143\x6f\144\x65" => "\x70\x74\137\x42\x52"], "\145\156" => ["\x6e\141\x6d\x65" => "\x45\156\x67\154\151\163\x68", "\x66\154\x61\147" => "\x65\156\x2e\x70\156\x67", "\x63\x6f\144\x65" => "\x65\x6e"], "\x65\x73" => ["\x6e\x61\155\x65" => "\105\163\160\x61\303\261\157\154", "\146\x6c\x61\x67" => "\145\x73\56\160\156\x67", "\x63\157\x64\x65" => "\145\163"]]; goto IwidY; IwidY: ZPhRt::oU8U_("\x61\166\141\x69\154\141\142\x6c\145\114\x6f\x63\141\x6c\x65\163", $diWKv); goto HXxoB; HXxoB: zPHrt::ou8u_("\x63\165\162\162\145\x6e\x74\x4c\x6f\143\141\x6c\x65", nmxG2::paUr2()); goto YEAB8; YEAB8: } }
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\View;
+
+class LanguageServiceProvider extends ServiceProvider
+{
+    /**
+     * Register any application services.
+     */
+    public function register(): void
+    {
+        //
+    }
+
+    /**
+     * Bootstrap any application services.
+     */
+    public function boot(): void
+    {
+        // Configurar o Carbon (para datas) de acordo com o idioma atual
+        $this->configureCarbon();
+        
+        // Compartilhar variáveis relacionadas ao idioma com todas as views
+        $this->shareLanguageVariables();
+    }
+    
+    /**
+     * Configura o Carbon para usar o idioma atual
+     */
+    protected function configureCarbon(): void
+    {
+        // Mapear os locales do Laravel para os locales do Carbon
+        $carbonLocaleMap = [
+            'pt_BR' => 'pt_BR',
+            'en' => 'en',
+            'es' => 'es',
+        ];
+        
+        $locale = App::getLocale();
+        $carbonLocale = $carbonLocaleMap[$locale] ?? 'en';
+        
+        // Configurar locale do Carbon
+        Carbon::setLocale($carbonLocale);
+        
+        // Carregar traduções de datetime.php
+        if (file_exists(lang_path($locale . '/datetime.php'))) {
+            $customizations = require lang_path($locale . '/datetime.php');
+            
+            foreach ($customizations as $key => $value) {
+                if (is_array($value)) {
+                    continue;
+                }
+                
+                // Usar o método correto para adicionar traduções ao Carbon
+                // O Laravel's Carbon usa uma versão diferente do método de tradução
+                $this->addCarbonTranslation($locale, $key, $value);
+            }
+        }
+    }
+    
+    /**
+     * Método auxiliar para adicionar traduções ao Carbon de forma compatível
+     */
+    protected function addCarbonTranslation(string $locale, string $key, string $value): void
+    {
+        $translator = Carbon::getTranslator();
+        
+        // Verifica quais métodos estão disponíveis e usa o adequado
+        if (method_exists($translator, 'addResource')) {
+            // Symfony Translator (mais recente)
+            $translator->addResource('array', [$key => $value], $locale);
+        } elseif (method_exists($translator, 'addTranslation')) {
+            // Método legado
+            $translator->addTranslation($locale, $key, $value);
+        } elseif (property_exists($translator, 'messages')) {
+            // Acesso direto à propriedade
+            $translator->messages[$locale][$key] = $value;
+        } else {
+            // Fallback - tentar definir a tradução
+            Carbon::setTranslation($key, $value, $locale);
+        }
+    }
+    
+    /**
+     * Compartilha variáveis relacionadas ao idioma com todas as views
+     */
+    protected function shareLanguageVariables(): void
+    {
+        // Lista de idiomas disponíveis
+        $availableLocales = [
+            'pt_BR' => [
+                'name' => 'Português',
+                'flag' => 'pt-br.png',
+                'code' => 'pt_BR',
+            ],
+            'en' => [
+                'name' => 'English',
+                'flag' => 'en.png',
+                'code' => 'en',
+            ],
+            'es' => [
+                'name' => 'Español',
+                'flag' => 'es.png',
+                'code' => 'es',
+            ],
+        ];
+        
+        // Compartilhar variáveis com todas as views
+        View::share('availableLocales', $availableLocales);
+        View::share('currentLocale', App::getLocale());
+    }
+}

@@ -1,12 +1,96 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXG2\lssq3\f4Ho4; use NmXG2\Lssq3\a01ij; use WKHUL\qCZcg\eJfUr\UYKsy; use WKHUL\n3q0R\wPWaE\bpgM5; class n3Fyf extends UyKsy { protected $ZYaJD = "\151\x63\157\x6e\x73"; protected $GWg5z = array("\x69\x64", "\x6e\141\155\145", "\x73\166\x67", "\x6c\x69\156\153", "\x67\141\x6d\x65\x5f\151\x64", "\x6f\x72\144\145\155", "\x61\x63\x74\151\166\145", "\164\171\160\145", "\150\157\164"); protected $FPpxl = array("\141\143\x74\x69\x76\145" => "\142\157\x6f\154\x65\141\x6e", "\x68\x6f\164" => "\151\x6e\x74\145\x67\145\x72"); public function hGUqu() { return $this->qWDGz(a01IJ::class, "\147\x61\155\x65\137\x69\144", "\151\x64"); } public function qJKta() { goto x1P7E; AcG01: return $this->name; goto F0G1s; rxK6_: y204G: goto AcG01; YuIv9: return str_replace(["\74\163\x6d\x61\154\154\76", "\x3c\57\x73\155\x61\154\x6c\76"], ["\74\163\155\141\154\154\76", "\74\57\163\155\x61\x6c\x6c\x3e"], $this->name); goto rxK6_; x1P7E: if (!(strpos($this->name, "\74\163\x6d\141\154\x6c\x3e") !== false && strpos($this->name, "\x3c\x2f\x73\155\x61\x6c\154\x3e") !== false)) { goto y204G; } goto YuIv9; F0G1s: } protected static function fFsPg() { parent::S3oCp(); static::Z1cw0(function (n3FYF $B40I2) { goto G34xv; tZv1R: awLbG: goto v2iL8; j2e0o: Qb_b1: goto tZv1R; txZAT: foreach ($GCXo6 as $QCo2j => $djNJl) { goto d_iK7; EuBMO: goto ByX_u; goto UwclG; liQDa: $QCo2j = "\x53\x56\107"; goto rcimy; QhVMn: $QCo2j = "\x49\104\x20\144\157\40\112\157\x67\157"; goto ymecA; sS2d5: rp_C6: goto s0_bm; qSNe9: goto ByX_u; goto DakyV; rv_pw: qZiAp: goto liQDa; cmhy6: $QCo2j = "\x41\x74\x69\166\157"; goto G9d_A; tvHSa: $QCo2j = "\x4f\x72\144\x65\155"; goto EuBMO; K3CBQ: if ($QCo2j == "\157\x72\144\145\155") { goto iiXY4; } goto wvDie; NI3Yq: goto ByX_u; goto rv_pw; GrABA: goto ByX_u; goto Monro; FJYCX: iiXY4: goto tvHSa; GPgun: $QCo2j = "\116\157\155\x65"; goto NI3Yq; UwclG: rFE5l: goto cmhy6; d_iK7: $lgXHi = $B40I2->inz4V($QCo2j); goto k39JC; wvDie: if ($QCo2j == "\x61\143\164\x69\x76\x65") { goto rFE5l; } goto GrABA; Dj8cV: bKMbJ: goto BrvmZ; ymecA: goto ByX_u; goto FJYCX; qcfLC: if ($QCo2j == "\163\166\x67") { goto qZiAp; } goto G3VGI; s0_bm: $QCo2j = "\114\x69\156\153"; goto qSNe9; ATxxz: if ($QCo2j == "\147\141\155\145\137\x69\x64") { goto zfIQj; } goto K3CBQ; Monro: qVhsv: goto GPgun; DakyV: zfIQj: goto QhVMn; rcimy: goto ByX_u; goto sS2d5; G3VGI: if ($QCo2j == "\x6c\x69\x6e\153") { goto rp_C6; } goto ATxxz; k39JC: if ($QCo2j == "\156\141\155\x65") { goto qVhsv; } goto qcfLC; G9d_A: ByX_u: goto Dj8cV; BrvmZ: } goto j2e0o; G34xv: $HN9bK = bpgM5::mNcZ8(); goto xD_mA; nzNVI: unset($GCXo6["\165\x70\x64\x61\x74\145\x64\137\141\x74"]); goto HYhDo; HYhDo: if (empty($GCXo6)) { goto awLbG; } goto txZAT; xD_mA: $GCXo6 = $B40I2->ybzMI(); goto nzNVI; v2iL8: }); } }
+
+namespace App\Models\Admin;
+
+use App\Models\GamesApi;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+
+class Icon extends Model
+{
+    protected $table = 'icons';
+
+    protected $fillable = [
+        'id',
+        'name',
+        'svg',
+        'link',
+        'game_id',
+        'ordem',
+        'active',
+        'type',
+        'hot',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'active' => 'boolean',
+        'hot' => 'integer',
+    ];
+
+    /**
+     * Get the game associated with the icon.
+     */
+    public function game()
+    {
+        return $this->belongsTo(GamesApi::class, 'game_id', 'id');
+    }
+
+    /**
+     * Formata o nome do ícone processando as tags small
+     *
+     * @return string
+     */
+    public function getFormattedNameAttribute()
+    {
+        if (strpos($this->name, '<small>') !== false && strpos($this->name, '</small>') !== false) {
+            return str_replace(['<small>', '</small>'], ['<small>', '</small>'], $this->name);
+        }
+        
+        return $this->name;
+    }
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (Icon $icon) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $icon->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $icon->getOriginal($column);
+
+                    if ($column == 'name') {
+                        $column = "Nome";
+                    } elseif ($column == 'svg') {
+                        $column = "SVG";
+                    } elseif ($column == 'link') {
+                        $column = "Link";
+                    } elseif ($column == 'game_id') {
+                        $column = "ID do Jogo";
+                    } elseif ($column == 'ordem') {
+                        $column = "Ordem";
+                    } elseif ($column == 'active') {
+                        $column = "Ativo";
+                    }
+
+                    // If you have a Logs model, you can use it here
+                    // Logs::create([
+                    //     'updated_by' => $userId,
+                    //     'user_id' => 0,
+                    //     'log' => "Icon: A coluna '{$column}' foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                    //     'type' => 1,
+                    // ]);
+                }
+            }
+        });
+    }
+} 

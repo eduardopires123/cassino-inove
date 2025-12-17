@@ -1,12 +1,88 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXG2\lsSq3; use wkHUL\QczCg\ejFur\uyKsY; use WKHUl\qCZcG\ejfuR\q4FQJ\JzDKT; class TlA6j extends uyksy { use jzdKt; protected $ZYaJD = "\x72\157\165\x6c\x65\x74\164\145\137\163\x65\164\164\151\156\147\x73"; protected $GWg5z = array("\x65\156\141\x62\154\x65\x5f\x66\162\x65\145\137\x64\141\151\x6c\171\x5f\x73\x70\151\156", "\x6d\x61\x78\x5f\163\x70\x69\156\163\137\160\x65\162\137\x64\x61\x79", "\x67\x75\145\x73\164\x5f\163\x70\x69\x6e\163\137\x65\x6e\141\142\x6c\x65\x64", "\x61\x6e\151\155\x61\x74\151\x6f\156\137\144\165\162\x61\x74\x69\x6f\x6e", "\163\x68\157\x77\x5f\143\157\156\x66\145\164\164\151", "\163\x6f\x75\156\x64\x5f\145\x6e\x61\142\154\x65\x64"); protected $FPpxl = array("\x65\156\141\x62\154\x65\137\146\162\145\145\137\x64\141\x69\x6c\171\137\x73\x70\x69\156" => "\x62\x6f\x6f\x6c\x65\x61\x6e", "\155\x61\170\137\x73\160\x69\156\163\137\160\x65\162\137\144\141\x79" => "\151\156\164\145\147\x65\162", "\x67\165\x65\x73\164\x5f\163\160\151\156\x73\x5f\x65\x6e\x61\x62\154\145\x64" => "\x62\x6f\x6f\154\x65\141\x6e", "\x61\156\x69\155\141\x74\151\x6f\156\137\144\165\162\141\164\x69\157\156" => "\144\x65\x63\x69\155\x61\154\72\61", "\163\150\157\167\137\x63\157\x6e\x66\145\164\x74\151" => "\142\x6f\157\x6c\145\x61\156", "\163\157\165\156\x64\137\x65\156\x61\x62\x6c\x65\144" => "\142\x6f\157\x6c\x65\x61\x6e"); public static function ZWE0q() { return self::ewFb9() ?? self::create(["\145\156\x61\142\154\x65\x5f\x66\162\145\x65\x5f\144\141\x69\x6c\x79\137\x73\x70\x69\x6e" => true, "\155\x61\170\x5f\x73\x70\151\x6e\163\x5f\x70\145\162\x5f\x64\x61\x79" => 5, "\x67\x75\145\163\164\137\x73\x70\x69\156\163\137\145\x6e\x61\x62\154\145\x64" => true, "\141\156\x69\155\141\164\151\157\156\137\144\165\162\x61\164\x69\x6f\156" => 4.0, "\163\150\x6f\x77\x5f\x63\x6f\x6e\x66\x65\164\x74\151" => true, "\x73\x6f\x75\x6e\144\137\x65\x6e\x61\x62\x6c\x65\x64" => true]); } public static function ggcOb(array $QmT4B) { goto dZ6iU; dZ6iU: $TsiBp = self::ZwE0Q(); goto bV8LJ; bV8LJ: $TsiBp->update($QmT4B); goto iztOD; iztOD: return $TsiBp; goto eSPPc; eSPPc: } public function wqHbH() { return $this->X2qFN; } public function g8e1z() { return $this->hXP1Y; } public function RzfSk() { return $this->qrKOJ; } public function Q4Ivw() { return $this->MT4Yd; } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class RouletteSettings extends Model
+{
+    use HasFactory;
+
+    protected $table = 'roulette_settings';
+
+    protected $fillable = [
+        'enable_free_daily_spin',
+        'max_spins_per_day',
+        'guest_spins_enabled',
+        'animation_duration',
+        'show_confetti',
+        'sound_enabled'
+    ];
+
+    protected $casts = [
+        'enable_free_daily_spin' => 'boolean',
+        'max_spins_per_day' => 'integer',
+        'guest_spins_enabled' => 'boolean',
+        'animation_duration' => 'decimal:1',
+        'show_confetti' => 'boolean',
+        'sound_enabled' => 'boolean'
+    ];
+
+    /**
+     * Obter as configurações da roleta (singleton)
+     */
+    public static function getSettings()
+    {
+        return self::first() ?? self::create([
+            'enable_free_daily_spin' => true,
+            'max_spins_per_day' => 5,
+            'guest_spins_enabled' => true,
+            'animation_duration' => 4.0,
+            'show_confetti' => true,
+            'sound_enabled' => true,
+        ]);
+    }
+
+    /**
+     * Atualizar configurações da roleta
+     */
+    public static function updateSettings(array $data)
+    {
+        $settings = self::getSettings();
+        $settings->update($data);
+        return $settings;
+    }
+
+    /**
+     * Verificar se giros grátis estão habilitados
+     */
+    public function areFreeSpinsEnabled()
+    {
+        return $this->enable_free_daily_spin;
+    }
+
+    /**
+     * Verificar se giros para convidados estão habilitados
+     */
+    public function areGuestSpinsEnabled()
+    {
+        return $this->guest_spins_enabled;
+    }
+
+    /**
+     * Obter limite máximo de giros por dia
+     */
+    public function getMaxSpinsPerDay()
+    {
+        return $this->max_spins_per_day;
+    }
+
+    /**
+     * Obter duração da animação
+     */
+    public function getAnimationDuration()
+    {
+        return $this->animation_duration;
+    }
+} 

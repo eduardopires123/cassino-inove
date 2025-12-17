@@ -1,12 +1,89 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmxG2\lsSq3\f4ho4; use nmXG2\LSSQ3\Yzl06; use NMxG2\lSSQ3\z6LGL; use WkHUl\qCzcG\EjFUR\uyKSy; use WKHUl\N3Q0R\WPWae\BpGM5; class HWOZO extends uYkSY { protected $ZYaJD = "\x75\x73\x65\162\137\x70\x65\x72\155\x69\x73\163\151\x6f\156\x73"; protected $GWg5z = array("\x75\x73\145\x72\x5f\x69\x64", "\x70\x65\162\x6d\151\x73\163\x69\157\156"); protected static function fFSpg() { parent::S3Ocp(); static::Z1CW0(function (hWozo $Bb1IY) { goto k_xIW; k_xIW: $HN9bK = bpGM5::mnCz8(); goto QPMkL; V3TFX: unset($GCXo6["\165\160\x64\x61\164\145\144\137\141\164"]); goto j3TFv; j3TFv: if (empty($GCXo6)) { goto AS6Ox; } goto A1RiC; r3hs9: AS6Ox: goto QhNlZ; QPMkL: $GCXo6 = $Bb1IY->ybZMI(); goto V3TFX; cg_4M: FoClZ: goto r3hs9; A1RiC: foreach ($GCXo6 as $QCo2j => $djNJl) { goto lZbrT; LJ13E: Tf8ML::create(["\x75\x70\144\141\164\145\144\x5f\x62\x79" => $HN9bK, "\165\x73\145\162\137\151\144" => 0, "\154\157\147" => sprintf("\x50\x65\x72\155\151\163\163\303\265\x65\163\x3a\40\x50\145\162\155\x69\x73\163\xc3\xa3\157\x20\45\x73\x20\165\x73\165\303\xa1\162\151\x6f\40\x27\x25\163\x27", $Y3Wq9, $yGllI->name), "\x74\x79\160\145" => 1]); goto LMJqN; DmyI0: MqJ7w: goto EwT5Y; LMJqN: E2orS: goto F85uz; EwT5Y: $yGllI = z6lGl::o_0MH("\x69\x64", $Bb1IY->rXheI)->EwFB9(); goto yDASe; Od3D1: $QCo2j = "\120\x65\x72\155\x69\163\163\303\xa3\x6f"; goto DmyI0; lZbrT: $lgXHi = $Bb1IY->INZ4v($QCo2j); goto wDLqZ; wDLqZ: if (!($QCo2j == "\160\x65\x72\x6d\x69\x73\x73\x69\157\x6e")) { goto MqJ7w; } goto Od3D1; yDASe: $Y3Wq9 = self::jSRnb($lgXHi, $djNJl); goto LJ13E; F85uz: } goto cg_4M; QhNlZ: }); } public static function JsrNb($yP1kL, $C5434) { goto JOt2J; F0x1K: $C5434 = json_decode($C5434, true); goto dzHYK; CuYXe: $yP1kL = json_decode($yP1kL, true); goto F0x1K; KRwrw: Esn1N: goto vxG4q; H8A_i: foreach ($C5434 as $VlAhW => $HgIMK) { goto IdGWk; jFpkY: lKvgs: goto fvsWS; dWC_H: xGNhM: goto jFpkY; SaC3o: if (!isset($BDE03[$VlAhW])) { goto lKvgs; } goto gNd2O; IdGWk: if (!(isset($yP1kL[$VlAhW]) && $yP1kL[$VlAhW] !== $HgIMK)) { goto u_ArX; } goto SaC3o; s9xSS: $bWCI8 = "\x27" . $BDE03[$VlAhW] . "\47\40\x61\x64\151\143\x69\x6f\156\141\x64\141\x20\156\157"; goto dWC_H; UftXn: goto xGNhM; goto OBfEo; gNd2O: if ($yP1kL[$VlAhW] == 1 and $HgIMK == 0) { goto va3_u; } goto H2zIJ; H2zIJ: if ($yP1kL[$VlAhW] == 0 and $HgIMK == 1) { goto efBk3; } goto UftXn; CLt0T: efBk3: goto s9xSS; fvsWS: u_ArX: goto eCp2E; Emy33: $bWCI8 = "\x27" . $BDE03[$VlAhW] . "\47\x20\x72\x65\155\157\x76\151\x64\141\40\144\x6f"; goto FQMsz; OBfEo: va3_u: goto Emy33; FQMsz: goto xGNhM; goto CLt0T; eCp2E: brXhN: goto FrG19; FrG19: } goto KRwrw; JOt2J: $bWCI8 = ''; goto CuYXe; dzHYK: $BDE03 = ["\61" => "\120\x65\x72\x73\157\x6e\141\154\x69\172\141\303\247\303\243\x6f", "\x32" => "\x43\141\163\163\x69\x6e\157", "\63" => "\123\x70\157\162\x74\x73\x42\157\x6f\x6b", "\64" => "\120\141\147\x61\155\x65\x6e\x74\157\163", "\65" => "\125\163\x75\303\xa1\x72\x69\x6f\163", "\x36" => "\x41\x64\155\x69\x6e\x69\163\164\x72\141\303\xa7\303\xa3\157", "\67" => "\x41\146\x69\x6c\x69\x61\xc3\xa7\xc3\243\x6f", "\x31\x31" => "\x57\150\141\164\163\x41\x70\x70"]; goto H8A_i; vxG4q: return $bWCI8; goto KOfgk; KOfgk: } public function ntE8S() { return $this->QWDGZ(Z6Lgl::class); } }
+
+namespace App\Models\Admin;
+
+use App\Models\Gateways;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+
+class Permissions extends Model
+{
+    protected $table = 'user_permissions';
+
+    protected $fillable = [
+        'user_id',
+        'permission',
+    ];
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (Permissions $Permissions) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $Permissions->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $Permissions->getOriginal($column);
+
+                    if ($column == 'permission') {
+                        $column = "Permissão";
+                    }
+
+                    $Usuario    = User::where('id', $Permissions->user_id)->first();
+                    $infos      = self::Comparar($originalValue, $newValue);
+
+                    Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => sprintf("Permissões: Permissão %s usuário '%s'", $infos, $Usuario->name),
+                        'type' => 1,
+                    ]);
+                }
+            }
+        });
+    }
+
+    public static function Comparar($array1, $array2)
+    {
+        $differences = "";
+        $array1 = json_decode($array1, true);
+        $array2 = json_decode($array2, true);
+
+        $mapaPermissoes = [
+            '1' => 'Personalização',
+            '2' => 'Cassino',
+            '3' => 'SportsBook',
+            '4' => 'Pagamentos',
+            '5' => 'Usuários',
+            '6' => 'Administração',
+            '7' => 'Afiliação',
+            '11' => 'WhatsApp'
+        ];
+
+        foreach ($array2 as $key => $value) {
+            if (isset($array1[$key]) && $array1[$key] !== $value) {
+
+                if (isset($mapaPermissoes[$key])) {
+
+                    if (($array1[$key] == 1) and ($value == 0)) {
+                        $differences = "'".$mapaPermissoes[$key] . "' removida do";
+                    }elseif (($array1[$key] == 0) and ($value == 1)) {
+                        $differences = "'".$mapaPermissoes[$key] . "' adicionada no";
+                    }
+                }
+            }
+        }
+
+        return $differences;
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+}

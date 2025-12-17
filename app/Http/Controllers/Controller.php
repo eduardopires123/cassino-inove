@@ -1,12 +1,8 @@
 <?php
 /*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
+    |  Obfuscated by YAK Pro - Php Obfuscator  2.0.17  |
+    |              on 2025-12-17 20:57:45              |
+    |    GitHub: https://github.com/pk-fr/yakpro-po    |
     |__________________________________________________|
 */
- namespace nmxG2\o7Mqx\h1_G2; use wkhul\B35FS\BPgm5\qdd9V\Wnojh; use wkHul\B35Fs\VvJsO\kOzl4; use WKHuL\Ce4OY\XDdjF as PN0Iz; class xDdjf extends PN0iZ { use WnoJh, kOZl4; }
+ namespace jF89x\Shteq\FN52M; use ec3mE\QPx1V\nXroV\m7E2H\YaB2J; use Ec3me\Qpx1V\nZjo_\pZk02; use ec3mE\D3M0L\nmP37 as eWzjW; class nmP37 extends eWZJw { use yAb2j, PZK02; }

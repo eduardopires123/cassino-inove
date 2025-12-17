@@ -1,12 +1,125 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXg2\LSsQ3; use wKHUl\QczCG\EjfUr\q4fqJ\jZDkT; use WKHul\qCZcg\ejFuR\UYksy; class DnZ8h extends UYkSY { use jZDKT; protected $ZYaJD = "\162\141\x73\160\x61\144\151\156\x68\141\137\x68\x69\x73\x74\157\x72\x79"; protected $GWg5z = array("\165\163\145\162\137\x69\144", "\x72\x61\x73\x70\141\144\151\156\x68\141\137\151\x64", "\x72\x61\163\x70\141\144\151\156\x68\x61\137\x69\164\x65\155\137\x69\x64", "\141\x6d\x6f\x75\x6e\164\x5f\x70\x61\151\144", "\x61\155\157\165\156\164\137\167\157\x6e", "\x70\x72\x69\x7a\x65\x5f\x74\x79\160\x65", "\x70\162\151\x7a\x65\137\144\x65\x73\x63\162\151\160\164\151\157\x6e", "\x69\163\x5f\164\165\x72\x62\x6f", "\151\163\137\141\x75\x74\157", "\141\x75\164\x6f\137\161\x75\141\x6e\x74\151\164\x79", "\163\164\141\x74\x75\x73", "\x72\145\163\x75\154\164\163"); protected $FPpxl = array("\x61\x6d\x6f\x75\156\x74\x5f\160\x61\151\144" => "\144\145\143\x69\155\x61\x6c\72\x32", "\x61\155\157\165\x6e\x74\137\167\x6f\156" => "\x64\x65\x63\x69\155\141\x6c\72\62", "\x69\163\137\164\x75\162\x62\157" => "\x62\x6f\157\154\145\141\x6e", "\x69\163\x5f\x61\165\164\157" => "\x62\x6f\157\154\x65\141\156", "\141\165\164\x6f\137\161\x75\141\156\164\151\164\171" => "\151\x6e\x74\145\x67\x65\162", "\x72\145\x73\165\154\x74\163" => "\x61\x72\162\x61\x79"); public function ntE8s() { return $this->QwDgz(z6lgL::class); } public function btMwr() { return $this->QwDgZ(vrKWB::class); } public function CEBOe() { return $this->QwdgZ(NfzHi::class); } public function wPM8k($k37al) { return $k37al->O_0mH("\163\164\141\x74\x75\x73", "\x63\x6f\x6d\x70\154\145\x74\145\x64"); } public function SgmzX($k37al, $HN9bK) { return $k37al->o_0mH("\165\163\x65\x72\x5f\x69\x64", $HN9bK); } public function qN04P() { return $this->kZkjj > 0; } public function RJXYD() { return "\x52\x24\40" . number_format($this->iwr4g, 2, "\x2c", "\56"); } public function erSPy() { return "\x52\44\x20" . number_format($this->kZkjj, 2, "\54", "\x2e"); } public static function yOHBP($HN9bK) { return self::O_0MH("\165\x73\x65\x72\x5f\151\x64", $HN9bK)->count(); } public static function uQDPX($HN9bK) { return self::o_0MH("\x75\163\x65\x72\x5f\x69\x64", $HN9bK)->iBYmN("\141\x6d\157\x75\156\x74\x5f\167\x6f\x6e"); } public static function Sg7ix($HN9bK) { return self::O_0Mh("\x75\x73\x65\x72\x5f\x69\144", $HN9bK)->Ibymn("\x61\x6d\157\165\156\164\137\160\x61\x69\x64"); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class RaspadinhaHistory extends Model
+{
+    use HasFactory;
+
+    protected $table = 'raspadinha_history';
+
+    protected $fillable = [
+        'user_id',
+        'raspadinha_id',
+        'raspadinha_item_id',
+        'amount_paid',
+        'amount_won',
+        'prize_type',
+        'prize_description',
+        'is_turbo',
+        'is_auto',
+        'auto_quantity',
+        'status',
+        'results',
+    ];
+
+    protected $casts = [
+        'amount_paid' => 'decimal:2',
+        'amount_won' => 'decimal:2',
+        'is_turbo' => 'boolean',
+        'is_auto' => 'boolean',
+        'auto_quantity' => 'integer',
+        'results' => 'array',
+    ];
+
+    /**
+     * Relacionamento com o usuário
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Relacionamento com a raspadinha
+     */
+    public function raspadinha()
+    {
+        return $this->belongsTo(Raspadinha::class);
+    }
+
+    /**
+     * Relacionamento com o item premiado
+     */
+    public function raspadinhaItem()
+    {
+        return $this->belongsTo(RaspadinhaItem::class);
+    }
+
+    /**
+     * Escopo para buscar jogadas completas
+     */
+    public function scopeCompleted($query)
+    {
+        return $query->where('status', 'completed');
+    }
+
+    /**
+     * Escopo para buscar jogadas de um usuário
+     */
+    public function scopeByUser($query, $userId)
+    {
+        return $query->where('user_id', $userId);
+    }
+
+    /**
+     * Verificar se a jogada foi premiada
+     */
+    public function isWinner()
+    {
+        return $this->amount_won > 0;
+    }
+
+    /**
+     * Accessor para valor pago formatado
+     */
+    public function getFormattedAmountPaidAttribute()
+    {
+        return 'R$ ' . number_format($this->amount_paid, 2, ',', '.');
+    }
+
+    /**
+     * Accessor para valor ganho formatado
+     */
+    public function getFormattedAmountWonAttribute()
+    {
+        return 'R$ ' . number_format($this->amount_won, 2, ',', '.');
+    }
+
+    /**
+     * Obter total de jogadas de um usuário
+     */
+    public static function getTotalPlaysByUser($userId)
+    {
+        return self::where('user_id', $userId)->count();
+    }
+
+    /**
+     * Obter total ganho por um usuário
+     */
+    public static function getTotalWonByUser($userId)
+    {
+        return self::where('user_id', $userId)->sum('amount_won');
+    }
+
+    /**
+     * Obter total investido por um usuário
+     */
+    public static function getTotalInvestedByUser($userId)
+    {
+        return self::where('user_id', $userId)->sum('amount_paid');
+    }
+} 

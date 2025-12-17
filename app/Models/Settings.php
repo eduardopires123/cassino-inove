@@ -1,12 +1,201 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxg2\LssQ3; use wKHUl\QCZcg\eJFUR\UyksY; use WkhUl\o7MQx\UX7TU; use wkHUL\N3Q0r\wpwae\BpGm5; use nMXg2\LsSQ3\EtCy8\tF8ml; class iRgjm extends uykSy { protected $ZYaJD = "\x73\x65\164\x74\151\x6e\147\163"; protected $GWg5z = array("\x6e\141\155\145", "\x73\x75\x62\156\141\155\145", "\154\157\x67\x6f", "\x66\141\x76\151\143\157\156", "\141\146\x66\x5f\155\151\x6e\137\x64\x65\160", "\141\x66\x66\137\x61\155\x6f\x75\x6e\164", "\x6d\151\x6e\x5f\163\141\x71\x75\x65\x5f\x61\x66", "\155\141\x78\x5f\163\141\161\165\x65\x5f\x61\x66", "\x6d\141\170\x5f\163\x61\x71\x75\x65\137\141\x75\164\137\141\146", "\x70\145\x72\x63\145\156\x74\137\141\146\146", "\x6d\x69\156\137\163\x61\x71\165\145\137\156", "\155\x61\170\x5f\x73\x61\x71\165\x65\x5f\x6e", "\x6d\141\x78\x5f\163\x61\x71\x75\x65\137\141\165\x74", "\155\x61\170\x5f\163\141\x71\165\x65\137\x64\x69\x61\162\151\x6f", "\155\141\x78\137\x71\165\x61\156\x74\151\144\x61\x64\x65\137\x73\x61\161\165\x65\x73\x5f\x64\x69\x61\x72\x69\157", "\x6d\x61\170\137\161\165\141\x6e\x74\x69\x64\141\x64\145\x5f\x73\141\x71\x75\145\163\137\141\x75\164\157\x6d\141\164\x69\143\x6f\x73\x5f\x64\x69\x61\162\151\x6f", "\x72\157\154\x6c\157\166\x65\x72\x5f\163\141\161\165\x65", "\155\x69\156\x5f\x64\145\x70", "\155\141\170\x5f\144\145\x70", "\x62\157\156\165\x73\x5f\x6d\x75\x6c\164", "\142\x6f\156\165\x73\137\x6d\x69\x6e\x5f\x64\x65\160", "\142\157\156\x75\x73\137\155\x61\170\137\144\x65\x70", "\142\157\156\x75\x73\137\x72\x6f\x6c\x6c\x6f\166\x65\x72", "\142\157\x6e\x75\x73\137\145\x78\160\151\x72\x65\137\x64\141\171\x73", "\x62\157\x6e\165\163\x5f\141\x6c\x6c\137\x64\145\160\157\x73\x69\x74\x73", "\x72\145\166\145\156\x61\x62\154\x65\144", "\x63\160\141\145\156\141\142\154\x65\144", "\x74\142\x73\150\141\154\x6c", "\x74\142\163\153\x65\171", "\x70\x6c\141\171\146\x69\x76\x65\162\137\164\157\153\x65\x6e", "\x70\x6c\141\x79\146\151\166\145\x72\x5f\x6b\x65\x79", "\163\x70\x6f\x72\x74\x70\x61\x72\x74\x6e\x65\x72\156\141\155\145", "\x73\x70\x6f\162\164\163\x5f\141\x70\151\137\160\x72\157\x76\151\144\x65\x72", "\145\x78\x70\x69\162\x65", "\x76\x61\154\x6f\162", "\145\x6e\x61\142\154\145\x5f\x73\160\x6f\162\164\x73", "\145\x6e\x61\x62\x6c\x65\137\163\160\x6f\162\x74\163\x5f\142\157\x6e\165\x73", "\x65\156\x61\x62\154\x65\137\x63\x61\163\163\x69\x6e\x6f\x5f\142\157\x6e\165\163", "\x76\151\160\x5f\154\145\x76\145\154\137\x6c\141\163\164\162\x65\x73\x65\x74", "\164\141\167\x6b\x74\157\137\x73\x72\143", "\x74\x61\167\x6b\164\x6f\x5f\x61\x63\x74\151\166\145", "\x6a\151\x76\x6f\x63\x68\x61\164\137\163\162\143", "\152\151\166\157\x63\x68\x61\164\x5f\x61\143\x74\151\166\x65", "\144\x65\146\141\x75\154\x74\x5f\150\x6f\155\x65\137\x70\141\147\145"); protected $FPpxl = array("\x61\x66\x66\x5f\155\x69\156\x5f\144\x65\x70" => "\144\x65\143\x69\x6d\141\154\72\62", "\x61\146\x66\137\141\155\x6f\165\x6e\x74" => "\144\x65\x63\151\155\141\x6c\72\62", "\x6d\x69\x6e\137\163\x61\161\165\x65\137\141\146" => "\144\145\143\x69\155\141\x6c\x3a\62", "\155\141\170\x5f\x73\x61\x71\x75\145\137\141\x66" => "\144\x65\x63\151\x6d\141\x6c\72\62", "\x6d\141\x78\137\x73\141\x71\x75\x65\x5f\x61\x75\x74\137\141\146" => "\144\x65\x63\x69\155\x61\154\x3a\62", "\160\x65\162\x63\145\156\164\x5f\x61\x66\146" => "\x69\x6e\x74\x65\147\x65\162", "\x6d\x69\156\137\x73\141\161\165\x65\137\x6e" => "\144\x65\143\x69\x6d\141\x6c\x3a\62", "\155\141\x78\137\x73\141\161\165\x65\137\x6e" => "\x64\145\143\x69\x6d\141\154\x3a\x32", "\x6d\x61\170\137\163\141\x71\165\145\137\141\165\164" => "\144\x65\143\151\155\141\x6c\x3a\x32", "\x6d\x61\x78\x5f\163\141\161\x75\x65\x5f\144\151\x61\x72\151\x6f" => "\144\x65\x63\x69\x6d\141\154\x3a\62", "\x6d\x61\x78\x5f\161\x75\141\156\164\x69\x64\141\144\x65\137\163\x61\161\165\145\163\x5f\144\x69\141\x72\x69\x6f" => "\x69\156\164\x65\x67\x65\162", "\155\x61\170\x5f\x71\165\x61\x6e\164\x69\144\141\x64\x65\x5f\163\141\x71\x75\x65\163\137\141\x75\164\157\155\141\164\x69\x63\157\163\x5f\144\151\x61\x72\151\157" => "\x69\156\164\145\x67\x65\162", "\x72\x6f\x6c\154\x6f\x76\145\162\x5f\163\x61\x71\x75\x65" => "\151\156\164\145\147\145\162", "\x6d\x69\x6e\x5f\x64\x65\x70" => "\x64\x65\143\x69\155\141\154\x3a\62", "\155\141\170\x5f\x64\145\x70" => "\144\145\143\151\155\x61\x6c\x3a\62", "\142\157\156\x75\163\137\x6d\x75\154\x74" => "\x69\x6e\x74\145\147\x65\162", "\x62\157\x6e\x75\x73\137\155\151\156\x5f\144\x65\160" => "\144\x65\143\151\155\x61\x6c\72\62", "\x62\157\156\165\163\137\155\x61\x78\137\144\145\160" => "\144\145\143\151\x6d\x61\154\72\x32", "\x62\x6f\156\165\x73\137\x72\157\154\x6c\x6f\x76\x65\x72" => "\151\x6e\164\145\147\x65\162", "\x62\x6f\156\165\163\x5f\x65\170\160\x69\162\145\137\x64\141\171\x73" => "\x69\x6e\164\145\x67\145\x72", "\x62\x6f\x6e\x75\163\137\141\x6c\154\137\x64\x65\x70\157\163\x69\x74\163" => "\x69\156\164\x65\x67\145\162", "\x72\145\166\x65\156\x61\142\154\x65\x64" => "\151\156\164\145\147\145\x72", "\x63\160\x61\x65\156\x61\142\154\145\x64" => "\151\156\164\145\x67\x65\x72", "\x74\x61\167\153\164\157\x5f\x61\143\164\x69\x76\x65" => "\x69\156\x74\145\x67\x65\162", "\152\151\166\x6f\x63\x68\141\x74\137\141\x63\x74\x69\166\145" => "\x69\156\x74\145\147\145\162", "\144\145\x66\141\165\x6c\164\x5f\x68\157\x6d\145\137\160\141\147\x65" => "\x73\x74\162\x69\x6e\147", "\x75\x70\x64\141\x74\145\144\x5f\141\164" => "\144\141\x74\145\164\151\155\145", "\x76\x61\x6c\x6f\x72" => "\144\145\143\151\x6d\141\x6c\x3a\62", "\145\170\160\x69\x72\x65" => "\144\141\164\145\x74\151\155\x65"); public static function zJirA() { $TsiBp = self::ewFB9(); return $TsiBp && $TsiBp->HjNhW === "\142\x65\x74\142\171"; } public static function uCYIz() { $TsiBp = self::EWFB9(); return !$TsiBp || $TsiBp->HjNhW === "\x64\x69\x67\151\164\x61\x69\x6e" || $TsiBp->HjNhW === null; } public static function TMC3k() { $TsiBp = self::eWFb9(); return $TsiBp ? $TsiBp->HjNhW ?? "\144\x69\147\x69\164\x61\151\x6e" : "\x64\151\x67\x69\x74\141\151\x6e"; } protected static function ffSPG() { parent::s3OCP(); static::z1Cw0(function (IrgjM $jvXtt) { goto cQrqw; hinCQ: $GCXo6 = $jvXtt->YbzmI(); goto Fj4wG; GMfVQ: Pxwu4: goto aEzhz; ratOj: if (empty($GCXo6)) { goto QbfPc; } goto Pggqc; Fj4wG: unset($GCXo6["\x75\x70\x64\x61\x74\145\144\137\x61\164"]); goto ratOj; Pggqc: foreach ($GCXo6 as $QCo2j => $djNJl) { goto NZCH2; lNDei: if ($QCo2j == "\155\151\x6e\x5f\144\145\160") { goto tLzK_; } goto Dhde0; bNt_o: $QCo2j = "\x4d\303\241\170\x20\121\165\x61\x6e\164\x69\144\x61\144\145\x20\123\141\161\165\145\x73\40\x44\151\xc3\xa1\x72\x69\157"; goto xbD_q; f3IAw: $QCo2j = "\101\x74\151\x76\x61\x72\40\x4a\151\166\x6f\103\150\x61\x74"; goto KMXiI; EsGLe: $QCo2j = "\115\303\272\154\x74\x69\160\154\x69\143\141\x64\157\x72\40\102\303\xb4\x6e\165\x73\x20\61\302\xba\x20\104\145\160\303\263\163\151\164\x6f"; goto lOQh8; NZCH2: $lgXHi = $jvXtt->INz4v($QCo2j); goto WWdwb; vSflY: goto DkFmz; goto LCSKP; sV02Q: $QCo2j = "\115\303\255\x6e\40\123\141\161\165\145"; goto xqQn7; zC6OS: if ($QCo2j == "\x61\146\x66\x5f\155\x69\156\x5f\x64\x65\160") { goto J31cZ; } goto VF4oL; AowiI: KeNAn: goto zZJb0; eI1NW: if ($QCo2j == "\x62\x6f\x6e\165\x73\x5f\162\157\x6c\154\157\x76\x65\x72") { goto atwtX; } goto wiz3Q; ACUWg: iDsLa: goto MEnjQ; Hpdf6: goto DkFmz; goto ycRYJ; zNRh5: $QCo2j = "\x45\170\160\151\x72\x61\xc3\247\xc3\243\157\40\144\x65\40\102\xc3\264\x6e\x75\163"; goto Hpdf6; fBn67: $QCo2j = "\x42\xc3\264\x6e\165\163\40\x41\146\x69\x6c\151\x61\x64\157\40\160\x6f\162\x20\111\156\144\151\143\141\303\xa7\xc3\243\x6f"; goto goqJD; N9Lmc: $QCo2j = "\x4d\303\241\170\x20\121\x75\x61\156\164\151\144\x61\144\145\40\x53\141\161\165\x65\x73\x20\x41\x75\164\x6f\x6d\303\xa1\164\x69\x63\157\x73\x20\x44\x69\303\xa1\162\x69\x6f"; goto zolbi; RJVre: goto DkFmz; goto Gxpvl; MEnjQ: $QCo2j = "\115\303\241\x78\x20\104\145\160"; goto WW_de; HSmh7: if ($QCo2j == "\155\x61\x78\137\163\x61\161\x75\x65\x5f\141\146") { goto zXvJI; } goto iM8DU; h62Zb: if ($QCo2j == "\155\141\x78\x5f\x73\x61\161\x75\x65\x5f\156") { goto ooOBD; } goto mupJe; si1_i: if ($QCo2j == "\143\x70\x61\x65\156\x61\x62\154\x65\144") { goto KeNAn; } goto EfLVs; ZXO0K: $QCo2j = "\x4d\xc3\241\x78\40\x53\x61\x71\165\145"; goto vSflY; EUnaF: J31cZ: goto XuTcD; rgIy8: atwtX: goto naIaU; Ehg7_: if ($QCo2j == "\155\151\156\x5f\x73\141\x71\x75\x65\137\x61\146") { goto Z90OD; } goto HSmh7; lOQh8: goto DkFmz; goto N19XA; csa5g: zU4ip: goto fBn67; fY55H: IBUAP: goto fNUnD; VF4oL: if ($QCo2j == "\x61\146\x66\x5f\141\x6d\157\165\156\x74") { goto zU4ip; } goto Ehg7_; lbjYz: $QCo2j = "\x4d\303\xa1\x78\40\123\141\x71\165\145\x20\x41\165\164\x6f\x6d\303\xa1\164\151\143\157\x20\x41\x66\151\154\x69\x61\x64\157"; goto SulmI; UfeIK: In1po: goto nyyl7; XoLuK: if ($QCo2j == "\x70\x65\162\x63\145\x6e\x74\x5f\141\x66\x66") { goto HiHjl; } goto YO4AX; sxcAD: if ($QCo2j == "\x62\x6f\x6e\x75\163\137\x6d\x69\156\x5f\x64\145\160") { goto znwBC; } goto rqeeH; O2WiA: $QCo2j = "\x43\303\xb3\144\x69\147\157\x20\144\157\x20\112\151\x76\157\103\150\x61\164"; goto m5ECP; SulmI: goto DkFmz; goto KcL2o; MbA4o: goto DkFmz; goto Hb2m2; YI1H9: sf1ik: goto oj6b0; m5ECP: goto DkFmz; goto fP9X3; xbD_q: goto DkFmz; goto ZF93h; mupJe: if ($QCo2j == "\x6d\x61\x78\x5f\163\x61\x71\165\x65\137\x61\x75\164") { goto dt8PL; } goto pQZ8n; N19XA: znwBC: goto zpQXi; qWmFY: if ($QCo2j == "\142\x6f\x6e\x75\x73\137\155\x75\x6c\x74") { goto Z7Voe; } goto sxcAD; mP81m: goto DkFmz; goto AowiI; goqJD: goto DkFmz; goto HeBqF; Mjah4: goto DkFmz; goto hiZQH; Uz_z7: suidy: goto bNt_o; zolbi: goto DkFmz; goto eFJkj; zZJb0: $QCo2j = "\101\x74\151\x76\x61\162\40\102\157\x6e\x69\146\x69\x63\141\xc3\xa7\xc3\243\157\x20\x43\120\101"; goto WdJHQ; KMXiI: DkFmz: goto kXhN_; pQZ8n: if ($QCo2j == "\155\x61\170\x5f\x73\141\x71\165\145\x5f\x64\151\141\162\151\157") { goto QAIwA; } goto h1MDh; zpQXi: $QCo2j = "\x4d\303\xad\156\40\x44\145\x70\40\x42\xc3\264\156\165\x73\x20\61\302\272\40\x44\145\160\xc3\263\x73\x69\x74\157"; goto ZvL7v; Kj6vb: goto DkFmz; goto ACUWg; XuTcD: $QCo2j = "\115\xc3\xad\x6e\151\x6d\x6f\x20\104\145\160\xc3\xb3\163\x69\164\x6f\x20\101\146\x69\x6c\x69\141\144\157"; goto spM6Z; AUpy3: $QCo2j = "\x4d\303\xad\x6e\x20\123\141\161\x75\x65\40\101\146\151\x6c\x69\141\144\x6f"; goto MbA4o; Dhde0: if ($QCo2j == "\x6d\141\x78\137\144\x65\x70") { goto iDsLa; } goto qWmFY; bKZ1O: $QCo2j = "\x4e\157\155\145"; goto UkkPj; gezew: $QCo2j = "\120\x6f\x72\x63\145\x6e\x74\141\147\x65\x6d\40\x50\x61\x64\x72\303\243\x6f"; goto Mjah4; jhXvu: goto DkFmz; goto Bmecs; cF3Pa: if ($QCo2j == "\x6a\x69\x76\157\143\x68\x61\164\x5f\x61\x63\164\x69\166\145") { goto DXFZy; } goto jhXvu; Gxpvl: QAIwA: goto kNzVk; fNUnD: $QCo2j = "\101\164\x69\x76\141\162\40\x43\150\x61\164\x20\x54\x61\x77\153\x2e\x74\157"; goto sow5f; aaJtP: oA4oz: goto MsGfa; tIhNz: ooOBD: goto ZXO0K; ycRYJ: TvYYn: goto vq1a6; r2cxA: MT8I7: goto zNRh5; KjtMw: goto DkFmz; goto Uz_z7; vjhQE: mqzgj: goto O2WiA; apvef: goto DkFmz; goto rgIy8; WdJHQ: goto DkFmz; goto YI1H9; RmMvi: $QCo2j = "\x4d\303\241\x78\x20\x53\141\x71\x75\145\x20\101\x66\x69\x6c\151\141\144\x6f"; goto fBYx0; hq7Wn: if ($QCo2j == "\x74\x61\x77\x6b\164\157\x5f\x61\143\x74\x69\x76\145") { goto IBUAP; } goto LdlQ4; vq1a6: $QCo2j = "\x41\x74\x69\x76\141\x72\40\x42\157\x6e\x69\x66\151\143\x61\303\xa7\xc3\243\x6f\x20\122\x65\166\x53\x68\x61\162\x65"; goto mP81m; eFJkj: tLzK_: goto XX_Y2; kNzVk: $QCo2j = "\115\xc3\241\170\40\123\141\x71\165\x65\x20\104\151\xc3\241\x72\x69\157"; goto KjtMw; nyyl7: $QCo2j = "\115\303\xa1\x78\x20\104\145\x70\x20\x42\xc3\264\x6e\x75\163\x20\x31\302\xba\40\104\145\x70\xc3\263\x73\x69\164\x6f"; goto apvef; iM8DU: if ($QCo2j == "\x6d\x61\170\137\163\141\161\x75\x65\x5f\x61\x75\164\137\141\x66") { goto zGgWp; } goto XoLuK; D4mUZ: Z7Voe: goto EsGLe; hiZQH: NNGM8: goto sV02Q; rqeeH: if ($QCo2j == "\142\x6f\x6e\x75\163\137\155\x61\x78\x5f\x64\x65\x70") { goto In1po; } goto eI1NW; sow5f: goto DkFmz; goto vjhQE; x0GOW: goto DkFmz; goto EUnaF; PxlwC: if ($QCo2j == "\162\145\x76\x65\x6e\141\x62\x6c\x65\144") { goto TvYYn; } goto si1_i; wiz3Q: if ($QCo2j == "\142\157\x6e\x75\x73\x5f\x65\x78\x70\151\x72\x65\137\144\141\x79\x73") { goto MT8I7; } goto PxlwC; iGF6K: zGgWp: goto lbjYz; oj6b0: $QCo2j = "\x4c\x69\156\x6b\x20\x64\157\40\x43\x68\x61\x74\x20\124\141\167\153\56\164\x6f"; goto gQwyn; LdlQ4: if ($QCo2j == "\x6a\151\x76\157\143\150\141\x74\137\x73\x72\x63") { goto mqzgj; } goto cF3Pa; LCSKP: dt8PL: goto nPLFG; KcL2o: HiHjl: goto gezew; naIaU: $QCo2j = "\x52\157\x6c\x6c\157\x76\x65\162\40\x64\145\40\102\xc3\264\x6e\x75\x73"; goto e1gnK; MfsOV: if ($QCo2j == "\x6c\157\147\x6f") { goto oA4oz; } goto zC6OS; WW_de: goto DkFmz; goto D4mUZ; Bmecs: gMlaH: goto bKZ1O; Hb2m2: zXvJI: goto RmMvi; EfLVs: if ($QCo2j == "\x74\x61\167\x6b\x74\x6f\x5f\163\x72\143") { goto sf1ik; } goto hq7Wn; ZvL7v: goto DkFmz; goto UfeIK; fP9X3: DXFZy: goto f3IAw; XX_Y2: $QCo2j = "\115\303\xad\156\x20\x44\x65\160"; goto Kj6vb; fBYx0: goto DkFmz; goto iGF6K; gQwyn: goto DkFmz; goto fY55H; UkkPj: goto DkFmz; goto aaJtP; ZF93h: UTkhv: goto N9Lmc; h1MDh: if ($QCo2j == "\x6d\x61\170\x5f\161\x75\141\156\x74\x69\144\141\144\x65\137\163\x61\x71\x75\x65\x73\x5f\144\x69\141\162\x69\157") { goto suidy; } goto wr976; WWdwb: if ($QCo2j == "\x6e\141\155\x65") { goto gMlaH; } goto MfsOV; kXhN_: ZE1bH: goto RxDlc; nPLFG: $QCo2j = "\x4d\xc3\241\x78\x20\x53\141\161\x75\145\40\x41\x75\x74\x6f\x6d\303\xa1\x74\x69\143\157"; goto RJVre; wr976: if ($QCo2j == "\x6d\141\x78\137\x71\165\x61\x6e\x74\x69\144\141\144\x65\x5f\163\x61\161\x75\x65\x73\x5f\141\x75\164\157\155\141\164\151\x63\157\163\x5f\x64\151\x61\162\x69\157") { goto UTkhv; } goto lNDei; e1gnK: goto DkFmz; goto r2cxA; MsGfa: $QCo2j = "\x4c\157\147\157"; goto x0GOW; YO4AX: if ($QCo2j == "\155\151\x6e\137\x73\141\x71\x75\145\137\156") { goto NNGM8; } goto h62Zb; xqQn7: goto DkFmz; goto tIhNz; spM6Z: goto DkFmz; goto csa5g; HeBqF: Z90OD: goto AUpy3; RxDlc: } goto GMfVQ; cQrqw: $HN9bK = BPgM5::MncZ8(); goto hinCQ; aEzhz: QbfPc: goto Nfi26; Nfi26: }); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
+use App\Models\Adm\Logs;
+
+class Settings extends Model
+{
+    protected $table = 'settings';
+
+    protected $fillable = [
+        'name',
+        'subname',
+        'logo',
+        'favicon',
+        'aff_min_dep',
+        'aff_amount',
+        'min_saque_af',
+        'max_saque_af',
+        'max_saque_aut_af',
+        'percent_aff',
+        'min_saque_n',
+        'max_saque_n',
+        'max_saque_aut',
+        'max_saque_diario',
+        'max_quantidade_saques_diario',
+        'max_quantidade_saques_automaticos_diario',
+        'rollover_saque',
+        'min_dep',
+        'max_dep',
+        'bonus_mult',
+        'bonus_min_dep',
+        'bonus_max_dep',
+        'bonus_rollover',
+        'bonus_expire_days',
+        'bonus_all_deposits',
+        'revenabled',
+        'cpaenabled',
+        'tbshall',
+        'tbskey',
+        'playfiver_token',
+        'playfiver_key',
+        'sportpartnername',
+        'sports_api_provider',
+        'expire',
+        'valor',
+        'enable_sports',
+        'enable_sports_bonus',
+        'enable_cassino_bonus',
+        'vip_level_lastreset',
+        'tawkto_src',
+        'tawkto_active',
+        'jivochat_src',
+        'jivochat_active',
+        'default_home_page',
+    ];
+
+    protected $casts = [
+        'aff_min_dep' => 'decimal:2',
+        'aff_amount' => 'decimal:2',
+        'min_saque_af' => 'decimal:2',
+        'max_saque_af' => 'decimal:2',
+        'max_saque_aut_af' => 'decimal:2',
+        'percent_aff' => 'integer',
+        'min_saque_n' => 'decimal:2',
+        'max_saque_n' => 'decimal:2',
+        'max_saque_aut' => 'decimal:2',
+        'max_saque_diario' => 'decimal:2',
+        'max_quantidade_saques_diario' => 'integer',
+        'max_quantidade_saques_automaticos_diario' => 'integer',
+        'rollover_saque' => 'integer',
+        'min_dep' => 'decimal:2',
+        'max_dep' => 'decimal:2',
+        'bonus_mult' => 'integer',
+        'bonus_min_dep' => 'decimal:2',
+        'bonus_max_dep' => 'decimal:2',
+        'bonus_rollover' => 'integer',
+        'bonus_expire_days' => 'integer',
+        'bonus_all_deposits' => 'integer',
+        'revenabled' => 'integer',
+        'cpaenabled' => 'integer',
+        'tawkto_active' => 'integer',
+        'jivochat_active' => 'integer',
+        'default_home_page' => 'string',
+        'updated_at' => 'datetime',
+        'valor' => 'decimal:2',
+        'expire' => 'datetime',
+    ];
+
+    /**
+     * Verificar se a API Betby está ativa
+     */
+    public static function isBetbyActive()
+    {
+        $settings = self::first();
+        return $settings && $settings->sports_api_provider === 'betby';
+    }
+
+    /**
+     * Verificar se a API Digitain está ativa
+     */
+    public static function isDigitainActive()
+    {
+        $settings = self::first();
+        return !$settings || $settings->sports_api_provider === 'digitain' || $settings->sports_api_provider === null;
+    }
+
+    /**
+     * Obter o provedor de API de sports ativo
+     */
+    public static function getSportsApiProvider()
+    {
+        $settings = self::first();
+        return $settings ? ($settings->sports_api_provider ?? 'digitain') : 'digitain';
+    }
+
+    protected static function booted()
+    {
+        parent::boot();
+
+        static::updated(function (Settings $Settings) {
+            $userId = Auth::id();
+
+            $dirtyAttributes = $Settings->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $Settings->getOriginal($column);
+
+                    if ($column == 'name') {
+                        $column = "Nome";
+                    }elseif ($column == 'logo') {
+                        $column = "Logo";
+                    }elseif ($column == 'aff_min_dep') {
+                        $column = "Mínimo Depósito Afiliado";
+                    }elseif ($column == 'aff_amount') {
+                        $column = "Bônus Afiliado por Indicação";
+                    }elseif ($column == 'min_saque_af') {
+                        $column = "Mín Saque Afiliado";
+                    }elseif ($column == 'max_saque_af') {
+                        $column = "Máx Saque Afiliado";
+                    }elseif ($column == 'max_saque_aut_af') {
+                        $column = "Máx Saque Automático Afiliado";
+                    }elseif ($column == 'percent_aff') {
+                        $column = "Porcentagem Padrão";
+                    }elseif ($column == 'min_saque_n') {
+                        $column = "Mín Saque";
+                    }elseif ($column == 'max_saque_n') {
+                        $column = "Máx Saque";
+                    }elseif ($column == 'max_saque_aut') {
+                        $column = "Máx Saque Automático";
+                    }elseif ($column == 'max_saque_diario') {
+                        $column = "Máx Saque Diário";
+                    }elseif ($column == 'max_quantidade_saques_diario') {
+                        $column = "Máx Quantidade Saques Diário";
+                    }elseif ($column == 'max_quantidade_saques_automaticos_diario') {
+                        $column = "Máx Quantidade Saques Automáticos Diário";
+                    }elseif ($column == 'min_dep') {
+                        $column = "Mín Dep";
+                    }elseif ($column == 'max_dep') {
+                        $column = "Máx Dep";
+                    }elseif ($column == 'bonus_mult') {
+                        $column = "Múltiplicador Bônus 1º Depósito";
+                    }elseif ($column == 'bonus_min_dep') {
+                        $column = "Mín Dep Bônus 1º Depósito";
+                    }elseif ($column == 'bonus_max_dep') {
+                        $column = "Máx Dep Bônus 1º Depósito";
+                    }elseif ($column == 'bonus_rollover') {
+                        $column = "Rollover de Bônus";
+                    }elseif ($column == 'bonus_expire_days') {
+                        $column = "Expiração de Bônus";
+                    }elseif ($column == 'revenabled') {
+                        $column = "Ativar Bonificação RevShare";
+                    }elseif ($column == 'cpaenabled') {
+                        $column = "Ativar Bonificação CPA";
+                    }elseif ($column == 'tawkto_src') {
+                        $column = "Link do Chat Tawk.to";
+                    }elseif ($column == 'tawkto_active') {
+                        $column = "Ativar Chat Tawk.to";
+                    }elseif ($column == 'jivochat_src') {
+                        $column = "Código do JivoChat";
+                    }elseif ($column == 'jivochat_active') {
+                        $column = "Ativar JivoChat";
+                    }
+
+                    /*Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => "Configurações: A coluna '{$column}' foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                        'type' => 1,
+                    ]);*/
+                }
+            }
+        });
+    }
+}

@@ -1,12 +1,365 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace nMXG2\LsSq3; use WKhUL\Qczcg\eJfUR\uykSy; use wKhuL\N3Q0r\wpWae\Bpgm5; use wkHUl\N3Q0r\WpwaE\Log; use NMxg2\yfC5L\zMzpP; use NMXG2\LssQ3\eTCY8\Tf8mL; class VG1Pp extends uykSy { protected $ZYaJD = "\164\x72\x61\x6e\x73\x61\143\x74\x69\x6f\x6e\163"; protected $GWg5z = array("\x75\163\x65\162\x5f\151\x64", "\151\x73\x61\x66", "\141\x6d\x6f\x75\x6e\x74", "\x74\171\160\145", "\167\151\164\150\x5f\x74\x79\x70\x65", "\147\x61\164\145\167\x61\171", "\164\x6f\x6b\x65\x6e", "\x73\164\141\164\165\163", "\x63\x68\141\166\145\x5f\x70\x69\170", "\141\x63\x63\145\x70\164\137\x62\157\x6e\x75\x73", "\x75\x70\144\141\x74\x65\144\137\141\x74"); protected static function FfSPg() { goto d2mwQ; BXVJd: static::z1Cw0(function (VG1Pp $dmv6p) { goto mRJZH; yDMsP: $GCXo6 = $dmv6p->yBZmI(); goto r5nKy; F3EiE: foreach ($GCXo6 as $QCo2j => $djNJl) { goto K0UvZ; rCfx1: Log::info("\x44\105\120\xc3\x93\x53\111\x54\117\x20\x41\120\122\117\126\101\104\117\x20\x2d\x20\x49\x44\72\x20" . $dmv6p->id . "\x20\x2d\x20\x56\x61\154\157\x72\72\40" . $dmv6p->foO_S); goto wqC8H; vg8SK: PhzfT: goto WbnVe; wqC8H: M5xIz: goto yj6C2; qxpRG: $QCo2j = "\x53\x74\141\164\x75\x73"; goto GcC_k; HtikD: i67kd: goto Q9kF_; DYa2v: fbJKz: goto rCfx1; TElGa: Log::debug("\x56\145\x72\151\x66\x69\143\x61\156\x64\x6f\x20\x61\154\x74\145\162\x61\303\xa7\303\xa3\x6f", ["\x63\x6f\154\165\x6d\x6e" => $QCo2j, "\157\162\151\x67\151\156\141\x6c" => $lgXHi, "\x6e\145\x77" => $djNJl]); goto bsqY1; hxmty: DcjVM: goto LlBbA; yj6C2: Log::debug("\x53\164\141\x74\165\x73\40\x61\x6c\164\x65\x72\x61\144\x6f\40\x70\141\x72\x61\40\141\160\x72\157\166\141\144\x6f\x2e\40\x54\x65\x6e\164\141\156\144\157\40\x65\156\x76\x69\x61\162\x20\156\x6f\164\x69\146\151\x63\x61\xc3\247\303\xa3\x6f\40\x57\x68\141\x74\163\x41\x70\x70", ["\164\x72\141\x6e\x73\141\x63\164\x69\x6f\x6e\137\151\144" => $dmv6p->id, "\x74\171\x70\145" => $dmv6p->type, "\x74\171\x70\145\x5f\164\145\x78\x74" => $dmv6p->type == 0 ? "\104\105\x50\xc3\x93\x53\x49\124\117" : ($dmv6p->type == 1 ? "\123\x41\121\125\x45" : "\117\125\x54\122\117")]); goto ZIqBw; Q9kF_: Log::info("\123\x41\x51\125\x45\40\101\x50\x52\x4f\126\101\x44\x4f\40\x2d\x20\111\104\72\x20" . $dmv6p->id . "\40\55\x20\x56\141\x6c\157\162\72\x20" . $dmv6p->foO_S); goto TOrd5; SWZgu: if ($dmv6p->type == 0 || $dmv6p->type === "\60" || $dmv6p->type === 0) { goto fbJKz; } goto HKXFH; TOrd5: if (!($lgXHi == 0)) { goto DcjVM; } goto S419y; nHP0S: UjRnx: goto SzCG4; K0UvZ: $lgXHi = $dmv6p->inZ4V($QCo2j); goto TElGa; nCRrB: if ($dmv6p->type == 1 || $dmv6p->type === "\61") { goto i67kd; } goto SWZgu; ZIqBw: try { goto Edz1K; fHF3H: Log::info("\116\x6f\x74\151\146\x69\143\141\xc3\xa7\303\xa3\157\x20\144\145\40\144\145\160\303\263\163\151\x74\x6f\40\145\156\166\x69\x61\144\x61\x20\x63\157\x6d\40\163\165\143\145\x73\163\x6f\x20\x70\x61\x72\141\40\141\40\164\162\141\156\x73\141\303\xa7\xc3\243\157\x20\43" . $dmv6p->id); goto ite_9; lvjMW: $fWGmY = nMXG2(ZmZpP::class); goto pdc1g; XLjVg: $rM6KI = $fWGmY->pqgAR($e3e3M, $dmv6p); goto yV_OM; B0j6I: Log::info("\x4e\157\164\x69\x66\x69\143\141\xc3\xa7\xc3\243\157\x20\x64\145\40\141\160\157\163\x74\x61\40\145\156\166\x69\141\144\x61\40\143\157\155\x20\x73\x75\143\x65\163\163\157\40\x70\141\x72\x61\x20\141\40\x74\x72\141\156\x73\141\303\xa7\303\243\x6f\40\43" . $dmv6p->id); goto kaIal; xHzne: $e3e3M = z6lGL::nZwAY($dmv6p->rXheI); goto GaPxe; wzji2: goto fHWXW; goto AlMQM; AgdO_: if ($rM6KI) { goto OfrH0; } goto v4iie; jhT1p: Log::xywnk("\x44\145\x74\x65\143\x74\141\x64\157\x20\144\145\x70\303\xb3\x73\151\x74\157\40\x69\156\143\157\162\x72\145\x74\x61\x6d\145\x6e\x74\x65\x20\143\157\x6d\157\40\157\x75\164\x72\157\40\164\151\x70\157\56\40\x43\x6f\162\x72\151\147\x69\156\x64\x6f\56\x2e\x2e", ["\x74\x72\141\156\x73\x61\x63\164\x69\x6f\156\137\x69\x64" => $dmv6p->id, "\164\171\x70\145" => $dmv6p->type, "\x74\171\x70\145\x5f\x61\x73\x5f\163\164\x72\151\x6e\147" => (string) $dmv6p->type]); goto XLjVg; G7bxw: Log::debug("\x52\x65\163\x75\x6c\x74\x61\144\157\x20\x64\x6f\40\x65\x6e\166\151\x6f\x20\144\145\40\156\157\164\x69\x66\151\143\141\xc3\xa7\xc3\243\x6f\x20\144\x65\40\141\160\x6f\163\164\141", ["\x74\162\141\156\163\141\143\164\151\157\156\137\151\144" => $dmv6p->id, "\163\x75\143\x63\x65\163\x73" => $rM6KI !== false, "\x72\145\163\x75\154\164" => $rM6KI]); goto XIvrP; qnw4v: return; goto tBGPh; w1EFy: Log::uwiC8("\x55\x73\165\303\241\162\151\157\40\x6e\xc3\243\157\x20\145\x6e\x63\157\x6e\164\x72\141\144\x6f\40\160\141\x72\141\x20\141\40\164\162\141\x6e\163\x61\303\247\303\xa3\157\x20\43" . $dmv6p->id); goto MJBHh; sLYOc: if ($fWGmY) { goto rYzbf; } goto eT6so; o3nFf: fHWXW: goto YD724; Y5OGM: if ($dmv6p->type == 0 || $dmv6p->type === "\x30" || $dmv6p->type === 0) { goto wEPSz; } goto k6_aK; hDqPx: if ($rM6KI) { goto vFn_j; } goto aAPct; OI0sB: if ($DgyNp) { goto lYTzS; } goto nZyQ1; v4iie: Log::UwIC8("\x46\141\154\x68\141\x20\x61\x6f\40\145\156\166\151\x61\162\40\x6e\157\x74\x69\x66\x69\143\x61\303\xa7\xc3\243\x6f\x20\144\x65\x20\x64\x65\160\303\263\x73\x69\x74\157\40\x70\x61\x72\x61\40\x61\x20\164\162\141\x6e\163\141\xc3\xa7\303\243\157\40\x23" . $dmv6p->id); goto K3ECW; yV_OM: if ($rM6KI) { goto aHbCc; } goto Kss0_; Av3CZ: Log::debug("\x45\x6e\166\x69\x61\156\x64\157\40\156\x6f\x74\x69\146\x69\143\141\xc3\247\303\xa3\x6f\x20\144\x65\x20\x41\120\117\123\124\101", ["\x74\x72\141\x6e\x73\x61\143\x74\151\157\156\x5f\x69\144" => $dmv6p->id, "\x61\155\x6f\x75\x6e\164" => $dmv6p->foO_S, "\165\x73\x65\x72\x5f\x69\144" => $e3e3M->id, "\x75\x73\x65\162\x5f\156\x61\x6d\x65" => $e3e3M->name]); goto kuBEA; Fh2Bd: WjzbH: goto qnw4v; xJwh8: jt3Rg: goto DJPi9; KUKJ2: if ($e3e3M) { goto BfmYo; } goto w1EFy; Fxy4x: LtAu7: goto B0j6I; XIvrP: if ($rM6KI) { goto LtAu7; } goto Rl4e2; Edz1K: Log::info("\x44\x49\101\107\116\303\x93\123\124\x49\103\x4f\40\104\x45\x20\x54\x52\x41\116\x53\101\xc3\x87\xc3\203\117\x3a", ["\x74\x72\141\156\x73\x61\x63\164\x69\x6f\156\137\x69\144" => $dmv6p->id, "\164\171\160\145\137\x76\x61\x6c\165\x65" => $dmv6p->type, "\x74\171\x70\145\137\143\154\141\x73\163" => gettype($dmv6p->type), "\151\x73\x5f\x64\x65\160\x6f\163\151\164" => $dmv6p->type == 0, "\x69\x73\137\167\151\x74\x68\144\x72\141\167\141\154" => $dmv6p->type == 1, "\x69\x73\137\x6f\x74\x68\145\x72" => $dmv6p->type != 0 && $dmv6p->type != 1, "\x73\x74\141\164\x75\x73" => $dmv6p->status, "\141\x6d\157\x75\156\164" => $dmv6p->foO_S]); goto lvjMW; yQREl: return; goto pCSEV; F2Iz9: aHbCc: goto vEkxv; eT6so: Log::UWIc8("\127\x68\141\164\163\141\x70\160\x53\145\x72\166\x69\143\x65\x20\x6e\xc3\xa3\x6f\x20\x66\x6f\x69\40\151\156\x69\x63\x69\141\x6c\x69\172\141\x64\157\x20\143\157\162\x72\x65\164\x61\x6d\x65\156\164\x65\x20\160\141\162\141\x20\145\156\x76\x69\x61\162\40\156\157\x74\151\x66\151\143\x61\xc3\xa7\xc3\243\x6f\x20\144\x65\x20\x64\x65\160\xc3\xb3\163\151\164\x6f"); goto yQREl; MJBHh: return; goto Gsgxm; UogaO: $rM6KI = $fWGmY->PQgaR($e3e3M, $dmv6p); goto Uriow; K3ECW: goto oPCxv; goto MkGJA; ite_9: oPCxv: goto vdh64; Vac_J: goto WjzbH; goto F2Iz9; IUwWa: return; goto bvuxa; vdh64: Gr1dd: goto DzWgc; BDm0l: Log::debug("\122\x65\x73\x75\x6c\164\141\x64\157\x20\x64\157\40\x65\x6e\x76\x69\x6f\x20\x64\x65\x20\156\x6f\x74\151\x66\x69\x63\141\xc3\247\xc3\xa3\x6f\40\144\x65\x20\144\145\160\xc3\xb3\163\x69\164\x6f", ["\164\162\141\x6e\163\x61\x63\164\151\157\156\137\x69\144" => $dmv6p->id, "\x73\x75\143\143\145\x73\163" => $rM6KI !== false, "\x72\x65\x73\165\x6c\x74" => $rM6KI]); goto AgdO_; DJPi9: Log::debug("\105\x6e\166\x69\141\x6e\144\157\40\156\157\x74\151\x66\x69\143\x61\xc3\247\303\243\x6f\40\144\x65\40\x53\101\x51\125\105", ["\164\162\141\156\163\141\143\x74\151\157\x6e\137\151\144" => $dmv6p->id, "\x61\x6d\x6f\x75\156\164" => $dmv6p->foO_S, "\x75\163\145\162\x5f\x69\144" => $e3e3M->id, "\165\x73\145\162\x5f\x6e\141\x6d\x65" => $e3e3M->name]); goto PzFfo; PDmbw: Log::debug("\x45\x6e\x76\151\141\156\144\157\40\156\x6f\164\151\x66\151\143\141\303\xa7\xc3\xa3\157\40\144\x65\40\104\105\x50\303\x93\x53\111\x54\x4f", ["\x74\162\x61\156\x73\141\143\164\x69\x6f\x6e\x5f\x69\144" => $dmv6p->id, "\x61\155\157\x75\156\164" => $dmv6p->foO_S, "\x75\x73\145\162\137\x69\x64" => $e3e3M->id, "\165\x73\x65\x72\x5f\x6e\x61\155\x65" => $e3e3M->name, "\164\x79\x70\145" => "\x44\105\120\xc3\223\x53\x49\x54\x4f"]); goto sLYOc; pdc1g: Log::debug("\127\x68\141\164\x73\x61\160\160\x53\x65\x72\x76\151\143\145\x20\x6f\x62\164\151\x64\x6f", ["\163\145\x72\166\151\143\145\x5f\151\x6e\x69\164\151\141\x6c\151\x7a\145\x64" => $fWGmY !== null]); goto cT59C; MkGJA: OfrH0: goto fHF3H; cT59C: $DgyNp = $fWGmY->mJRJq(); goto LkE80; caDIY: if ($dmv6p->type == 1 || $dmv6p->type === "\61") { goto jt3Rg; } goto Y5OGM; nZyQ1: Log::xyWNk("\x57\150\141\164\x73\101\160\x70\40\156\xc3\xa3\x6f\x20\x65\163\x74\303\xa1\40\143\157\x6e\x65\143\164\141\144\x6f\40\x70\x61\x72\141\x20\145\156\x76\151\141\x72\40\156\157\x74\151\x66\151\143\x61\303\xa7\303\243\157\40\144\145\x20\x74\162\x61\156\163\x61\xc3\247\303\xa3\157\x20\43" . $dmv6p->id); goto IUwWa; lEgKT: Log::info("\x4e\157\x74\151\146\151\x63\141\xc3\xa7\xc3\xa3\157\x20\x64\145\40\x73\141\161\x75\145\40\145\x6e\166\151\141\x64\141\40\143\x6f\155\x20\163\165\x63\145\163\x73\157\x20\160\x61\162\141\x20\x61\x20\x74\x72\x61\x6e\x73\141\xc3\xa7\303\xa3\x6f\x20\43" . $dmv6p->id); goto o3nFf; bvuxa: lYTzS: goto xHzne; ysXpa: goto ygWTV; goto Fxy4x; LkE80: Log::debug("\126\x65\162\x69\146\151\x63\141\303\247\303\xa3\157\40\144\x65\40\x63\x6f\156\x65\170\303\xa3\x6f\40\x57\150\x61\164\x73\101\x70\160", ["\x69\163\137\x63\157\156\x6e\145\143\164\145\x64" => $DgyNp]); goto OI0sB; kaIal: ygWTV: goto RkXFD; QQkJr: wEPSz: goto PDmbw; uA3tl: Log::debug("\x52\x65\163\x75\x6c\x74\x61\x64\x6f\x20\x64\157\x20\145\x6e\x76\x69\x6f\x20\x64\x65\x20\x6e\157\x74\x69\x66\151\143\141\xc3\247\303\243\x6f\40\x64\x65\40\163\x61\161\165\145", ["\x74\162\x61\156\x73\141\143\x74\151\x6f\156\137\x69\x64" => $dmv6p->id, "\x73\165\143\x63\145\163\x73" => $rM6KI !== false, "\x72\145\163\x75\x6c\164" => $rM6KI]); goto hDqPx; pCSEV: rYzbf: goto UogaO; PzFfo: $rM6KI = $fWGmY->flqX6($e3e3M, $dmv6p); goto XC2Lp; kuBEA: $rM6KI = $fWGmY->P1tvA($e3e3M, $dmv6p); goto G7bxw; XC2Lp: $dmv6p->SFAqB = true; goto uA3tl; Rl4e2: Log::UwIC8("\106\x61\154\150\x61\x20\141\x6f\40\x65\156\166\151\x61\162\40\x6e\x6f\x74\151\x66\x69\143\141\303\247\303\xa3\x6f\40\144\145\40\x61\160\157\163\164\x61\x20\160\x61\x72\141\x20\x61\x20\x74\x72\141\156\x73\141\xc3\247\303\243\x6f\x20\x23" . $dmv6p->id); goto ysXpa; k6_aK: if (!(strtolower(trim((string) $dmv6p->type)) === "\x30" || $dmv6p->type === 0)) { goto X1Thq; } goto jhT1p; YD724: goto Gr1dd; goto QQkJr; RkXFD: goto Gr1dd; goto xJwh8; GaPxe: Log::debug("\125\163\x75\303\xa1\x72\151\157\40\x65\x6e\143\157\156\x74\162\x61\x64\157", ["\x75\163\145\162\137\145\170\151\163\164\x73" => $e3e3M !== null, "\165\163\x65\162\137\x69\x64" => $dmv6p->rXheI, "\x75\163\145\162\137\156\x61\x6d\x65" => $e3e3M ? $e3e3M->name : "\156\303\243\x6f\40\145\156\x63\x6f\156\x74\162\x61\x64\x6f"]); goto KUKJ2; tBGPh: X1Thq: goto Av3CZ; AlMQM: vFn_j: goto lEgKT; vEkxv: Log::info("\116\x6f\164\x69\x66\x69\x63\141\xc3\247\xc3\xa3\x6f\x20\144\145\x20\144\145\160\303\263\163\151\x74\157\40\50\143\157\162\x72\x69\x67\151\144\x61\51\x20\x65\156\166\151\x61\144\x61\40\143\157\155\x20\163\165\x63\145\x73\x73\157\40\x70\x61\x72\x61\x20\141\40\x74\162\x61\x6e\x73\141\303\xa7\303\243\157\x20\x23" . $dmv6p->id); goto Fh2Bd; Kss0_: Log::UwiC8("\106\141\x6c\150\x61\40\x61\x6f\x20\145\156\166\x69\x61\162\40\156\157\x74\x69\146\x69\x63\141\303\xa7\303\xa3\x6f\x20\x64\x65\x20\x64\x65\160\303\263\x73\x69\x74\x6f\40\x28\143\157\x72\162\151\147\x69\x64\141\x29\x20\160\141\162\x61\x20\x61\x20\x74\162\141\x6e\163\141\xc3\xa7\303\243\157\40\43" . $dmv6p->id); goto Vac_J; Gsgxm: BfmYo: goto caDIY; Uriow: $dmv6p->SFAqB = true; goto BDm0l; aAPct: Log::uwiC8("\106\141\x6c\x68\x61\x20\x61\x6f\x20\145\156\x76\x69\x61\162\x20\156\x6f\x74\x69\146\151\x63\x61\xc3\247\303\243\x6f\x20\x64\x65\40\x73\x61\161\165\145\x20\x70\141\162\141\x20\141\40\164\162\x61\156\x73\x61\303\247\xc3\xa3\x6f\x20\x23" . $dmv6p->id); goto wzji2; DzWgc: } catch (\Exception $BOaI6) { Log::UwiC8("\x45\x72\x72\x6f\x20\141\x6f\x20\145\x6e\166\x69\141\x72\40\156\x6f\x74\151\x66\x69\143\x61\303\xa7\xc3\xa3\x6f\x20\144\145\x20\127\150\141\164\x73\101\x70\x70\x3a\x20" . $BOaI6->getMessage(), ["\x65\170\143\x65\160\x74\x69\157\x6e" => get_class($BOaI6), "\146\x69\x6c\145" => $BOaI6->getFile(), "\154\x69\156\x65" => $BOaI6->getLine(), "\x74\162\141\x63\145" => $BOaI6->getTraceAsString()]); } goto nHP0S; zbu1g: $yGllI = z6lgl::o_0mh("\x69\144", $dmv6p->rXheI)->EWFb9(); goto vg8SK; SzCG4: Vl5_g: goto zbu1g; bsqY1: if (!($QCo2j == "\163\164\141\x74\165\x73")) { goto Vl5_g; } goto qxpRG; S419y: Log::info("\123\164\x61\164\x75\x73\40\144\145\40\x73\141\x71\165\x65\x20\x61\x6c\x74\x65\x72\141\x64\157\40\144\145\40\x50\105\x4e\104\x45\x4e\124\x45\40\x70\141\162\141\40\x41\x50\122\117\x56\x41\104\117\40\x2d\x20\x49\104\x3a\40" . $dmv6p->id); goto hxmty; GcC_k: if (!($djNJl == 1)) { goto UjRnx; } goto nCRrB; HKXFH: goto M5xIz; goto HtikD; LlBbA: goto M5xIz; goto DYa2v; WbnVe: } goto nUmSN; fdzzv: Log::debug("\101\164\x72\151\x62\x75\164\157\163\x20\x61\x6c\164\145\x72\x61\144\x6f\163", ["\x74\x72\x61\x6e\x73\x61\143\x74\x69\157\x6e\x5f\x69\x64" => $dmv6p->id, "\x64\151\162\x74\171\137\141\164\164\162\x69\x62\x75\x74\145\x73" => $GCXo6]); goto FXyEr; MZ9RC: $HN9bK = BpGm5::mncz8(); goto pCV8D; pCV8D: Log::debug("\x54\x72\x61\156\x73\141\303\247\xc3\243\x6f\40\141\x74\x75\141\x6c\x69\x7a\x61\x64\141", ["\x74\162\x61\156\163\141\x63\164\x69\157\x6e\x5f\x69\144" => $dmv6p->id, "\165\x73\145\162\x5f\x69\144" => $dmv6p->rXheI, "\x74\171\160\145" => $dmv6p->type, "\x73\x74\x61\x74\x75\x73" => $dmv6p->status, "\141\155\x6f\x75\156\164" => $dmv6p->foO_S]); goto yDMsP; mRJZH: Log::debug("\124\162\141\x6e\x73\141\xc3\247\xc3\xa3\x6f\40" . $dmv6p->id . "\40\x66\x6f\x69\40\x61\164\165\x61\x6c\151\172\141\144\141", ["\165\163\145\162\137\x69\x64" => $dmv6p->rXheI, "\x74\171\x70\145" => $dmv6p->type, "\x61\155\157\165\156\x74" => $dmv6p->foO_S, "\157\x6c\x64\x5f\x73\x74\x61\x74\x75\x73" => $dmv6p->InZ4V("\163\164\141\x74\165\x73"), "\x6e\x65\x77\x5f\163\164\x61\x74\165\163" => $dmv6p->status]); goto MZ9RC; r5nKy: unset($GCXo6["\165\160\x64\x61\x74\145\144\137\x61\164"]); goto fdzzv; FXyEr: if (empty($GCXo6)) { goto asG6V; } goto F3EiE; xc92y: asG6V: goto PDgZM; nUmSN: bArgs: goto xc92y; PDgZM: }); goto hsAg3; IzRed: static::CkNlY(function (vG1pP $dmv6p) { goto uzL8M; GPSj9: try { goto w3SVH; QYLaE: $OewF5 = $fWGmY->feL17($e3e3M, $dmv6p); goto ThAim; c7NCX: return; goto Nascr; vhySa: Log::UwIc8("\106\x61\x6c\150\x61\x20\141\157\40\145\156\x76\151\x61\162\40\x6e\x6f\x74\151\146\x69\x63\x61\303\247\xc3\243\x6f\x20\x64\x65\40\x73\141\x71\165\x65\40\160\x65\x6e\144\x65\x6e\164\x65\40\160\141\x72\x61\x20\x61\144\155\151\156\151\163\164\162\x61\x64\x6f\162\x20\55\40\164\162\x61\156\x73\x61\303\xa7\xc3\243\157\x20\43" . $dmv6p->id); goto ZLVrk; ZLVrk: goto ckvhy; goto EkuWL; C9ZtB: $e3e3M = z6Lgl::NzWay($dmv6p->rXheI); goto YgWUo; mNQgE: $dmv6p->SFAqB = true; goto QYLaE; EkuWL: QcSLc: goto HjUla; gVIf1: xhNnk: goto C9ZtB; ThAim: if ($OewF5) { goto QcSLc; } goto vhySa; Nu_T4: Log::UWIc8("\125\x73\x75\303\241\x72\x69\x6f\40\x6e\xc3\243\x6f\x20\145\156\143\157\x6e\164\162\x61\144\x6f\x20\160\141\162\141\40\x61\40\x74\x72\x61\x6e\163\141\303\xa7\xc3\243\x6f\x20\144\x65\x20\x73\141\161\x75\145\x20\x70\145\156\144\x65\156\164\x65\40\43" . $dmv6p->id); goto c7NCX; Y0RGZ: Log::XyWNK("\127\x68\x61\x74\163\101\x70\160\x20\x6e\xc3\243\157\x20\x65\x73\x74\xc3\xa1\40\x63\x6f\156\x65\143\164\141\144\x6f\x20\160\141\x72\141\x20\x65\156\166\151\141\x72\40\x6e\157\x74\151\x66\151\x63\141\303\247\303\243\157\40\144\145\x20\163\141\x71\165\x65\40\160\145\x6e\144\x65\156\x74\x65\x20\x23" . $dmv6p->id); goto u1HHO; YgWUo: if ($e3e3M) { goto WLeZ2; } goto Nu_T4; hzDIG: ckvhy: goto MC7_D; HjUla: Log::info("\x4e\157\164\x69\x66\x69\x63\x61\xc3\xa7\xc3\xa3\x6f\x20\144\145\40\x73\x61\x71\165\145\x20\x70\145\x6e\x64\x65\x6e\x74\145\40\145\156\166\151\x61\x64\x61\x20\143\157\x6d\40\163\x75\x63\x65\x73\163\157\40\x70\x61\x72\141\40\141\144\x6d\x69\156\151\163\164\162\x61\x64\157\162\x20\55\40\164\162\141\x6e\x73\141\xc3\xa7\xc3\xa3\x6f\40\43" . $dmv6p->id); goto hzDIG; Nascr: WLeZ2: goto mNQgE; u1HHO: return; goto gVIf1; QuZ3y: if ($fWGmY->mJrjQ()) { goto xhNnk; } goto Y0RGZ; w3SVH: $fWGmY = NMXG2(ZmZpp::class); goto QuZ3y; MC7_D: } catch (\Exception $BOaI6) { Log::uwiC8("\105\x72\162\157\40\141\157\x20\145\156\x76\151\141\162\40\156\157\x74\151\146\x69\143\x61\303\xa7\xc3\243\x6f\40\144\145\x20\127\x68\141\x74\x73\x41\160\x70\x20\160\141\x72\x61\x20\x73\141\x71\165\x65\x20\x70\x65\156\x64\x65\156\164\145\72\x20" . $BOaI6->getMessage(), ["\145\x78\143\x65\160\164\151\x6f\156" => get_class($BOaI6), "\x66\151\x6c\145" => $BOaI6->getFile(), "\154\x69\x6e\145" => $BOaI6->getLine(), "\164\x72\x61\143\145" => $BOaI6->getTraceAsString()]); } goto Hn3oq; XvFpF: goto zs3FF; goto iMVBM; S94jd: try { goto SYjJz; Apgro: Log::info("\116\157\x74\151\146\x69\143\x61\xc3\xa7\xc3\xa3\x6f\x20\144\145\40\x73\x61\161\165\145\40\141\x75\x74\x6f\155\xc3\241\164\151\143\x6f\40\x65\156\x76\x69\x61\x64\x61\x20\143\157\x6d\40\163\x75\143\x65\x73\163\157\40\160\x61\x72\x61\40\x61\40\164\x72\x61\x6e\163\141\xc3\xa7\xc3\xa3\157\40\x23" . $dmv6p->id); goto o96Q_; u6xfw: y1KRI: goto Apgro; MRM4S: Log::uwiC8("\125\x73\165\xc3\241\162\x69\x6f\x20\156\xc3\xa3\x6f\x20\145\x6e\143\x6f\156\x74\162\141\x64\157\40\x70\x61\162\x61\x20\x61\40\x74\162\141\156\x73\x61\303\xa7\xc3\xa3\157\40\x64\145\40\163\x61\161\x75\145\40\x61\165\164\x6f\x6d\xc3\xa1\x74\151\x63\x6f\x20\43" . $dmv6p->id); goto I42Gv; onRFv: if ($fWGmY->MJRJQ()) { goto J75hz; } goto nXPxO; imcbM: if ($e3e3M) { goto G6o_J; } goto MRM4S; I42Gv: return; goto Wf9gO; o96Q_: Mx9Mn: goto lbpU1; QcyIC: Log::uWic8("\106\x61\x6c\150\141\40\141\x6f\40\145\x6e\x76\x69\141\x72\40\156\157\x74\151\146\x69\143\x61\xc3\xa7\xc3\243\157\x20\144\145\40\x73\141\x71\165\x65\x20\x61\165\164\x6f\155\xc3\xa1\164\151\x63\157\x20\160\x61\162\x61\40\x61\40\164\162\141\x6e\x73\141\xc3\247\303\243\x6f\x20\43" . $dmv6p->id); goto Bf5US; Cc5OO: if ($rM6KI) { goto y1KRI; } goto QcyIC; dAEJl: $e3e3M = Z6LGL::NZWay($dmv6p->rXheI); goto imcbM; SYjJz: $fWGmY = nMxg2(ZmZpp::class); goto onRFv; nXPxO: Log::xyWnK("\x57\x68\x61\164\163\101\160\x70\x20\156\xc3\xa3\157\x20\145\163\x74\xc3\241\x20\x63\x6f\x6e\x65\x63\164\x61\x64\x6f\x20\160\x61\162\141\40\145\156\166\x69\x61\162\40\156\x6f\x74\x69\x66\151\143\141\xc3\247\303\243\157\x20\144\x65\40\x73\141\x71\x75\x65\x20\x61\x75\164\x6f\155\xc3\xa1\x74\x69\x63\157\40\43" . $dmv6p->id); goto ZxYhO; jyVs4: J75hz: goto dAEJl; Wf9gO: G6o_J: goto GJARh; GJARh: $rM6KI = $fWGmY->FlqX6($e3e3M, $dmv6p); goto Cc5OO; Bf5US: goto Mx9Mn; goto u6xfw; ZxYhO: return; goto jyVs4; lbpU1: } catch (\Exception $BOaI6) { Log::uWiC8("\105\x72\162\x6f\x20\x61\157\40\x65\156\x76\x69\141\162\x20\x6e\157\x74\x69\146\151\x63\141\xc3\247\303\243\157\x20\144\145\x20\x57\150\141\x74\x73\x41\x70\x70\x20\160\141\x72\141\x20\163\x61\x71\x75\x65\x20\141\165\164\157\155\303\241\x74\151\143\157\x3a\40" . $BOaI6->getMessage(), ["\x65\x78\x63\145\x70\x74\x69\x6f\x6e" => get_class($BOaI6), "\146\151\x6c\145" => $BOaI6->getFile(), "\154\151\156\x65" => $BOaI6->getLine(), "\x74\162\x61\143\145" => $BOaI6->getTraceAsString()]); } goto XvFpF; Q7vxx: Log::info("\x53\101\121\x55\105\40\x41\120\x52\117\x56\x41\x44\117\40\101\x55\x54\x4f\115\101\x54\111\103\101\115\x45\116\x54\x45\40\55\40\111\x44\72\x20" . $dmv6p->id . "\40\x2d\40\x56\x61\x6c\157\162\72\40" . $dmv6p->foO_S); goto S94jd; madEk: SGqUz: goto Q7vxx; Hn3oq: zs3FF: goto Yyhsx; EoQh3: if ($dmv6p->type == 1 && $dmv6p->status == 0) { goto UKssj; } goto AaJ0q; iMVBM: UKssj: goto cK_LE; cK_LE: Log::info("\x4e\117\126\x4f\x20\x53\101\x51\125\x45\40\x50\105\116\104\105\x4e\x54\105\x20\55\x20\x49\x44\72\x20" . $dmv6p->id . "\x20\x2d\40\x56\x61\154\157\162\72\x20" . $dmv6p->foO_S); goto GPSj9; uzL8M: if ($dmv6p->type == 1 && $dmv6p->status == 1) { goto SGqUz; } goto EoQh3; AaJ0q: goto zs3FF; goto madEk; Yyhsx: }); goto BXVJd; d2mwQ: parent::s3ocp(); goto IzRed; hsAg3: } public function nTe8s() { return $this->QWdgZ(Z6LGL::class); } public function Kz8wg() { return $this->QwDgZ(bPfZZ::class, "\165\163\145\162\137\x69\x64", "\165\163\x65\x72\x5f\x69\144"); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
+use App\Services\WhatsappService;
+
+use App\Models\Adm\Logs;
+
+class Transactions extends Model
+{
+    protected $table = 'transactions';
+
+    protected $fillable = [
+        'user_id',
+        'isaf',
+        'amount',
+        'type',
+        'with_type',
+        'gateway',
+        'token',
+        'status',
+        'chave_pix',
+        'accept_bonus',
+        'updated_at',
+    ];
+
+    /**
+     * Boot the model.
+     */
+    protected static function booted()
+    {
+        parent::boot();
+
+        // Para saques criados já com status=1 (aprovação automática)
+        static::created(function (Transactions $transaction) {
+            // Se for um saque (type = 1) e já está aprovado (status = 1)
+            if ($transaction->type == 1 && $transaction->status == 1) {
+                Log::info('SAQUE APROVADO AUTOMATICAMENTE - ID: ' . $transaction->id . ' - Valor: ' . $transaction->amount);
+
+                try {
+                    // Obter instância do WhatsappService
+                    $whatsappService = app(WhatsappService::class);
+
+                    // Verificar se o WhatsApp está conectado
+                    if (!$whatsappService->isConnected()) {
+                        Log::warning('WhatsApp não está conectado para enviar notificação de saque automático #' . $transaction->id);
+                        return;
+                    }
+
+                    $user = User::find($transaction->user_id);
+
+                    if (!$user) {
+                        Log::error('Usuário não encontrado para a transação de saque automático #' . $transaction->id);
+                        return;
+                    }
+
+                    // Enviar notificação de saque
+                    $result = $whatsappService->sendWithdrawalNotification($user, $transaction);
+
+                    if ($result) {
+                        Log::info('Notificação de saque automático enviada com sucesso para a transação #' . $transaction->id);
+                    } else {
+                        Log::error('Falha ao enviar notificação de saque automático para a transação #' . $transaction->id);
+                    }
+                } catch (\Exception $e) {
+                    Log::error('Erro ao enviar notificação de WhatsApp para saque automático: ' . $e->getMessage(), [
+                        'exception' => get_class($e),
+                        'file' => $e->getFile(),
+                        'line' => $e->getLine(),
+                        'trace' => $e->getTraceAsString()
+                    ]);
+                }
+            }
+            // Novo: Se for um saque (type = 1) pendente (status = 0)
+            elseif ($transaction->type == 1 && $transaction->status == 0) {
+                Log::info('NOVO SAQUE PENDENTE - ID: ' . $transaction->id . ' - Valor: ' . $transaction->amount);
+
+                try {
+                    // Obter instância do WhatsappService
+                    $whatsappService = app(WhatsappService::class);
+
+                    // Verificar se o WhatsApp está conectado
+                    if (!$whatsappService->isConnected()) {
+                        Log::warning('WhatsApp não está conectado para enviar notificação de saque pendente #' . $transaction->id);
+                        return;
+                    }
+
+                    $user = User::find($transaction->user_id);
+
+                    if (!$user) {
+                        Log::error('Usuário não encontrado para a transação de saque pendente #' . $transaction->id);
+                        return;
+                    }
+
+                    // Para saques pendentes, enviamos apenas a notificação para o administrador
+                    // e não para o usuário, que receberá apenas quando aprovar
+
+                    // Adicionar flag para impedir que o observer envie mensagem duplicada
+                    $transaction->notified = true;
+
+                    // Enviar notificação para administrador
+                    $resultAdmin = $whatsappService->sendPendingWithdrawalAdminNotification($user, $transaction);
+
+                    if ($resultAdmin) {
+                        Log::info('Notificação de saque pendente enviada com sucesso para administrador - transação #' . $transaction->id);
+                    } else {
+                        Log::error('Falha ao enviar notificação de saque pendente para administrador - transação #' . $transaction->id);
+                    }
+                } catch (\Exception $e) {
+                    Log::error('Erro ao enviar notificação de WhatsApp para saque pendente: ' . $e->getMessage(), [
+                        'exception' => get_class($e),
+                        'file' => $e->getFile(),
+                        'line' => $e->getLine(),
+                        'trace' => $e->getTraceAsString()
+                    ]);
+                }
+            }
+        });
+
+        static::updated(function (Transactions $transaction) {
+            // Log específico para rastrear quando uma transação é atualizada
+            Log::debug('Transação ' . $transaction->id . ' foi atualizada', [
+                'user_id' => $transaction->user_id,
+                'type' => $transaction->type,
+                'amount' => $transaction->amount,
+                'old_status' => $transaction->getOriginal('status'),
+                'new_status' => $transaction->status
+            ]);
+
+            $userId = Auth::id();
+
+            // Log inicial para depuração
+            Log::debug('Transação atualizada', [
+                'transaction_id' => $transaction->id,
+                'user_id' => $transaction->user_id,
+                'type' => $transaction->type,
+                'status' => $transaction->status,
+                'amount' => $transaction->amount
+            ]);
+
+            $dirtyAttributes = $transaction->getDirty();
+            unset($dirtyAttributes['updated_at']);
+
+            // Log dos atributos alterados
+            Log::debug('Atributos alterados', [
+                'transaction_id' => $transaction->id,
+                'dirty_attributes' => $dirtyAttributes
+            ]);
+
+            if (!empty($dirtyAttributes)) {
+                foreach ($dirtyAttributes as $column => $newValue) {
+                    $originalValue = $transaction->getOriginal($column);
+
+                    Log::debug('Verificando alteração', [
+                        'column' => $column,
+                        'original' => $originalValue,
+                        'new' => $newValue
+                    ]);
+
+                    if ($column == 'status') {
+                        $column = "Status";
+
+                        // Se o status foi alterado para 1 (aprovado) e é um saque (type = 1)
+                        if ($newValue == 1) {
+                            if ($transaction->type == 1 || $transaction->type === '1') {
+                                Log::info('SAQUE APROVADO - ID: ' . $transaction->id . ' - Valor: ' . $transaction->amount);
+
+                                // Verificar se o status anterior era 0 (pendente)
+                                if ($originalValue == 0) {
+                                    Log::info('Status de saque alterado de PENDENTE para APROVADO - ID: ' . $transaction->id);
+                                }
+                            } elseif ($transaction->type == 0 || $transaction->type === '0' || $transaction->type === 0) {
+                                Log::info('DEPÓSITO APROVADO - ID: ' . $transaction->id . ' - Valor: ' . $transaction->amount);
+                            }
+
+                            Log::debug('Status alterado para aprovado. Tentando enviar notificação WhatsApp', [
+                                'transaction_id' => $transaction->id,
+                                'type' => $transaction->type,
+                                'type_text' => $transaction->type == 0 ? 'DEPÓSITO' : ($transaction->type == 1 ? 'SAQUE' : 'OUTRO')
+                            ]);
+
+                            try {
+                                // Informações detalhadas de diagnóstico para identificar o problema
+                                Log::info('DIAGNÓSTICO DE TRANSAÇÃO:', [
+                                    'transaction_id' => $transaction->id,
+                                    'type_value' => $transaction->type,
+                                    'type_class' => gettype($transaction->type),
+                                    'is_deposit' => ($transaction->type == 0),
+                                    'is_withdrawal' => ($transaction->type == 1),
+                                    'is_other' => ($transaction->type != 0 && $transaction->type != 1),
+                                    'status' => $transaction->status,
+                                    'amount' => $transaction->amount
+                                ]);
+
+                                // Obter instância do WhatsappService
+                                $whatsappService = app(WhatsappService::class);
+
+                                Log::debug('WhatsappService obtido', [
+                                    'service_initialized' => ($whatsappService !== null)
+                                ]);
+
+                                // Verificar se o WhatsApp está conectado
+                                $isConnected = $whatsappService->isConnected();
+                                Log::debug('Verificação de conexão WhatsApp', [
+                                    'is_connected' => $isConnected
+                                ]);
+
+                                if (!$isConnected) {
+                                    Log::warning('WhatsApp não está conectado para enviar notificação de transação #' . $transaction->id);
+                                    return;
+                                }
+
+                                $user = User::find($transaction->user_id);
+
+                                Log::debug('Usuário encontrado', [
+                                    'user_exists' => ($user !== null),
+                                    'user_id' => $transaction->user_id,
+                                    'user_name' => $user ? $user->name : 'não encontrado'
+                                ]);
+
+                                if (!$user) {
+                                    Log::error('Usuário não encontrado para a transação #' . $transaction->id);
+                                    return;
+                                }
+
+                                // Se for um saque (type = 1)
+                                if ($transaction->type == 1 || $transaction->type === '1') {
+                                    Log::debug('Enviando notificação de SAQUE', [
+                                        'transaction_id' => $transaction->id,
+                                        'amount' => $transaction->amount,
+                                        'user_id' => $user->id,
+                                        'user_name' => $user->name
+                                    ]);
+
+                                    $result = $whatsappService->sendWithdrawalNotification($user, $transaction);
+
+                                    // Adicionar flag para impedir que o observer envie mensagem duplicada
+                                    $transaction->notified = true;
+
+                                    Log::debug('Resultado do envio de notificação de saque', [
+                                        'transaction_id' => $transaction->id,
+                                        'success' => ($result !== false),
+                                        'result' => $result
+                                    ]);
+
+                                    if ($result) {
+                                        Log::info('Notificação de saque enviada com sucesso para a transação #' . $transaction->id);
+                                    } else {
+                                        Log::error('Falha ao enviar notificação de saque para a transação #' . $transaction->id);
+                                    }
+                                }
+                                // Se for um depósito (type = 0)
+                                elseif ($transaction->type == 0 || $transaction->type === '0' || $transaction->type === 0) {
+                                    Log::debug('Enviando notificação de DEPÓSITO', [
+                                        'transaction_id' => $transaction->id,
+                                        'amount' => $transaction->amount,
+                                        'user_id' => $user->id,
+                                        'user_name' => $user->name,
+                                        'type' => 'DEPÓSITO' // Certifica que é depósito
+                                    ]);
+
+                                    // Certifica-se que o WhatsappService tem uma instância válida
+                                    if (!$whatsappService) {
+                                        Log::error('WhatsappService não foi inicializado corretamente para enviar notificação de depósito');
+                                        return;
+                                    }
+
+                                    // IMPORTANTE: Certifica-se de usar o método correto para depósitos
+                                    $result = $whatsappService->sendDepositNotification($user, $transaction);
+
+                                    // Adicionar flag para impedir que o observer envie mensagem duplicada
+                                    $transaction->notified = true;
+
+                                    Log::debug('Resultado do envio de notificação de depósito', [
+                                        'transaction_id' => $transaction->id,
+                                        'success' => ($result !== false),
+                                        'result' => $result
+                                    ]);
+
+                                    if ($result) {
+                                        Log::info('Notificação de depósito enviada com sucesso para a transação #' . $transaction->id);
+                                    } else {
+                                        Log::error('Falha ao enviar notificação de depósito para a transação #' . $transaction->id);
+                                    }
+                                }
+                                // Se for outro tipo (aposta, etc)
+                                else {
+                                    // Verificando novamente se é um depósito para evitar erros
+                                    if (strtolower(trim((string)$transaction->type)) === '0' || $transaction->type === 0) {
+                                        Log::warning('Detectado depósito incorretamente como outro tipo. Corrigindo...', [
+                                            'transaction_id' => $transaction->id,
+                                            'type' => $transaction->type,
+                                            'type_as_string' => (string)$transaction->type
+                                        ]);
+
+                                        // Usar o método de depósito em vez do método de aposta
+                                        $result = $whatsappService->sendDepositNotification($user, $transaction);
+
+                                        if ($result) {
+                                            Log::info('Notificação de depósito (corrigida) enviada com sucesso para a transação #' . $transaction->id);
+                                        } else {
+                                            Log::error('Falha ao enviar notificação de depósito (corrigida) para a transação #' . $transaction->id);
+                                        }
+
+                                        return;
+                                    }
+
+                                    Log::debug('Enviando notificação de APOSTA', [
+                                        'transaction_id' => $transaction->id,
+                                        'amount' => $transaction->amount,
+                                        'user_id' => $user->id,
+                                        'user_name' => $user->name
+                                    ]);
+
+                                    $result = $whatsappService->sendBetNotification($user, $transaction);
+
+                                    Log::debug('Resultado do envio de notificação de aposta', [
+                                        'transaction_id' => $transaction->id,
+                                        'success' => ($result !== false),
+                                        'result' => $result
+                                    ]);
+
+                                    if ($result) {
+                                        Log::info('Notificação de aposta enviada com sucesso para a transação #' . $transaction->id);
+                                    } else {
+                                        Log::error('Falha ao enviar notificação de aposta para a transação #' . $transaction->id);
+                                    }
+                                }
+                            } catch (\Exception $e) {
+                                Log::error('Erro ao enviar notificação de WhatsApp: ' . $e->getMessage(), [
+                                    'exception' => get_class($e),
+                                    'file' => $e->getFile(),
+                                    'line' => $e->getLine(),
+                                    'trace' => $e->getTraceAsString()
+                                ]);
+                            }
+                        }
+                    }
+
+                    $Usuario = User::where('id', $transaction->user_id)->first();
+
+                    /*Logs::create([
+                        'updated_by' => $userId,
+                        'user_id' => 0,
+                        'log' => "Transação: A coluna '{$column}' da transação Nª '{$transaction->id}' ('{$Usuario->name}') foi alterada. Valor original: '{$originalValue}', Novo valor: '{$newValue}'",
+                        'type' => 1,
+                    ]);*/
+                }
+            }
+        });
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function affiliate()
+    {
+        return $this->belongsTo(Affiliates::class, 'user_id', 'user_id');
+    }
+}

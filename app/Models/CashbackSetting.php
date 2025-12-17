@@ -1,12 +1,271 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmXG2\lssq3; use WKhUl\QCZcg\EJfur\Q4Fqj\jZdKT; use wKhUl\QcZCG\ejfur\uyksy; class mDoVP extends uyKsY { use jzdkT; protected $ZYaJD = "\143\141\163\150\x62\141\143\x6b\137\x73\145\x74\164\151\156\x67\163"; protected $GWg5z = array("\x75\163\145\x72\x5f\x69\x64", "\x6e\141\155\145", "\160\x65\162\x63\x65\x6e\x74\141\147\145", "\164\x79\x70\x65", "\155\151\x6e\x5f\154\157\163\163", "\x6d\x61\170\x5f\143\x61\163\150\x62\141\143\x6b", "\x61\165\x74\x6f\x5f\x61\160\160\x6c\x79", "\145\170\x70\151\162\x79\137\x64\141\x79\x73", "\141\143\164\x69\x76\x65", "\151\x73\137\x67\154\157\142\141\x6c", "\x76\x69\160\137\x6c\x65\166\x65\154", "\x73\x63\x68\x65\144\x75\154\145\144\x5f\144\x61\x79", "\163\143\x68\x65\x64\x75\x6c\145\x64\x5f\x68\x6f\165\x72", "\x73\143\x68\x65\144\x75\154\x65\144\x5f\x6d\151\156\165\164\145", "\163\143\x68\145\x64\x75\154\145\137\x61\143\x74\151\x76\145", "\x73\x63\150\145\144\165\154\145\x64\137\146\162\x65\161\165\145\x6e\x63\x79", "\x6c\141\163\164\x5f\x72\x75\156\137\141\x74", "\156\x65\170\x74\x5f\x72\x75\x6e\x5f\141\x74"); protected $FPpxl = array("\x70\x65\x72\143\145\x6e\x74\141\147\145" => "\144\145\143\151\x6d\141\154\x3a\62", "\x6d\x69\x6e\x5f\x6c\x6f\163\163" => "\x64\145\143\151\155\x61\154\x3a\62", "\x6d\x61\x78\137\x63\x61\163\150\142\x61\143\x6b" => "\x64\145\x63\151\x6d\x61\154\x3a\62", "\x61\x75\164\x6f\x5f\x61\160\160\x6c\x79" => "\142\x6f\x6f\x6c\x65\141\156", "\141\143\164\151\166\x65" => "\142\157\157\154\x65\x61\x6e", "\x69\x73\137\x67\154\x6f\x62\141\x6c" => "\x62\x6f\157\x6c\x65\141\x6e", "\x65\x78\x70\x69\x72\x79\x5f\144\141\x79\163" => "\151\156\x74\x65\x67\145\x72", "\x76\x69\160\137\154\145\x76\x65\x6c" => "\151\156\x74\x65\x67\x65\162", "\x73\x63\x68\x65\144\165\154\145\x64\x5f\144\141\x79" => "\x69\156\x74\145\x67\x65\162", "\163\143\150\x65\x64\x75\154\x65\144\137\x68\x6f\x75\x72" => "\151\x6e\164\145\147\145\x72", "\x73\143\150\145\144\165\154\145\x64\137\155\x69\156\165\x74\x65" => "\151\156\x74\x65\147\x65\x72", "\x73\x63\x68\x65\x64\x75\154\x65\x5f\x61\x63\x74\x69\x76\x65" => "\x62\x6f\x6f\154\145\x61\156", "\154\141\163\164\137\x72\x75\x6e\x5f\x61\164" => "\144\141\164\145\164\x69\155\145", "\156\145\x78\x74\137\x72\165\156\137\141\x74" => "\144\x61\x74\145\x74\x69\155\145"); public function A85LS() { return $this->COksJ(LKcw3::class); } public function Nte8S() { return $this->qwDgZ(z6lGL::class); } public function tErRB($sliHW) { goto b3Fb_; h6b9A: $Jyrgq = $this->AulEs; goto w__JS; YMCO1: if (!($this->AulEs && $Jyrgq > $this->AulEs)) { goto dPZ3Z; } goto h6b9A; EaMMO: if (!($sliHW < $this->UCx5M)) { goto aIhiT; } goto j9RME; VdLWu: $Jyrgq = $sliHW * ($this->iVeQm / 100); goto YMCO1; j9RME: return 0; goto eTHvS; Nt4Ix: return round($Jyrgq, 2); goto ngmTa; Zcim7: D18tn: goto EaMMO; eTHvS: aIhiT: goto VdLWu; w__JS: dPZ3Z: goto Nt4Ix; dOEcE: return 0; goto Zcim7; b3Fb_: if ($this->QXjfC) { goto D18tn; } goto dOEcE; ngmTa: } public function O_J1o() { return $this->QwDGz(UC4Df::class, "\x76\x69\x70\x5f\x6c\145\x76\145\154", "\x6c\145\x76\145\154"); } public function o16ss() { goto fTLL5; YzyKF: return null; goto I1TUZ; IiZkl: switch ($this->Twh1e) { case "\144\x61\151\x6c\171": goto GtHXu; GtHXu: $TFRKa->H8jXi($this->Oafri ?? 0)->Iv0zh($this->zmK5x ?? 0)->UIiTe(0); goto UTV7b; UTV7b: if (!$TFRKa->CB4oC()) { goto Zwhy0; } goto H2Swe; hnhMZ: goto USzmI; goto gufEv; H2Swe: $TFRKa->b01nR(); goto ZRPI0; ZRPI0: Zwhy0: goto hnhMZ; gufEv: case "\167\x65\x65\x6b\154\171": goto I1pU2; TtOuZ: tDVPw: goto Xr42K; B5zgd: goto USzmI; goto SpVID; DMc2I: $WOufi = ($Tq4Ny - $TFRKa->lt7df + 7) % 7; goto N1CcK; Xr42K: $TFRKa->GFFB3($WOufi); goto B5zgd; LdY2l: $TFRKa->H8jxi($this->Oafri ?? 0)->IV0zH($this->zmK5x ?? 0)->uiiTE(0); goto DMc2I; Go8cR: $WOufi = 7; goto TtOuZ; I1pU2: $Tq4Ny = $this->wPThX ?? 1; goto LdY2l; N1CcK: if (!($WOufi === 0 && $TFRKa->Cb4Oc())) { goto tDVPw; } goto Go8cR; SpVID: case "\142\151\x77\145\x65\153\x6c\171": goto eVX6E; f8A0o: kzRkn: goto nj0ah; eVX6E: $TFRKa->H8jXI($this->Oafri ?? 0)->IV0zH($this->zmK5x ?? 0)->uiitE(0); goto J7WJJ; UVVzu: if ($TFRKa->pSxyE >= $Tq4Ny && $Tq4Ny == 1 && $TFRKa->pSxyE < 16) { goto quqUm; } goto IeYxm; ZGMgL: goto nwxtO; goto ivydk; nj0ah: $TFRKa->NV0GB($Tq4Ny); goto AS5TT; J7WJJ: $Tq4Ny = $this->wPThX === 16 ? 16 : 1; goto XAKKR; XAKKR: if ($TFRKa->pSxyE < $Tq4Ny) { goto kzRkn; } goto UVVzu; ivydk: quqUm: goto gYcqW; IeYxm: if (!($TFRKa->pSxyE > 16 || $TFRKa->pSxyE >= $Tq4Ny && $TFRKa->cB4oc())) { goto igDUG; } goto KpS9r; KpS9r: $TFRKa->KrYiH()->NV0Gb(1); goto zZ6qa; SWkqK: goto LFsTd; goto f8A0o; AS5TT: LFsTd: goto Ag1pE; opN9E: nwxtO: goto SWkqK; Ag1pE: goto USzmI; goto ebNE1; gYcqW: $TFRKa->nV0gB(16); goto opN9E; zZ6qa: igDUG: goto ZGMgL; ebNE1: case "\155\157\156\x74\150\x6c\171": goto mZ7RW; wTUnn: if (!$TFRKa->cb4Oc()) { goto IA4I1; } goto Zdm0T; mZ7RW: $Tq4Ny = min($this->wPThX ?? 1, $YThlo->kElqp); goto MWPyB; M0nVH: IA4I1: goto fH1g3; fH1g3: goto USzmI; goto AtnG3; yjWaK: $TFRKa->Nv0Gb(min($Tq4Ny, $TFRKa->kElqp)); goto M0nVH; Zdm0T: $TFRKa->KrYIH(); goto yjWaK; MWPyB: $TFRKa->Nv0Gb($Tq4Ny)->h8jXI($this->Oafri ?? 0)->iv0Zh($this->zmK5x ?? 0)->UiITE(0); goto wTUnn; AtnG3: case "\x6f\x6e\143\x65": goto ziIz9; hjvX6: return $TFRKa; goto fwu1V; z2Oyo: HuWHv: goto UMJVI; H1ubu: return $YThlo->tuRcO(); goto MZW4X; nhMJY: return $this->fSY4B; goto z2Oyo; IM2Wh: MfOhz: goto P_3zq; b6mm6: CVMbF: goto hjvX6; sfxKj: if (!$this->wPThX) { goto baQct; } goto F70fu; UMJVI: if (!$this->LCO2T) { goto qTNal; } goto hIGko; HYAeI: if (!$TFRKa->cB4OC()) { goto Bw8Js; } goto KC8Q1; ziIz9: if (!$this->fSY4B) { goto HuWHv; } goto nhMJY; UD2HV: $TFRKa->b01Nr(); goto b6mm6; wrr82: Bw8Js: goto IM2Wh; hIGko: return $this->LCO2T; goto TTpPg; MZW4X: goto USzmI; goto taXND; KC8Q1: $TFRKa->kRyih(); goto wrr82; OSQUW: $TFRKa = $YThlo->copy()->NV0gb($this->wPThX); goto HYAeI; JAQl0: if (!$TFRKa->cB4oc()) { goto CVMbF; } goto UD2HV; Qem9o: if (!($this->Oafri !== null && $this->zmK5x !== null)) { goto wP4Uk; } goto sfxKj; psvt_: $TFRKa->H8Jxi($this->Oafri)->iV0zH($this->zmK5x)->uIIte(0); goto JAQl0; fwu1V: wP4Uk: goto H1ubu; TTpPg: qTNal: goto Qem9o; F70fu: if (!($this->wPThX <= 31)) { goto MfOhz; } goto OSQUW; P_3zq: baQct: goto psvt_; taXND: } goto y40nk; fTLL5: if ($this->VtFRt) { goto RBA6W; } goto YzyKF; DajCm: $TFRKa = $YThlo->copy(); goto IiZkl; F6nlY: USzmI: goto XiQ0E; I1TUZ: RBA6W: goto TsFAX; TsFAX: $YThlo = \eyQjv\EyqJV::PC5A9(); goto DajCm; y40nk: RXgoo: goto F6nlY; XiQ0E: return $TFRKa; goto NTbVA; NTbVA: } public function d87QP() { goto uBriN; Z71_t: return false; goto RBtI8; pI23u: return $this->save(); goto zYlpG; uBriN: $xHUXV = $this->O16Ss(); goto CnviM; dpHiI: $this->fSY4B = $xHUXV; goto pI23u; zYlpG: ev23L: goto Z71_t; CnviM: if (!$xHUXV) { goto ev23L; } goto dpHiI; RBtI8: } public function TbwaJ() { goto hYyLb; u2DXY: $this->d87qp(); goto Pi6V7; WSF5N: \WkhUL\N3Q0r\WpwAe\Log::info("\x41\x67\x65\156\x64\141\155\145\156\164\x6f\40\xc3\xba\x6e\151\143\157\40\146\151\x6e\141\154\x69\x7a\141\x64\157\x20\160\141\x72\141\40{$this->name}\x20\50\x49\104\72\40{$this->id}\x29"); goto s_Kbs; aeczE: if ($this->Twh1e === "\157\x6e\143\x65") { goto pO648; } goto u2DXY; Pi6V7: goto wyxda; goto zCSUT; GncFC: return $this->save(); goto Um3Oe; hYyLb: $this->vmmhS = O6Q8e(); goto aeczE; vA4md: $this->VtFRt = false; goto WSF5N; s_Kbs: wyxda: goto GncFC; zCSUT: pO648: goto vA4md; Um3Oe: } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class CashbackSetting extends Model
+{
+    use HasFactory;
+
+    protected $table = 'cashback_settings';
+
+    protected $fillable = [
+        'user_id',
+        'name',
+        'percentage',
+        'type',
+        'min_loss',
+        'max_cashback',
+        'auto_apply',
+        'expiry_days',
+        'active',
+        'is_global',
+        'vip_level',
+        'scheduled_day',
+        'scheduled_hour',
+        'scheduled_minute',
+        'schedule_active',
+        'scheduled_frequency',
+        'last_run_at',
+        'next_run_at'
+    ];
+
+    protected $casts = [
+        'percentage' => 'decimal:2',
+        'min_loss' => 'decimal:2',
+        'max_cashback' => 'decimal:2',
+        'auto_apply' => 'boolean',
+        'active' => 'boolean',
+        'is_global' => 'boolean',
+        'expiry_days' => 'integer',
+        'vip_level' => 'integer',
+        'scheduled_day' => 'integer',
+        'scheduled_hour' => 'integer',
+        'scheduled_minute' => 'integer',
+        'schedule_active' => 'boolean',
+        'last_run_at' => 'datetime',
+        'next_run_at' => 'datetime'
+    ];
+
+    /**
+     * Get the user cashbacks for this setting
+     */
+    public function userCashbacks()
+    {
+        return $this->hasMany(UserCashback::class);
+    }
+
+    /**
+     * Get the user this setting is specifically for (if any)
+     * This is used for user-specific cashback settings
+     */
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    /**
+     * Calculate cashback amount for a loss
+     * 
+     * @param float $lossAmount
+     * @return float
+     */
+    public function calculateCashback($lossAmount)
+    {
+        // Retorna 0 se o cashback não estiver ativo
+        if (!$this->active) {
+            return 0;
+        }
+
+        // Verifica se o valor da perda é maior que o mínimo necessário
+        if ($lossAmount < $this->min_loss) {
+            return 0;
+        }
+
+        // Calcula o valor do cashback
+        $cashbackAmount = $lossAmount * ($this->percentage / 100);
+
+        // Aplica limite máximo de cashback, se configurado
+        if ($this->max_cashback && $cashbackAmount > $this->max_cashback) {
+            $cashbackAmount = $this->max_cashback;
+        }
+
+        return round($cashbackAmount, 2);
+    }
+
+    /**
+     * Get the VIP level associated with this cashback setting
+     */
+    public function vipLevel()
+    {
+        return $this->belongsTo(VipLevel::class, 'vip_level', 'level');
+    }
+
+    /**
+     * Obter a data/hora do próximo agendamento com base nas configurações
+     *
+     * @return \Carbon\Carbon|null
+     */
+    public function calculateNextRun()
+    {
+        if (!$this->schedule_active) {
+            return null;
+        }
+
+        $now = \Carbon\Carbon::now();
+        $next = $now->copy();
+
+        switch ($this->scheduled_frequency) {
+            case 'daily':
+                // Se o horário de hoje já passou, agenda para amanhã
+                $next->setHour($this->scheduled_hour ?? 0)
+                    ->setMinute($this->scheduled_minute ?? 0)
+                    ->setSecond(0);
+                
+                if ($next->isPast()) {
+                    $next->addDay();
+                }
+                break;
+                
+            case 'weekly':
+                // Configura para o próximo dia da semana especificado
+                $targetDay = $this->scheduled_day ?? 1; // Default segunda-feira
+                $next->setHour($this->scheduled_hour ?? 0)
+                    ->setMinute($this->scheduled_minute ?? 0)
+                    ->setSecond(0);
+                
+                // Calcular dias até o próximo dia da semana desejado
+                $daysToAdd = ($targetDay - $next->dayOfWeek + 7) % 7;
+                if ($daysToAdd === 0 && $next->isPast()) {
+                    $daysToAdd = 7;
+                }
+                
+                $next->addDays($daysToAdd);
+                break;
+                
+            case 'biweekly':
+                // Configurar para o dia 1 ou 16 do mês (dependendo do dia programado)
+                $next->setHour($this->scheduled_hour ?? 0)
+                    ->setMinute($this->scheduled_minute ?? 0)
+                    ->setSecond(0);
+                
+                // Determinar se estamos configurando para o dia 1 ou dia 16
+                $targetDay = $this->scheduled_day === 16 ? 16 : 1;
+                
+                // Se estamos antes do dia alvo do mês atual
+                if ($next->day < $targetDay) {
+                    $next->setDay($targetDay);
+                } 
+                // Se já passamos do dia alvo e o alvo é 1, ir para o dia 16
+                else if ($next->day >= $targetDay && $targetDay == 1 && $next->day < 16) {
+                    $next->setDay(16);
+                }
+                // Se já passamos do dia 16 ou estamos no dia 16 mas o horário já passou
+                else if (($next->day > 16) || ($next->day >= $targetDay && $next->isPast())) {
+                    // Se estamos em uma data após o dia 16, ir para o dia 1 do próximo mês
+                    $next->addMonth()->setDay(1);
+                }
+                break;
+                
+            case 'monthly':
+                // Configura para o mesmo dia no próximo mês
+                $targetDay = min($this->scheduled_day ?? 1, $now->daysInMonth);
+                
+                $next->setDay($targetDay)
+                    ->setHour($this->scheduled_hour ?? 0)
+                    ->setMinute($this->scheduled_minute ?? 0)
+                    ->setSecond(0);
+                
+                // Se hoje já passou do dia programado, agenda para o próximo mês
+                if ($next->isPast()) {
+                    $next->addMonth();
+                    // Garantir que o dia seja válido no próximo mês (ex: 31 de janeiro -> 28/29 de fevereiro)
+                    $next->setDay(min($targetDay, $next->daysInMonth));
+                }
+                break;
+                
+            case 'once':
+                // Para execução única, usar a data e hora configuradas diretamente
+                if ($this->next_run_at) {
+                    return $this->next_run_at;
+                }
+                
+                // Se não houver next_run_at definido, criar a partir dos campos scheduled
+                if ($this->scheduled_at) {
+                    return $this->scheduled_at;
+                }
+                
+                // Senão, criar a partir dos campos de hora e minuto
+                if ($this->scheduled_hour !== null && $this->scheduled_minute !== null) {
+                    // Verificar se há data específica configurada
+                    if ($this->scheduled_day) {
+                        // Se scheduled_day representa um dia do mês (1-31)
+                        if ($this->scheduled_day <= 31) {
+                            $next = $now->copy()->setDay($this->scheduled_day);
+                            if ($next->isPast()) {
+                                $next->addMonth();
+                            }
+                        }
+                    }
+                    
+                    $next->setHour($this->scheduled_hour)
+                        ->setMinute($this->scheduled_minute)
+                        ->setSecond(0);
+                    
+                    // Se o horário já passou, agendar para o dia seguinte
+                    if ($next->isPast()) {
+                        $next->addDay();
+                    }
+                    
+                    return $next;
+                }
+                
+                // Fallback: retornar o momento atual +1 hora se nada estiver configurado
+                return $now->addHour();
+                break;
+        }
+        
+        return $next;
+    }
+
+    /**
+     * Atualiza a data/hora do próximo agendamento
+     *
+     * @return bool
+     */
+    public function updateNextRun()
+    {
+        $nextRun = $this->calculateNextRun();
+        
+        if ($nextRun) {
+            $this->next_run_at = $nextRun;
+            return $this->save();
+        }
+        
+        return false;
+    }
+
+    /**
+     * Marca que o processamento foi executado
+     *
+     * @return bool
+     */
+    public function markAsRun()
+    {
+        $this->last_run_at = now();
+        
+        // Se a frequência for 'once', desativar o agendamento após a execução
+        if ($this->scheduled_frequency === 'once') {
+            $this->schedule_active = false;
+            // Registrar que foi executado para um agendamento único
+            \Illuminate\Support\Facades\Log::info("Agendamento único finalizado para {$this->name} (ID: {$this->id})");
+        } else {
+            // Para outros tipos de frequência, calcular o próximo agendamento
+            $this->updateNextRun();
+        }
+        
+        return $this->save();
+    }
+} 

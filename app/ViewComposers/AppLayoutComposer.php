@@ -1,12 +1,138 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXG2\kRia_; use WKhul\zphRT\zPHRT; use NMxG2\HvRSK\bjPQw as n8mw0; use NMXg2\o7mqX\H1_g2\F4hO4\Ebp6y; use nmxg2\lsSq3\wRQ2D; use NMXg2\LSSq3\TXnPZ; use nMXg2\LSsq3\vg1Pp; use wKhul\N3Q0R\KJcBn; use WKHuL\N3q0r\wPwAe\BPgm5; class tMiR8 { public function zPEBB(ZPhrt $XHP4C) { goto VhmC_; VhmC_: $IEWkC = Ebp6Y::d1yMP(); goto tL7yE; mbQyJ: $bd35y = $hiktc == 0; goto rkvHL; tL7yE: $G7Zkv = isset($_COOKIE["\x74\x6f\160\x62\x61\x72\137\143\x6c\x6f\x73\145\x64"]) && $_COOKIE["\x74\x6f\160\142\x61\162\x5f\x63\154\157\x73\145\144"] === "\x74\x72\x75\x65"; goto d3QiL; umAPE: $XHP4C->w4xkZ(["\141\143\x74\x69\x76\145\124\x68\x65\155\145" => $IEWkC, "\164\x6f\160\x62\x61\x72\x43\x6c\157\x73\145\144" => $G7Zkv, "\x74\x6f\160\x62\x61\162\123\x74\171\x6c\145" => $G48sy, "\163\151\x64\x65\142\x61\162\124\x6f\x70\x56\x61\154\x75\x65" => $PGJO7, "\x49\156\x66\x6f\163" => $ktTKj, "\125\163\145\x72" => $gZ8a7, "\150\x6f\155\145\x53\145\x63\164\x69\x6f\x6e\x73" => $EeSDE, "\x69\x64" => $CuZFU, "\x69\x73\106\151\x72\163\164\104\x65\x70\157\163\151\x74" => $bd35y, "\102\x6f\x6e\x75\x73\115\165\154\164\x69" => $t32Mg, "\102\x6f\156\165\163\x41\x6c\154\104\x65\160\157\163\x69\x74\163" => $oIrvX, "\x66\157\157\x74\x65\162\x53\x65\164\164\x69\x6e\x67\x73" => $T3lqg, "\163\151\x74\145\116\141\155\x65" => $Cq1h1, "\x73\151\164\x65\x53\x75\x62\164\x69\x74\x6c\x65" => $UnlYE, "\x73\151\x74\145\x53\165\142\156\x61\155\145" => $JDDle, "\x73\x69\164\145\x44\145\163\143\162\x69\160\164\x69\157\x6e" => $eieoV, "\x73\151\x74\x65\x46\x61\x76\151\143\157\156" => $NmJ_F]); goto fC2xz; C6Epq: $bd35y = false; goto SDpb4; iPcOm: $PGJO7 = $G7Zkv ? "\x36\x35\160\x78" : "\61\60\65\160\170"; goto iUZde; rkvHL: smvCr: goto FiA8P; NaqmX: $oIrvX = $ktTKj->ArlN5 ?? false; goto RlJLe; FiA8P: $t32Mg = 0; goto SQaZO; Fcazg: $eieoV = $ktTKj->name ?? cHoR6("\x61\x70\160\56\156\141\155\145"); goto aH3_n; mqngw: $bd35y = true; goto reXQP; xz72O: $EeSDE = tXNPZ::zwe0Q(); goto SHf68; b29k1: $gZ8a7 = BpGm5::Nte8S() ?? null; goto xz72O; SDpb4: if (!(BpgM5()->JREbR() && $gZ8a7)) { goto smvCr; } goto liVyJ; d3QiL: $G48sy = $G7Zkv ? "\x64\x69\163\160\x6c\x61\x79\72\x20\x6e\157\x6e\x65\x3b" : ''; goto iPcOm; iUZde: $ktTKj = n8MW0::GfR39(); goto b29k1; liVyJ: $hiktc = vg1Pp::O_0MH("\x75\163\x65\x72\137\x69\x64", $gZ8a7->id)->O_0mh("\164\x79\160\145", 0)->O_0MH("\x73\164\x61\164\x75\163", 1)->count(); goto mbQyJ; LPDC3: if (!$ktTKj) { goto SnB3p; } goto oBsJB; Jurz6: $JDDle = $ktTKj->QgoOR ?? chOR6("\x61\x70\160\56\156\x61\x6d\145"); goto Fcazg; SHf68: $CuZFU = (string) KJCBn::OBqTr(); goto C6Epq; zMepF: if (!$oIrvX) { goto y5U1T; } goto mqngw; aH3_n: $NmJ_F = $ktTKj->FKVq1 ?? null; goto umAPE; reXQP: y5U1T: goto do5i5; RlJLe: SnB3p: goto zMepF; SQaZO: $oIrvX = false; goto LPDC3; tzWnX: $UnlYE = null; goto Jurz6; oBsJB: $t32Mg = $ktTKj->lRaxa ?? 0; goto NaqmX; do5i5: $T3lqg = wRQ2D::zwe0q(); goto xge55; xge55: $Cq1h1 = $ktTKj->name ?? cHoR6("\x61\160\x70\x2e\156\141\x6d\x65"); goto tzWnX; fC2xz: } }
+
+namespace App\ViewComposers;
+
+use Illuminate\View\View;
+use App\Helpers\Core as Helper;
+use App\Helpers\SeoHelper;
+use App\Http\Controllers\Admin\CustomCSSController;
+use App\Models\FooterSettings;
+use App\Models\HomeSectionsSettings;
+use App\Models\Transactions;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Auth;
+
+class AppLayoutComposer
+{
+    /**
+     * Compartilha dados com o layout app.blade.php
+     *
+     * @param  \Illuminate\View\View  $view
+     * @return void
+     */
+    public function compose(View $view)
+    {
+        // Get active theme from the controller
+        $activeTheme = CustomCSSController::getActiveTheme();
+
+        // Verificar se o topbar deve estar oculto baseado no cookie
+        $topbarClosed = isset($_COOKIE['topbar_closed']) && $_COOKIE['topbar_closed'] === 'true';
+        $topbarStyle = $topbarClosed ? 'display: none;' : '';
+        $sidebarTopValue = $topbarClosed ? '65px' : '105px';
+
+        $Infos = Helper::getSetting();
+        $User = Auth::user() ?? null;
+
+        // Obter configurações das seções da home
+        $homeSections = HomeSectionsSettings::getSettings();
+
+        $id = (string) Str::uuid();
+
+        // Verificar se é primeiro depósito
+        $isFirstDeposit = false;
+        if (Auth()->check() && $User) {
+            $Tran = Transactions::where('user_id', $User->id)
+                ->where('type', 0)
+                ->where('status', 1)
+                ->count();
+            $isFirstDeposit = $Tran == 0;
+        }
+
+        // Configurações de bônus
+        $BonusMulti = 0;
+        $BonusAllDeposits = false;
+        if ($Infos) {
+            $BonusMulti = $Infos->bonus_mult ?? 0;
+            $BonusAllDeposits = $Infos->bonus_all_deposits ?? false;
+        }
+
+        if ($BonusAllDeposits) {
+            $isFirstDeposit = true;
+        }
+
+        // Obter configurações do footer
+        $footerSettings = FooterSettings::getSettings();
+
+        // Gerar SEO Meta Tags
+        $seoMetaTags = SeoHelper::isActive() ? SeoHelper::generateAllMetaTags() : '';
+        $seoScripts = SeoHelper::isActive() ? SeoHelper::generateAllScripts() : '';
+        $seoBodyScripts = SeoHelper::isActive() ? SeoHelper::generateBodyScripts() : '';
+        $seoActive = SeoHelper::isActive();
+
+        // Verificar se PWA está ativado (independente de SEO estar ativo)
+        $pwaEnabled = false;
+        $seoSettings = null;
+        // Buscar configurações PWA independente de is_active
+        $pwaSettings = \App\Models\SeoSettings::getPwaSettings();
+        $pwaEnabled = $pwaSettings->pwa_enabled ?? false;
+        
+        // Buscar configurações SEO apenas se SEO estiver ativo
+        if ($seoActive) {
+            $seoSettings = \App\Models\SeoSettings::getSettings();
+        }
+
+        // Definir dados do site baseado no SEO ou configurações gerais
+        // Se SEO está ativo, usar dados do SEO, senão usar dados das configurações gerais
+        $siteName = $seoActive && $seoSettings && $seoSettings->site_title 
+            ? $seoSettings->site_title 
+            : ($Infos->name ?? config('app.name'));
+        
+        $siteSubtitle = $seoActive && $seoSettings && $seoSettings->site_subtitle 
+            ? $seoSettings->site_subtitle 
+            : null;
+        
+        $siteSubname = $seoActive && $seoSettings && $seoSettings->og_site_name 
+            ? $seoSettings->og_site_name 
+            : ($Infos->subname ?? config('app.name'));
+        
+        $siteDescription = $seoActive && $seoSettings && $seoSettings->site_description 
+            ? $seoSettings->site_description 
+            : ($Infos->name ?? config('app.name'));
+        
+        $siteFavicon = $seoActive && $seoSettings && $seoSettings->favicon 
+            ? $seoSettings->favicon 
+            : ($Infos->favicon ?? null);
+        
+        $siteAppleTouchIcon = $seoActive && $seoSettings && $seoSettings->apple_touch_icon 
+            ? $seoSettings->apple_touch_icon 
+            : null;
+
+        // Compartilhar todas as variáveis com a view
+        $view->with([
+            'activeTheme' => $activeTheme,
+            'topbarClosed' => $topbarClosed,
+            'topbarStyle' => $topbarStyle,
+            'sidebarTopValue' => $sidebarTopValue,
+            'Infos' => $Infos,
+            'User' => $User,
+            'homeSections' => $homeSections,
+            'id' => $id,
+            'isFirstDeposit' => $isFirstDeposit,
+            'BonusMulti' => $BonusMulti,
+            'BonusAllDeposits' => $BonusAllDeposits,
+            'footerSettings' => $footerSettings,
+            'seoMetaTags' => $seoMetaTags,
+            'seoScripts' => $seoScripts,
+            'seoBodyScripts' => $seoBodyScripts,
+            'seoActive' => $seoActive,
+            'pwaEnabled' => $pwaEnabled,
+            'siteName' => $siteName,
+            'siteSubtitle' => $siteSubtitle,
+            'siteSubname' => $siteSubname,
+            'siteDescription' => $siteDescription,
+            'siteFavicon' => $siteFavicon,
+            'siteAppleTouchIcon' => $siteAppleTouchIcon,
+        ]);
+    }
+}
+

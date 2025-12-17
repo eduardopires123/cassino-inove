@@ -1,12 +1,76 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXG2\f1Djx; use WkHUl\ugGJ9\Wo1GF\m_7DU; use WkHUL\B35fS\N3Q0r\f1dJx\Om3QA as ejJjd; use WKhUL\O7MqX\uX7TU; use wKhuL\N3Q0R\WPwae\kv69O; use WkhuL\n3q0r\wPWAE\WsBch; class oM3qA extends eJjjD { public const jyrI2 = "\57\x68\x6f\155\x65"; public function s3ocP() { $this->Y1kfy(); $this->rrfTH(function () { WsbCH::jMDiK("\167\145\x62")->nyDEH(E6Wsy("\x72\157\x75\164\145\163\x2f\x77\x65\x62\x2e\x70\x68\160")); wSBCh::kLi2L("\141\160\151")->JMDIK("\x61\160\x69")->nyDeH(E6wSy("\162\157\165\x74\145\163\x2f\x61\160\x69\x2e\160\x68\160")); }); } protected function y1kFy() { goto xxMpy; qsRec: Kv69o::for("\x6c\x6f\147\x69\x6e", function (ux7tU $sTdSC) { return m_7dU::DFLsJ(5)->EtJt6($sTdSC->Odr2z()); }); goto ALfkk; xxMpy: kV69o::for("\141\x70\151", function (Ux7tU $sTdSC) { return M_7du::dflSj(60)->ETjt6($sTdSC->nte8S()?->id ?: $sTdSC->oDR2z()); }); goto qsRec; ALfkk: kv69o::for("\x72\x65\x67\151\163\164\x65\162", function (Ux7TU $sTdSC) { return m_7Du::dFLSJ(3)->ETjt6($sTdSC->odR2Z()); }); goto MX3Zc; MX3Zc: } protected function hzU9t() { \Log::info("\105\x73\164\x65\40\155\xc3\xa9\x74\157\x64\x6f\x20\x6e\303\243\x6f\x20\xc3\251\x20\155\141\x69\x73\40\x75\164\151\x6c\151\x7a\x61\x64\157\40\160\157\151\x73\x20\x61\x73\x20\x72\x6f\164\x61\163\x20\146\x6f\162\141\155\x20\x6d\x6f\166\151\x64\x61\163\x20\x70\x61\162\141\x20\x77\x65\x62\x2e\x70\x68\160"); } }
+
+namespace App\Providers;
+
+use Illuminate\Cache\RateLimiting\Limit;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\RateLimiter;
+use Illuminate\Support\Facades\Route;
+
+class RouteServiceProvider extends ServiceProvider
+{
+    /**
+     * The path to the "home" route for your application.
+     *
+     * @var string
+     */
+    public const HOME = '/home';
+
+    /**
+     * Define your route model bindings, pattern filters, etc.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        $this->configureRateLimiting();
+
+        $this->routes(function () {
+            Route::middleware('web')
+                ->group(base_path('routes/web.php'));
+
+            Route::prefix('api')
+                ->middleware('api')
+                ->group(base_path('routes/api.php'));
+
+            // As rotas de admin agora estão no arquivo web.php
+            // $this->mapAdminRoutes();
+        });
+    }
+
+    /**
+     * Configure the rate limiters for the application.
+     *
+     * @return void
+     */
+    protected function configureRateLimiting()
+    {
+        RateLimiter::for('api', function (Request $request) {
+            return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
+        });
+        
+        RateLimiter::for('login', function (Request $request) {
+            return Limit::perMinute(5)->by($request->ip());
+        });
+        
+        RateLimiter::for('register', function (Request $request) {
+            return Limit::perMinute(3)->by($request->ip());
+        });
+    }
+
+    /**
+     * Método não mais utilizado já que as rotas admin foram movidas para web.php
+     * Mantido apenas para referência.
+     */
+    protected function mapAdminRoutes()
+    {
+        \Log::info('Este método não é mais utilizado pois as rotas foram movidas para web.php');
+        
+        // As rotas de admin foram movidas para web.php
+        // Route::prefix('admin')
+        //     ->middleware('web')
+        //     ->namespace($this->namespace)
+        //     ->group(base_path('routes/admin.php'));
+    }
+}

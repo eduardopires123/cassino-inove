@@ -1,12 +1,56 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXg2\lssQ3\F4hO4; use wkhUl\qcZcg\EJfUR\uyKSy; class rhFty extends UYKSy { protected $ZYaJD = "\143\165\x73\164\x6f\x6d\x5f\x63\163\163"; protected $GWg5z = array("\143\163\163\137\x73\x77\x69\x70\x65\x72\x5f\164\150\145\x6d\x65\x5f\x63\157\x6c\x6f\x72", "\x63\x73\163\x5f\x70\162\151\155\x61\x72\x79\137\x63\157\154\157\162", "\143\x73\x73\x5f\x73\x65\143\x6f\156\x64\141\162\x79\x5f\x63\x6f\x6c\157\162", "\x63\x73\x73\137\x61\143\143\145\x6e\164\x5f\x63\x6f\154\157\162", "\143\163\x73\137\142\141\x63\153\147\x72\157\165\x6e\144\x5f\x63\157\154\x6f\x72", "\143\x73\163\x5f\x74\145\x78\164\x5f\160\162\151\155\141\x72\171\x5f\143\x6f\x6c\x6f\x72", "\143\x73\163\137\142\x61\x63\153\147\x72\x6f\x75\x6e\x64\137\x6f\160\x61\143\151\x74\x79", "\143\163\163\137\142\x61\x63\153\x67\162\x6f\165\156\144\x5f\x6f\x70\141\143\x69\x74\x79\137\x68\x6f\x76\145\x72", "\143\163\x73\x5f\150\x65\141\144\145\162\137\x63\157\x6c\157\x72", "\143\x73\x73\x5f\144\145\160\x6f\163\x69\164\137\x63\157\154\x6f\x72", "\x63\x73\163\x5f\147\x72\x61\144\x69\x65\156\164\137\x63\157\154\157\x72", "\143\x73\x73\x5f\147\162\141\144\151\x65\x6e\x74\x5f\x63\x6f\154\157\162\x5f\x74\x6f", "\143\163\x73\x5f\164\x77\137\163\150\x61\x64\x6f\x77", "\x63\x73\x73\x5f\x74\x65\x78\164\x5f\x74\157\x70\137\x63\x6f\154\157\x72", "\143\163\x73\137\142\x61\x63\x6b\147\x72\157\165\156\x64\137\160\x72\157\x66\x69\154\145", "\143\x73\163\x5f\164\x65\x78\164\137\142\164\x6e\137\160\x72\151\155\141\162\171", "\143\x73\163\137\143\157\x6c\157\162\x5f\142\165\x74\164\157\x6e\x31", "\143\x73\163\137\143\157\154\x6f\x72\137\x62\165\164\x74\157\x6e\x32", "\143\x73\163\x5f\x63\157\x6c\157\162\137\x62\165\x74\164\x6f\x6e\63", "\143\163\x73\x5f\x63\157\x6c\157\x72\x5f\142\x75\x74\164\x6f\x6e\x34", "\x63\163\163\x5f\x63\x6f\154\157\x72\137\164\x65\170\x74\x73", "\143\x73\x73\x5f\x73\x69\x64\x65\142\141\x72\x5f\x63\157\154\x6f\x72", "\143\165\163\164\157\155", "\141\x63\164\151\166\145\137\164\150\145\155\x65"); protected $FPpxl = array("\x75\x70\x64\141\164\145\144\137\141\164" => "\x64\x61\x74\x65\164\x69\x6d\x65"); }
+
+namespace App\Models\Admin;
+
+use Illuminate\Database\Eloquent\Model;
+
+class CustomCSS extends Model
+{
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'custom_css';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'css_swiper_theme_color',
+        'css_primary_color',
+        'css_secondary_color',
+        'css_accent_color',
+        'css_background_color',
+        'css_text_primary_color',
+        'css_background_opacity',
+        'css_background_opacity_hover',
+        'css_header_color',
+        'css_deposit_color',
+        'css_gradient_color',
+        'css_gradient_color_to',
+        'css_tw_shadow',
+        'css_text_top_color',
+        'css_background_profile',
+        'css_text_btn_primary',
+        'css_color_button1',
+        'css_color_button2',
+        'css_color_button3',
+        'css_color_button4',
+        'css_color_texts',
+        'css_sidebar_color',
+        'custom',
+        'active_theme',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'updated_at' => 'datetime',
+    ];
+}

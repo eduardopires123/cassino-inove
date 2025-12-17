@@ -1,12 +1,72 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMXG2\j6aeu\OptOW; use wkhUL\j6aEU\PpY8j; use nMxG2\lSsq3\bqdnU; use NmXG2\lssq3\Wr1xC; class TdSs_ extends PPY8J { protected $kMGjZ = "\x72\157\165\x6c\x65\164\164\x65\x3a\163\x74\x61\x74\165\163"; protected $cR9xw = "\115\x6f\x73\164\162\141\40\157\x20\x73\x74\x61\x74\x75\x73\x20\x64\x61\x20\x72\157\154\145\x74\141\40\145\x20\145\163\164\x61\x74\xc3\255\163\x74\151\143\141\163"; public function TTbdP() { goto UTmRS; JQfNv: goto SwGcG; goto chFdK; Xta_r: $this->info("\342\234\205\40\120\162\x6f\x62\141\142\151\154\x69\144\141\144\x65\x73\40\145\163\164\303\243\157\40\x63\157\x72\x72\x65\164\141\x73\x20\x28\163\x6f\x6d\x61\x3a\x20" . number_format($msxZC * 100, 2) . "\x25\51"); goto JhifL; wqPrS: if (abs($msxZC - 1.0) < 0.01) { goto uO9K4; } goto uwA9k; chFdK: uO9K4: goto Xta_r; fx8bo: $this->info("\x47\x69\162\157\x73\40\150\x6f\152\x65\72\40{$bueCu}"); goto mcKlr; uwA9k: $this->UWiC8("\xe2\235\214\40\120\162\157\x62\154\145\155\141\x20\x6e\141\163\40\x70\x72\x6f\x62\x61\x62\151\x6c\151\144\141\x64\145\x73\41\x20\123\157\155\x61\x3a\x20" . number_format($msxZC * 100, 2) . "\45\x20\50\x64\x65\x76\x65\40\x73\145\x72\x20\61\60\x30\45\51"); goto JQfNv; ejOhd: $kva4l = WR1Xc::count(); goto K_xKi; TARv8: $jxHF4 = Bqdnu::count(); goto Nj3rb; K99yr: $this->M7NE7(["\111\x44", "\x4e\x6f\x6d\145", "\x47\x69\x72\x6f\x73\40\107\x72\xc3\xa1\x74\151\x73", "\x50\x72\157\x62\x61\x62\151\154\x69\144\141\144\x65\40\50\45\51", "\123\164\x61\x74\165\x73"], bqdNu::tLOTe()->cs37G(function ($pHH5J) { return [$pHH5J->id, $pHH5J->name, $pHH5J->jK0Dt, number_format($pHH5J->nS20C * 100, 2) . "\45", $pHH5J->NoaH3 ? "\101\x74\151\166\157" : "\111\156\141\x74\151\x76\157"]; })->toArray()); goto ejOhd; s2Ghj: $this->info("\124\x6f\164\x61\154\40\144\145\40\147\x69\162\x6f\x73\72\x20{$kva4l}"); goto fx8bo; mcKlr: $msxZC = Bqdnu::hY3Ob()->IBymn("\x70\x72\x6f\142\x61\142\x69\x6c\x69\x74\171"); goto v4UUs; ymPFu: return 0; goto FYG5E; v4UUs: $this->info("\12\75\x3d\x3d\40\x56\105\x52\x49\106\x49\x43\x41\xc3\207\303\x83\x4f\x20\x44\x45\x20\111\x4e\x54\105\107\122\111\104\x41\104\105\40\x3d\75\75"); goto wqPrS; YwVuk: $xSM7Y = bqDNu::HY3Ob()->count(); goto TARv8; JhifL: SwGcG: goto ymPFu; Nj3rb: $this->info("\111\x74\x65\156\163\x20\144\141\40\x72\x6f\154\145\x74\x61\x3a\x20{$xSM7Y}\x20\141\164\x69\166\x6f\163\x20\144\x65\x20{$jxHF4}\40\164\157\164\141\x69\163"); goto K99yr; K_xKi: $bueCu = WR1xc::byOEv()->count(); goto JkP0c; JkP0c: $this->info("\12\75\x3d\75\x20\105\123\124\x41\x54\xc3\215\123\x54\x49\x43\101\x53\x20\104\105\40\x47\111\x52\117\123\x20\75\x3d\x3d"); goto s2Ghj; UTmRS: $this->info("\75\x3d\75\40\x53\x54\101\124\x55\x53\40\x44\x41\x20\122\117\x4c\x45\124\x41\40\75\x3d\x3d"); goto YwVuk; FYG5E: } }
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+use App\Models\RouletteItem;
+use App\Models\RouletteSpin;
+
+class RouletteStatus extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'roulette:status';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Mostra o status da roleta e estatísticas';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle()
+    {
+        $this->info('=== STATUS DA ROLETA ===');
+        
+        // Verificar itens ativos
+        $activeItems = RouletteItem::active()->count();
+        $totalItems = RouletteItem::count();
+        
+        $this->info("Itens da roleta: {$activeItems} ativos de {$totalItems} totais");
+        
+        // Mostrar itens
+        $this->table(
+            ['ID', 'Nome', 'Giros Grátis', 'Probabilidade (%)', 'Status'],
+            RouletteItem::all()->map(function ($item) {
+                return [
+                    $item->id,
+                    $item->name,
+                    $item->free_spins,
+                    number_format($item->probability * 100, 2) . '%',
+                    $item->is_active ? 'Ativo' : 'Inativo'
+                ];
+            })->toArray()
+        );
+        
+        // Estatísticas de giros
+        $totalSpins = RouletteSpin::count();
+        $todaySpins = RouletteSpin::today()->count();
+        
+        $this->info("\n=== ESTATÍSTICAS DE GIROS ===");
+        $this->info("Total de giros: {$totalSpins}");
+        $this->info("Giros hoje: {$todaySpins}");
+        
+        // Verificar integridade das probabilidades
+        $totalProbability = RouletteItem::active()->sum('probability');
+        $this->info("\n=== VERIFICAÇÃO DE INTEGRIDADE ===");
+        
+        if (abs($totalProbability - 1.0) < 0.01) {
+            $this->info("✅ Probabilidades estão corretas (soma: " . number_format($totalProbability * 100, 2) . "%)");
+        } else {
+            $this->error("❌ Problema nas probabilidades! Soma: " . number_format($totalProbability * 100, 2) . "% (deve ser 100%)");
+        }
+        
+        return 0;
+    }
+} 

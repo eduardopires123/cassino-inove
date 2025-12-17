@@ -1,12 +1,78 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxG2\LSSQ3; use wKhUl\qcZcG\EJfuR\q4FQJ\jZDKt; use wkHUL\Qczcg\Ejfur\uykSY; class nCm7p extends UyksY { use JzdkT; protected $ZYaJD = "\163\145\x74\164\151\x6e\147\x73"; protected $GWg5z = array("\156\141\155\145", "\163\165\x62\x6e\x61\155\x65", "\x6c\x6f\147\x6f", "\x61\x66\x66\137\x6d\x69\x6e\137\x64\145\x70", "\x61\146\146\x5f\x61\155\x6f\x75\156\x74", "\x6d\x69\x6e\137\163\x61\161\x75\x65\137\x61\x66", "\x6d\141\x78\x5f\x73\x61\x71\165\x65\x5f\141\x66", "\x6d\x61\x78\137\163\x61\161\165\x65\137\141\x75\x74\137\141\x66", "\160\145\x72\143\x65\156\164\x5f\x61\x66\x66", "\x6d\151\156\x5f\x73\141\161\165\145\137\156", "\155\141\x78\x5f\163\141\x71\x75\x65\137\x6e", "\155\141\170\x5f\163\x61\x71\x75\x65\137\141\165\x74", "\x6d\x69\x6e\137\x64\x65\160", "\x6d\141\x78\x5f\144\145\x70", "\x62\x6f\156\165\163\137\155\x75\154\x74", "\x62\157\156\x75\x73\137\x6d\151\156\x5f\144\x65\160", "\x62\157\x6e\x75\x73\137\x6d\x61\x78\137\144\145\160", "\x62\157\156\x75\x73\x5f\162\157\x6c\154\x6f\x76\x65\x72", "\142\x6f\x6e\x75\x73\x5f\145\170\x70\151\x72\145\137\x64\141\171\x73", "\x72\145\166\145\x6e\141\x62\154\x65\x64", "\143\x70\141\145\x6e\141\x62\154\x65\144", "\x74\x62\163\x68\x61\x6c\154", "\164\142\x73\x6b\145\x79", "\160\154\x61\171\x66\x69\x76\145\x72\137\x74\x6f\153\x65\x6e", "\160\154\x61\171\x66\x69\166\x65\162\137\x6b\145\x79"); protected $FPpxl = array("\x61\x66\146\x5f\155\x69\156\137\144\145\x70" => "\144\145\143\x69\155\141\154\72\62", "\x61\146\x66\x5f\141\x6d\x6f\x75\156\x74" => "\x64\x65\143\x69\155\x61\154\72\62", "\155\151\156\137\163\x61\x71\x75\x65\x5f\141\146" => "\x64\x65\x63\x69\155\141\x6c\x3a\62", "\155\141\170\137\x73\x61\x71\x75\145\137\x61\146" => "\x64\x65\143\x69\155\141\x6c\x3a\62", "\x6d\141\x78\137\x73\141\161\x75\x65\x5f\x61\165\164\137\141\x66" => "\x64\x65\x63\x69\x6d\141\154\x3a\62", "\160\x65\162\143\x65\156\x74\137\x61\146\146" => "\x69\156\x74\145\147\x65\162", "\x6d\x69\156\137\x73\x61\161\x75\145\137\x6e" => "\x64\x65\143\151\x6d\x61\154\x3a\x32", "\155\141\170\x5f\x73\141\x71\x75\145\x5f\x6e" => "\x64\x65\143\x69\x6d\141\154\72\x32", "\155\141\170\137\x73\x61\161\165\x65\x5f\141\x75\x74" => "\x64\x65\x63\x69\x6d\141\154\72\62", "\x6d\151\156\x5f\x64\x65\160" => "\144\145\143\151\x6d\141\154\x3a\62", "\155\141\x78\137\x64\145\x70" => "\x64\145\x63\x69\x6d\x61\154\72\x32", "\142\157\x6e\165\163\137\155\x75\x6c\164" => "\151\x6e\x74\x65\x67\145\162", "\x62\x6f\156\165\163\137\x6d\x69\156\x5f\x64\x65\x70" => "\144\145\x63\151\x6d\x61\154\72\x32", "\142\x6f\156\165\x73\x5f\155\141\170\137\x64\145\160" => "\144\x65\143\x69\x6d\x61\154\72\x32", "\142\x6f\156\165\x73\137\x72\157\x6c\x6c\x6f\166\x65\x72" => "\x69\x6e\164\x65\x67\x65\x72", "\x62\157\156\x75\x73\137\x65\x78\160\151\162\x65\x5f\x64\x61\x79\x73" => "\151\x6e\164\x65\x67\x65\x72", "\162\145\x76\145\x6e\141\142\x6c\145\x64" => "\151\156\164\x65\x67\145\x72", "\143\160\x61\145\x6e\141\x62\154\145\x64" => "\151\x6e\x74\145\x67\x65\x72", "\x75\x70\144\141\x74\x65\144\x5f\x61\164" => "\x64\141\x74\145\164\151\155\x65"); }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Setting extends Model
+{
+    use HasFactory;
+
+    /**
+     * A tabela associada ao modelo.
+     *
+     * @var string
+     */
+    protected $table = 'settings';
+
+    /**
+     * Os atributos que são atribuíveis em massa.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name',
+        'subname',
+        'logo',
+        'aff_min_dep',
+        'aff_amount',
+        'min_saque_af',
+        'max_saque_af',
+        'max_saque_aut_af',
+        'percent_aff',
+        'min_saque_n',
+        'max_saque_n',
+        'max_saque_aut',
+        'min_dep',
+        'max_dep',
+        'bonus_mult',
+        'bonus_min_dep',
+        'bonus_max_dep',
+        'bonus_rollover',
+        'bonus_expire_days',
+        'revenabled',
+        'cpaenabled',
+        'tbshall',
+        'tbskey',
+        'playfiver_token',
+        'playfiver_key',
+    ];
+
+    /**
+     * Os atributos que devem ser convertidos para tipos nativos.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'aff_min_dep' => 'decimal:2',
+        'aff_amount' => 'decimal:2',
+        'min_saque_af' => 'decimal:2',
+        'max_saque_af' => 'decimal:2',
+        'max_saque_aut_af' => 'decimal:2',
+        'percent_aff' => 'integer',
+        'min_saque_n' => 'decimal:2',
+        'max_saque_n' => 'decimal:2',
+        'max_saque_aut' => 'decimal:2',
+        'min_dep' => 'decimal:2',
+        'max_dep' => 'decimal:2',
+        'bonus_mult' => 'integer',
+        'bonus_min_dep' => 'decimal:2',
+        'bonus_max_dep' => 'decimal:2',
+        'bonus_rollover' => 'integer',
+        'bonus_expire_days' => 'integer',
+        'revenabled' => 'integer',
+        'cpaenabled' => 'integer',
+        'updated_at' => 'datetime',
+    ];
+} 

@@ -1,12 +1,90 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NmXg2\lsSQ3; use wKHUl\qczcg\EJFUR\Q4fqJ\jzDKT; use WKHUl\QCZcg\ejfUr\uyKsY; class R1rZI extends uyKSY { use JzDKt; protected $GWg5z = array("\143\x6f\144\145", "\144\x65\163\143\x72\151\x70\164\151\157\x6e", "\x74\x79\x70\x65", "\141\155\157\x75\156\164", "\162\x6f\x6c\x6c\x6f\x76\x65\162\x5f\155\x75\x6c\164\151\x70\x6c\x69\x65\162", "\166\141\x6c\x69\x64\137\146\162\157\155", "\x76\141\x6c\x69\x64\137\x75\156\164\151\154", "\155\x61\170\x5f\165\163\141\147\x65\x73", "\x75\x73\145\144\137\x63\157\165\156\164", "\151\x73\x5f\x61\x63\x74\x69\x76\145", "\x69\163\137\x64\145\x6c\x65\164\x65\144"); protected $FPpxl = array("\x61\155\x6f\x75\x6e\x74" => "\144\x65\143\151\x6d\141\154\72\62", "\x72\157\x6c\154\x6f\166\145\162\x5f\155\x75\154\x74\x69\x70\x6c\151\x65\162" => "\144\145\143\151\155\x61\x6c\72\x32", "\166\x61\x6c\x69\x64\x5f\146\x72\x6f\155" => "\x64\141\164\x65\164\x69\155\145", "\x76\141\x6c\151\x64\137\x75\156\x74\151\x6c" => "\x64\x61\164\x65\x74\x69\x6d\145", "\155\x61\x78\x5f\165\x73\x61\x67\145\163" => "\x69\156\x74\x65\x67\145\162", "\165\163\145\144\137\143\157\x75\156\164" => "\x69\156\x74\145\x67\145\162", "\151\x73\x5f\x61\143\164\x69\x76\145" => "\142\157\157\x6c\145\x61\x6e", "\151\x73\x5f\x64\145\154\x65\x74\145\x64" => "\142\157\157\x6c\x65\141\156", "\143\x72\x65\141\x74\x65\144\137\141\164" => "\144\x61\x74\145\x74\151\155\x65", "\x75\160\144\x61\x74\x65\x64\137\x61\164" => "\x64\x61\x74\145\164\151\x6d\x65"); public function eIrN4() { return $this->COksj(Q1hiA::class); } public function isValid() { goto tEsEm; scCZR: return false; goto wbaRV; MpFVG: if (!(!$this->NoaH3 || $this->BBxvh)) { goto l_hFs; } goto scCZR; tEsEm: $YThlo = o6Q8E(); goto MpFVG; isW7X: return false; goto O63Sc; DNbEr: ejRJq: goto Z0x0I; u_QZ_: if (!($this->VmQO8 && $YThlo->MFHkQ($this->VmQO8))) { goto rKM0W; } goto pCSmV; wbaRV: l_hFs: goto u_QZ_; O63Sc: O_SJC: goto BLcma; BLcma: return true; goto VNagr; pCSmV: return false; goto WwZRm; Z0x0I: if (!($this->ppZI3 > 0 && $this->qPQ4x >= $this->ppZI3)) { goto O_SJC; } goto isW7X; xc6N6: if (!($this->JFNdE && $YThlo->prZB8($this->JFNdE))) { goto ejRJq; } goto SMGKu; SMGKu: return false; goto DNbEr; WwZRm: rKM0W: goto xc6N6; VNagr: } public function sUXrM($HN9bK) { return $this->eIRn4()->o_0mh("\x75\x73\145\162\137\x69\x64", $HN9bK)->eXcKK(); } }
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Coupon extends Model
+{
+    use HasFactory;
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'code',
+        'description',
+        'type',
+        'amount',
+        'rollover_multiplier',
+        'valid_from',
+        'valid_until',
+        'max_usages',
+        'used_count',
+        'is_active',
+        'is_deleted'
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'amount' => 'decimal:2',
+        'rollover_multiplier' => 'decimal:2',
+        'valid_from' => 'datetime',
+        'valid_until' => 'datetime',
+        'max_usages' => 'integer',
+        'used_count' => 'integer',
+        'is_active' => 'boolean',
+        'is_deleted' => 'boolean',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
+    ];
+
+    /**
+     * Get the redemptions for the coupon.
+     */
+    public function redemptions()
+    {
+        return $this->hasMany(CouponRedemption::class);
+    }
+
+    /**
+     * Check if the coupon is valid.
+     */
+    public function isValid()
+    {
+        $now = now();
+        
+        if (!$this->is_active || $this->is_deleted) {
+            return false;
+        }
+
+        if ($this->valid_from && $now->lt($this->valid_from)) {
+            return false;
+        }
+
+        if ($this->valid_until && $now->gt($this->valid_until)) {
+            return false;
+        }
+
+        if ($this->max_usages > 0 && $this->used_count >= $this->max_usages) {
+            return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * Check if a user has already redeemed this coupon.
+     */
+    public function hasBeenRedeemedByUser($userId)
+    {
+        return $this->redemptions()->where('user_id', $userId)->exists();
+    }
+}

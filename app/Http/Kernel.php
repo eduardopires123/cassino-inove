@@ -1,12 +1,92 @@
 <?php
-/*   __________________________________________________
-    |  Criado por Inove iGaming                        |
-    |                                                  |
-    |  Ficamos felizes em saber que você está usando   |
-    |  a nossa plataforma.                             |
-    |                                                  |
-    |  Inove iGaming – Tecnologia que impulsiona       |
-    |  o seu negócio.                                  |
-    |__________________________________________________|
-*/
- namespace NMxG2\O7mqX; use WKhul\B35fs\O7Mqx\vUTJ8 as cNBmy; class Vutj8 extends cnbMY { protected $f6byq = array(\NmXg2\O7mQx\NWHuT\tnOS9::class, \wkHul\O7MQX\nwhuT\d5Xju::class, \NMxg2\o7MqX\NWHUt\pxu9Y::class, \wKHul\B35fS\O7mqX\Nwhut\f1Xmh::class, \nMxG2\o7MqX\Nwhut\dwrV5::class, \WkhuL\b35fs\O7mQx\nwHuT\ORZIi::class, \nMxg2\O7MQx\nwhuT\EtEl2::class); protected $wvER2 = array("\x77\x65\142" => array(\Nmxg2\O7mqX\nwHUT\W892N::class, \wKhul\gB3RA\nWhUt\PgtNS::class, \wkHUl\ZQosJ\NWHuT\PuvFp::class, \nMxg2\o7mqX\nWHut\Jzzhn::class, \wKhUL\ZphRT\nWhut\s0b3b::class, \WkHUL\Ce4oY\nwHUT\EvErN::class, \NMXg2\O7MQx\nWhUt\lhKug::class), "\141\160\151" => array(\HN7J5\dGPdO\O7mqx\NwHuT\hTDy0::class, \WkHuL\ce4OY\nwHUt\fb9t6::class . "\x3a\141\160\x69", \wKhUl\cE4OY\nwhUt\eveRn::class)); protected $VKB6s = array("\141\165\x74\150" => \NMxg2\o7mqX\NWhUT\H0f1y::class, "\x61\x75\x74\150\x2e\142\141\163\151\143" => \wkhuL\BPgm5\nwhUT\Xt1lw::class, "\141\x75\164\150\56\x73\x65\x73\163\151\x6f\x6e" => \wKhUL\zQosj\NWHUt\Pndwx::class, "\143\x61\x63\x68\145\56\150\145\141\x64\x65\162\x73" => \WkHUl\o7mqx\nwhuT\oZ5rH::class, "\143\141\156" => \WKhuL\BpGm5\NWHUT\g60OW::class, "\147\x75\145\163\x74" => \NmXG2\o7MqX\nwhUT\zFjSq::class, "\x70\x61\x73\163\167\157\x72\x64\x2e\143\x6f\x6e\x66\151\x72\x6d" => \WKHUl\bpgm5\NWHut\IoolR::class, "\163\x69\147\156\145\144" => \wKhuL\cE4OY\nwhuT\eIn_q::class, "\x74\x68\x72\x6f\x74\164\154\145" => \Wkhul\CE4Oy\NWhUt\FB9T6::class, "\x76\x65\162\151\x66\151\x65\x64" => \WKHUL\BpGm5\NwhUT\YnXZu::class, "\x6c\x6f\x63\141\x6c\x65" => \nmxG2\O7mqX\NWhut\LhkUG::class, "\x61\x64\x6d\x69\156\56\x61\165\164\150" => \Nmxg2\o7MQx\nWHUt\BAIiK::class, "\x61\x64\155\151\x6e" => \NmXG2\O7mqX\NwHUT\BAIIK::class, "\x63\150\x65\143\153\56\151\160" => \nmXg2\o7Mqx\nwhuT\BpvYZ::class, "\160\x65\x72\x6d\x69\163\x73\x69\x6f\x6e" => \nmXg2\O7mqx\NWHuT\BNGir::class, "\x72\x61\163\160\x61\144\151\156\x68\141\56\163\145\143\165\x72\151\x74\x79" => \NmXG2\O7MQx\NwHut\lK0p2::class); protected $QaAcK = array("\x61\x75\x74\150" => \nmxg2\O7mQx\NWhUT\h0F1Y::class, "\x61\165\164\150\56\142\x61\x73\151\x63" => \wKhul\bpGm5\nWhuT\xt1LW::class, "\141\x75\x74\150\56\163\145\x73\163\151\157\x6e" => \wKHUl\ZQosJ\NWhUT\pnDwx::class, "\143\x61\143\x68\145\56\x68\x65\x61\144\x65\x72\163" => \WKhul\O7mQx\nwhut\Oz5RH::class, "\143\141\x6e" => \wKHUL\BpGM5\NwHut\G60oW::class, "\147\165\x65\x73\x74" => \NmXg2\o7mQX\NwHuT\ZfJSQ::class, "\x70\141\163\x73\167\x6f\x72\144\56\x63\157\156\x66\151\162\x6d" => \WKHul\bPGm5\NwhuT\IOolr::class, "\x73\x69\147\156\x65\x64" => \Wkhul\ce4oY\NWHut\EIN_q::class, "\x74\150\x72\157\x74\x74\x6c\145" => \WKhuL\ce4oY\nwhUt\Fb9T6::class, "\x76\145\162\x69\x66\x69\145\144" => \WKhUl\bPgm5\nWhut\YNXZU::class, "\141\144\x6d\151\156" => \NmXg2\o7mQX\NwHUT\BAiiK::class, "\143\150\145\x63\153\56\x69\160" => \nmxG2\o7MQX\NWhuT\X0fEt::class, "\141\144\155\x69\x6e\x2e\x72\x65\144\x69\x72\x65\x63\164" => \nmXG2\o7Mqx\nWHuT\FcapZ::class); }
+
+namespace App\Http;
+
+use Illuminate\Foundation\Http\Kernel as HttpKernel;
+
+class Kernel extends HttpKernel
+{
+    /**
+     * A lista de middleware global da aplicação.
+     *
+     * Estes middleware são executados em cada requisição da aplicação.
+     *
+     * @var array<int, class-string|string>
+     */
+    protected $middleware = [
+        \App\Http\Middleware\TrustProxies::class,
+        \Illuminate\Http\Middleware\HandleCors::class,
+        \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
+        \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
+        \App\Http\Middleware\TrimStrings::class,
+        \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+        \App\Http\Middleware\AddAvifHeaders::class,
+    ];
+
+    /**
+     * Os grupos de middleware de rota da aplicação.
+     *
+     * @var array<string, array<int, class-string|string>>
+     */
+    protected $middlewareGroups = [
+        'web' => [
+            \App\Http\Middleware\EncryptCookies::class,
+            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+            \Illuminate\Session\Middleware\StartSession::class,
+            \App\Http\Middleware\RegenerateSession::class,
+            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \App\Http\Middleware\SetLocaleFromUrl::class,
+        ],
+
+        'api' => [
+            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+            \Illuminate\Routing\Middleware\ThrottleRequests::class.':api',
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ],
+    ];
+
+    /**
+     * Os middleware de rota da aplicação.
+     *
+     * Estes middleware podem ser atribuídos a grupos ou usados individualmente.
+     *
+     * @var array<string, class-string|string>
+     */
+    protected $routeMiddleware = [
+        'auth' => \App\Http\Middleware\Authenticate::class,
+        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'auth.session' => \Illuminate\Session\Middleware\AuthenticateSession::class,
+        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
+        'can' => \Illuminate\Auth\Middleware\Authorize::class,
+        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
+        'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
+        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'locale' => \App\Http\Middleware\SetLocaleFromUrl::class,
+        'admin.auth' => \App\Http\Middleware\AdminMiddleware::class,
+        'admin' => \App\Http\Middleware\AdminMiddleware::class,
+        'check.ip' => \App\Http\Middleware\CheckIp::class,
+        'permission' => \App\Http\Middleware\CheckPermission::class,
+        'raspadinha.security' => \App\Http\Middleware\RaspadinhaSecurityMiddleware::class,
+        'check.license' => \App\Http\Middleware\CheckLicenseMiddleware::class,
+    ];
+
+    protected $middlewareAliases = [
+        'auth' => \App\Http\Middleware\Authenticate::class,
+        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'auth.session' => \Illuminate\Session\Middleware\AuthenticateSession::class,
+        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
+        'can' => \Illuminate\Auth\Middleware\Authorize::class,
+        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
+        'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
+        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'admin' => \App\Http\Middleware\AdminMiddleware::class,
+        'check.ip' => \App\Http\Middleware\CheckIpMiddleware::class,
+        'admin.redirect' => \App\Http\Middleware\AdminRedirectMiddleware::class,
+        'check.license' => \App\Http\Middleware\CheckLicenseMiddleware::class,
+    ];
+}
