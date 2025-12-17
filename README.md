@@ -244,7 +244,7 @@ php-mbstring, php-xml, php-curl, php-mysql, php-gd, php-zip, php-redis
 
 #### 1️⃣ Clone o Repositório
 ```bash
-git clone git@github.com:eduardopires123/cassino-inove.git
+git clone https://github.com/eduardopires123/cassino-inove.git
 cd cassino-inove
 ```
 
